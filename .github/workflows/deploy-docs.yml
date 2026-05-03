@@ -16,6 +16,9 @@ jobs:
       - name: Checkout self
         uses: actions/checkout@v6.0.0
 
+      - name: Init submodules
+        run: git submodule update --init --recursive
+
       - name: Setup Python
         uses: actions/setup-python@v6.1.0
         with:
