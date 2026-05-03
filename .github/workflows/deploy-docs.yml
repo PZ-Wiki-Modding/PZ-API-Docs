@@ -8,6 +8,8 @@ on:
       - 'docs/**'
       - 'chores/generateDocs.py'
       - '.github/workflows/deploy-docs.yml'
+  schedule:
+    - cron: '0 0 * * *' # every day at midnight
   pull_request:
   workflow_dispatch:
 
