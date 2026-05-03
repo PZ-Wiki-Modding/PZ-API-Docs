@@ -25,7 +25,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
-html_title = 'ScriptsDocs'
+html_title = 'PZ API Documentation'
 html_logo = None
 html_favicon = None
 html_css_files = [
