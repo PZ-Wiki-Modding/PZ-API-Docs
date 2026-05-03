@@ -1,7 +1,7 @@
 ScriptsDocs
-=======================
+===========
 
-This section provides detailed documentation for all available script blocks.
+This section provides detailed documentation for all available `script <https://pzwiki.net/wiki/Scripts>`_ blocks.
 
 .. toctree::
    :maxdepth: 4

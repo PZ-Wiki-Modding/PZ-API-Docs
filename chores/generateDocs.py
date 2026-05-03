@@ -364,8 +364,8 @@ class BlockDocumentationGenerator:
     def generate_blocks_index(self) -> str:
         """Generate the blocks index RST file."""
         rst = "ScriptsDocs\n"
-        rst += "=" * len("Script Blocks Reference") + "\n\n"
-        rst += "This section provides detailed documentation for all available script blocks.\n\n"
+        rst += "=" * len("ScriptsDocs") + "\n\n"
+        rst += "This section provides detailed documentation for all available `script <https://pzwiki.net/wiki/Scripts>`_ blocks.\n\n"
         rst += ".. toctree::\n"
         rst += "   :maxdepth: 4\n"
         rst += "   :titlesonly:\n"
