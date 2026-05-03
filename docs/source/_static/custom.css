@@ -1,0 +1,6 @@
+/* Override pydata theme heading sizes for h3 (^ underlines) */
+
+h3 {
+    font-size: 1.2em !important;
+    font-weight: 600 !important;
+}

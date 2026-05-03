@@ -1,0 +1,94 @@
+Script Blocks Reference
+=======================
+
+This section provides detailed documentation for all available script blocks.
+
+.. toctree::
+   :maxdepth: 4
+   :titlesonly:
+   :caption: Blocks
+
+   blocks/alias.rst
+   blocks/anim.rst
+   blocks/animation.rst
+   blocks/animationsmesh.rst
+   blocks/area.rst
+   blocks/attachment.rst
+   blocks/blend.rst
+   blocks/blendwhitelist.rst
+   blocks/categories.rst
+   blocks/character_profession_definition.rst
+   blocks/character_trait_definition.rst
+   blocks/clip.rst
+   blocks/clock.rst
+   blocks/component.rst
+   blocks/components.rst
+   blocks/container.rst
+   blocks/contextentry.rst
+   blocks/copyframe.rst
+   blocks/copyframes.rst
+   blocks/craftlogic.rst
+   blocks/craftrecipe.rst
+   blocks/data.rst
+   blocks/door.rst
+   blocks/energy.rst
+   blocks/entity.rst
+   blocks/evolvedrecipe.rst
+   blocks/face.rst
+   blocks/fixing.rst
+   blocks/fluid.rst
+   blocks/fluids.rst
+   blocks/group.rst
+   blocks/hand.rst
+   blocks/imports.rst
+   blocks/inputs.rst
+   blocks/isbasecomponentpanel.rst
+   blocks/istablelayoutcell.rst
+   blocks/item.rst
+   blocks/itemmapper.rst
+   blocks/layer.rst
+   blocks/layers.rst
+   blocks/lightbar.rst
+   blocks/lua.rst
+   blocks/mannequin.rst
+   blocks/model.rst
+   blocks/module.rst
+   blocks/option.rst
+   blocks/outputs.rst
+   blocks/overlaymapper.rst
+   blocks/part.rst
+   blocks/passenger.rst
+   blocks/physics.rst
+   blocks/physicshitreaction.rst
+   blocks/physicsshape.rst
+   blocks/poison.rst
+   blocks/position.rst
+   blocks/progress.rst
+   blocks/properties.rst
+   blocks/ragdoll.rst
+   blocks/root-blends.rst
+   blocks/root-mapbasexml.rst
+   blocks/root-mapinfo.rst
+   blocks/root-modinfo.rst
+   blocks/root-rules.rst
+   blocks/root-sandboxoptions.rst
+   blocks/root-scripts.rst
+   blocks/root-tilegeometry.rst
+   blocks/root-tmxconfig.rst
+   blocks/rule.rst
+   blocks/skin.rst
+   blocks/sound.rst
+   blocks/spritemodel.rst
+   blocks/style.rst
+   blocks/switchseat.rst
+   blocks/table.rst
+   blocks/template.rst
+   blocks/tile.rst
+   blocks/tileset.rst
+   blocks/timedaction.rst
+   blocks/vehicle.rst
+   blocks/vehicleenginerpm.rst
+   blocks/wheel.rst
+   blocks/whitelist.rst
+   blocks/window.rst
+   blocks/xuiskin.rst
