@@ -36,6 +36,8 @@ html_theme_options = {
     'collapse_navigation': False,
     'navigation_depth': 10,
     "external_links": [
+        {"name": "JavaDocs", "url": "https://demiurgequantified.github.io/ProjectZomboidJavaDocs/"},
+        {"name": "LuaDocs", "url": "https://demiurgequantified.github.io/ProjectZomboidLuaDocs/"},
         {"name": "ZedScripts", "url": "https://pzwiki.net/wiki/ZedScripts"},
     ],
     "icon_links": [

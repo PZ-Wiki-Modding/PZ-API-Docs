@@ -1,4 +1,5 @@
 .PHONY: help clean html generate serve pdf
+.ONESHELL:
 
 SHELL := /bin/bash
 
@@ -13,17 +14,21 @@ help:
 
 clean:
 	rm -rf build
-	rm -rf source/blocks
+	rm -rf source/scripts
 
 generate:
+	source ../.venv/bin/activate
 	python3 ../chores/generateDocs.py
 
 html: generate
+	source ../.venv/bin/activate
 	sphinx-build -b html source build/html
 
 serve: html
+	source ../.venv/bin/activate
 	cd build/html && python3 -m http.server 8000
 
 pdf: generate
+	source ../.venv/bin/activate
 	sphinx-build -b latex source build/latex
 	cd build/latex && make

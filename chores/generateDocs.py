@@ -287,7 +287,7 @@ class ScriptBlock:
         if isVariant:
             return f"{isVariant}/{filename}"
 
-        return f"blocks/{filename}"
+        return f"scripts/{filename}"
     
     def get_path(self) -> Path:
         safe_name = _get_block_link(self.name)
@@ -295,9 +295,9 @@ class ScriptBlock:
 
         isVariant = self.data.get('isVariant', False)
         if isVariant:
-            return self.output_dir /  f"blocks/{isVariant}/{filename}"
+            return self.output_dir /  f"scripts/{isVariant}/{filename}"
 
-        return self.output_dir /  f"blocks/{filename}"
+        return self.output_dir /  f"scripts/{filename}"
 
 
 
@@ -363,7 +363,7 @@ class BlockDocumentationGenerator:
     
     def generate_blocks_index(self) -> str:
         """Generate the blocks index RST file."""
-        rst = "Script Blocks Reference\n"
+        rst = "ScriptsDocs\n"
         rst += "=" * len("Script Blocks Reference") + "\n\n"
         rst += "This section provides detailed documentation for all available script blocks.\n\n"
         rst += ".. toctree::\n"
@@ -384,7 +384,7 @@ class BlockDocumentationGenerator:
         files: list[Path] = []
         # Create blocks index
         index_rst = self.generate_blocks_index()
-        index_path = os.path.join(self.output_dir, 'blocks.rst')
+        index_path = os.path.join(self.output_dir, 'scripts.rst')
         os.makedirs(os.path.dirname(index_path), exist_ok=True)
         with open(index_path, 'w') as f:
             f.write(index_rst)
@@ -423,7 +423,7 @@ def main():
     output_dir = root_dir / 'docs' / 'source'
 
     # Remove the output_dir / 'blocks' folder if it exists
-    blocks_output_dir = output_dir / 'blocks'
+    blocks_output_dir = output_dir / 'scripts'
     if blocks_output_dir.exists() and blocks_output_dir.is_dir():
         shutil.rmtree(blocks_output_dir)
 
