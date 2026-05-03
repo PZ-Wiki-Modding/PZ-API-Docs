@@ -6,6 +6,8 @@ on:
       - 'main'
     paths:
       - 'docs/**'
+      - 'chores/generateDocs.py'
+      - '.github/workflows/deploy-docs.yml'
   pull_request:
   workflow_dispatch:
 
