@@ -9,7 +9,7 @@ from pathlib import Path
 sys.path.insert(0, os.path.abspath('../../'))
 sys.path.insert(0, os.path.abspath('../'))
 
-project = 'ScriptsDocs'
+project = 'PZ API Documentation'
 copyright = '2026, Scripts-Data Contributors'
 author = 'Scripts-Data Contributors'
 release = '1.0'
