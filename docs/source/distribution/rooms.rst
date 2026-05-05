@@ -1,7 +1,7 @@
-Rooms
-=====
+Room names
+==========
 
-Available room types in Project Zomboid distributions.
+Available room types.
 
 Total rooms: 367
 

@@ -10,18 +10,18 @@ A component is a block which can be added as a child to a specific block type li
    :titlesonly:
    :caption: Variants
 
-   component/component-contextmenuconfig.rst
-   component/component-craftbench.rst
-   component/component-craftbenchsounds.rst
-   component/component-craftrecipe.rst
-   component/component-dryingcraftlogic.rst
-   component/component-durability.rst
-   component/component-fluidcontainer.rst
-   component/component-resources.rst
-   component/component-spriteconfig.rst
-   component/component-spriteoverlayconfig.rst
-   component/component-uiconfig.rst
-   component/component-wallcoveringconfig.rst
+   component/component-contextmenuconfig
+   component/component-craftbench
+   component/component-craftbenchsounds
+   component/component-craftrecipe
+   component/component-dryingcraftlogic
+   component/component-durability
+   component/component-fluidcontainer
+   component/component-resources
+   component/component-spriteconfig
+   component/component-spriteoverlayconfig
+   component/component-uiconfig
+   component/component-wallcoveringconfig
 
 Hierarchy
 ---------

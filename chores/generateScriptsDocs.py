@@ -281,7 +281,7 @@ class ScriptBlock:
     
     def get_block_index(self) -> str:
         safe_name = _get_block_link(self.name)
-        filename = f'{safe_name}.rst'
+        filename = f'{safe_name}'
 
         isVariant = self.data.get('isVariant', False)
         if isVariant:

@@ -47,10 +47,10 @@ def generate_room_docs():
 def generate_rst_content(rooms: list) -> str:
     """Generate RST formatted content for rooms."""
     
-    content = """Rooms
-=====
+    content = """Room names
+==========
 
-Available room types in Project Zomboid distributions.
+Available room types.
 
 """
     
