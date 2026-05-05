@@ -3,7 +3,7 @@
 whitelist
 =========
 
-Whitelists a fluid to be allowed to put inside a `fluid container <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/component/component_fluidcontainer.html>`_.
+Whitelists a fluid to be allowed to put inside a `fluid container <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/component/component_fluidcontainer.html>`_.
 
 
 Hierarchy

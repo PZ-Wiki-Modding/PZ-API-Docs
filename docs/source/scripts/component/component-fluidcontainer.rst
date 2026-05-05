@@ -58,7 +58,7 @@ CustomDrinkSound
 
    Type: ``{'main': 'string'}``
 
-Refers to a `sound block <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/sound.html>`_ to trigger when drinking.
+Refers to a `sound block <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_ to trigger when drinking.
 
    Default: ``DrinkingFromGeneric``
 
@@ -144,7 +144,7 @@ PickRandomFluid
 
    Type: ``{'main': 'boolean'}``
 
-When set to true, the container will pick one of the available fluids in the `Fluids <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/fluids.html>`_ child block at random when filling. If set to false, it will make every fluids appear.
+When set to true, the container will pick one of the available fluids in the `Fluids <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/fluids.html>`_ child block at random when filling. If set to false, it will make every fluids appear.
 
    Default: ``False``
 

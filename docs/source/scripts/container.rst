@@ -39,7 +39,7 @@ conditionAffectsCapacity
 
    Type: ``{'main': 'boolean'}``
 
-Sets whenever the condition of the part will impact the `capacity <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/container.html#container-capacity>`_. A lower condition will negatively impact the container's capacity.
+Sets whenever the condition of the part will impact the `capacity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-capacity>`_. A lower condition will negatively impact the container's capacity.
 
 .. _container-contenttype:
 

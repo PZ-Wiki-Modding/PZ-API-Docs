@@ -3,7 +3,19 @@
 item
 ====
 
-Defines an item to register.
+The item block is used to create items in the game, from weapons to food and clothing. The parameters available in this block mostly depend on the type of item you are creating, set with `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
+
+To get started, create a simple item structure by setting that parameter up correctly:
+
+.. code-block:: cpp
+
+   item
+   {
+     ItemType = base:normal,
+     ...
+   }
+
+And add the other parameters accordingly.
 
 This block can be soft overridden in scripts.
 
@@ -113,7 +125,7 @@ Aimingtime
 
    Type: ``{'main': 'integer'}``
 
-`Aimingtime <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingtime>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingtimemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. The attachments directly add or subtract their `AimingTimeModifier <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingtimemodifier>`_ to the aiming delay.
+`Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtime>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtimemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. The attachments directly add or subtract their `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtimemodifier>`_ to the aiming delay.
 
 It controls the aim-settling delay, the aiming delay counter that must tick down to 0 before the weapon is "settled". Lower values means faster target reacquisition after each shots. The primary "how snappy does this gun feel" lever for semi-automatic guns. It tick down the aiming via the following formula:
 
@@ -129,7 +141,7 @@ The `marksman <https://pzwiki.net/wiki/Marksman>`_ trait being no longer accessi
    This formula might not be fully accurate as `time deltas <https://github.com/demiurgeQuantified/PZModdingGuides/blob/main/guides/GameTime.md>`_ don't appear in the formula.
 
 
-While ``aimingDelay > 0``\ , both `hit chance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-hitchance>`_ and `critical chance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-criticalchance>`_ take an aim-delay penalty proportional to the remaining delay. The countdown only starts after ``recoilDelay`` has recovered, so high `RecoilDelay <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-recoildelay>`_ directly delays when ``AimingTime`` begins ticking.
+While ``aimingDelay > 0``\ , both `hit chance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchance>`_ and `critical chance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-criticalchance>`_ take an aim-delay penalty proportional to the remaining delay. The countdown only starts after ``recoilDelay`` has recovered, so high `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ directly delays when ``AimingTime`` begins ticking.
 
 On each shots or equip, the aiming delay will be increased or reduced, being impacted by aiming while in a `vehicle <https://pzwiki.net/wiki/Vehicle>`_\ , being reduced by the trait `Dextrous <https://pzwiki.net/wiki/Dextrous>`_ or increased by `All Thumbs <https://pzwiki.net/wiki/All_Thumbs>`_. The following formula is used:
 
@@ -218,7 +230,7 @@ AmmoType
 
    Type: ``{'main': 'string'}``
 
-`AmmoType <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-ammotype>`_ indicates what ammo is consumed when shooting, but it also determines tracer and hit-reaction sound lookups. The value needs to reference the `registries <https://pzwiki.net/wiki/Registries>`_ entry of the ammo you want to use. The vanilla ammunition types which are available by default are:
+`AmmoType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-ammotype>`_ indicates what ammo is consumed when shooting, but it also determines tracer and hit-reaction sound lookups. The value needs to reference the `registries <https://pzwiki.net/wiki/Registries>`_ entry of the ammo you want to use. The vanilla ammunition types which are available by default are:
 
 
 * ``base:bullets_3030``
@@ -232,11 +244,11 @@ AmmoType
 * ``base:cap_gun_cap``
 * ``base:shotgun_shells``
 
-`AmmoBox <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-ammobox>`_ is used to indicate the type of ammo box associated to the weapon. This is mostly used to spawn this type of ammo box alongside the gun.
+`AmmoBox <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-ammobox>`_ is used to indicate the type of ammo box associated to the weapon. This is mostly used to spawn this type of ammo box alongside the gun.
 
-`MagazineType <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-magazinetype>`_ is used to set the magazine item the gun uses. If not provided, then the gun doesn't use a magazine item and loads rounds individually. `MaxAmmo <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxammo>`_ is used to set the capacity of either the magazine item or the gun.
+`MagazineType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-magazinetype>`_ is used to set the magazine item the gun uses. If not provided, then the gun doesn't use a magazine item and loads rounds individually. `MaxAmmo <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxammo>`_ is used to set the capacity of either the magazine item or the gun.
 
-`WeaponReloadType <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-weaponreloadtype>`_ is used to select the reload workflow of the gun. Notably affects rack-after-shot, insertion style and animations. The provided value references the `variable condition <https://pzwiki.net/wiki/Conditions>`_ ``WeaponReloadType`` in `AnimNodes <https://pzwiki.net/wiki/AnimNodes>`_. The game has the following values available by default:
+`WeaponReloadType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weaponreloadtype>`_ is used to select the reload workflow of the gun. Notably affects rack-after-shot, insertion style and animations. The provided value references the `variable condition <https://pzwiki.net/wiki/Conditions>`_ ``WeaponReloadType`` in `AnimNodes <https://pzwiki.net/wiki/AnimNodes>`_. The game has the following values available by default:
 
 
 * handgun
@@ -816,12 +828,12 @@ ConditionLowerChanceOneIn
 
    Type: ``{'main': 'integer'}``
 
-`ConditionLowerChanceOneIn <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-conditionlowerchanceonein>`_ impacts the durability of the item, reducing the value
+`ConditionLowerChanceOneIn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-conditionlowerchanceonein>`_ impacts the durability of the item, reducing the value
 used to calculate the chance by doing ``chance = 1/ConditionLowerChanceOneIn``\ ,
 which means increasing this parameter value will reduce the chance to damage the
 item.
 
-`ConditionMax <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-conditionmax>`_ sets the total durability pool, starting condition and repair ceiling. Make these two parameters high for robust military rifles, and low for a cheap civilian gun.
+`ConditionMax <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-conditionmax>`_ sets the total durability pool, starting condition and repair ceiling. Make these two parameters high for robust military rifles, and low for a cheap civilian gun.
 
    Default: ``10``
 
@@ -925,7 +937,7 @@ CriticalChance
 
    Type: ``{'main': 'float'}``
 
-`CriticalChance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-criticalchance>`_ sets the base critical hit chance of the weapon. The final ``CriticalChance`` value after all applied bonuses and penalties have been applied is compared on a 0-100 roll.
+`CriticalChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-criticalchance>`_ sets the base critical hit chance of the weapon. The final ``CriticalChance`` value after all applied bonuses and penalties have been applied is compared on a 0-100 roll.
 
 Below is a table listing the different elements which can influence the critical hit chance of a weapon:
 
@@ -936,13 +948,13 @@ Below is a table listing the different elements which can influence the critical
      - Type
      - Description
      - Formula
-   * - `AimingPerkCritModifier <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingperkcritmodifier>`_ and `aiming skill <https://pzwiki.net/wiki/Aiming>`_ of the character
+   * - `AimingPerkCritModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingperkcritmodifier>`_ and `aiming skill <https://pzwiki.net/wiki/Aiming>`_ of the character
      - Weapon parameter
      - The aiming level of the character impacts the player's critical hit chance by adding the following to the ``CriticalChance`` value.
      - ``CriticalChance += AimingPerkCritModifier * Aiming level``
    * - Sight bonus / penalty
      - Weapon parameter
-     - In the formula, ``sightWindowBonus`` refers to the bonus from `MinSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxsightrange>`_. ``sightlessBonus`` on the other hand is a simpler parameter which uses a distance falloff when there is not active sight. The best path is used for the better result. The aim delay penalty depends on `Aimingtime <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingtime>`_
+     - In the formula, ``sightWindowBonus`` refers to the bonus from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxsightrange>`_. ``sightlessBonus`` on the other hand is a simpler parameter which uses a distance falloff when there is not active sight. The best path is used for the better result. The aim delay penalty depends on `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtime>`_
      - ``CriticalChance += max(sightlessBonus - sightlessAimDelayPenalty, sightWindowBonus - sightWindowAimDelayPenalty)``
    * - Moodles penalty
      - Player condition
@@ -962,7 +974,7 @@ Below is a table listing the different elements which can influence the critical
      - ``CriticalChance += 10``
 
 
-For PvP targets, the entire formula is bypassed and `StopPower <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-stoppower>`_ is used instead. ``StopPower`` is never used against non-player targets.
+For PvP targets, the entire formula is bypassed and `StopPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-stoppower>`_ is used instead. ``StopPower`` is never used against non-player targets.
 
 .. code-block::
 
@@ -999,9 +1011,9 @@ CyclicRateMultiplier
 
    Type: ``{'main': 'float'}``
 
-Only in ``Auto`` `fire mode <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firemode>`_. Drives the full-auto animation cycle rate via the ``autoShootSpeed`` `animation variable <https://pzwiki.net/wiki/Conditions>`_.
+Only in ``Auto`` `fire mode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemode>`_. Drives the full-auto animation cycle rate via the ``autoShootSpeed`` `animation variable <https://pzwiki.net/wiki/Conditions>`_.
 
-A higher value means more shots per second. In ``Single`` mode this field is ignored and shot speed comes from `RecoilDelay <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-recoildelay>`_ and `Aimingtime <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingtime>`_ instead.
+A higher value means more shots per second. In ``Single`` mode this field is ignored and shot speed comes from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ and `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtime>`_ instead.
 
 Increase for SMG feel and decrease for heavy LMG feel.
 
@@ -1032,7 +1044,7 @@ DangerousUncooked
 
    Type: ``{'main': 'boolean'}``
 
-If true, the item will cause food poisoning when eaten raw. Used for example for raw meat. The `iron gut <https://pzwiki.net/wiki/Iron_Gut>`_ trait will stop you from getting sick from eating a raw food with the `tag <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-tags>`_ ``Egg``. The severity of the food poisoning is not impacted by traits or other criteria, only by the quantity of food you eat.
+If true, the item will cause food poisoning when eaten raw. Used for example for raw meat. The `iron gut <https://pzwiki.net/wiki/Iron_Gut>`_ trait will stop you from getting sick from eating a raw food with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-tags>`_ ``Egg``. The severity of the food poisoning is not impacted by traits or other criteria, only by the quantity of food you eat.
 
 .. _item-daysfresh:
 
@@ -1041,9 +1053,9 @@ DaysFresh
 
    Type: ``{'main': 'integer'}``
 
-`DaysFresh <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-daysfresh>`_ sets how many days this food item will stay fresh with default sandbox settings. `DaysTotallyRotten <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-daystotallyrotten>`_ sets how many days this food item will take to rot.
+`DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daysfresh>`_ sets how many days this food item will stay fresh with default sandbox settings. `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daystotallyrotten>`_ sets how many days this food item will take to rot.
 
-`Icon <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-icon>`_ provides the ability to set a different icon for the rotten and stale version of the food.
+`Icon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-icon>`_ provides the ability to set a different icon for the rotten and stale version of the food.
 
    Default: ``1000000000``
 
@@ -1292,7 +1304,7 @@ ExplosionPower
 
    Type: ``{'main': 'integer'}``
 
-If set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firestartingchance>`_
+If set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_
 
 .. _item-explosionrange:
 
@@ -1301,15 +1313,15 @@ ExplosionRange
 
    Type: ``{'main': 'integer'}``
 
-`FireStartingChance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firestartingchance>`_ out of 100 is a chance of the explosion to set on fire tiles and burn characters in the `ExplosionRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-explosionrange>`_. A value above 100 means the explosion will always set on fire tiles and burn characters, while a value of 0 means it will never set on fire tiles nor burn characters. Each tiles in the explosion range will run the `FireStartingChance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firestartingchance>`_ check independently, so a value of 50 means that on average half of the tiles in the explosion range will be set on fire.
+`FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ out of 100 is a chance of the explosion to set on fire tiles and burn characters in the `ExplosionRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionrange>`_. A value above 100 means the explosion will always set on fire tiles and burn characters, while a value of 0 means it will never set on fire tiles nor burn characters. Each tiles in the explosion range will run the `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ check independently, so a value of 50 means that on average half of the tiles in the explosion range will be set on fire.
 
-`SmokeRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-smokerange>`_ sets the range of the smoke effect. Squares in this range also can be set on fire individually based on `FireStartingChance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firestartingchance>`_.
+`SmokeRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-smokerange>`_ sets the range of the smoke effect. Squares in this range also can be set on fire individually based on `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_.
 
-`FireRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firerange>`_ will set every tiles in the provided range on fire.
+`FireRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firerange>`_ will set every tiles in the provided range on fire.
 
-`FireStartingEnergy <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firestartingenergy>`_ is an extra check added on top of all of these whenever a fire is attempted to be started. Will set the energy of the fire which impacts how strong is is. A value of 0 means no fire is started. Vegetation tiles provide a net bonus of 50 in energy to the fire being created. The created fire will have a life expectency between 300 and 600 (unclear on the units).
+`FireStartingEnergy <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingenergy>`_ is an extra check added on top of all of these whenever a fire is attempted to be started. Will set the energy of the fire which impacts how strong is is. A value of 0 means no fire is started. Vegetation tiles provide a net bonus of 50 in energy to the fire being created. The created fire will have a life expectency between 300 and 600 (unclear on the units).
 
-`ExplosionSound <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-explosionsound>`_ can be used to set the sound played when the explosion happens, while `ExplosionDuration <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-explosionduration>`_ can be used to set the duration of the explosion effect, which is especially useful for smoke bombs.
+`ExplosionSound <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionsound>`_ can be used to set the sound played when the explosion happens, while `ExplosionDuration <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionduration>`_ can be used to set the duration of the explosion effect, which is especially useful for smoke bombs.
 
 .. _item-explosionsound:
 
@@ -1399,7 +1411,7 @@ FireMode
 
    Type: ``{'main': 'string'}``
 
-`FireModePossibilities <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firemodepossibilities>`_ lists the available fire modes of the weapon, and the player can automatically switch between them with the relevant keybind. `FireMode <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-firemode>`_ sets the default fire mode of the weapon, which is the one it will spawn with.
+`FireModePossibilities <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemodepossibilities>`_ lists the available fire modes of the weapon, and the player can automatically switch between them with the relevant keybind. `FireMode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemode>`_ sets the default fire mode of the weapon, which is the one it will spawn with.
 
 The vanilla fire modes are:
 
@@ -1584,7 +1596,7 @@ HitChance
 
    Type: ``{'main': 'integer'}``
 
-`HitChance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-hitchance>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `HitChanceModified <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-hitchancemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
+`HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchance>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `HitChanceModified <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchancemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
 The initial hitchance is determined by the following configuration:
 
@@ -1603,13 +1615,13 @@ Below is a table listing the different elements which can influence the hit chan
      - Type
      - Description
      - Formula
-   * - `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingperkhitchancemodifier>`_ and `aiming skill <https://pzwiki.net/wiki/Aiming>`_ of the character
+   * - `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingperkhitchancemodifier>`_ and `aiming skill <https://pzwiki.net/wiki/Aiming>`_ of the character
      - Weapon parameter
      - The aiming level of the character impacts the player's hit chance.
      - ``HitChance += AimingPerkHitChanceModifier * Aiming level``
    * - Sight bonus / penalty
      - Weapon parameter
-     - In the formula, ``sightWindowBonus`` refers to the bonus from `MinSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxsightrange>`_. ``sightlessBonus`` on the other hand is a simpler parameter which uses a distance falloff when there is not active sight. The best path is used for the better result.
+     - In the formula, ``sightWindowBonus`` refers to the bonus from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxsightrange>`_. ``sightlessBonus`` on the other hand is a simpler parameter which uses a distance falloff when there is not active sight. The best path is used for the better result.
      - ``HitChance += max(sightlessBonus - sightlessAimDelayPenalty, sightWindowBonus - sightWindowAimDelayPenalty)``
    * - Moodles penalty
      - Player condition
@@ -1635,7 +1647,7 @@ Below is a table listing the different elements which can influence the hit chan
 
 The final obtained value of ``HitChance`` is clamped against the `MINIMUM_TO_HIT_CHANCE <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/combat/CombatConfigKey.html#MINIMUM_TO_HIT_CHANCE>`_ and `MAXIMUM_TO_HIT_CHANCE <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/combat/CombatConfigKey.html#MAXIMUM_TO_HIT_CHANCE>`_\ , both respectively equal to ``5.0`` and ``100.0`` by default.
 
-At point-blank range, all combined penalties are scaled toward zero, so close shots are always more forgiving. The `HitChance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-hitchance>`_ parameter will set the floor for all players while `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingperkhitchancemodifier>`_ will increase accuracy with the level of aiming of the player. Low base and high modifier makes the gun terrible while unskilled but excellent with investment in aiming.
+At point-blank range, all combined penalties are scaled toward zero, so close shots are always more forgiving. The `HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchance>`_ parameter will set the floor for all players while `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingperkhitchancemodifier>`_ will increase accuracy with the level of aiming of the player. Low base and high modifier makes the gun terrible while unskilled but excellent with investment in aiming.
 
 .. _item-hitchancemodifier:
 
@@ -1724,9 +1736,9 @@ Food icons
 Icons can be specified for rotten, cooked and burned food (\ ``ItemType = base:food,``\ ) by adding the following suffix to the icon files:
 
 
-* ``Rotten`` or ``Spoiled`` for food that has rotten, meaning has passed the `DaysTotallyRotten <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-daystotallyrotten>`_ value.
-* ``Cooked`` for food that has been cooked, meaning has passed the `MinutesToCook <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minutestocook>`_ value.
-* ``Overdone`` or ``Burnt`` for food that has been cooked to the point of burning, meaning has passed the `MinutesToBurn <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minutestoburn>`_ value.
+* ``Rotten`` or ``Spoiled`` for food that has rotten, meaning has passed the `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daystotallyrotten>`_ value.
+* ``Cooked`` for food that has been cooked, meaning has passed the `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestocook>`_ value.
+* ``Overdone`` or ``Burnt`` for food that has been cooked to the point of burning, meaning has passed the `MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestoburn>`_ value.
 
 For example, take a food item with the icon file defined as such:
 
@@ -1866,9 +1878,9 @@ IsAimedFirearm
 
    Type: ``{'main': 'boolean'}``
 
-`IsAimedFirearm <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-isaimedfirearm>`_ enables the entire aimed-firearm subsystem: ballistics controller, reticle, muzzle flash, firearm-specific condition handling and ballistics-base target detection. Without it the weapon falls back to melee sweep logic.
+`IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-isaimedfirearm>`_ enables the entire aimed-firearm subsystem: ballistics controller, reticle, muzzle flash, firearm-specific condition handling and ballistics-base target detection. Without it the weapon falls back to melee sweep logic.
 
-Set to ``true`` for any normal gun. Distinct from `Ranged <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-ranged>`_ which marks the item as a ranged weapon for the animations `conditions <https://pzwiki.net/wiki/Conditions>`_.
+Set to ``true`` for any normal gun. Distinct from `Ranged <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-ranged>`_ which marks the item as a ranged weapon for the animations `conditions <https://pzwiki.net/wiki/Conditions>`_.
 
 .. _item-isaimedhandweapon:
 
@@ -2170,11 +2182,11 @@ MaxHitcount
 
    Type: ``{'main': 'integer'}``
 
-`MaxHitcount <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxhitcount>`_ sets the maximum number of targets the weapon can hit with one attack. For ranged weapons, it will determine how many targets a single shot can hit. For melee weapons, a single swing can hit multiple targets if the relevant sandbox option allows it (Weapon Multi-Hit).
+`MaxHitcount <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxhitcount>`_ sets the maximum number of targets the weapon can hit with one attack. For ranged weapons, it will determine how many targets a single shot can hit. For melee weapons, a single swing can hit multiple targets if the relevant sandbox option allows it (Weapon Multi-Hit).
 
-When `PiercingBullets <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-piercingbullets>`_ is ``true``\ , a shot continues past the first target and registers on collinear targets behind it. Each subsequent pierced target receives reduced damage (\ ``damage / PIERCING_BULLET_DAMAGE_REDUCTION``\ ). Targets must be within approximatively 1 degree of each other in angle to qualify.
+When `PiercingBullets <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-piercingbullets>`_ is ``true``\ , a shot continues past the first target and registers on collinear targets behind it. Each subsequent pierced target receives reduced damage (\ ``damage / PIERCING_BULLET_DAMAGE_REDUCTION``\ ). Targets must be within approximatively 1 degree of each other in angle to qualify.
 
-Keep ``MaxHitcount`` to 1 for a standard rifle, and set it to 2 with `PiercingBullets <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-piercingbullets>`_ to have AP rounds behavior (M16A2 for example).
+Keep ``MaxHitcount`` to 1 for a standard rifle, and set it to 2 with `PiercingBullets <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-piercingbullets>`_ to have AP rounds behavior (M16A2 for example).
 
    Default: ``1000``
 
@@ -2194,9 +2206,9 @@ MaxRange
 
    Type: ``{'main': 'float'}``
 
-`MaxRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxrange>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `MaxRangeModifier <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxrangemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
+`MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrange>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `MaxRangeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrangemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
-The `MaxRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxrange>`_ of a weapon is used to determine the maximum distance the weapon can shoot. Targets beyond ``effectiveMaxRange`` calculated with the formula below simply can't be reached, the parameter is a hard cutoff, not a penalty in damage or anything like that.
+The `MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrange>`_ of a weapon is used to determine the maximum distance the weapon can shoot. Targets beyond ``effectiveMaxRange`` calculated with the formula below simply can't be reached, the parameter is a hard cutoff, not a penalty in damage or anything like that.
 
 .. code-block::
 
@@ -2222,7 +2234,7 @@ MaxSightRange
 
    Type: ``{'main': 'float'}``
 
-`MinSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxsightrange>`_ define the optimal sight window, to be more specific, the distance band where hits and critical hits bonuses peak.
+`MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxsightrange>`_ define the optimal sight window, to be more specific, the distance band where hits and critical hits bonuses peak.
 
 The `aiming skill <https://pzwiki.net/wiki/Aiming>`_ and `eagle eyed <https://pzwiki.net/wiki/Eagle_Eyed>`_ will impact these values:
 
@@ -2237,7 +2249,7 @@ Inside the the ``effectiveMin`` and ``effectiveMax`` window, the bonus follows a
 
 Below ``effectiveMin``\ , a small linear penalty is applied as the gun is not suited for point-blank. Above ``effectiveMax``\ , a growing quadratic penalty is applied, the bonus degrades rapidly past the edge.
 
-A CQC gun should have a low `MaxSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-maxsightrange>`_ while a marksman riffle should have a high `MinSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minsightrange>`_ with a wide window.
+A CQC gun should have a low `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxsightrange>`_ while a marksman riffle should have a high `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_ with a wide window.
 
 .. _item-mechanicsitem:
 
@@ -2291,11 +2303,11 @@ MinAngle
 
    Type: ``{'main': 'float'}``
 
-For `IsAimedFirearm <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-isaimedfirearm>`_ set to ``true``\ , the ballistics controller handles target detection and does not use `MinAngle <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minangle>`_ in the ranged hit-chance formula. These serve one narrow purpose: the ``isMeleeTargetTooCloseToShoot()`` check, detecting if a target is so close it should trigger a melee strike instead of a shot.
+For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-isaimedfirearm>`_ set to ``true``\ , the ballistics controller handles target detection and does not use `MinAngle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minangle>`_ in the ranged hit-chance formula. These serve one narrow purpose: the ``isMeleeTargetTooCloseToShoot()`` check, detecting if a target is so close it should trigger a melee strike instead of a shot.
 
 ``MinAngle`` is a dot-product threshold (-1 to 1). Values near 1.0 mean the target must be almost directly in front to trigger the melee-swap check, while lower values widen the angle.
 
-`AimingPerkMinAngleModifier <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-aimingperkminanglemodifier>`_ is parsed and stored and impacts the minimum angle with the following formula:
+`AimingPerkMinAngleModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingperkminanglemodifier>`_ is parsed and stored and impacts the minimum angle with the following formula:
 
 .. code-block:: java
 
@@ -2339,7 +2351,7 @@ MinRange
 
    Type: ``{'main': 'float'}``
 
-Hard minimum attack distance. If the target is closer than ``MinRange``\ , the ballistics controller does not register the shot and the game may force a melee swap. This is a binary threshold, not a penalty band. Separate from `MinSightRange <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minsightrange>`_.
+Hard minimum attack distance. If the target is closer than ``MinRange``\ , the ballistics controller does not register the shot and the game may force a melee swap. This is a binary threshold, not a penalty band. Separate from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_.
 
 Long rifles should be hard to use in tight spaces. ``0.2`` to ``0.35`` is a small gap but ``0.61`` is noticeably limiting indoors.
 
@@ -2360,9 +2372,9 @@ MinutesToBurn
    Type: ``{'main': 'float'}``
 
 How many in-game minutes it takes to burn the food. This value must
-be higher than `MinutesToCook <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minutestocook>`_.
+be higher than `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestocook>`_.
 
-In comparison with `MinutesToCook <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minutestocook>`_\ , this parameter is not available for ``base:drainable`` `ItemTypes <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-itemtype>`_.
+In comparison with `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestocook>`_\ , this parameter is not available for ``base:drainable`` `ItemTypes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
    Default: ``120.0``
 
@@ -2373,7 +2385,7 @@ MinutesToCook
 
    Type: ``{'main': 'float'}``
 
-How many in-game minutes it takes to cook the food. This value must be smaller than `MinutesToBurn <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-minutestoburn>`_.
+How many in-game minutes it takes to cook the food. This value must be smaller than `MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestoburn>`_.
 
    Default: ``60.0``
 
@@ -2720,7 +2732,7 @@ Projectilecount
 
    Type: ``{'main': 'integer'}``
 
-Only active when the weapon is ranged and has `RangeFalloff <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-rangefalloff>`_ set to ``true``. In that mode, the ballistics controller generates multiple spread projectiles. The field is never read when `RangeFalloff <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-rangefalloff>`_ is ``false``.
+Only active when the weapon is ranged and has `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-rangefalloff>`_ set to ``true``. In that mode, the ballistics controller generates multiple spread projectiles. The field is never read when `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-rangefalloff>`_ is ``false``.
 
 Inert for standard rifles. Required only for shotgun-style spread.
 
@@ -2856,7 +2868,7 @@ RecoilDelay
 
    Type: ``Any``
 
-`RecoilDelay <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-recoildelay>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-recoildelaymodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. Weapon attachments will add or subtract from `RecoilDelay <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-recoildelay>`_ directly.
+`RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelaymodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. Weapon attachments will add or subtract from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ directly.
 
 Controls how long post-shot recovery takes before aim settling can begin. High values means the gun has a huge kick and forces a pause. Lower values is a flat, fast and snappy gun. `Strength <https://pzwiki.net/wiki/Strength>`_ and `aiming <https://pzwiki.net/wiki/Aiming>`_ will both reduce the recoil delay. Holding the gun one-handed will negatively impact the recoil handling. The following formula is used:
 
@@ -3390,7 +3402,7 @@ Tags
 
    Type: ``{'main': 'array', 'array': {'type': 'string', 'separator': ';'}}``
 
-A list of tags to assign to the item. Tags are used by the game to easily identify properties of the items. This can notably be used in `craftRecipes <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/craftrecipe.html>`_.
+A list of tags to assign to the item. Tags are used by the game to easily identify properties of the items. This can notably be used in `craftRecipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_.
 
 For example:
 
@@ -3505,7 +3517,7 @@ TwoHandWeapon
 
    Type: ``{'main': 'boolean'}``
 
-`TwoHandWeapon <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-twohandweapon>`_ marks the weapon as a two-handed weapon. `RecoilDelay <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-recoildelay>`_ gets a x1.3 penalty when the weapon is held one-handed instead of two handed. `RequiresEquippedBothHands <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-requiresequippedbothhands>`_ enforces the equip restriction in the context menu.
+`TwoHandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-twohandweapon>`_ marks the weapon as a two-handed weapon. `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ gets a x1.3 penalty when the weapon is held one-handed instead of two handed. `RequiresEquippedBothHands <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-requiresequippedbothhands>`_ enforces the equip restriction in the context menu.
 
 .. _item-twoway:
 
@@ -3567,7 +3579,7 @@ UseEndurance
 
    Type: ``{'main': 'boolean'}``
 
-If ``true``\ , the weapon will consume stamina on use based on the weapon `weight <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-weight>`_\ , `EnduranceMod <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-endurancemod>`_\ , fatigue modifiers and traits.
+If ``true``\ , the weapon will consume stamina on use based on the weapon `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_\ , `EnduranceMod <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-endurancemod>`_\ , fatigue modifiers and traits.
 
 For guns, it is preferable to keep this as ``False``.
 
@@ -3734,7 +3746,7 @@ Weight
 
    Type: ``{'main': 'float'}``
 
-Sets the weight of the item, or more commonly refered to as a encumbrance. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/item.html#item-useendurance>`_ is ``true``.
+Sets the weight of the item, or more commonly refered to as a encumbrance. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``.
 
    Default: ``1.0``
 

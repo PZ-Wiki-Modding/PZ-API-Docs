@@ -61,7 +61,7 @@ GrantedRecipes
 
    Type: ``{'main': 'array'}``
 
-A list of `craftRecipe <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
+A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
 
 .. _character_profession_definition-grantedtraits:
 

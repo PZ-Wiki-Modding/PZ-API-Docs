@@ -3,7 +3,7 @@
 clip
 ====
 
-Defines a clip to be used in a `sound script <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/sound.html>`_\ , which is a single sound file with properties that determine how it is played in the game.
+Defines a clip to be used in a `sound script <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_\ , which is a single sound file with properties that determine how it is played in the game.
 
 .. code-block:: cpp
 

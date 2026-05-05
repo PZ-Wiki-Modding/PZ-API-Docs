@@ -3,7 +3,7 @@
 attachment
 ==========
 
-Defines an attachment point on a `model <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/model.html>`_ or `vehicle <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/vehicle.html>`_ block. The ID is the attachment name, it can be a custom ID or an existing one often used to define specific attachments. While manually modifying the attachment block is definitely possible, it is recommended to use the `attachment editor <https://pzwiki.net/wiki/Attachment_Editor>`_ to create and edit those attachments.
+Defines an attachment point on a `model <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ or `vehicle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html>`_ block. The ID is the attachment name, it can be a custom ID or an existing one often used to define specific attachments. While manually modifying the attachment block is definitely possible, it is recommended to use the `attachment editor <https://pzwiki.net/wiki/Attachment_Editor>`_ to create and edit those attachments.
 
 The syntax of this block should be as follows:
 

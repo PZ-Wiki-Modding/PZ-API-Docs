@@ -3,7 +3,7 @@
 Fluids
 ======
 
-Used to make a list of fluids to appear in a `FluidContainer component <https://pz-wiki-modding.github.io/pz-scripts-data/blocks/component/component_fluidcontainer.html>`_.
+Used to make a list of fluids to appear in a `FluidContainer component <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/component/component_fluidcontainer.html>`_.
 
 
 Hierarchy
