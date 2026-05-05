@@ -93,21 +93,60 @@ Detailed procedural distribution entries for each room and its containers.
             content += ".. list-table::\n"
             content += "   :header-rows: 1\n"
             content += "   :widths: auto\n\n"
-            content += "   * - Name\n"
-            content += "     - Min\n"
-            content += "     - Max\n"
-            content += "     - Weight Chance\n"
+            content += "   * - :ref:`item-picker-property-name`\n"
+            content += "     - :ref:`item-picker-property-min`\n"
+            content += "     - :ref:`item-picker-property-max`\n"
+            content += "     - :ref:`item-picker-property-weightChance`\n"
+            content += "     - :ref:`item-picker-property-forceForItems`\n"
+            content += "     - :ref:`item-picker-property-forceForTiles`\n"
+            content += "     - :ref:`item-picker-property-forceForRooms`\n"
             
             for entry in proclist:
                 name = entry.get('name', '')
                 min_val = entry.get('min', '-')
                 max_val = entry.get('max', '-')
                 weight_chance = entry.get('weightChance', '-')
+                force_for_items = entry.get('forceForItems', [])
+                force_for_tiles = entry.get('forceForTiles', [])
+                force_for_rooms = entry.get('forceForRooms', [])
                 
                 content += f"   * - ``{name}``\n"
                 content += f"     - {min_val}\n"
                 content += f"     - {max_val}\n"
                 content += f"     - {weight_chance}\n"
+                
+                # Format force for items list
+                if force_for_items:
+                    if isinstance(force_for_items, list):
+                        content += "     - \n"
+                        for item in force_for_items:
+                            content += f"       - {item}\n"
+                    else:
+                        content += f"     - {force_for_items}\n"
+                else:
+                    content += "     - \n"
+                
+                # Format force for tiles list
+                if force_for_tiles:
+                    if isinstance(force_for_tiles, list):
+                        content += "     - \n"
+                        for tile in force_for_tiles:
+                            content += f"       - {tile}\n"
+                    else:
+                        content += f"     - {force_for_tiles}\n"
+                else:
+                    content += "     - \n"
+                
+                # Format force for rooms list
+                if force_for_rooms:
+                    if isinstance(force_for_rooms, list):
+                        content += "     - \n"
+                        for room in force_for_rooms:
+                            content += f"       - {room}\n"
+                    else:
+                        content += f"     - {force_for_rooms}\n"
+                else:
+                    content += "     - \n"
             
             content += "\n"
         

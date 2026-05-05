@@ -22,6 +22,7 @@ generate:
 	python3 ../chores/generateRoomsDocs.py
 	python3 ../chores/generateRoomsDistributionDocs.py
 	python3 ../chores/generateProceduralDistributionsDocs.py
+	python3 ../chores/generateItemPickerContainerPropertiesDocs.py
 
 html: generate
 	source ../.venv/bin/activate
