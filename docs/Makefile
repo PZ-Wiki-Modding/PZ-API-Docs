@@ -18,7 +18,8 @@ clean:
 
 generate:
 	source ../.venv/bin/activate
-	python3 ../chores/generateDocs.py
+	python3 ../chores/generateScriptsDocs.py
+	python3 ../chores/generateRoomsDocs.py
 
 html: generate
 	source ../.venv/bin/activate

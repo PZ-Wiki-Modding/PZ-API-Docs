@@ -14,3 +14,4 @@ Documentation Structure
    :caption: Contents:
 
    scripts
+   distribution
