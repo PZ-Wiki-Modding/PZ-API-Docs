@@ -7,7 +7,7 @@ Procedural distributions is the system used to manage the loot of the game. Diff
    For more information, see the wiki page about `Procedural distributions <https://pzwiki.net/wiki/Procedural_distributions>`_.
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 1
    :titlesonly:
 
    distribution/rooms

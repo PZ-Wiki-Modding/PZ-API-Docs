@@ -57,7 +57,7 @@ Detailed procedural distribution entries for each room and its containers.
 
 """
     
-    content += f"Total rooms: {len(distributions)}\n\n"
+    # content += f"Total rooms: {len(distributions)}\n\n"
     
     # Sort rooms alphabetically
     sorted_rooms = sorted(distributions.keys(), key=str.lower)

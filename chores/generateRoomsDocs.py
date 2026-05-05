@@ -54,7 +54,8 @@ Available room types.
 
 """
     
-    content += f"Total rooms: {len(rooms)}\n\n"
+    # content += f"Total rooms: {len(rooms)}\n\n"
+    
     content += ".. list-table::\n"
     content += "   :header-rows: 1\n"
     content += "   :widths: auto\n\n"

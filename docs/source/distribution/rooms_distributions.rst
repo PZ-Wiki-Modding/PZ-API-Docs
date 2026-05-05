@@ -1,9 +1,7 @@
-Room Distributions
+Room distributions
 ===================
 
-Procedural distributions for each room type, including containers and their loot entries.
-
-Total rooms: 367
+Detailed procedural distribution entries for each room and its containers.
 
 aesthetic
 ---------

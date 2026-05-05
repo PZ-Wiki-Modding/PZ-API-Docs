@@ -3,8 +3,6 @@ Room names
 
 Available room types.
 
-Total rooms: 367
-
 .. list-table::
    :header-rows: 1
    :widths: auto
