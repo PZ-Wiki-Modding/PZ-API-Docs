@@ -54,7 +54,7 @@ def generate_rst_content(distributions: dict) -> str:
     content = """Procedural distributions
 ========================
 
-Detailed procedural distribution lists with item spawn weights and estimated chances.
+Detailed procedural distribution lists of items with estimated chances.
 
 """
     
