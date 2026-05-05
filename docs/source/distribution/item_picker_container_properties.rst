@@ -1,7 +1,7 @@
-ItemPickerContainer Properties
+ItemPickerContainer properties
 ==============================
 
-Reference documentation for ItemPickerContainer procList entry properties.
+Reference documentation for ItemPickerContainer procedural list entry properties. Those are used to define the procedural distributions which will be used for the containers of the rooms.
 
 .. _item-picker-property-name:
 

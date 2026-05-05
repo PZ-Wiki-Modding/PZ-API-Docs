@@ -19,7 +19,7 @@ aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -34,7 +34,7 @@ aesthetic
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``SalonCounter``
+   * - :ref:`procedural-distribution-SalonCounter`
      - 0
      - 99
      - -
@@ -49,7 +49,7 @@ aesthetic
        - fixtures_counters_01_38
        - fixtures_counters_01_39
      - 
-   * - ``SalonShelfHaircare``
+   * - :ref:`procedural-distribution-SalonShelfHaircare`
      - 0
      - 99
      - 100
@@ -70,7 +70,7 @@ aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SalonShelfTowels``
+   * - :ref:`procedural-distribution-SalonShelfTowels`
      - 0
      - 99
      - -
@@ -91,7 +91,7 @@ aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SalonShelfHaircare``
+   * - :ref:`procedural-distribution-SalonShelfHaircare`
      - 0
      - 99
      - -
@@ -112,7 +112,7 @@ aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SalonShelfHaircare``
+   * - :ref:`procedural-distribution-SalonShelfHaircare`
      - 0
      - 99
      - -
@@ -133,14 +133,14 @@ aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SalonShelfTowels``
+   * - :ref:`procedural-distribution-SalonShelfTowels`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateSalonSupplies``
+   * - :ref:`procedural-distribution-CrateSalonSupplies`
      - 0
      - 99
      - 100
@@ -161,7 +161,7 @@ aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateSalonSupplies``
+   * - :ref:`procedural-distribution-CrateSalonSupplies`
      - 0
      - 99
      - -
@@ -186,7 +186,7 @@ aestheticstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SalonShelfHaircare``
+   * - :ref:`procedural-distribution-SalonShelfHaircare`
      - 0
      - 99
      - -
@@ -211,7 +211,7 @@ agriworkerdorm
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SeasonalWorkerLockers``
+   * - :ref:`procedural-distribution-SeasonalWorkerLockers`
      - 0
      - 99
      - -
@@ -236,14 +236,14 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BBQCharcoalRich``
+   * - :ref:`procedural-distribution-BBQCharcoalRich`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``BBQCharcoal``
+   * - :ref:`procedural-distribution-BBQCharcoal`
      - 0
      - 99
      - 100
@@ -264,14 +264,14 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BBQPropaneRich``
+   * - :ref:`procedural-distribution-BBQPropaneRich`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``BBQPropane``
+   * - :ref:`procedural-distribution-BBQPropane`
      - 0
      - 99
      - 100
@@ -292,42 +292,42 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateEmptyBottles1``
+   * - :ref:`procedural-distribution-CrateEmptyBottles1`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateEmptyTinCans``
+   * - :ref:`procedural-distribution-CrateEmptyTinCans`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateEmptyMixed``
+   * - :ref:`procedural-distribution-CrateEmptyMixed`
      - 0
      - 99
      - 100
@@ -348,56 +348,56 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresDress``
+   * - :ref:`procedural-distribution-ClothingStoresDress`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``ClothingStoresShirts``
+   * - :ref:`procedural-distribution-ClothingStoresShirts`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``ClothingStoresShirtsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``ClothingStoresJumpers``
+   * - :ref:`procedural-distribution-ClothingStoresJumpers`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``ClothingStoresJackets``
+   * - :ref:`procedural-distribution-ClothingStoresJackets`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``ClothingStoresJacketsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``ClothingStoresJumpers``
+   * - :ref:`procedural-distribution-ClothingStoresJumpers`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``ClothingStoresPantsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
      - 0
      - 99
      - -
@@ -418,21 +418,21 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 1
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -453,7 +453,7 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DeskGeneric``
+   * - :ref:`procedural-distribution-DeskGeneric`
      - 0
      - 99
      - -
@@ -474,21 +474,21 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DishCabinetGeneric``
+   * - :ref:`procedural-distribution-DishCabinetGeneric`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DishCabinetLiquor``
+   * - :ref:`procedural-distribution-DishCabinetLiquor`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FoodGourmet``
+   * - :ref:`procedural-distribution-FoodGourmet`
      - 0
      - 1
      - 10
@@ -509,28 +509,28 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 40
@@ -551,7 +551,7 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DresserGeneric``
+   * - :ref:`procedural-distribution-DresserGeneric`
      - 0
      - 99
      - -
@@ -572,7 +572,7 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FilingCabinetGeneric``
+   * - :ref:`procedural-distribution-FilingCabinetGeneric`
      - 0
      - 99
      - 100
@@ -593,21 +593,21 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeGeneric``
+   * - :ref:`procedural-distribution-FridgeGeneric`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeRich``
+   * - :ref:`procedural-distribution-FridgeRich`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``FridgeTrailerPark``
+   * - :ref:`procedural-distribution-FridgeTrailerPark`
      - 0
      - 99
      - -
@@ -628,7 +628,7 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateHumanitarian``
+   * - :ref:`procedural-distribution-CrateHumanitarian`
      - 0
      - 99
      - -
@@ -649,21 +649,21 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageGuns``
+   * - :ref:`procedural-distribution-ArmyStorageGuns`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmyStorageAmmunition``
+   * - :ref:`procedural-distribution-ArmyStorageAmmunition`
      - 0
      - 99
      - 100
@@ -684,7 +684,7 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeDrawers``
+   * - :ref:`procedural-distribution-OfficeDrawers`
      - 0
      - 99
      - -
@@ -705,7 +705,7 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OtherGeneric``
+   * - :ref:`procedural-distribution-OtherGeneric`
      - 0
      - 99
      - -
@@ -726,28 +726,28 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PlankStashMisc``
+   * - :ref:`procedural-distribution-PlankStashMisc`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``PlankStashMoney``
+   * - :ref:`procedural-distribution-PlankStashMoney`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``PlankStashGold``
+   * - :ref:`procedural-distribution-PlankStashGold`
      - 0
      - 99
      - 1
      - 
      - 
      - 
-   * - ``PlankStashGun``
+   * - :ref:`procedural-distribution-PlankStashGun`
      - 0
      - 99
      - 100
@@ -768,7 +768,7 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ShelfGeneric``
+   * - :ref:`procedural-distribution-ShelfGeneric`
      - 0
      - 99
      - -
@@ -789,7 +789,7 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 0
      - 99
      - -
@@ -810,42 +810,42 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateEmptyBottles1``
+   * - :ref:`procedural-distribution-CrateEmptyBottles1`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateEmptyTinCans``
+   * - :ref:`procedural-distribution-CrateEmptyTinCans`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateEmptyMixed``
+   * - :ref:`procedural-distribution-CrateEmptyMixed`
      - 0
      - 99
      - 100
@@ -866,14 +866,14 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolCabinetMechanics``
+   * - :ref:`procedural-distribution-ToolCabinetMechanics`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 20
@@ -894,21 +894,21 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WardrobeGeneric``
+   * - :ref:`procedural-distribution-WardrobeGeneric`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``WardrobeClassy``
+   * - :ref:`procedural-distribution-WardrobeClassy`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``WardrobeRedneck``
+   * - :ref:`procedural-distribution-WardrobeRedneck`
      - 98
      - 99
      - 100
@@ -933,28 +933,28 @@ arenakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CrateBunsHotdog``
+   * - :ref:`procedural-distribution-CrateBunsHotdog`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 100
@@ -975,7 +975,7 @@ arenakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -990,7 +990,7 @@ arenakitchen
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -1013,7 +1013,7 @@ arenakitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BeerGardenCounter``
+   * - :ref:`procedural-distribution-BeerGardenCounter`
      - 0
      - 99
      - -
@@ -1024,28 +1024,28 @@ arenakitchen
        - location_restaurant_bar_01_34
        - location_restaurant_bar_01_35
      - 
-   * - ``BurgerKitchenSauce``
+   * - :ref:`procedural-distribution-BurgerKitchenSauce`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``BurgerKitchenCutlery``
+   * - :ref:`procedural-distribution-BurgerKitchenCutlery`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateBunsHotdog``
+   * - :ref:`procedural-distribution-CrateBunsHotdog`
      - 0
      - 99
      - -
@@ -1054,7 +1054,7 @@ arenakitchen
        - location_shop_fossoil_01_10
        - location_shop_fossoil_01_11
      - 
-   * - ``CratePopcorn``
+   * - :ref:`procedural-distribution-CratePopcorn`
      - 0
      - 99
      - -
@@ -1062,7 +1062,7 @@ arenakitchen
      - 
        - location_entertainment_theatre_01_17
      - 
-   * - ``TheatreDrinks``
+   * - :ref:`procedural-distribution-TheatreDrinks`
      - 0
      - 99
      - -
@@ -1073,7 +1073,7 @@ arenakitchen
        - location_shop_accessories_01_12
        - location_shop_accessories_01_13
      - 
-   * - ``TheatreSnacks``
+   * - :ref:`procedural-distribution-TheatreSnacks`
      - 0
      - 99
      - -
@@ -1098,28 +1098,28 @@ arenakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CrateBunsHotdog``
+   * - :ref:`procedural-distribution-CrateBunsHotdog`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 100
@@ -1140,7 +1140,7 @@ arenakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArenaKitchenFreezer``
+   * - :ref:`procedural-distribution-ArenaKitchenFreezer`
      - 0
      - 99
      - -
@@ -1161,7 +1161,7 @@ arenakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBeer``
+   * - :ref:`procedural-distribution-FridgeBeer`
      - 0
      - 99
      - -
@@ -1182,28 +1182,28 @@ arenakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CrateBunsHotdog``
+   * - :ref:`procedural-distribution-CrateBunsHotdog`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 100
@@ -1224,7 +1224,7 @@ arenakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoveSpiffos``
+   * - :ref:`procedural-distribution-StoveSpiffos`
      - 1
      - 99
      - -
@@ -1254,7 +1254,7 @@ arenakitchenstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -1277,7 +1277,7 @@ arenakitchenstorage
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BurgerKitchenCutlery``
+   * - :ref:`procedural-distribution-BurgerKitchenCutlery`
      - 0
      - 4
      - 60
@@ -1298,7 +1298,7 @@ arenakitchenstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArenaKitchenFreezer``
+   * - :ref:`procedural-distribution-ArenaKitchenFreezer`
      - 0
      - 99
      - -
@@ -1319,7 +1319,7 @@ arenakitchenstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBeer``
+   * - :ref:`procedural-distribution-FridgeBeer`
      - 0
      - 99
      - -
@@ -1344,7 +1344,7 @@ armystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ControlRoomCounter``
+   * - :ref:`procedural-distribution-ControlRoomCounter`
      - 0
      - 99
      - -
@@ -1365,35 +1365,35 @@ armystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageGuns``
+   * - :ref:`procedural-distribution-ArmyStorageGuns`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ArmyStorageAmmunition``
+   * - :ref:`procedural-distribution-ArmyStorageAmmunition`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ArmyStorageMedical``
+   * - :ref:`procedural-distribution-ArmyStorageMedical`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 99
      - 100
@@ -1414,35 +1414,35 @@ armystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageGuns``
+   * - :ref:`procedural-distribution-ArmyStorageGuns`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ArmyStorageAmmunition``
+   * - :ref:`procedural-distribution-ArmyStorageAmmunition`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ArmyStorageMedical``
+   * - :ref:`procedural-distribution-ArmyStorageMedical`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 99
      - 100
@@ -1463,7 +1463,7 @@ armystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageGuns``
+   * - :ref:`procedural-distribution-ArmyStorageGuns`
      - 0
      - 99
      - -
@@ -1488,7 +1488,7 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusOutfit``
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
      - 0
      - 99
      - -
@@ -1509,7 +1509,7 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -1524,14 +1524,14 @@ armysurplus
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``ArmySurplusHeadwear``
+   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusMisc``
+   * - :ref:`procedural-distribution-ArmySurplusMisc`
      - 0
      - 99
      - 20
@@ -1552,28 +1552,28 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusFootwear``
+   * - :ref:`procedural-distribution-ArmySurplusFootwear`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ArmySurplusHeadwear``
+   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ArmySurplusMisc``
+   * - :ref:`procedural-distribution-ArmySurplusMisc`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusOutfit``
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
      - 0
      - 1
      - 80
@@ -1594,28 +1594,28 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreRifles``
+   * - :ref:`procedural-distribution-GunStoreRifles`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GunStoreShotguns``
+   * - :ref:`procedural-distribution-GunStoreShotguns`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GunStoreKnives``
+   * - :ref:`procedural-distribution-GunStoreKnives`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``GunStoreAccessories``
+   * - :ref:`procedural-distribution-GunStoreAccessories`
      - 0
      - 99
      - 20
@@ -1636,7 +1636,7 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusCases``
+   * - :ref:`procedural-distribution-ArmySurplusCases`
      - 0
      - 99
      - -
@@ -1657,77 +1657,77 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusAmmoBoxes``
+   * - :ref:`procedural-distribution-ArmySurplusAmmoBoxes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmySurplusBackpacks``
+   * - :ref:`procedural-distribution-ArmySurplusBackpacks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusCases``
+   * - :ref:`procedural-distribution-ArmySurplusCases`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmySurplusCots``
+   * - :ref:`procedural-distribution-ArmySurplusCots`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ArmySurplusFootwear``
+   * - :ref:`procedural-distribution-ArmySurplusFootwear`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusOutfit``
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusMisc``
+   * - :ref:`procedural-distribution-ArmySurplusMisc`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusTools``
+   * - :ref:`procedural-distribution-ArmySurplusTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusWater``
+   * - :ref:`procedural-distribution-ArmySurplusWater`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 2
      - 60
@@ -1748,7 +1748,7 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusAmmoBoxes``
+   * - :ref:`procedural-distribution-ArmySurplusAmmoBoxes`
      - 0
      - 99
      - -
@@ -1769,7 +1769,7 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusCases``
+   * - :ref:`procedural-distribution-ArmySurplusCases`
      - 0
      - 99
      - -
@@ -1790,63 +1790,63 @@ armysurplus
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusAmmoBoxes``
+   * - :ref:`procedural-distribution-ArmySurplusAmmoBoxes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmySurplusBackpacks``
+   * - :ref:`procedural-distribution-ArmySurplusBackpacks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusCases``
+   * - :ref:`procedural-distribution-ArmySurplusCases`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmySurplusCots``
+   * - :ref:`procedural-distribution-ArmySurplusCots`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ArmySurplusFootwear``
+   * - :ref:`procedural-distribution-ArmySurplusFootwear`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusLiterature``
+   * - :ref:`procedural-distribution-ArmySurplusLiterature`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusOutfit``
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusMisc``
+   * - :ref:`procedural-distribution-ArmySurplusMisc`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusSnacks``
+   * - :ref:`procedural-distribution-ArmySurplusSnacks`
      - 0
      - 99
      - -
@@ -1855,28 +1855,28 @@ armysurplus
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``ArmySurplusTools``
+   * - :ref:`procedural-distribution-ArmySurplusTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusWater``
+   * - :ref:`procedural-distribution-ArmySurplusWater`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 2
      - 60
@@ -1901,7 +1901,7 @@ armytent
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LockerArmyBedroom``
+   * - :ref:`procedural-distribution-LockerArmyBedroom`
      - 0
      - 99
      - -
@@ -1926,7 +1926,7 @@ artstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -1941,21 +1941,21 @@ artstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``ArtStoreLiterature``
+   * - :ref:`procedural-distribution-ArtStoreLiterature`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``ArtStoreOther``
+   * - :ref:`procedural-distribution-ArtStoreOther`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -1976,7 +1976,7 @@ artstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArtStorePottery``
+   * - :ref:`procedural-distribution-ArtStorePottery`
      - 0
      - 99
      - -
@@ -1997,42 +1997,42 @@ artstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArtStoreLiterature``
+   * - :ref:`procedural-distribution-ArtStoreLiterature`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ArtStoreOther``
+   * - :ref:`procedural-distribution-ArtStoreOther`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ArtStorePaper``
+   * - :ref:`procedural-distribution-ArtStorePaper`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ArtStorePottery``
+   * - :ref:`procedural-distribution-ArtStorePottery`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ArtStorePen``
+   * - :ref:`procedural-distribution-ArtStorePen`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -2059,329 +2059,329 @@ attic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -2402,322 +2402,322 @@ attic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -2738,287 +2738,287 @@ attic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -3043,21 +3043,21 @@ backstage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BackstageLockers``
+   * - :ref:`procedural-distribution-BackstageLockers`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``BackstageRigging``
+   * - :ref:`procedural-distribution-BackstageRigging`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSalonSupplies``
+   * - :ref:`procedural-distribution-CrateSalonSupplies`
      - 0
      - 2
      - 40
@@ -3078,7 +3078,7 @@ backstage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BackstageClothingRack``
+   * - :ref:`procedural-distribution-BackstageClothingRack`
      - 0
      - 99
      - -
@@ -3099,7 +3099,7 @@ backstage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BackstageCounter``
+   * - :ref:`procedural-distribution-BackstageCounter`
      - 0
      - 99
      - -
@@ -3120,7 +3120,7 @@ backstage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BackstageDresser``
+   * - :ref:`procedural-distribution-BackstageDresser`
      - 0
      - 99
      - -
@@ -3141,7 +3141,7 @@ backstage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BackstageFridge``
+   * - :ref:`procedural-distribution-BackstageFridge`
      - 0
      - 99
      - -
@@ -3162,7 +3162,7 @@ backstage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BackstageLockers``
+   * - :ref:`procedural-distribution-BackstageLockers`
      - 0
      - 99
      - -
@@ -3183,7 +3183,7 @@ backstage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BackstageRigging``
+   * - :ref:`procedural-distribution-BackstageRigging`
      - 0
      - 99
      - -
@@ -3208,7 +3208,7 @@ bakery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -3223,7 +3223,7 @@ bakery
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -3246,7 +3246,7 @@ bakery
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -3267,35 +3267,35 @@ bakery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 80
@@ -3316,7 +3316,7 @@ bakery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenFreezer``
+   * - :ref:`procedural-distribution-BakeryKitchenFreezer`
      - 0
      - 99
      - -
@@ -3337,7 +3337,7 @@ bakery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenFridge``
+   * - :ref:`procedural-distribution-BakeryKitchenFridge`
      - 0
      - 99
      - -
@@ -3358,35 +3358,35 @@ bakery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 80
@@ -3407,7 +3407,7 @@ bakery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenStorage``
+   * - :ref:`procedural-distribution-BakeryKitchenStorage`
      - 0
      - 99
      - -
@@ -3428,35 +3428,35 @@ bakery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 80
@@ -3477,7 +3477,7 @@ bakery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenStorage``
+   * - :ref:`procedural-distribution-BakeryKitchenStorage`
      - 0
      - 99
      - -
@@ -3502,7 +3502,7 @@ bakerykitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -3525,21 +3525,21 @@ bakerykitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BakeryKitchenBaking``
+   * - :ref:`procedural-distribution-BakeryKitchenBaking`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``BakeryKitchenCutlery``
+   * - :ref:`procedural-distribution-BakeryKitchenCutlery`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``BakeryKitchenTrays``
+   * - :ref:`procedural-distribution-BakeryKitchenTrays`
      - 0
      - 99
      - 20
@@ -3560,7 +3560,7 @@ bakerykitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenStorage``
+   * - :ref:`procedural-distribution-BakeryKitchenStorage`
      - 0
      - 99
      - -
@@ -3581,35 +3581,35 @@ bakerykitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 80
@@ -3630,7 +3630,7 @@ bakerykitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenFreezer``
+   * - :ref:`procedural-distribution-BakeryKitchenFreezer`
      - 0
      - 99
      - -
@@ -3651,7 +3651,7 @@ bakerykitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenFridge``
+   * - :ref:`procedural-distribution-BakeryKitchenFridge`
      - 0
      - 99
      - -
@@ -3672,7 +3672,7 @@ bakerykitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenStorage``
+   * - :ref:`procedural-distribution-BakeryKitchenStorage`
      - 0
      - 99
      - -
@@ -3697,14 +3697,14 @@ bandkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -3725,7 +3725,7 @@ bandkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandPracticeFridge``
+   * - :ref:`procedural-distribution-BandPracticeFridge`
      - 0
      - 99
      - 100
@@ -3746,14 +3746,14 @@ bandkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -3778,7 +3778,7 @@ bandlivingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandPracticeClothing``
+   * - :ref:`procedural-distribution-BandPracticeClothing`
      - 0
      - 99
      - 100
@@ -3803,7 +3803,7 @@ bandmerch
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandMerchClothes``
+   * - :ref:`procedural-distribution-BandMerchClothes`
      - 0
      - 99
      - -
@@ -3824,7 +3824,7 @@ bandmerch
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandMerchClothes``
+   * - :ref:`procedural-distribution-BandMerchClothes`
      - 0
      - 99
      - -
@@ -3845,14 +3845,14 @@ bandmerch
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandMerchClothes``
+   * - :ref:`procedural-distribution-BandMerchClothes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BandMerchShelves``
+   * - :ref:`procedural-distribution-BandMerchShelves`
      - 0
      - 99
      - 100
@@ -3873,7 +3873,7 @@ bandmerch
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandMerchShelves``
+   * - :ref:`procedural-distribution-BandMerchShelves`
      - 0
      - 99
      - -
@@ -3898,14 +3898,14 @@ BandPractice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandPracticeClothing``
+   * - :ref:`procedural-distribution-BandPracticeClothing`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BandPracticeInstruments``
+   * - :ref:`procedural-distribution-BandPracticeInstruments`
      - 0
      - 99
      - 100
@@ -3926,14 +3926,14 @@ BandPractice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandPracticeClothing``
+   * - :ref:`procedural-distribution-BandPracticeClothing`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BandPracticeInstruments``
+   * - :ref:`procedural-distribution-BandPracticeInstruments`
      - 0
      - 99
      - 100
@@ -3954,14 +3954,14 @@ BandPractice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandPracticeClothing``
+   * - :ref:`procedural-distribution-BandPracticeClothing`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BandPracticeInstruments``
+   * - :ref:`procedural-distribution-BandPracticeInstruments`
      - 0
      - 99
      - 100
@@ -3982,14 +3982,14 @@ BandPractice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandPracticeClothing``
+   * - :ref:`procedural-distribution-BandPracticeClothing`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BandPracticeInstruments``
+   * - :ref:`procedural-distribution-BandPracticeInstruments`
      - 0
      - 99
      - 100
@@ -4014,7 +4014,7 @@ bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinBar``
+   * - :ref:`procedural-distribution-BinBar`
      - 0
      - 99
      - -
@@ -4035,7 +4035,7 @@ bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -4056,7 +4056,7 @@ bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -4071,7 +4071,7 @@ bar
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -4094,28 +4094,28 @@ bar
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BarCounterWeapon``
+   * - :ref:`procedural-distribution-BarCounterWeapon`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BarCounterLiquor``
+   * - :ref:`procedural-distribution-BarCounterLiquor`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``BarCounterMisc``
+   * - :ref:`procedural-distribution-BarCounterMisc`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``BarCounterGlasses``
+   * - :ref:`procedural-distribution-BarCounterGlasses`
      - 0
      - 99
      - 100
@@ -4136,7 +4136,7 @@ bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -4157,7 +4157,7 @@ bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LiquorStoreWineFancy``
+   * - :ref:`procedural-distribution-LiquorStoreWineFancy`
      - 0
      - 99
      - -
@@ -4178,7 +4178,7 @@ bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBeer``
+   * - :ref:`procedural-distribution-FridgeBeer`
      - 0
      - 99
      - -
@@ -4199,7 +4199,7 @@ bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -4220,7 +4220,7 @@ bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -4245,7 +4245,7 @@ barbecuestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -4260,14 +4260,14 @@ barbecuestore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``GrillAcessories``
+   * - :ref:`procedural-distribution-GrillAcessories`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -4288,21 +4288,21 @@ barbecuestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherFish``
+   * - :ref:`procedural-distribution-ButcherFish`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ButcherChops``
+   * - :ref:`procedural-distribution-ButcherChops`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ButcherSmoked``
+   * - :ref:`procedural-distribution-ButcherSmoked`
      - 0
      - 99
      - 100
@@ -4323,14 +4323,14 @@ barbecuestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCharcoal``
+   * - :ref:`procedural-distribution-CrateCharcoal`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CratePropane``
+   * - :ref:`procedural-distribution-CratePropane`
      - 0
      - 99
      - 100
@@ -4351,21 +4351,21 @@ barbecuestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GrillAcessories``
+   * - :ref:`procedural-distribution-GrillAcessories`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateCharcoal``
+   * - :ref:`procedural-distribution-CrateCharcoal`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CratePropane``
+   * - :ref:`procedural-distribution-CratePropane`
      - 0
      - 99
      - 40
@@ -4390,7 +4390,7 @@ barcountertwiggy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -4405,7 +4405,7 @@ barcountertwiggy
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -4428,28 +4428,28 @@ barcountertwiggy
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BarCounterWeapon``
+   * - :ref:`procedural-distribution-BarCounterWeapon`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``BarCounterLiquor``
+   * - :ref:`procedural-distribution-BarCounterLiquor`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``BarCounterMisc``
+   * - :ref:`procedural-distribution-BarCounterMisc`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``BarCounterGlasses``
+   * - :ref:`procedural-distribution-BarCounterGlasses`
      - 0
      - 99
      - 100
@@ -4470,7 +4470,7 @@ barcountertwiggy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -4495,7 +4495,7 @@ barkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinBar``
+   * - :ref:`procedural-distribution-BinBar`
      - 0
      - 99
      - -
@@ -4516,42 +4516,42 @@ barkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCigarettes``
+   * - :ref:`procedural-distribution-CrateCigarettes`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BarCrateDarts``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``BarCratePool``
+   * - :ref:`procedural-distribution-BarCrateDarts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateChips``
+   * - :ref:`procedural-distribution-BarCratePool`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateChips`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePeanuts``
+   * - :ref:`procedural-distribution-CratePeanuts`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - 100
@@ -4572,7 +4572,7 @@ barkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -4587,7 +4587,7 @@ barkitchen
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -4610,28 +4610,28 @@ barkitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BarCounterWeapon``
+   * - :ref:`procedural-distribution-BarCounterWeapon`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BarCounterLiquor``
+   * - :ref:`procedural-distribution-BarCounterLiquor`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``BarCounterMisc``
+   * - :ref:`procedural-distribution-BarCounterMisc`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``BarCounterGlasses``
+   * - :ref:`procedural-distribution-BarCounterGlasses`
      - 0
      - 99
      - 100
@@ -4652,42 +4652,42 @@ barkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCigarettes``
+   * - :ref:`procedural-distribution-CrateCigarettes`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BarCrateDarts``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``BarCratePool``
+   * - :ref:`procedural-distribution-BarCrateDarts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateChips``
+   * - :ref:`procedural-distribution-BarCratePool`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateChips`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePeanuts``
+   * - :ref:`procedural-distribution-CratePeanuts`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - 100
@@ -4708,7 +4708,7 @@ barkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBeer``
+   * - :ref:`procedural-distribution-FridgeBeer`
      - 0
      - 99
      - -
@@ -4729,7 +4729,7 @@ barkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -4750,7 +4750,7 @@ barkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -4775,21 +4775,21 @@ barn
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarnTools``
+   * - :ref:`procedural-distribution-BarnTools`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateAnimalFeed``
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 10
@@ -4810,21 +4810,21 @@ barn
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BarnTools``
+   * - :ref:`procedural-distribution-BarnTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateAnimalFeed``
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
      - 0
      - 99
      - 100
@@ -4845,21 +4845,21 @@ barn
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``BarnTools``
+   * - :ref:`procedural-distribution-BarnTools`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateAnimalFeed``
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
      - 0
      - 99
      - 100
@@ -4884,7 +4884,7 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinBar``
+   * - :ref:`procedural-distribution-BinBar`
      - 0
      - 99
      - -
@@ -4905,42 +4905,42 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCigarettes``
+   * - :ref:`procedural-distribution-CrateCigarettes`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BarCrateDarts``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``BarCratePool``
+   * - :ref:`procedural-distribution-BarCrateDarts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateChips``
+   * - :ref:`procedural-distribution-BarCratePool`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateChips`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePeanuts``
+   * - :ref:`procedural-distribution-CratePeanuts`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - 100
@@ -4961,7 +4961,7 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarLaundry``
+   * - :ref:`procedural-distribution-BarLaundry`
      - 0
      - 99
      - -
@@ -4982,7 +4982,7 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarLaundry``
+   * - :ref:`procedural-distribution-BarLaundry`
      - 0
      - 99
      - -
@@ -5003,7 +5003,7 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarLaundry``
+   * - :ref:`procedural-distribution-BarLaundry`
      - 0
      - 99
      - -
@@ -5024,7 +5024,7 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -5039,7 +5039,7 @@ barstorage
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -5062,21 +5062,21 @@ barstorage
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BarCounterMisc``
+   * - :ref:`procedural-distribution-BarCounterMisc`
      - 0
      - 99
      - 50
      - 
      - 
      - 
-   * - ``BarCounterWeapon``
+   * - :ref:`procedural-distribution-BarCounterWeapon`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BarCounterLiquor``
+   * - :ref:`procedural-distribution-BarCounterLiquor`
      - 0
      - 99
      - 100
@@ -5097,42 +5097,42 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCigarettes``
+   * - :ref:`procedural-distribution-CrateCigarettes`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BarCrateDarts``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``BarCratePool``
+   * - :ref:`procedural-distribution-BarCrateDarts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateChips``
+   * - :ref:`procedural-distribution-BarCratePool`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateChips`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePeanuts``
+   * - :ref:`procedural-distribution-CratePeanuts`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - 100
@@ -5153,7 +5153,7 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBeer``
+   * - :ref:`procedural-distribution-FridgeBeer`
      - 0
      - 99
      - -
@@ -5174,7 +5174,7 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -5195,7 +5195,7 @@ barstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -5220,7 +5220,7 @@ baseballgiftstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBaseballs``
+   * - :ref:`procedural-distribution-CrateBaseballs`
      - 0
      - 99
      - 100
@@ -5241,7 +5241,7 @@ baseballgiftstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BaseballStoreShelves``
+   * - :ref:`procedural-distribution-BaseballStoreShelves`
      - 0
      - 99
      - -
@@ -5266,14 +5266,14 @@ baseballstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBaseballs``
+   * - :ref:`procedural-distribution-CrateBaseballs`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``SportStorageBats``
+   * - :ref:`procedural-distribution-SportStorageBats`
      - 0
      - 1
      - 20
@@ -5294,7 +5294,7 @@ baseballstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SportStorageBats``
+   * - :ref:`procedural-distribution-SportStorageBats`
      - 0
      - 99
      - -
@@ -5319,7 +5319,7 @@ baseballstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -5334,7 +5334,7 @@ baseballstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -5355,7 +5355,7 @@ baseballstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BaseballStoreShelves``
+   * - :ref:`procedural-distribution-BaseballStoreShelves`
      - 0
      - 99
      - 100
@@ -5380,7 +5380,7 @@ batfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BatFactoryBats``
+   * - :ref:`procedural-distribution-BatFactoryBats`
      - 0
      - 99
      - -
@@ -5401,14 +5401,14 @@ batfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BatFactoryBats``
+   * - :ref:`procedural-distribution-BatFactoryBats`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 40
@@ -5433,7 +5433,7 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinBathroom``
+   * - :ref:`procedural-distribution-BinBathroom`
      - 0
      - 99
      - -
@@ -5454,42 +5454,42 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateToiletPaper``
+   * - :ref:`procedural-distribution-CrateToiletPaper`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 1
      - 60
@@ -5510,14 +5510,14 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BathroomCounter``
+   * - :ref:`procedural-distribution-BathroomCounter`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``BathroomCounterEmpty``
+   * - :ref:`procedural-distribution-BathroomCounterEmpty`
      - 0
      - 99
      - -
@@ -5542,7 +5542,7 @@ bathroom
        - spiffoskitchen
        - restaurant
        - restaurantkitchen
-   * - ``BathroomCounterMotel``
+   * - :ref:`procedural-distribution-BathroomCounterMotel`
      - 0
      - 99
      - -
@@ -5564,42 +5564,42 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateToiletPaper``
+   * - :ref:`procedural-distribution-CrateToiletPaper`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 1
      - 60
@@ -5620,7 +5620,7 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FactoryLockers``
+   * - :ref:`procedural-distribution-FactoryLockers`
      - 0
      - 99
      - -
@@ -5638,7 +5638,7 @@ bathroom
        - warehouse
        - wirefactory
        - whiskeybottling
-   * - ``FireDeptLockers``
+   * - :ref:`procedural-distribution-FireDeptLockers`
      - 0
      - 99
      - -
@@ -5646,7 +5646,7 @@ bathroom
      - 
      - 
        - firestorage
-   * - ``GymLockers``
+   * - :ref:`procedural-distribution-GymLockers`
      - 0
      - 99
      - -
@@ -5655,7 +5655,7 @@ bathroom
      - 
        - fitness
        - gym
-   * - ``HospitalLockers``
+   * - :ref:`procedural-distribution-HospitalLockers`
      - 0
      - 99
      - -
@@ -5679,7 +5679,7 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BathroomCabinet``
+   * - :ref:`procedural-distribution-BathroomCabinet`
      - 0
      - 99
      - -
@@ -5700,21 +5700,21 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorTools``
+   * - :ref:`procedural-distribution-JanitorTools`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorCleaning``
+   * - :ref:`procedural-distribution-JanitorCleaning`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - 100
@@ -5735,7 +5735,7 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BathroomShelf``
+   * - :ref:`procedural-distribution-BathroomShelf`
      - 0
      - 99
      - -
@@ -5756,42 +5756,42 @@ bathroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateToiletPaper``
+   * - :ref:`procedural-distribution-CrateToiletPaper`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 1
      - 60
@@ -5816,7 +5816,7 @@ batstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BatFactoryBats``
+   * - :ref:`procedural-distribution-BatFactoryBats`
      - 0
      - 99
      - -
@@ -5837,7 +5837,7 @@ batstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BatFactoryBats``
+   * - :ref:`procedural-distribution-BatFactoryBats`
      - 0
      - 99
      - -
@@ -5862,7 +5862,7 @@ batteryfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBatteries``
+   * - :ref:`procedural-distribution-CrateBatteries`
      - 0
      - 99
      - -
@@ -5887,7 +5887,7 @@ batterystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBatteries``
+   * - :ref:`procedural-distribution-CrateBatteries`
      - 0
      - 99
      - -
@@ -5908,7 +5908,7 @@ batterystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBatteries``
+   * - :ref:`procedural-distribution-CrateBatteries`
      - 0
      - 99
      - -
@@ -5933,133 +5933,133 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCanning``
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 1
      - 100
@@ -6080,126 +6080,126 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 60
@@ -6220,14 +6220,14 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeDeskHome``
+   * - :ref:`procedural-distribution-OfficeDeskHome`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``OfficeDeskHomeClassy``
+   * - :ref:`procedural-distribution-OfficeDeskHomeClassy`
      - 0
      - 99
      - -
@@ -6248,14 +6248,14 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BedroomDresser``
+   * - :ref:`procedural-distribution-BedroomDresser`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BedroomDresserChild``
+   * - :ref:`procedural-distribution-BedroomDresserChild`
      - 98
      - 99
      - -
@@ -6264,14 +6264,14 @@ bedroom
        - furniture_bedding_01_38
      - 
      - 
-   * - ``BedroomDresserClassy``
+   * - :ref:`procedural-distribution-BedroomDresserClassy`
      - 98
      - 99
      - -
      - 
      - 
      - 
-   * - ``BedroomDresserRedneck``
+   * - :ref:`procedural-distribution-BedroomDresserRedneck`
      - 98
      - 99
      - -
@@ -6292,14 +6292,14 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CultistClothing``
+   * - :ref:`procedural-distribution-CultistClothing`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``WardrobeChild``
+   * - :ref:`procedural-distribution-WardrobeChild`
      - 98
      - 99
      - -
@@ -6325,21 +6325,21 @@ bedroom
        - floors_rugs_01_71
      - 
      - 
-   * - ``WardrobeClassy``
+   * - :ref:`procedural-distribution-WardrobeClassy`
      - 98
      - 99
      - -
      - 
      - 
      - 
-   * - ``WardrobeGeneric``
+   * - :ref:`procedural-distribution-WardrobeGeneric`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``WardrobeRedneck``
+   * - :ref:`procedural-distribution-WardrobeRedneck`
      - 98
      - 99
      - -
@@ -6360,35 +6360,35 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PlankStashMagazine``
+   * - :ref:`procedural-distribution-PlankStashMagazine`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``PlankStashMisc``
+   * - :ref:`procedural-distribution-PlankStashMisc`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``PlankStashMoney``
+   * - :ref:`procedural-distribution-PlankStashMoney`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``PlankStashGold``
+   * - :ref:`procedural-distribution-PlankStashGold`
      - 0
      - 99
      - 1
      - 
      - 
      - 
-   * - ``PlankStashGun``
+   * - :ref:`procedural-distribution-PlankStashGun`
      - 0
      - 99
      - 100
@@ -6409,14 +6409,14 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BedroomSidetable``
+   * - :ref:`procedural-distribution-BedroomSidetable`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BedroomSidetableChild``
+   * - :ref:`procedural-distribution-BedroomSidetableChild`
      - 98
      - 99
      - -
@@ -6425,14 +6425,14 @@ bedroom
        - furniture_bedding_01_38
      - 
      - 
-   * - ``BedroomSidetableClassy``
+   * - :ref:`procedural-distribution-BedroomSidetableClassy`
      - 98
      - 99
      - -
      - 
      - 
      - 
-   * - ``BedroomSidetableRedneck``
+   * - :ref:`procedural-distribution-BedroomSidetableRedneck`
      - 98
      - 99
      - -
@@ -6453,84 +6453,84 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 100
@@ -6551,7 +6551,7 @@ bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WardrobeChild``
+   * - :ref:`procedural-distribution-WardrobeChild`
      - 98
      - 99
      - -
@@ -6577,21 +6577,21 @@ bedroom
        - floors_rugs_01_71
      - 
      - 
-   * - ``WardrobeClassy``
+   * - :ref:`procedural-distribution-WardrobeClassy`
      - 98
      - 99
      - -
      - 
      - 
      - 
-   * - ``WardrobeGeneric``
+   * - :ref:`procedural-distribution-WardrobeGeneric`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``WardrobeRedneck``
+   * - :ref:`procedural-distribution-WardrobeRedneck`
      - 98
      - 99
      - -
@@ -6616,7 +6616,7 @@ beergarden
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BeerGardenCounter``
+   * - :ref:`procedural-distribution-BeerGardenCounter`
      - 0
      - 99
      - -
@@ -6637,7 +6637,7 @@ beergarden
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBeer``
+   * - :ref:`procedural-distribution-FridgeBeer`
      - 0
      - 99
      - -
@@ -6662,14 +6662,14 @@ blacksmith
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCoke``
+   * - :ref:`procedural-distribution-CrateCoke`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 100
@@ -6690,21 +6690,21 @@ blacksmith
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BlacksmithMolds``
+   * - :ref:`procedural-distribution-BlacksmithMolds`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BlacksmithTools``
+   * - :ref:`procedural-distribution-BlacksmithTools`
      - 1
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 100
@@ -6725,7 +6725,7 @@ blacksmith
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BlacksmithLiterature``
+   * - :ref:`procedural-distribution-BlacksmithLiterature`
      - 1
      - 99
      - -
@@ -6755,7 +6755,7 @@ bookstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -6770,21 +6770,21 @@ bookstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``BookStoreCounter``
+   * - :ref:`procedural-distribution-BookStoreCounter`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreBags``
+   * - :ref:`procedural-distribution-BookstoreBags`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreStationery``
+   * - :ref:`procedural-distribution-BookstoreStationery`
      - 0
      - 99
      - 20
@@ -6805,7 +6805,7 @@ bookstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BookstoreBooks``
+   * - :ref:`procedural-distribution-BookstoreBooks`
      - 0
      - 99
      - -
@@ -6826,280 +6826,280 @@ bookstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BookstoreArt``
+   * - :ref:`procedural-distribution-BookstoreArt`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreAutomotive``
+   * - :ref:`procedural-distribution-BookstoreAutomotive`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreBiography``
+   * - :ref:`procedural-distribution-BookstoreBiography`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``BookstoreBlueCollar``
+   * - :ref:`procedural-distribution-BookstoreBlueCollar`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreBusiness``
+   * - :ref:`procedural-distribution-BookstoreBusiness`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreChilds``
+   * - :ref:`procedural-distribution-BookstoreChilds`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``BookstoreCinema``
+   * - :ref:`procedural-distribution-BookstoreCinema`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreComputer``
+   * - :ref:`procedural-distribution-BookstoreComputer`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreCooking``
+   * - :ref:`procedural-distribution-BookstoreCooking`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreCrafts``
+   * - :ref:`procedural-distribution-BookstoreCrafts`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreCrimeFiction``
+   * - :ref:`procedural-distribution-BookstoreCrimeFiction`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``BookstoreFantasySciFi``
+   * - :ref:`procedural-distribution-BookstoreFantasySciFi`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreFashion``
+   * - :ref:`procedural-distribution-BookstoreFashion`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreFarming``
+   * - :ref:`procedural-distribution-BookstoreFarming`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreGeneralReference``
+   * - :ref:`procedural-distribution-BookstoreGeneralReference`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``BookstoreHistory``
+   * - :ref:`procedural-distribution-BookstoreHistory`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``BookstoreHobbies``
+   * - :ref:`procedural-distribution-BookstoreHobbies`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreHorror``
+   * - :ref:`procedural-distribution-BookstoreHorror`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``BookstoreLegal``
+   * - :ref:`procedural-distribution-BookstoreLegal`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreLiteraryFiction``
+   * - :ref:`procedural-distribution-BookstoreLiteraryFiction`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreMedical``
+   * - :ref:`procedural-distribution-BookstoreMedical`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreMilitaryHistory``
+   * - :ref:`procedural-distribution-BookstoreMilitaryHistory`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreMusic``
+   * - :ref:`procedural-distribution-BookstoreMusic`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``BookstoreNewAge``
+   * - :ref:`procedural-distribution-BookstoreNewAge`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreNonFiction``
+   * - :ref:`procedural-distribution-BookstoreNonFiction`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreOccult``
+   * - :ref:`procedural-distribution-BookstoreOccult`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``BookstoreOutdoors``
+   * - :ref:`procedural-distribution-BookstoreOutdoors`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstorePhilosophy``
+   * - :ref:`procedural-distribution-BookstorePhilosophy`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstorePolitics``
+   * - :ref:`procedural-distribution-BookstorePolitics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreReligion``
+   * - :ref:`procedural-distribution-BookstoreReligion`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreRomance``
+   * - :ref:`procedural-distribution-BookstoreRomance`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``BookstoreSchoolTextbook``
+   * - :ref:`procedural-distribution-BookstoreSchoolTextbook`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BookstoreScience``
+   * - :ref:`procedural-distribution-BookstoreScience`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstorePersonal``
+   * - :ref:`procedural-distribution-BookstorePersonal`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreSports``
+   * - :ref:`procedural-distribution-BookstoreSports`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``BookstoreThriller``
+   * - :ref:`procedural-distribution-BookstoreThriller`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``BookstoreTravel``
+   * - :ref:`procedural-distribution-BookstoreTravel`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreWestern``
+   * - :ref:`procedural-distribution-BookstoreWestern`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``BookstoreMisc``
+   * - :ref:`procedural-distribution-BookstoreMisc`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -7122,7 +7122,7 @@ bookstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BookstoreBooks``
+   * - :ref:`procedural-distribution-BookstoreBooks`
      - 0
      - 99
      - -
@@ -7152,7 +7152,7 @@ bowlingalley
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -7167,14 +7167,14 @@ bowlingalley
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``BowlingAlleyLockers``
+   * - :ref:`procedural-distribution-BowlingAlleyLockers`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BowlingAlleyShoes``
+   * - :ref:`procedural-distribution-BowlingAlleyShoes`
      - 0
      - 99
      - 100
@@ -7195,7 +7195,7 @@ bowlingalley
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BowlingAlleyPins``
+   * - :ref:`procedural-distribution-BowlingAlleyPins`
      - 0
      - 99
      - -
@@ -7216,7 +7216,7 @@ bowlingalley
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BowlingAlleyShoes``
+   * - :ref:`procedural-distribution-BowlingAlleyShoes`
      - 0
      - 99
      - -
@@ -7241,14 +7241,14 @@ boxing
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBasketballs``
+   * - :ref:`procedural-distribution-CrateBasketballs`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CrateFoldingChairs``
+   * - :ref:`procedural-distribution-CrateFoldingChairs`
      - 0
      - 1
      - 20
@@ -7269,7 +7269,7 @@ boxing
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BoxingMemorabilia``
+   * - :ref:`procedural-distribution-BoxingMemorabilia`
      - 0
      - 99
      - -
@@ -7290,14 +7290,14 @@ boxing
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BoxingStorageGloves``
+   * - :ref:`procedural-distribution-BoxingStorageGloves`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BoxingStorageHelmets``
+   * - :ref:`procedural-distribution-BoxingStorageHelmets`
      - 0
      - 99
      - 100
@@ -7322,7 +7322,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -7343,7 +7343,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -7366,7 +7366,7 @@ breakroom
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BreakRoomCounter``
+   * - :ref:`procedural-distribution-BreakRoomCounter`
      - 0
      - 99
      - 100
@@ -7387,7 +7387,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeDesk``
+   * - :ref:`procedural-distribution-OfficeDesk`
      - 0
      - 99
      - -
@@ -7408,7 +7408,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FilingCabinetGeneric``
+   * - :ref:`procedural-distribution-FilingCabinetGeneric`
      - 0
      - 99
      - -
@@ -7429,7 +7429,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBreakRoom``
+   * - :ref:`procedural-distribution-FridgeBreakRoom`
      - 0
      - 99
      - -
@@ -7450,7 +7450,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FactoryLockers``
+   * - :ref:`procedural-distribution-FactoryLockers`
      - 0
      - 99
      - -
@@ -7468,7 +7468,7 @@ breakroom
        - warehouse
        - wirefactory
        - whiskeybottling
-   * - ``FireDeptLockers``
+   * - :ref:`procedural-distribution-FireDeptLockers`
      - 0
      - 99
      - -
@@ -7476,7 +7476,7 @@ breakroom
      - 
      - 
        - firestorage
-   * - ``GymLockers``
+   * - :ref:`procedural-distribution-GymLockers`
      - 0
      - 99
      - -
@@ -7485,7 +7485,7 @@ breakroom
      - 
        - fitness
        - gym
-   * - ``HospitalLockers``
+   * - :ref:`procedural-distribution-HospitalLockers`
      - 0
      - 99
      - -
@@ -7509,7 +7509,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreakRoomShelves``
+   * - :ref:`procedural-distribution-BreakRoomShelves`
      - 0
      - 99
      - -
@@ -7530,7 +7530,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreakRoomCounter``
+   * - :ref:`procedural-distribution-BreakRoomCounter`
      - 0
      - 99
      - -
@@ -7551,7 +7551,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreakRoomShelves``
+   * - :ref:`procedural-distribution-BreakRoomShelves`
      - 0
      - 99
      - -
@@ -7572,7 +7572,7 @@ breakroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -7597,35 +7597,35 @@ brewery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreweryBottles``
+   * - :ref:`procedural-distribution-BreweryBottles`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``BreweryCans``
+   * - :ref:`procedural-distribution-BreweryCans`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``BreweryHops``
+   * - :ref:`procedural-distribution-BreweryHops`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``BreweryEmptyBottles``
+   * - :ref:`procedural-distribution-BreweryEmptyBottles`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``BreweryEmptyCans``
+   * - :ref:`procedural-distribution-BreweryEmptyCans`
      - 0
      - 99
      - 100
@@ -7646,7 +7646,7 @@ brewery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreweryEmptyBottles``
+   * - :ref:`procedural-distribution-BreweryEmptyBottles`
      - 0
      - 99
      - -
@@ -7667,7 +7667,7 @@ brewery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreweryEmptyBottles``
+   * - :ref:`procedural-distribution-BreweryEmptyBottles`
      - 0
      - 99
      - -
@@ -7688,14 +7688,14 @@ brewery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreweryBottles``
+   * - :ref:`procedural-distribution-BreweryBottles`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BreweryCans``
+   * - :ref:`procedural-distribution-BreweryCans`
      - 0
      - 99
      - 100
@@ -7716,35 +7716,35 @@ brewery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreweryBottles``
+   * - :ref:`procedural-distribution-BreweryBottles`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``BreweryCans``
+   * - :ref:`procedural-distribution-BreweryCans`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``BreweryHops``
+   * - :ref:`procedural-distribution-BreweryHops`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``BreweryEmptyBottles``
+   * - :ref:`procedural-distribution-BreweryEmptyBottles`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``BreweryEmptyCans``
+   * - :ref:`procedural-distribution-BreweryEmptyCans`
      - 0
      - 99
      - 100
@@ -7769,14 +7769,14 @@ brewerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreweryBottles``
+   * - :ref:`procedural-distribution-BreweryBottles`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BreweryCans``
+   * - :ref:`procedural-distribution-BreweryCans`
      - 0
      - 99
      - 100
@@ -7797,14 +7797,14 @@ brewerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreweryBottles``
+   * - :ref:`procedural-distribution-BreweryBottles`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BreweryCans``
+   * - :ref:`procedural-distribution-BreweryCans`
      - 0
      - 99
      - 100
@@ -7829,21 +7829,21 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 20
@@ -7864,7 +7864,7 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -7879,7 +7879,7 @@ burgerkitchen
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -7902,21 +7902,21 @@ burgerkitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BurgerKitchenButcher``
+   * - :ref:`procedural-distribution-BurgerKitchenButcher`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``BurgerKitchenSauce``
+   * - :ref:`procedural-distribution-BurgerKitchenSauce`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``BurgerKitchenCutlery``
+   * - :ref:`procedural-distribution-BurgerKitchenCutlery`
      - 0
      - 99
      - 10
@@ -7937,21 +7937,21 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 20
@@ -7972,7 +7972,7 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BurgerKitchenFreezer``
+   * - :ref:`procedural-distribution-BurgerKitchenFreezer`
      - 0
      - 99
      - -
@@ -7993,7 +7993,7 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BurgerKitchenFridge``
+   * - :ref:`procedural-distribution-BurgerKitchenFridge`
      - 0
      - 99
      - -
@@ -8014,21 +8014,21 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 20
@@ -8049,21 +8049,21 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBurgers``
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 1
      - 99
      - 40
@@ -8084,21 +8084,21 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 20
@@ -8119,7 +8119,7 @@ burgerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoveSpiffos``
+   * - :ref:`procedural-distribution-StoveSpiffos`
      - 1
      - 99
      - -
@@ -8149,21 +8149,21 @@ butcher
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherSnacks``
+   * - :ref:`procedural-distribution-ButcherSnacks`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ButcherSpices``
+   * - :ref:`procedural-distribution-ButcherSpices`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ButcherTools``
+   * - :ref:`procedural-distribution-ButcherTools`
      - 0
      - 99
      - 100
@@ -8184,7 +8184,7 @@ butcher
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -8199,7 +8199,7 @@ butcher
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -8222,14 +8222,14 @@ butcher
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``ButcherTools``
+   * - :ref:`procedural-distribution-ButcherTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -8250,35 +8250,35 @@ butcher
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherChops``
+   * - :ref:`procedural-distribution-ButcherChops`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ButcherGround``
+   * - :ref:`procedural-distribution-ButcherGround`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ButcherChicken``
+   * - :ref:`procedural-distribution-ButcherChicken`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ButcherSmoked``
+   * - :ref:`procedural-distribution-ButcherSmoked`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ButcherFish``
+   * - :ref:`procedural-distribution-ButcherFish`
      - 1
      - 99
      - 20
@@ -8299,7 +8299,7 @@ butcher
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherFreezer``
+   * - :ref:`procedural-distribution-ButcherFreezer`
      - 0
      - 99
      - -
@@ -8320,7 +8320,7 @@ butcher
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherFreezer``
+   * - :ref:`procedural-distribution-ButcherFreezer`
      - 0
      - 99
      - -
@@ -8341,7 +8341,7 @@ butcher
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherTools``
+   * - :ref:`procedural-distribution-ButcherTools`
      - 0
      - 99
      - 100
@@ -8362,35 +8362,35 @@ butcher
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherLiterature``
+   * - :ref:`procedural-distribution-ButcherLiterature`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ButcherSnacks``
+   * - :ref:`procedural-distribution-ButcherSnacks`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ButcherSpices``
+   * - :ref:`procedural-distribution-ButcherSpices`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GrillAcessories``
+   * - :ref:`procedural-distribution-GrillAcessories`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -8417,7 +8417,7 @@ cabinetfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CabinetFactoryTools``
+   * - :ref:`procedural-distribution-CabinetFactoryTools`
      - 0
      - 99
      - -
@@ -8438,14 +8438,14 @@ cabinetfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CabinetFactoryTools``
+   * - :ref:`procedural-distribution-CabinetFactoryTools`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -8466,7 +8466,7 @@ cabinetfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CabinetFactoryTools``
+   * - :ref:`procedural-distribution-CabinetFactoryTools`
      - 0
      - 99
      - -
@@ -8491,7 +8491,7 @@ cabinetshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CabinetFactoryTools``
+   * - :ref:`procedural-distribution-CabinetFactoryTools`
      - 0
      - 99
      - -
@@ -8516,21 +8516,21 @@ cafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEspressoMachine``
+   * - :ref:`procedural-distribution-CrateEspressoMachine`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CafeKitchenSupplies``
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - 100
@@ -8551,7 +8551,7 @@ cafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -8566,7 +8566,7 @@ cafe
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -8589,7 +8589,7 @@ cafe
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - -
@@ -8604,21 +8604,21 @@ cafe
        - appliances_cooking_01_62
        - appliances_cooking_01_63
      - 
-   * - ``CafeKitchenSupplies``
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CafeCounterMix``
+   * - :ref:`procedural-distribution-CafeCounterMix`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - 100
@@ -8639,21 +8639,21 @@ cafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEspressoMachine``
+   * - :ref:`procedural-distribution-CrateEspressoMachine`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CafeKitchenSupplies``
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - 100
@@ -8674,14 +8674,14 @@ cafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 0
      - 99
      - 100
@@ -8702,7 +8702,7 @@ cafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeDiningFridge``
+   * - :ref:`procedural-distribution-CafeDiningFridge`
      - 0
      - 99
      - -
@@ -8723,7 +8723,7 @@ cafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeKitchenSupplies``
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
      - 0
      - 99
      - -
@@ -8744,14 +8744,14 @@ cafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 0
      - 99
      - 100
@@ -8772,7 +8772,7 @@ cafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeShelfBooks``
+   * - :ref:`procedural-distribution-CafeShelfBooks`
      - 0
      - 99
      - -
@@ -8787,7 +8787,7 @@ cafe
        - furniture_shelving_01_46
        - furniture_shelving_01_47
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 0
      - 99
      - 100
@@ -8812,21 +8812,21 @@ cafekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEspressoMachine``
+   * - :ref:`procedural-distribution-CrateEspressoMachine`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CafeKitchenSupplies``
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - 100
@@ -8847,7 +8847,7 @@ cafekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -8862,7 +8862,7 @@ cafekitchen
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -8885,7 +8885,7 @@ cafekitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - -
@@ -8900,14 +8900,14 @@ cafekitchen
        - appliances_cooking_01_62
        - appliances_cooking_01_63
      - 
-   * - ``CafeKitchenTea``
+   * - :ref:`procedural-distribution-CafeKitchenTea`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``CafeKitchenCoffee``
+   * - :ref:`procedural-distribution-CafeKitchenCoffee`
      - 0
      - 4
      - 100
@@ -8928,7 +8928,7 @@ cafekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeKitchenFridge``
+   * - :ref:`procedural-distribution-CafeKitchenFridge`
      - 0
      - 99
      - -
@@ -8949,7 +8949,7 @@ cafekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeKitchenSupplies``
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
      - 0
      - 2
      - 20
@@ -8970,14 +8970,14 @@ cafekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 0
      - 99
      - 100
@@ -8998,14 +8998,14 @@ cafekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeKitchenSupplies``
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - 100
@@ -9030,7 +9030,7 @@ cafeteria
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -9045,7 +9045,7 @@ cafeteria
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -9068,7 +9068,7 @@ cafeteria
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``CafeteriaTrays``
+   * - :ref:`procedural-distribution-CafeteriaTrays`
      - 0
      - 99
      - 100
@@ -9089,28 +9089,28 @@ cafeteria
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaSandwiches``
+   * - :ref:`procedural-distribution-CafeteriaSandwiches`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CafeteriaFruit``
+   * - :ref:`procedural-distribution-CafeteriaFruit`
      - 1
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CafeteriaDrinks``
+   * - :ref:`procedural-distribution-CafeteriaDrinks`
      - 1
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CafeteriaSnacks``
+   * - :ref:`procedural-distribution-CafeteriaSnacks`
      - 0
      - 99
      - 100
@@ -9131,7 +9131,7 @@ cafeteria
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaKitchenFreezer``
+   * - :ref:`procedural-distribution-CafeteriaKitchenFreezer`
      - 0
      - 99
      - -
@@ -9152,7 +9152,7 @@ cafeteria
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaKitchenFridge``
+   * - :ref:`procedural-distribution-CafeteriaKitchenFridge`
      - 0
      - 99
      - -
@@ -9173,28 +9173,28 @@ cafeteria
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaSandwiches``
+   * - :ref:`procedural-distribution-CafeteriaSandwiches`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CafeteriaSnacks``
+   * - :ref:`procedural-distribution-CafeteriaSnacks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CafeteriaDrinks``
+   * - :ref:`procedural-distribution-CafeteriaDrinks`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``CafeteriaFruit``
+   * - :ref:`procedural-distribution-CafeteriaFruit`
      - 0
      - 99
      - 100
@@ -9215,70 +9215,70 @@ cafeteria
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBurgers``
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayBurritos``
+   * - :ref:`procedural-distribution-ServingTrayBurritos`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFishFingers``
+   * - :ref:`procedural-distribution-ServingTrayFishFingers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayHotdogs``
+   * - :ref:`procedural-distribution-ServingTrayHotdogs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayTatoDots``
+   * - :ref:`procedural-distribution-ServingTrayTatoDots`
      - 0
      - 1
      - 100
@@ -9299,14 +9299,14 @@ cafeteria
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -9331,28 +9331,28 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CafeteriaTrays``
+   * - :ref:`procedural-distribution-CafeteriaTrays`
      - 0
      - 99
      - 100
@@ -9373,7 +9373,7 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaKitchenLaundry``
+   * - :ref:`procedural-distribution-CafeteriaKitchenLaundry`
      - 0
      - 99
      - -
@@ -9394,7 +9394,7 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaKitchenLaundry``
+   * - :ref:`procedural-distribution-CafeteriaKitchenLaundry`
      - 0
      - 99
      - -
@@ -9415,7 +9415,7 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaKitchenLaundry``
+   * - :ref:`procedural-distribution-CafeteriaKitchenLaundry`
      - 0
      - 99
      - -
@@ -9436,7 +9436,7 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -9451,7 +9451,7 @@ cafeteriakitchen
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -9474,56 +9474,56 @@ cafeteriakitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreKitchenBaking``
+   * - :ref:`procedural-distribution-StoreKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenButcher``
+   * - :ref:`procedural-distribution-StoreKitchenButcher`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenSauce``
+   * - :ref:`procedural-distribution-StoreKitchenSauce`
      - 0
      - 1
      - 100
@@ -9544,28 +9544,28 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CafeteriaTrays``
+   * - :ref:`procedural-distribution-CafeteriaTrays`
      - 0
      - 99
      - 100
@@ -9586,28 +9586,28 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaSandwiches``
+   * - :ref:`procedural-distribution-CafeteriaSandwiches`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CafeteriaFruit``
+   * - :ref:`procedural-distribution-CafeteriaFruit`
      - 1
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CafeteriaDrinks``
+   * - :ref:`procedural-distribution-CafeteriaDrinks`
      - 1
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CafeteriaSnacks``
+   * - :ref:`procedural-distribution-CafeteriaSnacks`
      - 0
      - 99
      - 100
@@ -9628,7 +9628,7 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaKitchenFreezer``
+   * - :ref:`procedural-distribution-CafeteriaKitchenFreezer`
      - 0
      - 99
      - -
@@ -9649,7 +9649,7 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaKitchenFridge``
+   * - :ref:`procedural-distribution-CafeteriaKitchenFridge`
      - 0
      - 99
      - -
@@ -9670,28 +9670,28 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CafeteriaSandwiches``
+   * - :ref:`procedural-distribution-CafeteriaSandwiches`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CafeteriaSnacks``
+   * - :ref:`procedural-distribution-CafeteriaSnacks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CafeteriaDrinks``
+   * - :ref:`procedural-distribution-CafeteriaDrinks`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``CafeteriaFruit``
+   * - :ref:`procedural-distribution-CafeteriaFruit`
      - 0
      - 99
      - 100
@@ -9712,28 +9712,28 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CafeteriaTrays``
+   * - :ref:`procedural-distribution-CafeteriaTrays`
      - 0
      - 99
      - 100
@@ -9754,70 +9754,70 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBurgers``
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayBurritos``
+   * - :ref:`procedural-distribution-ServingTrayBurritos`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFishFingers``
+   * - :ref:`procedural-distribution-ServingTrayFishFingers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayHotdogs``
+   * - :ref:`procedural-distribution-ServingTrayHotdogs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayTatoDots``
+   * - :ref:`procedural-distribution-ServingTrayTatoDots`
      - 0
      - 1
      - 100
@@ -9838,28 +9838,28 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CafeteriaTrays``
+   * - :ref:`procedural-distribution-CafeteriaTrays`
      - 0
      - 99
      - 100
@@ -9880,28 +9880,28 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CafeteriaTrays``
+   * - :ref:`procedural-distribution-CafeteriaTrays`
      - 0
      - 99
      - 100
@@ -9922,28 +9922,28 @@ cafeteriakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CafeteriaTrays``
+   * - :ref:`procedural-distribution-CafeteriaTrays`
      - 0
      - 99
      - 100
@@ -9968,7 +9968,7 @@ camerastore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -9983,7 +9983,7 @@ camerastore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -10004,7 +10004,7 @@ camerastore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CameraStoreDisplayCase``
+   * - :ref:`procedural-distribution-CameraStoreDisplayCase`
      - 0
      - 99
      - -
@@ -10025,14 +10025,14 @@ camerastore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CameraStoreShelves``
+   * - :ref:`procedural-distribution-CameraStoreShelves`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - 100
@@ -10059,70 +10059,70 @@ camping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreSleepingBags``
+   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreTents``
+   * - :ref:`procedural-distribution-CampingStoreTents`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreLighting``
+   * - :ref:`procedural-distribution-CampingStoreLighting`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreCases``
+   * - :ref:`procedural-distribution-CampingStoreCases`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreTools``
+   * - :ref:`procedural-distribution-CampingStoreTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 100
@@ -10143,14 +10143,14 @@ camping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 99
      - 100
@@ -10171,7 +10171,7 @@ camping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -10186,35 +10186,35 @@ camping
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CampingStoreBooks``
+   * - :ref:`procedural-distribution-CampingStoreBooks`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 100
@@ -10235,7 +10235,7 @@ camping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 0
      - 99
      - -
@@ -10256,70 +10256,70 @@ camping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreSleepingBags``
+   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreTents``
+   * - :ref:`procedural-distribution-CampingStoreTents`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreLighting``
+   * - :ref:`procedural-distribution-CampingStoreLighting`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreCases``
+   * - :ref:`procedural-distribution-CampingStoreCases`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreTools``
+   * - :ref:`procedural-distribution-CampingStoreTools`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 2
      - 5
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 1
      - 99
      - 100
@@ -10344,63 +10344,63 @@ campingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreSleepingBags``
+   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreTents``
+   * - :ref:`procedural-distribution-CampingStoreTents`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreLighting``
+   * - :ref:`procedural-distribution-CampingStoreLighting`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreTools``
+   * - :ref:`procedural-distribution-CampingStoreTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 100
@@ -10421,63 +10421,63 @@ campingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreSleepingBags``
+   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreTents``
+   * - :ref:`procedural-distribution-CampingStoreTents`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreLighting``
+   * - :ref:`procedural-distribution-CampingStoreLighting`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreTools``
+   * - :ref:`procedural-distribution-CampingStoreTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 100
@@ -10498,42 +10498,42 @@ campingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreTools``
+   * - :ref:`procedural-distribution-CampingStoreTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreBooks``
+   * - :ref:`procedural-distribution-CampingStoreBooks`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 100
@@ -10558,7 +10558,7 @@ campworkerdorm
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingLockers``
+   * - :ref:`procedural-distribution-CampingLockers`
      - 0
      - 99
      - -
@@ -10583,7 +10583,7 @@ candystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CandyStoreSnacks``
+   * - :ref:`procedural-distribution-CandyStoreSnacks`
      - 0
      - 99
      - -
@@ -10604,7 +10604,7 @@ candystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CandyStoreSnacks``
+   * - :ref:`procedural-distribution-CandyStoreSnacks`
      - 0
      - 99
      - -
@@ -10625,7 +10625,7 @@ candystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -10650,7 +10650,7 @@ candystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CandyStoreSnacks``
+   * - :ref:`procedural-distribution-CandyStoreSnacks`
      - 0
      - 99
      - -
@@ -10671,7 +10671,7 @@ candystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -10686,7 +10686,7 @@ candystore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -10709,14 +10709,14 @@ candystore
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``CandyStoreSnacks``
+   * - :ref:`procedural-distribution-CandyStoreSnacks`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -10737,7 +10737,7 @@ candystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CandyStoreSnacks``
+   * - :ref:`procedural-distribution-CandyStoreSnacks`
      - 0
      - 99
      - -
@@ -10758,7 +10758,7 @@ candystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CandyStoreSnacks``
+   * - :ref:`procedural-distribution-CandyStoreSnacks`
      - 0
      - 99
      - -
@@ -10779,7 +10779,7 @@ candystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -10800,7 +10800,7 @@ candystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - -
@@ -10821,14 +10821,14 @@ candystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CandyStoreSnacks``
+   * - :ref:`procedural-distribution-CandyStoreSnacks`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -10855,7 +10855,7 @@ captainoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeCounter``
+   * - :ref:`procedural-distribution-OfficeCounter`
      - 0
      - 99
      - -
@@ -10876,7 +10876,7 @@ captainoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceCaptainDesk``
+   * - :ref:`procedural-distribution-PoliceCaptainDesk`
      - 0
      - 99
      - -
@@ -10897,7 +10897,7 @@ captainoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceCaptainCabinet``
+   * - :ref:`procedural-distribution-PoliceCaptainCabinet`
      - 0
      - 99
      - -
@@ -10918,7 +10918,7 @@ captainoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -10939,7 +10939,7 @@ captainoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageGuns``
+   * - :ref:`procedural-distribution-PoliceStorageGuns`
      - 0
      - 99
      - -
@@ -10964,14 +10964,14 @@ cardealershipoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWaterDispenserBottle``
+   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - 100
@@ -10992,7 +10992,7 @@ cardealershipoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarDealerDesk``
+   * - :ref:`procedural-distribution-CarDealerDesk`
      - 0
      - 99
      - -
@@ -11013,7 +11013,7 @@ cardealershipoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarDealerFilingCabinet``
+   * - :ref:`procedural-distribution-CarDealerFilingCabinet`
      - 0
      - 99
      - -
@@ -11034,7 +11034,7 @@ cardealershipoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOffice``
+   * - :ref:`procedural-distribution-FridgeOffice`
      - 0
      - 99
      - -
@@ -11059,7 +11059,7 @@ Carpenter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarpenterTools``
+   * - :ref:`procedural-distribution-CarpenterTools`
      - 1
      - 4
      - -
@@ -11080,7 +11080,7 @@ Carpenter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarpenterTools``
+   * - :ref:`procedural-distribution-CarpenterTools`
      - 1
      - 4
      - -
@@ -11101,7 +11101,7 @@ Carpenter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarpenterTools``
+   * - :ref:`procedural-distribution-CarpenterTools`
      - 1
      - 4
      - -
@@ -11122,7 +11122,7 @@ Carpenter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarpenterOutfit``
+   * - :ref:`procedural-distribution-CarpenterOutfit`
      - 1
      - 1
      - -
@@ -11143,7 +11143,7 @@ Carpenter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarpenterTools``
+   * - :ref:`procedural-distribution-CarpenterTools`
      - 1
      - 4
      - -
@@ -11164,7 +11164,7 @@ Carpenter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarpenterTools``
+   * - :ref:`procedural-distribution-CarpenterTools`
      - 1
      - 4
      - -
@@ -11185,7 +11185,7 @@ Carpenter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarpenterOutfit``
+   * - :ref:`procedural-distribution-CarpenterOutfit`
      - 1
      - 2
      - -
@@ -11210,7 +11210,7 @@ carsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -11225,21 +11225,21 @@ carsupply
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CarSupplyGasCans``
+   * - :ref:`procedural-distribution-CarSupplyGasCans`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CarSupplyTools``
+   * - :ref:`procedural-distribution-CarSupplyTools`
      - 0
      - 99
      - 100
@@ -11260,210 +11260,210 @@ carsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarLightbars``
+   * - :ref:`procedural-distribution-CarLightbars`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarTiresModern1``
+   * - :ref:`procedural-distribution-CarTiresModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarTiresModern2``
+   * - :ref:`procedural-distribution-CarTiresModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarTiresModern3``
+   * - :ref:`procedural-distribution-CarTiresModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarTiresNormal1``
+   * - :ref:`procedural-distribution-CarTiresNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarTiresNormal2``
+   * - :ref:`procedural-distribution-CarTiresNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarTiresNormal3``
+   * - :ref:`procedural-distribution-CarTiresNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarMufflerModern1``
+   * - :ref:`procedural-distribution-CarMufflerModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarMufflerModern2``
+   * - :ref:`procedural-distribution-CarMufflerModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarMufflerModern3``
+   * - :ref:`procedural-distribution-CarMufflerModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarMufflerNormal1``
+   * - :ref:`procedural-distribution-CarMufflerNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarMufflerNormal2``
+   * - :ref:`procedural-distribution-CarMufflerNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarMufflerNormal3``
+   * - :ref:`procedural-distribution-CarMufflerNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarBrakesModern1``
+   * - :ref:`procedural-distribution-CarBrakesModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarBrakesModern2``
+   * - :ref:`procedural-distribution-CarBrakesModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarBrakesModern3``
+   * - :ref:`procedural-distribution-CarBrakesModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarBrakesNormal1``
+   * - :ref:`procedural-distribution-CarBrakesNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarBrakesNormal2``
+   * - :ref:`procedural-distribution-CarBrakesNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarBrakesNormal3``
+   * - :ref:`procedural-distribution-CarBrakesNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarSuspensionModern1``
+   * - :ref:`procedural-distribution-CarSuspensionModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarSuspensionModern2``
+   * - :ref:`procedural-distribution-CarSuspensionModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarSuspensionModern3``
+   * - :ref:`procedural-distribution-CarSuspensionModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarSuspensionNormal1``
+   * - :ref:`procedural-distribution-CarSuspensionNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarSuspensionNormal2``
+   * - :ref:`procedural-distribution-CarSuspensionNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarSuspensionNormal3``
+   * - :ref:`procedural-distribution-CarSuspensionNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarWindows1``
+   * - :ref:`procedural-distribution-CarWindows1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarWindows2``
+   * - :ref:`procedural-distribution-CarWindows2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarWindows3``
+   * - :ref:`procedural-distribution-CarWindows3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ToolCabinetMechanics``
+   * - :ref:`procedural-distribution-ToolCabinetMechanics`
      - 0
      - 99
      - 100
@@ -11484,119 +11484,119 @@ carsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarSupplyBatteries``
+   * - :ref:`procedural-distribution-CarSupplyBatteries`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CarSupplyGasCans``
+   * - :ref:`procedural-distribution-CarSupplyGasCans`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CarSupplyTools``
+   * - :ref:`procedural-distribution-CarSupplyTools`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``CarLightbars``
+   * - :ref:`procedural-distribution-CarLightbars`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarMufflerModern1``
+   * - :ref:`procedural-distribution-CarMufflerModern1`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CarMufflerModern2``
+   * - :ref:`procedural-distribution-CarMufflerModern2`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CarMufflerModern3``
+   * - :ref:`procedural-distribution-CarMufflerModern3`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarMufflerNormal1``
+   * - :ref:`procedural-distribution-CarMufflerNormal1`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CarMufflerNormal2``
+   * - :ref:`procedural-distribution-CarMufflerNormal2`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CarMufflerNormal3``
+   * - :ref:`procedural-distribution-CarMufflerNormal3`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CarTiresModern1``
+   * - :ref:`procedural-distribution-CarTiresModern1`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CarTiresModern2``
+   * - :ref:`procedural-distribution-CarTiresModern2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarTiresModern3``
+   * - :ref:`procedural-distribution-CarTiresModern3`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarTiresNormal1``
+   * - :ref:`procedural-distribution-CarTiresNormal1`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CarTiresNormal2``
+   * - :ref:`procedural-distribution-CarTiresNormal2`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CarTiresNormal3``
+   * - :ref:`procedural-distribution-CarTiresNormal3`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``GasStoreEmergency``
+   * - :ref:`procedural-distribution-GasStoreEmergency`
      - 1
      - 2
      - 10
@@ -11617,28 +11617,28 @@ carsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarSupplyBatteries``
+   * - :ref:`procedural-distribution-CarSupplyBatteries`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CarSupplyGasCans``
+   * - :ref:`procedural-distribution-CarSupplyGasCans`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CarSupplyLiterature``
+   * - :ref:`procedural-distribution-CarSupplyLiterature`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CarSupplyTools``
+   * - :ref:`procedural-distribution-CarSupplyTools`
      - 0
      - 99
      - 100
@@ -11659,7 +11659,7 @@ carsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolCabinetMechanics``
+   * - :ref:`procedural-distribution-ToolCabinetMechanics`
      - 0
      - 99
      - -
@@ -11684,7 +11684,7 @@ carsupplysport
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -11699,7 +11699,7 @@ carsupplysport
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``CarSupplyGloves``
+   * - :ref:`procedural-distribution-CarSupplyGloves`
      - 0
      - 99
      - 100
@@ -11720,35 +11720,35 @@ carsupplysport
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarSupplyBatteries``
+   * - :ref:`procedural-distribution-CarSupplyBatteries`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CarSupplyGasCans``
+   * - :ref:`procedural-distribution-CarSupplyGasCans`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CarSupplyLiterature``
+   * - :ref:`procedural-distribution-CarSupplyLiterature`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CarSupplyTools``
+   * - :ref:`procedural-distribution-CarSupplyTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GasStoreEmergency``
+   * - :ref:`procedural-distribution-GasStoreEmergency`
      - 1
      - 2
      - 10
@@ -11773,7 +11773,7 @@ catfish_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -11788,7 +11788,7 @@ catfish_dining
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - -
@@ -11819,7 +11819,7 @@ catfish_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -11842,42 +11842,42 @@ catfish_kitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``CatfishKitchenButcher``
+   * - :ref:`procedural-distribution-CatfishKitchenButcher`
      - 1
      - 1
      - 80
      - 
      - 
      - 
-   * - ``FishChipsKitchenSauce``
+   * - :ref:`procedural-distribution-FishChipsKitchenSauce`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -11898,7 +11898,7 @@ catfish_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CatfishKitchenFreezer``
+   * - :ref:`procedural-distribution-CatfishKitchenFreezer`
      - 0
      - 99
      - -
@@ -11919,7 +11919,7 @@ catfish_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CatfishKitchenFridge``
+   * - :ref:`procedural-distribution-CatfishKitchenFridge`
      - 0
      - 99
      - -
@@ -11940,7 +11940,7 @@ catfish_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayFishFried``
+   * - :ref:`procedural-distribution-ServingTrayFishFried`
      - 0
      - 99
      - -
@@ -11965,14 +11965,14 @@ catwalk
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - -
@@ -11995,14 +11995,14 @@ catwalk
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - -
@@ -12025,14 +12025,14 @@ catwalk
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - -
@@ -12059,7 +12059,7 @@ cdstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -12074,7 +12074,7 @@ cdstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -12095,7 +12095,7 @@ cdstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MusicStoreCDs``
+   * - :ref:`procedural-distribution-MusicStoreCDs`
      - 0
      - 99
      - -
@@ -12120,7 +12120,7 @@ changeroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 99
      - -
@@ -12141,7 +12141,7 @@ changeroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChangeroomCounters``
+   * - :ref:`procedural-distribution-ChangeroomCounters`
      - 0
      - 99
      - -
@@ -12162,7 +12162,7 @@ changeroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 0
      - 99
      - -
@@ -12183,7 +12183,7 @@ changeroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BoxingLockers``
+   * - :ref:`procedural-distribution-BoxingLockers`
      - 0
      - 99
      - -
@@ -12191,7 +12191,7 @@ changeroom
      - 
      - 
        - boxing
-   * - ``BowlingAlleyLockers``
+   * - :ref:`procedural-distribution-BowlingAlleyLockers`
      - 0
      - 99
      - -
@@ -12199,7 +12199,7 @@ changeroom
      - 
      - 
        - bowlingalley
-   * - ``FactoryLockers``
+   * - :ref:`procedural-distribution-FactoryLockers`
      - 0
      - 99
      - -
@@ -12217,7 +12217,7 @@ changeroom
        - warehouse
        - wirefactory
        - whiskeybottling
-   * - ``FireDeptLockers``
+   * - :ref:`procedural-distribution-FireDeptLockers`
      - 0
      - 99
      - -
@@ -12225,7 +12225,7 @@ changeroom
      - 
      - 
        - firestorage
-   * - ``GymLockers``
+   * - :ref:`procedural-distribution-GymLockers`
      - 0
      - 99
      - -
@@ -12234,7 +12234,7 @@ changeroom
      - 
        - fitness
        - gym
-   * - ``HospitalLockers``
+   * - :ref:`procedural-distribution-HospitalLockers`
      - 0
      - 99
      - -
@@ -12245,7 +12245,7 @@ changeroom
        - hospitalhallway
        - hospitalstorage
        - laboratory
-   * - ``HuntingLockers``
+   * - :ref:`procedural-distribution-HuntingLockers`
      - 0
      - 99
      - -
@@ -12253,7 +12253,7 @@ changeroom
      - 
      - 
        - hunting
-   * - ``Locker``
+   * - :ref:`procedural-distribution-Locker`
      - 0
      - 99
      - 100
@@ -12274,7 +12274,7 @@ changeroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 99
      - -
@@ -12299,7 +12299,7 @@ changeroomjockey
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JockeyLockers``
+   * - :ref:`procedural-distribution-JockeyLockers`
      - 0
      - 99
      - -
@@ -12324,7 +12324,7 @@ Chef
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChefTools``
+   * - :ref:`procedural-distribution-ChefTools`
      - 1
      - 4
      - -
@@ -12345,7 +12345,7 @@ Chef
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChefTools``
+   * - :ref:`procedural-distribution-ChefTools`
      - 1
      - 4
      - -
@@ -12366,7 +12366,7 @@ Chef
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChefTools``
+   * - :ref:`procedural-distribution-ChefTools`
      - 1
      - 4
      - -
@@ -12387,7 +12387,7 @@ Chef
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChefOutfit``
+   * - :ref:`procedural-distribution-ChefOutfit`
      - 1
      - 1
      - -
@@ -12408,7 +12408,7 @@ Chef
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChefTools``
+   * - :ref:`procedural-distribution-ChefTools`
      - 1
      - 4
      - -
@@ -12429,7 +12429,7 @@ Chef
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChefTools``
+   * - :ref:`procedural-distribution-ChefTools`
      - 1
      - 4
      - -
@@ -12450,7 +12450,7 @@ Chef
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChefOutfit``
+   * - :ref:`procedural-distribution-ChefOutfit`
      - 1
      - 2
      - -
@@ -12475,7 +12475,7 @@ chinesekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -12498,49 +12498,49 @@ chinesekitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``ChineseKitchenCutlery``
+   * - :ref:`procedural-distribution-ChineseKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ChineseKitchenBaking``
+   * - :ref:`procedural-distribution-ChineseKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ChineseKitchenButcher``
+   * - :ref:`procedural-distribution-ChineseKitchenButcher`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ChineseKitchenSauce``
+   * - :ref:`procedural-distribution-ChineseKitchenSauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -12561,28 +12561,28 @@ chinesekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateRice``
+   * - :ref:`procedural-distribution-CrateRice`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateSoysauce``
+   * - :ref:`procedural-distribution-CrateSoysauce`
      - 0
      - 1
      - 80
@@ -12603,7 +12603,7 @@ chinesekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChineseKitchenFreezer``
+   * - :ref:`procedural-distribution-ChineseKitchenFreezer`
      - 0
      - 99
      - 100
@@ -12624,7 +12624,7 @@ chinesekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ChineseKitchenFridge``
+   * - :ref:`procedural-distribution-ChineseKitchenFridge`
      - 0
      - 99
      - 100
@@ -12645,28 +12645,28 @@ chinesekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateRice``
+   * - :ref:`procedural-distribution-CrateRice`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateSoysauce``
+   * - :ref:`procedural-distribution-CrateSoysauce`
      - 0
      - 1
      - 80
@@ -12687,42 +12687,42 @@ chinesekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayMeatDumplings``
+   * - :ref:`procedural-distribution-ServingTrayMeatDumplings`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``ServingTraySpringRolls``
+   * - :ref:`procedural-distribution-ServingTraySpringRolls`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayMeatSteamBuns``
+   * - :ref:`procedural-distribution-ServingTrayMeatSteamBuns`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayTofuFried``
+   * - :ref:`procedural-distribution-ServingTrayTofuFried`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayNoodleSoup``
+   * - :ref:`procedural-distribution-ServingTrayNoodleSoup`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayShrimpDumplings``
+   * - :ref:`procedural-distribution-ServingTrayShrimpDumplings`
      - 1
      - 2
      - 100
@@ -12747,7 +12747,7 @@ chineserestaurant
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -12784,42 +12784,42 @@ chineserestaurant
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayMeatDumplings``
+   * - :ref:`procedural-distribution-ServingTrayMeatDumplings`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``ServingTraySpringRolls``
+   * - :ref:`procedural-distribution-ServingTraySpringRolls`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayMeatSteamBuns``
+   * - :ref:`procedural-distribution-ServingTrayMeatSteamBuns`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayTofuFried``
+   * - :ref:`procedural-distribution-ServingTrayTofuFried`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayNoodleSoup``
+   * - :ref:`procedural-distribution-ServingTrayNoodleSoup`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayShrimpDumplings``
+   * - :ref:`procedural-distribution-ServingTrayShrimpDumplings`
      - 1
      - 2
      - 100
@@ -12844,14 +12844,14 @@ classroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateSkeletonDisplay``
+   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateBooksSchool``
+   * - :ref:`procedural-distribution-CrateBooksSchool`
      - 0
      - 99
      - 100
@@ -12872,7 +12872,7 @@ classroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomMisc``
+   * - :ref:`procedural-distribution-ClassroomMisc`
      - 0
      - 99
      - -
@@ -12914,14 +12914,14 @@ classroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomShelves``
+   * - :ref:`procedural-distribution-ClassroomShelves`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 10
@@ -12942,7 +12942,7 @@ classroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomDesk``
+   * - :ref:`procedural-distribution-ClassroomDesk`
      - 0
      - 99
      - -
@@ -12963,7 +12963,7 @@ classroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomShelves``
+   * - :ref:`procedural-distribution-ClassroomShelves`
      - 0
      - 99
      - -
@@ -12988,7 +12988,7 @@ classroom_anthro
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``AnthropologyCounter``
+   * - :ref:`procedural-distribution-AnthropologyCounter`
      - 0
      - 99
      - -
@@ -13009,7 +13009,7 @@ classroom_anthro
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``UniversityDesk_Anthropology``
+   * - :ref:`procedural-distribution-UniversityDesk_Anthropology`
      - 0
      - 99
      - -
@@ -13030,21 +13030,21 @@ classroom_anthro
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``AnthropologyDisplayClothing``
+   * - :ref:`procedural-distribution-AnthropologyDisplayClothing`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``AnthropologyDisplayTools``
+   * - :ref:`procedural-distribution-AnthropologyDisplayTools`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``AnthropologyDisplayWeapons``
+   * - :ref:`procedural-distribution-AnthropologyDisplayWeapons`
      - 1
      - 1
      - 100
@@ -13065,7 +13065,7 @@ classroom_anthro
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``AnthropologyBooks``
+   * - :ref:`procedural-distribution-AnthropologyBooks`
      - 0
      - 99
      - -
@@ -13111,7 +13111,7 @@ classroom_medieval
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``UniversityDesk_Medieval``
+   * - :ref:`procedural-distribution-UniversityDesk_Medieval`
      - 0
      - 99
      - -
@@ -13188,7 +13188,7 @@ classroom_medieval
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedievalBooks``
+   * - :ref:`procedural-distribution-MedievalBooks`
      - 0
      - 99
      - -
@@ -13234,7 +13234,7 @@ classroom_pioneer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``UniversityDesk_Pioneer``
+   * - :ref:`procedural-distribution-UniversityDesk_Pioneer`
      - 0
      - 99
      - -
@@ -13315,7 +13315,7 @@ classroom_pottery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PotteryBooks``
+   * - :ref:`procedural-distribution-PotteryBooks`
      - 0
      - 99
      - -
@@ -13340,350 +13340,350 @@ closet
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``WallDecor``
+   * - :ref:`procedural-distribution-WallDecor`
      - 0
      - 1
      - 10
@@ -13704,56 +13704,56 @@ closet
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 100
@@ -13774,21 +13774,21 @@ closet
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClosetShelfGeneric``
+   * - :ref:`procedural-distribution-ClosetShelfGeneric`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClosetInstruments``
+   * - :ref:`procedural-distribution-ClosetInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClosetSportsEquipment``
+   * - :ref:`procedural-distribution-ClosetSportsEquipment`
      - 0
      - 1
      - 10
@@ -13809,273 +13809,273 @@ closet
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -14100,42 +14100,42 @@ clothingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStorageAllJackets``
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStorageAllShirts``
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ClothingStorageFootwear``
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStorageHeadwear``
+   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageLegwear``
+   * - :ref:`procedural-distribution-ClothingStorageLegwear`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 99
      - 100
@@ -14156,14 +14156,14 @@ clothingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStorageAllJackets``
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageAllShirts``
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
      - 0
      - 99
      - 100
@@ -14184,21 +14184,21 @@ clothingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStorageFootwear``
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStorageHeadwear``
+   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageLegwear``
+   * - :ref:`procedural-distribution-ClothingStorageLegwear`
      - 0
      - 99
      - 100
@@ -14223,77 +14223,77 @@ clothingstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresDress``
+   * - :ref:`procedural-distribution-ClothingStoresDress`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStoresJackets``
+   * - :ref:`procedural-distribution-ClothingStoresJackets`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresJacketsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresJumpers``
+   * - :ref:`procedural-distribution-ClothingStoresJumpers`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ClothingStoresOvershirts``
+   * - :ref:`procedural-distribution-ClothingStoresOvershirts`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ClothingStoresPants``
+   * - :ref:`procedural-distribution-ClothingStoresPants`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresPantsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresShirts``
+   * - :ref:`procedural-distribution-ClothingStoresShirts`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresShirtsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresSport``
+   * - :ref:`procedural-distribution-ClothingStoresSport`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresSummer``
+   * - :ref:`procedural-distribution-ClothingStoresSummer`
      - 0
      - 99
      - 40
@@ -14314,7 +14314,7 @@ clothingstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -14329,49 +14329,49 @@ clothingstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresGloves``
+   * - :ref:`procedural-distribution-ClothingStoresGloves`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresEyewear``
+   * - :ref:`procedural-distribution-ClothingStoresEyewear`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresHeadwear``
+   * - :ref:`procedural-distribution-ClothingStoresHeadwear`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ClothingStoresSocks``
+   * - :ref:`procedural-distribution-ClothingStoresSocks`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStoresUnderwearWoman``
+   * - :ref:`procedural-distribution-ClothingStoresUnderwearWoman`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStoresUnderwearMan``
+   * - :ref:`procedural-distribution-ClothingStoresUnderwearMan`
      - 0
      - 99
      - 20
@@ -14392,7 +14392,7 @@ clothingstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreDisplayWatches``
+   * - :ref:`procedural-distribution-StoreDisplayWatches`
      - 0
      - 99
      - -
@@ -14413,21 +14413,21 @@ clothingstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresBoots``
+   * - :ref:`procedural-distribution-ClothingStoresBoots`
      - 0
      - 99
      - 50
      - 
      - 
      - 
-   * - ``ClothingStoresShoes``
+   * - :ref:`procedural-distribution-ClothingStoresShoes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -14454,7 +14454,7 @@ cobbler
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLeather``
+   * - :ref:`procedural-distribution-CrateLeather`
      - 0
      - 99
      - -
@@ -14475,7 +14475,7 @@ cobbler
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CobblerTools``
+   * - :ref:`procedural-distribution-CobblerTools`
      - 0
      - 99
      - -
@@ -14496,7 +14496,7 @@ cobbler
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLeather``
+   * - :ref:`procedural-distribution-CrateLeather`
      - 0
      - 99
      - -
@@ -14521,14 +14521,14 @@ comicstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ComicStoreDisplayComics``
+   * - :ref:`procedural-distribution-ComicStoreDisplayComics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ComicStoreShelfComics``
+   * - :ref:`procedural-distribution-ComicStoreShelfComics`
      - 1
      - 99
      - 100
@@ -14553,14 +14553,14 @@ comicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ComicStoreCounter``
+   * - :ref:`procedural-distribution-ComicStoreCounter`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 99
      - 100
@@ -14581,21 +14581,21 @@ comicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ComicStoreDisplayBooks``
+   * - :ref:`procedural-distribution-ComicStoreDisplayBooks`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ComicStoreDisplayDice``
+   * - :ref:`procedural-distribution-ComicStoreDisplayDice`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ComicStoreDisplayComics``
+   * - :ref:`procedural-distribution-ComicStoreDisplayComics`
      - 1
      - 99
      - 100
@@ -14616,35 +14616,35 @@ comicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ComicStoreDisplayComics``
+   * - :ref:`procedural-distribution-ComicStoreDisplayComics`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ComicStoreShelfFantasy``
+   * - :ref:`procedural-distribution-ComicStoreShelfFantasy`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ComicStoreShelfSciFi``
+   * - :ref:`procedural-distribution-ComicStoreShelfSciFi`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ComicStoreShelfGames``
+   * - :ref:`procedural-distribution-ComicStoreShelfGames`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ComicStoreShelfComics``
+   * - :ref:`procedural-distribution-ComicStoreShelfComics`
      - 1
      - 99
      - 100
@@ -14665,35 +14665,35 @@ comicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ComicStoreShelfFantasy``
+   * - :ref:`procedural-distribution-ComicStoreShelfFantasy`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ComicStoreShelfSciFi``
+   * - :ref:`procedural-distribution-ComicStoreShelfSciFi`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ComicStoreShelfGames``
+   * - :ref:`procedural-distribution-ComicStoreShelfGames`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ComicStoreMagazines``
+   * - :ref:`procedural-distribution-ComicStoreMagazines`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ComicStoreShelfComics``
+   * - :ref:`procedural-distribution-ComicStoreShelfComics`
      - 0
      - 99
      - 100
@@ -14718,56 +14718,56 @@ construction
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -14788,56 +14788,56 @@ construction
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -14858,21 +14858,21 @@ construction
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -14897,7 +14897,7 @@ controlroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ControlRoomCounter``
+   * - :ref:`procedural-distribution-ControlRoomCounter`
      - 0
      - 99
      - 100
@@ -14922,7 +14922,7 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -14943,7 +14943,7 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ZippeeClothing``
+   * - :ref:`procedural-distribution-ZippeeClothing`
      - 0
      - 99
      - -
@@ -14964,7 +14964,7 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -14979,7 +14979,7 @@ conveniencestore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - -
@@ -14991,14 +14991,14 @@ conveniencestore
        - location_shop_fossoil_01_10
        - location_shop_fossoil_01_11
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterStrawsNapkins``
+   * - :ref:`procedural-distribution-StoreCounterStrawsNapkins`
      - 0
      - 99
      - -
@@ -15021,7 +15021,7 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -15046,28 +15046,28 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 0
      - 99
      - 60
@@ -15088,7 +15088,7 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - -
@@ -15109,7 +15109,7 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -15130,7 +15130,7 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
@@ -15153,7 +15153,7 @@ conveniencestore
        - location_entertainment_theatre_01_134
        - location_entertainment_theatre_01_135
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -15164,7 +15164,7 @@ conveniencestore
        - location_shop_generic_01_30
        - location_shop_generic_01_31
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -15173,14 +15173,14 @@ conveniencestore
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfMechanics``
+   * - :ref:`procedural-distribution-StoreShelfMechanics`
      - 0
      - 99
      - -
@@ -15189,14 +15189,14 @@ conveniencestore
        - location_shop_generic_01_3
        - location_shop_generic_01_4
      - 
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -15217,21 +15217,21 @@ conveniencestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackMaps``
+   * - :ref:`procedural-distribution-MagazineRackMaps`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 4
      - 40
@@ -15256,7 +15256,7 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -15277,7 +15277,7 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ZippeeClothing``
+   * - :ref:`procedural-distribution-ZippeeClothing`
      - 0
      - 99
      - -
@@ -15298,7 +15298,7 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -15313,7 +15313,7 @@ cornerstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - -
@@ -15329,7 +15329,7 @@ cornerstore
        - location_shop_fossoil_01_11
        - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 2
      - 100
@@ -15350,7 +15350,7 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -15371,35 +15371,35 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 0
      - 99
      - 20
@@ -15420,7 +15420,7 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -15445,28 +15445,28 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 1
      - 99
      - 60
@@ -15487,7 +15487,7 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - -
@@ -15508,7 +15508,7 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -15529,7 +15529,7 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
@@ -15552,7 +15552,7 @@ cornerstore
        - location_entertainment_theatre_01_134
        - location_entertainment_theatre_01_135
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -15563,7 +15563,7 @@ cornerstore
        - location_shop_generic_01_30
        - location_shop_generic_01_31
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -15572,14 +15572,14 @@ cornerstore
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfMechanics``
+   * - :ref:`procedural-distribution-StoreShelfMechanics`
      - 0
      - 99
      - -
@@ -15588,14 +15588,14 @@ cornerstore
        - location_shop_generic_01_3
        - location_shop_generic_01_4
      - 
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -15616,21 +15616,21 @@ cornerstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackMaps``
+   * - :ref:`procedural-distribution-MagazineRackMaps`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 4
      - 40
@@ -15655,7 +15655,7 @@ cornerstorecounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -15670,7 +15670,7 @@ cornerstorecounter
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 2
      - 100
@@ -15691,14 +15691,14 @@ cornerstorecounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 1
      - 99
      - 60
@@ -15719,7 +15719,7 @@ cornerstorecounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``TobaccoStoreCigarettes``
+   * - :ref:`procedural-distribution-TobaccoStoreCigarettes`
      - 0
      - 99
      - -
@@ -15740,14 +15740,14 @@ cornerstorecounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 99
      - 100
@@ -15772,7 +15772,7 @@ cornerstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -15793,7 +15793,7 @@ cornerstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -15818,7 +15818,7 @@ coroneroffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MorgueTools``
+   * - :ref:`procedural-distribution-MorgueTools`
      - 0
      - 99
      - -
@@ -15839,7 +15839,7 @@ coroneroffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - -
@@ -15860,7 +15860,7 @@ coroneroffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MorgueTools``
+   * - :ref:`procedural-distribution-MorgueTools`
      - 0
      - 99
      - -
@@ -15881,7 +15881,7 @@ coroneroffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MorgueTools``
+   * - :ref:`procedural-distribution-MorgueTools`
      - 0
      - 99
      - -
@@ -15906,7 +15906,7 @@ cybercafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CyberCafeDesk``
+   * - :ref:`procedural-distribution-CyberCafeDesk`
      - 0
      - 99
      - -
@@ -15927,7 +15927,7 @@ cybercafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CyberCafeFilingCabinet``
+   * - :ref:`procedural-distribution-CyberCafeFilingCabinet`
      - 0
      - 99
      - -
@@ -15948,7 +15948,7 @@ cybercafe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - -
@@ -15973,7 +15973,7 @@ dartgame
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -15988,7 +15988,7 @@ dartgame
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``CarnivalPrizes``
+   * - :ref:`procedural-distribution-CarnivalPrizes`
      - 0
      - 4
      - 100
@@ -16013,7 +16013,7 @@ daycare
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DaycareCounter``
+   * - :ref:`procedural-distribution-DaycareCounter`
      - 0
      - 99
      - -
@@ -16034,7 +16034,7 @@ daycare
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DaycareDesk``
+   * - :ref:`procedural-distribution-DaycareDesk`
      - 0
      - 99
      - -
@@ -16055,7 +16055,7 @@ daycare
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBreakRoom``
+   * - :ref:`procedural-distribution-FridgeBreakRoom`
      - 0
      - 99
      - -
@@ -16076,7 +16076,7 @@ daycare
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DaycareShelves``
+   * - :ref:`procedural-distribution-DaycareShelves`
      - 0
      - 99
      - -
@@ -16097,7 +16097,7 @@ daycare
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DaycareShelves``
+   * - :ref:`procedural-distribution-DaycareShelves`
      - 0
      - 99
      - -
@@ -16118,7 +16118,7 @@ daycare
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WardrobeChild``
+   * - :ref:`procedural-distribution-WardrobeChild`
      - 0
      - 99
      - -
@@ -16143,7 +16143,7 @@ deepfry_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -16166,84 +16166,84 @@ deepfry_kitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BurgerKitchenButcher``
+   * - :ref:`procedural-distribution-BurgerKitchenButcher`
      - 1
      - 1
      - 80
      - 
      - 
      - 
-   * - ``BurgerKitchenSauce``
+   * - :ref:`procedural-distribution-BurgerKitchenSauce`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``FishChipsKitchenButcher``
+   * - :ref:`procedural-distribution-FishChipsKitchenButcher`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``FishChipsKitchenSauce``
+   * - :ref:`procedural-distribution-FishChipsKitchenSauce`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``JaysKitchenBaking``
+   * - :ref:`procedural-distribution-JaysKitchenBaking`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``JaysKitchenButcher``
+   * - :ref:`procedural-distribution-JaysKitchenButcher`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``StoreKitchenBaking``
+   * - :ref:`procedural-distribution-StoreKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -16264,7 +16264,7 @@ deepfry_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DeepFryKitchenFreezer``
+   * - :ref:`procedural-distribution-DeepFryKitchenFreezer`
      - 0
      - 99
      - -
@@ -16285,7 +16285,7 @@ deepfry_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DeepFryKitchenFridge``
+   * - :ref:`procedural-distribution-DeepFryKitchenFridge`
      - 0
      - 99
      - -
@@ -16306,42 +16306,42 @@ deepfry_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCornflour``
+   * - :ref:`procedural-distribution-CrateCornflour`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateGravyMix``
+   * - :ref:`procedural-distribution-CrateGravyMix`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 80
@@ -16362,77 +16362,77 @@ deepfry_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBiscuits``
+   * - :ref:`procedural-distribution-ServingTrayBiscuits`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayCornbread``
+   * - :ref:`procedural-distribution-ServingTrayCornbread`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayFishFingers``
+   * - :ref:`procedural-distribution-ServingTrayFishFingers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFishFried``
+   * - :ref:`procedural-distribution-ServingTrayFishFried`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayOystersFried``
+   * - :ref:`procedural-distribution-ServingTrayOystersFried`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayShrimpFried``
+   * - :ref:`procedural-distribution-ServingTrayShrimpFried`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayTatoDots``
+   * - :ref:`procedural-distribution-ServingTrayTatoDots`
      - 0
      - 2
      - 100
@@ -16457,14 +16457,14 @@ dentist
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - 100
@@ -16485,14 +16485,14 @@ dentist
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalStorageTools``
+   * - :ref:`procedural-distribution-MedicalStorageTools`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``MedicalStorageDrugs``
+   * - :ref:`procedural-distribution-MedicalStorageDrugs`
      - 0
      - 99
      - 100
@@ -16513,7 +16513,7 @@ dentist
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 99
      - 100
@@ -16538,21 +16538,21 @@ dentiststorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalStorageDrugs``
+   * - :ref:`procedural-distribution-MedicalStorageDrugs`
      - 0
      - 6
      - 100
      - 
      - 
      - 
-   * - ``MedicalStorageTools``
+   * - :ref:`procedural-distribution-MedicalStorageTools`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``MedicalStorageOutfit``
+   * - :ref:`procedural-distribution-MedicalStorageOutfit`
      - 0
      - 2
      - 40
@@ -16577,49 +16577,49 @@ departmentstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageHeadwear``
+   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageFootwear``
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageAllJackets``
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ClothingStorageAllShirts``
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
      - 0
      - 2
      - 80
@@ -16640,49 +16640,49 @@ departmentstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageHeadwear``
+   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageFootwear``
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageAllJackets``
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ClothingStorageAllShirts``
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
      - 0
      - 2
      - 80
@@ -16703,56 +16703,56 @@ departmentstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStorageFootwear``
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageHeadwear``
+   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageLegwear``
+   * - :ref:`procedural-distribution-ClothingStorageLegwear`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``GigamartHousewares``
+   * - :ref:`procedural-distribution-GigamartHousewares`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``GigamartBedding``
+   * - :ref:`procedural-distribution-GigamartBedding`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``GigamartPots``
+   * - :ref:`procedural-distribution-GigamartPots`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``GigamartLightbulb``
+   * - :ref:`procedural-distribution-GigamartLightbulb`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``GigamartHouseElectronics``
+   * - :ref:`procedural-distribution-GigamartHouseElectronics`
      - 0
      - 4
      - 100
@@ -16777,77 +16777,77 @@ departmentstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresDress``
+   * - :ref:`procedural-distribution-ClothingStoresDress`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStoresJackets``
+   * - :ref:`procedural-distribution-ClothingStoresJackets`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresJacketsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresJumpers``
+   * - :ref:`procedural-distribution-ClothingStoresJumpers`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ClothingStoresOvershirts``
+   * - :ref:`procedural-distribution-ClothingStoresOvershirts`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ClothingStoresPants``
+   * - :ref:`procedural-distribution-ClothingStoresPants`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresPantsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresShirts``
+   * - :ref:`procedural-distribution-ClothingStoresShirts`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresShirtsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresSport``
+   * - :ref:`procedural-distribution-ClothingStoresSport`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresSummer``
+   * - :ref:`procedural-distribution-ClothingStoresSummer`
      - 0
      - 99
      - 40
@@ -16868,7 +16868,7 @@ departmentstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -16883,7 +16883,7 @@ departmentstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -16904,49 +16904,49 @@ departmentstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageHeadwear``
+   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageFootwear``
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageAllJackets``
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ClothingStorageAllShirts``
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
      - 0
      - 2
      - 80
@@ -16967,42 +16967,42 @@ departmentstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JewelrySilver``
+   * - :ref:`procedural-distribution-JewelrySilver`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``JewelryGold``
+   * - :ref:`procedural-distribution-JewelryGold`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``JewelryGems``
+   * - :ref:`procedural-distribution-JewelryGems`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``JewelryWeddingRings``
+   * - :ref:`procedural-distribution-JewelryWeddingRings`
      - 0
      - 8
      - 100
      - 
      - 
      - 
-   * - ``JewelryWrist``
+   * - :ref:`procedural-distribution-JewelryWrist`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``JewelryOthers``
+   * - :ref:`procedural-distribution-JewelryOthers`
      - 0
      - 99
      - 10
@@ -17023,21 +17023,21 @@ departmentstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresBoots``
+   * - :ref:`procedural-distribution-ClothingStoresBoots`
      - 0
      - 12
      - 50
      - 
      - 
      - 
-   * - ``ClothingStoresShoes``
+   * - :ref:`procedural-distribution-ClothingStoresShoes`
      - 0
      - 24
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -17064,35 +17064,35 @@ derelict
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DerelictHouseParty``
+   * - :ref:`procedural-distribution-DerelictHouseParty`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``DerelictHouseDrugs``
+   * - :ref:`procedural-distribution-DerelictHouseDrugs`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``DerelictHouseCrime``
+   * - :ref:`procedural-distribution-DerelictHouseCrime`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``DerelictHouseSquatter``
+   * - :ref:`procedural-distribution-DerelictHouseSquatter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``DerelictHouseJunk``
+   * - :ref:`procedural-distribution-DerelictHouseJunk`
      - 0
      - 99
      - 100
@@ -17113,7 +17113,7 @@ derelict
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DerelictHouseStove``
+   * - :ref:`procedural-distribution-DerelictHouseStove`
      - 0
      - 99
      - -
@@ -17138,14 +17138,14 @@ derelict_steelfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ToolFactoryIngots``
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
      - 0
      - 99
      - 100
@@ -17166,35 +17166,35 @@ derelict_steelfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DerelictHouseParty``
+   * - :ref:`procedural-distribution-DerelictHouseParty`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``DerelictHouseDrugs``
+   * - :ref:`procedural-distribution-DerelictHouseDrugs`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``DerelictHouseCrime``
+   * - :ref:`procedural-distribution-DerelictHouseCrime`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``DerelictHouseSquatter``
+   * - :ref:`procedural-distribution-DerelictHouseSquatter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``DerelictHouseJunk``
+   * - :ref:`procedural-distribution-DerelictHouseJunk`
      - 0
      - 99
      - 100
@@ -17219,7 +17219,7 @@ detectiveoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - -
@@ -17240,7 +17240,7 @@ detectiveoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreakRoomCounter``
+   * - :ref:`procedural-distribution-BreakRoomCounter`
      - 0
      - 99
      - -
@@ -17261,7 +17261,7 @@ detectiveoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceDesk``
+   * - :ref:`procedural-distribution-PoliceDesk`
      - 0
      - 99
      - -
@@ -17282,7 +17282,7 @@ detectiveoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -17307,7 +17307,7 @@ dinerbackroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -17330,7 +17330,7 @@ dinerbackroom
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``DinerBackRoomCounter``
+   * - :ref:`procedural-distribution-DinerBackRoomCounter`
      - 0
      - 1
      - 100
@@ -17355,7 +17355,7 @@ dinercounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -17378,7 +17378,7 @@ dinercounter
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 99
      - -
@@ -17389,7 +17389,7 @@ dinercounter
        - location_shop_accessories_01_12
        - location_shop_accessories_01_13
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - -
@@ -17404,21 +17404,21 @@ dinercounter
        - appliances_cooking_01_62
        - appliances_cooking_01_63
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``StoreKitchenTrays``
+   * - :ref:`procedural-distribution-StoreKitchenTrays`
      - 0
      - 2
      - 100
@@ -17439,7 +17439,7 @@ dinercounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DinerKitchenFreezer``
+   * - :ref:`procedural-distribution-DinerKitchenFreezer`
      - 0
      - 99
      - -
@@ -17460,7 +17460,7 @@ dinercounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DinerKitchenFridge``
+   * - :ref:`procedural-distribution-DinerKitchenFridge`
      - 0
      - 99
      - -
@@ -17485,7 +17485,7 @@ dinerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -17508,63 +17508,63 @@ dinerkitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreKitchenBaking``
+   * - :ref:`procedural-distribution-StoreKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenButcher``
+   * - :ref:`procedural-distribution-StoreKitchenButcher`
      - 1
      - 1
      - 80
      - 
      - 
      - 
-   * - ``StoreKitchenCafe``
+   * - :ref:`procedural-distribution-StoreKitchenCafe`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenSauce``
+   * - :ref:`procedural-distribution-StoreKitchenSauce`
      - 0
      - 1
      - 20
@@ -17585,49 +17585,49 @@ dinerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBunsHotdog``
+   * - :ref:`procedural-distribution-CrateBunsHotdog`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateGravyMix``
+   * - :ref:`procedural-distribution-CrateGravyMix`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 100
@@ -17648,21 +17648,21 @@ dinerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 100
@@ -17683,7 +17683,7 @@ dinerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DinerKitchenFreezer``
+   * - :ref:`procedural-distribution-DinerKitchenFreezer`
      - 0
      - 99
      - -
@@ -17704,7 +17704,7 @@ dinerkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DinerKitchenFridge``
+   * - :ref:`procedural-distribution-DinerKitchenFridge`
      - 0
      - 99
      - -
@@ -17729,7 +17729,7 @@ dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -17752,7 +17752,7 @@ dining
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BarCounterLiquor``
+   * - :ref:`procedural-distribution-BarCounterLiquor`
      - 0
      - 99
      - -
@@ -17783,7 +17783,7 @@ dining
        - location_restaurant_bar_01_62
        - location_restaurant_bar_01_63
      - 
-   * - ``RestaurantMenus``
+   * - :ref:`procedural-distribution-RestaurantMenus`
      - 0
      - 99
      - -
@@ -17812,112 +17812,112 @@ dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayBurgers``
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayBurritos``
+   * - :ref:`procedural-distribution-ServingTrayBurritos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayGravy``
+   * - :ref:`procedural-distribution-ServingTrayGravy`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayHotdogs``
+   * - :ref:`procedural-distribution-ServingTrayHotdogs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ServingTrayOmelettes``
+   * - :ref:`procedural-distribution-ServingTrayOmelettes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ServingTrayPancakes``
+   * - :ref:`procedural-distribution-ServingTrayPancakes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayPotatoPancakes``
+   * - :ref:`procedural-distribution-ServingTrayPotatoPancakes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayPie``
+   * - :ref:`procedural-distribution-ServingTrayPie`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ServingTrayScrambledEggs``
+   * - :ref:`procedural-distribution-ServingTrayScrambledEggs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayWaffles``
+   * - :ref:`procedural-distribution-ServingTrayWaffles`
      - 0
      - 1
      - 20
@@ -17938,7 +17938,7 @@ dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -17975,21 +17975,21 @@ dogfoodfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DogFoodFactoryBones``
+   * - :ref:`procedural-distribution-DogFoodFactoryBones`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``DogFoodFactoryBags``
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DogFoodFactoryCans``
+   * - :ref:`procedural-distribution-DogFoodFactoryCans`
      - 0
      - 99
      - 100
@@ -18010,7 +18010,7 @@ dogfoodfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DogFoodFactoryEquipment``
+   * - :ref:`procedural-distribution-DogFoodFactoryEquipment`
      - 0
      - 99
      - -
@@ -18031,14 +18031,14 @@ dogfoodfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DogFoodFactoryBags``
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DogFoodFactoryCans``
+   * - :ref:`procedural-distribution-DogFoodFactoryCans`
      - 0
      - 99
      - 100
@@ -18063,14 +18063,14 @@ dogfoodshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DogFoodFactoryBags``
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DogFoodFactoryCans``
+   * - :ref:`procedural-distribution-DogFoodFactoryCans`
      - 0
      - 99
      - 100
@@ -18091,14 +18091,14 @@ dogfoodshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DogFoodFactoryBags``
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DogFoodFactoryCans``
+   * - :ref:`procedural-distribution-DogFoodFactoryCans`
      - 0
      - 99
      - 100
@@ -18123,14 +18123,14 @@ dogfoodstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DogFoodFactoryBags``
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DogFoodFactoryCans``
+   * - :ref:`procedural-distribution-DogFoodFactoryCans`
      - 0
      - 99
      - 100
@@ -18151,14 +18151,14 @@ dogfoodstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DogFoodFactoryBags``
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DogFoodFactoryCans``
+   * - :ref:`procedural-distribution-DogFoodFactoryCans`
      - 0
      - 99
      - 100
@@ -18179,14 +18179,14 @@ dogfoodstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DogFoodFactoryBags``
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DogFoodFactoryCans``
+   * - :ref:`procedural-distribution-DogFoodFactoryCans`
      - 0
      - 99
      - 100
@@ -18211,7 +18211,7 @@ donut_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -18226,7 +18226,7 @@ donut_dining
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``CafeKitchenMugs``
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
      - 0
      - 99
      - -
@@ -18241,7 +18241,7 @@ donut_dining
        - appliances_cooking_01_62
        - appliances_cooking_01_63
      - 
-   * - ``StoreKitchenCafe``
+   * - :ref:`procedural-distribution-StoreKitchenCafe`
      - 1
      - 2
      - 100
@@ -18262,7 +18262,7 @@ donut_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 99
      - -
@@ -18283,7 +18283,7 @@ donut_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryDoughnuts``
+   * - :ref:`procedural-distribution-BakeryDoughnuts`
      - 1
      - 99
      - -
@@ -18308,7 +18308,7 @@ donut_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -18331,35 +18331,35 @@ donut_kitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BakeryKitchenBaking``
+   * - :ref:`procedural-distribution-BakeryKitchenBaking`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCafe``
+   * - :ref:`procedural-distribution-StoreKitchenCafe`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -18380,7 +18380,7 @@ donut_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenFreezer``
+   * - :ref:`procedural-distribution-BakeryKitchenFreezer`
      - 0
      - 99
      - -
@@ -18401,7 +18401,7 @@ donut_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenFridge``
+   * - :ref:`procedural-distribution-BakeryKitchenFridge`
      - 0
      - 99
      - -
@@ -18426,7 +18426,7 @@ donut_kitchenstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenFreezer``
+   * - :ref:`procedural-distribution-BakeryKitchenFreezer`
      - 0
      - 99
      - -
@@ -18447,7 +18447,7 @@ donut_kitchenstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenFridge``
+   * - :ref:`procedural-distribution-BakeryKitchenFridge`
      - 0
      - 99
      - -
@@ -18468,28 +18468,28 @@ donut_kitchenstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryKitchenStorage``
+   * - :ref:`procedural-distribution-BakeryKitchenStorage`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateSugar``
+   * - :ref:`procedural-distribution-CrateSugar`
      - 0
      - 1
      - 80
@@ -18514,42 +18514,42 @@ druglab
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugShackWeapons``
+   * - :ref:`procedural-distribution-DrugShackWeapons`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``DrugShackDrugs``
+   * - :ref:`procedural-distribution-DrugShackDrugs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``DrugShackTools``
+   * - :ref:`procedural-distribution-DrugShackTools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``DrugLabOutfit``
+   * - :ref:`procedural-distribution-DrugLabOutfit`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``DrugLabMoney``
+   * - :ref:`procedural-distribution-DrugLabMoney`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``DrugLabSupplies``
+   * - :ref:`procedural-distribution-DrugLabSupplies`
      - 1
      - 99
      - 100
@@ -18570,21 +18570,21 @@ druglab
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugLabGuns``
+   * - :ref:`procedural-distribution-DrugLabGuns`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``DrugLabMoney``
+   * - :ref:`procedural-distribution-DrugLabMoney`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``DrugLabSupplies``
+   * - :ref:`procedural-distribution-DrugLabSupplies`
      - 1
      - 99
      - 100
@@ -18605,7 +18605,7 @@ druglab
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugLabSupplies``
+   * - :ref:`procedural-distribution-DrugLabSupplies`
      - 1
      - 99
      - 100
@@ -18626,7 +18626,7 @@ druglab
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerDrugLab``
+   * - :ref:`procedural-distribution-FreezerDrugLab`
      - 0
      - 99
      - -
@@ -18647,7 +18647,7 @@ druglab
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeDrugLab``
+   * - :ref:`procedural-distribution-FridgeDrugLab`
      - 0
      - 99
      - -
@@ -18668,14 +18668,14 @@ druglab
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugLabMoney``
+   * - :ref:`procedural-distribution-DrugLabMoney`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``DrugLabGuns``
+   * - :ref:`procedural-distribution-DrugLabGuns`
      - 1
      - 99
      - 100
@@ -18696,35 +18696,35 @@ druglab
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugShackWeapons``
+   * - :ref:`procedural-distribution-DrugShackWeapons`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``DrugShackDrugs``
+   * - :ref:`procedural-distribution-DrugShackDrugs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``DrugShackTools``
+   * - :ref:`procedural-distribution-DrugShackTools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``DrugLabMoney``
+   * - :ref:`procedural-distribution-DrugLabMoney`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``DrugLabSupplies``
+   * - :ref:`procedural-distribution-DrugLabSupplies`
      - 0
      - 99
      - 100
@@ -18745,7 +18745,7 @@ druglab
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugLabOutfit``
+   * - :ref:`procedural-distribution-DrugLabOutfit`
      - 0
      - 99
      - -
@@ -18770,21 +18770,21 @@ drugshack
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugShackDrugs``
+   * - :ref:`procedural-distribution-DrugShackDrugs`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``DrugShackTools``
+   * - :ref:`procedural-distribution-DrugShackTools`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``DrugShackMisc``
+   * - :ref:`procedural-distribution-DrugShackMisc`
      - 1
      - 99
      - 100
@@ -18805,28 +18805,28 @@ drugshack
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugShackDrugs``
+   * - :ref:`procedural-distribution-DrugShackDrugs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``DrugShackTools``
+   * - :ref:`procedural-distribution-DrugShackTools`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``DrugShackWeapons``
+   * - :ref:`procedural-distribution-DrugShackWeapons`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``DrugShackMisc``
+   * - :ref:`procedural-distribution-DrugShackMisc`
      - 0
      - 99
      - 100
@@ -18847,28 +18847,28 @@ drugshack
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DrugShackDrugs``
+   * - :ref:`procedural-distribution-DrugShackDrugs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``DrugShackTools``
+   * - :ref:`procedural-distribution-DrugShackTools`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``DrugShackWeapons``
+   * - :ref:`procedural-distribution-DrugShackWeapons`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``DrugShackMisc``
+   * - :ref:`procedural-distribution-DrugShackMisc`
      - 0
      - 99
      - 100
@@ -18893,7 +18893,7 @@ duckshootgame
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -18908,7 +18908,7 @@ duckshootgame
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``CarnivalPrizes``
+   * - :ref:`procedural-distribution-CarnivalPrizes`
      - 0
      - 4
      - 100
@@ -18933,7 +18933,7 @@ eggstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEggs``
+   * - :ref:`procedural-distribution-CrateEggs`
      - 0
      - 99
      - -
@@ -18954,7 +18954,7 @@ eggstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEggs``
+   * - :ref:`procedural-distribution-CrateEggs`
      - 0
      - 99
      - -
@@ -18975,7 +18975,7 @@ eggstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEggs``
+   * - :ref:`procedural-distribution-CrateEggs`
      - 0
      - 99
      - -
@@ -19000,28 +19000,28 @@ electronicsstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ElectronicStoreCases``
+   * - :ref:`procedural-distribution-ElectronicStoreCases`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ElectronicStoreAppliances``
+   * - :ref:`procedural-distribution-ElectronicStoreAppliances`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``ElectronicStoreComputers``
+   * - :ref:`procedural-distribution-ElectronicStoreComputers`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``ElectronicStorePhones``
+   * - :ref:`procedural-distribution-ElectronicStorePhones`
      - 0
      - 4
      - 100
@@ -19046,49 +19046,49 @@ electronicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateGenerator``
+   * - :ref:`procedural-distribution-CrateGenerator`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateTV``
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ElectronicStoreCases``
+   * - :ref:`procedural-distribution-CrateTVWide`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ElectronicStoreCases`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ElectronicStoreAppliances``
+   * - :ref:`procedural-distribution-ElectronicStoreAppliances`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``ElectronicStoreComputers``
+   * - :ref:`procedural-distribution-ElectronicStoreComputers`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``ElectronicStorePhones``
+   * - :ref:`procedural-distribution-ElectronicStorePhones`
      - 0
      - 4
      - 100
@@ -19109,7 +19109,7 @@ electronicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -19140,42 +19140,42 @@ electronicstore
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ElectronicStoreLights``
+   * - :ref:`procedural-distribution-ElectronicStoreLights`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ElectronicStoreMusic``
+   * - :ref:`procedural-distribution-ElectronicStoreMusic`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ElectronicStorePhones``
+   * - :ref:`procedural-distribution-ElectronicStorePhones`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ElectronicStoreMagazines``
+   * - :ref:`procedural-distribution-ElectronicStoreMagazines`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ElectronicStoreMisc``
+   * - :ref:`procedural-distribution-ElectronicStoreMisc`
      - 0
      - 99
      - 100
@@ -19196,7 +19196,7 @@ electronicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreDisplayWatches``
+   * - :ref:`procedural-distribution-StoreDisplayWatches`
      - 0
      - 99
      - -
@@ -19217,7 +19217,7 @@ electronicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GeneratorRoom``
+   * - :ref:`procedural-distribution-GeneratorRoom`
      - 0
      - 99
      - -
@@ -19238,70 +19238,70 @@ electronicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ElectronicStoreCases``
+   * - :ref:`procedural-distribution-ElectronicStoreCases`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ElectronicStoreHAMRadio``
+   * - :ref:`procedural-distribution-ElectronicStoreHAMRadio`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ElectronicStoreLights``
+   * - :ref:`procedural-distribution-ElectronicStoreLights`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ElectronicStoreMusic``
+   * - :ref:`procedural-distribution-ElectronicStoreMusic`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ElectronicStoreAppliances``
+   * - :ref:`procedural-distribution-ElectronicStoreAppliances`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ElectronicStoreComputers``
+   * - :ref:`procedural-distribution-ElectronicStoreComputers`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ElectronicStorePhones``
+   * - :ref:`procedural-distribution-ElectronicStorePhones`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ElectronicStoreMagazines``
+   * - :ref:`procedural-distribution-ElectronicStoreMagazines`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ElectronicStoreMisc``
+   * - :ref:`procedural-distribution-ElectronicStoreMisc`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -19324,7 +19324,7 @@ electronicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ElectronicStoreMisc``
+   * - :ref:`procedural-distribution-ElectronicStoreMisc`
      - 0
      - 99
      - -
@@ -19349,14 +19349,14 @@ elementaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateSkeletonDisplay``
+   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateBooksSchool``
+   * - :ref:`procedural-distribution-CrateBooksSchool`
      - 0
      - 99
      - 100
@@ -19377,7 +19377,7 @@ elementaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomMisc``
+   * - :ref:`procedural-distribution-ClassroomMisc`
      - 0
      - 99
      - -
@@ -19398,14 +19398,14 @@ elementaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomShelves``
+   * - :ref:`procedural-distribution-ClassroomShelves`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 10
@@ -19426,7 +19426,7 @@ elementaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomDesk``
+   * - :ref:`procedural-distribution-ClassroomDesk`
      - 0
      - 99
      - -
@@ -19447,7 +19447,7 @@ elementaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomShelves``
+   * - :ref:`procedural-distribution-ClassroomShelves`
      - 0
      - 99
      - -
@@ -19468,14 +19468,14 @@ elementaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomShelves``
+   * - :ref:`procedural-distribution-ClassroomShelves`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 10
@@ -19500,14 +19500,14 @@ elementaryschool
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SchoolLockersBad``
+   * - :ref:`procedural-distribution-SchoolLockersBad`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SchoolLockers``
+   * - :ref:`procedural-distribution-SchoolLockers`
      - 0
      - 99
      - -
@@ -19537,7 +19537,7 @@ evidenceroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 99
      - -
@@ -19558,7 +19558,7 @@ evidenceroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -19579,7 +19579,7 @@ evidenceroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 99
      - -
@@ -19604,28 +19604,28 @@ factory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ToolFactoryHandles``
+   * - :ref:`procedural-distribution-ToolFactoryHandles`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ToolFactoryIngots``
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ToolFactorySawBlades``
+   * - :ref:`procedural-distribution-ToolFactorySawBlades`
      - 0
      - 99
      - 100
@@ -19646,7 +19646,7 @@ factory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactoryTools``
+   * - :ref:`procedural-distribution-ToolFactoryTools`
      - 0
      - 99
      - -
@@ -19667,28 +19667,28 @@ factory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ToolFactoryHandles``
+   * - :ref:`procedural-distribution-ToolFactoryHandles`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ToolFactoryIngots``
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ToolFactorySawBlades``
+   * - :ref:`procedural-distribution-ToolFactorySawBlades`
      - 0
      - 99
      - 100
@@ -19709,7 +19709,7 @@ factory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOffice``
+   * - :ref:`procedural-distribution-FridgeOffice`
      - 0
      - 99
      - -
@@ -19730,21 +19730,21 @@ factory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolFactoryHandles``
+   * - :ref:`procedural-distribution-ToolFactoryHandles`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolFactoryIngots``
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
      - 0
      - 99
      - 20
@@ -19765,7 +19765,7 @@ factory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactorySawBlades``
+   * - :ref:`procedural-distribution-ToolFactorySawBlades`
      - 0
      - 99
      - -
@@ -19790,14 +19790,14 @@ factorystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FactoryLockers``
+   * - :ref:`procedural-distribution-FactoryLockers`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MechanicShelfOutfit``
+   * - :ref:`procedural-distribution-MechanicShelfOutfit`
      - 0
      - 99
      - -
@@ -19823,7 +19823,7 @@ Farmer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FarmerTools``
+   * - :ref:`procedural-distribution-FarmerTools`
      - 1
      - 4
      - -
@@ -19844,7 +19844,7 @@ Farmer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FarmerTools``
+   * - :ref:`procedural-distribution-FarmerTools`
      - 1
      - 4
      - -
@@ -19865,7 +19865,7 @@ Farmer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FarmerOutfit``
+   * - :ref:`procedural-distribution-FarmerOutfit`
      - 1
      - 1
      - -
@@ -19886,7 +19886,7 @@ Farmer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FarmerTools``
+   * - :ref:`procedural-distribution-FarmerTools`
      - 1
      - 4
      - -
@@ -19907,7 +19907,7 @@ Farmer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FarmerTools``
+   * - :ref:`procedural-distribution-FarmerTools`
      - 1
      - 4
      - -
@@ -19928,7 +19928,7 @@ Farmer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FarmerOutfit``
+   * - :ref:`procedural-distribution-FarmerOutfit`
      - 1
      - 2
      - -
@@ -19953,28 +19953,28 @@ farmstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateAnimalFeed``
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ForestFireTools``
+   * - :ref:`procedural-distribution-ForestFireTools`
      - 0
      - 1
      - 5
@@ -19995,21 +19995,21 @@ farmstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ForestFireTools``
+   * - :ref:`procedural-distribution-ForestFireTools`
      - 0
      - 1
      - 5
@@ -20030,7 +20030,7 @@ farmstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolCabinetFarming``
+   * - :ref:`procedural-distribution-ToolCabinetFarming`
      - 0
      - 99
      - -
@@ -20055,7 +20055,7 @@ firegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinFireStation``
+   * - :ref:`procedural-distribution-BinFireStation`
      - 0
      - 99
      - -
@@ -20076,7 +20076,7 @@ firegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 99
      - -
@@ -20097,7 +20097,7 @@ firegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireStorageMechanics``
+   * - :ref:`procedural-distribution-FireStorageMechanics`
      - 0
      - 99
      - -
@@ -20118,7 +20118,7 @@ firegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireDeptLockers``
+   * - :ref:`procedural-distribution-FireDeptLockers`
      - 0
      - 99
      - -
@@ -20139,7 +20139,7 @@ firegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireStorageTools``
+   * - :ref:`procedural-distribution-FireStorageTools`
      - 0
      - 99
      - -
@@ -20160,7 +20160,7 @@ firegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireStorageMechanics``
+   * - :ref:`procedural-distribution-FireStorageMechanics`
      - 0
      - 99
      - -
@@ -20185,7 +20185,7 @@ firestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinFireStation``
+   * - :ref:`procedural-distribution-BinFireStation`
      - 0
      - 99
      - -
@@ -20206,14 +20206,14 @@ firestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireStorageTools``
+   * - :ref:`procedural-distribution-FireStorageTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FireStorageOutfit``
+   * - :ref:`procedural-distribution-FireStorageOutfit`
      - 0
      - 99
      - 40
@@ -20234,7 +20234,7 @@ firestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireDeptLockers``
+   * - :ref:`procedural-distribution-FireDeptLockers`
      - 0
      - 99
      - -
@@ -20255,14 +20255,14 @@ firestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireStorageTools``
+   * - :ref:`procedural-distribution-FireStorageTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FireStorageOutfit``
+   * - :ref:`procedural-distribution-FireStorageOutfit`
      - 0
      - 99
      - 40
@@ -20283,7 +20283,7 @@ firestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireStorageMechanics``
+   * - :ref:`procedural-distribution-FireStorageMechanics`
      - 0
      - 99
      - -
@@ -20308,7 +20308,7 @@ fishchipskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -20331,56 +20331,56 @@ fishchipskitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``FishChipsKitchenButcher``
+   * - :ref:`procedural-distribution-FishChipsKitchenButcher`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``FishChipsKitchenSauce``
+   * - :ref:`procedural-distribution-FishChipsKitchenSauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JaysKitchenBaking``
+   * - :ref:`procedural-distribution-JaysKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -20401,42 +20401,42 @@ fishchipskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCornflour``
+   * - :ref:`procedural-distribution-CrateCornflour`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateGravyMix``
+   * - :ref:`procedural-distribution-CrateGravyMix`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 80
@@ -20457,7 +20457,7 @@ fishchipskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FishChipsKitchenFreezer``
+   * - :ref:`procedural-distribution-FishChipsKitchenFreezer`
      - 0
      - 99
      - -
@@ -20478,7 +20478,7 @@ fishchipskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FishChipsKitchenFreezer``
+   * - :ref:`procedural-distribution-FishChipsKitchenFreezer`
      - 0
      - 99
      - -
@@ -20499,42 +20499,42 @@ fishchipskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCornflour``
+   * - :ref:`procedural-distribution-CrateCornflour`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateGravyMix``
+   * - :ref:`procedural-distribution-CrateGravyMix`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateYeast``
+   * - :ref:`procedural-distribution-CrateYeast`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 100
@@ -20555,28 +20555,28 @@ fishchipskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBiscuits``
+   * - :ref:`procedural-distribution-ServingTrayBiscuits`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayFish``
+   * - :ref:`procedural-distribution-ServingTrayFish`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayGravy``
+   * - :ref:`procedural-distribution-ServingTrayGravy`
      - 1
      - 2
      - 20
@@ -20601,14 +20601,14 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 99
      - 100
@@ -20629,7 +20629,7 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -20644,42 +20644,42 @@ fishingstorage
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CampingStoreBooks``
+   * - :ref:`procedural-distribution-CampingStoreBooks`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 12
      - 100
@@ -20700,14 +20700,14 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 99
      - 100
@@ -20728,7 +20728,7 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreKnives``
+   * - :ref:`procedural-distribution-GunStoreKnives`
      - 0
      - 99
      - -
@@ -20749,7 +20749,7 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FishingStoreBait``
+   * - :ref:`procedural-distribution-FishingStoreBait`
      - 0
      - 99
      - -
@@ -20770,7 +20770,7 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FishingStoreBait``
+   * - :ref:`procedural-distribution-FishingStoreBait`
      - 0
      - 99
      - -
@@ -20791,7 +20791,7 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FishingLockers``
+   * - :ref:`procedural-distribution-FishingLockers`
      - 0
      - 99
      - -
@@ -20812,14 +20812,14 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 99
      - 100
@@ -20840,21 +20840,21 @@ fishingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreTents``
+   * - :ref:`procedural-distribution-CampingStoreTents`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 99
      - 100
@@ -20884,7 +20884,7 @@ fossoil
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -20899,21 +20899,21 @@ fossoil
        - location_shop_accessories_01_12
        - location_shop_accessories_01_13
      - 
-   * - ``FossoilCounterCleaning``
+   * - :ref:`procedural-distribution-FossoilCounterCleaning`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -20942,7 +20942,7 @@ fossoil
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -20967,28 +20967,28 @@ fossoil
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 1
      - 99
      - 60
@@ -21009,28 +21009,28 @@ fossoil
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStoreEmergency``
+   * - :ref:`procedural-distribution-GasStoreEmergency`
      - 1
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GasStoreToiletries``
+   * - :ref:`procedural-distribution-GasStoreToiletries`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``GigamartCleaning``
+   * - :ref:`procedural-distribution-GigamartCleaning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
@@ -21053,7 +21053,7 @@ fossoil
        - location_entertainment_theatre_01_134
        - location_entertainment_theatre_01_135
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -21064,7 +21064,7 @@ fossoil
        - location_shop_generic_01_30
        - location_shop_generic_01_31
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -21073,14 +21073,14 @@ fossoil
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfMechanics``
+   * - :ref:`procedural-distribution-StoreShelfMechanics`
      - 0
      - 99
      - -
@@ -21089,14 +21089,14 @@ fossoil
        - location_shop_generic_01_3
        - location_shop_generic_01_4
      - 
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -21117,21 +21117,21 @@ fossoil
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackMaps``
+   * - :ref:`procedural-distribution-MagazineRackMaps`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 4
      - 40
@@ -21156,7 +21156,7 @@ fryshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 99
      - -
@@ -21181,273 +21181,273 @@ furniturestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWallpaper``
+   * - :ref:`procedural-distribution-CrateWallpaper`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateBlueComfyChair``
+   * - :ref:`procedural-distribution-CrateBlueComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBlueRattanChair``
+   * - :ref:`procedural-distribution-CrateBlueRattanChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBrownComfyChair``
+   * - :ref:`procedural-distribution-CrateBrownComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBrownLowTables``
+   * - :ref:`procedural-distribution-CrateBrownLowTables`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateChestFreezer``
+   * - :ref:`procedural-distribution-CrateChestFreezer`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateDarkBlueChairs``
+   * - :ref:`procedural-distribution-CrateDarkBlueChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateDarkWoodenChairs``
+   * - :ref:`procedural-distribution-CrateDarkWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyBlackChairs``
+   * - :ref:`procedural-distribution-CrateFancyBlackChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyDarkTables``
+   * - :ref:`procedural-distribution-CrateFancyDarkTables`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyLowTables``
+   * - :ref:`procedural-distribution-CrateFancyLowTables`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyToilets``
+   * - :ref:`procedural-distribution-CrateFancyToilets`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFancyWhiteChairs``
+   * - :ref:`procedural-distribution-CrateFancyWhiteChairs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateGreenChairs``
+   * - :ref:`procedural-distribution-CrateGreenChairs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateGreenComfyChair``
+   * - :ref:`procedural-distribution-CrateGreenComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateGreenOven``
+   * - :ref:`procedural-distribution-CrateGreenOven`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateGreyChairs``
+   * - :ref:`procedural-distribution-CrateGreyChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateGreyComfyChair``
+   * - :ref:`procedural-distribution-CrateGreyComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateGreyOven``
+   * - :ref:`procedural-distribution-CrateGreyOven`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateIndustrialSinks``
+   * - :ref:`procedural-distribution-CrateIndustrialSinks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateLightRoundTable``
+   * - :ref:`procedural-distribution-CrateLightRoundTable`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateMetalLockers``
+   * - :ref:`procedural-distribution-CrateMetalLockers`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateModernOven``
+   * - :ref:`procedural-distribution-CrateModernOven`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateOakRoundTable``
+   * - :ref:`procedural-distribution-CrateOakRoundTable`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateOfficeChairs``
+   * - :ref:`procedural-distribution-CrateOfficeChairs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateOrangeModernChair``
+   * - :ref:`procedural-distribution-CrateOrangeModernChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePurpleRattanChair``
+   * - :ref:`procedural-distribution-CratePurpleRattanChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePurpleWoodenChairs``
+   * - :ref:`procedural-distribution-CratePurpleWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRedChairs``
+   * - :ref:`procedural-distribution-CrateRedChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRedOven``
+   * - :ref:`procedural-distribution-CrateRedOven`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateRedWoodenChairs``
+   * - :ref:`procedural-distribution-CrateRedWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRoundTable``
+   * - :ref:`procedural-distribution-CrateRoundTable`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteComfyChair``
+   * - :ref:`procedural-distribution-CrateWhiteComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteSimpleChairs``
+   * - :ref:`procedural-distribution-CrateWhiteSimpleChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteSinks``
+   * - :ref:`procedural-distribution-CrateWhiteSinks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateWhiteWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenStools``
+   * - :ref:`procedural-distribution-CrateWoodenStools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateYellowModernChair``
+   * - :ref:`procedural-distribution-CrateYellowModernChair`
      - 0
      - 1
      - 20
@@ -21468,273 +21468,273 @@ furniturestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWallpaper``
+   * - :ref:`procedural-distribution-CrateWallpaper`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateBlueComfyChair``
+   * - :ref:`procedural-distribution-CrateBlueComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBlueRattanChair``
+   * - :ref:`procedural-distribution-CrateBlueRattanChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBrownComfyChair``
+   * - :ref:`procedural-distribution-CrateBrownComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBrownLowTables``
+   * - :ref:`procedural-distribution-CrateBrownLowTables`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateChestFreezer``
+   * - :ref:`procedural-distribution-CrateChestFreezer`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateDarkBlueChairs``
+   * - :ref:`procedural-distribution-CrateDarkBlueChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateDarkWoodenChairs``
+   * - :ref:`procedural-distribution-CrateDarkWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyBlackChairs``
+   * - :ref:`procedural-distribution-CrateFancyBlackChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyDarkTables``
+   * - :ref:`procedural-distribution-CrateFancyDarkTables`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyLowTables``
+   * - :ref:`procedural-distribution-CrateFancyLowTables`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyToilets``
+   * - :ref:`procedural-distribution-CrateFancyToilets`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFancyWhiteChairs``
+   * - :ref:`procedural-distribution-CrateFancyWhiteChairs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateGreenChairs``
+   * - :ref:`procedural-distribution-CrateGreenChairs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateGreenComfyChair``
+   * - :ref:`procedural-distribution-CrateGreenComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateGreenOven``
+   * - :ref:`procedural-distribution-CrateGreenOven`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateGreyChairs``
+   * - :ref:`procedural-distribution-CrateGreyChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateGreyComfyChair``
+   * - :ref:`procedural-distribution-CrateGreyComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateGreyOven``
+   * - :ref:`procedural-distribution-CrateGreyOven`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateIndustrialSinks``
+   * - :ref:`procedural-distribution-CrateIndustrialSinks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateLightRoundTable``
+   * - :ref:`procedural-distribution-CrateLightRoundTable`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateMetalLockers``
+   * - :ref:`procedural-distribution-CrateMetalLockers`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateModernOven``
+   * - :ref:`procedural-distribution-CrateModernOven`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateOakRoundTable``
+   * - :ref:`procedural-distribution-CrateOakRoundTable`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateOfficeChairs``
+   * - :ref:`procedural-distribution-CrateOfficeChairs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateOrangeModernChair``
+   * - :ref:`procedural-distribution-CrateOrangeModernChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePurpleRattanChair``
+   * - :ref:`procedural-distribution-CratePurpleRattanChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePurpleWoodenChairs``
+   * - :ref:`procedural-distribution-CratePurpleWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRedChairs``
+   * - :ref:`procedural-distribution-CrateRedChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRedOven``
+   * - :ref:`procedural-distribution-CrateRedOven`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateRedWoodenChairs``
+   * - :ref:`procedural-distribution-CrateRedWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRoundTable``
+   * - :ref:`procedural-distribution-CrateRoundTable`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteComfyChair``
+   * - :ref:`procedural-distribution-CrateWhiteComfyChair`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteSimpleChairs``
+   * - :ref:`procedural-distribution-CrateWhiteSimpleChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteSinks``
+   * - :ref:`procedural-distribution-CrateWhiteSinks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateWhiteWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenStools``
+   * - :ref:`procedural-distribution-CrateWoodenStools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateYellowModernChair``
+   * - :ref:`procedural-distribution-CrateYellowModernChair`
      - 0
      - 1
      - 20
@@ -21759,231 +21759,231 @@ furniturestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWallpaper``
+   * - :ref:`procedural-distribution-CrateWallpaper`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateBlueComfyChair``
+   * - :ref:`procedural-distribution-CrateBlueComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateBluePlasticChairs``
+   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateBlueRattanChair``
+   * - :ref:`procedural-distribution-CrateBlueRattanChair`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBrownComfyChair``
+   * - :ref:`procedural-distribution-CrateBrownComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateBrownLowTables``
+   * - :ref:`procedural-distribution-CrateBrownLowTables`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateDarkBlueChairs``
+   * - :ref:`procedural-distribution-CrateDarkBlueChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateDarkWoodenChairs``
+   * - :ref:`procedural-distribution-CrateDarkWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFancyBlackChairs``
+   * - :ref:`procedural-distribution-CrateFancyBlackChairs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateFancyDarkTables``
+   * - :ref:`procedural-distribution-CrateFancyDarkTables`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFancyLowTables``
+   * - :ref:`procedural-distribution-CrateFancyLowTables`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFancyWhiteChairs``
+   * - :ref:`procedural-distribution-CrateFancyWhiteChairs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateFoldingChairs``
+   * - :ref:`procedural-distribution-CrateFoldingChairs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateGreenChairs``
+   * - :ref:`procedural-distribution-CrateGreenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateGreenComfyChair``
+   * - :ref:`procedural-distribution-CrateGreenComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateGreyChairs``
+   * - :ref:`procedural-distribution-CrateGreyChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateGreyComfyChair``
+   * - :ref:`procedural-distribution-CrateGreyComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateLightRoundTable``
+   * - :ref:`procedural-distribution-CrateLightRoundTable`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateOakRoundTable``
+   * - :ref:`procedural-distribution-CrateOakRoundTable`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateOfficeChairs``
+   * - :ref:`procedural-distribution-CrateOfficeChairs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOrangeModernChair``
+   * - :ref:`procedural-distribution-CrateOrangeModernChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePlasticChairs``
+   * - :ref:`procedural-distribution-CratePlasticChairs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePurpleRattanChair``
+   * - :ref:`procedural-distribution-CratePurpleRattanChair`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePurpleWoodenChairs``
+   * - :ref:`procedural-distribution-CratePurpleWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateRedChairs``
+   * - :ref:`procedural-distribution-CrateRedChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateRedWoodenChairs``
+   * - :ref:`procedural-distribution-CrateRedWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateRoundTable``
+   * - :ref:`procedural-distribution-CrateRoundTable`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateWhiteComfyChair``
+   * - :ref:`procedural-distribution-CrateWhiteComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateWhiteSimpleChairs``
+   * - :ref:`procedural-distribution-CrateWhiteSimpleChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateWhiteWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateWoodenStools``
+   * - :ref:`procedural-distribution-CrateWoodenStools`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateYellowModernChair``
+   * - :ref:`procedural-distribution-CrateYellowModernChair`
      - 0
      - 1
      - 60
@@ -22004,294 +22004,294 @@ furniturestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWallpaper``
+   * - :ref:`procedural-distribution-CrateWallpaper`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateBlueComfyChair``
+   * - :ref:`procedural-distribution-CrateBlueComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateBluePlasticChairs``
+   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateBlueRattanChair``
+   * - :ref:`procedural-distribution-CrateBlueRattanChair`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBrownComfyChair``
+   * - :ref:`procedural-distribution-CrateBrownComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateBrownLowTables``
+   * - :ref:`procedural-distribution-CrateBrownLowTables`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateChromeSinks``
+   * - :ref:`procedural-distribution-CrateChromeSinks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateDarkBlueChairs``
+   * - :ref:`procedural-distribution-CrateDarkBlueChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateDarkWoodenChairs``
+   * - :ref:`procedural-distribution-CrateDarkWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFancyBlackChairs``
+   * - :ref:`procedural-distribution-CrateFancyBlackChairs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateFancyDarkTables``
+   * - :ref:`procedural-distribution-CrateFancyDarkTables`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFancyLowTables``
+   * - :ref:`procedural-distribution-CrateFancyLowTables`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFancyToilets``
+   * - :ref:`procedural-distribution-CrateFancyToilets`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFancyWhiteChairs``
+   * - :ref:`procedural-distribution-CrateFancyWhiteChairs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateFoldingChairs``
+   * - :ref:`procedural-distribution-CrateFoldingChairs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateGreenChairs``
+   * - :ref:`procedural-distribution-CrateGreenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateGreenComfyChair``
+   * - :ref:`procedural-distribution-CrateGreenComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateGreenOven``
+   * - :ref:`procedural-distribution-CrateGreenOven`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateGreyChairs``
+   * - :ref:`procedural-distribution-CrateGreyChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateGreyComfyChair``
+   * - :ref:`procedural-distribution-CrateGreyComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateGreyOven``
+   * - :ref:`procedural-distribution-CrateGreyOven`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateIndustrialSinks``
+   * - :ref:`procedural-distribution-CrateIndustrialSinks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateLightRoundTable``
+   * - :ref:`procedural-distribution-CrateLightRoundTable`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateMetalLockers``
+   * - :ref:`procedural-distribution-CrateMetalLockers`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateModernOven``
+   * - :ref:`procedural-distribution-CrateModernOven`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateOakRoundTable``
+   * - :ref:`procedural-distribution-CrateOakRoundTable`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateOfficeChairs``
+   * - :ref:`procedural-distribution-CrateOfficeChairs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOrangeModernChair``
+   * - :ref:`procedural-distribution-CrateOrangeModernChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePlasticChairs``
+   * - :ref:`procedural-distribution-CratePlasticChairs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePurpleRattanChair``
+   * - :ref:`procedural-distribution-CratePurpleRattanChair`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePurpleWoodenChairs``
+   * - :ref:`procedural-distribution-CratePurpleWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateRedChairs``
+   * - :ref:`procedural-distribution-CrateRedChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateRedOven``
+   * - :ref:`procedural-distribution-CrateRedOven`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRedWoodenChairs``
+   * - :ref:`procedural-distribution-CrateRedWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateRoundTable``
+   * - :ref:`procedural-distribution-CrateRoundTable`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateWhiteComfyChair``
+   * - :ref:`procedural-distribution-CrateWhiteComfyChair`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateWhiteSimpleChairs``
+   * - :ref:`procedural-distribution-CrateWhiteSimpleChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateWhiteSinks``
+   * - :ref:`procedural-distribution-CrateWhiteSinks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWoodenChairs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateWoodenStools``
+   * - :ref:`procedural-distribution-CrateWoodenStools`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateYellowModernChair``
+   * - :ref:`procedural-distribution-CrateYellowModernChair`
      - 0
      - 1
      - 60
@@ -22316,7 +22316,7 @@ furnitureworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - -
@@ -22337,14 +22337,14 @@ furnitureworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLeatherLarge``
+   * - :ref:`procedural-distribution-CrateLeatherLarge`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateLeather``
+   * - :ref:`procedural-distribution-CrateLeather`
      - 0
      - 99
      - 100
@@ -22365,7 +22365,7 @@ furnitureworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarpentryBooks``
+   * - :ref:`procedural-distribution-CarpentryBooks`
      - 0
      - 99
      - -
@@ -22386,7 +22386,7 @@ furnitureworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FurnitureFactoryTools``
+   * - :ref:`procedural-distribution-FurnitureFactoryTools`
      - 0
      - 99
      - -
@@ -22407,7 +22407,7 @@ furnitureworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FurnitureFactoryTools``
+   * - :ref:`procedural-distribution-FurnitureFactoryTools`
      - 0
      - 99
      - -
@@ -22432,7 +22432,7 @@ garage_ranger
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RangerStorageGuns``
+   * - :ref:`procedural-distribution-RangerStorageGuns`
      - 0
      - 99
      - -
@@ -22453,7 +22453,7 @@ garage_ranger
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GarageMechanics``
+   * - :ref:`procedural-distribution-GarageMechanics`
      - 0
      - 99
      - -
@@ -22478,553 +22478,553 @@ garagestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBlackBBQ``
+   * - :ref:`procedural-distribution-CrateBlackBBQ`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBlacksmithing``
+   * - :ref:`procedural-distribution-CrateBlacksmithing`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateBluePlasticChairs``
+   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateCannedFood``
+   * - :ref:`procedural-distribution-CrateCannedFood`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateCannedFoodSpoiled``
+   * - :ref:`procedural-distribution-CrateCannedFoodSpoiled`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateChestFreezer``
+   * - :ref:`procedural-distribution-CrateChestFreezer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFoldingChairs``
+   * - :ref:`procedural-distribution-CrateFoldingChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateGardening``
+   * - :ref:`procedural-distribution-CrateGardening`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateGravelBags``
+   * - :ref:`procedural-distribution-CrateGravelBags`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLimestoneCrushed``
+   * - :ref:`procedural-distribution-CrateLimestoneCrushed`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMasonry``
+   * - :ref:`procedural-distribution-CrateMasonry`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePlasticChairs``
+   * - :ref:`procedural-distribution-CratePlasticChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateRedBBQ``
+   * - :ref:`procedural-distribution-CrateRedBBQ`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateSandBags``
+   * - :ref:`procedural-distribution-CrateSandBags`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateWhiteWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenStools``
+   * - :ref:`procedural-distribution-CrateWoodenStools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``WallDecor``
+   * - :ref:`procedural-distribution-WallDecor`
      - 0
      - 1
      - 10
@@ -23045,28 +23045,28 @@ garagestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GarageCarpentry``
+   * - :ref:`procedural-distribution-GarageCarpentry`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageMechanics``
+   * - :ref:`procedural-distribution-GarageMechanics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageMetalwork``
+   * - :ref:`procedural-distribution-GarageMetalwork`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageTools``
+   * - :ref:`procedural-distribution-GarageTools`
      - 0
      - 99
      - 20
@@ -23087,224 +23087,224 @@ garagestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateAntiqueStove``
+   * - :ref:`procedural-distribution-CrateAntiqueStove`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateBlackBBQ``
+   * - :ref:`procedural-distribution-CrateBlackBBQ`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBlacksmithing``
+   * - :ref:`procedural-distribution-CrateBlacksmithing`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateBluePlasticChairs``
+   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFoldingChairs``
+   * - :ref:`procedural-distribution-CrateFoldingChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateGardening``
+   * - :ref:`procedural-distribution-CrateGardening`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateGravelBags``
+   * - :ref:`procedural-distribution-CrateGravelBags`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateLimestoneCrushed``
+   * - :ref:`procedural-distribution-CrateLimestoneCrushed`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateMasonry``
+   * - :ref:`procedural-distribution-CrateMasonry`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePlasticChairs``
+   * - :ref:`procedural-distribution-CratePlasticChairs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateRedBBQ``
+   * - :ref:`procedural-distribution-CrateRedBBQ`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateSandBags``
+   * - :ref:`procedural-distribution-CrateSandBags`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateWhiteWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenStools``
+   * - :ref:`procedural-distribution-CrateWoodenStools`
      - 0
      - 1
      - 20
@@ -23325,14 +23325,14 @@ garagestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerGarage``
+   * - :ref:`procedural-distribution-FreezerGarage`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 20
@@ -23353,14 +23353,14 @@ garagestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeGarage``
+   * - :ref:`procedural-distribution-FridgeGarage`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 20
@@ -23381,7 +23381,7 @@ garagestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FireDeptLockers``
+   * - :ref:`procedural-distribution-FireDeptLockers`
      - 0
      - 99
      - -
@@ -23389,14 +23389,14 @@ garagestorage
      - 
      - 
        - firestorage
-   * - ``GarageFirearms``
+   * - :ref:`procedural-distribution-GarageFirearms`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GarageTools``
+   * - :ref:`procedural-distribution-GarageTools`
      - 0
      - 99
      - 100
@@ -23417,35 +23417,35 @@ garagestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GarageCarpentry``
+   * - :ref:`procedural-distribution-GarageCarpentry`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageMechanics``
+   * - :ref:`procedural-distribution-GarageMechanics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageMetalwork``
+   * - :ref:`procedural-distribution-GarageMetalwork`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageTools``
+   * - :ref:`procedural-distribution-GarageTools`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ToolStoreBooks``
+   * - :ref:`procedural-distribution-ToolStoreBooks`
      - 0
      - 1
      - 5
@@ -23466,301 +23466,301 @@ garagestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles1``
+   * - :ref:`procedural-distribution-CrateEmptyBottles1`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateEmptyMixed``
+   * - :ref:`procedural-distribution-CrateEmptyMixed`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateEmptyTinCans``
+   * - :ref:`procedural-distribution-CrateEmptyTinCans`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -23785,14 +23785,14 @@ gardenstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 99
      - 100
@@ -23813,7 +23813,7 @@ gardenstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -23828,14 +23828,14 @@ gardenstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GardenStoreMisc``
+   * - :ref:`procedural-distribution-GardenStoreMisc`
      - 0
      - 99
      - 100
@@ -23856,63 +23856,63 @@ gardenstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateAnimalFeed``
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateGravelBags``
+   * - :ref:`procedural-distribution-CrateGravelBags`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateLargeStone``
+   * - :ref:`procedural-distribution-CrateLargeStone`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CrateLimestoneCrushed``
+   * - :ref:`procedural-distribution-CrateLimestoneCrushed`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateSandBags``
+   * - :ref:`procedural-distribution-CrateSandBags`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateStoneBlocks``
+   * - :ref:`procedural-distribution-CrateStoneBlocks`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``GardenStoreTools``
+   * - :ref:`procedural-distribution-GardenStoreTools`
      - 0
      - 99
      - 100
@@ -23933,56 +23933,56 @@ gardenstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateAnimalFeed``
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CrateGravelBags``
+   * - :ref:`procedural-distribution-CrateGravelBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateSandBags``
+   * - :ref:`procedural-distribution-CrateSandBags`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateStoneBlocks``
+   * - :ref:`procedural-distribution-CrateStoneBlocks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``GardenStoreTools``
+   * - :ref:`procedural-distribution-GardenStoreTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GardenStoreMisc``
+   * - :ref:`procedural-distribution-GardenStoreMisc`
      - 0
      - 99
      - 100
@@ -24003,56 +24003,56 @@ gardenstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateAnimalFeed``
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CrateGravelBags``
+   * - :ref:`procedural-distribution-CrateGravelBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateSandBags``
+   * - :ref:`procedural-distribution-CrateSandBags`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateStoneBlocks``
+   * - :ref:`procedural-distribution-CrateStoneBlocks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``GardenStoreTools``
+   * - :ref:`procedural-distribution-GardenStoreTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GardenStoreMisc``
+   * - :ref:`procedural-distribution-GardenStoreMisc`
      - 0
      - 99
      - 100
@@ -24077,7 +24077,7 @@ gas2go
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -24092,21 +24092,21 @@ gas2go
        - location_shop_accessories_01_12
        - location_shop_accessories_01_13
      - 
-   * - ``Gas2GoCounterCleaning``
+   * - :ref:`procedural-distribution-Gas2GoCounterCleaning`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -24135,7 +24135,7 @@ gas2go
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -24160,28 +24160,28 @@ gas2go
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 1
      - 99
      - 60
@@ -24202,28 +24202,28 @@ gas2go
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStoreEmergency``
+   * - :ref:`procedural-distribution-GasStoreEmergency`
      - 1
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GasStoreToiletries``
+   * - :ref:`procedural-distribution-GasStoreToiletries`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``GigamartCleaning``
+   * - :ref:`procedural-distribution-GigamartCleaning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
@@ -24246,7 +24246,7 @@ gas2go
        - location_entertainment_theatre_01_134
        - location_entertainment_theatre_01_135
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -24257,7 +24257,7 @@ gas2go
        - location_shop_generic_01_30
        - location_shop_generic_01_31
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -24266,14 +24266,14 @@ gas2go
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfMechanics``
+   * - :ref:`procedural-distribution-StoreShelfMechanics`
      - 0
      - 99
      - -
@@ -24282,14 +24282,14 @@ gas2go
        - location_shop_generic_01_3
        - location_shop_generic_01_4
      - 
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -24310,21 +24310,21 @@ gas2go
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackMaps``
+   * - :ref:`procedural-distribution-MagazineRackMaps`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 4
      - 40
@@ -24349,14 +24349,14 @@ gasstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageMechanics``
+   * - :ref:`procedural-distribution-GasStorageMechanics`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - 80
@@ -24377,14 +24377,14 @@ gasstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``JanitorCleaning``
+   * - :ref:`procedural-distribution-JanitorCleaning`
      - 0
      - 1
      - -
@@ -24407,14 +24407,14 @@ gasstorage
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``JanitorMisc``
+   * - :ref:`procedural-distribution-JanitorMisc`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorTools``
+   * - :ref:`procedural-distribution-JanitorTools`
      - 0
      - 1
      - 100
@@ -24435,14 +24435,14 @@ gasstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageMechanics``
+   * - :ref:`procedural-distribution-GasStorageMechanics`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - 80
@@ -24463,14 +24463,14 @@ gasstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageMechanics``
+   * - :ref:`procedural-distribution-GasStorageMechanics`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - 80
@@ -24495,7 +24495,7 @@ gasstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -24510,21 +24510,21 @@ gasstore
        - location_shop_accessories_01_12
        - location_shop_accessories_01_13
      - 
-   * - ``GasStoreCounterCleaning``
+   * - :ref:`procedural-distribution-GasStoreCounterCleaning`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -24539,7 +24539,7 @@ gasstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``GasStoreSpecial``
+   * - :ref:`procedural-distribution-GasStoreSpecial`
      - 0
      - 1
      - 10
@@ -24560,7 +24560,7 @@ gasstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -24585,28 +24585,28 @@ gasstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 1
      - 99
      - 60
@@ -24627,28 +24627,28 @@ gasstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStoreEmergency``
+   * - :ref:`procedural-distribution-GasStoreEmergency`
      - 1
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GasStoreToiletries``
+   * - :ref:`procedural-distribution-GasStoreToiletries`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``GigamartCleaning``
+   * - :ref:`procedural-distribution-GigamartCleaning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
@@ -24671,7 +24671,7 @@ gasstore
        - location_entertainment_theatre_01_134
        - location_entertainment_theatre_01_135
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -24682,7 +24682,7 @@ gasstore
        - location_shop_generic_01_30
        - location_shop_generic_01_31
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -24691,14 +24691,14 @@ gasstore
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfMechanics``
+   * - :ref:`procedural-distribution-StoreShelfMechanics`
      - 0
      - 99
      - -
@@ -24707,14 +24707,14 @@ gasstore
        - location_shop_generic_01_3
        - location_shop_generic_01_4
      - 
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -24735,21 +24735,21 @@ gasstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackMaps``
+   * - :ref:`procedural-distribution-MagazineRackMaps`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 4
      - 40
@@ -24770,14 +24770,14 @@ gasstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``GasStorageMechanics``
+   * - :ref:`procedural-distribution-GasStorageMechanics`
      - 1
      - 99
      - 100
@@ -24802,35 +24802,35 @@ generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCigarettes``
+   * - :ref:`procedural-distribution-CrateCigarettes`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``GigamartCrisps``
+   * - :ref:`procedural-distribution-GigamartCrisps`
      - 0
      - 99
      - 25
      - 
      - 
      - 
-   * - ``GigamartCandy``
+   * - :ref:`procedural-distribution-GigamartCandy`
      - 0
      - 99
      - 25
      - 
      - 
      - 
-   * - ``GigamartCannedFood``
+   * - :ref:`procedural-distribution-GigamartCannedFood`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartSauce``
+   * - :ref:`procedural-distribution-GigamartSauce`
      - 0
      - 99
      - 10
@@ -24851,7 +24851,7 @@ generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -24866,7 +24866,7 @@ generalstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -24887,35 +24887,35 @@ generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCigarettes``
+   * - :ref:`procedural-distribution-CrateCigarettes`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``GigamartCrisps``
+   * - :ref:`procedural-distribution-GigamartCrisps`
      - 0
      - 99
      - 25
      - 
      - 
      - 
-   * - ``GigamartCandy``
+   * - :ref:`procedural-distribution-GigamartCandy`
      - 0
      - 99
      - 25
      - 
      - 
      - 
-   * - ``GigamartCannedFood``
+   * - :ref:`procedural-distribution-GigamartCannedFood`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartSauce``
+   * - :ref:`procedural-distribution-GigamartSauce`
      - 0
      - 99
      - 10
@@ -24936,28 +24936,28 @@ generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 1
      - 99
      - 60
@@ -24978,14 +24978,14 @@ generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartTools``
+   * - :ref:`procedural-distribution-GigamartTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartFarming``
+   * - :ref:`procedural-distribution-GigamartFarming`
      - 0
      - 99
      - 100
@@ -25006,140 +25006,140 @@ generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartBakingMisc``
+   * - :ref:`procedural-distribution-GigamartBakingMisc`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``GigamartBedding``
+   * - :ref:`procedural-distribution-GigamartBedding`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GigamartBottles``
+   * - :ref:`procedural-distribution-GigamartBottles`
      - 2
      - 4
      - 60
      - 
      - 
      - 
-   * - ``GigamartCandy``
+   * - :ref:`procedural-distribution-GigamartCandy`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``GigamartCannedFood``
+   * - :ref:`procedural-distribution-GigamartCannedFood`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartCleaning``
+   * - :ref:`procedural-distribution-GigamartCleaning`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GigamartCrisps``
+   * - :ref:`procedural-distribution-GigamartCrisps`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``GigamartDryGoods``
+   * - :ref:`procedural-distribution-GigamartDryGoods`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``GigamartFarming``
+   * - :ref:`procedural-distribution-GigamartFarming`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``GigamartHouseElectronics``
+   * - :ref:`procedural-distribution-GigamartHouseElectronics`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``GigamartHousewares``
+   * - :ref:`procedural-distribution-GigamartHousewares`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``GigamartLightbulb``
+   * - :ref:`procedural-distribution-GigamartLightbulb`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``GigamartPaper``
+   * - :ref:`procedural-distribution-GigamartPaper`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GigamartPots``
+   * - :ref:`procedural-distribution-GigamartPots`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``GigamartSauce``
+   * - :ref:`procedural-distribution-GigamartSauce`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``GigamartSchool``
+   * - :ref:`procedural-distribution-GigamartSchool`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GigamartToiletries``
+   * - :ref:`procedural-distribution-GigamartToiletries`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GigamartTools``
+   * - :ref:`procedural-distribution-GigamartTools`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``GigamartToys``
+   * - :ref:`procedural-distribution-GigamartToys`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
@@ -25162,7 +25162,7 @@ generalstore
        - location_entertainment_theatre_01_134
        - location_entertainment_theatre_01_135
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -25173,7 +25173,7 @@ generalstore
        - location_shop_generic_01_30
        - location_shop_generic_01_31
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -25182,14 +25182,14 @@ generalstore
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``StoreShelfMechanics``
+   * - :ref:`procedural-distribution-StoreShelfMechanics`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 1
      - 2
      - 20
@@ -25210,35 +25210,35 @@ generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCigarettes``
+   * - :ref:`procedural-distribution-CrateCigarettes`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``GigamartCrisps``
+   * - :ref:`procedural-distribution-GigamartCrisps`
      - 0
      - 99
      - 25
      - 
      - 
      - 
-   * - ``GigamartCandy``
+   * - :ref:`procedural-distribution-GigamartCandy`
      - 0
      - 99
      - 25
      - 
      - 
      - 
-   * - ``GigamartCannedFood``
+   * - :ref:`procedural-distribution-GigamartCannedFood`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartSauce``
+   * - :ref:`procedural-distribution-GigamartSauce`
      - 0
      - 99
      - 10
@@ -25263,21 +25263,21 @@ generalstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartBakingMisc``
+   * - :ref:`procedural-distribution-GigamartBakingMisc`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GigamartCannedFood``
+   * - :ref:`procedural-distribution-GigamartCannedFood`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartDryGoods``
+   * - :ref:`procedural-distribution-GigamartDryGoods`
      - 0
      - 99
      - 60
@@ -25298,21 +25298,21 @@ generalstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartBakingMisc``
+   * - :ref:`procedural-distribution-GigamartBakingMisc`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GigamartCannedFood``
+   * - :ref:`procedural-distribution-GigamartCannedFood`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartDryGoods``
+   * - :ref:`procedural-distribution-GigamartDryGoods`
      - 0
      - 99
      - 60
@@ -25333,14 +25333,14 @@ generalstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartTools``
+   * - :ref:`procedural-distribution-GigamartTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartFarming``
+   * - :ref:`procedural-distribution-GigamartFarming`
      - 0
      - 99
      - 100
@@ -25365,21 +25365,21 @@ giftstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
@@ -25400,21 +25400,21 @@ giftstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
@@ -25435,21 +25435,21 @@ giftstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
@@ -25474,21 +25474,21 @@ giftstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
@@ -25509,7 +25509,7 @@ giftstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -25524,14 +25524,14 @@ giftstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -25552,21 +25552,21 @@ giftstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
@@ -25587,7 +25587,7 @@ giftstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreDisplayWatches``
+   * - :ref:`procedural-distribution-StoreDisplayWatches`
      - 0
      - 99
      - -
@@ -25608,21 +25608,21 @@ giftstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -25645,7 +25645,7 @@ giftstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 0
      - 99
      - -
@@ -25670,7 +25670,7 @@ gigamart
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -25685,7 +25685,7 @@ gigamart
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -25706,28 +25706,28 @@ gigamart
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 40
@@ -25748,35 +25748,35 @@ gigamart
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherChops``
+   * - :ref:`procedural-distribution-ButcherChops`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ButcherGround``
+   * - :ref:`procedural-distribution-ButcherGround`
      - 1
      - 99
      - 50
      - 
      - 
      - 
-   * - ``ButcherChicken``
+   * - :ref:`procedural-distribution-ButcherChicken`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ButcherSmoked``
+   * - :ref:`procedural-distribution-ButcherSmoked`
      - 1
      - 99
      - 50
      - 
      - 
      - 
-   * - ``ButcherFish``
+   * - :ref:`procedural-distribution-ButcherFish`
      - 1
      - 99
      - 25
@@ -25797,7 +25797,7 @@ gigamart
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerFrozenFood``
+   * - :ref:`procedural-distribution-FreezerFrozenFood`
      - 0
      - 99
      - -
@@ -25822,28 +25822,28 @@ gigamart
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 1
      - 99
      - -
@@ -25871,63 +25871,63 @@ gigamart
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStandVegetables1``
+   * - :ref:`procedural-distribution-GroceryStandVegetables1`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables2``
+   * - :ref:`procedural-distribution-GroceryStandVegetables2`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables3``
+   * - :ref:`procedural-distribution-GroceryStandVegetables3`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables4``
+   * - :ref:`procedural-distribution-GroceryStandVegetables4`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables5``
+   * - :ref:`procedural-distribution-GroceryStandVegetables5`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits1``
+   * - :ref:`procedural-distribution-GroceryStandFruits1`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits2``
+   * - :ref:`procedural-distribution-GroceryStandFruits2`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits3``
+   * - :ref:`procedural-distribution-GroceryStandFruits3`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandLettuce``
+   * - :ref:`procedural-distribution-GroceryStandLettuce`
      - 1
      - 99
      - 25
@@ -25948,175 +25948,175 @@ gigamart
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartBakingMisc``
+   * - :ref:`procedural-distribution-GigamartBakingMisc`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GigamartBathing``
+   * - :ref:`procedural-distribution-GigamartBathing`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartBBQ``
+   * - :ref:`procedural-distribution-GigamartBBQ`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartBedding``
+   * - :ref:`procedural-distribution-GigamartBedding`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartBottles``
+   * - :ref:`procedural-distribution-GigamartBottles`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartCandy``
+   * - :ref:`procedural-distribution-GigamartCandy`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GigamartCannedFood``
+   * - :ref:`procedural-distribution-GigamartCannedFood`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartCleaning``
+   * - :ref:`procedural-distribution-GigamartCleaning`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartCosmetics``
+   * - :ref:`procedural-distribution-GigamartCosmetics`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartCrisps``
+   * - :ref:`procedural-distribution-GigamartCrisps`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GigamartDryGoods``
+   * - :ref:`procedural-distribution-GigamartDryGoods`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartFarming``
+   * - :ref:`procedural-distribution-GigamartFarming`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``GigamartHouseElectronics``
+   * - :ref:`procedural-distribution-GigamartHouseElectronics`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``GigamartHousewares``
+   * - :ref:`procedural-distribution-GigamartHousewares`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartLightbulb``
+   * - :ref:`procedural-distribution-GigamartLightbulb`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``GigamartLiterature``
+   * - :ref:`procedural-distribution-GigamartLiterature`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GigamartPaper``
+   * - :ref:`procedural-distribution-GigamartPaper`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartPots``
+   * - :ref:`procedural-distribution-GigamartPots`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartSauce``
+   * - :ref:`procedural-distribution-GigamartSauce`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartSpices``
+   * - :ref:`procedural-distribution-GigamartSpices`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartSchool``
+   * - :ref:`procedural-distribution-GigamartSchool`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartToiletries``
+   * - :ref:`procedural-distribution-GigamartToiletries`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartTools``
+   * - :ref:`procedural-distribution-GigamartTools`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``GigamartToys``
+   * - :ref:`procedural-distribution-GigamartToys`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -26143,7 +26143,7 @@ gigamartkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -26158,7 +26158,7 @@ gigamartkitchen
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -26181,21 +26181,21 @@ gigamartkitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreKitchenBaking``
+   * - :ref:`procedural-distribution-StoreKitchenBaking`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenButcher``
+   * - :ref:`procedural-distribution-StoreKitchenButcher`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -26216,28 +26216,28 @@ gigamartkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 40
@@ -26258,35 +26258,35 @@ gigamartkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherChops``
+   * - :ref:`procedural-distribution-ButcherChops`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ButcherGround``
+   * - :ref:`procedural-distribution-ButcherGround`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``ButcherChicken``
+   * - :ref:`procedural-distribution-ButcherChicken`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ButcherSmoked``
+   * - :ref:`procedural-distribution-ButcherSmoked`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ButcherFish``
+   * - :ref:`procedural-distribution-ButcherFish`
      - 0
      - 1
      - 100
@@ -26311,7 +26311,7 @@ glassesstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -26326,14 +26326,14 @@ glassesstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``OptometristGlasses``
+   * - :ref:`procedural-distribution-OptometristGlasses`
      - 0
      - 99
      - 20
@@ -26354,7 +26354,7 @@ glassesstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OptometristGlasses``
+   * - :ref:`procedural-distribution-OptometristGlasses`
      - 0
      - 99
      - -
@@ -26375,7 +26375,7 @@ glassesstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OptometristGlasses``
+   * - :ref:`procedural-distribution-OptometristGlasses`
      - 0
      - 99
      - -
@@ -26396,7 +26396,7 @@ glassesstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OptometristGlasses``
+   * - :ref:`procedural-distribution-OptometristGlasses`
      - 0
      - 99
      - -
@@ -26421,7 +26421,7 @@ glassmakingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GlassWorkshopTools``
+   * - :ref:`procedural-distribution-GlassWorkshopTools`
      - 0
      - 99
      - -
@@ -26442,14 +26442,14 @@ glassmakingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCoke``
+   * - :ref:`procedural-distribution-CrateCoke`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSandBags``
+   * - :ref:`procedural-distribution-CrateSandBags`
      - 1
      - 99
      - 100
@@ -26470,14 +26470,14 @@ glassmakingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCoke``
+   * - :ref:`procedural-distribution-CrateCoke`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSandBags``
+   * - :ref:`procedural-distribution-CrateSandBags`
      - 1
      - 99
      - 100
@@ -26523,7 +26523,7 @@ golffactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateGolfClubs``
+   * - :ref:`procedural-distribution-CrateGolfClubs`
      - 0
      - 99
      - -
@@ -26544,7 +26544,7 @@ golffactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - -
@@ -26565,7 +26565,7 @@ golffactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GolfFactoryTools``
+   * - :ref:`procedural-distribution-GolfFactoryTools`
      - 0
      - 99
      - -
@@ -26576,14 +26576,14 @@ golffactory
        - furniture_storage_02_2
        - furniture_storage_02_3
      - 
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateGolfClubs``
+   * - :ref:`procedural-distribution-CrateGolfClubs`
      - 0
      - 99
      - 40
@@ -26608,14 +26608,14 @@ golfshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateGolfBalls``
+   * - :ref:`procedural-distribution-CrateGolfBalls`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateGolfClubs``
+   * - :ref:`procedural-distribution-CrateGolfClubs`
      - 0
      - 99
      - 100
@@ -26636,7 +26636,7 @@ golfshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateGolfClubs``
+   * - :ref:`procedural-distribution-CrateGolfClubs`
      - 0
      - 99
      - 40
@@ -26661,7 +26661,7 @@ golfstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GolfStoreClothingRack``
+   * - :ref:`procedural-distribution-GolfStoreClothingRack`
      - 0
      - 99
      - -
@@ -26682,7 +26682,7 @@ golfstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -26697,7 +26697,7 @@ golfstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``GolfStoreLiterature``
+   * - :ref:`procedural-distribution-GolfStoreLiterature`
      - 0
      - 1
      - 100
@@ -26718,28 +26718,28 @@ golfstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GolfStoreBags``
+   * - :ref:`procedural-distribution-GolfStoreBags`
      - 1
      - 4
      - 80
      - 
      - 
      - 
-   * - ``GolfStoreLiterature``
+   * - :ref:`procedural-distribution-GolfStoreLiterature`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateGolfClubs``
+   * - :ref:`procedural-distribution-CrateGolfClubs`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``GolfStoreAccessories``
+   * - :ref:`procedural-distribution-GolfStoreAccessories`
      - 0
      - 99
      - 100
@@ -26764,21 +26764,21 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 99
      - 40
@@ -26799,7 +26799,7 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -26814,7 +26814,7 @@ grocery
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -26835,21 +26835,21 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 99
      - 40
@@ -26870,28 +26870,28 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryBread``
+   * - :ref:`procedural-distribution-BakeryBread`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``BakeryMisc``
+   * - :ref:`procedural-distribution-BakeryMisc`
      - 1
      - 99
      - 40
@@ -26912,35 +26912,35 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherChops``
+   * - :ref:`procedural-distribution-ButcherChops`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ButcherGround``
+   * - :ref:`procedural-distribution-ButcherGround`
      - 1
      - 99
      - 50
      - 
      - 
      - 
-   * - ``ButcherChicken``
+   * - :ref:`procedural-distribution-ButcherChicken`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ButcherSmoked``
+   * - :ref:`procedural-distribution-ButcherSmoked`
      - 1
      - 99
      - 50
      - 
      - 
      - 
-   * - ``ButcherFish``
+   * - :ref:`procedural-distribution-ButcherFish`
      - 1
      - 99
      - 25
@@ -26961,7 +26961,7 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerFrozenFood``
+   * - :ref:`procedural-distribution-FreezerFrozenFood`
      - 0
      - 99
      - -
@@ -26986,28 +26986,28 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 1
      - 99
      - -
@@ -27035,63 +27035,63 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStandVegetables1``
+   * - :ref:`procedural-distribution-GroceryStandVegetables1`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables2``
+   * - :ref:`procedural-distribution-GroceryStandVegetables2`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables3``
+   * - :ref:`procedural-distribution-GroceryStandVegetables3`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables4``
+   * - :ref:`procedural-distribution-GroceryStandVegetables4`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables5``
+   * - :ref:`procedural-distribution-GroceryStandVegetables5`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits1``
+   * - :ref:`procedural-distribution-GroceryStandFruits1`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits2``
+   * - :ref:`procedural-distribution-GroceryStandFruits2`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits3``
+   * - :ref:`procedural-distribution-GroceryStandFruits3`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandLettuce``
+   * - :ref:`procedural-distribution-GroceryStandLettuce`
      - 1
      - 99
      - 25
@@ -27112,21 +27112,21 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 99
      - 40
@@ -27147,91 +27147,91 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartBakingMisc``
+   * - :ref:`procedural-distribution-GigamartBakingMisc`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GigamartBBQ``
+   * - :ref:`procedural-distribution-GigamartBBQ`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartBottles``
+   * - :ref:`procedural-distribution-GigamartBottles`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartCandy``
+   * - :ref:`procedural-distribution-GigamartCandy`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GigamartCannedFood``
+   * - :ref:`procedural-distribution-GigamartCannedFood`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartCleaning``
+   * - :ref:`procedural-distribution-GigamartCleaning`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartCrisps``
+   * - :ref:`procedural-distribution-GigamartCrisps`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GigamartDryGoods``
+   * - :ref:`procedural-distribution-GigamartDryGoods`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartSauce``
+   * - :ref:`procedural-distribution-GigamartSauce`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartSpices``
+   * - :ref:`procedural-distribution-GigamartSpices`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GigamartPaper``
+   * - :ref:`procedural-distribution-GigamartPaper`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GigamartToiletries``
+   * - :ref:`procedural-distribution-GigamartToiletries`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -27254,28 +27254,28 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackMaps``
+   * - :ref:`procedural-distribution-MagazineRackMaps`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackPaperback``
+   * - :ref:`procedural-distribution-MagazineRackPaperback`
      - 1
      - 2
      - 40
@@ -27296,21 +27296,21 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 99
      - 40
@@ -27335,21 +27335,21 @@ grocerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 99
      - 40
@@ -27370,21 +27370,21 @@ grocerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 99
      - 40
@@ -27405,7 +27405,7 @@ grocerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerFrozenFood``
+   * - :ref:`procedural-distribution-FreezerFrozenFood`
      - 0
      - 99
      - -
@@ -27434,21 +27434,21 @@ grocerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 0
      - 99
      - 40
@@ -27469,21 +27469,21 @@ grocerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 99
      - 40
@@ -27504,21 +27504,21 @@ grocerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStorageCrate1``
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStorageCrate2``
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``GroceryStorageCrate3``
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
      - 0
      - 99
      - 40
@@ -27553,14 +27553,14 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
@@ -27581,7 +27581,7 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -27596,14 +27596,14 @@ gunstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
@@ -27624,14 +27624,14 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
@@ -27652,42 +27652,42 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAccessories``
+   * - :ref:`procedural-distribution-GunStoreAccessories`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``GunStoreMagsAmmo``
+   * - :ref:`procedural-distribution-GunStoreMagsAmmo`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``GunStoreKnives``
+   * - :ref:`procedural-distribution-GunStoreKnives`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``GunStorePistols``
+   * - :ref:`procedural-distribution-GunStorePistols`
      - 1
      - 12
      - 80
      - 
      - 
      - 
-   * - ``GunStoreRifles``
+   * - :ref:`procedural-distribution-GunStoreRifles`
      - 1
      - 12
      - 100
      - 
      - 
      - 
-   * - ``GunStoreShotguns``
+   * - :ref:`procedural-distribution-GunStoreShotguns`
      - 1
      - 12
      - 100
@@ -27708,14 +27708,14 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
@@ -27736,14 +27736,14 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
@@ -27764,7 +27764,7 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusCases``
+   * - :ref:`procedural-distribution-ArmySurplusCases`
      - 0
      - 99
      - -
@@ -27785,7 +27785,7 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - -
@@ -27806,28 +27806,28 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreCases``
+   * - :ref:`procedural-distribution-GunStoreCases`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GunStoreLiterature``
+   * - :ref:`procedural-distribution-GunStoreLiterature`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
@@ -27848,7 +27848,7 @@ gunstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreMagazineRack``
+   * - :ref:`procedural-distribution-GunStoreMagazineRack`
      - 0
      - 99
      - -
@@ -27873,14 +27873,14 @@ gunstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 20
@@ -27901,14 +27901,14 @@ gunstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 20
@@ -27929,14 +27929,14 @@ gunstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 5
@@ -27957,14 +27957,14 @@ gunstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreBodyArmor``
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
      - 0
      - 1
      - 5
@@ -27985,7 +27985,7 @@ gunstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - -
@@ -28006,7 +28006,7 @@ gunstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - -
@@ -28031,7 +28031,7 @@ gym
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymWeights``
+   * - :ref:`procedural-distribution-GymWeights`
      - 0
      - 99
      - -
@@ -28052,7 +28052,7 @@ gym
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 99
      - -
@@ -28077,49 +28077,49 @@ gymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SportStorageBats``
+   * - :ref:`procedural-distribution-SportStorageBats`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``SportStorageBalls``
+   * - :ref:`procedural-distribution-SportStorageBalls`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``SportStorageHelmets``
+   * - :ref:`procedural-distribution-SportStorageHelmets`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SportStoragePaddles``
+   * - :ref:`procedural-distribution-SportStoragePaddles`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SportStorageRacquets``
+   * - :ref:`procedural-distribution-SportStorageRacquets`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SportStorageSticks``
+   * - :ref:`procedural-distribution-SportStorageSticks`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``SportStorageWeights``
+   * - :ref:`procedural-distribution-SportStorageWeights`
      - 0
      - 1
      - 20
@@ -28140,7 +28140,7 @@ gymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BowlingAlleyShoes``
+   * - :ref:`procedural-distribution-BowlingAlleyShoes`
      - 0
      - 99
      - -
@@ -28162,7 +28162,7 @@ gymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymLockers``
+   * - :ref:`procedural-distribution-GymLockers`
      - 0
      - 99
      - -
@@ -28183,7 +28183,7 @@ gymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarCratePool``
+   * - :ref:`procedural-distribution-BarCratePool`
      - 0
      - 2
      - -
@@ -28191,7 +28191,7 @@ gymstorage
      - 
      - 
        - gameroom
-   * - ``GolfStorage``
+   * - :ref:`procedural-distribution-GolfStorage`
      - 0
      - 2
      - -
@@ -28199,49 +28199,49 @@ gymstorage
      - 
      - 
        - golf
-   * - ``SportStorageBats``
+   * - :ref:`procedural-distribution-SportStorageBats`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``SportStorageHelmets``
+   * - :ref:`procedural-distribution-SportStorageHelmets`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SportStoragePaddles``
+   * - :ref:`procedural-distribution-SportStoragePaddles`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SportStorageRacquets``
+   * - :ref:`procedural-distribution-SportStorageRacquets`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SportStorageSticks``
+   * - :ref:`procedural-distribution-SportStorageSticks`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``SportStorageSticks``
+   * - :ref:`procedural-distribution-SportStorageSticks`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``SportStorageWeights``
+   * - :ref:`procedural-distribution-SportStorageWeights`
      - 0
      - 1
      - 20
@@ -28303,14 +28303,14 @@ homecinema
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HomeCinemaFilm``
+   * - :ref:`procedural-distribution-HomeCinemaFilm`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``HomeCinemaLiterature``
+   * - :ref:`procedural-distribution-HomeCinemaLiterature`
      - 1
      - 2
      - 40
@@ -28335,7 +28335,7 @@ hoopgame
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -28350,7 +28350,7 @@ hoopgame
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``CarnivalPrizes``
+   * - :ref:`procedural-distribution-CarnivalPrizes`
      - 0
      - 4
      - 100
@@ -28375,7 +28375,7 @@ hospitalhallway
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinHospital``
+   * - :ref:`procedural-distribution-BinHospital`
      - 0
      - 99
      - -
@@ -28396,7 +28396,7 @@ hospitalhallway
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LaundryHospital``
+   * - :ref:`procedural-distribution-LaundryHospital`
      - 0
      - 99
      - -
@@ -28417,7 +28417,7 @@ hospitalhallway
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeCounter``
+   * - :ref:`procedural-distribution-MedicalOfficeCounter`
      - 0
      - 99
      - -
@@ -28438,7 +28438,7 @@ hospitalhallway
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - -
@@ -28459,7 +28459,7 @@ hospitalhallway
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HospitalLockers``
+   * - :ref:`procedural-distribution-HospitalLockers`
      - 0
      - 99
      - -
@@ -28480,7 +28480,7 @@ hospitalhallway
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HospitalRoomShelves``
+   * - :ref:`procedural-distribution-HospitalRoomShelves`
      - 0
      - 99
      - -
@@ -28501,7 +28501,7 @@ hospitalhallway
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HospitalMagazineRack``
+   * - :ref:`procedural-distribution-HospitalMagazineRack`
      - 0
      - 99
      - -
@@ -28522,7 +28522,7 @@ hospitalhallway
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HospitalRoomWardrobe``
+   * - :ref:`procedural-distribution-HospitalRoomWardrobe`
      - 0
      - 99
      - -
@@ -28547,7 +28547,7 @@ hospitalroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinHospital``
+   * - :ref:`procedural-distribution-BinHospital`
      - 0
      - 99
      - -
@@ -28568,7 +28568,7 @@ hospitalroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LaundryHospital``
+   * - :ref:`procedural-distribution-LaundryHospital`
      - 0
      - 99
      - -
@@ -28589,14 +28589,14 @@ hospitalroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HospitalRoomCounter``
+   * - :ref:`procedural-distribution-HospitalRoomCounter`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``HospitalRoomCleaning``
+   * - :ref:`procedural-distribution-HospitalRoomCleaning`
      - 0
      - 99
      - -
@@ -28621,7 +28621,7 @@ hospitalroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - -
@@ -28642,7 +28642,7 @@ hospitalroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HospitalRoomFridge``
+   * - :ref:`procedural-distribution-HospitalRoomFridge`
      - 0
      - 99
      - -
@@ -28663,7 +28663,7 @@ hospitalroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HospitalRoomShelves``
+   * - :ref:`procedural-distribution-HospitalRoomShelves`
      - 0
      - 99
      - -
@@ -28684,7 +28684,7 @@ hospitalroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HospitalRoomWardrobe``
+   * - :ref:`procedural-distribution-HospitalRoomWardrobe`
      - 0
      - 99
      - -
@@ -28709,21 +28709,21 @@ hospitalstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalStorageDrugs``
+   * - :ref:`procedural-distribution-MedicalStorageDrugs`
      - 0
      - 6
      - 100
      - 
      - 
      - 
-   * - ``MedicalStorageTools``
+   * - :ref:`procedural-distribution-MedicalStorageTools`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``MedicalStorageOutfit``
+   * - :ref:`procedural-distribution-MedicalStorageOutfit`
      - 0
      - 2
      - 40
@@ -28744,21 +28744,21 @@ hospitalstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalStorageDrugs``
+   * - :ref:`procedural-distribution-MedicalStorageDrugs`
      - 0
      - 6
      - 100
      - 
      - 
      - 
-   * - ``MedicalStorageTools``
+   * - :ref:`procedural-distribution-MedicalStorageTools`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``MedicalStorageOutfit``
+   * - :ref:`procedural-distribution-MedicalStorageOutfit`
      - 0
      - 2
      - 40
@@ -28783,7 +28783,7 @@ hotdogstand
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -28798,7 +28798,7 @@ hotdogstand
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -28821,14 +28821,14 @@ hotdogstand
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``HotdogStandDrinks``
+   * - :ref:`procedural-distribution-HotdogStandDrinks`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``HotdogStandToppings``
+   * - :ref:`procedural-distribution-HotdogStandToppings`
      - 0
      - 2
      - 100
@@ -28849,7 +28849,7 @@ hotdogstand
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArenaKitchenFreezer``
+   * - :ref:`procedural-distribution-ArenaKitchenFreezer`
      - 0
      - 99
      - -
@@ -28870,7 +28870,7 @@ hotdogstand
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArenaKitchenFreezer``
+   * - :ref:`procedural-distribution-ArenaKitchenFreezer`
      - 0
      - 99
      - -
@@ -28895,35 +28895,35 @@ housewarestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartHousewares``
+   * - :ref:`procedural-distribution-GigamartHousewares`
      - 1
      - 12
      - 100
      - 
      - 
      - 
-   * - ``GigamartBedding``
+   * - :ref:`procedural-distribution-GigamartBedding`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``GigamartPots``
+   * - :ref:`procedural-distribution-GigamartPots`
      - 1
      - 6
      - 100
      - 
      - 
      - 
-   * - ``GigamartLightbulb``
+   * - :ref:`procedural-distribution-GigamartLightbulb`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``GigamartHouseElectronics``
+   * - :ref:`procedural-distribution-GigamartHouseElectronics`
      - 1
      - 2
      - 100
@@ -28948,7 +28948,7 @@ hunterstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerHunter``
+   * - :ref:`procedural-distribution-FreezerHunter`
      - 0
      - 99
      - -
@@ -28969,14 +28969,14 @@ hunterstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBeer``
+   * - :ref:`procedural-distribution-FridgeBeer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``FridgeHunter``
+   * - :ref:`procedural-distribution-FridgeHunter`
      - 0
      - 99
      - 100
@@ -28997,7 +28997,7 @@ hunterstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``HuntingLockers``
+   * - :ref:`procedural-distribution-HuntingLockers`
      - 0
      - 99
      - -
@@ -29018,7 +29018,7 @@ hunterstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - -
@@ -29043,7 +29043,7 @@ hunting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreClothes``
+   * - :ref:`procedural-distribution-CampingStoreClothes`
      - 0
      - 99
      - -
@@ -29064,7 +29064,7 @@ hunting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -29079,42 +29079,42 @@ hunting
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreBooks``
+   * - :ref:`procedural-distribution-CampingStoreBooks`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 2
      - 20
@@ -29135,14 +29135,14 @@ hunting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreRifles``
+   * - :ref:`procedural-distribution-GunStoreRifles`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
@@ -29163,7 +29163,7 @@ hunting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreRifles``
+   * - :ref:`procedural-distribution-GunStoreRifles`
      - 0
      - 99
      - -
@@ -29184,14 +29184,14 @@ hunting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreRifles``
+   * - :ref:`procedural-distribution-GunStoreRifles`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
@@ -29212,7 +29212,7 @@ hunting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 40
@@ -29233,42 +29233,42 @@ hunting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreTents``
+   * - :ref:`procedural-distribution-CampingStoreTents`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreLegwear``
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CampingStoreBooks``
+   * - :ref:`procedural-distribution-CampingStoreBooks`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 99
      - 100
@@ -29289,7 +29289,7 @@ hunting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GunStoreMagazineRack``
+   * - :ref:`procedural-distribution-GunStoreMagazineRack`
      - 0
      - 99
      - -
@@ -29314,7 +29314,7 @@ icecream
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -29329,14 +29329,14 @@ icecream
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 2
      - 100
@@ -29357,7 +29357,7 @@ icecream
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -29378,7 +29378,7 @@ icecream
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -29399,21 +29399,21 @@ icecream
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStandFruits1``
+   * - :ref:`procedural-distribution-GroceryStandFruits1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits2``
+   * - :ref:`procedural-distribution-GroceryStandFruits2`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits3``
+   * - :ref:`procedural-distribution-GroceryStandFruits3`
      - 0
      - 99
      - 100
@@ -29434,7 +29434,7 @@ icecream
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -29459,7 +29459,7 @@ icecreamkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -29496,7 +29496,7 @@ icecreamkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateConesIceCream``
+   * - :ref:`procedural-distribution-CrateConesIceCream`
      - 0
      - 99
      - -
@@ -29517,7 +29517,7 @@ icecreamkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -29538,21 +29538,21 @@ icecreamkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStandFruits1``
+   * - :ref:`procedural-distribution-GroceryStandFruits1`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits2``
+   * - :ref:`procedural-distribution-GroceryStandFruits2`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandFruits3``
+   * - :ref:`procedural-distribution-GroceryStandFruits3`
      - 0
      - 99
      - 100
@@ -29573,7 +29573,7 @@ icecreamkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateConesIceCream``
+   * - :ref:`procedural-distribution-CrateConesIceCream`
      - 0
      - 99
      - -
@@ -29594,7 +29594,7 @@ icecreamkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -29619,7 +29619,7 @@ interrogationroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - -
@@ -29640,7 +29640,7 @@ interrogationroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -29665,7 +29665,7 @@ italiankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -29688,49 +29688,49 @@ italiankitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``ItalianKitchenBaking``
+   * - :ref:`procedural-distribution-ItalianKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ItalianKitchenButcher``
+   * - :ref:`procedural-distribution-ItalianKitchenButcher`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ItalianKitchenSauce``
+   * - :ref:`procedural-distribution-ItalianKitchenSauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -29751,7 +29751,7 @@ italiankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ItalianKitchenFreezer``
+   * - :ref:`procedural-distribution-ItalianKitchenFreezer`
      - 0
      - 99
      - -
@@ -29772,7 +29772,7 @@ italiankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ItalianKitchenFridge``
+   * - :ref:`procedural-distribution-ItalianKitchenFridge`
      - 0
      - 99
      - -
@@ -29793,7 +29793,7 @@ italiankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 99
      - -
@@ -29818,7 +29818,7 @@ italianrestaurant
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -29847,7 +29847,7 @@ italianrestaurant
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 99
      - -
@@ -29868,7 +29868,7 @@ italianrestaurant
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 99
      - -
@@ -29893,7 +29893,7 @@ jackiejayeoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JackiesDesk``
+   * - :ref:`procedural-distribution-JackiesDesk`
      - 0
      - 99
      - -
@@ -29923,7 +29923,7 @@ janitor
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - -
@@ -29944,14 +29944,14 @@ janitor
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``JanitorCleaning``
+   * - :ref:`procedural-distribution-JanitorCleaning`
      - 0
      - 99
      - -
@@ -29974,14 +29974,14 @@ janitor
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``JanitorMisc``
+   * - :ref:`procedural-distribution-JanitorMisc`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorTools``
+   * - :ref:`procedural-distribution-JanitorTools`
      - 0
      - 1
      - 100
@@ -30002,7 +30002,7 @@ janitor
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - -
@@ -30023,14 +30023,14 @@ janitor
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorTools``
+   * - :ref:`procedural-distribution-JanitorTools`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``JanitorMisc``
+   * - :ref:`procedural-distribution-JanitorMisc`
      - 0
      - 99
      - 100
@@ -30051,21 +30051,21 @@ janitor
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorTools``
+   * - :ref:`procedural-distribution-JanitorTools`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorCleaning``
+   * - :ref:`procedural-distribution-JanitorCleaning`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - 100
@@ -30086,7 +30086,7 @@ janitor
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - -
@@ -30107,7 +30107,7 @@ janitor
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - -
@@ -30132,7 +30132,7 @@ jayschicken_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinJays``
+   * - :ref:`procedural-distribution-BinJays`
      - 0
      - 99
      - -
@@ -30153,7 +30153,7 @@ jayschicken_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -30168,7 +30168,7 @@ jayschicken_dining
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - -
@@ -30181,7 +30181,7 @@ jayschicken_dining
        - location_shop_accessories_01_11
        - location_shop_accessories_01_12
      - 
-   * - ``JaysDiningCounter``
+   * - :ref:`procedural-distribution-JaysDiningCounter`
      - 0
      - 99
      - 100
@@ -30206,7 +30206,7 @@ jayschicken_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinJays``
+   * - :ref:`procedural-distribution-BinJays`
      - 0
      - 99
      - -
@@ -30227,7 +30227,7 @@ jayschicken_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -30250,56 +30250,56 @@ jayschicken_kitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``JaysKitchenBags``
+   * - :ref:`procedural-distribution-JaysKitchenBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JaysKitchenBaking``
+   * - :ref:`procedural-distribution-JaysKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JaysKitchenButcher``
+   * - :ref:`procedural-distribution-JaysKitchenButcher`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JaysKitchenSauce``
+   * - :ref:`procedural-distribution-JaysKitchenSauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCups``
+   * - :ref:`procedural-distribution-StoreKitchenCups`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenTrays``
+   * - :ref:`procedural-distribution-StoreKitchenTrays`
      - 0
      - 1
      - 20
@@ -30320,7 +30320,7 @@ jayschicken_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JaysKitchenFreezer``
+   * - :ref:`procedural-distribution-JaysKitchenFreezer`
      - 0
      - 99
      - -
@@ -30341,7 +30341,7 @@ jayschicken_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JaysKitchenFridge``
+   * - :ref:`procedural-distribution-JaysKitchenFridge`
      - 0
      - 99
      - -
@@ -30362,35 +30362,35 @@ jayschicken_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCornflour``
+   * - :ref:`procedural-distribution-CrateCornflour`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateGravyMix``
+   * - :ref:`procedural-distribution-CrateGravyMix`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 80
@@ -30411,42 +30411,42 @@ jayschicken_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayGravy``
+   * - :ref:`procedural-distribution-ServingTrayGravy`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayCornbread``
+   * - :ref:`procedural-distribution-ServingTrayCornbread`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayChicken``
+   * - :ref:`procedural-distribution-ServingTrayChicken`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 1
      - 2
      - 100
@@ -30471,7 +30471,7 @@ jerkycoldroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JerkyFactoryMeat``
+   * - :ref:`procedural-distribution-JerkyFactoryMeat`
      - 0
      - 99
      - -
@@ -30496,7 +30496,7 @@ jerkyfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JerkyFactoryCrate``
+   * - :ref:`procedural-distribution-JerkyFactoryCrate`
      - 0
      - 99
      - -
@@ -30517,14 +30517,14 @@ jerkyfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JerkyFactoryTools``
+   * - :ref:`procedural-distribution-JerkyFactoryTools`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``JerkyFactorySpices``
+   * - :ref:`procedural-distribution-JerkyFactorySpices`
      - 0
      - 99
      - 100
@@ -30549,7 +30549,7 @@ jerkyshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JerkyFactoryCrate``
+   * - :ref:`procedural-distribution-JerkyFactoryCrate`
      - 0
      - 99
      - -
@@ -30570,7 +30570,7 @@ jerkyshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JerkyFactorySpices``
+   * - :ref:`procedural-distribution-JerkyFactorySpices`
      - 0
      - 99
      - -
@@ -30600,7 +30600,7 @@ jewelrystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JewelerTools``
+   * - :ref:`procedural-distribution-JewelerTools`
      - 0
      - 99
      - -
@@ -30621,7 +30621,7 @@ jewelrystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JewelryStorageAll``
+   * - :ref:`procedural-distribution-JewelryStorageAll`
      - 0
      - 99
      - -
@@ -30642,7 +30642,7 @@ jewelrystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JewelryStorageAll``
+   * - :ref:`procedural-distribution-JewelryStorageAll`
      - 0
      - 99
      - -
@@ -30663,7 +30663,7 @@ jewelrystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JewelryStorageAll``
+   * - :ref:`procedural-distribution-JewelryStorageAll`
      - 0
      - 99
      - -
@@ -30688,7 +30688,7 @@ jewelrystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -30703,14 +30703,14 @@ jewelrystore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JewelerTools``
+   * - :ref:`procedural-distribution-JewelerTools`
      - 0
      - 99
      - 100
@@ -30731,49 +30731,49 @@ jewelrystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JewelryGems``
+   * - :ref:`procedural-distribution-JewelryGems`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``JewelryGold``
+   * - :ref:`procedural-distribution-JewelryGold`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``JewelrySilver``
+   * - :ref:`procedural-distribution-JewelrySilver`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``JewelryNavelRings``
+   * - :ref:`procedural-distribution-JewelryNavelRings`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``JewelryOthers``
+   * - :ref:`procedural-distribution-JewelryOthers`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``JewelryWeddingRings``
+   * - :ref:`procedural-distribution-JewelryWeddingRings`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``JewelryWrist``
+   * - :ref:`procedural-distribution-JewelryWrist`
      - 0
      - 99
      - 40
@@ -30798,7 +30798,7 @@ joanstudio
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LivingRoomShelf``
+   * - :ref:`procedural-distribution-LivingRoomShelf`
      - 0
      - 99
      - -
@@ -30823,7 +30823,7 @@ judgematthassset
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JudgeMattHassCounter``
+   * - :ref:`procedural-distribution-JudgeMattHassCounter`
      - 1
      - 1
      - -
@@ -30831,7 +30831,7 @@ judgematthassset
      - 
        - location_restaurant_bar_01_57
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -30856,7 +30856,7 @@ juicestand
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -30871,7 +30871,7 @@ juicestand
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -30894,14 +30894,14 @@ juicestand
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``JuiceStandDrinks``
+   * - :ref:`procedural-distribution-JuiceStandDrinks`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``JuiceStandSnacks``
+   * - :ref:`procedural-distribution-JuiceStandSnacks`
      - 0
      - 2
      - 100
@@ -30922,7 +30922,7 @@ juicestand
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JuiceStandFridge``
+   * - :ref:`procedural-distribution-JuiceStandFridge`
      - 0
      - 99
      - -
@@ -30947,21 +30947,21 @@ kennels
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -30982,28 +30982,28 @@ kennels
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``DogFoodFactoryCans``
+   * - :ref:`procedural-distribution-DogFoodFactoryCans`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``DogFoodFactoryBags``
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
      - 100
@@ -31028,49 +31028,49 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 100
@@ -31091,7 +31091,7 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BedroomSidetableChild``
+   * - :ref:`procedural-distribution-BedroomSidetableChild`
      - 1
      - 99
      - -
@@ -31112,49 +31112,49 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 100
@@ -31175,7 +31175,7 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BedroomDresserChild``
+   * - :ref:`procedural-distribution-BedroomDresserChild`
      - 1
      - 99
      - -
@@ -31196,7 +31196,7 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 99
      - -
@@ -31217,7 +31217,7 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WardrobeChild``
+   * - :ref:`procedural-distribution-WardrobeChild`
      - 1
      - 99
      - -
@@ -31238,7 +31238,7 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BedroomSidetableChild``
+   * - :ref:`procedural-distribution-BedroomSidetableChild`
      - 1
      - 99
      - -
@@ -31259,7 +31259,7 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BedroomSidetableChild``
+   * - :ref:`procedural-distribution-BedroomSidetableChild`
      - 1
      - 99
      - -
@@ -31280,49 +31280,49 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 100
@@ -31343,7 +31343,7 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WardrobeChild``
+   * - :ref:`procedural-distribution-WardrobeChild`
      - 1
      - 99
      - -
@@ -31368,77 +31368,77 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCannedFood``
+   * - :ref:`procedural-distribution-CrateCannedFood`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``KitchenBook``
+   * - :ref:`procedural-distribution-KitchenBook`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 10
@@ -31459,56 +31459,56 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenBottles``
+   * - :ref:`procedural-distribution-KitchenBottles`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``KitchenBaking``
+   * - :ref:`procedural-distribution-KitchenBaking`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``KitchenBreakfast``
+   * - :ref:`procedural-distribution-KitchenBreakfast`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenDishes``
+   * - :ref:`procedural-distribution-KitchenDishes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenPots``
+   * - :ref:`procedural-distribution-KitchenPots`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``KitchenRandom``
+   * - :ref:`procedural-distribution-KitchenRandom`
      - 0
      - 1
      - 20
@@ -31529,77 +31529,77 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCannedFood``
+   * - :ref:`procedural-distribution-CrateCannedFood`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``KitchenBook``
+   * - :ref:`procedural-distribution-KitchenBook`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 10
@@ -31620,21 +31620,21 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerGeneric``
+   * - :ref:`procedural-distribution-FreezerGeneric`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FreezerRich``
+   * - :ref:`procedural-distribution-FreezerRich`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``FreezerTrailerPark``
+   * - :ref:`procedural-distribution-FreezerTrailerPark`
      - 0
      - 99
      - -
@@ -31655,14 +31655,14 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 0
      - 1
      - 100
@@ -31683,7 +31683,7 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenMicrowave``
+   * - :ref:`procedural-distribution-KitchenMicrowave`
      - 0
      - 99
      - -
@@ -31704,42 +31704,42 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenBaking``
+   * - :ref:`procedural-distribution-KitchenBaking`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``KitchenBottles``
+   * - :ref:`procedural-distribution-KitchenBottles`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``KitchenBreakfast``
+   * - :ref:`procedural-distribution-KitchenBreakfast`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``KitchenDishes``
+   * - :ref:`procedural-distribution-KitchenDishes`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 0
      - 4
      - 100
@@ -31760,7 +31760,7 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenBook``
+   * - :ref:`procedural-distribution-KitchenBook`
      - 0
      - 99
      - -
@@ -31771,28 +31771,28 @@ kitchen
        - furniture_shelving_01_51
        - furniture_shelving_01_55
      - 
-   * - ``KitchenBottles``
+   * - :ref:`procedural-distribution-KitchenBottles`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenDishes``
+   * - :ref:`procedural-distribution-KitchenDishes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 0
      - 1
      - 100
@@ -31813,154 +31813,154 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateEmptyBottles1``
+   * - :ref:`procedural-distribution-CrateEmptyBottles1`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateEmptyMixed``
+   * - :ref:`procedural-distribution-CrateEmptyMixed`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateEmptyTinCans``
+   * - :ref:`procedural-distribution-CrateEmptyTinCans`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``KitchenBook``
+   * - :ref:`procedural-distribution-KitchenBook`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 10
@@ -31981,21 +31981,21 @@ kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoveClassy``
+   * - :ref:`procedural-distribution-StoveClassy`
      - 98
      - 99
      - -
      - 
      - 
      - 
-   * - ``StoveGeneric``
+   * - :ref:`procedural-distribution-StoveGeneric`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoveRedneck``
+   * - :ref:`procedural-distribution-StoveRedneck`
      - 98
      - 99
      - -
@@ -32020,7 +32020,7 @@ kitchen_crepe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -32035,7 +32035,7 @@ kitchen_crepe
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -32058,56 +32058,56 @@ kitchen_crepe
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``CrepeKitchenBaking``
+   * - :ref:`procedural-distribution-CrepeKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrepeKitchenSauce``
+   * - :ref:`procedural-distribution-CrepeKitchenSauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCafe``
+   * - :ref:`procedural-distribution-StoreKitchenCafe`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -32128,7 +32128,7 @@ kitchen_crepe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrepeKitchenFridge``
+   * - :ref:`procedural-distribution-CrepeKitchenFridge`
      - 0
      - 99
      - -
@@ -32149,35 +32149,35 @@ kitchen_crepe
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayOmelettes``
+   * - :ref:`procedural-distribution-ServingTrayOmelettes`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayPancakes``
+   * - :ref:`procedural-distribution-ServingTrayPancakes`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayPotatoPancakes``
+   * - :ref:`procedural-distribution-ServingTrayPotatoPancakes`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayScrambledEggs``
+   * - :ref:`procedural-distribution-ServingTrayScrambledEggs`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayWaffles``
+   * - :ref:`procedural-distribution-ServingTrayWaffles`
      - 1
      - 4
      - 100
@@ -32202,14 +32202,14 @@ kitchenwares
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeFactoryCutlery``
+   * - :ref:`procedural-distribution-KnifeFactoryCutlery`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GigamartPots``
+   * - :ref:`procedural-distribution-GigamartPots`
      - 0
      - 99
      - 100
@@ -32230,28 +32230,28 @@ kitchenwares
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GigamartHouseElectronics``
+   * - :ref:`procedural-distribution-GigamartHouseElectronics`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartBedding``
+   * - :ref:`procedural-distribution-GigamartBedding`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GigamartHousewares``
+   * - :ref:`procedural-distribution-GigamartHousewares`
      - 0
      - 8
      - 80
      - 
      - 
      - 
-   * - ``GigamartPots``
+   * - :ref:`procedural-distribution-GigamartPots`
      - 0
      - 99
      - 100
@@ -32276,7 +32276,7 @@ knappingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFlintNodules``
+   * - :ref:`procedural-distribution-CrateFlintNodules`
      - 1
      - 99
      - -
@@ -32297,7 +32297,7 @@ knappingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnappingTools``
+   * - :ref:`procedural-distribution-KnappingTools`
      - 1
      - 99
      - -
@@ -32318,7 +32318,7 @@ knappingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnappingBooks``
+   * - :ref:`procedural-distribution-KnappingBooks`
      - 1
      - 99
      - -
@@ -32343,21 +32343,21 @@ knifefactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeFactoryMeatCleaverBlades``
+   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaverBlades`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``KnifeFactoryKitchenKnifeBlades``
+   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnifeBlades`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``KnifeFactoryHandles``
+   * - :ref:`procedural-distribution-KnifeFactoryHandles`
      - 0
      - 99
      - 100
@@ -32378,21 +32378,21 @@ knifefactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeFactoryMeatCleaverBlades``
+   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaverBlades`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``KnifeFactoryKitchenKnifeBlades``
+   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnifeBlades`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``KnifeFactoryHandles``
+   * - :ref:`procedural-distribution-KnifeFactoryHandles`
      - 0
      - 99
      - 100
@@ -32413,21 +32413,21 @@ knifefactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeFactoryMeatCleaverBlades``
+   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaverBlades`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``KnifeFactoryKitchenKnifeBlades``
+   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnifeBlades`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``KnifeFactoryHandles``
+   * - :ref:`procedural-distribution-KnifeFactoryHandles`
      - 0
      - 99
      - 100
@@ -32448,7 +32448,7 @@ knifefactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeFactoryTools``
+   * - :ref:`procedural-distribution-KnifeFactoryTools`
      - 0
      - 99
      - -
@@ -32473,28 +32473,28 @@ knifeshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeFactorySushiKnife``
+   * - :ref:`procedural-distribution-KnifeFactorySushiKnife`
      - 0
      - 99
      - 5
      - 
      - 
      - 
-   * - ``KnifeFactoryMeatCleaver``
+   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaver`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``KnifeFactoryKitchenKnife``
+   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnife`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``KnifeFactoryCutlery``
+   * - :ref:`procedural-distribution-KnifeFactoryCutlery`
      - 0
      - 99
      - 100
@@ -32515,28 +32515,28 @@ knifeshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeFactorySushiKnife``
+   * - :ref:`procedural-distribution-KnifeFactorySushiKnife`
      - 0
      - 99
      - 5
      - 
      - 
      - 
-   * - ``KnifeFactoryMeatCleaver``
+   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaver`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``KnifeFactoryKitchenKnife``
+   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnife`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``KnifeFactoryCutlery``
+   * - :ref:`procedural-distribution-KnifeFactoryCutlery`
      - 0
      - 99
      - 100
@@ -32557,28 +32557,28 @@ knifeshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeFactorySushiKnife``
+   * - :ref:`procedural-distribution-KnifeFactorySushiKnife`
      - 0
      - 99
      - 5
      - 
      - 
      - 
-   * - ``KnifeFactoryMeatCleaver``
+   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaver`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``KnifeFactoryKitchenKnife``
+   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnife`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``KnifeFactoryCutlery``
+   * - :ref:`procedural-distribution-KnifeFactoryCutlery`
      - 0
      - 99
      - 100
@@ -32603,7 +32603,7 @@ knifestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -32632,7 +32632,7 @@ knifestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeStoreCutlery``
+   * - :ref:`procedural-distribution-KnifeStoreCutlery`
      - 0
      - 99
      - -
@@ -32653,7 +32653,7 @@ knifestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KnifeStoreCutlery``
+   * - :ref:`procedural-distribution-KnifeStoreCutlery`
      - 0
      - 99
      - -
@@ -32678,21 +32678,21 @@ laboratory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``TestingLab``
+   * - :ref:`procedural-distribution-TestingLab`
      - 1
      - 99
      - 100
@@ -32713,21 +32713,21 @@ laboratory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``TestingLab``
+   * - :ref:`procedural-distribution-TestingLab`
      - 1
      - 99
      - 100
@@ -32748,21 +32748,21 @@ laboratory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``TestingLab``
+   * - :ref:`procedural-distribution-TestingLab`
      - 1
      - 99
      - 100
@@ -32783,7 +32783,7 @@ laboratory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeMedical``
+   * - :ref:`procedural-distribution-FridgeMedical`
      - 0
      - 99
      - -
@@ -32804,21 +32804,21 @@ laboratory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``TestingLab``
+   * - :ref:`procedural-distribution-TestingLab`
      - 1
      - 99
      - 100
@@ -32848,7 +32848,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LaundryCleaning``
+   * - :ref:`procedural-distribution-LaundryCleaning`
      - 0
      - 99
      - -
@@ -32869,7 +32869,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymLaundry``
+   * - :ref:`procedural-distribution-GymLaundry`
      - 0
      - 99
      - -
@@ -32877,14 +32877,14 @@ laundry
      - 
      - 
        - fitness
-   * - ``DryerEmpty``
+   * - :ref:`procedural-distribution-DryerEmpty`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``LaundryHospital``
+   * - :ref:`procedural-distribution-LaundryHospital`
      - 0
      - 99
      - -
@@ -32892,56 +32892,56 @@ laundry
      - 
      - 
        - hospitalroom
-   * - ``LaundryLoad1``
+   * - :ref:`procedural-distribution-LaundryLoad1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad2``
+   * - :ref:`procedural-distribution-LaundryLoad2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad3``
+   * - :ref:`procedural-distribution-LaundryLoad3`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad4``
+   * - :ref:`procedural-distribution-LaundryLoad4`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad5``
+   * - :ref:`procedural-distribution-LaundryLoad5`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad6``
+   * - :ref:`procedural-distribution-LaundryLoad6`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad7``
+   * - :ref:`procedural-distribution-LaundryLoad7`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad8``
+   * - :ref:`procedural-distribution-LaundryLoad8`
      - 0
      - 1
      - 10
@@ -32962,7 +32962,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymLaundry``
+   * - :ref:`procedural-distribution-GymLaundry`
      - 0
      - 99
      - -
@@ -32970,14 +32970,14 @@ laundry
      - 
      - 
        - fitness
-   * - ``DryerEmpty``
+   * - :ref:`procedural-distribution-DryerEmpty`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``LaundryHospital``
+   * - :ref:`procedural-distribution-LaundryHospital`
      - 0
      - 99
      - -
@@ -32985,56 +32985,56 @@ laundry
      - 
      - 
        - hospitalroom
-   * - ``LaundryLoad1``
+   * - :ref:`procedural-distribution-LaundryLoad1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad2``
+   * - :ref:`procedural-distribution-LaundryLoad2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad3``
+   * - :ref:`procedural-distribution-LaundryLoad3`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad4``
+   * - :ref:`procedural-distribution-LaundryLoad4`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad5``
+   * - :ref:`procedural-distribution-LaundryLoad5`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad6``
+   * - :ref:`procedural-distribution-LaundryLoad6`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad7``
+   * - :ref:`procedural-distribution-LaundryLoad7`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad8``
+   * - :ref:`procedural-distribution-LaundryLoad8`
      - 0
      - 1
      - 10
@@ -33055,7 +33055,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymLaundry``
+   * - :ref:`procedural-distribution-GymLaundry`
      - 0
      - 99
      - -
@@ -33063,14 +33063,14 @@ laundry
      - 
      - 
        - fitness
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``LaundryHospital``
+   * - :ref:`procedural-distribution-LaundryHospital`
      - 0
      - 99
      - -
@@ -33078,56 +33078,56 @@ laundry
      - 
      - 
        - hospitalroom
-   * - ``LaundryLoad1``
+   * - :ref:`procedural-distribution-LaundryLoad1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad2``
+   * - :ref:`procedural-distribution-LaundryLoad2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad3``
+   * - :ref:`procedural-distribution-LaundryLoad3`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad4``
+   * - :ref:`procedural-distribution-LaundryLoad4`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad5``
+   * - :ref:`procedural-distribution-LaundryLoad5`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad6``
+   * - :ref:`procedural-distribution-LaundryLoad6`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad7``
+   * - :ref:`procedural-distribution-LaundryLoad7`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad8``
+   * - :ref:`procedural-distribution-LaundryLoad8`
      - 0
      - 1
      - 10
@@ -33148,56 +33148,56 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``LaundryCleaning``
+   * - :ref:`procedural-distribution-LaundryCleaning`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``LaundryLoad1``
+   * - :ref:`procedural-distribution-LaundryLoad1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad2``
+   * - :ref:`procedural-distribution-LaundryLoad2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad3``
+   * - :ref:`procedural-distribution-LaundryLoad3`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad4``
+   * - :ref:`procedural-distribution-LaundryLoad4`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad5``
+   * - :ref:`procedural-distribution-LaundryLoad5`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LaundryLoad6``
+   * - :ref:`procedural-distribution-LaundryLoad6`
      - 0
      - 1
      - 10
@@ -33218,7 +33218,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LaundryCleaning``
+   * - :ref:`procedural-distribution-LaundryCleaning`
      - 0
      - 99
      - -
@@ -33239,7 +33239,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FactoryLockers``
+   * - :ref:`procedural-distribution-FactoryLockers`
      - 0
      - 99
      - -
@@ -33261,7 +33261,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LaundryCleaning``
+   * - :ref:`procedural-distribution-LaundryCleaning`
      - 0
      - 99
      - -
@@ -33282,7 +33282,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LaundryCleaning``
+   * - :ref:`procedural-distribution-LaundryCleaning`
      - 0
      - 99
      - -
@@ -33303,7 +33303,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LaundryCleaning``
+   * - :ref:`procedural-distribution-LaundryCleaning`
      - 0
      - 99
      - -
@@ -33324,7 +33324,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LaundryCleaning``
+   * - :ref:`procedural-distribution-LaundryCleaning`
      - 0
      - 99
      - -
@@ -33349,7 +33349,7 @@ leatherclothesstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresJacketsLeather``
+   * - :ref:`procedural-distribution-ClothingStoresJacketsLeather`
      - 0
      - 99
      - -
@@ -33370,7 +33370,7 @@ leatherclothesstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresJacketsLeather``
+   * - :ref:`procedural-distribution-ClothingStoresJacketsLeather`
      - 0
      - 99
      - -
@@ -33391,7 +33391,7 @@ leatherclothesstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -33406,21 +33406,21 @@ leatherclothesstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``ClothingStoresGlovesLeather``
+   * - :ref:`procedural-distribution-ClothingStoresGlovesLeather`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresHolsters``
+   * - :ref:`procedural-distribution-ClothingStoresHolsters`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -33445,7 +33445,7 @@ library
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LibraryCounter``
+   * - :ref:`procedural-distribution-LibraryCounter`
      - 0
      - 99
      - -
@@ -33466,224 +33466,224 @@ library
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LibraryArt``
+   * - :ref:`procedural-distribution-LibraryArt`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``LibraryBiography``
+   * - :ref:`procedural-distribution-LibraryBiography`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``LibraryBooks``
+   * - :ref:`procedural-distribution-LibraryBooks`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``LibraryBusiness``
+   * - :ref:`procedural-distribution-LibraryBusiness`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryChilds``
+   * - :ref:`procedural-distribution-LibraryChilds`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``LibraryCinema``
+   * - :ref:`procedural-distribution-LibraryCinema`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryComputer``
+   * - :ref:`procedural-distribution-LibraryComputer`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryCrimeFiction``
+   * - :ref:`procedural-distribution-LibraryCrimeFiction`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryFantasySciFi``
+   * - :ref:`procedural-distribution-LibraryFantasySciFi`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``LibraryFashion``
+   * - :ref:`procedural-distribution-LibraryFashion`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryGeneralReference``
+   * - :ref:`procedural-distribution-LibraryGeneralReference`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``LibraryHistory``
+   * - :ref:`procedural-distribution-LibraryHistory`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``LibraryHorror``
+   * - :ref:`procedural-distribution-LibraryHorror`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``LibraryLegal``
+   * - :ref:`procedural-distribution-LibraryLegal`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryLiteraryFiction``
+   * - :ref:`procedural-distribution-LibraryLiteraryFiction`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``LibraryMagazines``
+   * - :ref:`procedural-distribution-LibraryMagazines`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``LibraryMedical``
+   * - :ref:`procedural-distribution-LibraryMedical`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``LibraryMilitaryHistory``
+   * - :ref:`procedural-distribution-LibraryMilitaryHistory`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryMusic``
+   * - :ref:`procedural-distribution-LibraryMusic`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``LibraryNewAge``
+   * - :ref:`procedural-distribution-LibraryNewAge`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryNonFiction``
+   * - :ref:`procedural-distribution-LibraryNonFiction`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``LibraryOccult``
+   * - :ref:`procedural-distribution-LibraryOccult`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LibraryOutdoors``
+   * - :ref:`procedural-distribution-LibraryOutdoors`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``LibraryPhilosophy``
+   * - :ref:`procedural-distribution-LibraryPhilosophy`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``LibraryPolitics``
+   * - :ref:`procedural-distribution-LibraryPolitics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``LibraryReligion``
+   * - :ref:`procedural-distribution-LibraryReligion`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryRomance``
+   * - :ref:`procedural-distribution-LibraryRomance`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryScience``
+   * - :ref:`procedural-distribution-LibraryScience`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``LibrarySports``
+   * - :ref:`procedural-distribution-LibrarySports`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``LibraryThriller``
+   * - :ref:`procedural-distribution-LibraryThriller`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryTravel``
+   * - :ref:`procedural-distribution-LibraryTravel`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LibraryWestern``
+   * - :ref:`procedural-distribution-LibraryWestern`
      - 0
      - 1
      - 20
@@ -33708,21 +33708,21 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLiquor``
+   * - :ref:`procedural-distribution-CrateLiquor`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateWine``
+   * - :ref:`procedural-distribution-CrateWine`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateBeer``
+   * - :ref:`procedural-distribution-CrateBeer`
      - 0
      - 99
      - 100
@@ -33743,7 +33743,7 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LiquorStoreBags``
+   * - :ref:`procedural-distribution-LiquorStoreBags`
      - 0
      - 99
      - -
@@ -33758,21 +33758,21 @@ liquorstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``GasStoreSpecial``
+   * - :ref:`procedural-distribution-GasStoreSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreCounterBagsPaper``
+   * - :ref:`procedural-distribution-StoreCounterBagsPaper`
      - 0
      - 99
      - 100
@@ -33793,21 +33793,21 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLiquor``
+   * - :ref:`procedural-distribution-CrateLiquor`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateWine``
+   * - :ref:`procedural-distribution-CrateWine`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateBeer``
+   * - :ref:`procedural-distribution-CrateBeer`
      - 0
      - 99
      - 100
@@ -33828,7 +33828,7 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeBeer``
+   * - :ref:`procedural-distribution-FridgeBeer`
      - 0
      - 99
      - -
@@ -33849,7 +33849,7 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBeer``
+   * - :ref:`procedural-distribution-CrateBeer`
      - 0
      - 99
      - -
@@ -33870,56 +33870,56 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LiquorStoreGin``
+   * - :ref:`procedural-distribution-LiquorStoreGin`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreRum``
+   * - :ref:`procedural-distribution-LiquorStoreRum`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreTequila``
+   * - :ref:`procedural-distribution-LiquorStoreTequila`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreVodka``
+   * - :ref:`procedural-distribution-LiquorStoreVodka`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreWhiskey``
+   * - :ref:`procedural-distribution-LiquorStoreWhiskey`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreWine``
+   * - :ref:`procedural-distribution-LiquorStoreWine`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``LiquorStoreBeerFancy``
+   * - :ref:`procedural-distribution-LiquorStoreBeerFancy`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``LiquorStoreBeer``
+   * - :ref:`procedural-distribution-LiquorStoreBeer`
      - 0
      - 12
      - 100
@@ -33940,84 +33940,84 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LiquorStoreWineFancy``
+   * - :ref:`procedural-distribution-LiquorStoreWineFancy`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``LiquorStoreBrandy``
+   * - :ref:`procedural-distribution-LiquorStoreBrandy`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LiquorStoreScotch``
+   * - :ref:`procedural-distribution-LiquorStoreScotch`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``LiquorStoreMix``
+   * - :ref:`procedural-distribution-LiquorStoreMix`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreGin``
+   * - :ref:`procedural-distribution-LiquorStoreGin`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreRum``
+   * - :ref:`procedural-distribution-LiquorStoreRum`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreTequila``
+   * - :ref:`procedural-distribution-LiquorStoreTequila`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreVodka``
+   * - :ref:`procedural-distribution-LiquorStoreVodka`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreWhiskey``
+   * - :ref:`procedural-distribution-LiquorStoreWhiskey`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``LiquorStoreWine``
+   * - :ref:`procedural-distribution-LiquorStoreWine`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``LiquorStoreBeerFancy``
+   * - :ref:`procedural-distribution-LiquorStoreBeerFancy`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``LiquorStoreBeer``
+   * - :ref:`procedural-distribution-LiquorStoreBeer`
      - 0
      - 12
      - 100
@@ -34038,7 +34038,7 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LiquorStoreMagazineRack``
+   * - :ref:`procedural-distribution-LiquorStoreMagazineRack`
      - 0
      - 99
      - -
@@ -34059,21 +34059,21 @@ liquorstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLiquor``
+   * - :ref:`procedural-distribution-CrateLiquor`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateWine``
+   * - :ref:`procedural-distribution-CrateWine`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateBeer``
+   * - :ref:`procedural-distribution-CrateBeer`
      - 0
      - 99
      - 100
@@ -34098,350 +34098,350 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -34462,49 +34462,49 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenDishes``
+   * - :ref:`procedural-distribution-KitchenDishes`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenPots``
+   * - :ref:`procedural-distribution-KitchenPots`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenBreakfast``
+   * - :ref:`procedural-distribution-KitchenBreakfast`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenBottles``
+   * - :ref:`procedural-distribution-KitchenBottles`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenRandom``
+   * - :ref:`procedural-distribution-KitchenRandom`
      - 0
      - 1
      - 100
@@ -34525,315 +34525,315 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -34854,28 +34854,28 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerGeneric``
+   * - :ref:`procedural-distribution-FreezerGeneric`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FreezerRich``
+   * - :ref:`procedural-distribution-FreezerRich`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``FreezerTrailerPark``
+   * - :ref:`procedural-distribution-FreezerTrailerPark`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - -
@@ -34896,28 +34896,28 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeGeneric``
+   * - :ref:`procedural-distribution-FridgeGeneric`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeRich``
+   * - :ref:`procedural-distribution-FridgeRich`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``FridgeTrailerPark``
+   * - :ref:`procedural-distribution-FridgeTrailerPark`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``UniversityFridge``
+   * - :ref:`procedural-distribution-UniversityFridge`
      - 0
      - 99
      - -
@@ -34938,168 +34938,168 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -35120,42 +35120,42 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenDishes``
+   * - :ref:`procedural-distribution-KitchenDishes`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenBreakfast``
+   * - :ref:`procedural-distribution-KitchenBreakfast`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenBottles``
+   * - :ref:`procedural-distribution-KitchenBottles`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenBook``
+   * - :ref:`procedural-distribution-KitchenBook`
      - 0
      - 1
      - 100
@@ -35176,21 +35176,21 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LivingRoomShelf``
+   * - :ref:`procedural-distribution-LivingRoomShelf`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``LivingRoomShelfClassy``
+   * - :ref:`procedural-distribution-LivingRoomShelfClassy`
      - 98
      - 99
      - -
      - 
      - 
      - 
-   * - ``LivingRoomShelfRedneck``
+   * - :ref:`procedural-distribution-LivingRoomShelfRedneck`
      - 98
      - 99
      - -
@@ -35211,28 +35211,28 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LivingRoomSideTable``
+   * - :ref:`procedural-distribution-LivingRoomSideTable`
      - 98
      - 99
      - 100
      - 
      - 
      - 
-   * - ``LivingRoomSideTableClassy``
+   * - :ref:`procedural-distribution-LivingRoomSideTableClassy`
      - 98
      - 99
      - -
      - 
      - 
      - 
-   * - ``LivingRoomSideTableRedneck``
+   * - :ref:`procedural-distribution-LivingRoomSideTableRedneck`
      - 98
      - 99
      - -
      - 
      - 
      - 
-   * - ``UniversitySideTable``
+   * - :ref:`procedural-distribution-UniversitySideTable`
      - 98
      - 99
      - -
@@ -35253,273 +35253,273 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateComics``
+   * - :ref:`procedural-distribution-CrateComics`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 20
@@ -35540,35 +35540,35 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``ArtSupplies``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``LivingRoomWardrobe``
+   * - :ref:`procedural-distribution-LivingRoomWardrobe`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``UniversityWardrobe``
+   * - :ref:`procedural-distribution-UniversityWardrobe`
      - 0
      - 99
      - -
@@ -35593,7 +35593,7 @@ lobby
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -35608,7 +35608,7 @@ lobby
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``RandomFiller``
+   * - :ref:`procedural-distribution-RandomFiller`
      - 0
      - 99
      - 100
@@ -35633,21 +35633,21 @@ loggingfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LoggingFactoryTools``
+   * - :ref:`procedural-distribution-LoggingFactoryTools`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateLongStick``
+   * - :ref:`procedural-distribution-CrateLongStick`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -35668,21 +35668,21 @@ loggingfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateHeavyChains``
+   * - :ref:`procedural-distribution-CrateHeavyChains`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``LoggingFactoryTools``
+   * - :ref:`procedural-distribution-LoggingFactoryTools`
      - 0
      - 99
      - 100
@@ -35707,14 +35707,14 @@ loggingtruck
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLongStick``
+   * - :ref:`procedural-distribution-CrateLongStick`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -35739,21 +35739,21 @@ loggingwarehouse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LoggingFactoryTools``
+   * - :ref:`procedural-distribution-LoggingFactoryTools`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateLongStick``
+   * - :ref:`procedural-distribution-CrateLongStick`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -35774,21 +35774,21 @@ loggingwarehouse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateHeavyChains``
+   * - :ref:`procedural-distribution-CrateHeavyChains`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``LoggingFactoryTools``
+   * - :ref:`procedural-distribution-LoggingFactoryTools`
      - 0
      - 99
      - 100
@@ -35813,7 +35813,7 @@ mannequinfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MannequinFactoryTools``
+   * - :ref:`procedural-distribution-MannequinFactoryTools`
      - 0
      - 99
      - -
@@ -35834,14 +35834,14 @@ mannequinfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MannequinFactoryTools``
+   * - :ref:`procedural-distribution-MannequinFactoryTools`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -35862,14 +35862,14 @@ mannequinfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MannequinFactoryTools``
+   * - :ref:`procedural-distribution-MannequinFactoryTools`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 100
@@ -35894,7 +35894,7 @@ mannequinpainting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - -
@@ -35915,7 +35915,7 @@ mannequinpainting
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - -
@@ -35940,14 +35940,14 @@ mapfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMaps``
+   * - :ref:`procedural-distribution-CrateMaps`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateMapsLarge``
+   * - :ref:`procedural-distribution-CrateMapsLarge`
      - 0
      - 4
      - 80
@@ -35968,14 +35968,14 @@ mapfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMaps``
+   * - :ref:`procedural-distribution-CrateMaps`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateMapsLarge``
+   * - :ref:`procedural-distribution-CrateMapsLarge`
      - 0
      - 4
      - 80
@@ -36000,14 +36000,14 @@ masonrystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateStoneBlocks``
+   * - :ref:`procedural-distribution-CrateStoneBlocks`
      - 0
      - 99
      - 100
@@ -36032,7 +36032,7 @@ mayorwestpointoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MayorWestPointDesk``
+   * - :ref:`procedural-distribution-MayorWestPointDesk`
      - 1
      - 1
      - -
@@ -36053,7 +36053,7 @@ mayorwestpointoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MayorWestPointSafe``
+   * - :ref:`procedural-distribution-MayorWestPointSafe`
      - 1
      - 1
      - -
@@ -36074,7 +36074,7 @@ mayorwestpointoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MayorWestPointBooks``
+   * - :ref:`procedural-distribution-MayorWestPointBooks`
      - 0
      - 99
      - -
@@ -36099,210 +36099,210 @@ mechanic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarLightbars``
+   * - :ref:`procedural-distribution-CarLightbars`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarTiresModern1``
+   * - :ref:`procedural-distribution-CarTiresModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarTiresModern2``
+   * - :ref:`procedural-distribution-CarTiresModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarTiresModern3``
+   * - :ref:`procedural-distribution-CarTiresModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarTiresNormal1``
+   * - :ref:`procedural-distribution-CarTiresNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarTiresNormal2``
+   * - :ref:`procedural-distribution-CarTiresNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarTiresNormal3``
+   * - :ref:`procedural-distribution-CarTiresNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarMufflerModern1``
+   * - :ref:`procedural-distribution-CarMufflerModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarMufflerModern2``
+   * - :ref:`procedural-distribution-CarMufflerModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarMufflerModern3``
+   * - :ref:`procedural-distribution-CarMufflerModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarMufflerNormal1``
+   * - :ref:`procedural-distribution-CarMufflerNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarMufflerNormal2``
+   * - :ref:`procedural-distribution-CarMufflerNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarMufflerNormal3``
+   * - :ref:`procedural-distribution-CarMufflerNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarBrakesModern1``
+   * - :ref:`procedural-distribution-CarBrakesModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarBrakesModern2``
+   * - :ref:`procedural-distribution-CarBrakesModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarBrakesModern3``
+   * - :ref:`procedural-distribution-CarBrakesModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarBrakesNormal1``
+   * - :ref:`procedural-distribution-CarBrakesNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarBrakesNormal2``
+   * - :ref:`procedural-distribution-CarBrakesNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarBrakesNormal3``
+   * - :ref:`procedural-distribution-CarBrakesNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarSuspensionModern1``
+   * - :ref:`procedural-distribution-CarSuspensionModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarSuspensionModern2``
+   * - :ref:`procedural-distribution-CarSuspensionModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarSuspensionModern3``
+   * - :ref:`procedural-distribution-CarSuspensionModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarSuspensionNormal1``
+   * - :ref:`procedural-distribution-CarSuspensionNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarSuspensionNormal2``
+   * - :ref:`procedural-distribution-CarSuspensionNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarSuspensionNormal3``
+   * - :ref:`procedural-distribution-CarSuspensionNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarWindows1``
+   * - :ref:`procedural-distribution-CarWindows1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarWindows2``
+   * - :ref:`procedural-distribution-CarWindows2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarWindows3``
+   * - :ref:`procedural-distribution-CarWindows3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ToolCabinetMechanics``
+   * - :ref:`procedural-distribution-ToolCabinetMechanics`
      - 0
      - 99
      - 100
@@ -36323,7 +36323,7 @@ mechanic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MechanicShelfTools``
+   * - :ref:`procedural-distribution-MechanicShelfTools`
      - 0
      - 99
      - -
@@ -36344,210 +36344,210 @@ mechanic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarLightbars``
+   * - :ref:`procedural-distribution-CarLightbars`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarTiresModern1``
+   * - :ref:`procedural-distribution-CarTiresModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarTiresModern2``
+   * - :ref:`procedural-distribution-CarTiresModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarTiresModern3``
+   * - :ref:`procedural-distribution-CarTiresModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarTiresNormal1``
+   * - :ref:`procedural-distribution-CarTiresNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarTiresNormal2``
+   * - :ref:`procedural-distribution-CarTiresNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarTiresNormal3``
+   * - :ref:`procedural-distribution-CarTiresNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarMufflerModern1``
+   * - :ref:`procedural-distribution-CarMufflerModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarMufflerModern2``
+   * - :ref:`procedural-distribution-CarMufflerModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarMufflerModern3``
+   * - :ref:`procedural-distribution-CarMufflerModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarMufflerNormal1``
+   * - :ref:`procedural-distribution-CarMufflerNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarMufflerNormal2``
+   * - :ref:`procedural-distribution-CarMufflerNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarMufflerNormal3``
+   * - :ref:`procedural-distribution-CarMufflerNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarBrakesModern1``
+   * - :ref:`procedural-distribution-CarBrakesModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarBrakesModern2``
+   * - :ref:`procedural-distribution-CarBrakesModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarBrakesModern3``
+   * - :ref:`procedural-distribution-CarBrakesModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarBrakesNormal1``
+   * - :ref:`procedural-distribution-CarBrakesNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarBrakesNormal2``
+   * - :ref:`procedural-distribution-CarBrakesNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarBrakesNormal3``
+   * - :ref:`procedural-distribution-CarBrakesNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarSuspensionModern1``
+   * - :ref:`procedural-distribution-CarSuspensionModern1`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarSuspensionModern2``
+   * - :ref:`procedural-distribution-CarSuspensionModern2`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarSuspensionModern3``
+   * - :ref:`procedural-distribution-CarSuspensionModern3`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CarSuspensionNormal1``
+   * - :ref:`procedural-distribution-CarSuspensionNormal1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarSuspensionNormal2``
+   * - :ref:`procedural-distribution-CarSuspensionNormal2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarSuspensionNormal3``
+   * - :ref:`procedural-distribution-CarSuspensionNormal3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CarWindows1``
+   * - :ref:`procedural-distribution-CarWindows1`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CarWindows2``
+   * - :ref:`procedural-distribution-CarWindows2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CarWindows3``
+   * - :ref:`procedural-distribution-CarWindows3`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 99
      - 100
@@ -36568,7 +36568,7 @@ mechanic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MechanicOutfit``
+   * - :ref:`procedural-distribution-MechanicOutfit`
      - 0
      - 99
      - -
@@ -36589,63 +36589,63 @@ mechanic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``MechanicShelfTools``
+   * - :ref:`procedural-distribution-MechanicShelfTools`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``MechanicShelfOutfit``
+   * - :ref:`procedural-distribution-MechanicShelfOutfit`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MechanicShelfBrakes``
+   * - :ref:`procedural-distribution-MechanicShelfBrakes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicShelfSuspension``
+   * - :ref:`procedural-distribution-MechanicShelfSuspension`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicShelfElectric``
+   * - :ref:`procedural-distribution-MechanicShelfElectric`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MechanicShelfMufflers``
+   * - :ref:`procedural-distribution-MechanicShelfMufflers`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``MechanicShelfWheels``
+   * - :ref:`procedural-distribution-MechanicShelfWheels`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``MechanicShelfBooks``
+   * - :ref:`procedural-distribution-MechanicShelfBooks`
      - 0
      - 99
      - 100
@@ -36670,7 +36670,7 @@ medical
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinHospital``
+   * - :ref:`procedural-distribution-BinHospital`
      - 0
      - 99
      - -
@@ -36691,21 +36691,21 @@ medical
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MedicalOfficeBooks``
+   * - :ref:`procedural-distribution-MedicalOfficeBooks`
      - 0
      - 1
      - 20
@@ -36726,7 +36726,7 @@ medical
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - 100
@@ -36747,21 +36747,21 @@ medical
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalStorageDrugs``
+   * - :ref:`procedural-distribution-MedicalStorageDrugs`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MedicalStorageTools``
+   * - :ref:`procedural-distribution-MedicalStorageTools`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MedicalStorageOutfit``
+   * - :ref:`procedural-distribution-MedicalStorageOutfit`
      - 0
      - 99
      - 100
@@ -36782,7 +36782,7 @@ medical
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeBooks``
+   * - :ref:`procedural-distribution-MedicalOfficeBooks`
      - 0
      - 99
      - 100
@@ -36803,7 +36803,7 @@ medical
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalStorageOutfit``
+   * - :ref:`procedural-distribution-MedicalStorageOutfit`
      - 0
      - 99
      - 100
@@ -36833,7 +36833,7 @@ medicaloffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeCounter``
+   * - :ref:`procedural-distribution-MedicalOfficeCounter`
      - 0
      - 99
      - -
@@ -36854,7 +36854,7 @@ medicaloffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - -
@@ -36875,7 +36875,7 @@ medicaloffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FilingCabinetGeneric``
+   * - :ref:`procedural-distribution-FilingCabinetGeneric`
      - 0
      - 99
      - -
@@ -36896,7 +36896,7 @@ medicaloffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOffice``
+   * - :ref:`procedural-distribution-FridgeOffice`
      - 0
      - 99
      - -
@@ -36917,7 +36917,7 @@ medicaloffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeShelfSupplies``
+   * - :ref:`procedural-distribution-OfficeShelfSupplies`
      - 0
      - 99
      - -
@@ -36938,7 +36938,7 @@ medicaloffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeBooks``
+   * - :ref:`procedural-distribution-MedicalOfficeBooks`
      - 0
      - 99
      - -
@@ -36963,7 +36963,7 @@ medicalstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - -
@@ -36984,14 +36984,14 @@ medicalstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 99
      - 100
@@ -37012,7 +37012,7 @@ medicalstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - -
@@ -37033,7 +37033,7 @@ medicalstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeMedical``
+   * - :ref:`procedural-distribution-FridgeMedical`
      - 0
      - 99
      - -
@@ -37054,21 +37054,21 @@ medicalstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalStorageOutfit``
+   * - :ref:`procedural-distribution-MedicalStorageOutfit`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 99
      - 100
@@ -37093,7 +37093,7 @@ metalfabrication
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MetalShopTools``
+   * - :ref:`procedural-distribution-MetalShopTools`
      - 0
      - 99
      - -
@@ -37114,35 +37114,35 @@ metalfabrication
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMetalBars``
+   * - :ref:`procedural-distribution-CrateMetalBars`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateMetalPipes``
+   * - :ref:`procedural-distribution-CrateMetalPipes`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ToolFactoryIngots``
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
      - 0
      - 99
      - 100
@@ -37163,35 +37163,35 @@ metalfabrication
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMetalBars``
+   * - :ref:`procedural-distribution-CrateMetalBars`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateMetalPipes``
+   * - :ref:`procedural-distribution-CrateMetalPipes`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ToolFactoryIngots``
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
      - 0
      - 99
      - 100
@@ -37212,7 +37212,7 @@ metalfabrication
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MetalShopTools``
+   * - :ref:`procedural-distribution-MetalShopTools`
      - 0
      - 99
      - -
@@ -37237,7 +37237,7 @@ metalfabricationstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactoryIngots``
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
      - 0
      - 99
      - -
@@ -37258,7 +37258,7 @@ metalfabricationstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolFactoryIngots``
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
      - 0
      - 99
      - -
@@ -37279,7 +37279,7 @@ metalfabricationstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MetalShopTools``
+   * - :ref:`procedural-distribution-MetalShopTools`
      - 0
      - 99
      - -
@@ -37304,21 +37304,21 @@ metalshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMetalBars``
+   * - :ref:`procedural-distribution-CrateMetalBars`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalPipes``
+   * - :ref:`procedural-distribution-CrateMetalPipes`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 100
@@ -37339,21 +37339,21 @@ metalshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMetalBars``
+   * - :ref:`procedural-distribution-CrateMetalBars`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalPipes``
+   * - :ref:`procedural-distribution-CrateMetalPipes`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 100
@@ -37374,21 +37374,21 @@ metalshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMetalBars``
+   * - :ref:`procedural-distribution-CrateMetalBars`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalPipes``
+   * - :ref:`procedural-distribution-CrateMetalPipes`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 100
@@ -37413,7 +37413,7 @@ metalshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MetalShopTools``
+   * - :ref:`procedural-distribution-MetalShopTools`
      - 0
      - 99
      - -
@@ -37434,21 +37434,21 @@ metalshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMetalBars``
+   * - :ref:`procedural-distribution-CrateMetalBars`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalPipes``
+   * - :ref:`procedural-distribution-CrateMetalPipes`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 100
@@ -37469,21 +37469,21 @@ metalshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateMetalBars``
+   * - :ref:`procedural-distribution-CrateMetalBars`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalPipes``
+   * - :ref:`procedural-distribution-CrateMetalPipes`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 100
@@ -37504,7 +37504,7 @@ metalshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MetalShopTools``
+   * - :ref:`procedural-distribution-MetalShopTools`
      - 0
      - 99
      - -
@@ -37525,7 +37525,7 @@ metalshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MetalShopTools``
+   * - :ref:`procedural-distribution-MetalShopTools`
      - 0
      - 99
      - -
@@ -37550,7 +37550,7 @@ mexicankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -37573,49 +37573,49 @@ mexicankitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``MexicanKitchenBaking``
+   * - :ref:`procedural-distribution-MexicanKitchenBaking`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``MexicanKitchenButcher``
+   * - :ref:`procedural-distribution-MexicanKitchenButcher`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``MexicanKitchenSauce``
+   * - :ref:`procedural-distribution-MexicanKitchenSauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenBags``
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - ``StoreKitchenCups``
+   * - :ref:`procedural-distribution-StoreKitchenBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenCups`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenTrays``
+   * - :ref:`procedural-distribution-StoreKitchenTrays`
      - 0
      - 1
      - 20
@@ -37636,42 +37636,42 @@ mexicankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCornflour``
+   * - :ref:`procedural-distribution-CrateCornflour`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateHotsauce``
+   * - :ref:`procedural-distribution-CrateHotsauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateTacoShells``
+   * - :ref:`procedural-distribution-CrateTacoShells`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateTortillaChips``
+   * - :ref:`procedural-distribution-CrateTortillaChips`
      - 0
      - 2
      - 100
@@ -37692,7 +37692,7 @@ mexicankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MexicanKitchenFreezer``
+   * - :ref:`procedural-distribution-MexicanKitchenFreezer`
      - 0
      - 99
      - -
@@ -37713,7 +37713,7 @@ mexicankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MexicanKitchenFridge``
+   * - :ref:`procedural-distribution-MexicanKitchenFridge`
      - 0
      - 99
      - -
@@ -37734,35 +37734,35 @@ mexicankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateHotsauce``
+   * - :ref:`procedural-distribution-CrateHotsauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOilVegetable``
+   * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateTacoShells``
+   * - :ref:`procedural-distribution-CrateTacoShells`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateTortillaChips``
+   * - :ref:`procedural-distribution-CrateTortillaChips`
      - 0
      - 2
      - 100
@@ -37787,7 +37787,7 @@ morgue
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MorgueTools``
+   * - :ref:`procedural-distribution-MorgueTools`
      - 0
      - 99
      - -
@@ -37808,7 +37808,7 @@ morgue
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - -
@@ -37829,14 +37829,14 @@ morgue
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MorgueChemicals``
+   * - :ref:`procedural-distribution-MorgueChemicals`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MorgueOutfit``
+   * - :ref:`procedural-distribution-MorgueOutfit`
      - 1
      - 99
      - 100
@@ -37861,7 +37861,7 @@ motelroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MotelLinens``
+   * - :ref:`procedural-distribution-MotelLinens`
      - 0
      - 99
      - -
@@ -37882,7 +37882,7 @@ motelroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MotelSideTable``
+   * - :ref:`procedural-distribution-MotelSideTable`
      - 1
      - 1
      - 100
@@ -37903,14 +37903,14 @@ motelroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MotelTowels``
+   * - :ref:`procedural-distribution-MotelTowels`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -37931,14 +37931,14 @@ motelroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MotelTowels``
+   * - :ref:`procedural-distribution-MotelTowels`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -37959,7 +37959,7 @@ motelroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MotelSideTable``
+   * - :ref:`procedural-distribution-MotelSideTable`
      - 1
      - 1
      - 100
@@ -37980,14 +37980,14 @@ motelroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MotelTowels``
+   * - :ref:`procedural-distribution-MotelTowels`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -38012,7 +38012,7 @@ motelroomoccupied
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MotelFridge``
+   * - :ref:`procedural-distribution-MotelFridge`
      - 1
      - 1
      - -
@@ -38033,14 +38033,14 @@ motelroomoccupied
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MotelLinens``
+   * - :ref:`procedural-distribution-MotelLinens`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``MotelTowels``
+   * - :ref:`procedural-distribution-MotelTowels`
      - 1
      - 1
      - 100
@@ -38065,7 +38065,7 @@ movierental
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -38080,7 +38080,7 @@ movierental
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -38101,7 +38101,7 @@ movierental
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 99
      - -
@@ -38122,14 +38122,14 @@ movierental
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -38156,7 +38156,7 @@ musicschool
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MusicSchoolCases``
+   * - :ref:`procedural-distribution-MusicSchoolCases`
      - 0
      - 99
      - -
@@ -38177,7 +38177,7 @@ musicschool
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MusicSchoolSheets``
+   * - :ref:`procedural-distribution-MusicSchoolSheets`
      - 0
      - 99
      - -
@@ -38198,7 +38198,7 @@ musicschool
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandPracticeClothing``
+   * - :ref:`procedural-distribution-BandPracticeClothing`
      - 0
      - 99
      - -
@@ -38219,7 +38219,7 @@ musicschool
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandPracticeClothing``
+   * - :ref:`procedural-distribution-BandPracticeClothing`
      - 0
      - 99
      - -
@@ -38244,7 +38244,7 @@ musicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BandMerchClothes``
+   * - :ref:`procedural-distribution-BandMerchClothes`
      - 0
      - 99
      - -
@@ -38265,7 +38265,7 @@ musicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -38280,7 +38280,7 @@ musicstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
@@ -38301,77 +38301,77 @@ musicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MusicStoreBass``
+   * - :ref:`procedural-distribution-MusicStoreBass`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreBrass``
+   * - :ref:`procedural-distribution-MusicStoreBrass`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreDrums``
+   * - :ref:`procedural-distribution-MusicStoreDrums`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreGuitar``
+   * - :ref:`procedural-distribution-MusicStoreGuitar`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreSpeaker``
+   * - :ref:`procedural-distribution-MusicStoreSpeaker`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreStringed``
+   * - :ref:`procedural-distribution-MusicStoreStringed`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreOthers``
+   * - :ref:`procedural-distribution-MusicStoreOthers`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreCases``
+   * - :ref:`procedural-distribution-MusicStoreCases`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ElectronicStoreCases``
+   * - :ref:`procedural-distribution-ElectronicStoreCases`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``MusicStoreLiterature``
+   * - :ref:`procedural-distribution-MusicStoreLiterature`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MusicStoreCDs``
+   * - :ref:`procedural-distribution-MusicStoreCDs`
      - 0
      - 99
      - 100
@@ -38392,56 +38392,56 @@ musicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MusicStoreBass``
+   * - :ref:`procedural-distribution-MusicStoreBass`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreBrass``
+   * - :ref:`procedural-distribution-MusicStoreBrass`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreDrums``
+   * - :ref:`procedural-distribution-MusicStoreDrums`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreGuitar``
+   * - :ref:`procedural-distribution-MusicStoreGuitar`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreOthers``
+   * - :ref:`procedural-distribution-MusicStoreOthers`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreStringed``
+   * - :ref:`procedural-distribution-MusicStoreStringed`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``ElectronicStoreCases``
+   * - :ref:`procedural-distribution-ElectronicStoreCases`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``MusicStoreCases``
+   * - :ref:`procedural-distribution-MusicStoreCases`
      - 0
      - 99
      - 100
@@ -38462,84 +38462,84 @@ musicstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MusicStoreBass``
+   * - :ref:`procedural-distribution-MusicStoreBass`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MusicStoreBrass``
+   * - :ref:`procedural-distribution-MusicStoreBrass`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MusicStoreCases``
+   * - :ref:`procedural-distribution-MusicStoreCases`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``MusicStoreCDs``
+   * - :ref:`procedural-distribution-MusicStoreCDs`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreDrums``
+   * - :ref:`procedural-distribution-MusicStoreDrums`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MusicStoreGuitar``
+   * - :ref:`procedural-distribution-MusicStoreGuitar`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MusicStoreLiterature``
+   * - :ref:`procedural-distribution-MusicStoreLiterature`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``MusicStoreOthers``
+   * - :ref:`procedural-distribution-MusicStoreOthers`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MusicStoreSpeaker``
+   * - :ref:`procedural-distribution-MusicStoreSpeaker`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``MusicStoreStringed``
+   * - :ref:`procedural-distribution-MusicStoreStringed`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``ElectronicStoreCases``
+   * - :ref:`procedural-distribution-ElectronicStoreCases`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -38566,7 +38566,7 @@ newspaperprint_herald
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateNewspapersNew``
+   * - :ref:`procedural-distribution-CrateNewspapersNew`
      - 0
      - 99
      - -
@@ -38587,7 +38587,7 @@ newspaperprint_herald
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateNewspapersNew``
+   * - :ref:`procedural-distribution-CrateNewspapersNew`
      - 0
      - 99
      - -
@@ -38612,7 +38612,7 @@ newspapershipping_herald
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateNewspapersNew``
+   * - :ref:`procedural-distribution-CrateNewspapersNew`
      - 0
      - 99
      - -
@@ -38633,7 +38633,7 @@ newspapershipping_herald
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateNewspapersNew``
+   * - :ref:`procedural-distribution-CrateNewspapersNew`
      - 0
      - 99
      - -
@@ -38658,7 +38658,7 @@ newspaperstorage_herald
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateNewspapersNew``
+   * - :ref:`procedural-distribution-CrateNewspapersNew`
      - 0
      - 99
      - -
@@ -38683,7 +38683,7 @@ nolansoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeCounter``
+   * - :ref:`procedural-distribution-OfficeCounter`
      - 0
      - 99
      - -
@@ -38704,7 +38704,7 @@ nolansoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NolansDesk``
+   * - :ref:`procedural-distribution-NolansDesk`
      - 0
      - 99
      - -
@@ -38725,7 +38725,7 @@ nolansoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NolansFilingCabinet``
+   * - :ref:`procedural-distribution-NolansFilingCabinet`
      - 0
      - 99
      - -
@@ -38746,7 +38746,7 @@ nolansoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NolansFridge``
+   * - :ref:`procedural-distribution-NolansFridge`
      - 0
      - 99
      - -
@@ -38767,7 +38767,7 @@ nolansoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreakRoomCounter``
+   * - :ref:`procedural-distribution-BreakRoomCounter`
      - 0
      - 99
      - -
@@ -38792,7 +38792,7 @@ Nurse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NurseTools``
+   * - :ref:`procedural-distribution-NurseTools`
      - 1
      - 4
      - -
@@ -38813,7 +38813,7 @@ Nurse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NurseTools``
+   * - :ref:`procedural-distribution-NurseTools`
      - 1
      - 4
      - -
@@ -38834,7 +38834,7 @@ Nurse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NurseTools``
+   * - :ref:`procedural-distribution-NurseTools`
      - 1
      - 4
      - -
@@ -38855,7 +38855,7 @@ Nurse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NurseOutfit``
+   * - :ref:`procedural-distribution-NurseOutfit`
      - 1
      - 1
      - -
@@ -38876,7 +38876,7 @@ Nurse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NurseTools``
+   * - :ref:`procedural-distribution-NurseTools`
      - 1
      - 4
      - -
@@ -38897,7 +38897,7 @@ Nurse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``NurseTools``
+   * - :ref:`procedural-distribution-NurseTools`
      - 1
      - 4
      - -
@@ -38922,14 +38922,14 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWaterDispenserBottle``
+   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - 100
@@ -38950,7 +38950,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeCounter``
+   * - :ref:`procedural-distribution-MedicalOfficeCounter`
      - 0
      - 99
      - -
@@ -38958,7 +38958,7 @@ office
      - 
      - 
        - hospitalroom
-   * - ``OfficeCounter``
+   * - :ref:`procedural-distribution-OfficeCounter`
      - 0
      - 99
      - -
@@ -38979,14 +38979,14 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWaterDispenserBottle``
+   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - 100
@@ -39007,7 +39007,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - -
@@ -39015,28 +39015,28 @@ office
      - 
      - 
        - hospitalroom
-   * - ``OfficeDesk``
+   * - :ref:`procedural-distribution-OfficeDesk`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``OfficeDeskSecretary``
+   * - :ref:`procedural-distribution-OfficeDeskSecretary`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``OfficeDeskStressed``
+   * - :ref:`procedural-distribution-OfficeDeskStressed`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``PoliceDesk``
+   * - :ref:`procedural-distribution-PoliceDesk`
      - 0
      - 99
      - -
@@ -39044,7 +39044,7 @@ office
      - 
      - 
        - policestorage
-   * - ``SpiffosDesk``
+   * - :ref:`procedural-distribution-SpiffosDesk`
      - 0
      - 99
      - -
@@ -39066,7 +39066,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeCounter``
+   * - :ref:`procedural-distribution-OfficeCounter`
      - 0
      - 99
      - -
@@ -39087,7 +39087,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FilingCabinetGeneric``
+   * - :ref:`procedural-distribution-FilingCabinetGeneric`
      - 0
      - 99
      - -
@@ -39108,7 +39108,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOffice``
+   * - :ref:`procedural-distribution-FridgeOffice`
      - 0
      - 99
      - -
@@ -39129,7 +39129,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeShelfSupplies``
+   * - :ref:`procedural-distribution-OfficeShelfSupplies`
      - 0
      - 99
      - -
@@ -39150,7 +39150,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 99
      - -
@@ -39171,7 +39171,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BreakRoomCounter``
+   * - :ref:`procedural-distribution-BreakRoomCounter`
      - 0
      - 99
      - -
@@ -39192,7 +39192,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeBooks``
+   * - :ref:`procedural-distribution-MedicalOfficeBooks`
      - 0
      - 99
      - -
@@ -39200,7 +39200,7 @@ office
      - 
      - 
        - hospitalroom
-   * - ``ShelfGeneric``
+   * - :ref:`procedural-distribution-ShelfGeneric`
      - 0
      - 99
      - 100
@@ -39221,7 +39221,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeCounter``
+   * - :ref:`procedural-distribution-OfficeCounter`
      - 0
      - 99
      - -
@@ -39242,7 +39242,7 @@ office
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -39267,7 +39267,7 @@ officechurch
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeCounter``
+   * - :ref:`procedural-distribution-OfficeCounter`
      - 0
      - 99
      - -
@@ -39292,14 +39292,14 @@ officestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWaterDispenserBottle``
+   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - 100
@@ -39320,7 +39320,7 @@ officestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeCounter``
+   * - :ref:`procedural-distribution-OfficeCounter`
      - 0
      - 99
      - -
@@ -39341,14 +39341,14 @@ officestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWaterDispenserBottle``
+   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - 100
@@ -39369,7 +39369,7 @@ officestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FilingCabinetGeneric``
+   * - :ref:`procedural-distribution-FilingCabinetGeneric`
      - 0
      - 99
      - -
@@ -39390,7 +39390,7 @@ officestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -39411,7 +39411,7 @@ officestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeShelfSupplies``
+   * - :ref:`procedural-distribution-OfficeShelfSupplies`
      - 0
      - 99
      - -
@@ -39432,7 +39432,7 @@ officestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -39457,14 +39457,14 @@ oldarmy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyBunkerKitchen``
+   * - :ref:`procedural-distribution-ArmyBunkerKitchen`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -39485,14 +39485,14 @@ oldarmy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyBunkerLockers``
+   * - :ref:`procedural-distribution-ArmyBunkerLockers`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -39513,14 +39513,14 @@ oldarmy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyBunkerStorage``
+   * - :ref:`procedural-distribution-ArmyBunkerStorage`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -39545,14 +39545,14 @@ oldmedical
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyBunkerMedical``
+   * - :ref:`procedural-distribution-ArmyBunkerMedical`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -39577,7 +39577,7 @@ outdoorsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OutdoorSupplyClothes``
+   * - :ref:`procedural-distribution-OutdoorSupplyClothes`
      - 0
      - 99
      - -
@@ -39598,21 +39598,21 @@ outdoorsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GroceryStandVegetables1``
+   * - :ref:`procedural-distribution-GroceryStandVegetables1`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables2``
+   * - :ref:`procedural-distribution-GroceryStandVegetables2`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``GroceryStandVegetables5``
+   * - :ref:`procedural-distribution-GroceryStandVegetables5`
      - 1
      - 4
      - 100
@@ -39633,70 +39633,70 @@ outdoorsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreCases``
+   * - :ref:`procedural-distribution-CampingStoreCases`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreLighting``
+   * - :ref:`procedural-distribution-CampingStoreLighting`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreSleepingBags``
+   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreTools``
+   * - :ref:`procedural-distribution-CampingStoreTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``OutdoorSupplyBoots``
+   * - :ref:`procedural-distribution-OutdoorSupplyBoots`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreFarming``
+   * - :ref:`procedural-distribution-ToolStoreFarming`
      - 1
      - 99
      - 40
@@ -39717,7 +39717,7 @@ outdoorsupply
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OutdoorSupplyMagazines``
+   * - :ref:`procedural-distribution-OutdoorSupplyMagazines`
      - 0
      - 99
      - 20
@@ -39742,56 +39742,56 @@ outdoorsupply_storage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CampingStoreBackpacks``
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreCases``
+   * - :ref:`procedural-distribution-CampingStoreCases`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreLighting``
+   * - :ref:`procedural-distribution-CampingStoreLighting`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreSleepingBags``
+   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CampingStoreTools``
+   * - :ref:`procedural-distribution-CampingStoreTools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``OutdoorSupplyBoots``
+   * - :ref:`procedural-distribution-OutdoorSupplyBoots`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 1
      - 1
      - 100
@@ -39812,14 +39812,14 @@ outdoorsupply_storage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreFarming``
+   * - :ref:`procedural-distribution-ToolStoreFarming`
      - 0
      - 99
      - 100
@@ -39844,7 +39844,7 @@ paintershop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - -
@@ -39865,7 +39865,7 @@ paintershop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PaintStudioTools``
+   * - :ref:`procedural-distribution-PaintStudioTools`
      - 0
      - 99
      - -
@@ -39886,7 +39886,7 @@ paintershop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - -
@@ -39907,7 +39907,7 @@ paintershop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PaintStudioTools``
+   * - :ref:`procedural-distribution-PaintStudioTools`
      - 0
      - 99
      - -
@@ -39928,7 +39928,7 @@ paintershop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PaintStudioTools``
+   * - :ref:`procedural-distribution-PaintStudioTools`
      - 0
      - 99
      - -
@@ -39953,126 +39953,126 @@ pawnshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusFootwear``
+   * - :ref:`procedural-distribution-ArmySurplusFootwear`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusHeadwear``
+   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusOutfit``
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreBooks``
+   * - :ref:`procedural-distribution-BookstoreBooks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageAllJackets``
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageAllShirts``
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageLegwear``
+   * - :ref:`procedural-distribution-ClothingStorageLegwear`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresDress``
+   * - :ref:`procedural-distribution-ClothingStoresDress`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresJacketsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresPantsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresShirtsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PawnShopTools``
+   * - :ref:`procedural-distribution-PawnShopTools`
      - 0
      - 99
      - 100
@@ -40093,56 +40093,56 @@ pawnshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmySurplusOutfit``
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
      - 0
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ClothingStorageAllJackets``
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageAllShirts``
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageLegwear``
+   * - :ref:`procedural-distribution-ClothingStorageLegwear`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresDress``
+   * - :ref:`procedural-distribution-ClothingStoresDress`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresJacketsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresPantsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresShirtsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
      - 0
      - 2
      - 40
@@ -40163,7 +40163,7 @@ pawnshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -40178,56 +40178,56 @@ pawnshop
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ArmySurplusBackpacks``
+   * - :ref:`procedural-distribution-ArmySurplusBackpacks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ArmySurplusHeadwear``
+   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``ArmySurplusTools``
+   * - :ref:`procedural-distribution-ArmySurplusTools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ElectronicStoreMusic``
+   * - :ref:`procedural-distribution-ElectronicStoreMusic`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PawnShopTools``
+   * - :ref:`procedural-distribution-PawnShopTools`
      - 0
      - 99
      - 10
@@ -40248,56 +40248,56 @@ pawnshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``DepartmentStoreWatches``
+   * - :ref:`procedural-distribution-DepartmentStoreWatches`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``JewelryGold``
+   * - :ref:`procedural-distribution-JewelryGold`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``JewelrySilver``
+   * - :ref:`procedural-distribution-JewelrySilver`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``JewelryWeddingRings``
+   * - :ref:`procedural-distribution-JewelryWeddingRings`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``OptometristGlasses``
+   * - :ref:`procedural-distribution-OptometristGlasses`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``PawnShopGuns``
+   * - :ref:`procedural-distribution-PawnShopGuns`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``PawnShopKnives``
+   * - :ref:`procedural-distribution-PawnShopKnives`
      - 1
      - 99
      - 10
@@ -40318,98 +40318,98 @@ pawnshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmySurplusHeadwear``
+   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ArmySurplusBackpacks``
+   * - :ref:`procedural-distribution-ArmySurplusBackpacks`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ArmySurplusFootwear``
+   * - :ref:`procedural-distribution-ArmySurplusFootwear`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ArmySurplusOutfit``
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``PawnShopCases``
+   * - :ref:`procedural-distribution-PawnShopCases`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``PawnShopTools``
+   * - :ref:`procedural-distribution-PawnShopTools`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageAllJackets``
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageAllShirts``
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageLegwear``
+   * - :ref:`procedural-distribution-ClothingStorageLegwear`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 99
      - 20
@@ -40430,49 +40430,49 @@ pawnshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmySurplusHeadwear``
+   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ArmySurplusBackpacks``
+   * - :ref:`procedural-distribution-ArmySurplusBackpacks`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ArmySurplusFootwear``
+   * - :ref:`procedural-distribution-ArmySurplusFootwear`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ArmySurplusOutfit``
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``BookstoreBooks``
+   * - :ref:`procedural-distribution-BookstoreBooks`
      - 0
      - 99
      - -
@@ -40483,35 +40483,35 @@ pawnshop
        - furniture_shelving_01_42
        - furniture_shelving_01_43
      - 
-   * - ``CampingStoreGear``
+   * - :ref:`procedural-distribution-CampingStoreGear`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ElectronicStoreMisc``
+   * - :ref:`procedural-distribution-ElectronicStoreMisc`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
@@ -40534,42 +40534,42 @@ pawnshop
        - location_entertainment_theatre_01_134
        - location_entertainment_theatre_01_135
      - 
-   * - ``MusicStoreBass``
+   * - :ref:`procedural-distribution-MusicStoreBass`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MusicStoreCDs``
+   * - :ref:`procedural-distribution-MusicStoreCDs`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``MusicStoreGuitar``
+   * - :ref:`procedural-distribution-MusicStoreGuitar`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``MusicStoreOthers``
+   * - :ref:`procedural-distribution-MusicStoreOthers`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``PawnShopCases``
+   * - :ref:`procedural-distribution-PawnShopCases`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -40578,7 +40578,7 @@ pawnshop
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``PawnShopTools``
+   * - :ref:`procedural-distribution-PawnShopTools`
      - 0
      - 99
      - 10
@@ -40608,70 +40608,70 @@ pawnshopoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusTools``
+   * - :ref:`procedural-distribution-ArmySurplusTools`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateCompactDiscs``
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreGuns``
+   * - :ref:`procedural-distribution-GunStoreGuns`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``JewelryStorageAll``
+   * - :ref:`procedural-distribution-JewelryStorageAll`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PoliceStorageArmor``
+   * - :ref:`procedural-distribution-PoliceStorageArmor`
      - 0
      - 1
      - 100
@@ -40692,14 +40692,14 @@ pawnshopoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PawnShopGunsSpecial``
+   * - :ref:`procedural-distribution-PawnShopGunsSpecial`
      - 0
      - 99
      - -
@@ -40710,7 +40710,7 @@ pawnshopoffice
        - furniture_storage_02_10
        - furniture_storage_02_11
      - 
-   * - ``PoliceStorageArmor``
+   * - :ref:`procedural-distribution-PoliceStorageArmor`
      - 0
      - 99
      - 100
@@ -40731,42 +40731,42 @@ pawnshopoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusTools``
+   * - :ref:`procedural-distribution-ArmySurplusTools`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreGuns``
+   * - :ref:`procedural-distribution-GunStoreGuns`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PoliceStorageArmor``
+   * - :ref:`procedural-distribution-PoliceStorageArmor`
      - 0
      - 1
      - 100
@@ -40791,56 +40791,56 @@ pawnshopstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusTools``
+   * - :ref:`procedural-distribution-ArmySurplusTools`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PawnShopTools``
+   * - :ref:`procedural-distribution-PawnShopTools`
      - 0
      - 99
      - 100
@@ -40861,56 +40861,56 @@ pawnshopstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ArmyStorageElectronics``
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmyStorageOutfit``
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ArmySurplusTools``
+   * - :ref:`procedural-distribution-ArmySurplusTools`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``GunStoreAmmunition``
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PawnShopTools``
+   * - :ref:`procedural-distribution-PawnShopTools`
      - 0
      - 99
      - 100
@@ -40935,7 +40935,7 @@ petstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PetShopShelf``
+   * - :ref:`procedural-distribution-PetShopShelf`
      - 0
      - 99
      - 99
@@ -40960,7 +40960,7 @@ pharmacy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -40975,14 +40975,14 @@ pharmacy
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 1
      - 10
@@ -41003,21 +41003,21 @@ pharmacy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 0
      - 99
      - 100
@@ -41038,7 +41038,7 @@ pharmacy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 99
      - -
@@ -41059,7 +41059,7 @@ pharmacy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -41068,42 +41068,42 @@ pharmacy
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GigamartCleaning``
+   * - :ref:`procedural-distribution-GigamartCleaning`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``GigamartPaper``
+   * - :ref:`procedural-distribution-GigamartPaper`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``PharmacyCosmetics``
+   * - :ref:`procedural-distribution-PharmacyCosmetics`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 99
      - 100
@@ -41124,28 +41124,28 @@ pharmacy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackCards``
+   * - :ref:`procedural-distribution-MagazineRackCards`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackPaperback``
+   * - :ref:`procedural-distribution-MagazineRackPaperback`
      - 1
      - 2
      - 40
@@ -41166,7 +41166,7 @@ pharmacy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 99
      - -
@@ -41191,14 +41191,14 @@ pharmacystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - 100
@@ -41219,7 +41219,7 @@ pharmacystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - -
@@ -41240,7 +41240,7 @@ pharmacystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalOfficeDesk``
+   * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
      - -
@@ -41261,7 +41261,7 @@ pharmacystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeMedical``
+   * - :ref:`procedural-distribution-FridgeMedical`
      - 0
      - 99
      - -
@@ -41282,14 +41282,14 @@ pharmacystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - 100
@@ -41310,14 +41310,14 @@ pharmacystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalClinicTools``
+   * - :ref:`procedural-distribution-MedicalClinicTools`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``MedicalClinicDrugs``
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
      - 0
      - 99
      - 100
@@ -41342,14 +41342,14 @@ photoroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCameraFilm``
+   * - :ref:`procedural-distribution-CrateCameraFilm`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -41370,14 +41370,14 @@ photoroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCameraFilm``
+   * - :ref:`procedural-distribution-CrateCameraFilm`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -41402,7 +41402,7 @@ pizzakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -41425,56 +41425,56 @@ pizzakitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``PizzaKitchenBaking``
+   * - :ref:`procedural-distribution-PizzaKitchenBaking`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PizzaKitchenButcher``
+   * - :ref:`procedural-distribution-PizzaKitchenButcher`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PizzaKitchenCheese``
+   * - :ref:`procedural-distribution-PizzaKitchenCheese`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PizzaKitchenSauce``
+   * - :ref:`procedural-distribution-PizzaKitchenSauce`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenBags``
+   * - :ref:`procedural-distribution-StoreKitchenBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenCups``
+   * - :ref:`procedural-distribution-StoreKitchenCups`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenTrays``
+   * - :ref:`procedural-distribution-StoreKitchenTrays`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
@@ -41495,28 +41495,28 @@ pizzakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateOilOlive``
+   * - :ref:`procedural-distribution-CrateOilOlive`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateTomatoPaste``
+   * - :ref:`procedural-distribution-CrateTomatoPaste`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateYeast``
+   * - :ref:`procedural-distribution-CrateYeast`
      - 0
      - 1
      - 100
@@ -41537,7 +41537,7 @@ pizzakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PizzaKitchenFridge``
+   * - :ref:`procedural-distribution-PizzaKitchenFridge`
      - 0
      - 99
      - -
@@ -41558,28 +41558,28 @@ pizzakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFlour``
+   * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateTomatoPaste``
+   * - :ref:`procedural-distribution-CrateTomatoPaste`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateOilOlive``
+   * - :ref:`procedural-distribution-CrateOilOlive`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateYeast``
+   * - :ref:`procedural-distribution-CrateYeast`
      - 0
      - 1
      - 100
@@ -41600,7 +41600,7 @@ pizzakitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 99
      - -
@@ -41625,7 +41625,7 @@ pizzawhirled
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -41654,7 +41654,7 @@ pizzawhirled
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 99
      - -
@@ -41679,7 +41679,7 @@ pizzawhirledcounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 1
      - 99
      - 100
@@ -41700,7 +41700,7 @@ pizzawhirledcounter
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 99
      - -
@@ -41725,7 +41725,7 @@ plazastore1
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RandomFiller``
+   * - :ref:`procedural-distribution-RandomFiller`
      - 0
      - 99
      - -
@@ -41750,7 +41750,7 @@ policearchive
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - -
@@ -41771,7 +41771,7 @@ policearchive
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -41792,7 +41792,7 @@ policearchive
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 99
      - -
@@ -41817,7 +41817,7 @@ policegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageOutfit``
+   * - :ref:`procedural-distribution-PoliceStorageOutfit`
      - 0
      - 99
      - -
@@ -41838,7 +41838,7 @@ policegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageMechanics``
+   * - :ref:`procedural-distribution-PoliceStorageMechanics`
      - 0
      - 99
      - -
@@ -41859,7 +41859,7 @@ policegarage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageMechanics``
+   * - :ref:`procedural-distribution-PoliceStorageMechanics`
      - 0
      - 99
      - -
@@ -41884,14 +41884,14 @@ policegunstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - 100
@@ -41912,7 +41912,7 @@ policegunstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -41933,7 +41933,7 @@ policegunstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageGuns``
+   * - :ref:`procedural-distribution-PoliceStorageGuns`
      - 0
      - 99
      - -
@@ -41944,7 +41944,7 @@ policegunstorage
        - furniture_storage_02_10
        - furniture_storage_02_11
      - 
-   * - ``PoliceStorageArmor``
+   * - :ref:`procedural-distribution-PoliceStorageArmor`
      - 0
      - 99
      - -
@@ -41969,7 +41969,7 @@ policegunstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 99
      - -
@@ -41990,7 +41990,7 @@ policegunstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageGuns``
+   * - :ref:`procedural-distribution-PoliceStorageGuns`
      - 0
      - 99
      - -
@@ -42011,14 +42011,14 @@ policegunstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - 100
@@ -42043,7 +42043,7 @@ policelibrary
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceLibraryLegal``
+   * - :ref:`procedural-distribution-PoliceLibraryLegal`
      - 0
      - 99
      - -
@@ -42068,7 +42068,7 @@ policelocker
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 99
      - 100
@@ -42089,7 +42089,7 @@ policelocker
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceLockers``
+   * - :ref:`procedural-distribution-PoliceLockers`
      - 0
      - 99
      - -
@@ -42114,7 +42114,7 @@ policeoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - -
@@ -42135,7 +42135,7 @@ policeoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeCounter``
+   * - :ref:`procedural-distribution-OfficeCounter`
      - 0
      - 99
      - -
@@ -42156,7 +42156,7 @@ policeoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceDesk``
+   * - :ref:`procedural-distribution-PoliceDesk`
      - 0
      - 99
      - -
@@ -42177,7 +42177,7 @@ policeoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -42198,7 +42198,7 @@ policeoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOffice``
+   * - :ref:`procedural-distribution-FridgeOffice`
      - 0
      - 99
      - -
@@ -42219,7 +42219,7 @@ policeoffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``OfficeShelfSupplies``
+   * - :ref:`procedural-distribution-OfficeShelfSupplies`
      - 0
      - 99
      - -
@@ -42244,7 +42244,7 @@ policeoutfitstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageOutfit``
+   * - :ref:`procedural-distribution-PoliceStorageOutfit`
      - 0
      - 99
      - -
@@ -42265,7 +42265,7 @@ policeoutfitstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageOutfit``
+   * - :ref:`procedural-distribution-PoliceStorageOutfit`
      - 0
      - 99
      - -
@@ -42286,7 +42286,7 @@ policeoutfitstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageOutfit``
+   * - :ref:`procedural-distribution-PoliceStorageOutfit`
      - 0
      - 99
      - -
@@ -42311,14 +42311,14 @@ policestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - 100
@@ -42339,7 +42339,7 @@ policestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -42360,7 +42360,7 @@ policestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageGuns``
+   * - :ref:`procedural-distribution-PoliceStorageGuns`
      - 0
      - 99
      - -
@@ -42371,7 +42371,7 @@ policestorage
        - furniture_storage_02_10
        - furniture_storage_02_11
      - 
-   * - ``PoliceStorageArmor``
+   * - :ref:`procedural-distribution-PoliceStorageArmor`
      - 0
      - 99
      - -
@@ -42396,7 +42396,7 @@ policestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 99
      - -
@@ -42417,14 +42417,14 @@ policestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - 100
@@ -42449,14 +42449,14 @@ policeswat
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceEvidence``
+   * - :ref:`procedural-distribution-PoliceEvidence`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``PoliceFileBox``
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - 100
@@ -42477,7 +42477,7 @@ policeswat
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -42498,7 +42498,7 @@ policeswat
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SWATStorageGuns``
+   * - :ref:`procedural-distribution-SWATStorageGuns`
      - 0
      - 99
      - -
@@ -42519,7 +42519,7 @@ policeswat
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalCabinet``
+   * - :ref:`procedural-distribution-MedicalCabinet`
      - 0
      - 99
      - -
@@ -42540,7 +42540,7 @@ policeswat
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SWATStorageAmmunition``
+   * - :ref:`procedural-distribution-SWATStorageAmmunition`
      - 0
      - 99
      - -
@@ -42561,7 +42561,7 @@ policeswat
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SWATStorageGuns``
+   * - :ref:`procedural-distribution-SWATStorageGuns`
      - 0
      - 99
      - -
@@ -42586,7 +42586,7 @@ pool
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoolLockers``
+   * - :ref:`procedural-distribution-PoolLockers`
      - 0
      - 99
      - 100
@@ -42611,21 +42611,21 @@ post
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeBooks``
+   * - :ref:`procedural-distribution-PostOfficeBooks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PostOfficeMagazines``
+   * - :ref:`procedural-distribution-PostOfficeMagazines`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PostOfficeNewspapers``
+   * - :ref:`procedural-distribution-PostOfficeNewspapers`
      - 0
      - 99
      - 100
@@ -42646,7 +42646,7 @@ post
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeParcels``
+   * - :ref:`procedural-distribution-PostOfficeParcels`
      - 0
      - 99
      - -
@@ -42667,14 +42667,14 @@ post
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeSupplies``
+   * - :ref:`procedural-distribution-PostOfficeSupplies`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PostOfficeBoxes``
+   * - :ref:`procedural-distribution-PostOfficeBoxes`
      - 1
      - 4
      - 100
@@ -42695,7 +42695,7 @@ post
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeSupplies``
+   * - :ref:`procedural-distribution-PostOfficeSupplies`
      - 0
      - 99
      - -
@@ -42716,7 +42716,7 @@ post
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeParcels``
+   * - :ref:`procedural-distribution-PostOfficeParcels`
      - 0
      - 99
      - -
@@ -42737,7 +42737,7 @@ post
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeParcels``
+   * - :ref:`procedural-distribution-PostOfficeParcels`
      - 0
      - 99
      - -
@@ -42758,14 +42758,14 @@ post
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeSupplies``
+   * - :ref:`procedural-distribution-PostOfficeSupplies`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PostOfficeBoxes``
+   * - :ref:`procedural-distribution-PostOfficeBoxes`
      - 1
      - 4
      - 100
@@ -42790,21 +42790,21 @@ poststorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeBooks``
+   * - :ref:`procedural-distribution-PostOfficeBooks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PostOfficeMagazines``
+   * - :ref:`procedural-distribution-PostOfficeMagazines`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PostOfficeNewspapers``
+   * - :ref:`procedural-distribution-PostOfficeNewspapers`
      - 0
      - 99
      - 100
@@ -42825,14 +42825,14 @@ poststorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeSupplies``
+   * - :ref:`procedural-distribution-PostOfficeSupplies`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PostOfficeBoxes``
+   * - :ref:`procedural-distribution-PostOfficeBoxes`
      - 1
      - 4
      - 100
@@ -42853,7 +42853,7 @@ poststorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeParcels``
+   * - :ref:`procedural-distribution-PostOfficeParcels`
      - 0
      - 99
      - -
@@ -42874,7 +42874,7 @@ poststorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeParcels``
+   * - :ref:`procedural-distribution-PostOfficeParcels`
      - 0
      - 99
      - -
@@ -42895,7 +42895,7 @@ poststorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeParcels``
+   * - :ref:`procedural-distribution-PostOfficeParcels`
      - 0
      - 99
      - -
@@ -42916,14 +42916,14 @@ poststorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PostOfficeSupplies``
+   * - :ref:`procedural-distribution-PostOfficeSupplies`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PostOfficeBoxes``
+   * - :ref:`procedural-distribution-PostOfficeBoxes`
      - 1
      - 4
      - 100
@@ -42948,7 +42948,7 @@ potatostorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 99
      - 100
@@ -42969,7 +42969,7 @@ potatostorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 99
      - 100
@@ -42994,7 +42994,7 @@ potteryworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PotteryStudioTools``
+   * - :ref:`procedural-distribution-PotteryStudioTools`
      - 0
      - 99
      - -
@@ -43015,7 +43015,7 @@ potteryworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateClayBags``
+   * - :ref:`procedural-distribution-CrateClayBags`
      - 0
      - 99
      - -
@@ -43036,7 +43036,7 @@ potteryworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PotteryBooks``
+   * - :ref:`procedural-distribution-PotteryBooks`
      - 1
      - 99
      - -
@@ -43061,14 +43061,14 @@ prisoncells
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PrisonCellRandom``
+   * - :ref:`procedural-distribution-PrisonCellRandom`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``PrisonCellRandomClassy``
+   * - :ref:`procedural-distribution-PrisonCellRandomClassy`
      - 0
      - 99
      - -
@@ -43097,7 +43097,7 @@ prisonlocker
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 99
      - 100
@@ -43118,7 +43118,7 @@ prisonlocker
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PrisonGuardLockers``
+   * - :ref:`procedural-distribution-PrisonGuardLockers`
      - 0
      - 99
      - -
@@ -43143,7 +43143,7 @@ prisonstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PrisonStorageGuns``
+   * - :ref:`procedural-distribution-PrisonStorageGuns`
      - 0
      - 99
      - -
@@ -43154,7 +43154,7 @@ prisonstorage
        - furniture_storage_02_10
        - furniture_storage_02_11
      - 
-   * - ``PrisonRiotStorage``
+   * - :ref:`procedural-distribution-PrisonRiotStorage`
      - 0
      - 99
      - -
@@ -43179,14 +43179,14 @@ prisonstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PrisonStorageArmor``
+   * - :ref:`procedural-distribution-PrisonStorageArmor`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateBootsArmy``
+   * - :ref:`procedural-distribution-CrateBootsArmy`
      - 1
      - 4
      - 60
@@ -43211,7 +43211,7 @@ producestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ProduceStorageEquipment``
+   * - :ref:`procedural-distribution-ProduceStorageEquipment`
      - 0
      - 99
      - 100
@@ -43232,175 +43232,175 @@ producestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ProduceStorageApples``
+   * - :ref:`procedural-distribution-ProduceStorageApples`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageBellPeppers``
+   * - :ref:`procedural-distribution-ProduceStorageBellPeppers`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageBroccoli``
+   * - :ref:`procedural-distribution-ProduceStorageBroccoli`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageCabbages``
+   * - :ref:`procedural-distribution-ProduceStorageCabbages`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageCarrots``
+   * - :ref:`procedural-distribution-ProduceStorageCarrots`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageCherry``
+   * - :ref:`procedural-distribution-ProduceStorageCherry`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageCorn``
+   * - :ref:`procedural-distribution-ProduceStorageCorn`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageEggplant``
+   * - :ref:`procedural-distribution-ProduceStorageEggplant`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageGrapes``
+   * - :ref:`procedural-distribution-ProduceStorageGrapes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageLeeks``
+   * - :ref:`procedural-distribution-ProduceStorageLeeks`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageLettuce``
+   * - :ref:`procedural-distribution-ProduceStorageLettuce`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageOnions``
+   * - :ref:`procedural-distribution-ProduceStorageOnions`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStoragePeaches``
+   * - :ref:`procedural-distribution-ProduceStoragePeaches`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStoragePears``
+   * - :ref:`procedural-distribution-ProduceStoragePears`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStoragePotatoes``
+   * - :ref:`procedural-distribution-ProduceStoragePotatoes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageRadishes``
+   * - :ref:`procedural-distribution-ProduceStorageRadishes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageStrawberries``
+   * - :ref:`procedural-distribution-ProduceStorageStrawberries`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageTomatoes``
+   * - :ref:`procedural-distribution-ProduceStorageTomatoes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageWatermelons``
+   * - :ref:`procedural-distribution-ProduceStorageWatermelons`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageRottenFruit``
+   * - :ref:`procedural-distribution-ProduceStorageRottenFruit`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ProduceStorageRottenVeg``
+   * - :ref:`procedural-distribution-ProduceStorageRottenVeg`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ProduceStorageRottenFruit``
+   * - :ref:`procedural-distribution-ProduceStorageRottenFruit`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ProduceStorageRottenVeg``
+   * - :ref:`procedural-distribution-ProduceStorageRottenVeg`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ProduceStorageEmptyBoxes``
+   * - :ref:`procedural-distribution-ProduceStorageEmptyBoxes`
      - 0
      - 8
      - 60
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -43421,7 +43421,7 @@ producestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ProduceStorageEmptyBoxes``
+   * - :ref:`procedural-distribution-ProduceStorageEmptyBoxes`
      - 0
      - 99
      - -
@@ -43442,175 +43442,175 @@ producestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ProduceStorageApples``
+   * - :ref:`procedural-distribution-ProduceStorageApples`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageBellPeppers``
+   * - :ref:`procedural-distribution-ProduceStorageBellPeppers`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageBroccoli``
+   * - :ref:`procedural-distribution-ProduceStorageBroccoli`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageCabbages``
+   * - :ref:`procedural-distribution-ProduceStorageCabbages`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageCarrots``
+   * - :ref:`procedural-distribution-ProduceStorageCarrots`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageCherry``
+   * - :ref:`procedural-distribution-ProduceStorageCherry`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageCorn``
+   * - :ref:`procedural-distribution-ProduceStorageCorn`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageEggplant``
+   * - :ref:`procedural-distribution-ProduceStorageEggplant`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageGrapes``
+   * - :ref:`procedural-distribution-ProduceStorageGrapes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageLeeks``
+   * - :ref:`procedural-distribution-ProduceStorageLeeks`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageLettuce``
+   * - :ref:`procedural-distribution-ProduceStorageLettuce`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageOnions``
+   * - :ref:`procedural-distribution-ProduceStorageOnions`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStoragePeaches``
+   * - :ref:`procedural-distribution-ProduceStoragePeaches`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStoragePears``
+   * - :ref:`procedural-distribution-ProduceStoragePears`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStoragePotatoes``
+   * - :ref:`procedural-distribution-ProduceStoragePotatoes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageRadishes``
+   * - :ref:`procedural-distribution-ProduceStorageRadishes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageStrawberries``
+   * - :ref:`procedural-distribution-ProduceStorageStrawberries`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageTomatoes``
+   * - :ref:`procedural-distribution-ProduceStorageTomatoes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageWatermelons``
+   * - :ref:`procedural-distribution-ProduceStorageWatermelons`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ProduceStorageRottenFruit``
+   * - :ref:`procedural-distribution-ProduceStorageRottenFruit`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ProduceStorageRottenVeg``
+   * - :ref:`procedural-distribution-ProduceStorageRottenVeg`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ProduceStorageRottenFruit``
+   * - :ref:`procedural-distribution-ProduceStorageRottenFruit`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ProduceStorageRottenVeg``
+   * - :ref:`procedural-distribution-ProduceStorageRottenVeg`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ProduceStorageEmptyBoxes``
+   * - :ref:`procedural-distribution-ProduceStorageEmptyBoxes`
      - 0
      - 8
      - 60
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -43635,7 +43635,7 @@ radiofactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RadioFactoryComponents``
+   * - :ref:`procedural-distribution-RadioFactoryComponents`
      - 0
      - 99
      - -
@@ -43656,7 +43656,7 @@ radiofactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RadioFactoryComponents``
+   * - :ref:`procedural-distribution-RadioFactoryComponents`
      - 0
      - 99
      - -
@@ -43677,7 +43677,7 @@ radiofactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RadioFactoryComponents``
+   * - :ref:`procedural-distribution-RadioFactoryComponents`
      - 0
      - 99
      - -
@@ -43702,7 +43702,7 @@ radioshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RadioFactoryComponents``
+   * - :ref:`procedural-distribution-RadioFactoryComponents`
      - 0
      - 99
      - -
@@ -43723,7 +43723,7 @@ radioshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RadioFactoryComponents``
+   * - :ref:`procedural-distribution-RadioFactoryComponents`
      - 0
      - 99
      - -
@@ -43744,7 +43744,7 @@ radioshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RadioFactoryComponents``
+   * - :ref:`procedural-distribution-RadioFactoryComponents`
      - 0
      - 99
      - -
@@ -43769,7 +43769,7 @@ radiostorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RadioFactoryComponents``
+   * - :ref:`procedural-distribution-RadioFactoryComponents`
      - 0
      - 99
      - -
@@ -43790,7 +43790,7 @@ radiostorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RadioFactoryComponents``
+   * - :ref:`procedural-distribution-RadioFactoryComponents`
      - 0
      - 99
      - -
@@ -43815,14 +43815,14 @@ railroadrepair
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RailYardSpikes``
+   * - :ref:`procedural-distribution-RailYardSpikes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - 40
@@ -43843,7 +43843,7 @@ railroadrepair
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - -
@@ -43864,14 +43864,14 @@ railroadrepair
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RailYardSpikes``
+   * - :ref:`procedural-distribution-RailYardSpikes`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - 100
@@ -43892,14 +43892,14 @@ railroadrepair
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RailYardSpikes``
+   * - :ref:`procedural-distribution-RailYardSpikes`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - 100
@@ -43920,14 +43920,14 @@ railroadrepair
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RailYardSpikes``
+   * - :ref:`procedural-distribution-RailYardSpikes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - 20
@@ -43948,7 +43948,7 @@ railroadrepair
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - -
@@ -43973,14 +43973,14 @@ railroadstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RailYardSpikes``
+   * - :ref:`procedural-distribution-RailYardSpikes`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - 100
@@ -44001,14 +44001,14 @@ railroadstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RailYardSpikes``
+   * - :ref:`procedural-distribution-RailYardSpikes`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``RailYardTools``
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - 20
@@ -44033,7 +44033,7 @@ rangerhall
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RangerBooks``
+   * - :ref:`procedural-distribution-RangerBooks`
      - 0
      - 99
      - -
@@ -44054,7 +44054,7 @@ rangerhall
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RangerMagazines``
+   * - :ref:`procedural-distribution-RangerMagazines`
      - 0
      - 99
      - -
@@ -44079,7 +44079,7 @@ rangerlocker
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RangerLockers``
+   * - :ref:`procedural-distribution-RangerLockers`
      - 0
      - 99
      - -
@@ -44104,7 +44104,7 @@ rangeroffice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RangerDesk``
+   * - :ref:`procedural-distribution-RangerDesk`
      - 0
      - 99
      - -
@@ -44129,7 +44129,7 @@ rangerstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RangerStorageTraps``
+   * - :ref:`procedural-distribution-RangerStorageTraps`
      - 0
      - 99
      - -
@@ -44154,7 +44154,7 @@ recreation
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -44175,7 +44175,7 @@ recreation
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RecRoomShelf``
+   * - :ref:`procedural-distribution-RecRoomShelf`
      - 0
      - 99
      - -
@@ -44196,7 +44196,7 @@ recreation
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateOfficeSupplies``
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -44221,7 +44221,7 @@ restaurantdining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RestaurantMenus``
+   * - :ref:`procedural-distribution-RestaurantMenus`
      - 0
      - 99
      - -
@@ -44236,7 +44236,7 @@ restaurantdining
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -44259,7 +44259,7 @@ restaurantdining
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``BarCounterLiquor``
+   * - :ref:`procedural-distribution-BarCounterLiquor`
      - 0
      - 99
      - -
@@ -44304,14 +44304,14 @@ restaurantdining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BakeryPie``
+   * - :ref:`procedural-distribution-BakeryPie`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BakeryCake``
+   * - :ref:`procedural-distribution-BakeryCake`
      - 1
      - 1
      - 100
@@ -44332,126 +44332,126 @@ restaurantdining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBurgers``
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayBurritos``
+   * - :ref:`procedural-distribution-ServingTrayBurritos`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayChicken``
+   * - :ref:`procedural-distribution-ServingTrayChicken`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayChickenFried``
+   * - :ref:`procedural-distribution-ServingTrayChickenFried`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFishFingers``
+   * - :ref:`procedural-distribution-ServingTrayFishFingers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayHam``
+   * - :ref:`procedural-distribution-ServingTrayHam`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayHotdogs``
+   * - :ref:`procedural-distribution-ServingTrayHotdogs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayPerogies``
+   * - :ref:`procedural-distribution-ServingTrayPerogies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayPorkChops``
+   * - :ref:`procedural-distribution-ServingTrayPorkChops`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayPotatoPancakes``
+   * - :ref:`procedural-distribution-ServingTrayPotatoPancakes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTraySausage``
+   * - :ref:`procedural-distribution-ServingTraySausage`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTraySteak``
+   * - :ref:`procedural-distribution-ServingTraySteak`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayTatoDots``
+   * - :ref:`procedural-distribution-ServingTrayTatoDots`
      - 0
      - 1
      - 100
@@ -44472,7 +44472,7 @@ restaurantdining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BarShelfLiquor``
+   * - :ref:`procedural-distribution-BarShelfLiquor`
      - 0
      - 99
      - -
@@ -44509,7 +44509,7 @@ restaurantkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -44532,63 +44532,63 @@ restaurantkitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreKitchenBaking``
+   * - :ref:`procedural-distribution-StoreKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenButcher``
+   * - :ref:`procedural-distribution-StoreKitchenButcher`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCafe``
+   * - :ref:`procedural-distribution-StoreKitchenCafe`
      - 1
      - 1
      - 80
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``StoreKitchenSauce``
+   * - :ref:`procedural-distribution-StoreKitchenSauce`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
@@ -44609,7 +44609,7 @@ restaurantkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 99
      - -
@@ -44630,7 +44630,7 @@ restaurantkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RestaurantKitchenFreezer``
+   * - :ref:`procedural-distribution-RestaurantKitchenFreezer`
      - 0
      - 99
      - -
@@ -44651,7 +44651,7 @@ restaurantkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RestaurantKitchenFridge``
+   * - :ref:`procedural-distribution-RestaurantKitchenFridge`
      - 0
      - 99
      - -
@@ -44672,28 +44672,28 @@ restaurantkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 99
      - 100
@@ -44714,119 +44714,119 @@ restaurantkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBurgers``
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayChicken``
+   * - :ref:`procedural-distribution-ServingTrayChicken`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayChickenFried``
+   * - :ref:`procedural-distribution-ServingTrayChickenFried`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFishFingers``
+   * - :ref:`procedural-distribution-ServingTrayFishFingers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayHam``
+   * - :ref:`procedural-distribution-ServingTrayHam`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayHotdogs``
+   * - :ref:`procedural-distribution-ServingTrayHotdogs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayPerogies``
+   * - :ref:`procedural-distribution-ServingTrayPerogies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayPorkChops``
+   * - :ref:`procedural-distribution-ServingTrayPorkChops`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayPotatoPancakes``
+   * - :ref:`procedural-distribution-ServingTrayPotatoPancakes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTraySausage``
+   * - :ref:`procedural-distribution-ServingTraySausage`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTraySteak``
+   * - :ref:`procedural-distribution-ServingTraySteak`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayTatoDots``
+   * - :ref:`procedural-distribution-ServingTrayTatoDots`
      - 0
      - 1
      - 100
@@ -44847,7 +44847,7 @@ restaurantkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 99
      - -
@@ -44872,7 +44872,7 @@ restaurantkitchen_fancy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -44895,63 +44895,63 @@ restaurantkitchen_fancy
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreKitchenBaking``
+   * - :ref:`procedural-distribution-StoreKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenButcher``
+   * - :ref:`procedural-distribution-StoreKitchenButcher`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCafe``
+   * - :ref:`procedural-distribution-StoreKitchenCafe`
      - 1
      - 1
      - 80
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``StoreKitchenSauce``
+   * - :ref:`procedural-distribution-StoreKitchenSauce`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 1
      - 20
@@ -44972,7 +44972,7 @@ restaurantkitchen_fancy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 99
      - -
@@ -44993,7 +44993,7 @@ restaurantkitchen_fancy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RestaurantKitchenFreezer``
+   * - :ref:`procedural-distribution-RestaurantKitchenFreezer`
      - 0
      - 99
      - -
@@ -45014,7 +45014,7 @@ restaurantkitchen_fancy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``RestaurantKitchenFridge``
+   * - :ref:`procedural-distribution-RestaurantKitchenFridge`
      - 0
      - 99
      - -
@@ -45035,28 +45035,28 @@ restaurantkitchen_fancy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 99
      - 100
@@ -45077,119 +45077,119 @@ restaurantkitchen_fancy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBurgers``
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayChicken``
+   * - :ref:`procedural-distribution-ServingTrayChicken`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayChickenFried``
+   * - :ref:`procedural-distribution-ServingTrayChickenFried`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFishFingers``
+   * - :ref:`procedural-distribution-ServingTrayFishFingers`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayHam``
+   * - :ref:`procedural-distribution-ServingTrayHam`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayHotdogs``
+   * - :ref:`procedural-distribution-ServingTrayHotdogs`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayPerogies``
+   * - :ref:`procedural-distribution-ServingTrayPerogies`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayPizza``
+   * - :ref:`procedural-distribution-ServingTrayPizza`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTrayPorkChops``
+   * - :ref:`procedural-distribution-ServingTrayPorkChops`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayPotatoPancakes``
+   * - :ref:`procedural-distribution-ServingTrayPotatoPancakes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``ServingTraySausage``
+   * - :ref:`procedural-distribution-ServingTraySausage`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``ServingTraySteak``
+   * - :ref:`procedural-distribution-ServingTraySteak`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayTatoDots``
+   * - :ref:`procedural-distribution-ServingTrayTatoDots`
      - 0
      - 1
      - 100
@@ -45210,7 +45210,7 @@ restaurantkitchen_fancy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 99
      - -
@@ -45235,7 +45235,7 @@ ringtossgame
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -45250,7 +45250,7 @@ ringtossgame
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``CarnivalPrizes``
+   * - :ref:`procedural-distribution-CarnivalPrizes`
      - 0
      - 4
      - 100
@@ -45275,7 +45275,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBin``
+   * - :ref:`procedural-distribution-SafehouseBin`
      - 1
      - 99
      - -
@@ -45296,70 +45296,70 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBooze``
+   * - :ref:`procedural-distribution-SafehouseBooze`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SafehouseLighting``
+   * - :ref:`procedural-distribution-SafehouseLighting`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SafehouseArmor``
+   * - :ref:`procedural-distribution-SafehouseArmor`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 1
      - 2
      - 100
@@ -45380,7 +45380,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseDryer``
+   * - :ref:`procedural-distribution-SafehouseDryer`
      - 1
      - 99
      - -
@@ -45401,7 +45401,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseWasher``
+   * - :ref:`procedural-distribution-SafehouseWasher`
      - 1
      - 99
      - -
@@ -45422,35 +45422,35 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 1
      - 2
      - 40
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``SafehouseMedical``
+   * - :ref:`procedural-distribution-SafehouseMedical`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``SafehouseFood``
+   * - :ref:`procedural-distribution-SafehouseFood`
      - 1
      - 8
      - 100
@@ -45471,70 +45471,70 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBooze``
+   * - :ref:`procedural-distribution-SafehouseBooze`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SafehouseLighting``
+   * - :ref:`procedural-distribution-SafehouseLighting`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SafehouseArmor``
+   * - :ref:`procedural-distribution-SafehouseArmor`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 1
      - 2
      - 100
@@ -45555,7 +45555,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseArmor``
+   * - :ref:`procedural-distribution-SafehouseArmor`
      - 1
      - 99
      - -
@@ -45576,7 +45576,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFireplace``
+   * - :ref:`procedural-distribution-SafehouseFireplace`
      - 1
      - 99
      - -
@@ -45597,7 +45597,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFreezer``
+   * - :ref:`procedural-distribution-SafehouseFreezer`
      - 1
      - 99
      - -
@@ -45618,7 +45618,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFridge``
+   * - :ref:`procedural-distribution-SafehouseFridge`
      - 1
      - 99
      - -
@@ -45639,7 +45639,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseMedical``
+   * - :ref:`procedural-distribution-SafehouseMedical`
      - 1
      - 99
      - -
@@ -45660,28 +45660,28 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
@@ -45702,14 +45702,14 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBookShelf``
+   * - :ref:`procedural-distribution-SafehouseBookShelf`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``LivingRoomShelf``
+   * - :ref:`procedural-distribution-LivingRoomShelf`
      - 0
      - 99
      - 100
@@ -45730,70 +45730,70 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBooze``
+   * - :ref:`procedural-distribution-SafehouseBooze`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SafehouseLighting``
+   * - :ref:`procedural-distribution-SafehouseLighting`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SafehouseArmor``
+   * - :ref:`procedural-distribution-SafehouseArmor`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 1
      - 2
      - 100
@@ -45814,7 +45814,7 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseStove``
+   * - :ref:`procedural-distribution-SafehouseStove`
      - 1
      - 99
      - -
@@ -45835,21 +45835,21 @@ SafehouseLoot
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 1
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SafehouseArmor``
+   * - :ref:`procedural-distribution-SafehouseArmor`
      - 1
      - 99
      - 100
@@ -45874,7 +45874,7 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBin_Late``
+   * - :ref:`procedural-distribution-SafehouseBin_Late`
      - 1
      - 99
      - -
@@ -45895,63 +45895,63 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseLighting_Late``
+   * - :ref:`procedural-distribution-SafehouseLighting_Late`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateCamping`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons_Late``
+   * - :ref:`procedural-distribution-FirearmWeapons_Late`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Late``
+   * - :ref:`procedural-distribution-MeleeWeapons_Late`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseArmor_Late``
+   * - :ref:`procedural-distribution-SafehouseArmor_Late`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
@@ -45972,7 +45972,7 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseDryer``
+   * - :ref:`procedural-distribution-SafehouseDryer`
      - 1
      - 99
      - -
@@ -45993,7 +45993,7 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseWasher``
+   * - :ref:`procedural-distribution-SafehouseWasher`
      - 1
      - 99
      - -
@@ -46014,35 +46014,35 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons_Late``
+   * - :ref:`procedural-distribution-FirearmWeapons_Late`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Late``
+   * - :ref:`procedural-distribution-MeleeWeapons_Late`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseMedical_Late``
+   * - :ref:`procedural-distribution-SafehouseMedical_Late`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SafehouseFood_Late``
+   * - :ref:`procedural-distribution-SafehouseFood_Late`
      - 1
      - 8
      - 100
@@ -46063,63 +46063,63 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseLighting_Late``
+   * - :ref:`procedural-distribution-SafehouseLighting_Late`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateCamping`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons_Late``
+   * - :ref:`procedural-distribution-FirearmWeapons_Late`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Late``
+   * - :ref:`procedural-distribution-MeleeWeapons_Late`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseArmor_Late``
+   * - :ref:`procedural-distribution-SafehouseArmor_Late`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
@@ -46140,7 +46140,7 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseArmor_Late``
+   * - :ref:`procedural-distribution-SafehouseArmor_Late`
      - 1
      - 99
      - -
@@ -46161,7 +46161,7 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFireplace_Late``
+   * - :ref:`procedural-distribution-SafehouseFireplace_Late`
      - 1
      - 99
      - -
@@ -46182,7 +46182,7 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFreezer_Late``
+   * - :ref:`procedural-distribution-SafehouseFreezer_Late`
      - 1
      - 99
      - -
@@ -46203,7 +46203,7 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFridge_Late``
+   * - :ref:`procedural-distribution-SafehouseFridge_Late`
      - 1
      - 99
      - -
@@ -46224,14 +46224,14 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseMedical_Mid``
+   * - :ref:`procedural-distribution-SafehouseMedical_Mid`
      - 1
      - 99
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 1
      - 99
      - 100
@@ -46252,28 +46252,28 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FirearmWeapons_Late``
+   * - :ref:`procedural-distribution-FirearmWeapons_Late`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Late``
+   * - :ref:`procedural-distribution-MeleeWeapons_Late`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
@@ -46294,14 +46294,14 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBookShelf``
+   * - :ref:`procedural-distribution-SafehouseBookShelf`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``LivingRoomShelf``
+   * - :ref:`procedural-distribution-LivingRoomShelf`
      - 0
      - 99
      - 100
@@ -46322,63 +46322,63 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseLighting``
+   * - :ref:`procedural-distribution-SafehouseLighting`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateCamping`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons_Late``
+   * - :ref:`procedural-distribution-FirearmWeapons_Late`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Late``
+   * - :ref:`procedural-distribution-MeleeWeapons_Late`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseArmor_Late``
+   * - :ref:`procedural-distribution-SafehouseArmor_Late`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
@@ -46399,7 +46399,7 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseStove_Late``
+   * - :ref:`procedural-distribution-SafehouseStove_Late`
      - 1
      - 99
      - -
@@ -46420,21 +46420,21 @@ SafehouseLoot_Late
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FirearmWeapons_Late``
+   * - :ref:`procedural-distribution-FirearmWeapons_Late`
      - 1
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MeleeWeapons_Late``
+   * - :ref:`procedural-distribution-MeleeWeapons_Late`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SafehouseArmor_Late``
+   * - :ref:`procedural-distribution-SafehouseArmor_Late`
      - 1
      - 99
      - 100
@@ -46459,7 +46459,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBin_Mid``
+   * - :ref:`procedural-distribution-SafehouseBin_Mid`
      - 1
      - 99
      - -
@@ -46480,70 +46480,70 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBooze``
+   * - :ref:`procedural-distribution-SafehouseBooze`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SafehouseLighting``
+   * - :ref:`procedural-distribution-SafehouseLighting`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons_Mid``
+   * - :ref:`procedural-distribution-FirearmWeapons_Mid`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Mid``
+   * - :ref:`procedural-distribution-MeleeWeapons_Mid`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseArmor_Mid``
+   * - :ref:`procedural-distribution-SafehouseArmor_Mid`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
@@ -46564,7 +46564,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseDryer``
+   * - :ref:`procedural-distribution-SafehouseDryer`
      - 1
      - 99
      - -
@@ -46585,7 +46585,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseWasher``
+   * - :ref:`procedural-distribution-SafehouseWasher`
      - 1
      - 99
      - -
@@ -46606,35 +46606,35 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons_Mid``
+   * - :ref:`procedural-distribution-FirearmWeapons_Mid`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Mid``
+   * - :ref:`procedural-distribution-MeleeWeapons_Mid`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseMedical_Mid``
+   * - :ref:`procedural-distribution-SafehouseMedical_Mid`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SafehouseFood_Mid``
+   * - :ref:`procedural-distribution-SafehouseFood_Mid`
      - 1
      - 8
      - 100
@@ -46655,70 +46655,70 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBooze``
+   * - :ref:`procedural-distribution-SafehouseBooze`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SafehouseLighting``
+   * - :ref:`procedural-distribution-SafehouseLighting`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons_Mid``
+   * - :ref:`procedural-distribution-FirearmWeapons_Mid`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Mid``
+   * - :ref:`procedural-distribution-MeleeWeapons_Mid`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseArmor_Mid``
+   * - :ref:`procedural-distribution-SafehouseArmor_Mid`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
@@ -46739,7 +46739,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseArmor_Mid``
+   * - :ref:`procedural-distribution-SafehouseArmor_Mid`
      - 1
      - 99
      - -
@@ -46760,7 +46760,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFireplace``
+   * - :ref:`procedural-distribution-SafehouseFireplace`
      - 1
      - 99
      - -
@@ -46781,7 +46781,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFreezer_Mid``
+   * - :ref:`procedural-distribution-SafehouseFreezer_Mid`
      - 1
      - 99
      - -
@@ -46802,7 +46802,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseFridge_Mid``
+   * - :ref:`procedural-distribution-SafehouseFridge_Mid`
      - 1
      - 99
      - -
@@ -46823,7 +46823,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseMedical_Mid``
+   * - :ref:`procedural-distribution-SafehouseMedical_Mid`
      - 1
      - 99
      - -
@@ -46844,28 +46844,28 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FirearmWeapons_Mid``
+   * - :ref:`procedural-distribution-FirearmWeapons_Mid`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Mid``
+   * - :ref:`procedural-distribution-MeleeWeapons_Mid`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
@@ -46886,14 +46886,14 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBookShelf``
+   * - :ref:`procedural-distribution-SafehouseBookShelf`
      - 1
      - 99
      - 10
      - 
      - 
      - 
-   * - ``LivingRoomShelf``
+   * - :ref:`procedural-distribution-LivingRoomShelf`
      - 0
      - 99
      - 100
@@ -46914,70 +46914,70 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseBooze``
+   * - :ref:`procedural-distribution-SafehouseBooze`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``SafehouseLighting``
+   * - :ref:`procedural-distribution-SafehouseLighting`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateVHSTapes``
+   * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateEmptyBottles2``
+   * - :ref:`procedural-distribution-CrateEmptyBottles2`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons_Mid``
+   * - :ref:`procedural-distribution-FirearmWeapons_Mid`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``MeleeWeapons_Mid``
+   * - :ref:`procedural-distribution-MeleeWeapons_Mid`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SafehouseArmor_Mid``
+   * - :ref:`procedural-distribution-SafehouseArmor_Mid`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``SafehouseTraps``
+   * - :ref:`procedural-distribution-SafehouseTraps`
      - 0
      - 1
      - 60
@@ -46998,7 +46998,7 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SafehouseStove_Mid``
+   * - :ref:`procedural-distribution-SafehouseStove_Mid`
      - 1
      - 99
      - -
@@ -47019,21 +47019,21 @@ SafehouseLoot_Mid
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FirearmWeapons_Mid``
+   * - :ref:`procedural-distribution-FirearmWeapons_Mid`
      - 1
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MeleeWeapons_Mid``
+   * - :ref:`procedural-distribution-MeleeWeapons_Mid`
      - 1
      - 1
      - 40
      - 
      - 
      - 
-   * - ``SafehouseArmor_Mid``
+   * - :ref:`procedural-distribution-SafehouseArmor_Mid`
      - 1
      - 99
      - 100
@@ -47058,28 +47058,28 @@ schoolgymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymMats``
+   * - :ref:`procedural-distribution-GymMats`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBasketballs``
+   * - :ref:`procedural-distribution-CrateBasketballs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateSoccerBalls``
+   * - :ref:`procedural-distribution-CrateSoccerBalls`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``SchoolGymSportsGear``
+   * - :ref:`procedural-distribution-SchoolGymSportsGear`
      - 0
      - 99
      - 100
@@ -47100,14 +47100,14 @@ schoolgymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBasketballs``
+   * - :ref:`procedural-distribution-CrateBasketballs`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSoccerBalls``
+   * - :ref:`procedural-distribution-CrateSoccerBalls`
      - 0
      - 99
      - 100
@@ -47128,28 +47128,28 @@ schoolgymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymMats``
+   * - :ref:`procedural-distribution-GymMats`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateBasketballs``
+   * - :ref:`procedural-distribution-CrateBasketballs`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CrateSoccerBalls``
+   * - :ref:`procedural-distribution-CrateSoccerBalls`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``SchoolGymSportsGear``
+   * - :ref:`procedural-distribution-SchoolGymSportsGear`
      - 0
      - 99
      - 100
@@ -47170,14 +47170,14 @@ schoolgymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymMats``
+   * - :ref:`procedural-distribution-GymMats`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``SchoolGymSportsGear``
+   * - :ref:`procedural-distribution-SchoolGymSportsGear`
      - 1
      - 99
      - 100
@@ -47198,14 +47198,14 @@ schoolgymstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBasketballs``
+   * - :ref:`procedural-distribution-CrateBasketballs`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateSoccerBalls``
+   * - :ref:`procedural-distribution-CrateSoccerBalls`
      - 0
      - 1
      - 100
@@ -47230,21 +47230,21 @@ schoolstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateSkeletonDisplay``
+   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateClayBags``
+   * - :ref:`procedural-distribution-CrateClayBags`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateBooksSchool``
+   * - :ref:`procedural-distribution-CrateBooksSchool`
      - 0
      - 99
      - 100
@@ -47265,28 +47265,28 @@ schoolstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorMisc``
+   * - :ref:`procedural-distribution-JanitorMisc`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorTools``
+   * - :ref:`procedural-distribution-JanitorTools`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorCleaning``
+   * - :ref:`procedural-distribution-JanitorCleaning`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - 100
@@ -47307,14 +47307,14 @@ schoolstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateClayBags``
+   * - :ref:`procedural-distribution-CrateClayBags`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateBooksSchool``
+   * - :ref:`procedural-distribution-CrateBooksSchool`
      - 0
      - 99
      - 100
@@ -47339,7 +47339,7 @@ seafoodkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -47362,56 +47362,56 @@ seafoodkitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``SeafoodKitchenSauce``
+   * - :ref:`procedural-distribution-SeafoodKitchenSauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JaysKitchenBaking``
+   * - :ref:`procedural-distribution-JaysKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``SeafoodKitchenButcher``
+   * - :ref:`procedural-distribution-SeafoodKitchenButcher`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenBags``
+   * - :ref:`procedural-distribution-StoreKitchenBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenCups``
+   * - :ref:`procedural-distribution-StoreKitchenCups`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenTrays``
+   * - :ref:`procedural-distribution-StoreKitchenTrays`
      - 0
      - 1
      - 20
@@ -47432,7 +47432,7 @@ seafoodkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ButcherFish``
+   * - :ref:`procedural-distribution-ButcherFish`
      - 0
      - 99
      - -
@@ -47453,7 +47453,7 @@ seafoodkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SeafoodKitchenFreezer``
+   * - :ref:`procedural-distribution-SeafoodKitchenFreezer`
      - 0
      - 99
      - -
@@ -47474,7 +47474,7 @@ seafoodkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SeafoodKitchenFridge``
+   * - :ref:`procedural-distribution-SeafoodKitchenFridge`
      - 0
      - 99
      - -
@@ -47499,7 +47499,7 @@ secondaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomSecondaryMisc``
+   * - :ref:`procedural-distribution-ClassroomSecondaryMisc`
      - 0
      - 99
      - -
@@ -47520,14 +47520,14 @@ secondaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomSecondaryShelves``
+   * - :ref:`procedural-distribution-ClassroomSecondaryShelves`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 10
@@ -47548,7 +47548,7 @@ secondaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomSecondaryDesk``
+   * - :ref:`procedural-distribution-ClassroomSecondaryDesk`
      - 0
      - 99
      - -
@@ -47569,7 +47569,7 @@ secondaryclassroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClassroomSecondaryShelves``
+   * - :ref:`procedural-distribution-ClassroomSecondaryShelves`
      - 0
      - 99
      - -
@@ -47594,14 +47594,14 @@ secondaryhall
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SchoolLockersBad``
+   * - :ref:`procedural-distribution-SchoolLockersBad`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SchoolLockers``
+   * - :ref:`procedural-distribution-SchoolLockers`
      - 0
      - 99
      - -
@@ -47626,7 +47626,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SecurityStorage``
+   * - :ref:`procedural-distribution-SecurityStorage`
      - 0
      - 99
      - -
@@ -47647,7 +47647,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GymTowels``
+   * - :ref:`procedural-distribution-GymTowels`
      - 0
      - 99
      - -
@@ -47668,7 +47668,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SecurityDesk``
+   * - :ref:`procedural-distribution-SecurityDesk`
      - 0
      - 99
      - 100
@@ -47689,7 +47689,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SecurityDesk``
+   * - :ref:`procedural-distribution-SecurityDesk`
      - 0
      - 99
      - 100
@@ -47710,7 +47710,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceFilingCabinet``
+   * - :ref:`procedural-distribution-PoliceFilingCabinet`
      - 0
      - 99
      - -
@@ -47731,7 +47731,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOffice``
+   * - :ref:`procedural-distribution-FridgeOffice`
      - 0
      - 99
      - -
@@ -47752,7 +47752,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SecurityLockers``
+   * - :ref:`procedural-distribution-SecurityLockers`
      - 0
      - 99
      - 100
@@ -47773,7 +47773,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalCabinet``
+   * - :ref:`procedural-distribution-MedicalCabinet`
      - 0
      - 99
      - -
@@ -47794,7 +47794,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SecurityStorage``
+   * - :ref:`procedural-distribution-SecurityStorage`
      - 0
      - 99
      - -
@@ -47815,7 +47815,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageGuns``
+   * - :ref:`procedural-distribution-PoliceStorageGuns`
      - 0
      - 99
      - -
@@ -47836,7 +47836,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PoliceStorageGuns``
+   * - :ref:`procedural-distribution-PoliceStorageGuns`
      - 0
      - 99
      - -
@@ -47857,7 +47857,7 @@ security
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SecurityStorage``
+   * - :ref:`procedural-distribution-SecurityStorage`
      - 0
      - 99
      - -
@@ -47882,21 +47882,21 @@ shed
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GarageCarpentry``
+   * - :ref:`procedural-distribution-GarageCarpentry`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageMetalwork``
+   * - :ref:`procedural-distribution-GarageMetalwork`
      - 0
      - 2
      - 100
@@ -47917,140 +47917,140 @@ shed
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateAnimalFeed``
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateAntiqueStove``
+   * - :ref:`procedural-distribution-CrateAntiqueStove`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateBlackBBQ``
+   * - :ref:`procedural-distribution-CrateBlackBBQ`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateFertilizer``
+   * - :ref:`procedural-distribution-CrateFertilizer`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateGravelBags``
+   * - :ref:`procedural-distribution-CrateGravelBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateLimestoneCrushed``
+   * - :ref:`procedural-distribution-CrateLimestoneCrushed`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateRedBBQ``
+   * - :ref:`procedural-distribution-CrateRedBBQ`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 1
      - 100
@@ -48071,28 +48071,28 @@ shed
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageCarpentry``
+   * - :ref:`procedural-distribution-GarageCarpentry`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageTools``
+   * - :ref:`procedural-distribution-GarageTools`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageMetalwork``
+   * - :ref:`procedural-distribution-GarageMetalwork`
      - 0
      - 1
      - 100
@@ -48113,28 +48113,28 @@ shed
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageCarpentry``
+   * - :ref:`procedural-distribution-GarageCarpentry`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageTools``
+   * - :ref:`procedural-distribution-GarageTools`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GarageMetalwork``
+   * - :ref:`procedural-distribution-GarageMetalwork`
      - 0
      - 1
      - 100
@@ -48159,7 +48159,7 @@ shoestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStorageFootwear``
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
      - 0
      - 99
      - -
@@ -48180,77 +48180,77 @@ shoestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresDress``
+   * - :ref:`procedural-distribution-ClothingStoresDress`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStoresJackets``
+   * - :ref:`procedural-distribution-ClothingStoresJackets`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresJacketsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresJumpers``
+   * - :ref:`procedural-distribution-ClothingStoresJumpers`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ClothingStoresOvershirts``
+   * - :ref:`procedural-distribution-ClothingStoresOvershirts`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ClothingStoresPants``
+   * - :ref:`procedural-distribution-ClothingStoresPants`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresPantsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresShirts``
+   * - :ref:`procedural-distribution-ClothingStoresShirts`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresShirtsFormal``
+   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``ClothingStoresSport``
+   * - :ref:`procedural-distribution-ClothingStoresSport`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresSummer``
+   * - :ref:`procedural-distribution-ClothingStoresSummer`
      - 0
      - 99
      - 40
@@ -48271,7 +48271,7 @@ shoestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -48286,42 +48286,42 @@ shoestore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``ClothingStoresGloves``
+   * - :ref:`procedural-distribution-ClothingStoresGloves`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresEyewear``
+   * - :ref:`procedural-distribution-ClothingStoresEyewear`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresHeadwear``
+   * - :ref:`procedural-distribution-ClothingStoresHeadwear`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``ClothingStoresSocks``
+   * - :ref:`procedural-distribution-ClothingStoresSocks`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStoresUnderwearWoman``
+   * - :ref:`procedural-distribution-ClothingStoresUnderwearWoman`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ClothingStoresUnderwearMan``
+   * - :ref:`procedural-distribution-ClothingStoresUnderwearMan`
      - 0
      - 99
      - 20
@@ -48342,7 +48342,7 @@ shoestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOffice``
+   * - :ref:`procedural-distribution-FridgeOffice`
      - 0
      - 99
      - -
@@ -48363,7 +48363,7 @@ shoestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStorageFootwear``
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
      - 0
      - 99
      - -
@@ -48384,14 +48384,14 @@ shoestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresBoots``
+   * - :ref:`procedural-distribution-ClothingStoresBoots`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ClothingStoresShoes``
+   * - :ref:`procedural-distribution-ClothingStoresShoes`
      - 0
      - 99
      - 100
@@ -48426,7 +48426,7 @@ smokingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeVIPLounge``
+   * - :ref:`procedural-distribution-FridgeVIPLounge`
      - 0
      - 99
      - -
@@ -48447,14 +48447,14 @@ smokingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SmokingRoomPipes``
+   * - :ref:`procedural-distribution-SmokingRoomPipes`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``SmokingRoomCigars``
+   * - :ref:`procedural-distribution-SmokingRoomCigars`
      - 0
      - 99
      - 100
@@ -48479,14 +48479,14 @@ sodatruck
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateSodaBottles``
+   * - :ref:`procedural-distribution-CrateSodaBottles`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSodaCans``
+   * - :ref:`procedural-distribution-CrateSodaCans`
      - 0
      - 99
      - 100
@@ -48511,7 +48511,7 @@ spiffo_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinSpiffos``
+   * - :ref:`procedural-distribution-BinSpiffos`
      - 0
      - 99
      - -
@@ -48532,35 +48532,35 @@ spiffo_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFountainCups``
+   * - :ref:`procedural-distribution-CrateFountainCups`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePaperNapkins``
+   * - :ref:`procedural-distribution-CratePaperNapkins`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePaperBagSpiffos``
+   * - :ref:`procedural-distribution-CratePaperBagSpiffos`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CratePlasticTrays``
+   * - :ref:`procedural-distribution-CratePlasticTrays`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateSpiffoMerch``
+   * - :ref:`procedural-distribution-CrateSpiffoMerch`
      - 0
      - 1
      - 1
@@ -48581,7 +48581,7 @@ spiffo_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -48596,7 +48596,7 @@ spiffo_dining
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - -
@@ -48608,7 +48608,7 @@ spiffo_dining
        - location_shop_accessories_01_11
        - location_shop_accessories_01_12
      - 
-   * - ``SpiffosDiningCounter``
+   * - :ref:`procedural-distribution-SpiffosDiningCounter`
      - 0
      - 99
      - 100
@@ -48629,7 +48629,7 @@ spiffo_dining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - -
@@ -48654,7 +48654,7 @@ spiffoservice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -48669,7 +48669,7 @@ spiffoservice
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - -
@@ -48681,28 +48681,28 @@ spiffoservice
        - location_shop_accessories_01_11
        - location_shop_accessories_01_12
      - 
-   * - ``SpiffosKitchenBags``
+   * - :ref:`procedural-distribution-SpiffosKitchenBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenCups``
+   * - :ref:`procedural-distribution-StoreKitchenCups`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SpiffosKitchenTrays``
+   * - :ref:`procedural-distribution-SpiffosKitchenTrays`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SpiffosDiningCounter``
+   * - :ref:`procedural-distribution-SpiffosDiningCounter`
      - 0
      - 99
      - 100
@@ -48723,7 +48723,7 @@ spiffoservice
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - -
@@ -48748,7 +48748,7 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BinSpiffos``
+   * - :ref:`procedural-distribution-BinSpiffos`
      - 0
      - 99
      - -
@@ -48769,28 +48769,28 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``CrateSpiffoMerch``
+   * - :ref:`procedural-distribution-CrateSpiffoMerch`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 80
@@ -48811,7 +48811,7 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -48834,56 +48834,56 @@ spiffoskitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``SpiffosKitchenButcher``
+   * - :ref:`procedural-distribution-SpiffosKitchenButcher`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``SpiffosKitchenSauce``
+   * - :ref:`procedural-distribution-SpiffosKitchenSauce`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``SpiffosKitchenBags``
+   * - :ref:`procedural-distribution-SpiffosKitchenBags`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SpiffosKitchenSpecial``
+   * - :ref:`procedural-distribution-SpiffosKitchenSpecial`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``StoreKitchenBaking``
+   * - :ref:`procedural-distribution-StoreKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenCups``
+   * - :ref:`procedural-distribution-StoreKitchenCups`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SpiffosKitchenTrays``
+   * - :ref:`procedural-distribution-SpiffosKitchenTrays`
      - 0
      - 1
      - 20
@@ -48904,7 +48904,7 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SpiffosDesk``
+   * - :ref:`procedural-distribution-SpiffosDesk`
      - 0
      - 99
      - -
@@ -48925,7 +48925,7 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SpiffosKitchenFreezer``
+   * - :ref:`procedural-distribution-SpiffosKitchenFreezer`
      - 0
      - 99
      - -
@@ -48946,7 +48946,7 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SpiffosKitchenFridge``
+   * - :ref:`procedural-distribution-SpiffosKitchenFridge`
      - 0
      - 99
      - -
@@ -48967,28 +48967,28 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateBunsBurger``
+   * - :ref:`procedural-distribution-CrateBunsBurger`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``CrateCondiments``
+   * - :ref:`procedural-distribution-CrateCondiments`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``CrateSpiffoMerch``
+   * - :ref:`procedural-distribution-CrateSpiffoMerch`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 2
      - 80
@@ -49009,28 +49009,28 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayBurgers``
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
      - 1
      - 8
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayChickenNuggets``
+   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayFries``
+   * - :ref:`procedural-distribution-ServingTrayFries`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayOnionRings``
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
      - 1
      - 4
      - 60
@@ -49051,7 +49051,7 @@ spiffoskitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoveSpiffos``
+   * - :ref:`procedural-distribution-StoveSpiffos`
      - 1
      - 99
      - -
@@ -49081,14 +49081,14 @@ spiffosstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateSpiffoMerch``
+   * - :ref:`procedural-distribution-CrateSpiffoMerch`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FryFactoryPotatoes``
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
      - 0
      - 99
      - 100
@@ -49109,7 +49109,7 @@ spiffosstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SpiffosKitchenFreezer``
+   * - :ref:`procedural-distribution-SpiffosKitchenFreezer`
      - 0
      - 99
      - -
@@ -49130,7 +49130,7 @@ spiffosstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SpiffosKitchenFridge``
+   * - :ref:`procedural-distribution-SpiffosKitchenFridge`
      - 0
      - 99
      - -
@@ -49155,49 +49155,49 @@ sportstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SportStorageBats``
+   * - :ref:`procedural-distribution-SportStorageBats`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``SportStorageBalls``
+   * - :ref:`procedural-distribution-SportStorageBalls`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``SportStorageHelmets``
+   * - :ref:`procedural-distribution-SportStorageHelmets`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SportStoragePaddles``
+   * - :ref:`procedural-distribution-SportStoragePaddles`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SportStorageRacquets``
+   * - :ref:`procedural-distribution-SportStorageRacquets`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``SportStorageSticks``
+   * - :ref:`procedural-distribution-SportStorageSticks`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``SportStorageWeights``
+   * - :ref:`procedural-distribution-SportStorageWeights`
      - 0
      - 1
      - 10
@@ -49218,49 +49218,49 @@ sportstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SportStorageBats``
+   * - :ref:`procedural-distribution-SportStorageBats`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``SportStorageBalls``
+   * - :ref:`procedural-distribution-SportStorageBalls`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``SportStorageHelmets``
+   * - :ref:`procedural-distribution-SportStorageHelmets`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SportStoragePaddles``
+   * - :ref:`procedural-distribution-SportStoragePaddles`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SportStorageRacquets``
+   * - :ref:`procedural-distribution-SportStorageRacquets`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``SportStorageSticks``
+   * - :ref:`procedural-distribution-SportStorageSticks`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``SportStorageWeights``
+   * - :ref:`procedural-distribution-SportStorageWeights`
      - 0
      - 1
      - 10
@@ -49281,42 +49281,42 @@ sportstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SportStorageBats``
+   * - :ref:`procedural-distribution-SportStorageBats`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``SportStorageHelmets``
+   * - :ref:`procedural-distribution-SportStorageHelmets`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``SportStoragePaddles``
+   * - :ref:`procedural-distribution-SportStoragePaddles`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``SportStorageRacquets``
+   * - :ref:`procedural-distribution-SportStorageRacquets`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``SportStorageSticks``
+   * - :ref:`procedural-distribution-SportStorageSticks`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``SportStorageWeights``
+   * - :ref:`procedural-distribution-SportStorageWeights`
      - 0
      - 1
      - 10
@@ -49341,7 +49341,7 @@ sportstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ClothingStoresSport``
+   * - :ref:`procedural-distribution-ClothingStoresSport`
      - 0
      - 99
      - -
@@ -49362,7 +49362,7 @@ sportstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -49377,21 +49377,21 @@ sportstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``SportStoreAccessories``
+   * - :ref:`procedural-distribution-SportStoreAccessories`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``SportStoreSneakers``
+   * - :ref:`procedural-distribution-SportStoreSneakers`
      - 1
      - 99
      - 100
@@ -49412,63 +49412,63 @@ sportstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SportStoreBadminton``
+   * - :ref:`procedural-distribution-SportStoreBadminton`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStoreBaseball``
+   * - :ref:`procedural-distribution-SportStoreBaseball`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``SportStoreBoxing``
+   * - :ref:`procedural-distribution-SportStoreBoxing`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStoreFootball``
+   * - :ref:`procedural-distribution-SportStoreFootball`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``SportStoreIceHockey``
+   * - :ref:`procedural-distribution-SportStoreIceHockey`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStoreGolf``
+   * - :ref:`procedural-distribution-SportStoreGolf`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStorePadding``
+   * - :ref:`procedural-distribution-SportStorePadding`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStoreTennis``
+   * - :ref:`procedural-distribution-SportStoreTennis`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``SportStoreSneakers``
+   * - :ref:`procedural-distribution-SportStoreSneakers`
      - 0
      - 99
      - 100
@@ -49489,63 +49489,63 @@ sportstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SportStoreBadminton``
+   * - :ref:`procedural-distribution-SportStoreBadminton`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStoreBaseball``
+   * - :ref:`procedural-distribution-SportStoreBaseball`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``SportStoreBoxing``
+   * - :ref:`procedural-distribution-SportStoreBoxing`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStoreFootball``
+   * - :ref:`procedural-distribution-SportStoreFootball`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``SportStoreIceHockey``
+   * - :ref:`procedural-distribution-SportStoreIceHockey`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStoreGolf``
+   * - :ref:`procedural-distribution-SportStoreGolf`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStorePadding``
+   * - :ref:`procedural-distribution-SportStorePadding`
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``SportStoreTennis``
+   * - :ref:`procedural-distribution-SportStoreTennis`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``SportStoreSneakers``
+   * - :ref:`procedural-distribution-SportStoreSneakers`
      - 0
      - 99
      - 100
@@ -49570,42 +49570,42 @@ storage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 99
      - 5
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
@@ -49626,42 +49626,42 @@ storage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 99
      - 5
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
@@ -49682,42 +49682,42 @@ storage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 99
      - 5
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
@@ -49742,448 +49742,448 @@ storageunit
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateMannequins``
+   * - :ref:`procedural-distribution-CrateMannequins`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``ArtSupplies``
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``WallDecor``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-WallDecor`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBlacksmithing``
+   * - :ref:`procedural-distribution-CrateBlacksmithing`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCarpentry``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBluePlasticChairs``
+   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenStools``
+   * - :ref:`procedural-distribution-CrateWoodenStools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePlasticChairs``
+   * - :ref:`procedural-distribution-CratePlasticChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFoldingChairs``
+   * - :ref:`procedural-distribution-CrateFoldingChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 4
      - 100
@@ -50204,455 +50204,455 @@ storageunit
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateAntiqueStove``
+   * - :ref:`procedural-distribution-CrateAntiqueStove`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateMannequins``
+   * - :ref:`procedural-distribution-CrateMannequins`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``ArtSupplies``
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``WallDecor``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-WallDecor`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBlacksmithing``
+   * - :ref:`procedural-distribution-CrateBlacksmithing`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCarpentry``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateBluePlasticChairs``
+   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWhiteWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenChairs``
+   * - :ref:`procedural-distribution-CrateWoodenChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateWoodenStools``
+   * - :ref:`procedural-distribution-CrateWoodenStools`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CratePlasticChairs``
+   * - :ref:`procedural-distribution-CratePlasticChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFitnessWeights``
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFoldingChairs``
+   * - :ref:`procedural-distribution-CrateFoldingChairs`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 4
      - 100
@@ -50673,392 +50673,392 @@ storageunit
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``ArtSupplies``
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``WallDecor``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateComputer``
+   * - :ref:`procedural-distribution-WallDecor`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateComputer`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTV``
+   * - :ref:`procedural-distribution-CrateTV`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTVWide``
+   * - :ref:`procedural-distribution-CrateTVWide`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBlacksmithing``
+   * - :ref:`procedural-distribution-CrateBlacksmithing`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCarpentry``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 4
      - 100
@@ -51079,371 +51079,371 @@ storageunit
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Antiques``
+   * - :ref:`procedural-distribution-Antiques`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``BurglarTools``
+   * - :ref:`procedural-distribution-BurglarTools`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCamping``
+   * - :ref:`procedural-distribution-CrateCamping`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCostume``
+   * - :ref:`procedural-distribution-CrateCostume`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hiker``
+   * - :ref:`procedural-distribution-Hiker`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Homesteading``
+   * - :ref:`procedural-distribution-Homesteading`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Hunter``
+   * - :ref:`procedural-distribution-Hunter`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``MechanicSpecial``
+   * - :ref:`procedural-distribution-MechanicSpecial`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``SurvivalGear``
+   * - :ref:`procedural-distribution-SurvivalGear`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``Trapper``
+   * - :ref:`procedural-distribution-Trapper`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``ArtSupplies``
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - ``Chemistry``
+   * - :ref:`procedural-distribution-ArtSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateCanning``
+   * - :ref:`procedural-distribution-Chemistry`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateDishes``
+   * - :ref:`procedural-distribution-CrateCanning`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateInstruments``
+   * - :ref:`procedural-distribution-CrateDishes`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateLinens``
+   * - :ref:`procedural-distribution-CrateInstruments`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CratePetSupplies``
+   * - :ref:`procedural-distribution-CrateLinens`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CratePhotos``
+   * - :ref:`procedural-distribution-CratePetSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateSports``
+   * - :ref:`procedural-distribution-CratePhotos`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateToys``
+   * - :ref:`procedural-distribution-CrateSports`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``EngineerTools``
+   * - :ref:`procedural-distribution-CrateToys`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``FitnessTrainer``
+   * - :ref:`procedural-distribution-EngineerTools`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Gifts``
+   * - :ref:`procedural-distribution-FitnessTrainer`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Hobbies``
+   * - :ref:`procedural-distribution-Gifts`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``HolidayStuff``
+   * - :ref:`procedural-distribution-Hobbies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ImprovisedCrafts``
+   * - :ref:`procedural-distribution-HolidayStuff`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``JunkHoard``
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``Photographer``
+   * - :ref:`procedural-distribution-JunkHoard`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``PlumbingSupplies``
+   * - :ref:`procedural-distribution-Photographer`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``ScienceMisc``
+   * - :ref:`procedural-distribution-PlumbingSupplies`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``VacationStuff``
+   * - :ref:`procedural-distribution-ScienceMisc`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``WallDecor``
+   * - :ref:`procedural-distribution-VacationStuff`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateElectronics``
+   * - :ref:`procedural-distribution-WallDecor`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateElectronics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ClothingStorageWinter``
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateClothesRandom``
+   * - :ref:`procedural-distribution-CrateClothesRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFootwearRandom``
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateBlacksmithing``
+   * - :ref:`procedural-distribution-CrateBlacksmithing`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateCarpentry``
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateFishing``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMechanics``
+   * - :ref:`procedural-distribution-CrateFishing`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMechanics`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTailoring``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTailoring`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateToolsOld``
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 1
      - 1
      - 
      - 
      - 
-   * - ``CrateRandomJunk``
+   * - :ref:`procedural-distribution-CrateRandomJunk`
      - 0
      - 4
      - 60
      - 
      - 
      - 
-   * - ``CrateBooks``
+   * - :ref:`procedural-distribution-CrateBooks`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateMagazines``
+   * - :ref:`procedural-distribution-CrateMagazines`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``CrateNewspapers``
+   * - :ref:`procedural-distribution-CrateNewspapers`
      - 0
      - 4
      - 100
@@ -51464,14 +51464,14 @@ storageunit
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolCabinetMechanics``
+   * - :ref:`procedural-distribution-ToolCabinetMechanics`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -51496,7 +51496,7 @@ stripclub
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StripClubClothingRack``
+   * - :ref:`procedural-distribution-StripClubClothingRack`
      - 0
      - 99
      - -
@@ -51517,7 +51517,7 @@ stripclub
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StripClubDressers``
+   * - :ref:`procedural-distribution-StripClubDressers`
      - 0
      - 99
      - -
@@ -51538,7 +51538,7 @@ stripclub
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StripClubDressers``
+   * - :ref:`procedural-distribution-StripClubDressers`
      - 0
      - 99
      - -
@@ -51559,7 +51559,7 @@ stripclub
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StripClubCosmetic``
+   * - :ref:`procedural-distribution-StripClubCosmetic`
      - 0
      - 99
      - -
@@ -51584,7 +51584,7 @@ stripclubvip
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StripClubDressers``
+   * - :ref:`procedural-distribution-StripClubDressers`
      - 0
      - 99
      - -
@@ -51605,7 +51605,7 @@ stripclubvip
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StripClubDressers``
+   * - :ref:`procedural-distribution-StripClubDressers`
      - 0
      - 99
      - -
@@ -51626,7 +51626,7 @@ stripclubvip
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeVIPLounge``
+   * - :ref:`procedural-distribution-FridgeVIPLounge`
      - 0
      - 99
      - -
@@ -51651,7 +51651,7 @@ studio
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``BackstageRigging``
+   * - :ref:`procedural-distribution-BackstageRigging`
      - 0
      - 99
      - -
@@ -51672,49 +51672,49 @@ studio
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 99
      - 40
@@ -51735,7 +51735,7 @@ studio
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StudioPropShelf``
+   * - :ref:`procedural-distribution-StudioPropShelf`
      - 0
      - 99
      - -
@@ -51760,28 +51760,28 @@ SurvivorCache1
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 1
      - 7
      - 100
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 1
      - 1
      - 100
@@ -51806,28 +51806,28 @@ SurvivorCache2
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 1
      - 7
      - 100
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 1
      - 1
      - 100
@@ -51852,35 +51852,35 @@ SurvivorCacheBigBuilding
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``KitchenCannedFood``
+   * - :ref:`procedural-distribution-KitchenCannedFood`
      - 0
      - 7
      - 100
      - 
      - 
      - 
-   * - ``KitchenDryFood``
+   * - :ref:`procedural-distribution-KitchenDryFood`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``KitchenRandom``
+   * - :ref:`procedural-distribution-KitchenRandom`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``MeleeWeapons``
+   * - :ref:`procedural-distribution-MeleeWeapons`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``FirearmWeapons``
+   * - :ref:`procedural-distribution-FirearmWeapons`
      - 0
      - 1
      - 10
@@ -51905,7 +51905,7 @@ sushidining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -51934,7 +51934,7 @@ sushidining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - -
@@ -51955,35 +51955,35 @@ sushidining
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayMaki``
+   * - :ref:`procedural-distribution-ServingTrayMaki`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ServingTrayOnigiri``
+   * - :ref:`procedural-distribution-ServingTrayOnigiri`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ServingTraySpringRolls``
+   * - :ref:`procedural-distribution-ServingTraySpringRolls`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``ServingTraySushiEgg``
+   * - :ref:`procedural-distribution-ServingTraySushiEgg`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ServingTraySushiFish``
+   * - :ref:`procedural-distribution-ServingTraySushiFish`
      - 1
      - 99
      - 100
@@ -52008,7 +52008,7 @@ sushikitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -52031,49 +52031,49 @@ sushikitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``SushiKitchenBaking``
+   * - :ref:`procedural-distribution-SushiKitchenBaking`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``SushiKitchenButcher``
+   * - :ref:`procedural-distribution-SushiKitchenButcher`
      - 0
      - 2
      - 100
      - 
      - 
      - 
-   * - ``SushiKitchenCutlery``
+   * - :ref:`procedural-distribution-SushiKitchenCutlery`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``SushiKitchenSauce``
+   * - :ref:`procedural-distribution-SushiKitchenSauce`
      - 0
      - 1
      - 80
@@ -52094,7 +52094,7 @@ sushikitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SushiKitchenFreezer``
+   * - :ref:`procedural-distribution-SushiKitchenFreezer`
      - 0
      - 99
      - -
@@ -52115,7 +52115,7 @@ sushikitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SushiKitchenFridge``
+   * - :ref:`procedural-distribution-SushiKitchenFridge`
      - 0
      - 99
      - -
@@ -52136,42 +52136,42 @@ sushikitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTraySushiEgg``
+   * - :ref:`procedural-distribution-ServingTraySushiEgg`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ServingTraySushiFish``
+   * - :ref:`procedural-distribution-ServingTraySushiFish`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``ServingTrayMaki``
+   * - :ref:`procedural-distribution-ServingTrayMaki`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayOnigiri``
+   * - :ref:`procedural-distribution-ServingTrayOnigiri`
      - 1
      - 4
      - 60
      - 
      - 
      - 
-   * - ``ServingTrayTofuFried``
+   * - :ref:`procedural-distribution-ServingTrayTofuFried`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``ServingTraySpringRolls``
+   * - :ref:`procedural-distribution-ServingTraySpringRolls`
      - 0
      - 2
      - 40
@@ -52196,7 +52196,7 @@ swatlocker
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SWATStorageArmor``
+   * - :ref:`procedural-distribution-SWATStorageArmor`
      - 0
      - 99
      - -
@@ -52221,28 +52221,28 @@ tailoringstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 99
      - 20
@@ -52263,35 +52263,35 @@ tailoringstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``SewingStoreTools``
+   * - :ref:`procedural-distribution-SewingStoreTools`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``SewingStoreFabric``
+   * - :ref:`procedural-distribution-SewingStoreFabric`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ClothingStoresDress``
+   * - :ref:`procedural-distribution-ClothingStoresDress`
      - 1
      - 5
      - 80
      - 
      - 
      - 
-   * - ``ClothingStoresWoman``
+   * - :ref:`procedural-distribution-ClothingStoresWoman`
      - 1
      - 5
      - 80
      - 
      - 
      - 
-   * - ``ClothingStoresJumpers``
+   * - :ref:`procedural-distribution-ClothingStoresJumpers`
      - 1
      - 5
      - 80
@@ -52312,7 +52312,7 @@ tailoringstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -52327,21 +52327,21 @@ tailoringstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``BookstoreFashion``
+   * - :ref:`procedural-distribution-BookstoreFashion`
      - 1
      - 2
      - 100
      - 
      - 
      - 
-   * - ``SewingStoreTools``
+   * - :ref:`procedural-distribution-SewingStoreTools`
      - 1
      - 99
      - 100
@@ -52362,42 +52362,42 @@ tailoringstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``SewingStoreTools``
+   * - :ref:`procedural-distribution-SewingStoreTools`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``SewingStoreFabric``
+   * - :ref:`procedural-distribution-SewingStoreFabric`
      - 1
      - 99
      - 100
@@ -52418,42 +52418,42 @@ tailoringstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 1
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``SewingStoreTools``
+   * - :ref:`procedural-distribution-SewingStoreTools`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``SewingStoreFabric``
+   * - :ref:`procedural-distribution-SewingStoreFabric`
      - 1
      - 99
      - 100
@@ -52478,35 +52478,35 @@ tailoringworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateIndustrialDye``
+   * - :ref:`procedural-distribution-CrateIndustrialDye`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 99
      - 20
@@ -52527,7 +52527,7 @@ tailoringworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -52542,7 +52542,7 @@ tailoringworkshop
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -52563,7 +52563,7 @@ tailoringworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``TailoringTools``
+   * - :ref:`procedural-distribution-TailoringTools`
      - 0
      - 99
      - -
@@ -52574,35 +52574,35 @@ tailoringworkshop
        - furniture_storage_02_2
        - furniture_storage_02_3
      - 
-   * - ``CrateIndustrialDye``
+   * - :ref:`procedural-distribution-CrateIndustrialDye`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 99
      - 20
@@ -52623,7 +52623,7 @@ tailoringworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackFancy``
+   * - :ref:`procedural-distribution-MagazineRackFancy`
      - 0
      - 99
      - -
@@ -52632,35 +52632,35 @@ tailoringworkshop
        - furniture_shelving_01_19
        - furniture_shelving_01_23
      - 
-   * - ``CrateIndustrialDye``
+   * - :ref:`procedural-distribution-CrateIndustrialDye`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 99
      - 20
@@ -52681,7 +52681,7 @@ tailoringworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``TailoringLiterature``
+   * - :ref:`procedural-distribution-TailoringLiterature`
      - 0
      - 99
      - -
@@ -52702,35 +52702,35 @@ tailoringworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateIndustrialDye``
+   * - :ref:`procedural-distribution-CrateIndustrialDye`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_Cotton``
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlack``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateFabric_DenimBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateFabric_DenimDarkBlue``
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
      - 0
      - 99
      - 20
@@ -52755,7 +52755,7 @@ technical
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GeneratorRoom``
+   * - :ref:`procedural-distribution-GeneratorRoom`
      - 0
      - 99
      - -
@@ -52780,21 +52780,21 @@ theatre
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePopcorn``
+   * - :ref:`procedural-distribution-CratePopcorn`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSodaBottles``
+   * - :ref:`procedural-distribution-CrateSodaBottles`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSodaCans``
+   * - :ref:`procedural-distribution-CrateSodaCans`
      - 0
      - 99
      - 60
@@ -52815,14 +52815,14 @@ theatre
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``TheatreLiterature``
+   * - :ref:`procedural-distribution-TheatreLiterature`
      - 1
      - 4
      - 20
@@ -52847,7 +52847,7 @@ theatrekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -52862,7 +52862,7 @@ theatrekitchen
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -52885,7 +52885,7 @@ theatrekitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``TheatreDrinks``
+   * - :ref:`procedural-distribution-TheatreDrinks`
      - 0
      - 99
      - -
@@ -52896,14 +52896,14 @@ theatrekitchen
        - location_shop_accessories_01_12
        - location_shop_accessories_01_13
      - 
-   * - ``TheatreLiterature``
+   * - :ref:`procedural-distribution-TheatreLiterature`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``TheatrePopcorn``
+   * - :ref:`procedural-distribution-TheatrePopcorn`
      - 0
      - 99
      - -
@@ -52911,7 +52911,7 @@ theatrekitchen
      - 
        - location_entertainment_theatre_01_17
      - 
-   * - ``TheatreSnacks``
+   * - :ref:`procedural-distribution-TheatreSnacks`
      - 0
      - 99
      - -
@@ -52936,7 +52936,7 @@ theatrekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``TheatreKitchenFreezer``
+   * - :ref:`procedural-distribution-TheatreKitchenFreezer`
      - 0
      - 99
      - -
@@ -52957,7 +52957,7 @@ theatrekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - -
@@ -52978,21 +52978,21 @@ theatrekitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePopcorn``
+   * - :ref:`procedural-distribution-CratePopcorn`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSodaBottles``
+   * - :ref:`procedural-distribution-CrateSodaBottles`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSodaCans``
+   * - :ref:`procedural-distribution-CrateSodaCans`
      - 0
      - 99
      - 60
@@ -53017,21 +53017,21 @@ theatrestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePopcorn``
+   * - :ref:`procedural-distribution-CratePopcorn`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSodaBottles``
+   * - :ref:`procedural-distribution-CrateSodaBottles`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSodaCans``
+   * - :ref:`procedural-distribution-CrateSodaCans`
      - 0
      - 99
      - 60
@@ -53052,21 +53052,21 @@ theatrestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePopcorn``
+   * - :ref:`procedural-distribution-CratePopcorn`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSodaBottles``
+   * - :ref:`procedural-distribution-CrateSodaBottles`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSodaCans``
+   * - :ref:`procedural-distribution-CrateSodaCans`
      - 0
      - 99
      - 60
@@ -53087,21 +53087,21 @@ theatrestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CratePopcorn``
+   * - :ref:`procedural-distribution-CratePopcorn`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateSodaBottles``
+   * - :ref:`procedural-distribution-CrateSodaBottles`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSodaCans``
+   * - :ref:`procedural-distribution-CrateSodaCans`
      - 0
      - 99
      - 60
@@ -53126,7 +53126,7 @@ throwgame
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -53141,7 +53141,7 @@ throwgame
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``CarnivalPrizes``
+   * - :ref:`procedural-distribution-CarnivalPrizes`
      - 0
      - 4
      - 100
@@ -53166,7 +53166,7 @@ tobaccostorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCigarettes``
+   * - :ref:`procedural-distribution-CrateCigarettes`
      - 0
      - 99
      - -
@@ -53187,21 +53187,21 @@ tobaccostorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``TobaccoStoreChew``
+   * - :ref:`procedural-distribution-TobaccoStoreChew`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``TobaccoStoreCigarettes``
+   * - :ref:`procedural-distribution-TobaccoStoreCigarettes`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``TobaccoStoreCigarillos``
+   * - :ref:`procedural-distribution-TobaccoStoreCigarillos`
      - 0
      - 99
      - 40
@@ -53226,7 +53226,7 @@ tobaccostore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -53255,14 +53255,14 @@ tobaccostore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``TobaccoStoreCigars``
+   * - :ref:`procedural-distribution-TobaccoStoreCigars`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``TobaccoStorePipes``
+   * - :ref:`procedural-distribution-TobaccoStorePipes`
      - 1
      - 99
      - 40
@@ -53283,7 +53283,7 @@ tobaccostore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``TobaccoStoreAccessories``
+   * - :ref:`procedural-distribution-TobaccoStoreAccessories`
      - 0
      - 99
      - -
@@ -53294,21 +53294,21 @@ tobaccostore
        - location_shop_generic_01_14
        - location_shop_generic_01_15
      - 
-   * - ``TobaccoStoreChew``
+   * - :ref:`procedural-distribution-TobaccoStoreChew`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``TobaccoStoreCigarettes``
+   * - :ref:`procedural-distribution-TobaccoStoreCigarettes`
      - 1
      - 4
      - 100
      - 
      - 
      - 
-   * - ``TobaccoStoreCigarillos``
+   * - :ref:`procedural-distribution-TobaccoStoreCigarillos`
      - 1
      - 2
      - 60
@@ -53338,98 +53338,98 @@ toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CrateLongStick``
+   * - :ref:`procedural-distribution-CrateLongStick`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ToolStoreAccessories``
+   * - :ref:`procedural-distribution-ToolStoreAccessories`
      - 0
      - 12
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreCarpentry``
+   * - :ref:`procedural-distribution-ToolStoreCarpentry`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreFarming``
+   * - :ref:`procedural-distribution-ToolStoreFarming`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreMetalwork``
+   * - :ref:`procedural-distribution-ToolStoreMetalwork`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreMisc``
+   * - :ref:`procedural-distribution-ToolStoreMisc`
      - 0
      - 12
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreOutfit``
+   * - :ref:`procedural-distribution-ToolStoreOutfit`
      - 0
      - 12
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreTools``
+   * - :ref:`procedural-distribution-ToolStoreTools`
      - 0
      - 12
      - 80
@@ -53450,7 +53450,7 @@ toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -53465,42 +53465,42 @@ toolstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``ToolStoreTools``
+   * - :ref:`procedural-distribution-ToolStoreTools`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ToolStoreFootwear``
+   * - :ref:`procedural-distribution-ToolStoreFootwear`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``ToolStoreBooks``
+   * - :ref:`procedural-distribution-ToolStoreBooks`
      - 0
      - 2
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreAccessories``
+   * - :ref:`procedural-distribution-ToolStoreAccessories`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreKeymaking``
+   * - :ref:`procedural-distribution-ToolStoreKeymaking`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreMisc``
+   * - :ref:`procedural-distribution-ToolStoreMisc`
      - 0
      - 99
      - 100
@@ -53521,98 +53521,98 @@ toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CrateLongStick``
+   * - :ref:`procedural-distribution-CrateLongStick`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ToolStoreAccessories``
+   * - :ref:`procedural-distribution-ToolStoreAccessories`
      - 0
      - 12
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreCarpentry``
+   * - :ref:`procedural-distribution-ToolStoreCarpentry`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreFarming``
+   * - :ref:`procedural-distribution-ToolStoreFarming`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreMetalwork``
+   * - :ref:`procedural-distribution-ToolStoreMetalwork`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreOutfit``
+   * - :ref:`procedural-distribution-ToolStoreOutfit`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ToolStoreHandles``
+   * - :ref:`procedural-distribution-ToolStoreHandles`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreTools``
+   * - :ref:`procedural-distribution-ToolStoreTools`
      - 0
      - 99
      - 80
@@ -53633,98 +53633,98 @@ toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CrateLongStick``
+   * - :ref:`procedural-distribution-CrateLongStick`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ToolStoreCarpentry``
+   * - :ref:`procedural-distribution-ToolStoreCarpentry`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreFarming``
+   * - :ref:`procedural-distribution-ToolStoreFarming`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreMetalwork``
+   * - :ref:`procedural-distribution-ToolStoreMetalwork`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreOutfit``
+   * - :ref:`procedural-distribution-ToolStoreOutfit`
      - 0
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ToolStoreHandles``
+   * - :ref:`procedural-distribution-ToolStoreHandles`
      - 0
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreTools``
+   * - :ref:`procedural-distribution-ToolStoreTools`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreMisc``
+   * - :ref:`procedural-distribution-ToolStoreMisc`
      - 0
      - 99
      - 100
@@ -53745,14 +53745,14 @@ toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FishingStoreGear``
+   * - :ref:`procedural-distribution-FishingStoreGear`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -53761,7 +53761,7 @@ toolstore
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``ToolStoreBooks``
+   * - :ref:`procedural-distribution-ToolStoreBooks`
      - 0
      - 99
      - -
@@ -53772,49 +53772,49 @@ toolstore
        - furniture_shelving_01_42
        - furniture_shelving_01_43
      - 
-   * - ``ToolStoreCarpentry``
+   * - :ref:`procedural-distribution-ToolStoreCarpentry`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreFarming``
+   * - :ref:`procedural-distribution-ToolStoreFarming`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreMetalwork``
+   * - :ref:`procedural-distribution-ToolStoreMetalwork`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``ToolStoreOutfit``
+   * - :ref:`procedural-distribution-ToolStoreOutfit`
      - 1
      - 2
      - 60
      - 
      - 
      - 
-   * - ``ToolStoreHandles``
+   * - :ref:`procedural-distribution-ToolStoreHandles`
      - 1
      - 2
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreTools``
+   * - :ref:`procedural-distribution-ToolStoreTools`
      - 1
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreMisc``
+   * - :ref:`procedural-distribution-ToolStoreMisc`
      - 1
      - 99
      - 100
@@ -53835,28 +53835,28 @@ toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ToolStoreAccessories``
+   * - :ref:`procedural-distribution-ToolStoreAccessories`
      - 0
      - 12
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreMisc``
+   * - :ref:`procedural-distribution-ToolStoreMisc`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreOutfit``
+   * - :ref:`procedural-distribution-ToolStoreOutfit`
      - 0
      - 12
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreTools``
+   * - :ref:`procedural-distribution-ToolStoreTools`
      - 0
      - 99
      - 20
@@ -53881,98 +53881,98 @@ toolstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CrateLongStick``
+   * - :ref:`procedural-distribution-CrateLongStick`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ToolStoreAccessories``
+   * - :ref:`procedural-distribution-ToolStoreAccessories`
      - 0
      - 12
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreCarpentry``
+   * - :ref:`procedural-distribution-ToolStoreCarpentry`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreFarming``
+   * - :ref:`procedural-distribution-ToolStoreFarming`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreMetalwork``
+   * - :ref:`procedural-distribution-ToolStoreMetalwork`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreMisc``
+   * - :ref:`procedural-distribution-ToolStoreMisc`
      - 0
      - 12
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreOutfit``
+   * - :ref:`procedural-distribution-ToolStoreOutfit`
      - 0
      - 12
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreTools``
+   * - :ref:`procedural-distribution-ToolStoreTools`
      - 0
      - 12
      - 80
@@ -53993,98 +53993,98 @@ toolstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 2
      - 10
      - 
      - 
      - 
-   * - ``CrateLongStick``
+   * - :ref:`procedural-distribution-CrateLongStick`
      - 0
      - 2
      - 20
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``ToolStoreAccessories``
+   * - :ref:`procedural-distribution-ToolStoreAccessories`
      - 0
      - 12
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreCarpentry``
+   * - :ref:`procedural-distribution-ToolStoreCarpentry`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreFarming``
+   * - :ref:`procedural-distribution-ToolStoreFarming`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreMetalwork``
+   * - :ref:`procedural-distribution-ToolStoreMetalwork`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolStoreMisc``
+   * - :ref:`procedural-distribution-ToolStoreMisc`
      - 0
      - 12
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreOutfit``
+   * - :ref:`procedural-distribution-ToolStoreOutfit`
      - 0
      - 12
      - 80
      - 
      - 
      - 
-   * - ``ToolStoreTools``
+   * - :ref:`procedural-distribution-ToolStoreTools`
      - 0
      - 12
      - 80
@@ -54109,21 +54109,21 @@ toystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
@@ -54144,7 +54144,7 @@ toystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -54159,21 +54159,21 @@ toystore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -54194,21 +54194,21 @@ toystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
@@ -54229,28 +54229,28 @@ toystore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -54277,21 +54277,21 @@ toystorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GiftStoreCards``
+   * - :ref:`procedural-distribution-GiftStoreCards`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``GiftStoreFancy``
+   * - :ref:`procedural-distribution-GiftStoreFancy`
      - 1
      - 2
      - 20
      - 
      - 
      - 
-   * - ``GiftStoreToys``
+   * - :ref:`procedural-distribution-GiftStoreToys`
      - 1
      - 99
      - 100
@@ -54316,7 +54316,7 @@ universitylibrary
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``LibraryCounter``
+   * - :ref:`procedural-distribution-LibraryCounter`
      - 0
      - 99
      - -
@@ -54337,119 +54337,119 @@ universitylibrary
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``UniversityLibraryArt``
+   * - :ref:`procedural-distribution-UniversityLibraryArt`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``UniversityLibraryBiography``
+   * - :ref:`procedural-distribution-UniversityLibraryBiography`
      - 0
      - 1
      - 40
      - 
      - 
      - 
-   * - ``UniversityLibraryBooks``
+   * - :ref:`procedural-distribution-UniversityLibraryBooks`
      - 2
      - 99
      - 20
      - 
      - 
      - 
-   * - ``UniversityLibraryBusiness``
+   * - :ref:`procedural-distribution-UniversityLibraryBusiness`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``UniversityLibraryCinema``
+   * - :ref:`procedural-distribution-UniversityLibraryCinema`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``UniversityLibraryComputer``
+   * - :ref:`procedural-distribution-UniversityLibraryComputer`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``UniversityLibraryGeneralReference``
+   * - :ref:`procedural-distribution-UniversityLibraryGeneralReference`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``UniversityLibraryHistory``
+   * - :ref:`procedural-distribution-UniversityLibraryHistory`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``UniversityLibraryLegal``
+   * - :ref:`procedural-distribution-UniversityLibraryLegal`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``UniversityLibraryMagazines``
+   * - :ref:`procedural-distribution-UniversityLibraryMagazines`
      - 2
      - 99
      - 20
      - 
      - 
      - 
-   * - ``UniversityLibraryMedical``
+   * - :ref:`procedural-distribution-UniversityLibraryMedical`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``UniversityLibraryMilitaryHistory``
+   * - :ref:`procedural-distribution-UniversityLibraryMilitaryHistory`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``UniversityLibraryMusic``
+   * - :ref:`procedural-distribution-UniversityLibraryMusic`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``UniversityLibraryPhilosophy``
+   * - :ref:`procedural-distribution-UniversityLibraryPhilosophy`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``UniversityLibraryPolitics``
+   * - :ref:`procedural-distribution-UniversityLibraryPolitics`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``UniversityLibraryScience``
+   * - :ref:`procedural-distribution-UniversityLibraryScience`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``UniversityLibrarySports``
+   * - :ref:`procedural-distribution-UniversityLibrarySports`
      - 0
      - 1
      - 40
@@ -54474,21 +54474,21 @@ universitystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``UniversityStorageAnthropology``
+   * - :ref:`procedural-distribution-UniversityStorageAnthropology`
      - 0
      - 4
      - 40
      - 
      - 
      - 
-   * - ``UniversityStorageScience``
+   * - :ref:`procedural-distribution-UniversityStorageScience`
      - 0
      - 4
      - 80
      - 
      - 
      - 
-   * - ``UniversityLibraryBooks``
+   * - :ref:`procedural-distribution-UniversityLibraryBooks`
      - 0
      - 99
      - 100
@@ -54518,7 +54518,7 @@ viplounge
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -54555,7 +54555,7 @@ viplounge
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``DishCabinetVIPLounge``
+   * - :ref:`procedural-distribution-DishCabinetVIPLounge`
      - 0
      - 99
      - -
@@ -54576,7 +54576,7 @@ viplounge
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeVIPLounge``
+   * - :ref:`procedural-distribution-FridgeVIPLounge`
      - 0
      - 99
      - -
@@ -54597,91 +54597,91 @@ viplounge
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ServingTrayChickenWings``
+   * - :ref:`procedural-distribution-ServingTrayChickenWings`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayLobster``
+   * - :ref:`procedural-distribution-ServingTrayLobster`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayMaki``
+   * - :ref:`procedural-distribution-ServingTrayMaki`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayMeatDumplings``
+   * - :ref:`procedural-distribution-ServingTrayMeatDumplings`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayMeatSteamBuns``
+   * - :ref:`procedural-distribution-ServingTrayMeatSteamBuns`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayMussels``
+   * - :ref:`procedural-distribution-ServingTrayMussels`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayOnigiri``
+   * - :ref:`procedural-distribution-ServingTrayOnigiri`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayOysters``
+   * - :ref:`procedural-distribution-ServingTrayOysters`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTrayShrimp``
+   * - :ref:`procedural-distribution-ServingTrayShrimp`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTraySpringRolls``
+   * - :ref:`procedural-distribution-ServingTraySpringRolls`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTraySteak``
+   * - :ref:`procedural-distribution-ServingTraySteak`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTraySushiEgg``
+   * - :ref:`procedural-distribution-ServingTraySushiEgg`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``ServingTraySushiFish``
+   * - :ref:`procedural-distribution-ServingTraySushiFish`
      - 0
      - 1
      - 10
@@ -54706,7 +54706,7 @@ waitingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WaitingRoomDesk``
+   * - :ref:`procedural-distribution-WaitingRoomDesk`
      - 0
      - 99
      - -
@@ -54727,7 +54727,7 @@ waitingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedicalCabinet``
+   * - :ref:`procedural-distribution-MedicalCabinet`
      - 0
      - 99
      - -
@@ -54752,7 +54752,7 @@ walletshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWallets``
+   * - :ref:`procedural-distribution-CrateWallets`
      - 0
      - 99
      - -
@@ -54773,7 +54773,7 @@ walletshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWallets``
+   * - :ref:`procedural-distribution-CrateWallets`
      - 0
      - 99
      - -
@@ -54794,7 +54794,7 @@ walletshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -54809,7 +54809,7 @@ walletshop
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -54830,7 +54830,7 @@ walletshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLeather``
+   * - :ref:`procedural-distribution-CrateLeather`
      - 0
      - 99
      - -
@@ -54851,7 +54851,7 @@ walletshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateLeather``
+   * - :ref:`procedural-distribution-CrateLeather`
      - 0
      - 99
      - -
@@ -54876,98 +54876,98 @@ warehouse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateAntiqueStove``
+   * - :ref:`procedural-distribution-CrateAntiqueStove`
      - 0
      - 1
      - 5
      - 
      - 
      - 
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateClayBricks``
+   * - :ref:`procedural-distribution-CrateClayBricks`
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``CrateConcrete``
+   * - :ref:`procedural-distribution-CrateConcrete`
      - 0
      - 99
      - 10
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateGravelBags``
+   * - :ref:`procedural-distribution-CrateGravelBags`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CratePlaster``
+   * - :ref:`procedural-distribution-CratePlaster`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateSandBags``
+   * - :ref:`procedural-distribution-CrateSandBags`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 99
      - 40
@@ -54988,7 +54988,7 @@ warehouse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOffice``
+   * - :ref:`procedural-distribution-FridgeOffice`
      - 0
      - 99
      - -
@@ -55009,49 +55009,49 @@ warehouse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 99
      - 40
@@ -55072,49 +55072,49 @@ warehouse
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateFarming``
+   * - :ref:`procedural-distribution-CrateFarming`
      - 0
      - 99
      - 60
      - 
      - 
      - 
-   * - ``CrateMetalwork``
+   * - :ref:`procedural-distribution-CrateMetalwork`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CratePaint``
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``CrateSheetMetal``
+   * - :ref:`procedural-distribution-CrateSheetMetal`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``CrateTools``
+   * - :ref:`procedural-distribution-CrateTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CrateWallFinish``
+   * - :ref:`procedural-distribution-CrateWallFinish`
      - 0
      - 99
      - 40
@@ -55139,7 +55139,7 @@ waterstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateWaterBottle``
+   * - :ref:`procedural-distribution-CrateWaterBottle`
      - 0
      - 99
      - -
@@ -55164,7 +55164,7 @@ weddingstoredress
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeddingStoreDresses``
+   * - :ref:`procedural-distribution-WeddingStoreDresses`
      - 0
      - 99
      - -
@@ -55185,7 +55185,7 @@ weddingstoredress
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeddingStoreDresses``
+   * - :ref:`procedural-distribution-WeddingStoreDresses`
      - 0
      - 99
      - -
@@ -55210,14 +55210,14 @@ weddingstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeddingStoreSuits``
+   * - :ref:`procedural-distribution-WeddingStoreSuits`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``WeddingStoreDresses``
+   * - :ref:`procedural-distribution-WeddingStoreDresses`
      - 0
      - 99
      - 100
@@ -55238,7 +55238,7 @@ weddingstorestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeddingStoreDresses``
+   * - :ref:`procedural-distribution-WeddingStoreDresses`
      - 0
      - 99
      - -
@@ -55263,7 +55263,7 @@ weddingstoresuit
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeddingStoreSuits``
+   * - :ref:`procedural-distribution-WeddingStoreSuits`
      - 0
      - 99
      - -
@@ -55284,7 +55284,7 @@ weddingstoresuit
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -55299,7 +55299,7 @@ weddingstoresuit
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``StoreCounterBagsFancy``
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
      - 100
@@ -55320,7 +55320,7 @@ weddingstoresuit
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeddingStoreSuits``
+   * - :ref:`procedural-distribution-WeddingStoreSuits`
      - 0
      - 99
      - -
@@ -55345,14 +55345,14 @@ weldingstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeldingWorkshopFuel``
+   * - :ref:`procedural-distribution-WeldingWorkshopFuel`
      - 0
      - 1
      - 60
      - 
      - 
      - 
-   * - ``WeldingWorkshopMetal``
+   * - :ref:`procedural-distribution-WeldingWorkshopMetal`
      - 0
      - 99
      - 100
@@ -55377,14 +55377,14 @@ weldingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeldingWorkshopFuel``
+   * - :ref:`procedural-distribution-WeldingWorkshopFuel`
      - 1
      - 4
      - 20
      - 
      - 
      - 
-   * - ``WeldingWorkshopMetal``
+   * - :ref:`procedural-distribution-WeldingWorkshopMetal`
      - 0
      - 99
      - 100
@@ -55405,7 +55405,7 @@ weldingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeldingWorkshopTools``
+   * - :ref:`procedural-distribution-WeldingWorkshopTools`
      - 0
      - 99
      - -
@@ -55426,7 +55426,7 @@ weldingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WeldingWorkshopTools``
+   * - :ref:`procedural-distribution-WeldingWorkshopTools`
      - 0
      - 99
      - -
@@ -55456,7 +55456,7 @@ westernkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreKitchenCleaning``
+   * - :ref:`procedural-distribution-StoreKitchenCleaning`
      - 0
      - 99
      - -
@@ -55479,56 +55479,56 @@ westernkitchen
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``StoreKitchenCutlery``
+   * - :ref:`procedural-distribution-StoreKitchenCutlery`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenDishes``
+   * - :ref:`procedural-distribution-StoreKitchenDishes`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenGlasses``
+   * - :ref:`procedural-distribution-StoreKitchenGlasses`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``StoreKitchenPotatoes``
+   * - :ref:`procedural-distribution-StoreKitchenPotatoes`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``StoreKitchenPots``
+   * - :ref:`procedural-distribution-StoreKitchenPots`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``WesternKitchenBaking``
+   * - :ref:`procedural-distribution-WesternKitchenBaking`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - ``WesternKitchenButcher``
+   * - :ref:`procedural-distribution-WesternKitchenButcher`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``WesternKitchenSauce``
+   * - :ref:`procedural-distribution-WesternKitchenSauce`
      - 0
      - 1
      - 100
@@ -55549,7 +55549,7 @@ westernkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WesternKitchenFreezer``
+   * - :ref:`procedural-distribution-WesternKitchenFreezer`
      - 0
      - 99
      - -
@@ -55570,7 +55570,7 @@ westernkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WesternKitchenFridge``
+   * - :ref:`procedural-distribution-WesternKitchenFridge`
      - 0
      - 99
      - -
@@ -55595,14 +55595,14 @@ whiskeybottling
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WhiskeyBottlingEmpty``
+   * - :ref:`procedural-distribution-WhiskeyBottlingEmpty`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``WhiskeyBottlingFull``
+   * - :ref:`procedural-distribution-WhiskeyBottlingFull`
      - 0
      - 99
      - 100
@@ -55623,7 +55623,7 @@ whiskeybottling
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WhiskeyBottlingEmpty``
+   * - :ref:`procedural-distribution-WhiskeyBottlingEmpty`
      - 0
      - 99
      - -
@@ -55644,14 +55644,14 @@ whiskeybottling
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WhiskeyBottlingEmpty``
+   * - :ref:`procedural-distribution-WhiskeyBottlingEmpty`
      - 0
      - 99
      - 80
      - 
      - 
      - 
-   * - ``WhiskeyBottlingFull``
+   * - :ref:`procedural-distribution-WhiskeyBottlingFull`
      - 0
      - 99
      - 100
@@ -55676,7 +55676,7 @@ whittlerworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarvingWorkshopMaterials``
+   * - :ref:`procedural-distribution-CarvingWorkshopMaterials`
      - 0
      - 99
      - -
@@ -55697,14 +55697,14 @@ whittlerworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CarvingWorkshopMaterials``
+   * - :ref:`procedural-distribution-CarvingWorkshopMaterials`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``CarvingWorkshopTools``
+   * - :ref:`procedural-distribution-CarvingWorkshopTools`
      - 0
      - 99
      - -
@@ -55733,28 +55733,28 @@ wirefactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WireFactoryBarbed``
+   * - :ref:`procedural-distribution-WireFactoryBarbed`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``WireFactoryBasic``
+   * - :ref:`procedural-distribution-WireFactoryBasic`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``WireFactoryElectric``
+   * - :ref:`procedural-distribution-WireFactoryElectric`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 100
@@ -55775,35 +55775,35 @@ wirefactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WireFactoryBarbed``
+   * - :ref:`procedural-distribution-WireFactoryBarbed`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``WireFactoryBasic``
+   * - :ref:`procedural-distribution-WireFactoryBasic`
      - 0
      - 99
      - 40
      - 
      - 
      - 
-   * - ``WireFactoryElectric``
+   * - :ref:`procedural-distribution-WireFactoryElectric`
      - 0
      - 99
      - 20
      - 
      - 
      - 
-   * - ``WireFactoryTools``
+   * - :ref:`procedural-distribution-WireFactoryTools`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``ToolFactoryBarStock``
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
      - 0
      - 99
      - 100
@@ -55824,7 +55824,7 @@ wirefactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WireFactoryTools``
+   * - :ref:`procedural-distribution-WireFactoryTools`
      - 0
      - 99
      - -
@@ -55849,21 +55849,21 @@ woodcraftset
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WoodcraftDudeCounter``
+   * - :ref:`procedural-distribution-WoodcraftDudeCounter`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -55884,14 +55884,14 @@ woodcraftset
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``CrateCarpentry``
+   * - :ref:`procedural-distribution-CrateCarpentry`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``CrateLumber``
+   * - :ref:`procedural-distribution-CrateLumber`
      - 1
      - 1
      - 100
@@ -55916,7 +55916,7 @@ ww_aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestBarberCounter``
+   * - :ref:`procedural-distribution-WildWestBarberCounter`
      - 0
      - 99
      - -
@@ -55937,7 +55937,7 @@ ww_aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestBarberShelves``
+   * - :ref:`procedural-distribution-WildWestBarberShelves`
      - 0
      - 99
      - -
@@ -55962,7 +55962,7 @@ ww_bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestBarCounter``
+   * - :ref:`procedural-distribution-WildWestBarCounter`
      - 0
      - 99
      - -
@@ -55983,7 +55983,7 @@ ww_bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestBarShelf``
+   * - :ref:`procedural-distribution-WildWestBarShelf`
      - 0
      - 99
      - -
@@ -56004,14 +56004,14 @@ ww_bar
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestWoodStove``
+   * - :ref:`procedural-distribution-WildWestWoodStove`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -56036,7 +56036,7 @@ ww_bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestBedroom``
+   * - :ref:`procedural-distribution-WildWestBedroom`
      - 0
      - 99
      - -
@@ -56057,7 +56057,7 @@ ww_bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestShelves``
+   * - :ref:`procedural-distribution-WildWestShelves`
      - 0
      - 99
      - -
@@ -56078,7 +56078,7 @@ ww_bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestBedroom``
+   * - :ref:`procedural-distribution-WildWestBedroom`
      - 0
      - 99
      - -
@@ -56099,7 +56099,7 @@ ww_bedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestBedroom``
+   * - :ref:`procedural-distribution-WildWestBedroom`
      - 0
      - 99
      - -
@@ -56124,7 +56124,7 @@ ww_blacksmith
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -56139,7 +56139,7 @@ ww_blacksmith
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``WildWestBlacksmith``
+   * - :ref:`procedural-distribution-WildWestBlacksmith`
      - 0
      - 4
      - 100
@@ -56160,7 +56160,7 @@ ww_blacksmith
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestSouveniers``
+   * - :ref:`procedural-distribution-WildWestSouveniers`
      - 0
      - 99
      - -
@@ -56185,7 +56185,7 @@ ww_generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -56200,7 +56200,7 @@ ww_generalstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -56221,7 +56221,7 @@ ww_generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestGeneralStore``
+   * - :ref:`procedural-distribution-WildWestGeneralStore`
      - 0
      - 99
      - -
@@ -56242,14 +56242,14 @@ ww_generalstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestWoodStove``
+   * - :ref:`procedural-distribution-WildWestWoodStove`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -56274,7 +56274,7 @@ ww_hall
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestShelves``
+   * - :ref:`procedural-distribution-WildWestShelves`
      - 0
      - 99
      - -
@@ -56299,7 +56299,7 @@ ww_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestKitchen``
+   * - :ref:`procedural-distribution-WildWestKitchen`
      - 0
      - 99
      - -
@@ -56320,7 +56320,7 @@ ww_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestKitchen``
+   * - :ref:`procedural-distribution-WildWestKitchen`
      - 0
      - 99
      - -
@@ -56341,7 +56341,7 @@ ww_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestKitchen``
+   * - :ref:`procedural-distribution-WildWestKitchen`
      - 0
      - 99
      - -
@@ -56362,14 +56362,14 @@ ww_kitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestWoodStove``
+   * - :ref:`procedural-distribution-WildWestWoodStove`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -56394,7 +56394,7 @@ ww_livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestWoodStove``
+   * - :ref:`procedural-distribution-WildWestWoodStove`
      - 0
      - 99
      - -
@@ -56415,7 +56415,7 @@ ww_livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestBedroom``
+   * - :ref:`procedural-distribution-WildWestBedroom`
      - 0
      - 99
      - -
@@ -56436,7 +56436,7 @@ ww_livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestLivingRoom``
+   * - :ref:`procedural-distribution-WildWestLivingRoom`
      - 0
      - 99
      - -
@@ -56457,7 +56457,7 @@ ww_livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestLivingRoom``
+   * - :ref:`procedural-distribution-WildWestLivingRoom`
      - 0
      - 99
      - -
@@ -56478,14 +56478,14 @@ ww_livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestWoodStove``
+   * - :ref:`procedural-distribution-WildWestWoodStove`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -56510,7 +56510,7 @@ ww_sherrif
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestSheriffDesk``
+   * - :ref:`procedural-distribution-WildWestSheriffDesk`
      - 0
      - 99
      - -
@@ -56531,7 +56531,7 @@ ww_sherrif
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestSheriffLocker``
+   * - :ref:`procedural-distribution-WildWestSheriffLocker`
      - 0
      - 99
      - -
@@ -56552,7 +56552,7 @@ ww_sherrif
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestShelves``
+   * - :ref:`procedural-distribution-WildWestShelves`
      - 0
      - 99
      - -
@@ -56573,14 +56573,14 @@ ww_sherrif
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestWoodStove``
+   * - :ref:`procedural-distribution-WildWestWoodStove`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -56605,7 +56605,7 @@ ww_toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestClothing``
+   * - :ref:`procedural-distribution-WildWestClothing`
      - 0
      - 99
      - -
@@ -56626,7 +56626,7 @@ ww_toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -56641,14 +56641,14 @@ ww_toolstore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``WildWestBlacksmith``
+   * - :ref:`procedural-distribution-WildWestBlacksmith`
      - 0
      - 4
      - 20
      - 
      - 
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - 100
@@ -56669,7 +56669,7 @@ ww_toolstore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``WildWestSouveniers``
+   * - :ref:`procedural-distribution-WildWestSouveniers`
      - 0
      - 99
      - -
@@ -56694,7 +56694,7 @@ zippeestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -56715,14 +56715,14 @@ zippeestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``JanitorChemicals``
+   * - :ref:`procedural-distribution-JanitorChemicals`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``JanitorCleaning``
+   * - :ref:`procedural-distribution-JanitorCleaning`
      - 0
      - 1
      - -
@@ -56745,14 +56745,14 @@ zippeestorage
        - fixtures_sinks_01_18
        - fixtures_sinks_01_19
      - 
-   * - ``JanitorMisc``
+   * - :ref:`procedural-distribution-JanitorMisc`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``JanitorTools``
+   * - :ref:`procedural-distribution-JanitorTools`
      - 0
      - 1
      - 100
@@ -56773,7 +56773,7 @@ zippeestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -56794,7 +56794,7 @@ zippeestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -56819,7 +56819,7 @@ zippeestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 0
      - 99
      - -
@@ -56840,7 +56840,7 @@ zippeestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -56865,7 +56865,7 @@ zippeestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStorageCombo``
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -56886,7 +56886,7 @@ zippeestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``ZippeeClothing``
+   * - :ref:`procedural-distribution-ZippeeClothing`
      - 0
      - 99
      - -
@@ -56907,7 +56907,7 @@ zippeestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreCounterCleaning``
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
      - 0
      - 99
      - -
@@ -56922,7 +56922,7 @@ zippeestore
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
      - 
-   * - ``Empty``
+   * - :ref:`procedural-distribution-Empty`
      - 0
      - 99
      - -
@@ -56938,7 +56938,7 @@ zippeestore
        - location_shop_fossoil_01_11
        - 
      - 
-   * - ``StoreCounterBags``
+   * - :ref:`procedural-distribution-StoreCounterBags`
      - 0
      - 2
      - 100
@@ -56959,7 +56959,7 @@ zippeestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FreezerIceCream``
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -56984,28 +56984,28 @@ zippeestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``FridgeOther``
+   * - :ref:`procedural-distribution-FridgeOther`
      - 1
      - 99
      - 40
      - 
      - 
      - 
-   * - ``FridgeSnacks``
+   * - :ref:`procedural-distribution-FridgeSnacks`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeSoda``
+   * - :ref:`procedural-distribution-FridgeSoda`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``FridgeWater``
+   * - :ref:`procedural-distribution-FridgeWater`
      - 1
      - 99
      - 60
@@ -57026,7 +57026,7 @@ zippeestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - -
@@ -57047,21 +57047,21 @@ zippeestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GasStoreToiletries``
+   * - :ref:`procedural-distribution-GasStoreToiletries`
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``GigamartCleaning``
+   * - :ref:`procedural-distribution-GigamartCleaning`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MovieRentalShelves``
+   * - :ref:`procedural-distribution-MovieRentalShelves`
      - 0
      - 99
      - -
@@ -57084,7 +57084,7 @@ zippeestore
        - location_entertainment_theatre_01_134
        - location_entertainment_theatre_01_135
      - 
-   * - ``StoreCounterTobacco``
+   * - :ref:`procedural-distribution-StoreCounterTobacco`
      - 0
      - 99
      - -
@@ -57095,7 +57095,7 @@ zippeestore
        - location_shop_zippee_01_2
        - location_shop_zippee_01_3
      - 
-   * - ``StoreShelfCombo``
+   * - :ref:`procedural-distribution-StoreShelfCombo`
      - 0
      - 99
      - -
@@ -57104,14 +57104,14 @@ zippeestore
        - location_shop_generic_01_0
        - location_shop_generic_01_1
      - 
-   * - ``StoreShelfDrinks``
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
      - 0
      - 99
      - 100
      - 
      - 
      - 
-   * - ``StoreShelfMechanics``
+   * - :ref:`procedural-distribution-StoreShelfMechanics`
      - 0
      - 99
      - -
@@ -57120,14 +57120,14 @@ zippeestore
        - location_shop_zippee_01_4
        - location_shop_zippee_01_5
      - 
-   * - ``StoreShelfMedical``
+   * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``StoreShelfSnacks``
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -57148,21 +57148,21 @@ zippeestore
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MagazineRackMaps``
+   * - :ref:`procedural-distribution-MagazineRackMaps`
      - 1
      - 4
      - 40
      - 
      - 
      - 
-   * - ``MagazineRackMixed``
+   * - :ref:`procedural-distribution-MagazineRackMixed`
      - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - ``MagazineRackNewspaper``
+   * - :ref:`procedural-distribution-MagazineRackNewspaper`
      - 1
      - 4
      - 40

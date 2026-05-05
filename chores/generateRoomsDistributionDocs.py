@@ -15,6 +15,7 @@ def generate_distributions_docs():
     script_dir = Path(__file__).parent
     repo_root = script_dir.parent
     distributions_json_path = repo_root / "pz-lua-parser" / "out" / "distributions.json"
+    procedural_json_path = repo_root / "pz-lua-parser" / "out" / "procedural_distributions.json"
     distributions_rst_path = repo_root / "docs" / "source" / "distribution" / "rooms_distributions.rst"
     
     # Read distributions from JSON
@@ -29,8 +30,18 @@ def generate_distributions_docs():
         print(f"Error reading distributions.json: {e}")
         return False
     
+    # Read procedural distributions to validate references
+    valid_procedural_dists = set()
+    if procedural_json_path.exists():
+        try:
+            with open(procedural_json_path, 'r') as f:
+                procedural_dists = json.load(f)
+                valid_procedural_dists = set(procedural_dists.keys())
+        except Exception as e:
+            print(f"Warning: Could not read procedural_distributions.json: {e}")
+    
     # Generate RST content
-    rst_content = generate_rst_content(distributions)
+    rst_content = generate_rst_content(distributions, valid_procedural_dists)
     
     # Ensure output directory exists
     distributions_rst_path.parent.mkdir(parents=True, exist_ok=True)
@@ -47,7 +58,7 @@ def generate_distributions_docs():
         return False
 
 
-def generate_rst_content(distributions: dict) -> str:
+def generate_rst_content(distributions: dict, valid_procedural_dists: set) -> str:
     """Generate RST formatted content for distributions."""
     
     content = """Room distributions
@@ -110,7 +121,11 @@ Detailed procedural distribution entries for each room and its containers.
                 force_for_tiles = entry.get('forceForTiles', [])
                 force_for_rooms = entry.get('forceForRooms', [])
                 
-                content += f"   * - ``{name}``\n"
+                # Create link to procedural distribution if it exists
+                if name in valid_procedural_dists:
+                    content += f"   * - :ref:`procedural-distribution-{name}`\n"
+                else:
+                    content += f"   * - {name}\n"
                 content += f"     - {min_val}\n"
                 content += f"     - {max_val}\n"
                 content += f"     - {weight_chance}\n"

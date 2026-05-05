@@ -50,10 +50,10 @@ def generate_properties_docs():
 def generate_rst_content(properties: list) -> str:
     """Generate RST formatted content for properties."""
     
-    content = """ItemPickerContainer Properties
+    content = """ItemPickerContainer properties
 ==============================
 
-Reference documentation for ItemPickerContainer procList entry properties.
+Reference documentation for ItemPickerContainer procedural list entry properties. Those are used to define the procedural distributions which will be used for the containers of the rooms.
 
 """
     
