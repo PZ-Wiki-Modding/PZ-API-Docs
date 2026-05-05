@@ -12893,7 +12893,7 @@ classroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``TeacherDesk``
+   * - TeacherDesk
      - 0
      - 99
      - -
@@ -13090,7 +13090,7 @@ classroom_medieval
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedievalCounter``
+   * - MedievalCounter
      - 0
      - 99
      - -
@@ -13132,42 +13132,42 @@ classroom_medieval
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``MedievalDisplayWeaponsJapan``
+   * - MedievalDisplayWeaponsJapan
      - 0
      - 1
      - 10
      - 
      - 
      - 
-   * - ``MedievalDisplayWeapons``
+   * - MedievalDisplayWeapons
      - 1
      - 2
      - 10
      - 
      - 
      - 
-   * - ``MedievalDisplayBible``
+   * - MedievalDisplayBible
      - 0
      - 1
      - 20
      - 
      - 
      - 
-   * - ``MedievalDisplayAlchemy``
+   * - MedievalDisplayAlchemy
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``MedievalDisplayCooking``
+   * - MedievalDisplayCooking
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - ``MedievalDisplayTools``
+   * - MedievalDisplayTools
      - 1
      - 4
      - 100
@@ -13213,7 +13213,7 @@ classroom_pioneer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PioneerCounter``
+   * - PioneerCounter
      - 0
      - 99
      - -
@@ -13255,21 +13255,21 @@ classroom_pioneer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PioneerDisplayClothing``
+   * - PioneerDisplayClothing
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PioneerDisplayTools``
+   * - PioneerDisplayTools
      - 1
      - 1
      - 100
      - 
      - 
      - 
-   * - ``PioneerDisplayWeapons``
+   * - PioneerDisplayWeapons
      - 1
      - 2
      - 100
@@ -13290,7 +13290,7 @@ classroom_pioneer
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``PioneerBooks``
+   * - PioneerBooks
      - 0
      - 99
      - -
@@ -26498,7 +26498,7 @@ glassmakingworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - ``GlassWorkshopLiterature``
+   * - GlassWorkshopLiterature
      - 0
      - 99
      - -

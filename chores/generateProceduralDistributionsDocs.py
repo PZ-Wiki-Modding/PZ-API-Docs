@@ -30,8 +30,17 @@ def generate_procedural_distributions_docs():
         print(f"Error reading procedural_distributions.json: {e}")
         return False
     
+    # Load item names
+    item_names_path = repo_root / "pz-lua-parser" / "out" / "item_names.json"
+    try:
+        with open(item_names_path, 'r') as f:
+            item_names = json.load(f)
+    except Exception as e:
+        print(f"Error reading item_names.json: {e}")
+        item_names = {}
+    
     # Generate RST content
-    rst_content = generate_rst_content(distributions)
+    rst_content = generate_rst_content(distributions, item_names)
     
     # Ensure output directory exists
     distributions_rst_path.parent.mkdir(parents=True, exist_ok=True)
@@ -48,7 +57,7 @@ def generate_procedural_distributions_docs():
         return False
 
 
-def generate_rst_content(distributions: dict) -> str:
+def generate_rst_content(distributions: dict, item_names: dict) -> str:
     """Generate RST formatted content for procedural distributions."""
     
     content = """Procedural distributions
@@ -135,8 +144,9 @@ Detailed procedural distribution lists of items with estimated chances.
         content += "     - Estimated Chance\n"
         
         for item_name, chance in item_chances:
+            item_name = item_names.get(item_name, f"``{item_name}``")  # Get human-readable name if available
             chance_str = f"{chance:.2f}%"
-            content += f"   * - ``{item_name}``\n"
+            content += f"   * - {item_name}\n"
             content += f"     - {chance_str}\n"
         
         content += "\n"

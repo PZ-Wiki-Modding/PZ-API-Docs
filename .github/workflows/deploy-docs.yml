@@ -6,7 +6,7 @@ on:
       - 'main'
     paths:
       - 'docs/**'
-      - 'chores/generateDocs.py'
+      - 'chores/**'
       - '.github/workflows/deploy-docs.yml'
   schedule:
     - cron: '0 0 * * *' # every day at midnight
