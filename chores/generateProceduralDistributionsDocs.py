@@ -65,6 +65,8 @@ def generate_rst_content(distributions: dict, item_names: dict) -> str:
 
 Detailed procedural distribution lists of items with estimated chances.
 
+The calculation of the estimated chance is not fully accurate. It sums up the weights of the item, divide it by the total weight of the procedural distribution, then multiply it by the rolls multiplier.
+
 """
     
     # Sort distributions alphabetically
