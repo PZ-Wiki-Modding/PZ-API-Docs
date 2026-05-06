@@ -9,6 +9,9 @@ from pathlib import Path
 from collections import defaultdict
 
 
+WIKI_LINK = Path("https://pzwiki.net/wiki")
+
+
 def generate_procedural_distributions_docs():
     """Generate and write procedural distributions documentation to RST file."""
     
@@ -146,9 +149,10 @@ The calculation of the estimated chance is not fully accurate. It sums up the we
         content += "     - Estimated Chance\n"
         
         for item_name, chance in item_chances:
-            item_name = item_names.get(item_name, f"``{item_name}``")  # Get human-readable name if available
+            link = WIKI_LINK / ".".join(item_name.split('.')[1:])
+            item_name = item_names.get(item_name, f"{item_name}")  # Get human-readable name if available
             chance_str = f"{chance:.2f}%"
-            content += f"   * - {item_name}\n"
+            content += f"   * - `{item_name} <{link}>`_\n"
             content += f"     - {chance_str}\n"
         
         content += "\n"
