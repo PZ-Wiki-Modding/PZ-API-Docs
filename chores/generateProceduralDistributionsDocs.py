@@ -60,6 +60,24 @@ def generate_procedural_distributions_docs():
         return False
 
 
+def get_distribution_properties(dist_data: dict) -> dict:
+    """Extract properties from a distribution, excluding items and junk."""
+    excluded_keys = {'items', 'junk'}
+    return {k: v for k, v in dist_data.items() if k not in excluded_keys}
+
+
+def format_property_value(value) -> str:
+    """Format a property value for display."""
+    if isinstance(value, bool):
+        return "Yes" if value else "No"
+    elif isinstance(value, (int, float)):
+        return str(value)
+    elif isinstance(value, str):
+        return value
+    else:
+        return str(value)
+
+
 def generate_rst_content(distributions: dict, item_names: dict) -> str:
     """Generate RST formatted content for procedural distributions."""
     
@@ -85,6 +103,16 @@ The calculation of the estimated chance is not fully accurate. It sums up the we
         # Add distribution header (level 2)
         content += f"{dist_name}\n"
         content += "-" * len(dist_name) + "\n\n"
+        
+        # Display properties (excluding items and junk)
+        properties = get_distribution_properties(dist_data)
+        if properties:
+            content += "**Properties:**\n\n"
+            for prop_name, prop_value in sorted(properties.items()):
+                formatted_value = format_property_value(prop_value)
+                prop_ref = f":ref:`procedural-distributions-property-{prop_name}`"
+                content += f"- {prop_ref}: {formatted_value}\n"
+            content += "\n"
         
         # Get rolls value
         rolls = dist_data.get('rolls', 1)

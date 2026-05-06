@@ -6,6 +6,7 @@ and write to item_picker_container_properties.rst
 
 import yaml
 from pathlib import Path
+from m2r import convert
 
 
 def generate_properties_docs():
@@ -59,7 +60,7 @@ Reference documentation for ItemPickerContainer procedural list entry properties
     
     for prop in properties:
         name = prop.get('name', '')
-        description = prop.get('description', '')
+        description = convert(prop.get('description', '')).strip()
         prop_type = prop.get('type', {})
         is_useless = prop.get('isUseless', False)
         

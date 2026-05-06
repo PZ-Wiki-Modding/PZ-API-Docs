@@ -15,3 +15,4 @@ Procedural distributions is the system used to manage the loot of the game. Diff
    distribution/procedural_distributions
 
    distribution/item_picker_container_properties
+   distribution/procedural_distributions_properties
