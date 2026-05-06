@@ -61,7 +61,7 @@ Reference for all available properties that can be set on procedural distributio
     if not properties:
         return content + "No properties found.\n"
     
-    for prop in properties:
+    for prop in sorted(properties, key=lambda x: x.get('name', '')):
         if not isinstance(prop, dict) or 'name' not in prop:
             continue
         

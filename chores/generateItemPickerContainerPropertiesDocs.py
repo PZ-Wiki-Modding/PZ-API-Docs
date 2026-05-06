@@ -58,7 +58,7 @@ Reference documentation for ItemPickerContainer procedural list entry properties
 
 """
     
-    for prop in properties:
+    for prop in sorted(properties, key=lambda x: x.get('name', '')):
         name = prop.get('name', '')
         description = convert(prop.get('description', '')).strip()
         prop_type = prop.get('type', {})

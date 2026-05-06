@@ -108,7 +108,7 @@ The calculation of the estimated chance is not fully accurate. It sums up the we
         properties = get_distribution_properties(dist_data)
         if properties:
             content += "**Properties:**\n\n"
-            for prop_name, prop_value in sorted(properties.items()):
+            for prop_name, prop_value in sorted(properties.items(), key=lambda x: x[0].lower()):
                 formatted_value = format_property_value(prop_value)
                 prop_ref = f":ref:`procedural-distributions-property-{prop_name}`"
                 content += f"- {prop_ref}: {formatted_value}\n"
