@@ -10,7 +10,9 @@ from pathlib import Path
 sys.path.insert(0, os.path.abspath('../../'))
 sys.path.insert(0, os.path.abspath('../'))
 
-with open('../../project.json', 'r') as f:
+SCRIPT_PATH = os.path.dirname(__file__)
+
+with open(os.path.join(SCRIPT_PATH, '../../project.json'), 'r') as f:
     project_info = json.load(f)
 
 project = project_info['project']
