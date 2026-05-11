@@ -64,7 +64,11 @@ id
 
    Type: ``{'main': 'string'}``
 
-The unique identifier of the mod, used in a mod list of the user or servers to activate the mod. Make sure to use something unique which isn't shared between mods. **Note:** This is not the same as the `Workshop ID <https://pzwiki.net/wiki/Workshop_ID>`_.
+The unique identifier of the mod, used in a mod list of the user or
+servers to activate the mod. Make sure to use something unique which isn't shared
+between mods. 
+
+**Note:** This is not the same as the `Workshop ID <https://pzwiki.net/wiki/Workshop_ID>`_.
 
 .. _root-modinfo-incompatible:
 

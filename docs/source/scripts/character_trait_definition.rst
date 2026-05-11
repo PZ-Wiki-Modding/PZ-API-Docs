@@ -77,6 +77,15 @@ MutuallyExclusiveTraits
 
 A list of trait IDs that are mutually exclusive with this trait. If one is selected, the others cannot be selected.
 
+.. _character_trait_definition-texture:
+
+Texture
+^^^^^^^
+
+   Type: ``{'main': 'string'}``
+
+The path to the trait's icon texture. This should be a .png file located in the textures folder of your mod.
+
 .. _character_trait_definition-uidescription:
 
 UIDescription

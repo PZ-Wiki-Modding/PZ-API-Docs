@@ -51,7 +51,9 @@ This section provides detailed documentation for all available `script <https://
    scripts/lightbar
    scripts/lua
    scripts/mannequin
+   scripts/maps
    scripts/model
+   scripts/mods
    scripts/module
    scripts/option
    scripts/outputs
@@ -67,6 +69,7 @@ This section provides detailed documentation for all available `script <https://
    scripts/properties
    scripts/ragdoll
    scripts/root-blends
+   scripts/root-default
    scripts/root-mapbasexml
    scripts/root-mapinfo
    scripts/root-modinfo
