@@ -46,7 +46,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/SirDoggyJvla/pz-scripts-data",
+            "url": "https://github.com/PZ-Wiki-Modding/PZ-API-Docs",
             "icon": "fa-brands fa-github",
             "type": "fontawesome",
         },
