@@ -3,16 +3,19 @@
 import os
 import sys
 import re
+import json
 from pathlib import Path
 
 # Add parent directory and docs directory to path
 sys.path.insert(0, os.path.abspath('../../'))
 sys.path.insert(0, os.path.abspath('../'))
 
-project = 'PZ API Documentation'
-copyright = '2026, Scripts-Data Contributors'
-author = 'Scripts-Data Contributors'
-release = '1.0'
+with open('../../project.json', 'r') as f:
+    project_info = json.load(f)
+
+project = project_info['project']
+author = project_info['author']
+game_version = project_info['game_version']
 
 extensions = [
     'sphinx.ext.autodoc',
@@ -25,7 +28,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
-html_title = 'PZ API Documentation'
+html_title = f"{project} {game_version}"
 html_logo = None
 html_favicon = None
 html_css_files = [
