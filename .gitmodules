@@ -4,3 +4,6 @@
 [submodule "pz-lua-parser"]
 	path = pz-lua-parser
 	url = https://github.com/PZ-Wiki-Modding/pz-lua-parser
+[submodule "pz-translation-data"]
+	path = pz-translation-data
+	url = https://github.com/PZ-Wiki-Modding/pz-translation-data

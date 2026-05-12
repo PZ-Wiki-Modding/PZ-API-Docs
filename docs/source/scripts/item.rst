@@ -218,7 +218,7 @@ No description
 AmmoBox
 ^^^^^^^
 
-    Type: string (block: :ref:`item`, with :ref:`module`))
+    Type: string (block: :ref:`item`, with :ref:`module`)
 
 No description
 
@@ -2072,7 +2072,7 @@ No description
 MagazineType
 ^^^^^^^^^^^^
 
-    Type: string (block: :ref:`item`, with :ref:`module`))
+    Type: string (block: :ref:`item`, with :ref:`module`)
 
 See :ref:`item-ammotype` for more details.
 
@@ -2613,7 +2613,7 @@ No description
 PhysicsObject
 ^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`item`, with :ref:`module`))
+    Type: string (block: :ref:`item`, with :ref:`module`)
 
 Provides another item (or itself) as a throwable object. When used, the item will be thrown instead of used as an actual in hands weapon.
 
@@ -3216,7 +3216,7 @@ No description
 StaticModel
 ^^^^^^^^^^^
 
-    Type: string (block: :ref:`model`, with :ref:`module`))
+    Type: string (block: :ref:`model`, with :ref:`module`)
 
 No description
 
@@ -3780,7 +3780,7 @@ No description
 WorldStaticModel
 ^^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`model`, with :ref:`module`))
+    Type: string (block: :ref:`model`, with :ref:`module`)
 
 No description
 

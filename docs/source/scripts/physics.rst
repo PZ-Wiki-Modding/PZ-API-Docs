@@ -53,7 +53,7 @@ No description
 physicsShapeScript
 ^^^^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`physicsShape`, with :ref:`module`))
+    Type: string (block: :ref:`physicsShape`, with :ref:`module`)
 
 No description
 

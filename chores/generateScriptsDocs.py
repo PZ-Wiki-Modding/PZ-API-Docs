@@ -55,6 +55,99 @@ class ScriptBlock:
         # Remove extra whitespace and format
         return convert(text).strip()
     
+    def _format_type_info(self, param_type: dict) -> str:
+        """Format type information from the parameter type object."""
+        main_type = param_type.get('main', 'Any')
+        type_str = main_type
+        
+        # Add block information
+        block_info = param_type.get('block')
+        if block_info:
+            block_name = block_info.get('name', '')
+            full_type = block_info.get('fullType', False)
+            if block_name:
+                type_str += f" (block: :ref:`{block_name}`"
+                if full_type:
+                    type_str += ", with :ref:`module`"
+                type_str += ")"
+        
+        # Add array information
+        array_info = param_type.get('array')
+        if array_info:
+            array_type = array_info.get('type', 'string')
+            separator = array_info.get('separator', ',')
+            type_str += f" (array of {array_type}, separator: '{separator}')"
+        
+        # Add object information
+        object_info = param_type.get('object')
+        if object_info:
+            key_type = object_info.get('keyType', 'string')
+            value_type = object_info.get('valueType', 'string')
+            kv_sep = object_info.get('keyValueSeparator', ':')
+            pairs_sep = object_info.get('pairsSeparator', ',')
+            type_str += f" (object: {key_type}->>{value_type}, kv: '{kv_sep}', pairs: '{pairs_sep}')"
+        
+        return type_str
+    
+    def _format_parameter_metadata(self, param: Dict[str, Any]) -> str:
+        """Format parameter metadata as a literal block (code box)."""
+        lines = []
+        
+        # Type information
+        param_type = param.get('type', {})
+        type_str = self._format_type_info(param_type)
+        
+        required = param.get('required', False)
+        type_line = f"Type: {type_str}"
+        if required:
+            type_line += " (required)"
+        lines.append(type_line)
+        
+        # Minimum and maximum values
+        minimum = param.get('minimum')
+        maximum = param.get('maximum')
+        if minimum is not None or maximum is not None:
+            range_parts = []
+            if minimum is not None:
+                range_parts.append(f"Min: {minimum}")
+            if maximum is not None:
+                range_parts.append(f"Max: {maximum}")
+            if range_parts:
+                lines.append("Range: " + ", ".join(range_parts))
+        
+        # Default value
+        default = param.get('default')
+        if default is not None and default != "":
+            if isinstance(default, list):
+                default_str = ", ".join(str(v) for v in default) if default else ""
+            else:
+                default_str = str(default)
+            if default_str:
+                lines.append(f"Default: {default_str}")
+        
+        # Additional attributes
+        if param.get('allowedDuplicate'):
+            lines.append("Can be duplicated: ✓")
+        if param.get('canBeEmpty'):
+            lines.append("Can be empty: ✓")
+        if param.get('isUseless'):
+            lines.append("Useless: ✓")
+        
+        parents_only = param.get('parentsOnly', [])
+        if parents_only:
+            parents_str = ", ".join(parents_only)
+            lines.append(f"Only for parents: {parents_str}")
+        
+        incompatible_with = param.get('incompatibleWith', [])
+        if incompatible_with:
+            incompatible_str = ", ".join(incompatible_with)
+            lines.append(f"Incompatible with: {incompatible_str}")
+        
+        # Format as literal block with 4-space indentation
+        if lines:
+            return "\n".join(f"    {line}" for line in lines) + "\n\n"
+        return ""
+    
     def _generate_properties_table(self) -> str:
         properties = {
             "Parent blocks": ", ".join(self.data.get('parents', [])) if self.data.get('parents') else "None",
@@ -157,9 +250,6 @@ class ScriptBlock:
         for param in parameters:
             name = param.get('name', 'Unknown')
             description = self._format_description(param.get('description', 'No description'))
-            param_type = param.get('type', 'Any')
-            required = param.get('required', False)
-            default = param.get('default')
             
             # Add RST reference label for anchor linking
             label = _get_param_label(self.name, name)
@@ -176,11 +266,8 @@ class ScriptBlock:
                 rst += f" (see :ref:`{_get_param_label(block_name, param_name)}`)\n"
 
             
-            # Type and required status
-            type_info = f"Type: ``{param_type}``"
-            if required:
-                type_info += " *(required)*"
-            rst += f"   {type_info}\n\n"
+            # Type and metadata as literal block
+            rst += self._format_parameter_metadata(param)
             
             # Description
             if "#desc" in param:
@@ -192,31 +279,12 @@ class ScriptBlock:
                 indented_description = "\n".join(description.split("\n"))
                 rst += f"{indented_description}\n\n"
             
-            # Default value if present
-            if default is not None and default != "":
-                if isinstance(default, list):
-                    default_str = ", ".join(str(v) for v in default) if default else ""
-                else:
-                    default_str = str(default)
-                if default_str:  # Only show if non-empty
-                    rst += f"   Default: ``{default_str}``\n\n"
-            
-            # Additional attributes
-            if param.get('allowedDuplicate'):
-                rst += "   Can be duplicated: ✓\n\n"
-            if param.get('canBeEmpty'):
-                rst += "   Can be empty: ✓\n\n"
-            
-            parents_only = param.get('parentsOnly', [])
-            if parents_only:
-                parents_str = ", ".join(parents_only)
-                rst += f"   Only for parents: {parents_str}\n\n"
-
+            # Allowed values
             values = param.get('values', [])
             if values:
-                rst += "   Allowed values:\n\n"
+                rst += "Allowed values:\n\n"
                 for value in values:
-                    rst += f"   - ``{value}``\n"
+                    rst += f"    - ``{value}``\n"
                 rst += "\n"
             
             # Deprecation information

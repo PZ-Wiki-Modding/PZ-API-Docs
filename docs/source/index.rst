@@ -14,4 +14,5 @@ Documentation Structure
    :caption: Contents:
 
    scripts
+   translations
    distribution
