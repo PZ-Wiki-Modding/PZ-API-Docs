@@ -50,7 +50,7 @@ def generate_rst_content(language_codes: dict) -> str:
     content = """Language Codes
 ==============
 
-Available language codes and their translations.
+Available language codes, full language names and encoding.
 
 """
     

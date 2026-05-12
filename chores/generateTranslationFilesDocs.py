@@ -50,7 +50,7 @@ def generate_rst_content(translation_files: dict) -> str:
     content = """Translation Files
 =================
 
-Available translation file types and their descriptions.
+Available translation file types, their descriptions and properties.
 
 """
     
