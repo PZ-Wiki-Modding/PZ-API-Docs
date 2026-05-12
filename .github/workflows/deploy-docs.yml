@@ -35,7 +35,6 @@ jobs:
       
       - name: Build Sphinx
         run: |
-          cd docs
           make html
 
       - name: Upload artifact
