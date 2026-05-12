@@ -32,7 +32,7 @@ Parameters
 whitelist
 ^^^^^^^^^
 
-   Type: ``{'main': 'boolean'}``
+    Type: boolean
 
 No description
 

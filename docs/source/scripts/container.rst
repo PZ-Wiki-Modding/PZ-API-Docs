@@ -28,7 +28,7 @@ Parameters
 capacity
 ^^^^^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 No description
 
@@ -37,7 +37,7 @@ No description
 conditionAffectsCapacity
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-   Type: ``{'main': 'boolean'}``
+    Type: boolean
 
 Sets whenever the condition of the part will impact the `capacity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-capacity>`_. A lower condition will negatively impact the container's capacity.
 
@@ -46,7 +46,7 @@ Sets whenever the condition of the part will impact the `capacity <https://pz-wi
 contentType
 ^^^^^^^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 Unclear how this parameter works exactly. The game uses it to define the "content" of tires and gas tanks by providing the string keys ``Gasoline`` or ``Air``. It seems to simply remove any item container being used as the container for this part.
 
@@ -55,7 +55,7 @@ Unclear how this parameter works exactly. The game uses it to define the "conten
 seat
 ^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 The seat ID of this container. When present, this container can be used as a seat for a vehicle.
 
@@ -64,7 +64,7 @@ The seat ID of this container. When present, this container can be used as a sea
 test
 ^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 Refers to a Lua global function returning a boolean which is used to determine whether an item can be put in this container when trying to transfer items.
 

@@ -29,7 +29,7 @@ Parameters
 xywh
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

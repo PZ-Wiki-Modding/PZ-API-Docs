@@ -28,7 +28,7 @@ Parameters
 AddIngredientIfCooked
 ^^^^^^^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 AddIngredientSound
 ^^^^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -46,7 +46,7 @@ No description
 BaseItem
 ^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -55,7 +55,7 @@ No description
 CanAddSpicesEmpty
 ^^^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -64,7 +64,7 @@ No description
 Cookable
 ^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -73,7 +73,7 @@ No description
 MaxItems
 ^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -82,7 +82,7 @@ No description
 MinimumWater
 ^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -91,7 +91,7 @@ No description
 Name
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -100,7 +100,7 @@ No description
 ResultItem
 ^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -109,7 +109,7 @@ No description
 Template
 ^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

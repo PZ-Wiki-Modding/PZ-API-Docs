@@ -28,20 +28,18 @@ Parameters
 afterGearChange
 ^^^^^^^^^^^^^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
+    Default: 0.0
 
 No description
-
-   Default: ``0.0``
 
 .. _data-gearchange:
 
 gearChange
 ^^^^^^^^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
+    Default: 0.0
 
 No description
-
-   Default: ``0.0``
 

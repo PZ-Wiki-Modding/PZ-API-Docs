@@ -28,7 +28,7 @@ Parameters
 ConditionModifier
 ^^^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -37,18 +37,17 @@ No description
 Fixer
 ^^^^^
 
-   Type: ``Any``
+    Type: Any
+    Can be duplicated: ✓
 
 No description
-
-   Can be duplicated: ✓
 
 .. _fixing-globalitem:
 
 GlobalItem
 ^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -57,7 +56,7 @@ No description
 Require
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

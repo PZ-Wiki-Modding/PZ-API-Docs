@@ -28,20 +28,18 @@ Parameters
 object
 ^^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
+    Only for parents: ROOT-MapBaseXML
 
 No description
-
-   Only for parents: ROOT-MapBaseXML
 
 .. _layers-tile:
 
 tile
 ^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
+    Can be duplicated: ✓
 
 No description
-
-   Can be duplicated: ✓
 

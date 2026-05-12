@@ -28,9 +28,8 @@ Parameters
 fluid
 ^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
+    Can be duplicated: ✓
 
 A fluid which is allowed to be put inside this fluid container.
-
-   Can be duplicated: ✓
 

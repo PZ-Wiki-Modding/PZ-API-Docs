@@ -41,7 +41,7 @@ Parameters
 CharacterProfession
 ^^^^^^^^^^^^^^^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 The `registries <https://pzwiki.net/wiki/Registries>`_ profession ID to link to.
 
@@ -50,7 +50,7 @@ The `registries <https://pzwiki.net/wiki/Registries>`_ profession ID to link to.
 Cost
 ^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 The cost of the profession when selecting a character. Negative values remove points, positive values add points.
 
@@ -59,7 +59,7 @@ The cost of the profession when selecting a character. Negative values remove po
 GrantedRecipes
 ^^^^^^^^^^^^^^
 
-   Type: ``{'main': 'array'}``
+    Type: array
 
 A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
 
@@ -68,7 +68,7 @@ A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/cr
 GrantedTraits
 ^^^^^^^^^^^^^
 
-   Type: ``{'main': 'array'}``
+    Type: array
 
 A list of character trait IDs that are granted to the character when this profession is selected.
 
@@ -77,7 +77,7 @@ A list of character trait IDs that are granted to the character when this profes
 IconPathName
 ^^^^^^^^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 No description
 
@@ -86,7 +86,7 @@ No description
 UIDescription
 ^^^^^^^^^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 The translation key for the profession's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
 
@@ -95,7 +95,7 @@ The translation key for the profession's description. The translation key needs 
 UIName
 ^^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 The translation key for the profession's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
 
@@ -104,7 +104,7 @@ The translation key for the profession's name. The translation key needs to be i
 XPBoosts
 ^^^^^^^^
 
-   Type: ``{'main': 'object', 'object': {'keyValueSeparator': ';', 'keyType': 'string', 'valueType': 'integer', 'pairsSeparator': ';'}}``
+    Type: object (object: string->>integer, kv: ';', pairs: ';')
 
 A list of experience boosts granted by this profession. Each entry should contain a skill name and the corresponding boost amount.
 

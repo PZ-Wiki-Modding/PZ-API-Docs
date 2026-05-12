@@ -38,7 +38,7 @@ Parameters
 animationsMesh
 ^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -47,7 +47,7 @@ No description
 attachmentParent
 ^^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -56,7 +56,7 @@ No description
 attachmentSelf
 ^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -65,7 +65,7 @@ No description
 boneWeight
 ^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -74,7 +74,7 @@ No description
 ColorBlue
 ^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -83,7 +83,7 @@ No description
 ColorGreen
 ^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -92,7 +92,7 @@ No description
 ColorRed
 ^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -101,7 +101,7 @@ No description
 cullFace
 ^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -110,7 +110,7 @@ No description
 file
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -119,7 +119,7 @@ No description
 ignoreVehicleScale
 ^^^^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -128,7 +128,7 @@ No description
 invertX
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -137,7 +137,7 @@ No description
 mesh
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -146,7 +146,7 @@ No description
 offset
 ^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -155,7 +155,7 @@ No description
 postProcess
 ^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -164,7 +164,7 @@ No description
 rotate
 ^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -173,7 +173,7 @@ No description
 scale
 ^^^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
 
 Used to scale the model up or down.
 
@@ -182,7 +182,7 @@ Used to scale the model up or down.
 shader
 ^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -191,7 +191,7 @@ No description
 specialKeyRing
 ^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -200,7 +200,7 @@ No description
 static
 ^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -209,7 +209,7 @@ No description
 texture
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -218,7 +218,7 @@ No description
 undoCoreScale
 ^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

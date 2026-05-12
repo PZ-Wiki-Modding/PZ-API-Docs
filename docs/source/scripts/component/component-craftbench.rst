@@ -28,7 +28,7 @@ Parameters
 Recipes
 ^^^^^^^
 
-   Type: ``{'main': 'array'}``
+    Type: array
 
 No description
 

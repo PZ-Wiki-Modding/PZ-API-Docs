@@ -30,7 +30,7 @@ Parameters
 revision
 ^^^^^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 Revision of the TMXconfig file. Keep it to 11 for now.
 
@@ -39,7 +39,7 @@ Revision of the TMXconfig file. Keep it to 11 for now.
 version
 ^^^^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 Version of the TMXconfig file. Should be 1 for now.
 

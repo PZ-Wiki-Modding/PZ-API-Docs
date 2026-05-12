@@ -28,7 +28,7 @@ Parameters
 customFunction
 ^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 menu
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

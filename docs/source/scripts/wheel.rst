@@ -29,7 +29,7 @@ Parameters
 front
 ^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -38,7 +38,7 @@ No description
 offset
 ^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -47,7 +47,7 @@ No description
 radius
 ^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -56,7 +56,7 @@ No description
 width
 ^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

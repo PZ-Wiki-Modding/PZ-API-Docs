@@ -35,7 +35,7 @@ Parameters
 extents
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -44,7 +44,7 @@ No description
 offset
 ^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -53,7 +53,7 @@ No description
 physicsShapeScript
 ^^^^^^^^^^^^^^^^^^
 
-   Type: ``{'main': 'string', 'block': {'name': 'physicsShape', 'fullType': True}}``
+    Type: string (block: :ref:`physicsShape`, with :ref:`module`))
 
 No description
 
@@ -62,7 +62,7 @@ No description
 rotate
 ^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

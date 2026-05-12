@@ -32,7 +32,7 @@ Parameters
 VERSION
 ^^^^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 No description
 

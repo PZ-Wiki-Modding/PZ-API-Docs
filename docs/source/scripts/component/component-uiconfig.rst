@@ -28,7 +28,7 @@ Parameters
 entityStyle
 ^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 uiEnabled
 ^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -46,7 +46,7 @@ No description
 xuiSkin
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

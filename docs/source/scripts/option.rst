@@ -28,7 +28,7 @@ Parameters
 default
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 max
 ^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
 
 The maximum value the option can have. Only for integer and double types.
 
@@ -46,7 +46,7 @@ The maximum value the option can have. Only for integer and double types.
 min
 ^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
 
 The minimum value the option can have. Only for integer and double types.
 
@@ -55,7 +55,7 @@ The minimum value the option can have. Only for integer and double types.
 page
 ^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 The sandbox option to add the option to. Can be a custom page.
 
@@ -64,7 +64,7 @@ The sandbox option to add the option to. Can be a custom page.
 translation
 ^^^^^^^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 The translation key for the option's name.
 
@@ -73,15 +73,15 @@ The translation key for the option's name.
 type
 ^^^^
 
-   Type: ``{'main': 'string'}`` *(required)*
+    Type: string (required)
 
 The type of the option.
 
-   Allowed values:
+Allowed values:
 
-   - ``boolean``
-   - ``integer``
-   - ``double``
-   - ``string``
-   - ``enum``
+    - ``boolean``
+    - ``integer``
+    - ``double``
+    - ``string``
+    - ``enum``
 

@@ -28,7 +28,7 @@ Parameters
 openable
 ^^^^^^^^
 
-   Type: ``{'main': 'boolean'}``
+    Type: boolean
 
 No description
 

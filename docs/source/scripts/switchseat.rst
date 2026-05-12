@@ -28,7 +28,7 @@ Parameters
 anim
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 rate
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -46,7 +46,7 @@ No description
 sound
 ^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

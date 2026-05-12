@@ -35,7 +35,7 @@ Parameters
 ColorReference
 ^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -44,7 +44,7 @@ No description
 DisplayName
 ^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

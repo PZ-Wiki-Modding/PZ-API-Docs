@@ -31,7 +31,7 @@ Parameters
 version
 ^^^^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 Version of the rules file. Should be 1 for now.
 

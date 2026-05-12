@@ -26,7 +26,7 @@ Parameters
 VERSION
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 The version of the tile geometry file format. Keep it at 2 for now.
 

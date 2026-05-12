@@ -40,7 +40,7 @@ Parameters
 mesh
 ^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 The path to the model's mesh file, relative to the folder ``media/models_X``.
 
@@ -49,7 +49,7 @@ The path to the model's mesh file, relative to the folder ``media/models_X``.
 rotate
 ^^^^^^
 
-   Type: ``{'main': 'array'}``
+    Type: array
 
 The rotation of the model, in the format ``x y z``.
 
@@ -58,7 +58,7 @@ The rotation of the model, in the format ``x y z``.
 translate
 ^^^^^^^^^
 
-   Type: ``{'main': 'array'}``
+    Type: array
 
 The position offset of the model, in the format ``x y z``.
 

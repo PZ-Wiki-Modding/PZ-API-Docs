@@ -131,7 +131,7 @@ Parameters
 bone
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 .. code-block::
 
@@ -147,7 +147,7 @@ bone
 offset
 ^^^^^^
 
-   Type: ``{'main': 'array', 'array': {'type': 'float', 'separator': ' '}}``
+    Type: array (array of float, separator: ' ')
 
 The position offset of the model relative to the bone. This is a vector in the format ``x y z``. 
 
@@ -160,7 +160,7 @@ The position offset of the model relative to the bone. This is a vector in the f
 rotate
 ^^^^^^
 
-   Type: ``{'main': 'array', 'array': {'type': 'float', 'separator': ' '}}``
+    Type: array (array of float, separator: ' ')
 
 The rotation of the model relative to the bone. This is a vector in the format ``x y z``. The values are degrees.
 
@@ -173,7 +173,7 @@ The rotation of the model relative to the bone. This is a vector in the format `
 scale
 ^^^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
 
 The scale multiplier applied to the model attached to this attachment point.
 
@@ -186,7 +186,7 @@ The scale multiplier applied to the model attached to this attachment point.
 zoffset
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

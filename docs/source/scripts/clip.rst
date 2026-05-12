@@ -45,7 +45,7 @@ Parameters
 distanceMax
 ^^^^^^^^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 No description
 
@@ -54,7 +54,7 @@ No description
 distanceMin
 ^^^^^^^^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 No description
 
@@ -63,7 +63,7 @@ No description
 event
 ^^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 No description
 
@@ -72,7 +72,7 @@ No description
 file
 ^^^^
 
-   Type: ``{'main': 'string'}``
+    Type: string
 
 No description
 
@@ -81,7 +81,7 @@ No description
 pitch
 ^^^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
 
 No description
 
@@ -90,7 +90,7 @@ No description
 reverbFactor
 ^^^^^^^^^^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
 
 No description
 
@@ -99,7 +99,7 @@ No description
 reverbMaxRange
 ^^^^^^^^^^^^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
 
 No description
 
@@ -108,7 +108,7 @@ No description
 stopImmediate
 ^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -117,7 +117,7 @@ No description
 volume
 ^^^^^^
 
-   Type: ``{'main': 'float'}``
+    Type: float
 
 No description
 

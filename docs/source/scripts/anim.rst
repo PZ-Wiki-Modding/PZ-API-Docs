@@ -29,7 +29,7 @@ Parameters
 angle
 ^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -38,7 +38,7 @@ No description
 anim
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -47,7 +47,7 @@ No description
 animate
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -56,7 +56,7 @@ No description
 rate
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -65,7 +65,7 @@ No description
 reverse
 ^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -74,7 +74,7 @@ No description
 sound
 ^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

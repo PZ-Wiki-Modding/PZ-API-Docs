@@ -28,29 +28,27 @@ Parameters
 animationDirectory
 ^^^^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
+    Can be duplicated: ✓
 
 No description
-
-   Can be duplicated: ✓
 
 .. _animationsmesh-animationprefix:
 
 animationPrefix
 ^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
+    Can be duplicated: ✓
 
 No description
-
-   Can be duplicated: ✓
 
 .. _animationsmesh-keepmeshanimations:
 
 keepMeshAnimations
 ^^^^^^^^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -59,7 +57,7 @@ No description
 meshFile
 ^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -68,7 +66,7 @@ No description
 postProcess
 ^^^^^^^^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 

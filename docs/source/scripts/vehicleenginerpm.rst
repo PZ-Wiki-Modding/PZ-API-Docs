@@ -69,7 +69,7 @@ Parameters
 VERSION
 ^^^^^^^
 
-   Type: ``{'main': 'integer'}``
+    Type: integer
 
 Unclear what this does, preferably keep it at 1.
 

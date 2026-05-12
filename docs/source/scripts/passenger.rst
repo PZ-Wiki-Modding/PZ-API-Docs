@@ -34,7 +34,7 @@ Parameters
 area
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
@@ -43,7 +43,7 @@ No description
 door
 ^^^^
 
-   Type: ``Any``
+    Type: Any
 
 No description
 
