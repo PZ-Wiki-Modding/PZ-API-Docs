@@ -26,10 +26,18 @@ generate_distributions:
 	python3 ./chores/distributions/generateRoomsDistributionDocs.py
 	python3 ./chores/distributions/generateItemPickerContainerPropertiesDocs.py
 	python3 ./chores/distributions/generateProceduralDistributionsDocs.py
+
+generate_java:
+	source ./.venv/bin/activate
+	python3 ./chores/java/generateColorsDocs.py
+	python3 ./chores/java/generateItemTagsDocs.py
+
+generate_translations:
+	source ./.venv/bin/activate
 	python3 ./chores/translations/generateLanguageCodesDocs.py
 	python3 ./chores/translations/generateTranslationFilesDocs.py
 
-generate: generate_scripts generate_distributions
+generate: generate_scripts generate_distributions generate_java generate_translations
 
 html: generate
 	source ./.venv/bin/activate
