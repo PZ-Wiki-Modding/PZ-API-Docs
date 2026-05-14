@@ -12,7 +12,7 @@ def generate_translation_files_docs():
     """Generate and write translation files documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
+    script_dir = Path(__file__).parent.parent
     repo_root = script_dir.parent
     trans_files_json_path = repo_root / "pz-translation-data" / "data" / "translationFiles.json"
     trans_files_rst_path = repo_root / "docs" / "source" / "translations" / "translation_files.rst"

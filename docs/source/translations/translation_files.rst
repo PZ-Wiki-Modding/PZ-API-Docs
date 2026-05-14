@@ -1,7 +1,7 @@
 Translation Files
 =================
 
-Available translation file types and their descriptions.
+Available translation file types, their descriptions and properties.
 
 .. _attributes-translation:
 

@@ -12,7 +12,7 @@ def generate_distributions_docs():
     """Generate and write distributions documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
+    script_dir = Path(__file__).parent.parent
     repo_root = script_dir.parent
     distributions_json_path = repo_root / "pz-lua-parser" / "out" / "distributions.json"
     procedural_json_path = repo_root / "pz-lua-parser" / "out" / "procedural_distributions.json"

@@ -3,7 +3,113 @@
 craftRecipe
 ===========
 
-Defines a crafting recipe.
+The 'craftRecipe' script block is used to define a crafting recipe, which allows players to craft items or tiles in the game based on the parent script block. For example, a craftRecipe defined inside a `module <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/module.html>`_ will be a recipe to craft an item usually, while when defined inside an `entity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/entity.html>`_ it will be the building recipe for that entity.
+
+A craftRecipe will usually require an `inputs <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/inputs.html>`_ and `outputs <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/outputs.html>`_ block. Other parameters are used to define properties of this recipe, such as the `time <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#time>`_ it takes to craft or the `XP awarded <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#xpaward>`_ for crafting it.
+
+For example:
+
+.. code-block:: cpp
+
+   module yourModule /* or Base */
+   {
+       craftRecipe yourRecipeID
+       {
+           ...
+       }
+   }
+
+To define a translation for this recipe, you need to create an entry in the translation file `Recipes.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#recipes>`_. The translation entry should be formatted like this:
+
+.. code-block:: json
+
+   {
+     "yourRecipeID": "Your recipe"
+   }
+
+Notice how you shouldn't use the `module <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/module.html>`_ in the translation file key and only the craftRecipe ID.
+
+Here's an example of a craftRecipe with some parameters defined:
+
+.. code-block:: cpp
+
+   craftRecipe SawLogs
+   {
+       timedAction = SawLogs,
+       Time = 230,
+       Tags = InHandCraft;CanBeDoneFromFloor,
+       category = Carpentry,
+       xpAward = Woodwork:5,
+       inputs
+       {
+           item 1 [Base.Log] flags[Prop2],
+           item 1 tags[Saw] mode:keep flags[MayDegradeLight;Prop1],
+       }
+       outputs
+       {
+           item 3 Base.Plank,
+       }
+   }
+
+Or:
+
+.. code-block:: cpp
+
+   craftRecipe CarveWhistle
+   {
+       time = 200,
+       tags = AnySurfaceCraft;Survivalist,
+       category = Carving,
+       xpAward = Carving:60,
+       SkillRequired = Carving:6,
+       needTobeLearn = true,
+       AutoLearnAny = Carving:8,
+       timedAction = SharpenStake,
+       inputs
+       {
+           item 1 tags[DrillWood;DrillMetal;DrillWoodPoor] mode:keep flags[MayDegradeLight],
+           item 1 tags[SharpKnife] mode:keep flags[MayDegradeLight],
+           item 1 [Base.SmallAnimalBone] flags[Prop2;AllowDestroyedItem],
+       }
+       outputs
+       {
+           item 1 Base.Whistle_Bone,
+       }
+   }
+
+And a more advanced one:
+
+.. code-block:: cpp
+
+   craftRecipe RefillHurricaneLantern
+   {
+       timedAction = Making,
+       Time = 50,
+       OnCreate = Recipe.OnCreate.RefillHurricaneLantern,
+       /* OnTest = Recipe.OnTest.RefillHurricaneLantern, */
+       Tags = InHandCraft;CanBeDoneInDark,
+       category = Miscellaneous, /*category = Survival,*/
+       inputs
+       {
+           item 1 [Base.Lantern_Hurricane;Base.Lantern_Hurricane_Copper;Base.Lantern_Hurricane_Forged;Base.Lantern_Hurricane_Gold;Base.Lantern_Hurricane_Silver] mode:destroy flags[NotFull;AllowFavorite;InheritFavorite;ItemCount] mappers[LampMapper],
+           item 1 [*],
+           -fluid 1.0 [Petrol],
+       }
+       outputs
+       {
+           item 1 mapper:LampMapper,
+       }
+       itemMapper LampMapper
+       {
+           Base.Lantern_Hurricane = Base.Lantern_Hurricane,
+           Base.Lantern_Hurricane_Copper = Base.Lantern_Hurricane_Copper,
+           Base.Lantern_Hurricane_Forged = Base.Lantern_Hurricane_Forged,
+           Base.Lantern_Hurricane_Gold = Base.Lantern_Hurricane_Gold,
+           Base.Lantern_Hurricane_Silver = Base.Lantern_Hurricane_Silver,
+
+           default = Base.Lantern_Hurricane,
+       }
+   }
 
 This block can be soft overridden in scripts.
 
@@ -114,7 +220,7 @@ Icon
 
 Specifies the icon associated with this crafting recipe. The icon needs to be located in ``media/textures``\ , for example ``media/textures/myIcon.png`` will be refered to as ``Icon = myIcon,``.
 
-This seems to be used only once in the vanilla recipes with the entry Icon = "Item_WaterDrop", as the icon usually defaults to the items that will be crafted.
+This seems to be used only once in the vanilla recipes with the entry ``Icon = Item_WaterDrop,``\ , as the icon usually defaults to the items that will be crafted.
 
 .. _craftrecipe-metarecipe:
 
@@ -256,6 +362,8 @@ For example:
 .. code-block:: cpp
 
    Tags = InHandCraft;CanAlwaysBeResearched,
+
+A crafting bench tag can be created by adding a `component CraftBench <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/component/component-craftbench.html>`_ to an `entity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/entity.html>`_ script, which can then be used in this tags parameter.
 
 .. _craftrecipe-time:
 

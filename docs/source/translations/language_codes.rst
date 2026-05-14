@@ -1,7 +1,7 @@
 Language Codes
 ==============
 
-Available language codes and their translations.
+Available language codes, full language names and encoding.
 
 .. _ar-language:
 

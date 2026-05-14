@@ -12,7 +12,7 @@ def generate_language_codes_docs():
     """Generate and write language codes documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
+    script_dir = Path(__file__).parent.parent
     repo_root = script_dir.parent
     lang_codes_json_path = repo_root / "pz-translation-data" / "data" / "languageCodes.json"
     lang_codes_rst_path = repo_root / "docs" / "source" / "translations" / "language_codes.rst"

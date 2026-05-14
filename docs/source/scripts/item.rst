@@ -5,17 +5,26 @@ item
 
 The item block is used to create items in the game, from weapons to food and clothing. The parameters available in this block mostly depend on the type of item you are creating, set with `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
-To get started, create a simple item structure by setting that parameter up correctly:
+To get started, create a simple item structure by setting that parameter up correctly, then add more parameters as you need. For example, for a normal item:
 
 .. code-block:: cpp
 
-   item
+   module yourModule
    {
-     ItemType = base:normal,
-     ...
+     item yourID
+     {
+       ItemType = base:normal,
+       ...
+     }
    }
 
-And add the other parameters accordingly.
+To add a name to display for your item, you need to add the item full type, that is its ``module.id``\ , inside the `ItemName <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#itemname>`_ translation file. Taking the example from above, your translation file would be:
+
+.. code-block:: json
+
+   {
+     "yourModule.yourID": "Your Item Name"
+   }
 
 This block can be soft overridden in scripts.
 
@@ -3340,7 +3349,7 @@ Tags
 
     Type: array (array of string, separator: ';')
 
-A list of tags to assign to the item. Tags are used by the game to easily identify properties of the items. This can notably be used in `craftRecipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_.
+A list of tags to assign to the item. Tags are used by the game to easily identify properties of the items from the Lua or Java. This can notably be used in `craftRecipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_.
 
 For example:
 
@@ -3349,6 +3358,15 @@ For example:
    Tags = base:egg;base:hasmetal,
 
 You can find a list of all tags on the `wiki <https://pzwiki.net/wiki/Item_tag>`_.
+
+To create a custom tag, you have to first create its definition in your mod's `registries <https://pzwiki.net/wiki/Registries>`_. In the ``registries.lua`` file, define the following by renaming the various elements to fit your mod name, id etc:
+
+.. code-block:: lua
+
+   YourModRegistry = {}
+   YourModRegistry.YOUR_TAG_NAME = ItemTag.register("yourmodid:yourtagname")
+
+You can then use that tag ``yourmodid:yourtagname`` in your item definition. And you can use the stored ItemTag reference ``YourModRegistry.YOUR_TAG_NAME`` in your Lua code.
 
 .. _item-thirstchange:
 

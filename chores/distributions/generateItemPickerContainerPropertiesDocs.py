@@ -13,7 +13,7 @@ def generate_properties_docs():
     """Generate and write properties documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
+    script_dir = Path(__file__).parent.parent
     repo_root = script_dir.parent
     properties_yaml_path = repo_root / "pz-lua-parser" / "data" / "ItemPickerContainer_properties.yaml"
     properties_rst_path = repo_root / "docs" / "source" / "distribution" / "item_picker_container_properties.rst"

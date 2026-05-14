@@ -130,6 +130,8 @@ For example:
 
    Tags = InHandCraft;CanAlwaysBeResearched,
 
+A crafting bench tag can be created by adding a `component CraftBench <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/component/component-craftbench.html>`_ to an `entity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/entity.html>`_ script, which can then be used in this tags parameter.
+
 .. _component-craftrecipe-time:
 
 time

@@ -8,9 +8,6 @@ from m2r import convert
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 
-# Add parent directory to path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 
 def _get_block_link(block_name: str) -> str:
     """Get the documentation page name for a block."""
@@ -485,7 +482,7 @@ class BlockDocumentationGenerator:
 def main():
     """Main entry point."""
     # Determine paths
-    script_dir = Path(__file__).parent
+    script_dir = Path(__file__).parent.parent
     root_dir = script_dir.parent  # Go up from scripts to root
     blocks_file = root_dir / 'pz-scripts-data' / 'out' / 'scriptBlocks.json'
     output_dir = root_dir / 'docs' / 'source'
@@ -510,14 +507,14 @@ def main():
     generator = BlockDocumentationGenerator(blocks_file, output_dir)
     files = generator.run()
 
-    # git add generated files
-    try:
-        import subprocess
-        for file in files:
-            subprocess.run(['git', 'add', str(file)], check=True)
-        print("Added generated files to git staging area.")
-    except Exception as e:
-        print(f"Warning: Failed to add files to git: {e}")
+    # # git add generated files
+    # try:
+    #     import subprocess
+    #     for file in files:
+    #         subprocess.run(['git', 'add', str(file)], check=True)
+    #     print("Added generated files to git staging area.")
+    # except Exception as e:
+    #     print(f"Warning: Failed to add files to git: {e}")
 
 
 if __name__ == '__main__':

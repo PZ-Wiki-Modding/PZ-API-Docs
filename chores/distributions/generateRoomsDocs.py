@@ -12,7 +12,7 @@ def generate_room_docs():
     """Generate and write room documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
+    script_dir = Path(__file__).parent.parent
     repo_root = script_dir.parent
     rooms_json_path = repo_root / "pz-lua-parser" / "out" / "rooms.json"
     rooms_rst_path = repo_root / "docs" / "source" / "distribution" / "rooms.rst"
