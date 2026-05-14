@@ -6,691 +6,691 @@ Available colors accessible from Lua code or usable inside Scripts.
 .. list-table:: Colors
    :header-rows: 1
 
-   * - `Lua Field <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Colors.html#field-summary>`_
-     - Name
+   * - Name
+     - `Lua Field <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Colors.html#field-summary>`_
      - RGB Hex
      - Scripts Usage
-   * - ``Colors.AliceBlue``
-     - AliceBlue
+   * - AliceBlue
+     - ``Colors.AliceBlue``
      - ``#f0f8ff``
      - True
-   * - ``Colors.AntiqueWhite``
-     - AntiqueWhite
+   * - AntiqueWhite
+     - ``Colors.AntiqueWhite``
      - ``#faebd7``
      - True
-   * - ``Colors.Aqua``
-     - Cyan
+   * - Cyan
+     - ``Colors.Aqua``
      - ``#00ffff``
      - True
-   * - ``Colors.Aqua``
-     - Cyan
+   * - Cyan
+     - ``Colors.Aqua``
      - ``#00ffff``
      - True
-   * - ``Colors.Aquamarine``
-     - Aquamarine
+   * - Aquamarine
+     - ``Colors.Aquamarine``
      - ``#7fffd4``
      - True
-   * - ``Colors.Azure``
-     - Azure
+   * - Azure
+     - ``Colors.Azure``
      - ``#f0ffff``
      - True
-   * - ``Colors.Beige``
-     - Beige
+   * - Beige
+     - ``Colors.Beige``
      - ``#f5f5dc``
      - True
-   * - ``Colors.Bisque``
-     - Bisque
+   * - Bisque
+     - ``Colors.Bisque``
      - ``#ffe4c4``
      - True
-   * - ``Colors.Black``
-     - Black
+   * - Black
+     - ``Colors.Black``
      - ``#000000``
      - True
-   * - ``Colors.BlanchedAlmond``
-     - BlanchedAlmond
+   * - BlanchedAlmond
+     - ``Colors.BlanchedAlmond``
      - ``#ffebcd``
      - True
-   * - ``Colors.Blue``
-     - Blue
+   * - Blue
+     - ``Colors.Blue``
      - ``#0000ff``
      - True
-   * - ``Colors.BlueViolet``
-     - BlueViolet
+   * - BlueViolet
+     - ``Colors.BlueViolet``
      - ``#8a2be2``
      - True
-   * - ``Colors.Brown``
-     - Brown
+   * - Brown
+     - ``Colors.Brown``
      - ``#a52a2a``
      - True
-   * - ``Colors.BurlyWood``
-     - BurlyWood
+   * - BurlyWood
+     - ``Colors.BurlyWood``
      - ``#deb887``
      - True
-   * - ``Colors.CB_B0_Submerge``
-     - Submerge
+   * - Submerge
+     - ``Colors.CB_B0_Submerge``
      - ``#00306f``
      - False
-   * - ``Colors.CB_B1_Elvis``
-     - Elvis
+   * - Elvis
+     - ``Colors.CB_B1_Elvis``
      - ``#00489e``
      - False
-   * - ``Colors.CB_B2_FlatMediumBlue``
-     - FlatMediumBlue
+   * - FlatMediumBlue
+     - ``Colors.CB_B2_FlatMediumBlue``
      - ``#005fcc``
      - False
-   * - ``Colors.CB_B3_ClearBlue``
-     - ClearBlue
+   * - ClearBlue
+     - ``Colors.CB_B3_ClearBlue``
      - ``#0079fa``
      - False
-   * - ``Colors.CB_B4_Azure``
-     - Azure
+   * - Azure
+     - ``Colors.CB_B4_Azure``
      - ``#009ffa``
      - False
-   * - ``Colors.CB_B5_SpiroDiscoBall``
-     - SpiroDiscoBall
+   * - SpiroDiscoBall
+     - ``Colors.CB_B5_SpiroDiscoBall``
      - ``#00c2f9``
      - False
-   * - ``Colors.CB_B6_AquaBlue``
-     - AquaBlue
+   * - AquaBlue
+     - ``Colors.CB_B6_AquaBlue``
      - ``#00e5f8``
      - False
-   * - ``Colors.CB_B7_LightBrilliantCyan``
-     - LightBrilliantCyan
+   * - LightBrilliantCyan
+     - ``Colors.CB_B7_LightBrilliantCyan``
      - ``#7cfffa``
      - False
-   * - ``Colors.CB_G0_SherwoodGreen``
-     - SherwoodGreen
+   * - SherwoodGreen
+     - ``Colors.CB_G0_SherwoodGreen``
      - ``#003d30``
      - False
-   * - ``Colors.CB_G1_PthaloGreen``
-     - PthaloGreen
+   * - PthaloGreen
+     - ``Colors.CB_G1_PthaloGreen``
      - ``#005745``
      - False
-   * - ``Colors.CB_G2_TropicalRainForest``
-     - TropicalRainForest
+   * - TropicalRainForest
+     - ``Colors.CB_G2_TropicalRainForest``
      - ``#00735c``
      - False
-   * - ``Colors.CB_G3_Observatory``
-     - Observatory
+   * - Observatory
+     - ``Colors.CB_G3_Observatory``
      - ``#009175``
      - False
-   * - ``Colors.CB_G4_JungleGreen``
-     - JungleGreen
+   * - JungleGreen
+     - ``Colors.CB_G4_JungleGreen``
      - ``#00af8e``
      - False
-   * - ``Colors.CB_G5_Dali``
-     - Dali
+   * - Dali
+     - ``Colors.CB_G5_Dali``
      - ``#00cba7``
      - False
-   * - ``Colors.CB_G6_AquaMarine``
-     - AquaMarine
+   * - AquaMarine
+     - ``Colors.CB_G6_AquaMarine``
      - ``#00ebc1``
      - False
-   * - ``Colors.CB_G7_LightAqua``
-     - LightAqua
+   * - LightAqua
+     - ``Colors.CB_G7_LightAqua``
      - ``#86ffde``
      - False
-   * - ``Colors.CB_R0_DeepAmaranth``
-     - DeepAmaranth
+   * - DeepAmaranth
+     - ``Colors.CB_R0_DeepAmaranth``
      - ``#5f0914``
      - False
-   * - ``Colors.CB_R1_HotChile``
-     - HotChile
+   * - HotChile
+     - ``Colors.CB_R1_HotChile``
      - ``#86081c``
      - False
-   * - ``Colors.CB_R2_Smashing``
-     - Smashing
+   * - Smashing
+     - ``Colors.CB_R2_Smashing``
      - ``#b20725``
      - False
-   * - ``Colors.CB_R3_GeraniumLake``
-     - GeraniumLake
+   * - GeraniumLake
+     - ``Colors.CB_R3_GeraniumLake``
      - ``#de0d2e``
      - False
-   * - ``Colors.CB_R4_RedOrange``
-     - RedOrange
+   * - RedOrange
+     - ``Colors.CB_R4_RedOrange``
      - ``#ff4235``
      - False
-   * - ``Colors.CB_R5_Crusta``
-     - Crusta
+   * - Crusta
+     - ``Colors.CB_R5_Crusta``
      - ``#ff8735``
      - False
-   * - ``Colors.CB_R6_GoldenYellow``
-     - GoldenYellow
+   * - GoldenYellow
+     - ``Colors.CB_R6_GoldenYellow``
      - ``#ffb935``
      - False
-   * - ``Colors.CB_R7_BananaYellow``
-     - BananaYellow
+   * - BananaYellow
+     - ``Colors.CB_R7_BananaYellow``
      - ``#ffe239``
      - False
-   * - ``Colors.CB_White``
-     - White
+   * - White
+     - ``Colors.CB_White``
      - ``#ffffff``
      - False
-   * - ``Colors.CadetBlue``
-     - CadetBlue
+   * - CadetBlue
+     - ``Colors.CadetBlue``
      - ``#5f9ea0``
      - True
-   * - ``Colors.Chartreuse``
-     - Chartreuse
+   * - Chartreuse
+     - ``Colors.Chartreuse``
      - ``#7fff00``
      - True
-   * - ``Colors.Chocolate``
-     - Chocolate
+   * - Chocolate
+     - ``Colors.Chocolate``
      - ``#d2691e``
      - True
-   * - ``Colors.Cola``
-     - Cola
+   * - Cola
+     - ``Colors.Cola``
      - ``#3c2f23``
      - True
-   * - ``Colors.Coral``
-     - Coral
+   * - Coral
+     - ``Colors.Coral``
      - ``#ff7f50``
      - True
-   * - ``Colors.CornFlowerBlue``
-     - CornFlowerBlue
+   * - CornFlowerBlue
+     - ``Colors.CornFlowerBlue``
      - ``#6495ed``
      - True
-   * - ``Colors.Cornsilk``
-     - Cornsilk
+   * - Cornsilk
+     - ``Colors.Cornsilk``
      - ``#fff8dc``
      - True
-   * - ``Colors.Crimson``
-     - Crimson
+   * - Crimson
+     - ``Colors.Crimson``
      - ``#dc143c``
      - True
-   * - ``Colors.DarkBlue``
-     - DarkBlue
+   * - DarkBlue
+     - ``Colors.DarkBlue``
      - ``#00008b``
      - True
-   * - ``Colors.DarkCyan``
-     - DarkCyan
+   * - DarkCyan
+     - ``Colors.DarkCyan``
      - ``#008b8b``
      - True
-   * - ``Colors.DarkGoldenrod``
-     - DarkGoldenrod
+   * - DarkGoldenrod
+     - ``Colors.DarkGoldenrod``
      - ``#b8860b``
      - True
-   * - ``Colors.DarkGray``
-     - DarkGray
+   * - DarkGray
+     - ``Colors.DarkGray``
      - ``#a9a9a9``
      - True
-   * - ``Colors.DarkGreen``
-     - DarkGreen
+   * - DarkGreen
+     - ``Colors.DarkGreen``
      - ``#006400``
      - True
-   * - ``Colors.DarkKhaki``
-     - DarkKhaki
+   * - DarkKhaki
+     - ``Colors.DarkKhaki``
      - ``#bdb76b``
      - True
-   * - ``Colors.DarkMagenta``
-     - DarkMagenta
+   * - DarkMagenta
+     - ``Colors.DarkMagenta``
      - ``#8b008b``
      - True
-   * - ``Colors.DarkOliveGreen``
-     - DarkOliveGreen
+   * - DarkOliveGreen
+     - ``Colors.DarkOliveGreen``
      - ``#556b2f``
      - True
-   * - ``Colors.DarkOrange``
-     - DarkOrange
+   * - DarkOrange
+     - ``Colors.DarkOrange``
      - ``#ff8c00``
      - True
-   * - ``Colors.DarkOrchid``
-     - DarkOrchid
+   * - DarkOrchid
+     - ``Colors.DarkOrchid``
      - ``#9932cc``
      - True
-   * - ``Colors.DarkRed``
-     - DarkRed
+   * - DarkRed
+     - ``Colors.DarkRed``
      - ``#8b0000``
      - True
-   * - ``Colors.DarkSalmon``
-     - DarkSalmon
+   * - DarkSalmon
+     - ``Colors.DarkSalmon``
      - ``#e9967a``
      - True
-   * - ``Colors.DarkSeaGreen``
-     - DarkSeaGreen
+   * - DarkSeaGreen
+     - ``Colors.DarkSeaGreen``
      - ``#8fbc8b``
      - True
-   * - ``Colors.DarkSlateBlue``
-     - DarkSlateBlue
+   * - DarkSlateBlue
+     - ``Colors.DarkSlateBlue``
      - ``#483d8b``
      - True
-   * - ``Colors.DarkSlateGray``
-     - DarkSlateGray
+   * - DarkSlateGray
+     - ``Colors.DarkSlateGray``
      - ``#2f4f4f``
      - True
-   * - ``Colors.DarkTurquoise``
-     - DarkTurquoise
+   * - DarkTurquoise
+     - ``Colors.DarkTurquoise``
      - ``#00ced1``
      - True
-   * - ``Colors.DarkViolet``
-     - DarkViolet
+   * - DarkViolet
+     - ``Colors.DarkViolet``
      - ``#9400d3``
      - True
-   * - ``Colors.DeepPink``
-     - DeepPink
+   * - DeepPink
+     - ``Colors.DeepPink``
      - ``#ff1493``
      - True
-   * - ``Colors.DeepSkyBlue``
-     - DeepSkyBlue
+   * - DeepSkyBlue
+     - ``Colors.DeepSkyBlue``
      - ``#00bfff``
      - True
-   * - ``Colors.DimGray``
-     - DimGray
+   * - DimGray
+     - ``Colors.DimGray``
      - ``#696969``
      - True
-   * - ``Colors.DodgerBlue``
-     - DodgerBlue
+   * - DodgerBlue
+     - ``Colors.DodgerBlue``
      - ``#1e90ff``
      - True
-   * - ``Colors.FireBrick``
-     - FireBrick
+   * - FireBrick
+     - ``Colors.FireBrick``
      - ``#b22222``
      - True
-   * - ``Colors.FloralWhite``
-     - FloralWhite
+   * - FloralWhite
+     - ``Colors.FloralWhite``
      - ``#fffaf0``
      - True
-   * - ``Colors.ForestGreen``
-     - ForestGreen
+   * - ForestGreen
+     - ``Colors.ForestGreen``
      - ``#228b22``
      - True
-   * - ``Colors.FruitPunch``
-     - FruitPunch
+   * - FruitPunch
+     - ``Colors.FruitPunch``
      - ``#ce3d48``
      - True
-   * - ``Colors.Fuchsia``
-     - Magenta
+   * - Magenta
+     - ``Colors.Fuchsia``
      - ``#ff00ff``
      - True
-   * - ``Colors.Fuchsia``
-     - Magenta
+   * - Magenta
+     - ``Colors.Fuchsia``
      - ``#ff00ff``
      - True
-   * - ``Colors.Gainsboro``
-     - Gainsboro
+   * - Gainsboro
+     - ``Colors.Gainsboro``
      - ``#dcdcdc``
      - True
-   * - ``Colors.GhostWhite``
-     - GhostWhite
+   * - GhostWhite
+     - ``Colors.GhostWhite``
      - ``#f8f8ff``
      - True
-   * - ``Colors.Ginger``
-     - Ginger
+   * - Ginger
+     - ``Colors.Ginger``
      - ``#b06500``
      - True
-   * - ``Colors.Gold``
-     - Gold
+   * - Gold
+     - ``Colors.Gold``
      - ``#ffd700``
      - True
-   * - ``Colors.Goldenrod``
-     - Goldenrod
+   * - Goldenrod
+     - ``Colors.Goldenrod``
      - ``#daa520``
      - True
-   * - ``Colors.Gray``
-     - Gray
+   * - Gray
+     - ``Colors.Gray``
      - ``#808080``
      - True
-   * - ``Colors.Green``
-     - Green
+   * - Green
+     - ``Colors.Green``
      - ``#008000``
      - True
-   * - ``Colors.GreenYellow``
-     - GreenYellow
+   * - GreenYellow
+     - ``Colors.GreenYellow``
      - ``#adff2f``
      - True
-   * - ``Colors.Grenadine``
-     - Grenadine
+   * - Grenadine
+     - ``Colors.Grenadine``
      - ``#ac545e``
      - True
-   * - ``Colors.HoneyDew``
-     - HoneyDew
+   * - HoneyDew
+     - ``Colors.HoneyDew``
      - ``#f0fff0``
      - True
-   * - ``Colors.HotPink``
-     - HotPink
+   * - HotPink
+     - ``Colors.HotPink``
      - ``#ff69b4``
      - True
-   * - ``Colors.IndianRed``
-     - IndianRed
+   * - IndianRed
+     - ``Colors.IndianRed``
      - ``#cd5c5c``
      - True
-   * - ``Colors.Indigo``
-     - Indigo
+   * - Indigo
+     - ``Colors.Indigo``
      - ``#4b0082``
      - True
-   * - ``Colors.Ivory``
-     - Ivory
+   * - Ivory
+     - ``Colors.Ivory``
      - ``#fffff0``
      - True
-   * - ``Colors.Khaki``
-     - Khaki
+   * - Khaki
+     - ``Colors.Khaki``
      - ``#f0e68c``
      - True
-   * - ``Colors.Lavender``
-     - Lavender
+   * - Lavender
+     - ``Colors.Lavender``
      - ``#e6e6fa``
      - True
-   * - ``Colors.LavenderBlush``
-     - LavenderBlush
+   * - LavenderBlush
+     - ``Colors.LavenderBlush``
      - ``#fff0f5``
      - True
-   * - ``Colors.LawnGreen``
-     - LawnGreen
+   * - LawnGreen
+     - ``Colors.LawnGreen``
      - ``#7cfc00``
      - True
-   * - ``Colors.LemonChiffon``
-     - LemonChiffon
+   * - LemonChiffon
+     - ``Colors.LemonChiffon``
      - ``#fffacd``
      - True
-   * - ``Colors.LightBlue``
-     - LightBlue
+   * - LightBlue
+     - ``Colors.LightBlue``
      - ``#add8e6``
      - True
-   * - ``Colors.LightCoral``
-     - LightCoral
+   * - LightCoral
+     - ``Colors.LightCoral``
      - ``#f08080``
      - True
-   * - ``Colors.LightCyan``
-     - LightCyan
+   * - LightCyan
+     - ``Colors.LightCyan``
      - ``#e0ffff``
      - True
-   * - ``Colors.LightGoldenrodYellow``
-     - LightGoldenrodYellow
+   * - LightGoldenrodYellow
+     - ``Colors.LightGoldenrodYellow``
      - ``#fafad2``
      - True
-   * - ``Colors.LightGray``
-     - LightGray
+   * - LightGray
+     - ``Colors.LightGray``
      - ``#d3d3d3``
      - True
-   * - ``Colors.LightGreen``
-     - LightGreen
+   * - LightGreen
+     - ``Colors.LightGreen``
      - ``#90ee90``
      - True
-   * - ``Colors.LightPink``
-     - LightPink
+   * - LightPink
+     - ``Colors.LightPink``
      - ``#ffb6c1``
      - True
-   * - ``Colors.LightSalmon``
-     - LightSalmon
+   * - LightSalmon
+     - ``Colors.LightSalmon``
      - ``#ffa07a``
      - True
-   * - ``Colors.LightSeaGreen``
-     - LightSeaGreen
+   * - LightSeaGreen
+     - ``Colors.LightSeaGreen``
      - ``#20b2aa``
      - True
-   * - ``Colors.LightSkyBlue``
-     - LightSkyBlue
+   * - LightSkyBlue
+     - ``Colors.LightSkyBlue``
      - ``#87cefa``
      - True
-   * - ``Colors.LightSlateGray``
-     - LightSlateGray
+   * - LightSlateGray
+     - ``Colors.LightSlateGray``
      - ``#778899``
      - True
-   * - ``Colors.LightSteelBlue``
-     - LightSteelBlue
+   * - LightSteelBlue
+     - ``Colors.LightSteelBlue``
      - ``#b0c4de``
      - True
-   * - ``Colors.LightYellow``
-     - LightYellow
+   * - LightYellow
+     - ``Colors.LightYellow``
      - ``#ffffe0``
      - True
-   * - ``Colors.Lime``
-     - Lime
+   * - Lime
+     - ``Colors.Lime``
      - ``#00ff00``
      - True
-   * - ``Colors.LimeGreen``
-     - LimeGreen
+   * - LimeGreen
+     - ``Colors.LimeGreen``
      - ``#32cd32``
      - True
-   * - ``Colors.Linen``
-     - Linen
+   * - Linen
+     - ``Colors.Linen``
      - ``#faf0e6``
      - True
-   * - ``Colors.Maroon``
-     - Maroon
+   * - Maroon
+     - ``Colors.Maroon``
      - ``#800000``
      - True
-   * - ``Colors.MediumAquamarine``
-     - MediumAquamarine
+   * - MediumAquamarine
+     - ``Colors.MediumAquamarine``
      - ``#66cdaa``
      - True
-   * - ``Colors.MediumBlue``
-     - MediumBlue
+   * - MediumBlue
+     - ``Colors.MediumBlue``
      - ``#0000cd``
      - True
-   * - ``Colors.MediumOrchid``
-     - MediumOrchid
+   * - MediumOrchid
+     - ``Colors.MediumOrchid``
      - ``#ba55d3``
      - True
-   * - ``Colors.MediumPurple``
-     - MediumPurple
+   * - MediumPurple
+     - ``Colors.MediumPurple``
      - ``#9370db``
      - True
-   * - ``Colors.MediumSeaGreen``
-     - MediumSeaGreen
+   * - MediumSeaGreen
+     - ``Colors.MediumSeaGreen``
      - ``#3cb371``
      - True
-   * - ``Colors.MediumSlateBlue``
-     - MediumSlateBlue
+   * - MediumSlateBlue
+     - ``Colors.MediumSlateBlue``
      - ``#7b68ee``
      - True
-   * - ``Colors.MediumSpringGreen``
-     - MediumSpringGreen
+   * - MediumSpringGreen
+     - ``Colors.MediumSpringGreen``
      - ``#00fa9a``
      - True
-   * - ``Colors.MediumTurquoise``
-     - MediumTurquoise
+   * - MediumTurquoise
+     - ``Colors.MediumTurquoise``
      - ``#48d1cc``
      - True
-   * - ``Colors.MediumVioletRed``
-     - MediumVioletRed
+   * - MediumVioletRed
+     - ``Colors.MediumVioletRed``
      - ``#c71585``
      - True
-   * - ``Colors.MidnightBlue``
-     - MidnightBlue
+   * - MidnightBlue
+     - ``Colors.MidnightBlue``
      - ``#191970``
      - True
-   * - ``Colors.MintCream``
-     - MintCream
+   * - MintCream
+     - ``Colors.MintCream``
      - ``#f5fffa``
      - True
-   * - ``Colors.MistyRose``
-     - MistyRose
+   * - MistyRose
+     - ``Colors.MistyRose``
      - ``#ffe4e1``
      - True
-   * - ``Colors.Moccasin``
-     - Moccasin
+   * - Moccasin
+     - ``Colors.Moccasin``
      - ``#ffe4b5``
      - True
-   * - ``Colors.NavajoWhite``
-     - NavajoWhite
+   * - NavajoWhite
+     - ``Colors.NavajoWhite``
      - ``#ffdead``
      - True
-   * - ``Colors.Navy``
-     - Navy
+   * - Navy
+     - ``Colors.Navy``
      - ``#000080``
      - True
-   * - ``Colors.OldLace``
-     - OldLace
+   * - OldLace
+     - ``Colors.OldLace``
      - ``#fdf5e6``
      - True
-   * - ``Colors.Olive``
-     - Olive
+   * - Olive
+     - ``Colors.Olive``
      - ``#808000``
      - True
-   * - ``Colors.OliveDrab``
-     - OliveDrab
+   * - OliveDrab
+     - ``Colors.OliveDrab``
      - ``#6b8e23``
      - True
-   * - ``Colors.Orange``
-     - Orange
+   * - Orange
+     - ``Colors.Orange``
      - ``#ffa500``
      - True
-   * - ``Colors.OrangeRed``
-     - OrangeRed
+   * - OrangeRed
+     - ``Colors.OrangeRed``
      - ``#ff4500``
      - True
-   * - ``Colors.Orchid``
-     - Orchid
+   * - Orchid
+     - ``Colors.Orchid``
      - ``#da70d6``
      - True
-   * - ``Colors.PaleGoldenrod``
-     - PaleGoldenrod
+   * - PaleGoldenrod
+     - ``Colors.PaleGoldenrod``
      - ``#eee8aa``
      - True
-   * - ``Colors.PaleGreen``
-     - PaleGreen
+   * - PaleGreen
+     - ``Colors.PaleGreen``
      - ``#98fb98``
      - True
-   * - ``Colors.PaleTurquoise``
-     - PaleTurquoise
+   * - PaleTurquoise
+     - ``Colors.PaleTurquoise``
      - ``#afeeee``
      - True
-   * - ``Colors.PaleVioletRed``
-     - PaleVioletRed
+   * - PaleVioletRed
+     - ``Colors.PaleVioletRed``
      - ``#db7093``
      - True
-   * - ``Colors.PapayaWhip``
-     - PapayaWhip
+   * - PapayaWhip
+     - ``Colors.PapayaWhip``
      - ``#ffefd5``
      - True
-   * - ``Colors.PeachPuff``
-     - PeachPuff
+   * - PeachPuff
+     - ``Colors.PeachPuff``
      - ``#ffdab9``
      - True
-   * - ``Colors.Peru``
-     - Peru
+   * - Peru
+     - ``Colors.Peru``
      - ``#cd853f``
      - True
-   * - ``Colors.Pink``
-     - Pink
+   * - Pink
+     - ``Colors.Pink``
      - ``#ffc0cb``
      - True
-   * - ``Colors.Plum``
-     - Plum
+   * - Plum
+     - ``Colors.Plum``
      - ``#dda0dd``
      - True
-   * - ``Colors.PowderBlue``
-     - PowderBlue
+   * - PowderBlue
+     - ``Colors.PowderBlue``
      - ``#b0e0e6``
      - True
-   * - ``Colors.Purple``
-     - Purple
+   * - Purple
+     - ``Colors.Purple``
      - ``#800080``
      - True
-   * - ``Colors.RebeccaPurple``
-     - RebeccaPurple
+   * - RebeccaPurple
+     - ``Colors.RebeccaPurple``
      - ``#663399``
      - True
-   * - ``Colors.Red``
-     - Red
+   * - Red
+     - ``Colors.Red``
      - ``#ff0000``
      - True
-   * - ``Colors.RosyBrown``
-     - RosyBrown
+   * - RosyBrown
+     - ``Colors.RosyBrown``
      - ``#bc8f8f``
      - True
-   * - ``Colors.RoyalBlue``
-     - RoyalBlue
+   * - RoyalBlue
+     - ``Colors.RoyalBlue``
      - ``#4169e1``
      - True
-   * - ``Colors.SaddleBrown``
-     - SaddleBrown
+   * - SaddleBrown
+     - ``Colors.SaddleBrown``
      - ``#8b4513``
      - True
-   * - ``Colors.Salmon``
-     - Salmon
+   * - Salmon
+     - ``Colors.Salmon``
      - ``#fa8072``
      - True
-   * - ``Colors.SandyBrown``
-     - SandyBrown
+   * - SandyBrown
+     - ``Colors.SandyBrown``
      - ``#f4a460``
      - True
-   * - ``Colors.SeaGreen``
-     - SeaGreen
+   * - SeaGreen
+     - ``Colors.SeaGreen``
      - ``#2e8b57``
      - True
-   * - ``Colors.SeaShell``
-     - SeaShell
+   * - SeaShell
+     - ``Colors.SeaShell``
      - ``#fff5ee``
      - True
-   * - ``Colors.Sienna``
-     - Sienna
+   * - Sienna
+     - ``Colors.Sienna``
      - ``#a0522d``
      - True
-   * - ``Colors.Silver``
-     - Silver
+   * - Silver
+     - ``Colors.Silver``
      - ``#c0c0c0``
      - True
-   * - ``Colors.SkyBlue``
-     - SkyBlue
+   * - SkyBlue
+     - ``Colors.SkyBlue``
      - ``#87ceeb``
      - True
-   * - ``Colors.SlateBlue``
-     - SlateBlue
+   * - SlateBlue
+     - ``Colors.SlateBlue``
      - ``#6a5acd``
      - True
-   * - ``Colors.SlateGray``
-     - SlateGray
+   * - SlateGray
+     - ``Colors.SlateGray``
      - ``#708090``
      - True
-   * - ``Colors.Snow``
-     - Snow
+   * - Snow
+     - ``Colors.Snow``
      - ``#fffafa``
      - True
-   * - ``Colors.SpringGreen``
-     - SpringGreen
+   * - SpringGreen
+     - ``Colors.SpringGreen``
      - ``#00ff7f``
      - True
-   * - ``Colors.SteelBlue``
-     - SteelBlue
+   * - SteelBlue
+     - ``Colors.SteelBlue``
      - ``#4682b4``
      - True
-   * - ``Colors.Tan``
-     - Tan
+   * - Tan
+     - ``Colors.Tan``
      - ``#d2b48c``
      - True
-   * - ``Colors.Teal``
-     - Teal
+   * - Teal
+     - ``Colors.Teal``
      - ``#008080``
      - True
-   * - ``Colors.Thistle``
-     - Thistle
+   * - Thistle
+     - ``Colors.Thistle``
      - ``#d8bfd8``
      - True
-   * - ``Colors.Tomato``
-     - Tomato
+   * - Tomato
+     - ``Colors.Tomato``
      - ``#ff6347``
      - True
-   * - ``Colors.Turquoise``
-     - Turquoise
+   * - Turquoise
+     - ``Colors.Turquoise``
      - ``#40e0d0``
      - True
-   * - ``Colors.UI_Background``
-     - UI_Background
+   * - UI_Background
+     - ``Colors.UI_Background``
      - ``#000000``
      - True
-   * - ``Colors.Violet``
-     - Violet
+   * - Violet
+     - ``Colors.Violet``
      - ``#ee82ee``
      - True
-   * - ``Colors.Wheat``
-     - Wheat
+   * - Wheat
+     - ``Colors.Wheat``
      - ``#f5deb3``
      - True
-   * - ``Colors.White``
-     - White
+   * - White
+     - ``Colors.White``
      - ``#ffffff``
      - True
-   * - ``Colors.WhiteSmoke``
-     - WhiteSmoke
+   * - WhiteSmoke
+     - ``Colors.WhiteSmoke``
      - ``#f5f5f5``
      - True
-   * - ``Colors.Yellow``
-     - Yellow
+   * - Yellow
+     - ``Colors.Yellow``
      - ``#ffff00``
      - True
-   * - ``Colors.YellowGreen``
-     - YellowGreen
+   * - YellowGreen
+     - ``Colors.YellowGreen``
      - ``#9acd32``
      - True
