@@ -92,8 +92,8 @@ Available colors accessible from Lua code or usable inside Scripts.
         hex_color = rgb_to_hex(r, g, b)
         scripts_usage = get_scripts_usage(fct)
         
-        content += f"     - {name}\n"
-        content += f"   * - ``Colors.{field}``\n"
+        content += f"   * - {name}\n"
+        content += f"     - ``Colors.{field}``\n"
         content += f"     - ``{hex_color}``\n"
         content += f"     - {scripts_usage}\n"
     
