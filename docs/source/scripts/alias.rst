@@ -77,7 +77,7 @@ Parameters
 name
 ^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -86,7 +86,7 @@ No description
 tiles
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

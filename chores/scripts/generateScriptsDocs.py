@@ -87,18 +87,18 @@ class ScriptBlock:
         return type_str
     
     def _format_parameter_metadata(self, param: Dict[str, Any]) -> str:
-        """Format parameter metadata as a literal block (code box)."""
-        lines = []
+        """Format parameter metadata as RST field list."""
+        rst = ""
         
         # Type information
         param_type = param.get('type', {})
         type_str = self._format_type_info(param_type)
         
         required = param.get('required', False)
-        type_line = f"Type: {type_str}"
+        type_line = f"{type_str}"
         if required:
-            type_line += " (required)"
-        lines.append(type_line)
+            type_line += " **(required)**"
+        rst += f":Type: {type_line}\n"
         
         # Minimum and maximum values
         minimum = param.get('minimum')
@@ -110,7 +110,7 @@ class ScriptBlock:
             if maximum is not None:
                 range_parts.append(f"Max: {maximum}")
             if range_parts:
-                lines.append("Range: " + ", ".join(range_parts))
+                rst += f":Range: {', '.join(range_parts)}\n"
         
         # Default value
         default = param.get('default')
@@ -120,30 +120,48 @@ class ScriptBlock:
             else:
                 default_str = str(default)
             if default_str:
-                lines.append(f"Default: {default_str}")
+                rst += f":Default: ``{default_str}``\n"
         
         # Additional attributes
+        attributes = []
         if param.get('allowedDuplicate'):
-            lines.append("Can be duplicated: ✓")
+            attributes.append("Can be duplicated")
         if param.get('canBeEmpty'):
-            lines.append("Can be empty: ✓")
+            attributes.append("Can be empty")
         if param.get('isUseless'):
-            lines.append("Useless: ✓")
+            attributes.append("Useless")
+        
+        if attributes:
+            rst += f":Attributes: {', '.join(attributes)}\n"
         
         parents_only = param.get('parentsOnly', [])
         if parents_only:
             parents_str = ", ".join(parents_only)
-            lines.append(f"Only for parents: {parents_str}")
+            rst += f":Only for parents: {parents_str}\n"
         
         incompatible_with = param.get('incompatibleWith', [])
         if incompatible_with:
             incompatible_str = ", ".join(incompatible_with)
-            lines.append(f"Incompatible with: {incompatible_str}")
+            rst += f":Incompatible with: {incompatible_str}\n"
         
-        # Format as literal block with 4-space indentation
-        if lines:
-            return "\n".join(f"    {line}" for line in lines) + "\n\n"
-        return ""
+        needs = param.get('needs', [])
+        if needs:
+            needs_lines = []
+            for need in needs:
+                param_name = need.get('name', 'unknown')
+                values = need.get('values', [])
+                if values:
+                    values_str = ", ".join(str(v) for v in values)
+                    needs_lines.append(f"``{param_name}`` = {values_str}")
+                else:
+                    needs_lines.append(f"``{param_name}``")
+            rst += f":Needs: {'; '.join(needs_lines)}\n"
+        
+        # Add blank line after field list
+        if rst:
+            rst += "\n"
+        
+        return rst
     
     def _generate_properties_table(self) -> str:
         properties = {

@@ -28,7 +28,7 @@ Parameters
 actionAnim
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 inputGroup
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -46,7 +46,7 @@ No description
 outputGroup
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -55,7 +55,7 @@ No description
 Recipes
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -64,7 +64,7 @@ No description
 StartMode
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

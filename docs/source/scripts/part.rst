@@ -39,7 +39,7 @@ Parameters
 area
 ^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -48,7 +48,7 @@ No description
 category
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -57,7 +57,7 @@ No description
 durability
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -66,7 +66,7 @@ No description
 itemType
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -75,7 +75,7 @@ No description
 mechanicArea
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -84,7 +84,7 @@ No description
 mechanicRequireKey
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -93,7 +93,7 @@ No description
 parent
 ^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -102,7 +102,7 @@ No description
 repairMechanic
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -111,7 +111,7 @@ No description
 specificItem
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -120,7 +120,7 @@ No description
 wheel
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

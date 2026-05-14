@@ -28,7 +28,7 @@ Parameters
 actionAnim
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 animVarKey
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -46,7 +46,7 @@ No description
 animVarVal
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -55,7 +55,7 @@ No description
 completionSound
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -64,7 +64,7 @@ No description
 metabolics
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -73,7 +73,7 @@ No description
 muscleStrainFactor
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -82,7 +82,7 @@ No description
 muscleStrainParts
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -91,7 +91,7 @@ No description
 muscleStrainSkill
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -100,7 +100,7 @@ No description
 prop1
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -109,7 +109,7 @@ No description
 prop2
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -118,7 +118,7 @@ No description
 sound
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -127,7 +127,7 @@ No description
 soundTime
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

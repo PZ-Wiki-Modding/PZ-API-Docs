@@ -28,8 +28,8 @@ Parameters
 row
 ^^^
 
-    Type: Any
-    Can be duplicated: ✓
+:Type: Any
+:Attributes: Can be duplicated
 
 No description
 

@@ -32,7 +32,7 @@ Parameters
 VERSION
 ^^^^^^^
 
-    Type: integer
+:Type: integer
 
 No description
 

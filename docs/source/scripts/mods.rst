@@ -39,8 +39,8 @@ Parameters
 mod
 ^^^
 
-    Type: string
-    Can be duplicated: ✓
+:Type: string
+:Attributes: Can be duplicated
 
 The mod ID of the mod to load, which can be found in the `mod.info <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-modinfo.html>`_ file of the mod.
 

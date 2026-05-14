@@ -28,7 +28,7 @@ Parameters
 AddFuel
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 AddInput
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -46,7 +46,7 @@ No description
 LightFire
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -55,7 +55,7 @@ No description
 RemoveInput
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -64,7 +64,7 @@ No description
 Running
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -73,7 +73,7 @@ No description
 StartCraft
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

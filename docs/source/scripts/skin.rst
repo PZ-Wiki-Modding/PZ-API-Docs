@@ -29,7 +29,7 @@ Parameters
 texture
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

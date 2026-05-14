@@ -36,7 +36,7 @@ Parameters
 health
 ^^^^^^
 
-    Type: integer
+:Type: integer
 
 No description
 
@@ -45,7 +45,7 @@ No description
 isProp
 ^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -54,7 +54,7 @@ No description
 isThumpable
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -63,7 +63,7 @@ No description
 OnCreate
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -72,7 +72,7 @@ No description
 OnIsValid
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -81,7 +81,7 @@ No description
 skillBaseHealth
 ^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
 
 No description
 
@@ -90,7 +90,7 @@ No description
 TimedActionOnIsValid
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

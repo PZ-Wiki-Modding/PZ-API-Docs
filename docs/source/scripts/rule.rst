@@ -41,7 +41,7 @@ Parameters
 bitmap
 ^^^^^^
 
-    Type: integer
+:Type: integer
 
 A value of ``1`` will have this rule used for the vegetation image, while a value of ``0`` will have it used for the main tiles image. Trees will for example use ``1`` while ground tiles will use ``0``.
 
@@ -50,7 +50,7 @@ A value of ``1`` will have this rule used for the vegetation image, while a valu
 color
 ^^^^^
 
-    Type: array
+:Type: array
 
 The RGB color to replace with the tiles in the ``tiles`` parameter. This is the color you painted in your image file to associate to this rule.
 
@@ -59,7 +59,7 @@ The RGB color to replace with the tiles in the ``tiles`` parameter. This is the 
 label
 ^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -68,7 +68,7 @@ No description
 layer
 ^^^^^
 
-    Type: string
+:Type: string
 
 The layer to apply the tiles on.
 
@@ -77,7 +77,7 @@ The layer to apply the tiles on.
 tiles
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 A list of tiles to apply randomly for this color. You can also use an alias block here to reference a list of tiles.
 

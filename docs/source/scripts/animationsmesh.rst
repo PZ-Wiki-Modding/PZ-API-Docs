@@ -28,8 +28,8 @@ Parameters
 animationDirectory
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
-    Can be duplicated: ✓
+:Type: Any
+:Attributes: Can be duplicated
 
 No description
 
@@ -38,8 +38,8 @@ No description
 animationPrefix
 ^^^^^^^^^^^^^^^
 
-    Type: Any
-    Can be duplicated: ✓
+:Type: Any
+:Attributes: Can be duplicated
 
 No description
 
@@ -48,7 +48,7 @@ No description
 keepMeshAnimations
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -57,7 +57,7 @@ No description
 meshFile
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -66,7 +66,7 @@ No description
 postProcess
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

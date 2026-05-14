@@ -34,7 +34,7 @@ Parameters
 blacklist
 ^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
 
 Indicates whenever blending with other fluids is disallowed.
 
@@ -43,7 +43,7 @@ Indicates whenever blending with other fluids is disallowed.
 category
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Unclear what this is for since this is usually achieved with a `categories <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/categories.html>`_ child block.
 
@@ -52,7 +52,7 @@ Unclear what this is for since this is usually achieved with a `categories <http
 filterType
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Just use `whitelist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#whitelist>`_ or `blacklist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#blacklist>`_.
 
@@ -65,7 +65,7 @@ Allowed values:
 fluid
 ^^^^^
 
-    Type: array (array of string, separator: '/')
+:Type: array (array of string, separator: '/')
 
 A list of fluids.
 
@@ -74,7 +74,7 @@ A list of fluids.
 whitelist
 ^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
 
 Indicates whenever blending with other fluids is allowed.
 

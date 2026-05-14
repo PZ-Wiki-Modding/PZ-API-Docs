@@ -42,7 +42,7 @@ Parameters
 ColorReference
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 A reference to a color defined in the Colors class. You can find a full list of the colors available in the `Colors <https://pz-wiki-modding.github.io/PZ-API-Docs/java/colors.html>`_ documentation.
 
@@ -61,7 +61,7 @@ For example, to use the color ``Azure`` from the documentation:
 DisplayName
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 The name of the fluid that will be displayed in the game. The value corresponds to the key for the fluid's name in the `Fluids.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#fluids>`_ translation file. The translation keys for the fluid usually have the prefix ``Fluid_Name_`` but this is technically not required.
 

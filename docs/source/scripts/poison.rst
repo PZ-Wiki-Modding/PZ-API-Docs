@@ -28,7 +28,7 @@ Parameters
 diluteRatio
 ^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The ratio at which the poison is diluted when mixed with other fluids.
 
@@ -37,7 +37,7 @@ The ratio at which the poison is diluted when mixed with other fluids.
 maxEffect
 ^^^^^^^^^
 
-    Type: string
+:Type: string
 
 Defines the strength of the poison.
 
@@ -55,7 +55,7 @@ Allowed values:
 minAmount
 ^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The minimum amount required to consume to poison the player.
 

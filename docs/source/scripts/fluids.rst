@@ -28,8 +28,8 @@ Parameters
 fluid
 ^^^^^
 
-    Type: Any
-    Can be duplicated: ✓
+:Type: Any
+:Attributes: Can be duplicated
 
 Refers to a fluid script
 

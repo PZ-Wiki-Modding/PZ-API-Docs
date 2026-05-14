@@ -56,7 +56,8 @@ Parameters
 alarm
 ^^^^^
 
-    Type: array
+:Type: array
+:Needs: ``unknown``
 
 No description
 
@@ -65,7 +66,8 @@ No description
 alarmLoop
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
+:Needs: ``unknown``
 
 No description
 
@@ -74,7 +76,8 @@ No description
 backSignal
 ^^^^^^^^^^
 
-    Type: string
+:Type: string
+:Needs: ``unknown``
 
 No description
 
@@ -83,7 +86,7 @@ No description
 category
 ^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -92,7 +95,8 @@ No description
 engine
 ^^^^^^
 
-    Type: string
+:Type: string
+:Needs: ``unknown``
 
 No description
 
@@ -101,7 +105,8 @@ No description
 engineStart
 ^^^^^^^^^^^
 
-    Type: string
+:Type: string
+:Needs: ``unknown``
 
 No description
 
@@ -110,7 +115,8 @@ No description
 engineTurnOff
 ^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
+:Needs: ``unknown``
 
 No description
 
@@ -119,7 +125,8 @@ No description
 handBrake
 ^^^^^^^^^
 
-    Type: string
+:Type: string
+:Needs: ``unknown``
 
 No description
 
@@ -128,7 +135,8 @@ No description
 horn
 ^^^^
 
-    Type: string
+:Type: string
+:Needs: ``unknown``
 
 No description
 
@@ -137,7 +145,8 @@ No description
 ignitionFail
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
+:Needs: ``unknown``
 
 No description
 
@@ -146,7 +155,8 @@ No description
 ignitionFailNoPower
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
+:Needs: ``unknown``
 
 No description
 
@@ -155,8 +165,8 @@ No description
 is3D
 ^^^^
 
-    Type: boolean
-    Useless: ✓
+:Type: boolean
+:Attributes: Useless
 
 This parameter looks unused.
 
@@ -165,7 +175,7 @@ This parameter looks unused.
 loop
 ^^^^
 
-    Type: boolean
+:Type: boolean
 
 Whether the sound should loop or not. The sound plays until turned off or the emitter is destroyed.
 
@@ -174,7 +184,7 @@ Whether the sound should loop or not. The sound plays until turned off or the em
 master
 ^^^^^^
 
-    Type: string
+:Type: string
 
 Links the sound to a master sound category, which controls the volume of all sounds linked to it.
 
@@ -190,7 +200,7 @@ Allowed values:
 maxInstancesPerEmitter
 ^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
 
 No description
 

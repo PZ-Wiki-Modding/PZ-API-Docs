@@ -28,7 +28,7 @@ Parameters
 area
 ^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 offset
 ^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -46,7 +46,7 @@ No description
 rotate
 ^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

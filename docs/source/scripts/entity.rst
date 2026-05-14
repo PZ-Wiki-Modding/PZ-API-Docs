@@ -45,7 +45,7 @@ Parameters
 DisplayName
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -54,7 +54,7 @@ No description
 Icon
 ^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -63,7 +63,7 @@ No description
 LuaWindowClass
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

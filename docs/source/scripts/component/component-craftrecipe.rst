@@ -37,7 +37,7 @@ category
 ^^^^^^^^
 
  (see :ref:`craftrecipe-category`)
-    Type: Any
+:Type: Any
 
 The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in the crafting menu. Currently doesn't support translations (confirmed last 42.15).
 
@@ -47,7 +47,7 @@ NeedToBeLearn
 ^^^^^^^^^^^^^
 
  (see :ref:`craftrecipe-needtobelearn`)
-    Type: Any
+:Type: Any
 
 Whether the recipe needs to be learned before it can be crafted.
 
@@ -56,7 +56,7 @@ Whether the recipe needs to be learned before it can be crafted.
 OnAddToMenu
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -66,7 +66,7 @@ OnCreate
 ^^^^^^^^
 
  (see :ref:`craftrecipe-oncreate`)
-    Type: Any
+:Type: Any
 
 The OnCreate parameter allows the referencing of a Lua function that will be called when the crafting recipe is finished. This can be used to add custom behavior to the crafting recipe when it gets finished. The Lua function needs to be a `global function <https://pzwiki.net/wiki/Lua_(language>`_\ #Local_and_global), it can also be in a global table. The vanilla game OnCreate's are stored in the `Java <https://pzwiki.net/wiki/Java>`_.
 
@@ -86,7 +86,7 @@ SkillRequired
 ^^^^^^^^^^^^^
 
  (see :ref:`craftrecipe-skillrequired`)
-    Type: Any
+:Type: Any
 
 Specifies the skill level required to perform this crafting action. It should be formated this way:
 
@@ -112,7 +112,7 @@ tags
 ^^^^
 
  (see :ref:`craftrecipe-tags`)
-    Type: array (required)
+:Type: array **(required)**
 
 Specifies specific conditions which need to be respected to craft this item. At least one crafting bench tag is necessary for the craft to be recognized, such as ``AnySurfaceCraft``. The syntax is as follows:
 
@@ -138,8 +138,8 @@ time
 ^^^^
 
  (see :ref:`craftrecipe-time`)
-    Type: Any
-    Default: 50
+:Type: Any
+:Default: ``50``
 
 The time it takes to craft the item, not using a specific unit of time.
 
@@ -149,7 +149,7 @@ timedAction
 ^^^^^^^^^^^
 
  (see :ref:`craftrecipe-timedaction`)
-    Type: Any
+:Type: Any
 
 Refers to a timed action script block, used to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
 
@@ -159,7 +159,7 @@ Tooltip
 ^^^^^^^
 
  (see :ref:`craftrecipe-tooltip`)
-    Type: Any
+:Type: Any
 
 Description of the crafting which is shown in the crafting menu.
 
@@ -169,7 +169,7 @@ xpAward
 ^^^^^^^
 
  (see :ref:`craftrecipe-xpaward`)
-    Type: Any
+:Type: Any
 
 Specifies the experience points awarded for crafting this item. The parameter should be formated this way:
 

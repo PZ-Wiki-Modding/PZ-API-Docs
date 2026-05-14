@@ -28,8 +28,8 @@ Parameters
 fluid
 ^^^^^
 
-    Type: string
-    Can be duplicated: ✓
+:Type: string
+:Attributes: Can be duplicated
 
 A fluid which is allowed to be put inside this fluid container.
 

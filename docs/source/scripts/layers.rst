@@ -28,8 +28,8 @@ Parameters
 object
 ^^^^^^
 
-    Type: string
-    Only for parents: ROOT-MapBaseXML
+:Type: string
+:Only for parents: ROOT-MapBaseXML
 
 No description
 
@@ -38,8 +38,8 @@ No description
 tile
 ^^^^
 
-    Type: string
-    Can be duplicated: ✓
+:Type: string
+:Attributes: Can be duplicated
 
 No description
 

@@ -58,7 +58,7 @@ Parameters
 AcceptItemFunction
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -67,8 +67,8 @@ No description
 AcceptMediaType
 ^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: -1
+:Type: integer
+:Default: ``-1``
 
 No description
 
@@ -77,7 +77,7 @@ No description
 ActivatedItem
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -86,7 +86,7 @@ No description
 AimingMod
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -95,7 +95,7 @@ No description
 AimingPerkCritModifier
 ^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
 
 See :ref:`item-criticalchance` for more details.
 
@@ -104,7 +104,7 @@ See :ref:`item-criticalchance` for more details.
 AimingPerkHitChanceModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 See :ref:`item-hitchance` for more details.
 
@@ -113,7 +113,8 @@ See :ref:`item-hitchance` for more details.
 AimingPerkMinAngleModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
+:Needs: ``ItemType`` = base:weapon
 
 See :ref:`item-minangle` for more details.
 
@@ -122,7 +123,8 @@ See :ref:`item-minangle` for more details.
 AimingPerkRangeModifier
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
+:Needs: ``ItemType`` = base:weapon
 
 See :ref:`item-maxrange` for more details.
 
@@ -131,7 +133,8 @@ See :ref:`item-maxrange` for more details.
 Aimingtime
 ^^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weapon
 
 `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtime>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtimemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. The attachments directly add or subtract their `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtimemodifier>`_ to the aiming delay.
 
@@ -164,7 +167,8 @@ On each shots or equip, the aiming delay will be increased or reduced, being imp
 AimingTimeModifier
 ^^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weaponpart
 
 See :ref:`item-aimingtime` for more details.
 
@@ -173,7 +177,7 @@ See :ref:`item-aimingtime` for more details.
 AimReleaseSound
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -182,7 +186,7 @@ No description
 AlarmSound
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -191,7 +195,7 @@ No description
 Alcoholic
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -200,7 +204,7 @@ No description
 AlcoholPower
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -209,7 +213,7 @@ No description
 AlwaysKnockdown
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -218,7 +222,7 @@ No description
 AlwaysWelcomeGift
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -227,7 +231,8 @@ No description
 AmmoBox
 ^^^^^^^
 
-    Type: string (block: :ref:`item`, with :ref:`module`)
+:Type: string (block: :ref:`item`, with :ref:`module`)
+:Needs: ``ItemType`` = base:weapon; ``IsAimedFirearm`` = True
 
 No description
 
@@ -236,7 +241,8 @@ No description
 AmmoType
 ^^^^^^^^
 
-    Type: string
+:Type: string
+:Needs: ``ItemType`` = base:weapon, base:normal
 
 `AmmoType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-ammotype>`_ indicates what ammo is consumed when shooting, but it also determines tracer and hit-reaction sound lookups. The value needs to reference the `registries <https://pzwiki.net/wiki/Registries>`_ entry of the ammo you want to use. The vanilla ammunition types which are available by default are:
 
@@ -274,7 +280,7 @@ A custom ``WeaponReloadType`` can be used if the relevant animations and conditi
 AngleFalloff
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -283,7 +289,7 @@ No description
 AnimalFeedType
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -292,7 +298,7 @@ No description
 AttachmentReplacement
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -301,7 +307,7 @@ No description
 AttachmentsProvided
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -310,7 +316,7 @@ No description
 AttachmentType
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -319,7 +325,7 @@ No description
 BadCold
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -328,7 +334,7 @@ No description
 BadInMicrowave
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Used to set whether this item will cause a fire when put in a microwave.
 
@@ -337,7 +343,7 @@ Used to set whether this item will cause a fire when put in a microwave.
 BandagePower
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -346,8 +352,8 @@ No description
 BaseSpeed
 ^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -356,7 +362,7 @@ No description
 BaseVolumeRange
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -365,7 +371,7 @@ No description
 BiteDefense
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -374,7 +380,7 @@ No description
 BloodLocation
 ^^^^^^^^^^^^^
 
-    Type: array (array of string, separator: ';')
+:Type: array (array of string, separator: ';')
 
 No description
 
@@ -421,7 +427,7 @@ Allowed values:
 BodyLocation
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Used to define which location on the human character this clothing item can be worn.
 
@@ -430,7 +436,7 @@ Used to define which location on the human character this clothing item can be w
 book_subject
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -439,7 +445,7 @@ No description
 BoredomChange
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -448,7 +454,7 @@ No description
 brakeForce
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -457,7 +463,7 @@ No description
 BreakSound
 ^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -466,7 +472,7 @@ No description
 BringToBearSound
 ^^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -475,7 +481,7 @@ No description
 BulletDefense
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -484,7 +490,7 @@ No description
 BulletHitArmourSound
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -493,7 +499,7 @@ No description
 Calories
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -502,7 +508,7 @@ No description
 CanAttach
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -511,7 +517,7 @@ No description
 CanBandage
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -520,7 +526,7 @@ No description
 CanBarricade
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -529,7 +535,7 @@ No description
 CanBeEquipped
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -538,7 +544,7 @@ No description
 CanBePlaced
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -547,7 +553,7 @@ No description
 CanBeRemote
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -556,7 +562,7 @@ No description
 CanBeReused
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -565,7 +571,7 @@ No description
 CanBeWrite
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -574,7 +580,7 @@ No description
 CanDetach
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -583,8 +589,8 @@ No description
 CanHaveHoles
 ^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 Used to define whenever this item can get holes in it.
 
@@ -593,7 +599,7 @@ Used to define whenever this item can get holes in it.
 CannedFood
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -602,7 +608,7 @@ No description
 CanStack
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -611,7 +617,7 @@ No description
 CanStoreWater
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -620,7 +626,7 @@ No description
 CantAttackWithLowestEndurance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -629,7 +635,7 @@ No description
 cantBeConsolided
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -638,7 +644,7 @@ No description
 CantBeFrozen
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -647,7 +653,7 @@ No description
 CantEat
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -656,8 +662,8 @@ No description
 Capacity
 ^^^^^^^^
 
-    Type: integer
-    Default: -1
+:Type: integer
+:Default: ``-1``
 
 No description
 
@@ -666,7 +672,7 @@ No description
 Carbohydrates
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -675,7 +681,7 @@ No description
 Categories
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -684,7 +690,7 @@ No description
 ChanceToFall
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -693,7 +699,7 @@ No description
 ChanceToSpawnDamaged
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -702,8 +708,9 @@ No description
 ClickSound
 ^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
-    Default: Stormy9mmClick
+:Type: string (block: :ref:`sound`)
+:Default: ``Stormy9mmClick``
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -712,7 +719,7 @@ No description
 ClipSize
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -721,7 +728,7 @@ No description
 CloseKillMove
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Used to whenever this weapon can be used to do a close kill move, like knives to assassinate in the back.
 
@@ -730,7 +737,7 @@ Used to whenever this weapon can be used to do a close kill move, like knives to
 CloseSound
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -739,7 +746,7 @@ No description
 ClothingExtraSubmenu
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 See :ref:`item-clothingitem` for more details.
 
@@ -748,7 +755,7 @@ See :ref:`item-clothingitem` for more details.
 ClothingItem
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 ``ClothingItem`` references the clothing defined inside the `clothing.xml <https://pzwiki.net/wiki/Clothing.xml>`_ file. ``ClothingExtraSubmenu`` will define the name of the context menu option to equip the clothing item.
 
@@ -759,7 +766,8 @@ ClothingItem
 ClothingItemExtra
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
+:Needs: ``ClothingItemExtraOption``
 
 See :ref:`item-clothingitem` for more details.
 
@@ -768,7 +776,8 @@ See :ref:`item-clothingitem` for more details.
 ClothingItemExtraOption
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
+:Needs: ``ClothingItemExtra``
 
 See :ref:`item-clothingitem` for more details.
 
@@ -777,8 +786,8 @@ See :ref:`item-clothingitem` for more details.
 ColorBlue
 ^^^^^^^^^
 
-    Type: integer
-    Default: 255
+:Type: integer
+:Default: ``255``
 
 No description
 
@@ -787,8 +796,8 @@ No description
 ColorGreen
 ^^^^^^^^^^
 
-    Type: integer
-    Default: 255
+:Type: integer
+:Default: ``255``
 
 No description
 
@@ -797,8 +806,8 @@ No description
 ColorRed
 ^^^^^^^^
 
-    Type: integer
-    Default: 255
+:Type: integer
+:Default: ``255``
 
 No description
 
@@ -807,8 +816,8 @@ No description
 CombatSpeedModifier
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -817,7 +826,7 @@ No description
 ConditionAffectsCapacity
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Set whenever condition of the item can impact the capacity value of the container.
 
@@ -826,8 +835,8 @@ Set whenever condition of the item can impact the capacity value of the containe
 ConditionLowerChanceOneIn
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 10
+:Type: integer
+:Default: ``10``
 
 `ConditionLowerChanceOneIn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-conditionlowerchanceonein>`_ impacts the durability of the item, reducing the value
 used to calculate the chance by doing ``chance = 1/ConditionLowerChanceOneIn``\ ,
@@ -841,7 +850,7 @@ item.
 ConditionLowerOffroad
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -850,7 +859,7 @@ No description
 ConditionLowerStandard
 ^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -859,8 +868,8 @@ No description
 ConditionMax
 ^^^^^^^^^^^^
 
-    Type: integer
-    Default: 10
+:Type: integer
+:Default: ``10``
 
 No description
 
@@ -869,7 +878,7 @@ No description
 ConsolidateOption
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -878,7 +887,7 @@ No description
 CookingSound
 ^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 Custom sound to play when cooking this item.
 
@@ -887,7 +896,7 @@ Custom sound to play when cooking this item.
 CorpseSicknessDefense
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -896,7 +905,7 @@ No description
 Cosmetic
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -905,8 +914,8 @@ No description
 Count
 ^^^^^
 
-    Type: integer
-    Default: 1
+:Type: integer
+:Default: ``1``
 
 The parameter is unused in the game scripts, unclear what it is used for.
 
@@ -915,8 +924,8 @@ The parameter is unused in the game scripts, unclear what it is used for.
 CritDmgMultiplier
 ^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 2.0
+:Type: float
+:Default: ``2.0``
 
 Multiplier applied to the damage of a hit if it is a critical hit, applied inside `IsoGameCharacter.Hit() <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/characters/IsoGameCharacter.html#Hit(zombie.inventory.types.HandWeapon,zombie.characters.IsoGameCharacter,float,boolean,float,boolean>`_\ ). Two types of crits can trigger:
 
@@ -931,8 +940,9 @@ The default value of the ``HandWeapon`` class is ``2.0``. Values of ``3.0`` to `
 CriticalChance
 ^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 20.0
+:Type: float
+:Default: ``20.0``
+:Needs: ``ItemType`` = base:weapon
 
 `CriticalChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-criticalchance>`_ sets the base critical hit chance of the weapon. The final ``CriticalChance`` value after all applied bonuses and penalties have been applied is compared on a 0-100 roll.
 
@@ -984,7 +994,7 @@ For PvP targets, the entire formula is bypassed and `StopPower <https://pz-wiki-
 CustomContextMenu
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -993,8 +1003,8 @@ No description
 CustomEatSound
 ^^^^^^^^^^^^^^
 
-    Type: Any
-    Can be empty: ✓
+:Type: Any
+:Attributes: Can be empty
 
 Custom sound to play when eating or drinking this item, refers to the ID of a sound script. Set to an empty string to disable any sound from playing.
 
@@ -1003,9 +1013,10 @@ Custom sound to play when eating or drinking this item, refers to the ID of a so
 CyclicRateMultiplier
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Range: Min: 0.0
-    Default: 1.0
+:Type: float
+:Range: Min: 0.0
+:Default: ``1.0``
+:Needs: ``ItemType`` = base:weapon; ``IsAimedFirearm`` = True
 
 Only in ``Auto`` `fire mode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemode>`_. Drives the full-auto animation cycle rate via the ``autoShootSpeed`` `animation variable <https://pzwiki.net/wiki/Conditions>`_.
 
@@ -1018,7 +1029,7 @@ Increase for SMG feel and decrease for heavy LMG feel.
 DamageCategory
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1027,7 +1038,7 @@ No description
 DamageMakeHole
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1036,7 +1047,8 @@ No description
 DangerousUncooked
 ^^^^^^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
+:Needs: ``ItemType`` = base:food
 
 If true, the item will cause food poisoning when eaten raw. Used for example for raw meat. The `iron gut <https://pzwiki.net/wiki/Iron_Gut>`_ trait will stop you from getting sick from eating a raw food with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-tags>`_ ``Egg``. The severity of the food poisoning is not impacted by traits or other criteria, only by the quantity of food you eat.
 
@@ -1045,8 +1057,9 @@ If true, the item will cause food poisoning when eaten raw. Used for example for
 DaysFresh
 ^^^^^^^^^
 
-    Type: integer
-    Default: 1000000000
+:Type: integer
+:Default: ``1000000000``
+:Needs: ``ItemType`` = base:food
 
 `DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daysfresh>`_ sets how many days this food item will stay fresh with default sandbox settings. `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daystotallyrotten>`_ sets how many days this food item will take to rot.
 
@@ -1057,8 +1070,9 @@ DaysFresh
 DaysTotallyRotten
 ^^^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 1000000000
+:Type: integer
+:Default: ``1000000000``
+:Needs: ``ItemType`` = base:food
 
 See :ref:`item-daysfresh` for more details.
 
@@ -1067,7 +1081,7 @@ See :ref:`item-daysfresh` for more details.
 DigitalPadlock
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1076,7 +1090,7 @@ No description
 DigType
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1085,8 +1099,8 @@ No description
 DisappearOnUse
 ^^^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 No description
 
@@ -1095,7 +1109,7 @@ No description
 DiscomfortModifier
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1104,7 +1118,7 @@ No description
 DisplayCategory
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1113,7 +1127,7 @@ No description
 DisplayName
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Sets the name of the item which will be displayed in-game. It's recommended to use a translation entry for this parameter to allow localization of the item name.
 
@@ -1128,9 +1142,9 @@ Sets the name of the item which will be displayed in-game. It's recommended to u
 DoorDamage
 ^^^^^^^^^^
 
-    Type: integer
-    Range: Min: 1
-    Default: 1
+:Type: integer
+:Range: Min: 1
+:Default: ``1``
 
 Damage dealt to doors, windows, barricades and some vehicle/object hits. The damage to doors cannot go lower than 1, even in the formulas it is clamped to a minimum of 1. The formula used to retrieve the damage to doors is:
 
@@ -1145,8 +1159,8 @@ More parameters will impact the door damage based on where it is used.
 DoorHitSound
 ^^^^^^^^^^^^
 
-    Type: string
-    Default: BaseballBatHit
+:Type: string
+:Default: ``BaseballBatHit``
 
 No description
 
@@ -1155,7 +1169,7 @@ No description
 DoubleClickRecipe
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1164,7 +1178,7 @@ No description
 DropSound
 ^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -1173,7 +1187,7 @@ No description
 Eattime
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1182,7 +1196,7 @@ No description
 EatType
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1191,7 +1205,7 @@ No description
 EjectAmmoSound
 ^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -1200,7 +1214,7 @@ No description
 EjectAmmoStartSound
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -1209,7 +1223,7 @@ No description
 EjectAmmoStopSound
 ^^^^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -1218,7 +1232,7 @@ No description
 enduranceChange
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1227,8 +1241,9 @@ No description
 EnduranceMod
 ^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
+:Needs: ``ItemType`` = base:weapon
 
 See :ref:`item-useendurance` for more details.
 
@@ -1237,7 +1252,7 @@ See :ref:`item-useendurance` for more details.
 engineLoudness
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1246,7 +1261,7 @@ No description
 EquippedNoSprint
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1255,7 +1270,7 @@ No description
 EquipSound
 ^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -1264,7 +1279,7 @@ No description
 EvolvedRecipe
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 List of evolved recipes this item can be used in.
 
@@ -1273,7 +1288,7 @@ List of evolved recipes this item can be used in.
 EvolvedRecipeName
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1282,7 +1297,8 @@ No description
 ExplosionDuration
 ^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weapon
 
 See :ref:`item-explosionrange` for more details.
 
@@ -1291,7 +1307,8 @@ See :ref:`item-explosionrange` for more details.
 ExplosionPower
 ^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weapon
 
 If set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_
 
@@ -1300,7 +1317,8 @@ If set above 0, the explosion will burn tiles and set fire to them based on the 
 ExplosionRange
 ^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weapon
 
 `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ out of 100 is a chance of the explosion to set on fire tiles and burn characters in the `ExplosionRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionrange>`_. A value above 100 means the explosion will always set on fire tiles and burn characters, while a value of 0 means it will never set on fire tiles nor burn characters. Each tiles in the explosion range will run the `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ check independently, so a value of 50 means that on average half of the tiles in the explosion range will be set on fire.
 
@@ -1317,7 +1335,7 @@ ExplosionRange
 ExplosionSound
 ^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 See :ref:`item-explosionrange` for more details.
 
@@ -1326,7 +1344,7 @@ See :ref:`item-explosionrange` for more details.
 ExplosionTimer
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1335,7 +1353,7 @@ No description
 FabricType
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1344,7 +1362,7 @@ No description
 fatigueChange
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1353,7 +1371,7 @@ No description
 FillFromDispenserSound
 ^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1362,7 +1380,7 @@ No description
 FillFromLakeSound
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1371,7 +1389,7 @@ No description
 FillFromTapSound
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1380,7 +1398,7 @@ No description
 FillFromToiletSound
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1389,8 +1407,8 @@ No description
 FireFuelRatio
 ^^^^^^^^^^^^^
 
-    Type: Any
-    Useless: ✓
+:Type: Any
+:Attributes: Useless
 
 No description
 
@@ -1399,7 +1417,8 @@ No description
 FireMode
 ^^^^^^^^
 
-    Type: string
+:Type: string
+:Needs: ``ItemType`` = base:weapon
 
 `FireModePossibilities <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemodepossibilities>`_ lists the available fire modes of the weapon, and the player can automatically switch between them with the relevant keybind. `FireMode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemode>`_ sets the default fire mode of the weapon, which is the one it will spawn with.
 
@@ -1416,7 +1435,8 @@ Other values are not supported by the game and will be considered as ``Single``.
 FireModePossibilities
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: array (array of string, separator: '/')
+:Type: array (array of string, separator: '/')
+:Needs: ``ItemType`` = base:weapon; ``FireMode``
 
 See :ref:`item-firemode` for more details.
 
@@ -1425,7 +1445,8 @@ See :ref:`item-firemode` for more details.
 FireRange
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
+:Needs: ``ItemType`` = base:weapon
 
 See :ref:`item-explosionrange` for more details.
 
@@ -1434,7 +1455,8 @@ See :ref:`item-explosionrange` for more details.
 FireStartingChance
 ^^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weapon
 
 See :ref:`item-explosionrange` for more details.
 
@@ -1443,7 +1465,8 @@ See :ref:`item-explosionrange` for more details.
 FireStartingEnergy
 ^^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -1452,7 +1475,7 @@ No description
 FishingLure
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1461,7 +1484,7 @@ No description
 fluReduction
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1470,7 +1493,7 @@ No description
 FoodSicknessChange
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1479,7 +1502,7 @@ No description
 FoodType
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1488,7 +1511,7 @@ No description
 GoodHot
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1497,7 +1520,7 @@ No description
 GunType
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1506,8 +1529,8 @@ No description
 HaveChamber
 ^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 Whether the weapon has a chamber that can hold a round in addition to its magazine.
 
@@ -1516,7 +1539,7 @@ Whether the weapon has a chamber that can hold a round in addition to its magazi
 HeadCondition
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1525,8 +1548,8 @@ No description
 HeadConditionLowerChanceMultiplier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -1535,7 +1558,7 @@ No description
 HeadConditionMax
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1544,8 +1567,8 @@ No description
 HearingModifier
 ^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -1554,7 +1577,7 @@ No description
 HerbalistType
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1563,7 +1586,7 @@ No description
 Hidden
 ^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1572,7 +1595,7 @@ No description
 HitAngleMod
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1581,7 +1604,8 @@ No description
 HitChance
 ^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weapon
 
 `HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchance>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `HitChanceModified <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchancemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
@@ -1641,7 +1665,8 @@ At point-blank range, all combined penalties are scaled toward zero, so close sh
 HitChanceModifier
 ^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
+:Needs: ``ItemType`` = base:weaponpart
 
 See :ref:`item-hitchance` for more details.
 
@@ -1650,8 +1675,9 @@ See :ref:`item-hitchance` for more details.
 HitFloorSound
 ^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
-    Default: BatOnFloor
+:Type: string (block: :ref:`sound`)
+:Default: ``BatOnFloor``
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -1660,8 +1686,9 @@ No description
 HitSound
 ^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
-    Default: BaseballBatHit
+:Type: string (block: :ref:`sound`)
+:Default: ``BaseballBatHit``
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -1670,7 +1697,7 @@ No description
 HungerChange
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1679,8 +1706,8 @@ No description
 Icon
 ^^^^
 
-    Type: string
-    Default: None
+:Type: string
+:Default: ``None``
 
 Used to specify the icon of the item, usually used in the inventory and crafting menus to easily recognize the item. The icon file needs to be located inside the ``media/textures/`` folder and the file name must start with ``Item_``\ , and be of the extension ``.png``.
 
@@ -1748,7 +1775,7 @@ To add variants based on food condition, you would have the following file struc
 IconColorMask
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1757,7 +1784,7 @@ No description
 IconFluidMask
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1766,7 +1793,7 @@ No description
 IconsForTexture
 ^^^^^^^^^^^^^^^
 
-    Type: array (array of string, separator: ';')
+:Type: array (array of string, separator: ';')
 
 No description
 
@@ -1775,8 +1802,8 @@ No description
 IdleAnim
 ^^^^^^^^
 
-    Type: string
-    Default: Idle
+:Type: string
+:Default: ``Idle``
 
 No description
 
@@ -1785,8 +1812,9 @@ No description
 ImpactSound
 ^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
-    Default: BaseballBatHit
+:Type: string (block: :ref:`sound`)
+:Default: ``BaseballBatHit``
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -1795,7 +1823,7 @@ No description
 InsertAllBulletsReload
 ^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1804,7 +1832,7 @@ No description
 InsertAmmoSound
 ^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -1813,7 +1841,7 @@ No description
 InsertAmmoStartSound
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -1822,7 +1850,7 @@ No description
 InsertAmmoStopSound
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -1831,7 +1859,7 @@ No description
 Insulation
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1840,7 +1868,7 @@ No description
 InverseCoughProbability
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1849,7 +1877,7 @@ No description
 InverseCoughProbabilitySmoker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1858,7 +1886,8 @@ No description
 IsAimedFirearm
 ^^^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
+:Needs: ``ItemType`` = base:weapon; ``MaxAmmo``
 
 `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-isaimedfirearm>`_ enables the entire aimed-firearm subsystem: ballistics controller, reticle, muzzle flash, firearm-specific condition handling and ballistics-base target detection. Without it the weapon falls back to melee sweep logic.
 
@@ -1869,7 +1898,8 @@ Set to ``true`` for any normal gun. Distinct from `Ranged <https://pz-wiki-moddi
 IsAimedHandWeapon
 ^^^^^^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -1878,7 +1908,7 @@ No description
 IsCookable
 ^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
 
 No description
 
@@ -1887,7 +1917,7 @@ No description
 IsDung
 ^^^^^^
 
-    Type: boolean
+:Type: boolean
 
 No description
 
@@ -1896,7 +1926,7 @@ No description
 IsHighTier
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1905,7 +1935,7 @@ No description
 IsPortable
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1914,7 +1944,7 @@ No description
 IsTelevision
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1923,7 +1953,7 @@ No description
 IsWaterSource
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1932,7 +1962,7 @@ No description
 ItemAfterCleaning
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1941,7 +1971,7 @@ No description
 ItemType
 ^^^^^^^^
 
-    Type: string (required)
+:Type: string **(required)**
 
 Defines the class of the item which will impact which parameters the item can take and its properties as well as how it is used by the player. Clothing for instance will handle differently their texture and model in comparison to the other type of items, containers can hold items and weapons can be used by the player to attack and deal damage. You cannot use a custom class of item and only the ones accepted by the game.
 
@@ -1968,7 +1998,7 @@ Allowed values:
 ItemWhenDry
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1977,8 +2007,9 @@ No description
 JamGunChance
 ^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
+:Needs: ``ItemType`` = base:weapon
 
 Base probability of a jam on each trigger pull. Final jam roml also scales with the sandbox jam multiplier, current gun condition (lower condition = higher jam chance), and low Aiming/Strength.
 
@@ -1989,7 +2020,7 @@ Base probability of a jam on each trigger pull. Final jam roml also scales with 
 KeepOnDeplete
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -1998,7 +2029,7 @@ No description
 KnockBackOnNoDeath
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2007,8 +2038,8 @@ No description
 KnockdownMod
 ^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -2017,7 +2048,7 @@ No description
 LearnedRecipes
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2026,7 +2057,7 @@ No description
 LightDistance
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2035,7 +2066,7 @@ No description
 LightStrength
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2044,7 +2075,7 @@ No description
 Lipids
 ^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2053,7 +2084,7 @@ No description
 LowLightBonus
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2062,8 +2093,8 @@ No description
 LvlSkillTrained
 ^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: -1
+:Type: integer
+:Default: ``-1``
 
 No description
 
@@ -2072,7 +2103,7 @@ No description
 magazine_subject
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2081,7 +2112,8 @@ No description
 MagazineType
 ^^^^^^^^^^^^
 
-    Type: string (block: :ref:`item`, with :ref:`module`)
+:Type: string (block: :ref:`item`, with :ref:`module`)
+:Needs: ``ItemType`` = base:weapon; ``IsAimedFirearm`` = True
 
 See :ref:`item-ammotype` for more details.
 
@@ -2090,7 +2122,7 @@ See :ref:`item-ammotype` for more details.
 MakeUpType
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2099,7 +2131,7 @@ No description
 ManuallyRemoveSpentRounds
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2108,7 +2140,7 @@ No description
 Map
 ^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2117,7 +2149,7 @@ No description
 MaxAmmo
 ^^^^^^^
 
-    Type: integer
+:Type: integer
 
 No description
 
@@ -2126,8 +2158,8 @@ No description
 MaxCapacity
 ^^^^^^^^^^^
 
-    Type: integer
-    Default: -1
+:Type: integer
+:Default: ``-1``
 
 No description
 
@@ -2136,8 +2168,8 @@ No description
 MaxChannel
 ^^^^^^^^^^
 
-    Type: integer
-    Default: 108000
+:Type: integer
+:Default: ``108000``
 
 No description
 
@@ -2146,8 +2178,8 @@ No description
 MaxDamage
 ^^^^^^^^^
 
-    Type: float
-    Default: 1.5
+:Type: float
+:Default: ``1.5``
 
 Rolls the hit damage of the weapon between ``MinDamage`` and ``MaxDamage``.
 
@@ -2156,8 +2188,9 @@ Rolls the hit damage of the weapon between ``MinDamage`` and ``MaxDamage``.
 MaxHitcount
 ^^^^^^^^^^^
 
-    Type: integer
-    Default: 1000
+:Type: integer
+:Default: ``1000``
+:Needs: ``ItemType`` = base:weapon
 
 `MaxHitcount <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxhitcount>`_ sets the maximum number of targets the weapon can hit with one attack. For ranged weapons, it will determine how many targets a single shot can hit. For melee weapons, a single swing can hit multiple targets if the relevant sandbox option allows it (Weapon Multi-Hit).
 
@@ -2170,7 +2203,7 @@ Keep ``MaxHitcount`` to 1 for a standard rifle, and set it to 2 with `PiercingBu
 MaxItemSize
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2179,8 +2212,8 @@ No description
 MaxRange
 ^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 `MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrange>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `MaxRangeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrangemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
@@ -2197,7 +2230,8 @@ All rifles from the base game have a ``AimingPerkRangeModifier`` of 0, so `aimin
 MaxRangeModifier
 ^^^^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
+:Needs: ``ItemType`` = base:weaponpart
 
 See :ref:`item-maxrange` for more details.
 
@@ -2206,7 +2240,8 @@ See :ref:`item-maxrange` for more details.
 MaxSightRange
 ^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
+:Needs: ``ItemType`` = base:weapon, base:weaponpart
 
 `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxsightrange>`_ define the optimal sight window, to be more specific, the distance band where hits and critical hits bonuses peak.
 
@@ -2230,7 +2265,7 @@ A CQC gun should have a low `MaxSightRange <https://pz-wiki-modding.github.io/PZ
 MechanicsItem
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2239,7 +2274,7 @@ No description
 MediaCategory
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2248,7 +2283,7 @@ No description
 Medical
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2257,7 +2292,7 @@ No description
 MetalValue
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2266,7 +2301,7 @@ No description
 MicRange
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2275,8 +2310,9 @@ No description
 MinAngle
 ^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
+:Needs: ``ItemType`` = base:weapon
 
 For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-isaimedfirearm>`_ set to ``true``\ , the ballistics controller handles target detection and does not use `MinAngle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minangle>`_ in the ranged hit-chance formula. These serve one narrow purpose: the ``isMeleeTargetTooCloseToShoot()`` check, detecting if a target is so close it should trigger a melee strike instead of a shot.
 
@@ -2293,8 +2329,8 @@ For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.
 MinChannel
 ^^^^^^^^^^
 
-    Type: integer
-    Default: 88000
+:Type: integer
+:Default: ``88000``
 
 No description
 
@@ -2303,7 +2339,7 @@ No description
 MinDamage
 ^^^^^^^^^
 
-    Type: float
+:Type: float
 
 See :ref:`item-maxdamage` for more details.
 
@@ -2312,7 +2348,7 @@ See :ref:`item-maxdamage` for more details.
 MinimumSwingtime
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2321,7 +2357,7 @@ No description
 MinRange
 ^^^^^^^^
 
-    Type: float
+:Type: float
 
 Hard minimum attack distance. If the target is closer than ``MinRange``\ , the ballistics controller does not register the shot and the game may force a melee swap. This is a binary threshold, not a penalty band. Separate from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_.
 
@@ -2332,7 +2368,8 @@ Long rifles should be hard to use in tight spaces. ``0.2`` to ``0.35`` is a smal
 MinSightRange
 ^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
+:Needs: ``ItemType`` = base:weapon, base:weaponpart
 
 See :ref:`item-maxsightrange` for more details.
 
@@ -2341,8 +2378,9 @@ See :ref:`item-maxsightrange` for more details.
 MinutesToBurn
 ^^^^^^^^^^^^^
 
-    Type: float
-    Default: 120.0
+:Type: float
+:Default: ``120.0``
+:Needs: ``ItemType`` = base:food; ``IsCookable`` = True
 
 How many in-game minutes it takes to burn the food. This value must
 be higher than `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestocook>`_.
@@ -2354,8 +2392,9 @@ In comparison with `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs
 MinutesToCook
 ^^^^^^^^^^^^^
 
-    Type: float
-    Default: 60.0
+:Type: float
+:Default: ``60.0``
+:Needs: ``ItemType`` = base:food, base:drainable; ``IsCookable`` = True
 
 How many in-game minutes it takes to cook the food. This value must be smaller than `MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestoburn>`_.
 
@@ -2364,8 +2403,8 @@ How many in-game minutes it takes to cook the food. This value must be smaller t
 ModelWeaponPart
 ^^^^^^^^^^^^^^^
 
-    Type: Any
-    Can be duplicated: ✓
+:Type: Any
+:Attributes: Can be duplicated
 
 No description
 
@@ -2374,7 +2413,7 @@ No description
 MountOn
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2383,8 +2422,8 @@ No description
 MultipleHitConditionAffected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 No description
 
@@ -2393,7 +2432,7 @@ No description
 MuzzleFlashModelKey
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2402,8 +2441,8 @@ No description
 NeckProtectionModifier
 ^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -2412,7 +2451,7 @@ No description
 needtobeclosedoncereload
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2421,7 +2460,7 @@ No description
 NoiseDuration
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2430,7 +2469,7 @@ No description
 NoiseRange
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2439,7 +2478,7 @@ No description
 NoTransmit
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2448,8 +2487,8 @@ No description
 NPCSoundBoost
 ^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -2458,8 +2497,8 @@ No description
 NumberOfPages
 ^^^^^^^^^^^^^
 
-    Type: integer
-    Default: -1
+:Type: integer
+:Default: ``-1``
 
 No description
 
@@ -2468,8 +2507,8 @@ No description
 NumLevelsTrained
 ^^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 1
+:Type: integer
+:Default: ``1``
 
 No description
 
@@ -2478,7 +2517,7 @@ No description
 OnBreak
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2487,7 +2526,7 @@ No description
 OnCooked
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2496,7 +2535,7 @@ No description
 OnCreate
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2505,7 +2544,7 @@ No description
 OnEat
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2514,7 +2553,7 @@ No description
 OpeningRecipe
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2523,7 +2562,7 @@ No description
 OpenSound
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2532,7 +2571,7 @@ No description
 OriginX
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2541,7 +2580,7 @@ No description
 OriginY
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2550,7 +2589,7 @@ No description
 originZ
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2559,7 +2598,7 @@ No description
 OtherHandRequire
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2568,7 +2607,7 @@ No description
 OtherHandUse
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2577,7 +2616,7 @@ No description
 Packaged
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2586,7 +2625,7 @@ No description
 Padlock
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2595,7 +2634,7 @@ No description
 PageToWrite
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2604,7 +2643,7 @@ No description
 painReduction
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2613,7 +2652,7 @@ No description
 PartType
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2622,7 +2661,8 @@ No description
 PhysicsObject
 ^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`item`, with :ref:`module`)
+:Type: string (block: :ref:`item`, with :ref:`module`)
+:Needs: ``ItemType`` = base:weapon
 
 Provides another item (or itself) as a throwable object. When used, the item will be thrown instead of used as an actual in hands weapon.
 
@@ -2631,7 +2671,8 @@ Provides another item (or itself) as a throwable object. When used, the item wil
 PiercingBullets
 ^^^^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
+:Needs: ``ItemType`` = base:weapon; ``IsAimedFirearm`` = True; ``MaxHitcount``
 
 See :ref:`item-maxhitcount` for more details.
 
@@ -2640,7 +2681,7 @@ See :ref:`item-maxhitcount` for more details.
 PlacedSprite
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2649,7 +2690,7 @@ No description
 PlaceMultipleSound
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2658,7 +2699,7 @@ No description
 PlaceOneSound
 ^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -2667,7 +2708,7 @@ No description
 PoisonPower
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2676,7 +2717,7 @@ No description
 PourType
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2685,7 +2726,7 @@ No description
 primaryAnimMask
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2694,8 +2735,9 @@ No description
 Projectilecount
 ^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 1
+:Type: integer
+:Default: ``1``
+:Needs: ``ItemType`` = base:weapon; ``IsAimedFirearm`` = True; ``RangeFalloff`` = True
 
 Only active when the weapon is ranged and has `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-rangefalloff>`_ set to ``true``. In that mode, the ballistics controller generates multiple spread projectiles. The field is never read when `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-rangefalloff>`_ is ``false``.
 
@@ -2706,7 +2748,7 @@ Inert for standard rifles. Required only for shotgun-style spread.
 ProjectileSpread
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2715,7 +2757,7 @@ No description
 ProjectileSpreadModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2724,8 +2766,8 @@ No description
 ProjectileWeightCenter
 ^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -2734,7 +2776,7 @@ No description
 ProtectFromRainWhenEquipped
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2743,7 +2785,7 @@ No description
 Proteins
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2752,8 +2794,9 @@ No description
 PushBackMod
 ^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
+:Needs: ``ItemType`` = base:weapon
 
 Scales the magnitude of the hit-reaction push applied to the target character. A higher value will increase the time the target is staggered. It will also impact the spread of blood.
 
@@ -2764,7 +2807,7 @@ Higher gives a more weighty, impactful feel.
 PutInSound
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2773,7 +2816,7 @@ No description
 RackAfterShoot
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2782,7 +2825,7 @@ No description
 RackSound
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2791,7 +2834,7 @@ No description
 RainFactor
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2800,7 +2843,8 @@ No description
 Ranged
 ^^^^^^
 
-    Type: boolean
+:Type: boolean
+:Needs: ``ItemType`` = base:weapon
 
 See :ref:`item-isaimedfirearm` for more details.
 
@@ -2809,7 +2853,8 @@ See :ref:`item-isaimedfirearm` for more details.
 RangeFalloff
 ^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -2818,7 +2863,7 @@ No description
 ReadType
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2827,7 +2872,8 @@ No description
 RecoilDelay
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
+:Needs: ``ItemType`` = base:weapon
 
 `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelaymodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. Weapon attachments will add or subtract from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ directly.
 
@@ -2847,7 +2893,8 @@ Aim countdown starts when the recoil delay counter is less than ``effectiveDelay
 RecoilDelayModifier
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
+:Needs: ``ItemType`` = base:weaponpart
 
 See :ref:`item-recoildelay` for more details.
 
@@ -2856,7 +2903,7 @@ See :ref:`item-recoildelay` for more details.
 ReduceInfectionPower
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2865,7 +2912,7 @@ No description
 Reloadtime
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2874,7 +2921,7 @@ No description
 ReloadTimeModifier
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2883,7 +2930,7 @@ No description
 RemoteController
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2892,7 +2939,7 @@ No description
 RemoteRange
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2901,7 +2948,7 @@ No description
 RemoveNegativeEffectOnCooked
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2910,8 +2957,8 @@ No description
 RemoveOnBroken
 ^^^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 No description
 
@@ -2920,7 +2967,7 @@ No description
 RemoveUnhappinessWhenCooked
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2929,7 +2976,7 @@ No description
 ReplaceInPrimaryHand
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2938,7 +2985,7 @@ No description
 ReplaceInSecondHand
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2947,7 +2994,7 @@ No description
 ReplaceOnCooked
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2956,7 +3003,7 @@ No description
 ReplaceOnDeplete
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2965,7 +3012,7 @@ No description
 ReplaceOnExtinguish
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2974,7 +3021,7 @@ No description
 ReplaceOnRotten
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2983,7 +3030,7 @@ No description
 ReplaceOnUse
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -2992,7 +3039,7 @@ No description
 RequireInHandOrInventory
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3001,7 +3048,7 @@ No description
 RequiresEquippedBothHands
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
 
 No description
 
@@ -3010,7 +3057,7 @@ No description
 Researchablerecipes
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: array (array of string, separator: ';')
+:Type: array (array of string, separator: ';')
 
 No description
 
@@ -3019,8 +3066,8 @@ No description
 RunAnim
 ^^^^^^^
 
-    Type: string
-    Default: Run
+:Type: string
+:Default: ``Run``
 
 No description
 
@@ -3029,8 +3076,8 @@ No description
 RunSpeedModifier
 ^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3039,8 +3086,8 @@ No description
 ScaleWorldIcon
 ^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3049,7 +3096,7 @@ No description
 ScratchDefense
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3058,7 +3105,7 @@ No description
 secondaryAnimMask
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3067,7 +3114,7 @@ No description
 SensorRange
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3076,7 +3123,7 @@ No description
 Sharpness
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3085,7 +3132,8 @@ No description
 ShellFallSound
 ^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
+:Type: string (block: :ref:`sound`)
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -3094,8 +3142,8 @@ No description
 ShoutMultiplier
 ^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3104,7 +3152,7 @@ No description
 ShoutType
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3113,7 +3161,7 @@ No description
 SkillTrained
 ^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -3122,7 +3170,7 @@ No description
 SmokeRange
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3131,8 +3179,8 @@ No description
 SoundGain
 ^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3141,8 +3189,8 @@ No description
 SoundMap
 ^^^^^^^^
 
-    Type: Any
-    Can be duplicated: ✓
+:Type: Any
+:Attributes: Can be duplicated
 
 No description
 
@@ -3151,7 +3199,7 @@ No description
 SoundParameter
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3160,7 +3208,7 @@ No description
 SoundRadius
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3169,7 +3217,7 @@ No description
 SoundVolume
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3178,7 +3226,7 @@ No description
 SpawnWith
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3187,7 +3235,7 @@ No description
 Spice
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3196,7 +3244,7 @@ No description
 SplatBloodOnNoDeath
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3205,8 +3253,8 @@ No description
 SplatNumber
 ^^^^^^^^^^^
 
-    Type: integer
-    Default: 2
+:Type: integer
+:Default: ``2``
 
 No description
 
@@ -3215,8 +3263,8 @@ No description
 SplatSize
 ^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3225,7 +3273,7 @@ No description
 StaticModel
 ^^^^^^^^^^^
 
-    Type: string (block: :ref:`model`, with :ref:`module`)
+:Type: string (block: :ref:`model`, with :ref:`module`)
 
 No description
 
@@ -3234,7 +3282,7 @@ No description
 StaticModelsByIndex
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: array (array of string, separator: ';')
+:Type: array (array of string, separator: ';')
 
 No description
 
@@ -3243,8 +3291,8 @@ No description
 StompPower
 ^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3253,8 +3301,9 @@ No description
 StopPower
 ^^^^^^^^^
 
-    Type: float
-    Default: 5.0
+:Type: float
+:Default: ``5.0``
+:Needs: ``ItemType`` = base:weapon
 
 See :ref:`item-criticalchance` for more details.
 
@@ -3263,7 +3312,7 @@ See :ref:`item-criticalchance` for more details.
 StressChange
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3272,7 +3321,7 @@ No description
 SubCategory
 ^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -3281,7 +3330,7 @@ No description
 SurvivalGear
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3290,7 +3339,7 @@ No description
 suspensionCompression
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3299,7 +3348,7 @@ No description
 suspensionDamping
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3308,7 +3357,7 @@ No description
 SwingAmountBeforeImpact
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3317,8 +3366,8 @@ No description
 SwingAnim
 ^^^^^^^^^
 
-    Type: string
-    Default: Rifle
+:Type: string
+:Default: ``Rifle``
 
 No description
 
@@ -3327,8 +3376,9 @@ No description
 SwingSound
 ^^^^^^^^^^
 
-    Type: string (block: :ref:`sound`)
-    Default: BaseballBatSwing
+:Type: string (block: :ref:`sound`)
+:Default: ``BaseballBatSwing``
+:Needs: ``ItemType`` = base:weapon
 
 No description
 
@@ -3337,8 +3387,8 @@ No description
 Swingtime
 ^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3347,7 +3397,7 @@ No description
 Tags
 ^^^^
 
-    Type: array (array of string, separator: ';')
+:Type: array (array of string, separator: ';')
 
 A list of tags to assign to the item. Tags are used by the game to easily identify properties of the items from the Lua or Java. This can notably be used in `craftRecipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_.
 
@@ -3373,7 +3423,7 @@ You can then use that tag ``yourmodid:yourtagname`` in your item definition. And
 ThirstChange
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3382,8 +3432,8 @@ No description
 ticksPerEquipUse
 ^^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 30
+:Type: integer
+:Default: ``30``
 
 No description
 
@@ -3392,8 +3442,8 @@ No description
 ToHitModifier
 ^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3402,7 +3452,7 @@ No description
 Tooltip
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3411,7 +3461,7 @@ No description
 TorchCone
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3420,8 +3470,8 @@ No description
 TorchDot
 ^^^^^^^^
 
-    Type: float
-    Default: 0.96
+:Type: float
+:Default: ``0.96``
 
 No description
 
@@ -3430,7 +3480,7 @@ No description
 TransmitRange
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3439,8 +3489,8 @@ No description
 Trap
 ^^^^
 
-    Type: boolean
-    Default: False
+:Type: boolean
+:Default: ``False``
 
 No description
 
@@ -3449,7 +3499,7 @@ No description
 TreeDamage
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3458,7 +3508,7 @@ No description
 triggerExplosionTimer
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3467,7 +3517,8 @@ No description
 TwoHandWeapon
 ^^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
+:Needs: ``ItemType`` = base:weapon
 
 `TwoHandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-twohandweapon>`_ marks the weapon as a two-handed weapon. `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ gets a x1.3 penalty when the weapon is held one-handed instead of two handed. `RequiresEquippedBothHands <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-requiresequippedbothhands>`_ enforces the equip restriction in the context menu.
 
@@ -3476,7 +3527,7 @@ TwoHandWeapon
 TwoWay
 ^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3485,7 +3536,7 @@ No description
 Type
 ^^^^
 
-    Type: Any
+:Type: Any
 
 Used to set the class of the item, which will influence parameters available.
 
@@ -3500,7 +3551,7 @@ Used to set the class of the item, which will influence parameters available.
 UnequipSound
 ^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -3509,7 +3560,7 @@ No description
 UnhappyChange
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3518,8 +3569,8 @@ No description
 UseDelta
 ^^^^^^^^
 
-    Type: float
-    Default: 0.03125
+:Type: float
+:Default: ``0.03125``
 
 No description
 
@@ -3528,8 +3579,9 @@ No description
 UseEndurance
 ^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
+:Needs: ``ItemType`` = base:weapon
 
 If ``true``\ , the weapon will consume stamina on use based on the weapon `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_\ , `EnduranceMod <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-endurancemod>`_\ , fatigue modifiers and traits.
 
@@ -3540,7 +3592,7 @@ For guns, it is preferable to keep this as ``False``.
 UsesBattery
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3549,7 +3601,7 @@ No description
 UseSelf
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3558,8 +3610,8 @@ No description
 UseWhileEquipped
 ^^^^^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 No description
 
@@ -3568,7 +3620,7 @@ No description
 UseWhileUnequipped
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3577,7 +3629,7 @@ No description
 UseWorldItem
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3586,7 +3638,7 @@ No description
 VehiclePartModel
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3595,7 +3647,7 @@ No description
 VehicleType
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3604,8 +3656,8 @@ No description
 VisionModifier
 ^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3614,7 +3666,7 @@ No description
 VisualAid
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3623,7 +3675,7 @@ No description
 WaterResistance
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3632,7 +3684,7 @@ No description
 WeaponHitArmourSound
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3641,8 +3693,8 @@ No description
 WeaponLength
 ^^^^^^^^^^^^
 
-    Type: float
-    Default: 0.4
+:Type: float
+:Default: ``0.4``
 
 No description
 
@@ -3651,8 +3703,9 @@ No description
 WeaponReloadType
 ^^^^^^^^^^^^^^^^
 
-    Type: string
-    Default: handgun
+:Type: string
+:Default: ``handgun``
+:Needs: ``ItemType`` = base:weapon; ``IsAimedFirearm`` = True
 
 See :ref:`item-ammotype` for more details.
 
@@ -3661,7 +3714,7 @@ See :ref:`item-ammotype` for more details.
 WeaponSprite
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3670,7 +3723,7 @@ No description
 WeaponSpritesByIndex
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3679,8 +3732,8 @@ No description
 WeaponWeight
 ^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 No description
 
@@ -3689,8 +3742,8 @@ No description
 Weight
 ^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 Sets the weight of the item, or more commonly refered to as a encumbrance. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``.
 
@@ -3699,7 +3752,7 @@ Sets the weight of the item, or more commonly refered to as a encumbrance. `Weap
 WeightEmpty
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3708,7 +3761,7 @@ No description
 WeightModifier
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3717,7 +3770,7 @@ No description
 WeightReduction
 ^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3726,7 +3779,7 @@ No description
 Wet
 ^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3735,7 +3788,7 @@ No description
 WetCooldown
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3744,7 +3797,7 @@ No description
 wheelFriction
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3753,7 +3806,7 @@ No description
 WindResistance
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3762,7 +3815,7 @@ No description
 WithDrainable
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3771,7 +3824,7 @@ No description
 WithoutDrainable
 ^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3780,7 +3833,7 @@ No description
 WorldObjectSprite
 ^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3789,7 +3842,7 @@ No description
 WorldRender
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -3798,7 +3851,7 @@ No description
 WorldStaticModel
 ^^^^^^^^^^^^^^^^
 
-    Type: string (block: :ref:`model`, with :ref:`module`)
+:Type: string (block: :ref:`model`, with :ref:`module`)
 
 No description
 
@@ -3807,7 +3860,7 @@ No description
 WorldStaticModelsByIndex
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: array (array of string, separator: ';')
+:Type: array (array of string, separator: ';')
 
 No description
 

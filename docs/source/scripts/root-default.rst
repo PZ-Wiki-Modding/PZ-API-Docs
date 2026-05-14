@@ -36,7 +36,7 @@ Parameters
 VERSION
 ^^^^^^^
 
-    Type: integer
+:Type: integer
 
 The version of the default.txt file. Keep it at 1.
 

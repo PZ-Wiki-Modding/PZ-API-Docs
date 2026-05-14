@@ -28,7 +28,7 @@ Parameters
 sign
 ^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -37,7 +37,7 @@ No description
 type
 ^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 

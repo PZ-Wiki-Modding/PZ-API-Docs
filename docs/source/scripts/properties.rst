@@ -28,7 +28,7 @@ Parameters
 alcohol
 ^^^^^^^
 
-    Type: float
+:Type: float
 
 No description
 
@@ -37,7 +37,7 @@ No description
 Calories
 ^^^^^^^^
 
-    Type: float
+:Type: float
 
 The number of calories this fluid provides when consumed.
 
@@ -46,7 +46,7 @@ The number of calories this fluid provides when consumed.
 Carbohydrates
 ^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of carbohydrates this fluid provides when consumed.
 
@@ -55,7 +55,7 @@ The amount of carbohydrates this fluid provides when consumed.
 enduranceChange
 ^^^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of endurance given back.
 
@@ -64,7 +64,7 @@ The amount of endurance given back.
 fatigueChange
 ^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of fatigue this fluid changes when consumed. Positive values increase fatigue, negative values decrease it.
 
@@ -73,7 +73,7 @@ The amount of fatigue this fluid changes when consumed. Positive values increase
 fluReduction
 ^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 No description
 
@@ -82,7 +82,7 @@ No description
 foodSicknessChange
 ^^^^^^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of food sickness provides.
 
@@ -91,7 +91,7 @@ The amount of food sickness provides.
 HungerChange
 ^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of hunger this fluid changes when consumed. Positive values increase hunger, negative values decrease it.
 
@@ -100,7 +100,7 @@ The amount of hunger this fluid changes when consumed. Positive values increase 
 Lipids
 ^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of lipids (fats) this fluid provides when consumed.
 
@@ -109,7 +109,7 @@ The amount of lipids (fats) this fluid provides when consumed.
 painReduction
 ^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of pain this fluid reduces when consumed.
 
@@ -118,7 +118,7 @@ The amount of pain this fluid reduces when consumed.
 Proteins
 ^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of proteins this fluid provides when consumed.
 
@@ -127,7 +127,7 @@ The amount of proteins this fluid provides when consumed.
 StressChange
 ^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of stress this fluid changes when consumed. Positive values increase stress, negative values decrease it.
 
@@ -136,7 +136,7 @@ The amount of stress this fluid changes when consumed. Positive values increase 
 ThirstChange
 ^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of thirst this fluid changes when consumed. Positive values increase thirst, negative values decrease it.
 
@@ -145,7 +145,7 @@ The amount of thirst this fluid changes when consumed. Positive values increase 
 UnhappyChange
 ^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 The amount of unhappiness this fluid changes when consumed. Positive values increase unhappiness, negative values decrease it.
 

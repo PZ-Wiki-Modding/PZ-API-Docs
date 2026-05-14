@@ -28,8 +28,8 @@ Parameters
 afterGearChange
 ^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 0.0
+:Type: float
+:Default: ``0.0``
 
 No description
 
@@ -38,8 +38,8 @@ No description
 gearChange
 ^^^^^^^^^^
 
-    Type: float
-    Default: 0.0
+:Type: float
+:Default: ``0.0``
 
 No description
 

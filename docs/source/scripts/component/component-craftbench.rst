@@ -28,7 +28,7 @@ Parameters
 Recipes
 ^^^^^^^
 
-    Type: array (array of string, separator: ';')
+:Type: array (array of string, separator: ';')
 
 The tag name for this crafting bench to be used in the `tags <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#tags>`_ parameter of a `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ script.
 

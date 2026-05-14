@@ -147,8 +147,8 @@ Parameters
 AllowBatchCraft
 ^^^^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 The AllowBatchCraft parameter is used to allow the recipe to be crafted in batches. This will make a slider appear on the crafting to craft multiple ones at once. Needs to be a boolean and default is true, set to false to disable batch craft.
 
@@ -157,7 +157,7 @@ The AllowBatchCraft parameter is used to allow the recipe to be crafted in batch
 AutoLearnAll
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 The ``autoLearnAll`` parameter specifies that all the provided skills and their associated level need to be reached to learn the recipe. The parameter should be formated this way:
 
@@ -182,7 +182,7 @@ For example:
 AutoLearnAny
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 The autoLearnAny parameter specifies that at least one of the skills and its associated level need to be reached to learn the recipe. The parameter should be formated this way:
 
@@ -207,7 +207,7 @@ For example:
 category
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in the crafting menu. Currently doesn't support translations (confirmed last 42.15).
 
@@ -216,7 +216,7 @@ The category under which the recipe will be listed in the crafting menu. Helps t
 Icon
 ^^^^
 
-    Type: Any
+:Type: Any
 
 Specifies the icon associated with this crafting recipe. The icon needs to be located in ``media/textures``\ , for example ``media/textures/myIcon.png`` will be refered to as ``Icon = myIcon,``.
 
@@ -227,7 +227,7 @@ This seems to be used only once in the vanilla recipes with the entry ``Icon = I
 MetaRecipe
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 A meta recipe is used to link two recipes so that if the meta recipe is known then this recipe will be known.
 
@@ -236,7 +236,7 @@ A meta recipe is used to link two recipes so that if the meta recipe is known th
 NeedToBeLearn
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Whether the recipe needs to be learned before it can be crafted.
 
@@ -245,7 +245,7 @@ Whether the recipe needs to be learned before it can be crafted.
 OnCreate
 ^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 The OnCreate parameter allows the referencing of a Lua function that will be called when the crafting recipe is finished. This can be used to add custom behavior to the crafting recipe when it gets finished. The Lua function needs to be a `global function <https://pzwiki.net/wiki/Lua_(language>`_\ #Local_and_global), it can also be in a global table. The vanilla game OnCreate's are stored in the `Java <https://pzwiki.net/wiki/Java>`_.
 
@@ -264,7 +264,7 @@ The ``craftRecipeData`` is a `java object <https://demiurgequantified.github.io/
 OnTest
 ^^^^^^
 
-    Type: Any
+:Type: Any
 
 The OnTest parameter is used to define a Lua function that will be called to verify if the recipe can be crafted. If the function returns true, the recipe can be crafted but if the function returns false, the recipe cannot be crafted. The Lua function needs to be a `global function <https://pzwiki.net/wiki/Lua_(language>`_\ #Local_and_global), it can also be in a global table. The vanilla game OnTest's are stored in the `Java <https://pzwiki.net/wiki/Java>`_.
 
@@ -284,7 +284,7 @@ The function should have the following structure:
 overlayStyle
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -293,7 +293,7 @@ No description
 recipeGroup
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -302,7 +302,7 @@ No description
 ResearchAny
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -311,7 +311,7 @@ No description
 ResearchSkillLevel
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -320,7 +320,7 @@ No description
 SkillRequired
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Specifies the skill level required to perform this crafting action. It should be formated this way:
 
@@ -345,7 +345,7 @@ For example:
 tags
 ^^^^
 
-    Type: array (required)
+:Type: array **(required)**
 
 Specifies specific conditions which need to be respected to craft this item. At least one crafting bench tag is necessary for the craft to be recognized, such as ``AnySurfaceCraft``. The syntax is as follows:
 
@@ -370,8 +370,8 @@ A crafting bench tag can be created by adding a `component CraftBench <https://p
 time
 ^^^^
 
-    Type: Any
-    Default: 50
+:Type: Any
+:Default: ``50``
 
 The time it takes to craft the item, not using a specific unit of time.
 
@@ -380,7 +380,7 @@ The time it takes to craft the item, not using a specific unit of time.
 timedAction
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Refers to a timed action script block, used to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
 
@@ -389,7 +389,7 @@ Refers to a timed action script block, used to trigger during the crafting proce
 Tooltip
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Description of the crafting which is shown in the crafting menu.
 
@@ -398,7 +398,7 @@ Description of the crafting which is shown in the crafting menu.
 xpAward
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Specifies the experience points awarded for crafting this item. The parameter should be formated this way:
 

@@ -28,7 +28,7 @@ Parameters
 openable
 ^^^^^^^^
 
-    Type: boolean
+:Type: boolean
 
 No description
 

@@ -34,7 +34,7 @@ Parameters
 demoVideo
 ^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 `Video file <https://pzwiki.net/wiki/File_formats#Video_format>`_ used to showcase the map when selecting it.
 
@@ -43,7 +43,7 @@ demoVideo
 description
 ^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Description of the map.
 
@@ -52,7 +52,7 @@ Description of the map.
 fixed2x
 ^^^^^^^
 
-    Type: Any
+:Type: Any
 
 Boolean which fixes rendering issues. Leave it as ``true`` if you are not sure.
 
@@ -61,7 +61,7 @@ Boolean which fixes rendering issues. Leave it as ``true`` if you are not sure.
 lots
 ^^^^
 
-    Type: Any
+:Type: Any
 
 Refers to the world map the map will be loaded into. For a map which is inside the vanilla world map, use ``lots=Muldraugh, KY``.
 
@@ -70,7 +70,7 @@ Refers to the world map the map will be loaded into. For a map which is inside t
 title
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 Title of the map.
 
@@ -79,7 +79,7 @@ Title of the map.
 zoomS
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 Zoom parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
@@ -88,7 +88,7 @@ Zoom parameter used to define the position of the camera on the world map when c
 zoomX
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 Position parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
@@ -97,7 +97,7 @@ Position parameter used to define the position of the camera on the world map wh
 zoomY
 ^^^^^
 
-    Type: Any
+:Type: Any
 
 Position parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 

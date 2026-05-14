@@ -41,7 +41,7 @@ Parameters
 animalTrailerSize
 ^^^^^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 Sets the maximum total encumbrance from animals in the animal trailer. The horsebox and livestock trailers both use 500.
 
@@ -50,7 +50,7 @@ Sets the maximum total encumbrance from animals in the animal trailer. The horse
 brakingForce
 ^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -59,7 +59,7 @@ No description
 carMechanicsOverlay
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -68,7 +68,7 @@ No description
 carModelName
 ^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 Set the `translation <https://pzwiki.net/wiki/Translation>`_ key for the car name. The translation entry needs to be stored inside the IG_UI translation file and have ``IGUI_VehicleName`` as a prefix. 
 
@@ -91,7 +91,7 @@ With the translation entry inside ``IG_UI.json``\ :
 centerOfMassOffset
 ^^^^^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -100,8 +100,8 @@ No description
 engineForce
 ^^^^^^^^^^^
 
-    Type: float
-    Default: 3000
+:Type: float
+:Default: ``3000``
 
 engineForce is 10x what is displayed in the mechanics menu for horsepower.
 
@@ -110,8 +110,8 @@ engineForce is 10x what is displayed in the mechanics menu for horsepower.
 engineIdleSpeed
 ^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 750.0
+:Type: float
+:Default: ``750.0``
 
 No description
 
@@ -120,8 +120,8 @@ No description
 engineLoudness
 ^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 100
+:Type: integer
+:Default: ``100``
 
 No description
 
@@ -130,8 +130,8 @@ No description
 engineQuality
 ^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 100
+:Type: integer
+:Default: ``100``
 
 No description
 
@@ -140,7 +140,7 @@ No description
 engineRepairLevel
 ^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
 
 Required `mechanics skill <https://pzwiki.net/wiki/Mechanics>`_ level for repearing the vehicle's engine.
 
@@ -149,8 +149,8 @@ Required `mechanics skill <https://pzwiki.net/wiki/Mechanics>`_ level for repear
 engineRPMType
 ^^^^^^^^^^^^^
 
-    Type: string
-    Default: jeep
+:Type: string
+:Default: ``jeep``
 
 Sets the engine to a RPM type (\ `See vehicleEngineRPM block <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicleenginerpm.html>`_\ ).
 
@@ -159,7 +159,7 @@ Sets the engine to a RPM type (\ `See vehicleEngineRPM block <https://pz-wiki-mo
 extents
 ^^^^^^^
 
-    Type: array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 No description
 
@@ -168,7 +168,7 @@ No description
 extentsOffset
 ^^^^^^^^^^^^^
 
-    Type: array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 No description
 
@@ -177,8 +177,8 @@ No description
 forcedColor
 ^^^^^^^^^^^
 
-    Type: array (array of float, separator: ' ')
-    Default: -1 -1 -1
+:Type: array (array of float, separator: ' ')
+:Default: ``-1 -1 -1``
 
 Sets a forced HSV color on the vehicle. The value needs to be of format ``hue sat val``.
 
@@ -187,8 +187,8 @@ Sets a forced HSV color on the vehicle. The value needs to be of format ``hue sa
 frontEndDurability
 ^^^^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 100
+:Type: integer
+:Default: ``100``
 
 It is unclear what that parameter does but as of 42.16.3, the game uses ``frontEndHealth`` which is a mistake.
 
@@ -197,7 +197,7 @@ It is unclear what that parameter does but as of 42.16.3, the game uses ``frontE
 frontEndHealth
 ^^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -214,8 +214,8 @@ No description
 gearRatio1
 ^^^^^^^^^^
 
-    Type: float
-    Default: 6.44
+:Type: float
+:Default: ``6.44``
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -224,8 +224,8 @@ See :ref:`vehicle-gearratiocount` for more details.
 gearRatio2
 ^^^^^^^^^^
 
-    Type: Any
-    Default: 4.1
+:Type: Any
+:Default: ``4.1``
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -234,8 +234,8 @@ See :ref:`vehicle-gearratiocount` for more details.
 gearRatio3
 ^^^^^^^^^^
 
-    Type: Any
-    Default: 2.29
+:Type: Any
+:Default: ``2.29``
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -244,8 +244,8 @@ See :ref:`vehicle-gearratiocount` for more details.
 gearRatio4
 ^^^^^^^^^^
 
-    Type: Any
-    Default: 1.47
+:Type: Any
+:Default: ``1.47``
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -254,8 +254,8 @@ See :ref:`vehicle-gearratiocount` for more details.
 gearRatio5
 ^^^^^^^^^^
 
-    Type: Any
-    Default: 1.0
+:Type: Any
+:Default: ``1.0``
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -264,7 +264,7 @@ See :ref:`vehicle-gearratiocount` for more details.
 gearRatio6
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -273,7 +273,7 @@ See :ref:`vehicle-gearratiocount` for more details.
 gearRatio7
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -282,7 +282,7 @@ See :ref:`vehicle-gearratiocount` for more details.
 gearRatio8
 ^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -291,8 +291,8 @@ See :ref:`vehicle-gearratiocount` for more details.
 gearRatioCount
 ^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 4
+:Type: integer
+:Default: ``4``
 
 `gearRatioCount <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratiocount>`_ will set the number of gear ratios the car can have. The vanilla cars use 4, while sport cars use 5. 
 
@@ -316,8 +316,8 @@ Those ratios take floats
 gearRatioR
 ^^^^^^^^^^
 
-    Type: float
-    Default: 7.09
+:Type: float
+:Default: ``7.09``
 
 See :ref:`vehicle-gearratiocount` for more details.
 
@@ -326,8 +326,8 @@ See :ref:`vehicle-gearratiocount` for more details.
 hasLighter
 ^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 Sets whenever this car has a lighter to light a cigarette.
 
@@ -336,8 +336,8 @@ Sets whenever this car has a lighter to light a cigarette.
 hasSiren
 ^^^^^^^^
 
-    Type: boolean
-    Useless: ✓
+:Type: boolean
+:Attributes: Useless
 
 No description
 
@@ -346,8 +346,8 @@ No description
 isSmallVehicle
 ^^^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 No description
 
@@ -356,8 +356,8 @@ No description
 mass
 ^^^^
 
-    Type: float
-    Default: 800
+:Type: float
+:Default: ``800``
 
 Sets the mass of the vehicle which will notably be used for various physic calculations. 
 
@@ -368,8 +368,8 @@ By default is equal to 800. As a reference, a car has a mass of around 800, pick
 maxSpeed
 ^^^^^^^^
 
-    Type: float
-    Default: 20.0
+:Type: float
+:Default: ``20.0``
 
 No description
 
@@ -378,8 +378,8 @@ No description
 maxSpeedReverse
 ^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 40.0
+:Type: float
+:Default: ``40.0``
 
 No description
 
@@ -388,8 +388,8 @@ No description
 maxSuspensionTravelCm
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 500.0
+:Type: float
+:Default: ``500.0``
 
 No description
 
@@ -398,7 +398,7 @@ No description
 mechanicType
 ^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
 
 Defines what class the vehicle is, that is 1 for standard, 2 for heavy-duty and 3 for performance.
 
@@ -413,7 +413,7 @@ Allowed values:
 neverSpawnKey
 ^^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
 
 Sets whenever this vehicle will never have a key spawning in buildings or on zombies spawning around the vehicle.
 
@@ -422,7 +422,7 @@ Sets whenever this vehicle will never have a key spawning in buildings or on zom
 notKillCrops
 ^^^^^^^^^^^^
 
-    Type: boolean
+:Type: boolean
 
 Sets whenever the vehicle will destroy crops it is driving on.
 
@@ -431,8 +431,8 @@ Sets whenever the vehicle will destroy crops it is driving on.
 offRoadEfficiency
 ^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 Affects horsepower reduction when offroad (Higher = less horsepower reduction when offroad.)
 
@@ -441,7 +441,7 @@ Affects horsepower reduction when offroad (Higher = less horsepower reduction wh
 physicsChassisShape
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: array
+:Type: array
 
 Defines the hitbox of the vehicle. The value should be three numbers defining the dimensions of a box:
 
@@ -462,7 +462,7 @@ When setting `useChassisPhysicsCollision <https://pz-wiki-modding.github.io/PZ-A
 playerDamageProtection
 ^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
+:Type: float
 
 Multiplier applied to the amount of damage the player takes when crashing in the car. A value of 1 doesn't change the damage, but a lower value reduces it and a higher value increases it.
 
@@ -471,8 +471,8 @@ Multiplier applied to the amount of damage the player takes when crashing in the
 rearEndDurability
 ^^^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 100
+:Type: integer
+:Default: ``100``
 
 It is unclear what that parameter does but as of 42.16.3, the game uses ``rearEndHealth`` which is a mistake.
 
@@ -481,7 +481,7 @@ It is unclear what that parameter does but as of 42.16.3, the game uses ``rearEn
 rearEndHealth
 ^^^^^^^^^^^^^
 
-    Type: Any
+:Type: Any
 
 No description
 
@@ -498,8 +498,8 @@ No description
 rollInfluence
 ^^^^^^^^^^^^^
 
-    Type: float
-    Default: 0.1
+:Type: float
+:Default: ``0.1``
 
 No description
 
@@ -508,8 +508,8 @@ No description
 seats
 ^^^^^
 
-    Type: integer
-    Default: 2
+:Type: integer
+:Default: ``2``
 
 Sets the number of seats this vehicle can have. A seat `part <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/part.html>`_ needs to be created which will hold a `container <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container>`_ block with a parameter `seat <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-seat>`_
 
@@ -518,7 +518,7 @@ Sets the number of seats this vehicle can have. A seat `part <https://pz-wiki-mo
 shadowExtents
 ^^^^^^^^^^^^^
 
-    Type: array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 No description
 
@@ -527,7 +527,7 @@ No description
 shadowOffset
 ^^^^^^^^^^^^
 
-    Type: array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 No description
 
@@ -536,7 +536,7 @@ No description
 specialKeyRing
 ^^^^^^^^^^^^^^
 
-    Type: array
+:Type: array
 
 ``specialKeyRing`` needs to reference a keyring item to spawn. ``specialKeyRingChance`` is used to set the chance to spawn this keyring.
 
@@ -545,7 +545,7 @@ specialKeyRing
 specialKeyRingChance
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: integer
+:Type: integer
 
 See :ref:`vehicle-specialkeyring` for more details.
 
@@ -554,8 +554,8 @@ See :ref:`vehicle-specialkeyring` for more details.
 specialLootChance
 ^^^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 8
+:Type: integer
+:Default: ``8``
 
 No description
 
@@ -564,8 +564,8 @@ No description
 steeringClamp
 ^^^^^^^^^^^^^
 
-    Type: float
-    Default: 0.4
+:Type: float
+:Default: ``0.4``
 
 Maximum angle you can turn the front wheels left/right
 
@@ -574,8 +574,8 @@ Maximum angle you can turn the front wheels left/right
 steeringIncrement
 ^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 0.04
+:Type: float
+:Default: ``0.04``
 
 No description
 
@@ -584,8 +584,8 @@ No description
 stoppingMovementForce
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 1.0
+:Type: float
+:Default: ``1.0``
 
 A drag factor applied to the vehicle at all times
 
@@ -594,9 +594,9 @@ A drag factor applied to the vehicle at all times
 storageCapacity
 ^^^^^^^^^^^^^^^
 
-    Type: integer
-    Default: 100
-    Useless: ✓
+:Type: integer
+:Default: ``100``
+:Attributes: Useless
 
 No description
 
@@ -605,8 +605,8 @@ No description
 suspensionCompression
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 4.4
+:Type: float
+:Default: ``4.4``
 
 No description
 
@@ -615,8 +615,8 @@ No description
 suspensionDamping
 ^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 2.3
+:Type: float
+:Default: ``2.3``
 
 No description
 
@@ -625,8 +625,8 @@ No description
 suspensionRestLength
 ^^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 0.6
+:Type: float
+:Default: ``0.6``
 
 No description
 
@@ -635,8 +635,8 @@ No description
 suspensionStiffness
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: float
-    Default: 20.0
+:Type: float
+:Default: ``20.0``
 
 No description
 
@@ -645,8 +645,8 @@ No description
 template
 ^^^^^^^^
 
-    Type: Any
-    Can be duplicated: ✓
+:Type: Any
+:Attributes: Can be duplicated
 
 Uses a template script data for this vehicle.
 
@@ -655,8 +655,8 @@ Uses a template script data for this vehicle.
 template!
 ^^^^^^^^^
 
-    Type: Any
-    Can be duplicated: ✓
+:Type: Any
+:Attributes: Can be duplicated
 
 No description
 
@@ -665,7 +665,7 @@ No description
 textureDamage1Overlay
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -674,7 +674,7 @@ No description
 textureDamage1Shell
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -683,7 +683,7 @@ No description
 textureDamage2Overlay
 ^^^^^^^^^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -692,7 +692,7 @@ No description
 textureDamage2Shell
 ^^^^^^^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -701,7 +701,7 @@ No description
 textureLights
 ^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -710,7 +710,7 @@ No description
 textureMask
 ^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -719,8 +719,8 @@ No description
 textureMaskEnable
 ^^^^^^^^^^^^^^^^^
 
-    Type: boolean
-    Useless: ✓
+:Type: boolean
+:Attributes: Useless
 
 No description
 
@@ -729,7 +729,7 @@ No description
 textureRust
 ^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -738,7 +738,7 @@ No description
 textureShadow
 ^^^^^^^^^^^^^
 
-    Type: string
+:Type: string
 
 No description
 
@@ -747,8 +747,8 @@ No description
 useChassisPhysicsCollision
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Type: boolean
-    Default: True
+:Type: boolean
+:Default: ``True``
 
 By default ``true`` which makes the vehicle use the `physicsChassisShape <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-physicschassisshape>`_ for its hitbox. If set to false, it will instead use the `physics <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/physics.html>`_ blocks as the hitbox of the vehicle.
 
@@ -757,8 +757,8 @@ By default ``true`` which makes the vehicle use the `physicsChassisShape <https:
 wheelFriction
 ^^^^^^^^^^^^^
 
-    Type: float
-    Default: 800.0
+:Type: float
+:Default: ``800.0``
 
 It is 1.2 to 1.9 for all vanilla vehicles and controls turning and stopping (but not acceleration) tire friction limits, with 1.4 being the most common. Values over 1.8 can cause vehicles to flip in sharp turns. (Likely depends somewhat on center of mass)
 
@@ -767,7 +767,7 @@ It is 1.2 to 1.9 for all vanilla vehicles and controls turning and stopping (but
 zombieType
 ^^^^^^^^^^
 
-    Type: array (array of string, separator: ';')
+:Type: array (array of string, separator: ';')
 
 Used to chose what zombie may spawn around the vehicle and is likely to have the key of the vehicle.
 
