@@ -7,3 +7,6 @@
 [submodule "pz-translation-data"]
 	path = pz-translation-data
 	url = https://github.com/PZ-Wiki-Modding/pz-translation-data
+[submodule "pz-java-parser"]
+	path = pz-java-parser
+	url = https://github.com/PZ-Wiki-Modding/pz-java-parser

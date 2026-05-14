@@ -18,16 +18,16 @@ clean:
 
 generate_scripts:
 	source ./.venv/bin/activate
-	python3 ./chores/generateScriptsDocs.py
+	python3 ./chores/scripts/generateScriptsDocs.py
 
 generate_distributions:
 	source ./.venv/bin/activate
-	python3 ./chores/generateRoomsDocs.py
-	python3 ./chores/generateRoomsDistributionDocs.py
-	python3 ./chores/generateItemPickerContainerPropertiesDocs.py
-	python3 ./chores/generateProceduralDistributionsDocs.py
-	python3 ./chores/generateLanguageCodesDocs.py
-	python3 ./chores/generateTranslationFilesDocs.py
+	python3 ./chores/distributions/generateRoomsDocs.py
+	python3 ./chores/distributions/generateRoomsDistributionDocs.py
+	python3 ./chores/distributions/generateItemPickerContainerPropertiesDocs.py
+	python3 ./chores/distributions/generateProceduralDistributionsDocs.py
+	python3 ./chores/translations/generateLanguageCodesDocs.py
+	python3 ./chores/translations/generateTranslationFilesDocs.py
 
 generate: generate_scripts generate_distributions
 
