@@ -4,7 +4,6 @@ Generate colors documentation from colors.json and write to colors.rst
 """
 
 import json
-import os
 from pathlib import Path
 
 
@@ -73,8 +72,8 @@ Available colors accessible from Lua code or usable inside Scripts.
 .. list-table:: Colors
    :header-rows: 1
 
-   * - `Lua Field <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Colors.html#field-summary>`_
-     - Name
+   * - Name
+     - `Lua Field <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Colors.html#field-summary>`_
      - RGB Hex
      - Scripts Usage
 """
@@ -83,8 +82,8 @@ Available colors accessible from Lua code or usable inside Scripts.
     sorted_colors = sorted(colors, key=lambda x: x['field'])
     
     for color in sorted_colors:
-        field = color.get('field', '')
         name = color.get('name', '')
+        field = color.get('field', '')
         r = color.get('r', 0.0)
         g = color.get('g', 0.0)
         b = color.get('b', 0.0)
@@ -93,8 +92,8 @@ Available colors accessible from Lua code or usable inside Scripts.
         hex_color = rgb_to_hex(r, g, b)
         scripts_usage = get_scripts_usage(fct)
         
-        content += f"   * - ``Colors.{field}``\n"
         content += f"     - {name}\n"
+        content += f"   * - ``Colors.{field}``\n"
         content += f"     - ``{hex_color}``\n"
         content += f"     - {scripts_usage}\n"
     
