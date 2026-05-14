@@ -3,7 +3,7 @@
 Properties
 ==========
 
-Define properties for a fluid script.
+Define stat changes applied to the player drinking this `fluid <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/fluid.html>`_.
 
 
 Hierarchy

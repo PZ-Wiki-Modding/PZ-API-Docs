@@ -10,3 +10,6 @@
 [submodule "pz-java-parser"]
 	path = pz-java-parser
 	url = https://github.com/PZ-Wiki-Modding/pz-java-parser
+[submodule "pz-rosetta-source"]
+	path = pz-rosetta-source
+	url = https://github.com/PZ-Umbrella/pz-rosetta-source

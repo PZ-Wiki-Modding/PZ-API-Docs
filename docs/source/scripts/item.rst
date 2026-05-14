@@ -3357,7 +3357,7 @@ For example:
 
    Tags = base:egg;base:hasmetal,
 
-You can find a list of all tags on the `wiki <https://pzwiki.net/wiki/Item_tag>`_.
+You can find a list of all tags on the `wiki <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_. The wiki also provides a list of every items (per full type) associated to tags `here <https://pzwiki.net/wiki/Item_tag>`_.
 
 To create a custom tag, you have to first create its definition in your mod's `registries <https://pzwiki.net/wiki/Registries>`_. In the ``registries.lua`` file, define the following by renaming the various elements to fit your mod name, id etc:
 

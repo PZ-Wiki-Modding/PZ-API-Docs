@@ -43,8 +43,12 @@ Defines the strength of the poison.
 
 Allowed values:
 
-    - ``Deadly``
+    - ``None``
+    - ``Mild``
     - ``Medium``
+    - ``Severe``
+    - ``Extreme``
+    - ``Deadly``
 
 .. _poison-minamount:
 

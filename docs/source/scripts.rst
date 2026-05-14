@@ -15,6 +15,7 @@ This section provides detailed documentation for all available `script <https://
    scripts/area
    scripts/attachment
    scripts/blend
+   scripts/blendblacklist
    scripts/blendwhitelist
    scripts/categories
    scripts/character_profession_definition
