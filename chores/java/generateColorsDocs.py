@@ -67,7 +67,7 @@ def generate_rst_content(colors: list) -> str:
     content = """Colors
 ======
 
-Available colors accessible from Lua code or usable inside Scripts.
+Available colors accessible from Lua code or usable inside Scripts. Custom colors can be defined with the `colors <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/colors.html>`_ block.
 
 .. list-table:: Colors
    :header-rows: 1
