@@ -73,7 +73,7 @@ Available colors accessible from Lua code or usable inside Scripts. Custom color
    :header-rows: 1
 
    * - Name
-     - `Lua Field <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Colors.html#field-summary>`_
+     - `Field <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Colors.html#field-summary>`_
      - RGB Hex
      - Scripts Usage
 """

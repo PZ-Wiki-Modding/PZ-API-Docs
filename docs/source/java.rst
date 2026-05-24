@@ -10,3 +10,5 @@ This documentation provides different data from parsing the decompiled Java code
    java/action_sound_time
    java/colors
    java/item_tags
+   java/magazine_subjects
+   java/metabolics

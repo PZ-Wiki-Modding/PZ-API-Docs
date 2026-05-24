@@ -1,13 +1,13 @@
-Action Sound Time
-==================
+ActionSoundTime
+===============
 
-Available action sound time events accessible for :ref:`timedaction-soundtime`.
+Available `action sound time <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ActionSoundTime.html>`_ events accessible for :ref:`timedaction-soundtime`.
 
 .. list-table:: Action Sound Time Events
    :widths: 30 30
    :header-rows: 1
 
-   * - Enum
+   * - `Enum <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ActionSoundTime.html#enum-constant-summary>`_
      - Script Name
    * - ``ACTION_START``
      - ``action_start``
