@@ -46,10 +46,10 @@ def generate_action_sound_time_docs():
 def generate_rst_content(action_sound_time_data: list) -> str:
     """Generate RST formatted content for action sound time."""
     
-    content = """Action Sound Time
-==================
+    content = """ActionSoundTime
+===============
 
-Available action sound time events accessible for :ref:`timedaction-soundtime`.
+Available [action sound time](https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ActionSoundTime.html) events accessible for :ref:`timedaction-soundtime`.
 
 .. list-table:: Action Sound Time Events
    :widths: 30 30
