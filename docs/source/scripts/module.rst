@@ -45,6 +45,7 @@ Hierarchy
 - :ref:`physicsshape`
 - :ref:`ragdoll`
 - :ref:`sound`
+- :ref:`soundtimeline`
 - :ref:`template`
 - :ref:`timedaction`
 - :ref:`vehicle`

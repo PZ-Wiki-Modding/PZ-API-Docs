@@ -11,6 +11,10 @@ Hierarchy
 
 This block does not require a parent block.
 
+**Possible Child Blocks:**
+
+- :ref:`tilegeometry`
+
 
 ID Properties
 -------------

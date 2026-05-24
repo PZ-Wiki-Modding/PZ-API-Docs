@@ -56,7 +56,7 @@ Parameters
 alarm
 ^^^^^
 
-:Type: array
+:Type: array (array of string, separator: ' ')
 :Needs: ``unknown``
 
 No description
@@ -185,8 +185,9 @@ master
 ^^^^^^
 
 :Type: string
+:Default: ``Primary``
 
-Links the sound to a master sound category, which controls the volume of all sounds linked to it.
+Links the sound to a sound handling setting, which controls the volume of all sounds linked to it. This seems to not properly work, as some methods that call sounds will simply note take into account the current sound settings. You can find a relevant request about this issue on the #mod_portal channel of the official Discord `here <https://discord.com/channels/136501320340209664/1476602902607954043/1505634480939860119>`_.
 
 Allowed values:
 

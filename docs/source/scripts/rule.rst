@@ -50,7 +50,7 @@ A value of ``1`` will have this rule used for the vegetation image, while a valu
 color
 ^^^^^
 
-:Type: array
+:Type: array (array of integer, separator: ' ')
 
 The RGB color to replace with the tiles in the ``tiles`` parameter. This is the color you painted in your image file to associate to this rule.
 

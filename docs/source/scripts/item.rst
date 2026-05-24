@@ -2048,9 +2048,10 @@ No description
 LearnedRecipes
 ^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: array (array of block, separator: ';')
+:Needs: ``ItemType`` = base:literature
 
-No description
+List of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ this item will teach the player when read.
 
 .. _item-lightdistance:
 

@@ -59,7 +59,7 @@ The cost of the profession when selecting a character. Negative values remove po
 GrantedRecipes
 ^^^^^^^^^^^^^^
 
-:Type: array
+:Type: array (array of string, separator: ';')
 
 A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
 
@@ -68,7 +68,7 @@ A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/cr
 GrantedTraits
 ^^^^^^^^^^^^^
 
-:Type: array
+:Type: array (array of string, separator: ';')
 
 A list of character trait IDs that are granted to the character when this profession is selected.
 

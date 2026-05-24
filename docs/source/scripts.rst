@@ -8,6 +8,7 @@ This section provides detailed documentation for all available `script <https://
    :titlesonly:
    :caption: Blocks
 
+   scripts/_component_block
    scripts/alias
    scripts/anim
    scripts/animation
@@ -22,13 +23,13 @@ This section provides detailed documentation for all available `script <https://
    scripts/character_trait_definition
    scripts/clip
    scripts/clock
+   scripts/colors
    scripts/component
    scripts/components
    scripts/container
    scripts/contextentry
    scripts/copyframe
    scripts/copyframes
-   scripts/craftlogic
    scripts/craftrecipe
    scripts/data
    scripts/door
@@ -82,12 +83,14 @@ This section provides detailed documentation for all available `script <https://
    scripts/rule
    scripts/skin
    scripts/sound
+   scripts/soundtimeline
    scripts/spritemodel
    scripts/style
    scripts/switchseat
    scripts/table
    scripts/template
    scripts/tile
+   scripts/tilegeometry
    scripts/tileset
    scripts/timedaction
    scripts/vehicle

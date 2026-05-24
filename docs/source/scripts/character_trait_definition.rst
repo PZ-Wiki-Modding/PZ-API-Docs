@@ -55,7 +55,7 @@ If true, this trait will be disabled in multiplayer games.
 GrantedRecipes
 ^^^^^^^^^^^^^^
 
-:Type: array
+:Type: array (array of string, separator: ';')
 
 A list of `craftRecipe <https://pzwiki.net/wiki/CraftRecipe>`_ IDs that are granted to the character when this trait is selected.
 
@@ -73,7 +73,7 @@ Defines whenever the trait is a profession trait or not, meaning it will only be
 MutuallyExclusiveTraits
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: array
+:Type: array (array of string, separator: ';')
 
 A list of trait IDs that are mutually exclusive with this trait. If one is selected, the others cannot be selected.
 
@@ -109,7 +109,7 @@ The translation key for the trait's name. The translation key needs to be in the
 XPBoosts
 ^^^^^^^^
 
-:Type: array
+:Type: object (object: string->>integer, kv: '=', pairs: ';')
 
 A list of experience boosts granted by this trait. Each entry should contain a skill name and the corresponding boost amount.
 

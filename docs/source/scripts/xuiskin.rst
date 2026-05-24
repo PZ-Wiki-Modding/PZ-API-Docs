@@ -13,12 +13,9 @@ Hierarchy
 
 - :ref:`module`
 
-**Required Child Blocks:**
-
-- :ref:`entity`
-
 **Possible Child Blocks:**
 
+- :ref:`colors`
 - :ref:`entity`
 - :ref:`imports`
 - :ref:`isbasecomponentpanel`

@@ -152,6 +152,16 @@ AllowBatchCraft
 
 The AllowBatchCraft parameter is used to allow the recipe to be crafted in batches. This will make a slider appear on the crafting to craft multiple ones at once. Needs to be a boolean and default is true, set to false to disable batch craft.
 
+.. _craftrecipe-animation:
+
+Animation
+^^^^^^^^^
+
+:Type: string
+:Attributes: Useless
+
+No description
+
 .. _craftrecipe-autolearnall:
 
 AutoLearnAll
@@ -202,6 +212,16 @@ For example:
 
    autoLearnAny = Carving:3;Maintenance:2,
 
+.. _craftrecipe-canwalk:
+
+CanWalk
+^^^^^^^
+
+:Type: boolean
+:Default: ``False``
+
+Whether the player can walk while crafting this recipe.
+
 .. _craftrecipe-category:
 
 category
@@ -240,6 +260,15 @@ NeedToBeLearn
 
 Whether the recipe needs to be learned before it can be crafted.
 
+.. _craftrecipe-onaddtomenu:
+
+OnAddToMenu
+^^^^^^^^^^^
+
+:Type: Any
+
+No description
+
 .. _craftrecipe-oncreate:
 
 OnCreate
@@ -258,6 +287,15 @@ The function should have the following structure:
    end
 
 The ``craftRecipeData`` is a `java object <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/entity/components/crafting/recipe/CraftRecipeData.html>`_ that contains the data of the crafting recipe. The ``character`` is the player character who is crafting the recipe.
+
+.. _craftrecipe-onfailed:
+
+OnFailed
+^^^^^^^^
+
+:Type: Any
+
+No description
 
 .. _craftrecipe-ontest:
 
@@ -278,6 +316,15 @@ The function should have the following structure:
    end
 
 ``item`` is an InventoryItem while ``character`` is the player trying to craft this recipe.
+
+.. _craftrecipe-onupdate:
+
+OnUpdate
+^^^^^^^^
+
+:Type: Any
+
+No description
 
 .. _craftrecipe-overlaystyle:
 
@@ -345,7 +392,7 @@ For example:
 tags
 ^^^^
 
-:Type: array **(required)**
+:Type: array (array of string, separator: ';') **(required)**
 
 Specifies specific conditions which need to be respected to craft this item. At least one crafting bench tag is necessary for the craft to be recognized, such as ``AnySurfaceCraft``. The syntax is as follows:
 

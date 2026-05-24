@@ -15,7 +15,7 @@ Hierarchy
 
 **Possible Child Blocks:**
 
-- :ref:`craftlogic`
+- :ref:`_component_block`
 
 
 ID Properties

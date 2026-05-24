@@ -441,7 +441,7 @@ Affects horsepower reduction when offroad (Higher = less horsepower reduction wh
 physicsChassisShape
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: array
+:Type: array (array of float, separator: ' ')
 
 Defines the hitbox of the vehicle. The value should be three numbers defining the dimensions of a box:
 
@@ -536,7 +536,7 @@ No description
 specialKeyRing
 ^^^^^^^^^^^^^^
 
-:Type: array
+:Type: array (array of string, separator: ';')
 
 ``specialKeyRing`` needs to reference a keyring item to spawn. ``specialKeyRingChance`` is used to set the chance to spawn this keyring.
 

@@ -12,6 +12,7 @@ Hierarchy
 **Valid Parent Blocks:**
 
 - :ref:`spritemodel`
+- :ref:`tilegeometry`
 
 **Possible Child Blocks:**
 
