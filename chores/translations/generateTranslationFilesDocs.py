@@ -50,7 +50,9 @@ def generate_rst_content(translation_files: dict) -> str:
     content = """Translation Files
 =================
 
-Available translation file types, their descriptions and properties.
+Available translation file types, their descriptions and properties. The majority of the time the key prefix for translation keys need to be included or they won't work. While this is not always the case, it's preferable to follow these guidelines to avoid issues with missing translations and to make it cleaner when referencing the translation keys in code or scripts.
+
+The pattern properties are patterns that the translation keys must match in order to be valid, they are simply more specific rules than just the prefix if you are interested in knowing the details. Those were defined from the vanilla translation files for the most part and might be incomplete or too specific.
 
 """
     
@@ -75,7 +77,7 @@ Available translation file types, their descriptions and properties.
         content += ".. list-table::\n"
         content += "   :widths: auto\n\n"
         content += f"   * - File Name\n"
-        content += f"     - ``{file_name}``\n"
+        content += f"     - ``{file_name}.json``\n"
         content += f"   * - Function\n"
         content += f"     - ``{function}``\n"
         
