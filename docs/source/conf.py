@@ -32,7 +32,7 @@ html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 html_title = f"{project} {game_version}"
 html_logo = None
-html_favicon = None
+html_favicon = "_static/favicon.ico"
 html_css_files = [
     'custom.css',
 ]
