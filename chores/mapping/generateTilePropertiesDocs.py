@@ -4,6 +4,7 @@ Generate tile properties documentation from tile_properties.json and write to ti
 """
 
 import json
+from m2r import convert
 from pathlib import Path
 
 
@@ -78,7 +79,7 @@ Reference documentation for tile properties that define the characteristics and 
         
         # Add description if present
         if description:
-            content += f"{description}\n\n"
+            content += f"{convert(description)}\n\n"
         
         # Add type information if present
         if prop_type:
