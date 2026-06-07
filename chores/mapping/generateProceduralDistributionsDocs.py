@@ -19,7 +19,7 @@ def generate_procedural_distributions_docs():
     script_dir = Path(__file__).parent.parent
     repo_root = script_dir.parent
     distributions_json_path = repo_root / "pz-lua-parser" / "out" / "procedural_distributions.json"
-    distributions_rst_path = repo_root / "docs" / "source" / "distribution" / "procedural_distributions.rst"
+    distributions_rst_path = repo_root / "docs" / "source" / "mapping" / "procedural_distributions.rst"
     
     # Read distributions from JSON
     if not distributions_json_path.exists():

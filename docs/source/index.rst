@@ -21,6 +21,6 @@ Documentation Structure
    :caption: Contents:
 
    scripts
+   mapping
    translations
-   distribution
    java
