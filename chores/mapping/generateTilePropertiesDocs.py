@@ -107,7 +107,7 @@ Reference documentation for tile properties that define the characteristics and 
         if default_value is not None and default_value != '':
             content += f"**Default:** ``{default_value}``\n\n"
 
-        if values.len() > 0:
+        if len(values) > 0:
             content += "**Possible values:**\n\n"
             for value in values:
                 content += f"- ``{value}``\n"
