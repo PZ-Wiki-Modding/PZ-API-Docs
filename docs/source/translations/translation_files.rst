@@ -1,7 +1,9 @@
 Translation Files
 =================
 
-Available translation file types, their descriptions and properties.
+Available translation file types, their descriptions and properties. The majority of the time the key prefix for translation keys need to be included or they won't work. While this is not always the case, it's preferable to follow these guidelines to avoid issues with missing translations and to make it cleaner when referencing the translation keys in code or scripts.
+
+The pattern properties are patterns that the translation keys must match in order to be valid, they are simply more specific rules than just the prefix if you are interested in knowing the details. Those were defined from the vanilla translation files for the most part and might be incomplete or too specific.
 
 .. _attributes-translation:
 
@@ -12,7 +14,7 @@ Attributes
    :widths: auto
 
    * - File Name
-     - ``Attributes``
+     - ``Attributes.json``
    * - Function
      - ``getText``
    * - Pattern Properties
@@ -27,7 +29,7 @@ BodyParts
    :widths: auto
 
    * - File Name
-     - ``BodyParts``
+     - ``BodyParts.json``
    * - Function
      - ``getText``
    * - Pattern Properties
@@ -42,7 +44,7 @@ Challenge
    :widths: auto
 
    * - File Name
-     - ``Challenge``
+     - ``Challenge.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -61,7 +63,7 @@ Translations used in the context menus of the game.
    :widths: auto
 
    * - File Name
-     - ``ContextMenu``
+     - ``ContextMenu.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -80,7 +82,7 @@ Dynamic radio translations.
    :widths: auto
 
    * - File Name
-     - ``DynamicRadio``
+     - ``DynamicRadio.json``
    * - Function
      - ``getRadioText``
    * - Key Prefix
@@ -99,7 +101,7 @@ Translations for entity UIs.
    :widths: auto
 
    * - File Name
-     - ``Entity``
+     - ``Entity.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -118,7 +120,7 @@ Translations for evolved recipe scripts.
    :widths: auto
 
    * - File Name
-     - ``EvolvedRecipeName``
+     - ``EvolvedRecipeName.json``
    * - Function
      - ``Translator.getItemEvolvedRecipeName``
    * - Pattern Properties
@@ -135,7 +137,7 @@ Translations for farming menus.
    :widths: auto
 
    * - File Name
-     - ``Farming``
+     - ``Farming.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -154,7 +156,7 @@ Translations for fluid related UI elements and fluid containers.
    :widths: auto
 
    * - File Name
-     - ``Fluids``
+     - ``Fluids.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -173,7 +175,7 @@ Game sounds and categories translations.
    :widths: auto
 
    * - File Name
-     - ``GameSound``
+     - ``GameSound.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -192,7 +194,7 @@ Translations for in-game user interface elements.
    :widths: auto
 
    * - File Name
-     - ``IG_UI``
+     - ``IG_UI.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -211,7 +213,7 @@ Translations for item scripts. The key needs to be the full type of the item.
    :widths: auto
 
    * - File Name
-     - ``ItemName``
+     - ``ItemName.json``
    * - Function
      - ``getItemNameFromFullType``
    * - Pattern Properties
@@ -228,7 +230,7 @@ A translation file for the map. The filename needs to refer the file "map.info" 
    :widths: auto
 
    * - File Name
-     - ``Location_Generic``
+     - ``Location_Generic.json``
    * - Function
      - ``N/A``
    * - Keys
@@ -245,7 +247,7 @@ Translations for make up.
    :widths: auto
 
    * - File Name
-     - ``MakeUp``
+     - ``MakeUp.json``
    * - Function
      - ``getText``
    * - Pattern Properties
@@ -260,7 +262,7 @@ MapLabel
    :widths: auto
 
    * - File Name
-     - ``MapLabel``
+     - ``MapLabel.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -279,7 +281,7 @@ Translations for the mod.info file. Possible keys are "name" and "description".
    :widths: auto
 
    * - File Name
-     - ``Mod``
+     - ``Mod.json``
    * - Function
      - ``N/A``
    * - Keys
@@ -296,7 +298,7 @@ Moodles status and descriptions translations
    :widths: auto
 
    * - File Name
-     - ``Moodles``
+     - ``Moodles.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -315,7 +317,7 @@ Moveable tiles as items translations.
    :widths: auto
 
    * - File Name
-     - ``Moveables``
+     - ``Moveables.json``
    * - Function
      - ``Translator.getMoveableDisplayName``
    * - Pattern Properties
@@ -332,7 +334,7 @@ Translations for multi stage build.
    :widths: auto
 
    * - File Name
-     - ``MultiStageBuild``
+     - ``MultiStageBuild.json``
    * - Function
      - ``Translator.getMultiStageBuild``
    * - Key Prefix
@@ -351,7 +353,7 @@ Text content for media items such as newspapers, describing their content.
    :widths: auto
 
    * - File Name
-     - ``Print_Media``
+     - ``Print_Media.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -370,7 +372,7 @@ Raw text content for media items such as newspapers, describing their content.
    :widths: auto
 
    * - File Name
-     - ``Print_Text``
+     - ``Print_Text.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -389,7 +391,7 @@ Radio translations with the key being a GUID of the radio text.
    :widths: auto
 
    * - File Name
-     - ``RadioData``
+     - ``RadioData.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -406,7 +408,7 @@ RecipeGroups
    :widths: auto
 
    * - File Name
-     - ``RecipeGroups``
+     - ``RecipeGroups.json``
    * - Function
      - ``Translator.getRecipeGroupName``
    * - Key Prefix
@@ -425,7 +427,7 @@ Translations for the craftRecipe scripts. The key needs to be the ID of the craf
    :widths: auto
 
    * - File Name
-     - ``Recipes``
+     - ``Recipes.json``
    * - Function
      - ``getRecipeDisplayName``
    * - Pattern Properties
@@ -442,7 +444,7 @@ Recorded media translations with the key being a GUID of the media text.
    :widths: auto
 
    * - File Name
-     - ``Recorded_Media``
+     - ``Recorded_Media.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -461,7 +463,7 @@ Sandbox options translations.
    :widths: auto
 
    * - File Name
-     - ``Sandbox``
+     - ``Sandbox.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -480,7 +482,7 @@ Survivor maps translations.
    :widths: auto
 
    * - File Name
-     - ``Stash``
+     - ``Stash.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -499,7 +501,7 @@ Survival guide translations.
    :widths: auto
 
    * - File Name
-     - ``SurvivalGuide``
+     - ``SurvivalGuide.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -518,7 +520,7 @@ All possible automatic character names. Used for random name generation of the p
    :widths: auto
 
    * - File Name
-     - ``SurvivorNames``
+     - ``SurvivorNames.json``
    * - Function
      - ``getText``
    * - Pattern Properties
@@ -535,7 +537,7 @@ Tooltips used for UIs.
    :widths: auto
 
    * - File Name
-     - ``Tooltip``
+     - ``Tooltip.json``
    * - Function
      - ``getText``
    * - Key Prefix
@@ -554,7 +556,7 @@ Translation file for user interface elements.
    :widths: auto
 
    * - File Name
-     - ``UI``
+     - ``UI.json``
    * - Function
      - ``getText``
    * - Key Prefix

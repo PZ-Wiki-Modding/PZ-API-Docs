@@ -3,7 +3,7 @@
 tile
 ====
 
-Defines some tile properties from a tileset.
+Defines some tile properties of a specific tile on a tileset.
 
 
 Hierarchy
@@ -12,6 +12,13 @@ Hierarchy
 **Valid Parent Blocks:**
 
 - :ref:`tileset`
+
+**Possible Child Blocks:**
+
+- :ref:`box`
+- :ref:`cylinder`
+- :ref:`polygon`
+- :ref:`properties`
 
 
 ID Properties
@@ -55,7 +62,7 @@ No description
 modelScript
 ^^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`model`, with :ref:`module`)
 
 No description
 
@@ -64,7 +71,7 @@ No description
 rotate
 ^^^^^^
 
-:Type: Any
+:Type: array (array of integer, separator: ' ')
 
 No description
 
@@ -82,7 +89,7 @@ No description
 scale
 ^^^^^
 
-:Type: Any
+:Type: array (array of float, separator: ' ')
 
 No description
 
@@ -91,7 +98,7 @@ No description
 translate
 ^^^^^^^^^
 
-:Type: Any
+:Type: array (array of integer, separator: ' ')
 
 No description
 
@@ -102,5 +109,7 @@ xy
 
 :Type: Any
 
-No description
+The position of the tile in the tileset.
+
+If inside a `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ file, the separator is ``x`` but when inside a `spriteModels.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-spritemodels.html>`_
 

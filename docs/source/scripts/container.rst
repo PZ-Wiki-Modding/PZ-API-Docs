@@ -59,6 +59,29 @@ seat
 
 The seat ID of this container. When present, this container can be used as a seat for a vehicle.
 
+.. _container-soundmap:
+
+soundMap
+^^^^^^^^
+
+:Type: object (object: string->>block, kv: ' ', pairs: ';')
+
+Register a sound script associated to a type of sound for this container. The syntax should be as follows:
+
+.. code-block:: cpp
+
+   soundMap = key soundRef
+
+The ``key`` can be one of the following:
+
+
+* ``ContainerClose`` when closing the container
+* ``ContainerOpen`` when opening the container
+* ``ContainerPut`` when putting an item in the container
+* ``ContainerTake`` when taking an item out of the container
+
+The ``soundRef`` should be a reference to a `sound block <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_.
+
 .. _container-test:
 
 test

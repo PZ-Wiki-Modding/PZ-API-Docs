@@ -104,7 +104,7 @@ The translation key for the profession's name. The translation key needs to be i
 XPBoosts
 ^^^^^^^^
 
-:Type: object (object: string->>integer, kv: ';', pairs: ';')
+:Type: object (object: string->>integer, kv: '=', pairs: ';')
 
 A list of experience boosts granted by this profession. Each entry should contain a skill name and the corresponding boost amount.
 

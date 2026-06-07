@@ -17,6 +17,7 @@ Hierarchy
 
 - :ref:`area`
 - :ref:`attachment`
+- :ref:`crawlthroughwheel`
 - :ref:`lightbar`
 - :ref:`part`
 - :ref:`physics`

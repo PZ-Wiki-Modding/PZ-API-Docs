@@ -149,9 +149,9 @@ timedAction
 ^^^^^^^^^^^
 
  (see :ref:`craftrecipe-timedaction`)
-:Type: Any
+:Type: string (block: :ref:`timedAction`)
 
-Refers to a timed action script block, used to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
+Refers to a timed action script block to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
 
 .. _component-craftrecipe-tooltip:
 

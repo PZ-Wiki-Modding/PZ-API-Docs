@@ -33,7 +33,7 @@ Parameters
 name
 ^^^^
 
-:Type: Any
+:Type: string
 
-No description
+The name of the tileset. For example ``furniture_bedding_01``.
 

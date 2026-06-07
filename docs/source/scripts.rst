@@ -18,6 +18,7 @@ This section provides detailed documentation for all available `script <https://
    scripts/blend
    scripts/blendblacklist
    scripts/blendwhitelist
+   scripts/box
    scripts/categories
    scripts/character_profession_definition
    scripts/character_trait_definition
@@ -31,6 +32,8 @@ This section provides detailed documentation for all available `script <https://
    scripts/copyframe
    scripts/copyframes
    scripts/craftrecipe
+   scripts/crawlthroughwheel
+   scripts/cylinder
    scripts/data
    scripts/door
    scripts/energy
@@ -66,8 +69,10 @@ This section provides detailed documentation for all available `script <https://
    scripts/physicshitreaction
    scripts/physicsshape
    scripts/poison
+   scripts/polygon
    scripts/position
    scripts/progress
+   scripts/properties
    scripts/properties
    scripts/ragdoll
    scripts/root-blends
@@ -78,6 +83,7 @@ This section provides detailed documentation for all available `script <https://
    scripts/root-rules
    scripts/root-sandboxoptions
    scripts/root-scripts
+   scripts/root-spritemodels
    scripts/root-tilegeometry
    scripts/root-tmxconfig
    scripts/rule

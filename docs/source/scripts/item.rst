@@ -1178,7 +1178,7 @@ No description
 DropSound
 ^^^^^^^^^
 
-:Type: string
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -2058,18 +2058,26 @@ List of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craf
 LightDistance
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: integer
 
-No description
+See :ref:`item-lightstrength` for more details.
 
 .. _item-lightstrength:
 
 LightStrength
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: float
 
-No description
+`LightDistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lightdistance>`_ is used to determine the radius of the light emitted by the item. It is compared to the `Manhattan distance <https://en.wikipedia.org/wiki/Taxicab_geometry>`_ of the item to the square. The higher the value, the higher is the radius of the light.
+
+`LightStrength <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lightstrength>`_ will boost the light emitted.
+
+.. code-block::
+
+   new_light_level = current_light_level + 3 * LightStrength * (1 - clamp(dist / LightDistance, 0.0, 1.0))
+
+The ``new_light_level`` is limited to a maximum of ``2.5``.
 
 .. _item-lipids:
 
@@ -2085,7 +2093,8 @@ No description
 LowLightBonus
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: float
+:Attributes: Useless
 
 No description
 
@@ -2096,6 +2105,7 @@ LvlSkillTrained
 
 :Type: integer
 :Default: ``-1``
+:Needs: ``ItemType`` = base:literature
 
 No description
 
@@ -2104,9 +2114,9 @@ No description
 magazine_subject
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: array (array of string, separator: ';')
 
-No description
+You can find a list of subjects in the `MagazineSubject <https://pz-wiki-modding.github.io/PZ-API-Docs/java/magazine_subject.html>`_.
 
 .. _item-magazinetype:
 
@@ -2404,7 +2414,7 @@ How many in-game minutes it takes to cook the food. This value must be smaller t
 ModelWeaponPart
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: array (array of string, separator: ' ')
 :Attributes: Can be duplicated
 
 No description
@@ -2433,7 +2443,7 @@ No description
 MuzzleFlashModelKey
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: string (block: :ref:`model`)
 
 No description
 
@@ -2700,7 +2710,7 @@ No description
 PlaceOneSound
 ^^^^^^^^^^^^^
 
-:Type: string
+:Type: string (block: :ref:`sound`)
 
 No description
 
@@ -3408,7 +3418,7 @@ For example:
 
    Tags = base:egg;base:hasmetal,
 
-You can find a list of all tags on the `wiki <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_. The wiki also provides a list of every items (per full type) associated to tags `here <https://pzwiki.net/wiki/Item_tag>`_.
+You can find a list of all tags on the `PZ API Doc <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_. The pzwiki also provides a list of every items (per full type) associated to tags `here <https://pzwiki.net/wiki/Item_tag>`_.
 
 To create a custom tag, you have to first create its definition in your mod's `registries <https://pzwiki.net/wiki/Registries>`_. In the ``registries.lua`` file, define the following by renaming the various elements to fit your mod name, id etc:
 
@@ -3552,7 +3562,7 @@ Used to set the class of the item, which will influence parameters available.
 UnequipSound
 ^^^^^^^^^^^^
 
-:Type: string
+:Type: string (block: :ref:`sound`)
 
 No description
 

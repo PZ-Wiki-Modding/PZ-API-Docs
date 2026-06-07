@@ -21,16 +21,3 @@ ID Properties
 
 This block should not have an ID.
 
-
-Parameters
-----------
-
-.. _root-tilegeometry-version:
-
-VERSION
-^^^^^^^
-
-:Type: Any
-
-The version of the tile geometry file format. Keep it at 2 for now.
-

@@ -427,9 +427,9 @@ The time it takes to craft the item, not using a specific unit of time.
 timedAction
 ^^^^^^^^^^^
 
-:Type: Any
+:Type: string (block: :ref:`timedAction`)
 
-Refers to a timed action script block, used to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
+Refers to a timed action script block to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
 
 .. _craftrecipe-tooltip:
 
