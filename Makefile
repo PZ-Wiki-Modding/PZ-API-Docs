@@ -19,11 +19,12 @@ clean:
 generate_scripts:
 	./.venv/bin/python ./chores/scripts/generateScriptsDocs.py
 
-generate_distributions:
+generate_mapping:
 	./.venv/bin/python ./chores/mapping/generateRoomsDocs.py
 	./.venv/bin/python ./chores/mapping/generateRoomsDistributionDocs.py
 	./.venv/bin/python ./chores/mapping/generateItemPickerContainerPropertiesDocs.py
 	./.venv/bin/python ./chores/mapping/generateProceduralDistributionsDocs.py
+	./.venv/bin/python ./chores/mapping/generateTilePropertiesDocs.py
 
 generate_java:
 	./.venv/bin/python ./chores/java/generateColorsDocs.py
@@ -36,7 +37,7 @@ generate_translations:
 	./.venv/bin/python ./chores/translations/generateLanguageCodesDocs.py
 	./.venv/bin/python ./chores/translations/generateTranslationFilesDocs.py
 
-generate: generate_scripts generate_distributions generate_java generate_translations
+generate: generate_scripts generate_mapping generate_java generate_translations
 
 html: generate
 	source ./.venv/bin/activate
