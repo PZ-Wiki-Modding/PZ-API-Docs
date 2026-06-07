@@ -52,7 +52,7 @@ def generate_rst_content(tile_properties: dict) -> str:
     content = """Tile Properties
 ===============
 
-Reference documentation for tile properties that define the characteristics and behavior of tiles in the game world.
+Reference documentation for tile properties that define the characteristics and behavior of tiles in the game world. The field is the identifier used in the Java and Lua code for this tile property, if you ever need to refer to it in `Lua <https://pzwiki.net/wiki/Lua_(API)>`_ code.
 
 """
     
@@ -74,7 +74,7 @@ Reference documentation for tile properties that define the characteristics and 
         content += "^" * len(prop_name) + "\n\n"
         
         # Add field name
-        content += f"**Field:** ``{field_name}``\n\n"
+        content += f"**Field:** ``TilePropertyKey.{field_name}``\n\n"
         
         # Add description if present
         if description:
