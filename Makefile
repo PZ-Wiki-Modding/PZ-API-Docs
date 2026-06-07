@@ -17,25 +17,29 @@ clean:
 	rm -rf source/scripts
 
 generate_scripts:
-	./.venv/bin/python ./chores/scripts/generateScriptsDocs.py
+	source ./.venv/bin/activate
+	python3 ./chores/scripts/generateScriptsDocs.py
 
 generate_mapping:
-	./.venv/bin/python ./chores/mapping/generateRoomsDocs.py
-	./.venv/bin/python ./chores/mapping/generateRoomsDistributionDocs.py
-	./.venv/bin/python ./chores/mapping/generateItemPickerContainerPropertiesDocs.py
-	./.venv/bin/python ./chores/mapping/generateProceduralDistributionsDocs.py
-	./.venv/bin/python ./chores/mapping/generateTilePropertiesDocs.py
+	source ./.venv/bin/activate
+	python3 ./chores/mapping/generateRoomsDocs.py
+	python3 ./chores/mapping/generateRoomsDistributionDocs.py
+	python3 ./chores/mapping/generateItemPickerContainerPropertiesDocs.py
+	python3 ./chores/mapping/generateProceduralDistributionsDocs.py
+	python3 ./chores/mapping/generateTilePropertiesDocs.py
 
 generate_java:
-	./.venv/bin/python ./chores/java/generateColorsDocs.py
-	./.venv/bin/python ./chores/java/generateItemTagsDocs.py
-	./.venv/bin/python ./chores/java/generateActionSoundTimeDocs.py
-	./.venv/bin/python ./chores/java/generateMagazineSubjectDocs.py
-	./.venv/bin/python ./chores/java/generateMetabolicsDocs.py
+	source ./.venv/bin/activate
+	python3 ./chores/java/generateColorsDocs.py
+	python3 ./chores/java/generateItemTagsDocs.py
+	python3 ./chores/java/generateActionSoundTimeDocs.py
+	python3 ./chores/java/generateMagazineSubjectDocs.py
+	python3 ./chores/java/generateMetabolicsDocs.py
 
 generate_translations:
-	./.venv/bin/python ./chores/translations/generateLanguageCodesDocs.py
-	./.venv/bin/python ./chores/translations/generateTranslationFilesDocs.py
+	source ./.venv/bin/activate
+	python3 ./chores/translations/generateLanguageCodesDocs.py
+	python3 ./chores/translations/generateTranslationFilesDocs.py
 
 generate: generate_scripts generate_mapping generate_java generate_translations
 
