@@ -65,6 +65,7 @@ Reference documentation for tile properties that define the characteristics and 
         prop_type = prop_data.get('type', {})
         default_value = prop_data.get('default', '')
         description = prop_data.get('description', '')
+        values = prop_data.get('values', [])
         
         # Add anchor label for reference
         anchor = f"tile-property-{prop_name}"
@@ -105,6 +106,11 @@ Reference documentation for tile properties that define the characteristics and 
         # Add default value if present
         if default_value is not None and default_value != '':
             content += f"**Default:** ``{default_value}``\n\n"
+
+        if values.len() > 0:
+            content += "**Possible values:**\n\n"
+            for value in values:
+                content += f"- ``{value}``\n"
         
         content += "\n"
     
