@@ -14,7 +14,7 @@ def generate_tile_properties_docs():
     # Define paths
     script_dir = Path(__file__).parent.parent
     repo_root = script_dir.parent
-    tile_properties_json_path = repo_root / "pz-java-parser" / "out" / "tile_properties.json"
+    tile_properties_json_path = repo_root / "tile-properties-data" / "out" / "tile_properties.json"
     tile_properties_rst_path = repo_root / "docs" / "source" / "mapping" / "tile_properties.rst"
     
     # Read tile properties from JSON

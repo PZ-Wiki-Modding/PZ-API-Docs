@@ -1,14 +1,14 @@
 Tile Properties
 ===============
 
-Reference documentation for tile properties that define the characteristics and behavior of tiles in the game world.
+Reference documentation for tile properties that define the characteristics and behavior of tiles in the game world. The field is the identifier used in the Java and Lua code for this tile property, if you ever need to refer to it in `Lua <https://pzwiki.net/wiki/Lua_(API)>`_ code.
 
 .. _tile-property-alwaysDraw:
 
 alwaysDraw
 ^^^^^^^^^^
 
-**Field:** ``ALWAYS_DRAW``
+**Field:** ``TilePropertyKey.ALWAYS_DRAW``
 
 
 .. _tile-property-AmbientSound:
@@ -16,7 +16,7 @@ alwaysDraw
 AmbientSound
 ^^^^^^^^^^^^
 
-**Field:** ``AMBIENT_SOUND``
+**Field:** ``TilePropertyKey.AMBIENT_SOUND``
 
 
 .. _tile-property-attachedCeiling:
@@ -24,7 +24,7 @@ AmbientSound
 attachedCeiling
 ^^^^^^^^^^^^^^^
 
-**Field:** ``ATTACHED_CEILING``
+**Field:** ``TilePropertyKey.ATTACHED_CEILING``
 
 
 .. _tile-property-attachedE:
@@ -32,7 +32,7 @@ attachedCeiling
 attachedE
 ^^^^^^^^^
 
-**Field:** ``ATTACHED_E``
+**Field:** ``TilePropertyKey.ATTACHED_E``
 
 
 .. _tile-property-AttachedFloor:
@@ -40,7 +40,7 @@ attachedE
 AttachedFloor
 ^^^^^^^^^^^^^
 
-**Field:** ``ATTACHED_FLOOR``
+**Field:** ``TilePropertyKey.ATTACHED_FLOOR``
 
 
 .. _tile-property-attachedN:
@@ -48,7 +48,7 @@ AttachedFloor
 attachedN
 ^^^^^^^^^
 
-**Field:** ``ATTACHED_N``
+**Field:** ``TilePropertyKey.ATTACHED_N``
 
 
 .. _tile-property-attachedNW:
@@ -56,7 +56,7 @@ attachedN
 attachedNW
 ^^^^^^^^^^
 
-**Field:** ``ATTACHED_NW``
+**Field:** ``TilePropertyKey.ATTACHED_NW``
 
 
 .. _tile-property-attachedS:
@@ -64,7 +64,7 @@ attachedNW
 attachedS
 ^^^^^^^^^
 
-**Field:** ``ATTACHED_S``
+**Field:** ``TilePropertyKey.ATTACHED_S``
 
 
 .. _tile-property-attachedSE:
@@ -72,7 +72,7 @@ attachedS
 attachedSE
 ^^^^^^^^^^
 
-**Field:** ``ATTACHED_SE``
+**Field:** ``TilePropertyKey.ATTACHED_SE``
 
 
 .. _tile-property-attachedSurface:
@@ -80,7 +80,7 @@ attachedSE
 attachedSurface
 ^^^^^^^^^^^^^^^
 
-**Field:** ``ATTACHED_SURFACE``
+**Field:** ``TilePropertyKey.ATTACHED_SURFACE``
 
 
 .. _tile-property-AttachedToGlass:
@@ -88,7 +88,7 @@ attachedSurface
 AttachedToGlass
 ^^^^^^^^^^^^^^^
 
-**Field:** ``ATTACHED_TO_GLASS``
+**Field:** ``TilePropertyKey.ATTACHED_TO_GLASS``
 
 
 .. _tile-property-attachedW:
@@ -96,7 +96,7 @@ AttachedToGlass
 attachedW
 ^^^^^^^^^
 
-**Field:** ``ATTACHED_W``
+**Field:** ``TilePropertyKey.ATTACHED_W``
 
 
 .. _tile-property-attachtostairs:
@@ -104,7 +104,7 @@ attachedW
 attachtostairs
 ^^^^^^^^^^^^^^
 
-**Field:** ``ATTACH_TO_STAIRS``
+**Field:** ``TilePropertyKey.ATTACH_TO_STAIRS``
 
 
 .. _tile-property-bed:
@@ -112,7 +112,7 @@ attachtostairs
 bed
 ^^^
 
-**Field:** ``BED``
+**Field:** ``TilePropertyKey.BED``
 
 
 .. _tile-property-BedType:
@@ -120,7 +120,7 @@ bed
 BedType
 ^^^^^^^
 
-**Field:** ``BED_TYPE``
+**Field:** ``TilePropertyKey.BED_TYPE``
 
 
 .. _tile-property-BlockRain:
@@ -128,7 +128,7 @@ BedType
 BlockRain
 ^^^^^^^^^
 
-**Field:** ``BLOCK_RAIN``
+**Field:** ``TilePropertyKey.BLOCK_RAIN``
 
 
 .. _tile-property-blocksight:
@@ -136,7 +136,7 @@ BlockRain
 blocksight
 ^^^^^^^^^^
 
-**Field:** ``BLOCK_SIGHT``
+**Field:** ``TilePropertyKey.BLOCK_SIGHT``
 
 
 .. _tile-property-BlocksPlacement:
@@ -144,7 +144,13 @@ blocksight
 BlocksPlacement
 ^^^^^^^^^^^^^^^
 
-**Field:** ``BLOCKS_PLACEMENT``
+**Field:** ``TilePropertyKey.BLOCKS_PLACEMENT``
+
+
+If set to ``true``\ , other tiles cannot occupy the same square as this tile.
+
+
+**Type:** ``boolean``
 
 
 .. _tile-property-blueprint:
@@ -152,7 +158,7 @@ BlocksPlacement
 blueprint
 ^^^^^^^^^
 
-**Field:** ``BLUEPRINT``
+**Field:** ``TilePropertyKey.BLUEPRINT``
 
 
 .. _tile-property-burning:
@@ -160,7 +166,7 @@ blueprint
 burning
 ^^^^^^^
 
-**Field:** ``BURNING``
+**Field:** ``TilePropertyKey.BURNING``
 
 
 .. _tile-property-burntOut:
@@ -168,7 +174,7 @@ burning
 burntOut
 ^^^^^^^^
 
-**Field:** ``BURNT_OUT``
+**Field:** ``TilePropertyKey.BURNT_OUT``
 
 
 .. _tile-property-BurntTile:
@@ -176,7 +182,7 @@ burntOut
 BurntTile
 ^^^^^^^^^
 
-**Field:** ``BURNT_TILE``
+**Field:** ``TilePropertyKey.BURNT_TILE``
 
 
 .. _tile-property-Bush:
@@ -184,7 +190,7 @@ BurntTile
 Bush
 ^^^^
 
-**Field:** ``BUSH``
+**Field:** ``TilePropertyKey.BUSH``
 
 
 .. _tile-property-CanAttachAnimal:
@@ -192,7 +198,7 @@ Bush
 CanAttachAnimal
 ^^^^^^^^^^^^^^^
 
-**Field:** ``CAN_ATTACH_ANIMAL``
+**Field:** ``TilePropertyKey.CAN_ATTACH_ANIMAL``
 
 
 .. _tile-property-canBeCut:
@@ -200,7 +206,7 @@ CanAttachAnimal
 canBeCut
 ^^^^^^^^
 
-**Field:** ``CAN_BE_CUT``
+**Field:** ``TilePropertyKey.CAN_BE_CUT``
 
 
 .. _tile-property-canBeRemoved:
@@ -208,7 +214,7 @@ canBeCut
 canBeRemoved
 ^^^^^^^^^^^^
 
-**Field:** ``CAN_BE_REMOVED``
+**Field:** ``TilePropertyKey.CAN_BE_REMOVED``
 
 
 .. _tile-property-CanBreak:
@@ -216,7 +222,21 @@ canBeRemoved
 CanBreak
 ^^^^^^^^
 
-**Field:** ``CAN_BREAK``
+**Field:** ``TilePropertyKey.CAN_BREAK``
+
+
+`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
+
+If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
+
+The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
+
+The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
+
+`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+
+
+**Type:** ``boolean``
 
 
 .. _tile-property-canPathN:
@@ -224,7 +244,7 @@ CanBreak
 canPathN
 ^^^^^^^^
 
-**Field:** ``CAN_PATH_N``
+**Field:** ``TilePropertyKey.CAN_PATH_N``
 
 
 .. _tile-property-canPathW:
@@ -232,7 +252,7 @@ canPathN
 canPathW
 ^^^^^^^^
 
-**Field:** ``CAN_PATH_W``
+**Field:** ``TilePropertyKey.CAN_PATH_W``
 
 
 .. _tile-property-CanScrap:
@@ -240,7 +260,7 @@ canPathW
 CanScrap
 ^^^^^^^^
 
-**Field:** ``CAN_SCRAP``
+**Field:** ``TilePropertyKey.CAN_SCRAP``
 
 
 .. _tile-property-CantClimb:
@@ -248,7 +268,7 @@ CanScrap
 CantClimb
 ^^^^^^^^^
 
-**Field:** ``CANT_CLIMB``
+**Field:** ``TilePropertyKey.CANT_CLIMB``
 
 
 .. _tile-property-CarSlowFactor:
@@ -256,7 +276,7 @@ CantClimb
 CarSlowFactor
 ^^^^^^^^^^^^^
 
-**Field:** ``CAR_SLOW_FACTOR``
+**Field:** ``TilePropertyKey.CAR_SLOW_FACTOR``
 
 
 .. _tile-property-chairE:
@@ -264,7 +284,7 @@ CarSlowFactor
 chairE
 ^^^^^^
 
-**Field:** ``CHAIR_E``
+**Field:** ``TilePropertyKey.CHAIR_E``
 
 
 .. _tile-property-chairN:
@@ -272,7 +292,7 @@ chairE
 chairN
 ^^^^^^
 
-**Field:** ``CHAIR_N``
+**Field:** ``TilePropertyKey.CHAIR_N``
 
 
 .. _tile-property-chairS:
@@ -280,7 +300,7 @@ chairN
 chairS
 ^^^^^^
 
-**Field:** ``CHAIR_S``
+**Field:** ``TilePropertyKey.CHAIR_S``
 
 
 .. _tile-property-chairW:
@@ -288,7 +308,7 @@ chairS
 chairW
 ^^^^^^
 
-**Field:** ``CHAIR_W``
+**Field:** ``TilePropertyKey.CHAIR_W``
 
 
 .. _tile-property-climbSheetE:
@@ -296,7 +316,7 @@ chairW
 climbSheetE
 ^^^^^^^^^^^
 
-**Field:** ``CLIMB_SHEET_E``
+**Field:** ``TilePropertyKey.CLIMB_SHEET_E``
 
 
 .. _tile-property-climbSheetN:
@@ -304,7 +324,7 @@ climbSheetE
 climbSheetN
 ^^^^^^^^^^^
 
-**Field:** ``CLIMB_SHEET_N``
+**Field:** ``TilePropertyKey.CLIMB_SHEET_N``
 
 
 .. _tile-property-climbSheetS:
@@ -312,7 +332,7 @@ climbSheetN
 climbSheetS
 ^^^^^^^^^^^
 
-**Field:** ``CLIMB_SHEET_S``
+**Field:** ``TilePropertyKey.CLIMB_SHEET_S``
 
 
 .. _tile-property-climbSheetTopE:
@@ -320,7 +340,7 @@ climbSheetS
 climbSheetTopE
 ^^^^^^^^^^^^^^
 
-**Field:** ``CLIMB_SHEET_TOP_E``
+**Field:** ``TilePropertyKey.CLIMB_SHEET_TOP_E``
 
 
 .. _tile-property-climbSheetTopN:
@@ -328,7 +348,7 @@ climbSheetTopE
 climbSheetTopN
 ^^^^^^^^^^^^^^
 
-**Field:** ``CLIMB_SHEET_TOP_N``
+**Field:** ``TilePropertyKey.CLIMB_SHEET_TOP_N``
 
 
 .. _tile-property-climbSheetTopS:
@@ -336,7 +356,7 @@ climbSheetTopN
 climbSheetTopS
 ^^^^^^^^^^^^^^
 
-**Field:** ``CLIMB_SHEET_TOP_S``
+**Field:** ``TilePropertyKey.CLIMB_SHEET_TOP_S``
 
 
 .. _tile-property-climbSheetTopW:
@@ -344,7 +364,7 @@ climbSheetTopS
 climbSheetTopW
 ^^^^^^^^^^^^^^
 
-**Field:** ``CLIMB_SHEET_TOP_W``
+**Field:** ``TilePropertyKey.CLIMB_SHEET_TOP_W``
 
 
 .. _tile-property-climbSheetW:
@@ -352,7 +372,7 @@ climbSheetTopW
 climbSheetW
 ^^^^^^^^^^^
 
-**Field:** ``CLIMB_SHEET_W``
+**Field:** ``TilePropertyKey.CLIMB_SHEET_W``
 
 
 .. _tile-property-CloseSneakBonus:
@@ -360,7 +380,7 @@ climbSheetW
 CloseSneakBonus
 ^^^^^^^^^^^^^^^
 
-**Field:** ``CLOSE_SNEAK_BONUS``
+**Field:** ``TilePropertyKey.CLOSE_SNEAK_BONUS``
 
 
 .. _tile-property-collideN:
@@ -368,7 +388,7 @@ CloseSneakBonus
 collideN
 ^^^^^^^^
 
-**Field:** ``COLLIDE_N``
+**Field:** ``TilePropertyKey.COLLIDE_N``
 
 
 .. _tile-property-collideW:
@@ -376,7 +396,7 @@ collideN
 collideW
 ^^^^^^^^
 
-**Field:** ``COLLIDE_W``
+**Field:** ``TilePropertyKey.COLLIDE_W``
 
 
 .. _tile-property-connectX:
@@ -384,7 +404,7 @@ collideW
 connectX
 ^^^^^^^^
 
-**Field:** ``CONNECT_X``
+**Field:** ``TilePropertyKey.CONNECT_X``
 
 
 .. _tile-property-connectY:
@@ -392,7 +412,7 @@ connectX
 connectY
 ^^^^^^^^
 
-**Field:** ``CONNECT_Y``
+**Field:** ``TilePropertyKey.CONNECT_Y``
 
 
 .. _tile-property-container:
@@ -400,7 +420,7 @@ connectY
 container
 ^^^^^^^^^
 
-**Field:** ``CONTAINER``
+**Field:** ``TilePropertyKey.CONTAINER``
 
 
 .. _tile-property-ContainerCapacity:
@@ -408,7 +428,7 @@ container
 ContainerCapacity
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``CONTAINER_CAPACITY``
+**Field:** ``TilePropertyKey.CONTAINER_CAPACITY``
 
 
 .. _tile-property-ContainerCloseSound:
@@ -416,7 +436,7 @@ ContainerCapacity
 ContainerCloseSound
 ^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``CONTAINER_CLOSE_SOUND``
+**Field:** ``TilePropertyKey.CONTAINER_CLOSE_SOUND``
 
 
 .. _tile-property-ContainerOpenSound:
@@ -424,7 +444,7 @@ ContainerCloseSound
 ContainerOpenSound
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``CONTAINER_OPEN_SOUND``
+**Field:** ``TilePropertyKey.CONTAINER_OPEN_SOUND``
 
 
 .. _tile-property-ContainerPosition:
@@ -432,7 +452,7 @@ ContainerOpenSound
 ContainerPosition
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``CONTAINER_POSITION``
+**Field:** ``TilePropertyKey.CONTAINER_POSITION``
 
 
 .. _tile-property-ContainerPutSound:
@@ -440,7 +460,7 @@ ContainerPosition
 ContainerPutSound
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``CONTAINER_PUT_SOUND``
+**Field:** ``TilePropertyKey.CONTAINER_PUT_SOUND``
 
 
 .. _tile-property-ContainerTakeSound:
@@ -448,7 +468,7 @@ ContainerPutSound
 ContainerTakeSound
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``CONTAINER_TAKE_SOUND``
+**Field:** ``TilePropertyKey.CONTAINER_TAKE_SOUND``
 
 
 .. _tile-property-CornerNorthWall:
@@ -456,7 +476,7 @@ ContainerTakeSound
 CornerNorthWall
 ^^^^^^^^^^^^^^^
 
-**Field:** ``CORNER_NORTH_WALL``
+**Field:** ``TilePropertyKey.CORNER_NORTH_WALL``
 
 
 .. _tile-property-CornerWestWall:
@@ -464,7 +484,7 @@ CornerNorthWall
 CornerWestWall
 ^^^^^^^^^^^^^^
 
-**Field:** ``CORNER_WEST_WALL``
+**Field:** ``TilePropertyKey.CORNER_WEST_WALL``
 
 
 .. _tile-property-curtainE:
@@ -472,7 +492,7 @@ CornerWestWall
 curtainE
 ^^^^^^^^
 
-**Field:** ``CURTAIN_E``
+**Field:** ``TilePropertyKey.CURTAIN_E``
 
 
 .. _tile-property-curtainN:
@@ -480,7 +500,7 @@ curtainE
 curtainN
 ^^^^^^^^
 
-**Field:** ``CURTAIN_N``
+**Field:** ``TilePropertyKey.CURTAIN_N``
 
 
 .. _tile-property-CurtainOffset:
@@ -488,7 +508,7 @@ curtainN
 CurtainOffset
 ^^^^^^^^^^^^^
 
-**Field:** ``CURTAIN_OFFSET``
+**Field:** ``TilePropertyKey.CURTAIN_OFFSET``
 
 
 .. _tile-property-curtainS:
@@ -496,7 +516,7 @@ CurtainOffset
 curtainS
 ^^^^^^^^
 
-**Field:** ``CURTAIN_S``
+**Field:** ``TilePropertyKey.CURTAIN_S``
 
 
 .. _tile-property-CurtainSound:
@@ -504,7 +524,7 @@ curtainS
 CurtainSound
 ^^^^^^^^^^^^
 
-**Field:** ``CURTAIN_SOUND``
+**Field:** ``TilePropertyKey.CURTAIN_SOUND``
 
 
 .. _tile-property-curtainW:
@@ -512,7 +532,7 @@ CurtainSound
 curtainW
 ^^^^^^^^
 
-**Field:** ``CURTAIN_W``
+**Field:** ``TilePropertyKey.CURTAIN_W``
 
 
 .. _tile-property-CustomItem:
@@ -520,7 +540,7 @@ curtainW
 CustomItem
 ^^^^^^^^^^
 
-**Field:** ``CUSTOM_ITEM``
+**Field:** ``TilePropertyKey.CUSTOM_ITEM``
 
 
 .. _tile-property-CustomName:
@@ -528,7 +548,15 @@ CustomItem
 CustomName
 ^^^^^^^^^^
 
-**Field:** ``CUSTOM_NAME``
+**Field:** ``TilePropertyKey.CUSTOM_NAME``
+
+
+Used to define the item name, which will show as `GroupName <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#groupname>`_ + `CustomName <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#customname>`_. For example if CustomName is set to ``Bed`` and GroupName is set to ``Fancy``\ , it will show as ``Fancy Bed`` in the game. ``GroupName`` is used as a sub-category description of the object, such as its color, shape, name or quality.
+
+Those properties need to be the same for multi-tile objects.
+
+
+**Type:** ``string``
 
 
 .. _tile-property-CutawayHint:
@@ -536,7 +564,7 @@ CustomName
 CutawayHint
 ^^^^^^^^^^^
 
-**Field:** ``CUTAWAY_HINT``
+**Field:** ``TilePropertyKey.CUTAWAY_HINT``
 
 
 .. _tile-property-cutN:
@@ -544,7 +572,7 @@ CutawayHint
 cutN
 ^^^^
 
-**Field:** ``CUT_N``
+**Field:** ``TilePropertyKey.CUT_N``
 
 
 .. _tile-property-cutW:
@@ -552,7 +580,7 @@ cutN
 cutW
 ^^^^
 
-**Field:** ``CUT_W``
+**Field:** ``TilePropertyKey.CUT_W``
 
 
 .. _tile-property-DamagedSprite:
@@ -560,7 +588,7 @@ cutW
 DamagedSprite
 ^^^^^^^^^^^^^
 
-**Field:** ``DAMAGED_SPRITE``
+**Field:** ``TilePropertyKey.DAMAGED_SPRITE``
 
 
 .. _tile-property-diamondFloor:
@@ -568,7 +596,7 @@ DamagedSprite
 diamondFloor
 ^^^^^^^^^^^^
 
-**Field:** ``DIAMOND_FLOOR``
+**Field:** ``TilePropertyKey.DIAMOND_FLOOR``
 
 
 .. _tile-property-doorFrN:
@@ -576,7 +604,7 @@ diamondFloor
 doorFrN
 ^^^^^^^
 
-**Field:** ``DOOR_FR_N``
+**Field:** ``TilePropertyKey.DOOR_FR_N``
 
 
 .. _tile-property-doorFrW:
@@ -584,7 +612,7 @@ doorFrN
 doorFrW
 ^^^^^^^
 
-**Field:** ``DOOR_FR_W``
+**Field:** ``TilePropertyKey.DOOR_FR_W``
 
 
 .. _tile-property-doorN:
@@ -592,7 +620,7 @@ doorFrW
 doorN
 ^^^^^
 
-**Field:** ``DOOR_N``
+**Field:** ``TilePropertyKey.DOOR_N``
 
 
 .. _tile-property-DoorSound:
@@ -600,7 +628,7 @@ doorN
 DoorSound
 ^^^^^^^^^
 
-**Field:** ``DOOR_SOUND``
+**Field:** ``TilePropertyKey.DOOR_SOUND``
 
 
 .. _tile-property-doorTrans:
@@ -608,7 +636,7 @@ DoorSound
 doorTrans
 ^^^^^^^^^
 
-**Field:** ``DOOR_TRANS``
+**Field:** ``TilePropertyKey.DOOR_TRANS``
 
 
 .. _tile-property-doorW:
@@ -616,7 +644,7 @@ doorTrans
 doorW
 ^^^^^
 
-**Field:** ``DOOR_W``
+**Field:** ``TilePropertyKey.DOOR_W``
 
 
 .. _tile-property-DoorWallN:
@@ -624,7 +652,7 @@ doorW
 DoorWallN
 ^^^^^^^^^
 
-**Field:** ``DOOR_WALL_N``
+**Field:** ``TilePropertyKey.DOOR_WALL_N``
 
 
 .. _tile-property-DoorWallNTrans:
@@ -632,7 +660,7 @@ DoorWallN
 DoorWallNTrans
 ^^^^^^^^^^^^^^
 
-**Field:** ``DOOR_WALL_N_TRANS``
+**Field:** ``TilePropertyKey.DOOR_WALL_N_TRANS``
 
 
 .. _tile-property-DoorWallNW:
@@ -640,7 +668,7 @@ DoorWallNTrans
 DoorWallNW
 ^^^^^^^^^^
 
-**Field:** ``DOOR_WALL_NW``
+**Field:** ``TilePropertyKey.DOOR_WALL_NW``
 
 
 .. _tile-property-DoorWallNWTrans:
@@ -648,7 +676,7 @@ DoorWallNW
 DoorWallNWTrans
 ^^^^^^^^^^^^^^^
 
-**Field:** ``DOOR_WALL_NW_TRANS``
+**Field:** ``TilePropertyKey.DOOR_WALL_NW_TRANS``
 
 
 .. _tile-property-DoorWallW:
@@ -656,7 +684,7 @@ DoorWallNWTrans
 DoorWallW
 ^^^^^^^^^
 
-**Field:** ``DOOR_WALL_W``
+**Field:** ``TilePropertyKey.DOOR_WALL_W``
 
 
 .. _tile-property-DoorWallWTrans:
@@ -664,7 +692,7 @@ DoorWallW
 DoorWallWTrans
 ^^^^^^^^^^^^^^
 
-**Field:** ``DOOR_WALL_W_TRANS``
+**Field:** ``TilePropertyKey.DOOR_WALL_W_TRANS``
 
 
 .. _tile-property-DoubleDoor:
@@ -672,7 +700,7 @@ DoorWallWTrans
 DoubleDoor
 ^^^^^^^^^^
 
-**Field:** ``DOUBLE_DOOR``
+**Field:** ``TilePropertyKey.DOUBLE_DOOR``
 
 
 .. _tile-property-DoubleDoor1:
@@ -680,7 +708,7 @@ DoubleDoor
 DoubleDoor1
 ^^^^^^^^^^^
 
-**Field:** ``DOUBLE_DOOR_1``
+**Field:** ``TilePropertyKey.DOUBLE_DOOR_1``
 
 
 .. _tile-property-DoubleDoor2:
@@ -688,7 +716,7 @@ DoubleDoor1
 DoubleDoor2
 ^^^^^^^^^^^
 
-**Field:** ``DOUBLE_DOOR_2``
+**Field:** ``TilePropertyKey.DOUBLE_DOOR_2``
 
 
 .. _tile-property-EntityScript:
@@ -696,7 +724,7 @@ DoubleDoor2
 EntityScript
 ^^^^^^^^^^^^
 
-**Field:** ``ENTITY_SCRIPT``
+**Field:** ``TilePropertyKey.ENTITY_SCRIPT``
 
 
 .. _tile-property-EntityScriptName:
@@ -704,7 +732,7 @@ EntityScript
 EntityScriptName
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``ENTITY_SCRIPT_NAME``
+**Field:** ``TilePropertyKey.ENTITY_SCRIPT_NAME``
 
 
 .. _tile-property-Eoffset:
@@ -712,7 +740,7 @@ EntityScriptName
 Eoffset
 ^^^^^^^
 
-**Field:** ``E_OFFSET``
+**Field:** ``TilePropertyKey.E_OFFSET``
 
 
 .. _tile-property-exterior:
@@ -720,7 +748,7 @@ Eoffset
 exterior
 ^^^^^^^^
 
-**Field:** ``EXTERIOR``
+**Field:** ``TilePropertyKey.EXTERIOR``
 
 
 .. _tile-property-Facing:
@@ -728,15 +756,27 @@ exterior
 Facing
 ^^^^^^
 
-**Field:** ``FACING``
+**Field:** ``TilePropertyKey.FACING``
 
+
+The direction the object is facing. This is not the orientation, but the direction the objects front looks towards. If the value is ``South``\ , it means the tile has a north orientation and thus would be facing south.
+
+You can find an image which shows the directions of the game `here <https://pzwiki.net/wiki/Tile_properties#Directions>`_.
+
+
+**Possible values:**
+
+- ``North``
+- ``East``
+- ``South``
+- ``West``
 
 .. _tile-property-FasciaEdge:
 
 FasciaEdge
 ^^^^^^^^^^
 
-**Field:** ``FASCIA_EDGE``
+**Field:** ``TilePropertyKey.FASCIA_EDGE``
 
 
 .. _tile-property-FasciaEdgeReversible:
@@ -744,7 +784,7 @@ FasciaEdge
 FasciaEdgeReversible
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``FASCIA_EDGE_REVERSIBLE``
+**Field:** ``TilePropertyKey.FASCIA_EDGE_REVERSIBLE``
 
 
 .. _tile-property-FenceTypeHigh:
@@ -752,7 +792,7 @@ FasciaEdgeReversible
 FenceTypeHigh
 ^^^^^^^^^^^^^
 
-**Field:** ``FENCE_TYPE_HIGH``
+**Field:** ``TilePropertyKey.FENCE_TYPE_HIGH``
 
 
 .. _tile-property-FenceTypeLow:
@@ -760,7 +800,7 @@ FenceTypeHigh
 FenceTypeLow
 ^^^^^^^^^^^^
 
-**Field:** ``FENCE_TYPE_LOW``
+**Field:** ``TilePropertyKey.FENCE_TYPE_LOW``
 
 
 .. _tile-property-firerequirement:
@@ -768,7 +808,7 @@ FenceTypeLow
 firerequirement
 ^^^^^^^^^^^^^^^
 
-**Field:** ``FIRE_REQUIREMENT``
+**Field:** ``TilePropertyKey.FIRE_REQUIREMENT``
 
 
 .. _tile-property-FloorAttachmentE:
@@ -776,7 +816,7 @@ firerequirement
 FloorAttachmentE
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``FLOOR_ATTACHMENT_E``
+**Field:** ``TilePropertyKey.FLOOR_ATTACHMENT_E``
 
 
 .. _tile-property-FloorAttachmentN:
@@ -784,7 +824,7 @@ FloorAttachmentE
 FloorAttachmentN
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``FLOOR_ATTACHMENT_N``
+**Field:** ``TilePropertyKey.FLOOR_ATTACHMENT_N``
 
 
 .. _tile-property-FloorAttachmentS:
@@ -792,7 +832,7 @@ FloorAttachmentN
 FloorAttachmentS
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``FLOOR_ATTACHMENT_S``
+**Field:** ``TilePropertyKey.FLOOR_ATTACHMENT_S``
 
 
 .. _tile-property-FloorAttachmentW:
@@ -800,7 +840,7 @@ FloorAttachmentS
 FloorAttachmentW
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``FLOOR_ATTACHMENT_W``
+**Field:** ``TilePropertyKey.FLOOR_ATTACHMENT_W``
 
 
 .. _tile-property-FloorHeight:
@@ -808,7 +848,7 @@ FloorAttachmentW
 FloorHeight
 ^^^^^^^^^^^
 
-**Field:** ``FLOOR_HEIGHT``
+**Field:** ``TilePropertyKey.FLOOR_HEIGHT``
 
 
 .. _tile-property-FloorHeightOneThird:
@@ -816,7 +856,7 @@ FloorHeight
 FloorHeightOneThird
 ^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``FLOOR_HEIGHT_ONE_THIRD``
+**Field:** ``TilePropertyKey.FLOOR_HEIGHT_ONE_THIRD``
 
 
 .. _tile-property-FloorHeightTwoThirds:
@@ -824,7 +864,7 @@ FloorHeightOneThird
 FloorHeightTwoThirds
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``FLOOR_HEIGHT_TWO_THIRDS``
+**Field:** ``TilePropertyKey.FLOOR_HEIGHT_TWO_THIRDS``
 
 
 .. _tile-property-FloorMaterial:
@@ -832,7 +872,7 @@ FloorHeightTwoThirds
 FloorMaterial
 ^^^^^^^^^^^^^
 
-**Field:** ``FLOOR_MATERIAL``
+**Field:** ``TilePropertyKey.FLOOR_MATERIAL``
 
 
 .. _tile-property-FloorOverlay:
@@ -840,7 +880,7 @@ FloorMaterial
 FloorOverlay
 ^^^^^^^^^^^^
 
-**Field:** ``FLOOR_OVERLAY``
+**Field:** ``TilePropertyKey.FLOOR_OVERLAY``
 
 
 .. _tile-property-FootstepMaterial:
@@ -848,7 +888,7 @@ FloorOverlay
 FootstepMaterial
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``FOOTSTEP_MATERIAL``
+**Field:** ``TilePropertyKey.FOOTSTEP_MATERIAL``
 
 
 .. _tile-property-ForceAmbient:
@@ -856,7 +896,7 @@ FootstepMaterial
 ForceAmbient
 ^^^^^^^^^^^^
 
-**Field:** ``FORCE_AMBIENT``
+**Field:** ``TilePropertyKey.FORCE_AMBIENT``
 
 
 .. _tile-property-forcedLocked:
@@ -864,7 +904,7 @@ ForceAmbient
 forcedLocked
 ^^^^^^^^^^^^
 
-**Field:** ``FORCED_LOCKED``
+**Field:** ``TilePropertyKey.FORCED_LOCKED``
 
 
 .. _tile-property-forceFade:
@@ -872,7 +912,7 @@ forcedLocked
 forceFade
 ^^^^^^^^^
 
-**Field:** ``FORCE_FADE``
+**Field:** ``TilePropertyKey.FORCE_FADE``
 
 
 .. _tile-property-forceLocked:
@@ -880,7 +920,7 @@ forceFade
 forceLocked
 ^^^^^^^^^^^
 
-**Field:** ``FORCE_LOCKED``
+**Field:** ``TilePropertyKey.FORCE_LOCKED``
 
 
 .. _tile-property-forceRender:
@@ -888,7 +928,7 @@ forceLocked
 forceRender
 ^^^^^^^^^^^
 
-**Field:** ``FORCE_RENDER``
+**Field:** ``TilePropertyKey.FORCE_RENDER``
 
 
 .. _tile-property-ForceSingleItem:
@@ -896,7 +936,11 @@ forceRender
 ForceSingleItem
 ^^^^^^^^^^^^^^^
 
-**Field:** ``FORCE_SINGLE_ITEM``
+**Field:** ``TilePropertyKey.FORCE_SINGLE_ITEM``
+
+
+Forces the object to be a single item in inventory even when it is made up of multiple tiles.
+
 
 
 .. _tile-property-Freezer:
@@ -904,7 +948,7 @@ ForceSingleItem
 Freezer
 ^^^^^^^
 
-**Field:** ``FREEZER``
+**Field:** ``TilePropertyKey.FREEZER``
 
 
 .. _tile-property-FreezerCapacity:
@@ -912,7 +956,7 @@ Freezer
 FreezerCapacity
 ^^^^^^^^^^^^^^^
 
-**Field:** ``FREEZER_CAPACITY``
+**Field:** ``TilePropertyKey.FREEZER_CAPACITY``
 
 
 .. _tile-property-FreezerPosition:
@@ -920,7 +964,7 @@ FreezerCapacity
 FreezerPosition
 ^^^^^^^^^^^^^^^
 
-**Field:** ``FREEZER_POSITION``
+**Field:** ``TilePropertyKey.FREEZER_POSITION``
 
 
 .. _tile-property-fuelAmount:
@@ -928,7 +972,7 @@ FreezerPosition
 fuelAmount
 ^^^^^^^^^^
 
-**Field:** ``FUEL_AMOUNT``
+**Field:** ``TilePropertyKey.FUEL_AMOUNT``
 
 
 .. _tile-property-GarageDoor:
@@ -936,7 +980,7 @@ fuelAmount
 GarageDoor
 ^^^^^^^^^^
 
-**Field:** ``GARAGE_DOOR``
+**Field:** ``TilePropertyKey.GARAGE_DOOR``
 
 
 .. _tile-property-GeneratorSound:
@@ -944,7 +988,7 @@ GarageDoor
 GeneratorSound
 ^^^^^^^^^^^^^^
 
-**Field:** ``GENERATOR_SOUND``
+**Field:** ``TilePropertyKey.GENERATOR_SOUND``
 
 
 .. _tile-property-GenericCraftingSurface:
@@ -952,7 +996,7 @@ GeneratorSound
 GenericCraftingSurface
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``GENERIC_CRAFTING_SURFACE``
+**Field:** ``TilePropertyKey.GENERIC_CRAFTING_SURFACE``
 
 
 .. _tile-property-GlassRemovedOffset:
@@ -960,7 +1004,7 @@ GenericCraftingSurface
 GlassRemovedOffset
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``GLASS_REMOVED_OFFSET``
+**Field:** ``TilePropertyKey.GLASS_REMOVED_OFFSET``
 
 
 .. _tile-property-grassFloor:
@@ -968,7 +1012,7 @@ GlassRemovedOffset
 grassFloor
 ^^^^^^^^^^
 
-**Field:** ``GRASS_FLOOR``
+**Field:** ``TilePropertyKey.GRASS_FLOOR``
 
 
 .. _tile-property-GrimeType:
@@ -976,7 +1020,7 @@ grassFloor
 GrimeType
 ^^^^^^^^^
 
-**Field:** ``GRIME_TYPE``
+**Field:** ``TilePropertyKey.GRIME_TYPE``
 
 
 .. _tile-property-GroupName:
@@ -984,7 +1028,15 @@ GrimeType
 GroupName
 ^^^^^^^^^
 
-**Field:** ``GROUP_NAME``
+**Field:** ``TilePropertyKey.GROUP_NAME``
+
+
+Used to define the item name, which will show as `GroupName <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#groupname>`_ + `CustomName <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#customname>`_. For example if CustomName is set to ``Bed`` and GroupName is set to ``Fancy``\ , it will show as ``Fancy Bed`` in the game. ``GroupName`` is used as a sub-category description of the object, such as its color, shape, name or quality.
+
+Those properties need to be the same for multi-tile objects.
+
+
+**Type:** ``string``
 
 
 .. _tile-property-halfheight:
@@ -992,7 +1044,7 @@ GroupName
 halfheight
 ^^^^^^^^^^
 
-**Field:** ``HALF_HEIGHT``
+**Field:** ``TilePropertyKey.HALF_HEIGHT``
 
 
 .. _tile-property-HasLightOnSprite:
@@ -1000,7 +1052,7 @@ halfheight
 HasLightOnSprite
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``HAS_LIGHT_ON_SPRITE``
+**Field:** ``TilePropertyKey.HAS_LIGHT_ON_SPRITE``
 
 
 .. _tile-property-HasRaindrop:
@@ -1008,7 +1060,7 @@ HasLightOnSprite
 HasRaindrop
 ^^^^^^^^^^^
 
-**Field:** ``HAS_RAINDROP``
+**Field:** ``TilePropertyKey.HAS_RAINDROP``
 
 
 .. _tile-property-HasRainSplashes:
@@ -1016,7 +1068,7 @@ HasRaindrop
 HasRainSplashes
 ^^^^^^^^^^^^^^^
 
-**Field:** ``HAS_RAIN_SPLASHES``
+**Field:** ``TilePropertyKey.HAS_RAIN_SPLASHES``
 
 
 .. _tile-property-hidewalls:
@@ -1024,7 +1076,7 @@ HasRainSplashes
 hidewalls
 ^^^^^^^^^
 
-**Field:** ``HIDE_WALLS``
+**Field:** ``TilePropertyKey.HIDE_WALLS``
 
 
 .. _tile-property-HitByCar:
@@ -1032,7 +1084,7 @@ hidewalls
 HitByCar
 ^^^^^^^^
 
-**Field:** ``HIT_BY_CAR``
+**Field:** ``TilePropertyKey.HIT_BY_CAR``
 
 
 .. _tile-property-HoppableN:
@@ -1040,7 +1092,7 @@ HitByCar
 HoppableN
 ^^^^^^^^^
 
-**Field:** ``HOPPABLE_N``
+**Field:** ``TilePropertyKey.HOPPABLE_N``
 
 
 .. _tile-property-HoppableW:
@@ -1048,7 +1100,7 @@ HoppableN
 HoppableW
 ^^^^^^^^^
 
-**Field:** ``HOPPABLE_W``
+**Field:** ``TilePropertyKey.HOPPABLE_W``
 
 
 .. _tile-property-IgnoreSurfaceSnap:
@@ -1056,7 +1108,7 @@ HoppableW
 IgnoreSurfaceSnap
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``IGNORE_SURFACE_SNAP``
+**Field:** ``TilePropertyKey.IGNORE_SURFACE_SNAP``
 
 
 .. _tile-property-interior:
@@ -1064,7 +1116,7 @@ IgnoreSurfaceSnap
 interior
 ^^^^^^^^
 
-**Field:** ``INTERIOR``
+**Field:** ``TilePropertyKey.INTERIOR``
 
 
 .. _tile-property-InteriorSide:
@@ -1072,7 +1124,7 @@ interior
 InteriorSide
 ^^^^^^^^^^^^
 
-**Field:** ``INTERIOR_SIDE``
+**Field:** ``TilePropertyKey.INTERIOR_SIDE``
 
 
 .. _tile-property-invisible:
@@ -1080,7 +1132,7 @@ InteriorSide
 invisible
 ^^^^^^^^^
 
-**Field:** ``INVISIBLE``
+**Field:** ``TilePropertyKey.INVISIBLE``
 
 
 .. _tile-property-IsClosedState:
@@ -1088,7 +1140,7 @@ invisible
 IsClosedState
 ^^^^^^^^^^^^^
 
-**Field:** ``IS_CLOSED_STATE``
+**Field:** ``TilePropertyKey.IS_CLOSED_STATE``
 
 
 .. _tile-property-isEave:
@@ -1096,7 +1148,7 @@ IsClosedState
 isEave
 ^^^^^^
 
-**Field:** ``IS_EAVE``
+**Field:** ``TilePropertyKey.IS_EAVE``
 
 
 .. _tile-property-IsFloorAttached:
@@ -1104,7 +1156,7 @@ isEave
 IsFloorAttached
 ^^^^^^^^^^^^^^^
 
-**Field:** ``IS_FLOOR_ATTACHED``
+**Field:** ``TilePropertyKey.IS_FLOOR_ATTACHED``
 
 
 .. _tile-property-IsFridge:
@@ -1112,7 +1164,7 @@ IsFloorAttached
 IsFridge
 ^^^^^^^^
 
-**Field:** ``IS_FRIDGE``
+**Field:** ``TilePropertyKey.IS_FRIDGE``
 
 
 .. _tile-property-IsGridExtensionTile:
@@ -1120,7 +1172,7 @@ IsFridge
 IsGridExtensionTile
 ^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``IS_GRID_EXTENSION_TILE``
+**Field:** ``TilePropertyKey.IS_GRID_EXTENSION_TILE``
 
 
 .. _tile-property-IsHigh:
@@ -1128,7 +1180,13 @@ IsGridExtensionTile
 IsHigh
 ^^^^^^
 
-**Field:** ``IS_HIGH``
+**Field:** ``TilePropertyKey.IS_HIGH``
+
+
+Indicates the tile is high, which means the tile only oocupies the upper half of the height, like a painting or wall shelf.
+
+
+**Type:** ``boolean``
 
 
 .. _tile-property-IsLow:
@@ -1136,7 +1194,13 @@ IsHigh
 IsLow
 ^^^^^
 
-**Field:** ``IS_LOW``
+**Field:** ``TilePropertyKey.IS_LOW``
+
+
+Indicates the tile is low, which means the tile only oocupies the lower half of the height, like a bed or counter.
+
+
+**Type:** ``boolean``
 
 
 .. _tile-property-IsMirror:
@@ -1144,7 +1208,7 @@ IsLow
 IsMirror
 ^^^^^^^^
 
-**Field:** ``IS_MIRROR``
+**Field:** ``TilePropertyKey.IS_MIRROR``
 
 
 .. _tile-property-IsMoveAble:
@@ -1152,7 +1216,13 @@ IsMirror
 IsMoveAble
 ^^^^^^^^^^
 
-**Field:** ``IS_MOVE_ABLE``
+**Field:** ``TilePropertyKey.IS_MOVE_ABLE``
+
+
+Indicates the tile can be moved by the player. This will notably provide a `moveable item <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_. `MoveType <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#movetype>`_ allows you to set the type of moveable the tile is.
+
+
+**Type:** ``boolean``
 
 
 .. _tile-property-isMoveAbleObject:
@@ -1160,7 +1230,7 @@ IsMoveAble
 isMoveAbleObject
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``IS_MOVE_ABLE_OBJECT``
+**Field:** ``TilePropertyKey.IS_MOVE_ABLE_OBJECT``
 
 
 .. _tile-property-IsoType:
@@ -1168,15 +1238,36 @@ isMoveAbleObject
 IsoType
 ^^^^^^^
 
-**Field:** ``ISO_TYPE``
+**Field:** ``TilePropertyKey.ISO_TYPE``
 
+
+Used to select the class the tile will be. IsoObject is the default but based on your choice there will different behaviors and interactions with the tile.
+
+
+**Type:** ``string``
+
+**Possible values:**
+
+- ``IsoObject``
+- ``IsoBarbecue``
+- ``IsoBrokenGlass``
+- ``IsoClothingDryer``
+- ``IsoClothingWasher``
+- ``IsoCombinationWasherDryer``
+- ``IsoFireplace``
+- ``IsoMannequin``
+- ``IsoRadio``
+- ``IsoJukebox``
+- ``IsoStove``
+- ``IsoTelevision``
+- ``IsoMultiMedia``
 
 .. _tile-property-IsPaintable:
 
 IsPaintable
 ^^^^^^^^^^^
 
-**Field:** ``IS_PAINTABLE``
+**Field:** ``TilePropertyKey.IS_PAINTABLE``
 
 
 .. _tile-property-IsStackable:
@@ -1184,7 +1275,7 @@ IsPaintable
 IsStackable
 ^^^^^^^^^^^
 
-**Field:** ``IS_STACKABLE``
+**Field:** ``TilePropertyKey.IS_STACKABLE``
 
 
 .. _tile-property-IsSurfaceOffset:
@@ -1192,7 +1283,13 @@ IsStackable
 IsSurfaceOffset
 ^^^^^^^^^^^^^^^
 
-**Field:** ``IS_SURFACE_OFFSET``
+**Field:** ``TilePropertyKey.IS_SURFACE_OFFSET``
+
+
+Indicates the object is offset by the `Surface <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#surface>`_ value when on a tabletop.
+
+
+**Type:** ``boolean``
 
 
 .. _tile-property-IsTable:
@@ -1200,7 +1297,11 @@ IsSurfaceOffset
 IsTable
 ^^^^^^^
 
-**Field:** ``IS_TABLE``
+**Field:** ``TilePropertyKey.IS_TABLE``
+
+
+Will treat the tile as a table surface.
+
 
 
 .. _tile-property-IsTableTop:
@@ -1208,7 +1309,11 @@ IsTable
 IsTableTop
 ^^^^^^^^^^
 
-**Field:** ``IS_TABLE_TOP``
+**Field:** ``TilePropertyKey.IS_TABLE_TOP``
+
+
+Will allow you to place tiles on top of this tile.
+
 
 
 .. _tile-property-IsTrashCan:
@@ -1216,7 +1321,7 @@ IsTableTop
 IsTrashCan
 ^^^^^^^^^^
 
-**Field:** ``IS_TRASH_CAN``
+**Field:** ``TilePropertyKey.IS_TRASH_CAN``
 
 
 .. _tile-property-IsWaterCollector:
@@ -1224,7 +1329,7 @@ IsTrashCan
 IsWaterCollector
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``IS_WATER_COLLECTOR``
+**Field:** ``TilePropertyKey.IS_WATER_COLLECTOR``
 
 
 .. _tile-property-ItemHeight:
@@ -1232,7 +1337,7 @@ IsWaterCollector
 ItemHeight
 ^^^^^^^^^^
 
-**Field:** ``ITEM_HEIGHT``
+**Field:** ``TilePropertyKey.ITEM_HEIGHT``
 
 **Type:** ``integer``
 
@@ -1244,7 +1349,7 @@ ItemHeight
 jukebox
 ^^^^^^^
 
-**Field:** ``JUKEBOX``
+**Field:** ``TilePropertyKey.JUKEBOX``
 
 
 .. _tile-property-lightB:
@@ -1252,7 +1357,7 @@ jukebox
 lightB
 ^^^^^^
 
-**Field:** ``LIGHT_B``
+**Field:** ``TilePropertyKey.LIGHT_B``
 
 
 .. _tile-property-LightFilterB:
@@ -1260,7 +1365,7 @@ lightB
 LightFilterB
 ^^^^^^^^^^^^
 
-**Field:** ``LIGHT_FILTER_B``
+**Field:** ``TilePropertyKey.LIGHT_FILTER_B``
 
 
 .. _tile-property-LightFilterG:
@@ -1268,7 +1373,7 @@ LightFilterB
 LightFilterG
 ^^^^^^^^^^^^
 
-**Field:** ``LIGHT_FILTER_G``
+**Field:** ``TilePropertyKey.LIGHT_FILTER_G``
 
 
 .. _tile-property-LightFilterIntensity:
@@ -1276,7 +1381,7 @@ LightFilterG
 LightFilterIntensity
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``LIGHT_FILTER_INTENSITY``
+**Field:** ``TilePropertyKey.LIGHT_FILTER_INTENSITY``
 
 
 .. _tile-property-LightFilterMix:
@@ -1284,7 +1389,7 @@ LightFilterIntensity
 LightFilterMix
 ^^^^^^^^^^^^^^
 
-**Field:** ``LIGHT_FILTER_MIX``
+**Field:** ``TilePropertyKey.LIGHT_FILTER_MIX``
 
 
 .. _tile-property-LightFilterR:
@@ -1292,7 +1397,7 @@ LightFilterMix
 LightFilterR
 ^^^^^^^^^^^^
 
-**Field:** ``LIGHT_FILTER_R``
+**Field:** ``TilePropertyKey.LIGHT_FILTER_R``
 
 
 .. _tile-property-lightG:
@@ -1300,7 +1405,7 @@ LightFilterR
 lightG
 ^^^^^^
 
-**Field:** ``LIGHT_G``
+**Field:** ``TilePropertyKey.LIGHT_G``
 
 
 .. _tile-property-lightR:
@@ -1308,7 +1413,7 @@ lightG
 lightR
 ^^^^^^
 
-**Field:** ``LIGHT_R``
+**Field:** ``TilePropertyKey.LIGHT_R``
 
 
 .. _tile-property-LightRadius:
@@ -1316,7 +1421,7 @@ lightR
 LightRadius
 ^^^^^^^^^^^
 
-**Field:** ``LIGHT_RADIUS``
+**Field:** ``TilePropertyKey.LIGHT_RADIUS``
 
 
 .. _tile-property-lightswitch:
@@ -1324,7 +1429,7 @@ LightRadius
 lightswitch
 ^^^^^^^^^^^
 
-**Field:** ``LIGHTSWITCH``
+**Field:** ``TilePropertyKey.LIGHTSWITCH``
 
 
 .. _tile-property-LinkedLocIs:
@@ -1332,7 +1437,7 @@ lightswitch
 LinkedLocIs
 ^^^^^^^^^^^
 
-**Field:** ``LINKED_LOC_IS``
+**Field:** ``TilePropertyKey.LINKED_LOC_IS``
 
 
 .. _tile-property-LinkedOffset:
@@ -1340,7 +1445,7 @@ LinkedLocIs
 LinkedOffset
 ^^^^^^^^^^^^
 
-**Field:** ``LINKED_OFFSET``
+**Field:** ``TilePropertyKey.LINKED_OFFSET``
 
 
 .. _tile-property-livingRoom:
@@ -1348,7 +1453,7 @@ LinkedOffset
 livingRoom
 ^^^^^^^^^^
 
-**Field:** ``LIVING_ROOM``
+**Field:** ``TilePropertyKey.LIVING_ROOM``
 
 
 .. _tile-property-makeWindowInvincible:
@@ -1356,7 +1461,7 @@ livingRoom
 makeWindowInvincible
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``MAKE_WINDOW_INVINCIBLE``
+**Field:** ``TilePropertyKey.MAKE_WINDOW_INVINCIBLE``
 
 
 .. _tile-property-Material:
@@ -1364,7 +1469,7 @@ makeWindowInvincible
 Material
 ^^^^^^^^
 
-**Field:** ``MATERIAL``
+**Field:** ``TilePropertyKey.MATERIAL``
 
 
 .. _tile-property-Material2:
@@ -1372,7 +1477,7 @@ Material
 Material2
 ^^^^^^^^^
 
-**Field:** ``MATERIAL_2``
+**Field:** ``TilePropertyKey.MATERIAL_2``
 
 
 .. _tile-property-Material3:
@@ -1380,7 +1485,7 @@ Material2
 Material3
 ^^^^^^^^^
 
-**Field:** ``MATERIAL_3``
+**Field:** ``TilePropertyKey.MATERIAL_3``
 
 
 .. _tile-property-MaterialType:
@@ -1388,7 +1493,7 @@ Material3
 MaterialType
 ^^^^^^^^^^^^
 
-**Field:** ``MATERIAL_TYPE``
+**Field:** ``TilePropertyKey.MATERIAL_TYPE``
 
 
 .. _tile-property-Microwave:
@@ -1396,7 +1501,7 @@ MaterialType
 Microwave
 ^^^^^^^^^
 
-**Field:** ``MICROWAVE``
+**Field:** ``TilePropertyKey.MICROWAVE``
 
 
 .. _tile-property-MinimumCarSpeedDmg:
@@ -1404,7 +1509,7 @@ Microwave
 MinimumCarSpeedDmg
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``MINIMUM_CAR_SPEED_DMG``
+**Field:** ``TilePropertyKey.MINIMUM_CAR_SPEED_DMG``
 
 
 .. _tile-property-Movement:
@@ -1412,7 +1517,7 @@ MinimumCarSpeedDmg
 Movement
 ^^^^^^^^
 
-**Field:** ``MOVEMENT``
+**Field:** ``TilePropertyKey.MOVEMENT``
 
 
 .. _tile-property-MoveType:
@@ -1420,15 +1525,30 @@ Movement
 MoveType
 ^^^^^^^^
 
-**Field:** ``MOVE_TYPE``
+**Field:** ``TilePropertyKey.MOVE_TYPE``
 
+
+Sets the type of moveable the tile will be. This seems to be only related to the icon of item. There are also signs in the game code that when set to WallObject it will slightly impact the shape of the tile for physic interactions.
+
+
+**Type:** ``string``
+
+**Possible values:**
+
+- ``Normal``
+- ``WallObject``
+- ``WindowObject``
+- ``Window``
+- ``FloorTile``
+- ``FloorRug``
+- ``Vegitation``
 
 .. _tile-property-MoveWithWind:
 
 MoveWithWind
 ^^^^^^^^^^^^
 
-**Field:** ``MOVE_WITH_WIND``
+**Field:** ``TilePropertyKey.MOVE_WITH_WIND``
 
 
 .. _tile-property-name:
@@ -1436,7 +1556,7 @@ MoveWithWind
 name
 ^^^^
 
-**Field:** ``NAME``
+**Field:** ``TilePropertyKey.NAME``
 
 
 .. _tile-property-natureFloor:
@@ -1444,7 +1564,7 @@ name
 natureFloor
 ^^^^^^^^^^^
 
-**Field:** ``NATURE_FLOOR``
+**Field:** ``TilePropertyKey.NATURE_FLOOR``
 
 
 .. _tile-property-NeverCutaway:
@@ -1452,7 +1572,7 @@ natureFloor
 NeverCutaway
 ^^^^^^^^^^^^
 
-**Field:** ``NEVER_CUTAWAY``
+**Field:** ``TilePropertyKey.NEVER_CUTAWAY``
 
 
 .. _tile-property-Noffset:
@@ -1460,7 +1580,7 @@ NeverCutaway
 Noffset
 ^^^^^^^
 
-**Field:** ``N_OFFSET``
+**Field:** ``TilePropertyKey.N_OFFSET``
 
 
 .. _tile-property-NoFreezer:
@@ -1468,7 +1588,7 @@ Noffset
 NoFreezer
 ^^^^^^^^^
 
-**Field:** ``NO_FREEZER``
+**Field:** ``TilePropertyKey.NO_FREEZER``
 
 
 .. _tile-property-noStart:
@@ -1476,7 +1596,7 @@ NoFreezer
 noStart
 ^^^^^^^
 
-**Field:** ``NO_START``
+**Field:** ``TilePropertyKey.NO_START``
 
 
 .. _tile-property-NoWallLighting:
@@ -1484,7 +1604,7 @@ noStart
 NoWallLighting
 ^^^^^^^^^^^^^^
 
-**Field:** ``NO_WALL_LIGHTING``
+**Field:** ``TilePropertyKey.NO_WALL_LIGHTING``
 
 
 .. _tile-property-OpaquePixelsOnly:
@@ -1492,7 +1612,7 @@ NoWallLighting
 OpaquePixelsOnly
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``OPAQUE_PIXELS_ONLY``
+**Field:** ``TilePropertyKey.OPAQUE_PIXELS_ONLY``
 
 **Type:** ``boolean``
 
@@ -1502,7 +1622,7 @@ OpaquePixelsOnly
 open
 ^^^^
 
-**Field:** ``OPEN``
+**Field:** ``TilePropertyKey.OPEN``
 
 
 .. _tile-property-OpenTileOffset:
@@ -1510,7 +1630,7 @@ open
 OpenTileOffset
 ^^^^^^^^^^^^^^
 
-**Field:** ``OPEN_TILE_OFFSET``
+**Field:** ``TilePropertyKey.OPEN_TILE_OFFSET``
 
 
 .. _tile-property-PaintingType:
@@ -1518,7 +1638,7 @@ OpenTileOffset
 PaintingType
 ^^^^^^^^^^^^
 
-**Field:** ``PAINTING_TYPE``
+**Field:** ``TilePropertyKey.PAINTING_TYPE``
 
 
 .. _tile-property-PhysicsMesh:
@@ -1526,7 +1646,7 @@ PaintingType
 PhysicsMesh
 ^^^^^^^^^^^
 
-**Field:** ``PHYSICS_MESH``
+**Field:** ``TilePropertyKey.PHYSICS_MESH``
 
 
 .. _tile-property-PhysicsShape:
@@ -1534,7 +1654,7 @@ PhysicsMesh
 PhysicsShape
 ^^^^^^^^^^^^
 
-**Field:** ``PHYSICS_SHAPE``
+**Field:** ``TilePropertyKey.PHYSICS_SHAPE``
 
 
 .. _tile-property-PickUpLevel:
@@ -1542,7 +1662,21 @@ PhysicsShape
 PickUpLevel
 ^^^^^^^^^^^
 
-**Field:** ``PICK_UP_LEVEL``
+**Field:** ``TilePropertyKey.PICK_UP_LEVEL``
+
+
+`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
+
+If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
+
+The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
+
+The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
+
+`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+
+
+**Type:** ``integer``
 
 
 .. _tile-property-PickUpTool:
@@ -1550,15 +1684,52 @@ PickUpLevel
 PickUpTool
 ^^^^^^^^^^
 
-**Field:** ``PICK_UP_TOOL``
+**Field:** ``TilePropertyKey.PICK_UP_TOOL``
 
+
+`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
+
+If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
+
+The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
+
+The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
+
+`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+
+
+**Type:** ``string``
+
+**Possible values:**
+
+- ``None``
+- ``Hammer``
+- ``Crowbar``
+- ``Electrician``
+- ``Cutter``
+- ``Shovel``
+- ``Wrench``
 
 .. _tile-property-PickUpWeight:
 
 PickUpWeight
 ^^^^^^^^^^^^
 
-**Field:** ``PICK_UP_WEIGHT``
+**Field:** ``TilePropertyKey.PICK_UP_WEIGHT``
+
+
+`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
+
+If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
+
+The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
+
+The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
+
+`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+
+
+**Type:** ``integer``
 
 
 .. _tile-property-PlaceTool:
@@ -1566,7 +1737,21 @@ PickUpWeight
 PlaceTool
 ^^^^^^^^^
 
-**Field:** ``PLACE_TOOL``
+**Field:** ``TilePropertyKey.PLACE_TOOL``
+
+
+`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
+
+If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
+
+The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
+
+The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
+
+`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+
+
+**Type:** ``string``
 
 
 .. _tile-property-propaneTank:
@@ -1574,7 +1759,7 @@ PlaceTool
 propaneTank
 ^^^^^^^^^^^
 
-**Field:** ``PROPANE_TANK``
+**Field:** ``TilePropertyKey.PROPANE_TANK``
 
 
 .. _tile-property-radio:
@@ -1582,7 +1767,7 @@ propaneTank
 radio
 ^^^^^
 
-**Field:** ``RADIO``
+**Field:** ``TilePropertyKey.RADIO``
 
 
 .. _tile-property-RenderLayer:
@@ -1590,7 +1775,7 @@ radio
 RenderLayer
 ^^^^^^^^^^^
 
-**Field:** ``RENDER_LAYER``
+**Field:** ``TilePropertyKey.RENDER_LAYER``
 
 
 .. _tile-property-RoofGroup:
@@ -1598,7 +1783,7 @@ RenderLayer
 RoofGroup
 ^^^^^^^^^
 
-**Field:** ``ROOF_GROUP``
+**Field:** ``TilePropertyKey.ROOF_GROUP``
 
 
 .. _tile-property-RoofWallStart:
@@ -1606,7 +1791,7 @@ RoofGroup
 RoofWallStart
 ^^^^^^^^^^^^^
 
-**Field:** ``UNUSROOF_WALL_STARTD``
+**Field:** ``TilePropertyKey.UNUSROOF_WALL_STARTD``
 
 
 .. _tile-property-ScrapSize:
@@ -1614,7 +1799,7 @@ RoofWallStart
 ScrapSize
 ^^^^^^^^^
 
-**Field:** ``SCRAP_SIZE``
+**Field:** ``TilePropertyKey.SCRAP_SIZE``
 
 
 .. _tile-property-ScrapToolUseOverride:
@@ -1622,7 +1807,7 @@ ScrapSize
 ScrapToolUseOverride
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``SCRAP_TOOL_USE_OVERRIDE``
+**Field:** ``TilePropertyKey.SCRAP_TOOL_USE_OVERRIDE``
 
 
 .. _tile-property-ScrapUseSkill:
@@ -1630,7 +1815,7 @@ ScrapToolUseOverride
 ScrapUseSkill
 ^^^^^^^^^^^^^
 
-**Field:** ``SCRAP_USE_SKILL``
+**Field:** ``TilePropertyKey.SCRAP_USE_SKILL``
 
 
 .. _tile-property-ScrapUseTool:
@@ -1638,7 +1823,7 @@ ScrapUseSkill
 ScrapUseTool
 ^^^^^^^^^^^^
 
-**Field:** ``SCRAP_USE_TOOL``
+**Field:** ``TilePropertyKey.SCRAP_USE_TOOL``
 
 
 .. _tile-property-SeatMaterial:
@@ -1646,7 +1831,7 @@ ScrapUseTool
 SeatMaterial
 ^^^^^^^^^^^^
 
-**Field:** ``SEAT_MATERIAL``
+**Field:** ``TilePropertyKey.SEAT_MATERIAL``
 
 
 .. _tile-property-signal:
@@ -1654,7 +1839,7 @@ SeatMaterial
 signal
 ^^^^^^
 
-**Field:** ``SIGNAL``
+**Field:** ``TilePropertyKey.SIGNAL``
 
 
 .. _tile-property-SinkType:
@@ -1662,7 +1847,7 @@ signal
 SinkType
 ^^^^^^^^
 
-**Field:** ``SINK_TYPE``
+**Field:** ``TilePropertyKey.SINK_TYPE``
 
 
 .. _tile-property-SlopedSurfaceDirection:
@@ -1670,17 +1855,27 @@ SinkType
 SlopedSurfaceDirection
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``SLOPED_SURFACE_DIRECTION``
+**Field:** ``TilePropertyKey.SLOPED_SURFACE_DIRECTION``
 
 **Type:** ``string``
 
+**Possible values:**
+
+- ``N``
+- ``E``
+- ``S``
+- ``W``
+- ``NE``
+- ``NW``
+- ``SE``
+- ``SW``
 
 .. _tile-property-SlopedSurfaceHeightMax:
 
 SlopedSurfaceHeightMax
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``SLOPED_SURFACE_HEIGHT_MAX``
+**Field:** ``TilePropertyKey.SLOPED_SURFACE_HEIGHT_MAX``
 
 **Type:** ``integer``
 
@@ -1696,7 +1891,7 @@ SlopedSurfaceHeightMax
 SlopedSurfaceHeightMin
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``SLOPED_SURFACE_HEIGHT_MIN``
+**Field:** ``TilePropertyKey.SLOPED_SURFACE_HEIGHT_MIN``
 
 **Type:** ``integer``
 
@@ -1712,7 +1907,7 @@ SlopedSurfaceHeightMin
 SmashedTileOffset
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``SMASHED_TILE_OFFSET``
+**Field:** ``TilePropertyKey.SMASHED_TILE_OFFSET``
 
 
 .. _tile-property-smoke:
@@ -1720,7 +1915,7 @@ SmashedTileOffset
 smoke
 ^^^^^
 
-**Field:** ``SMOKE``
+**Field:** ``TilePropertyKey.SMOKE``
 
 
 .. _tile-property-SnowTile:
@@ -1728,7 +1923,7 @@ smoke
 SnowTile
 ^^^^^^^^
 
-**Field:** ``SNOW_TILE``
+**Field:** ``TilePropertyKey.SNOW_TILE``
 
 
 .. _tile-property-Soffset:
@@ -1736,7 +1931,7 @@ SnowTile
 Soffset
 ^^^^^^^
 
-**Field:** ``S_OFFSET``
+**Field:** ``TilePropertyKey.S_OFFSET``
 
 
 .. _tile-property-solid:
@@ -1744,7 +1939,7 @@ Soffset
 solid
 ^^^^^
 
-**Field:** ``SOLID``
+**Field:** ``TilePropertyKey.SOLID``
 
 
 .. _tile-property-solidfloor:
@@ -1752,7 +1947,7 @@ solid
 solidfloor
 ^^^^^^^^^^
 
-**Field:** ``SOLID_FLOOR``
+**Field:** ``TilePropertyKey.SOLID_FLOOR``
 
 
 .. _tile-property-solidtrans:
@@ -1760,7 +1955,7 @@ solidfloor
 solidtrans
 ^^^^^^^^^^
 
-**Field:** ``SOLID_TRANS``
+**Field:** ``TilePropertyKey.SOLID_TRANS``
 
 
 .. _tile-property-SpearOnlyAttackThrough:
@@ -1768,7 +1963,7 @@ solidtrans
 SpearOnlyAttackThrough
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``SPEAR_ONLY_ATTACK_THROUGH``
+**Field:** ``TilePropertyKey.SPEAR_ONLY_ATTACK_THROUGH``
 
 
 .. _tile-property-SpriteGridLevel:
@@ -1776,7 +1971,7 @@ SpearOnlyAttackThrough
 SpriteGridLevel
 ^^^^^^^^^^^^^^^
 
-**Field:** ``SPRITE_GRID_LEVEL``
+**Field:** ``TilePropertyKey.SPRITE_GRID_LEVEL``
 
 
 .. _tile-property-SpriteGridPos:
@@ -1784,7 +1979,13 @@ SpriteGridLevel
 SpriteGridPos
 ^^^^^^^^^^^^^
 
-**Field:** ``SPRITE_GRID_POS``
+**Field:** ``TilePropertyKey.SPRITE_GRID_POS``
+
+
+Used to specify the position the tile occupies when it is part of multi-tile objects. The first coordinates is in the direction X while the second is in the direction Y. The positive X direction is pointing towards the bottom right, while the positive Y direction is pointing towards the bottom left.
+
+You can find an image which demonstrates the coordinates based on the positions `here <https://pzwiki.net/wiki/Tile_properties#Directions>`_.
+
 
 
 .. _tile-property-StackReplaceTileOffset:
@@ -1792,7 +1993,7 @@ SpriteGridPos
 StackReplaceTileOffset
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``STACK_REPLACE_TILE_OFFSET``
+**Field:** ``TilePropertyKey.STACK_REPLACE_TILE_OFFSET``
 
 **Type:** ``integer``
 
@@ -1804,7 +2005,7 @@ StackReplaceTileOffset
 stairsBN
 ^^^^^^^^
 
-**Field:** ``STAIRS_BN``
+**Field:** ``TilePropertyKey.STAIRS_BN``
 
 
 .. _tile-property-stairsBW:
@@ -1812,7 +2013,7 @@ stairsBN
 stairsBW
 ^^^^^^^^
 
-**Field:** ``STAIRS_BW``
+**Field:** ``TilePropertyKey.STAIRS_BW``
 
 
 .. _tile-property-stairsMN:
@@ -1820,7 +2021,7 @@ stairsBW
 stairsMN
 ^^^^^^^^
 
-**Field:** ``STAIRS_MN``
+**Field:** ``TilePropertyKey.STAIRS_MN``
 
 
 .. _tile-property-stairsMW:
@@ -1828,7 +2029,7 @@ stairsMN
 stairsMW
 ^^^^^^^^
 
-**Field:** ``STAIRS_MW``
+**Field:** ``TilePropertyKey.STAIRS_MW``
 
 
 .. _tile-property-stairsTN:
@@ -1836,7 +2037,7 @@ stairsMW
 stairsTN
 ^^^^^^^^
 
-**Field:** ``STAIRS_TN``
+**Field:** ``TilePropertyKey.STAIRS_TN``
 
 
 .. _tile-property-stairsTW:
@@ -1844,7 +2045,7 @@ stairsTN
 stairsTW
 ^^^^^^^^
 
-**Field:** ``STAIRS_TW``
+**Field:** ``TilePropertyKey.STAIRS_TW``
 
 
 .. _tile-property-StopCar:
@@ -1852,7 +2053,7 @@ stairsTW
 StopCar
 ^^^^^^^
 
-**Field:** ``STOP_CAR``
+**Field:** ``TilePropertyKey.STOP_CAR``
 
 
 .. _tile-property-streetlight:
@@ -1860,7 +2061,7 @@ StopCar
 streetlight
 ^^^^^^^^^^^
 
-**Field:** ``STREETLIGHT``
+**Field:** ``TilePropertyKey.STREETLIGHT``
 
 
 .. _tile-property-Surface:
@@ -1868,9 +2069,11 @@ streetlight
 Surface
 ^^^^^^^
 
-**Field:** ``SURFACE``
+**Field:** ``TilePropertyKey.SURFACE``
 
-The surface position of the tile.
+
+The surface position of the tile when an object is on a tabletop surface like a counter or table. Requires `IsSurfaceOffset <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#issurfaceoffset>`_ set to ``true``.
+
 
 **Type:** ``integer``
 
@@ -1882,7 +2085,7 @@ The surface position of the tile.
 tableN
 ^^^^^^
 
-**Field:** ``TABLE_N``
+**Field:** ``TilePropertyKey.TABLE_N``
 
 
 .. _tile-property-taintedWater:
@@ -1890,7 +2093,7 @@ tableN
 taintedWater
 ^^^^^^^^^^^^
 
-**Field:** ``TAINTED_WATER``
+**Field:** ``TilePropertyKey.TAINTED_WATER``
 
 
 .. _tile-property-TallHoppableN:
@@ -1898,7 +2101,7 @@ taintedWater
 TallHoppableN
 ^^^^^^^^^^^^^
 
-**Field:** ``TALL_HOPPABLE_N``
+**Field:** ``TilePropertyKey.TALL_HOPPABLE_N``
 
 
 .. _tile-property-TallHoppableW:
@@ -1906,7 +2109,7 @@ TallHoppableN
 TallHoppableW
 ^^^^^^^^^^^^^
 
-**Field:** ``TALL_HOPPABLE_W``
+**Field:** ``TilePropertyKey.TALL_HOPPABLE_W``
 
 
 .. _tile-property-ThumpSound:
@@ -1914,7 +2117,7 @@ TallHoppableW
 ThumpSound
 ^^^^^^^^^^
 
-**Field:** ``THUMP_SOUND``
+**Field:** ``TilePropertyKey.THUMP_SOUND``
 
 
 .. _tile-property-TieSheetRope:
@@ -1922,7 +2125,7 @@ ThumpSound
 TieSheetRope
 ^^^^^^^^^^^^
 
-**Field:** ``TIE_SHEET_ROPE``
+**Field:** ``TilePropertyKey.TIE_SHEET_ROPE``
 
 
 .. _tile-property-TileOverlay:
@@ -1930,7 +2133,7 @@ TieSheetRope
 TileOverlay
 ^^^^^^^^^^^
 
-**Field:** ``TILE_OVERLAY``
+**Field:** ``TilePropertyKey.TILE_OVERLAY``
 
 
 .. _tile-property-trans:
@@ -1938,7 +2141,7 @@ TileOverlay
 trans
 ^^^^^
 
-**Field:** ``TRANS``
+**Field:** ``TilePropertyKey.TRANS``
 
 
 .. _tile-property-Translucent:
@@ -1946,7 +2149,7 @@ trans
 Translucent
 ^^^^^^^^^^^
 
-**Field:** ``TRANSLUCENT``
+**Field:** ``TilePropertyKey.TRANSLUCENT``
 
 
 .. _tile-property-transparentFloor:
@@ -1954,7 +2157,7 @@ Translucent
 transparentFloor
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TRANSPARENT_FLOOR``
+**Field:** ``TilePropertyKey.TRANSPARENT_FLOOR``
 
 
 .. _tile-property-transparentN:
@@ -1962,7 +2165,7 @@ transparentFloor
 transparentN
 ^^^^^^^^^^^^
 
-**Field:** ``TRANSPARENT_N``
+**Field:** ``TilePropertyKey.TRANSPARENT_N``
 
 
 .. _tile-property-transparentW:
@@ -1970,7 +2173,7 @@ transparentN
 transparentW
 ^^^^^^^^^^^^
 
-**Field:** ``TRANSPARENT_W``
+**Field:** ``TilePropertyKey.TRANSPARENT_W``
 
 
 .. _tile-property-TreatAsWallOrder:
@@ -1978,7 +2181,7 @@ transparentW
 TreatAsWallOrder
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TREAT_AS_WALL_ORDER``
+**Field:** ``TilePropertyKey.TREAT_AS_WALL_ORDER``
 
 
 .. _tile-property-tree:
@@ -1986,7 +2189,7 @@ TreatAsWallOrder
 tree
 ^^^^
 
-**Field:** ``TREE``
+**Field:** ``TilePropertyKey.TREE``
 
 
 .. _tile-property-TV:
@@ -1994,7 +2197,7 @@ tree
 TV
 ^^
 
-**Field:** ``TV``
+**Field:** ``TilePropertyKey.TV``
 
 
 .. _tile-property-UnbreakableWindowN:
@@ -2002,7 +2205,7 @@ TV
 UnbreakableWindowN
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``UNBREAKABLE_WINDOW_N``
+**Field:** ``TilePropertyKey.UNBREAKABLE_WINDOW_N``
 
 
 .. _tile-property-UnbreakableWindowNW:
@@ -2010,7 +2213,7 @@ UnbreakableWindowN
 UnbreakableWindowNW
 ^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``UNBREAKABLE_WINDOW_NW``
+**Field:** ``TilePropertyKey.UNBREAKABLE_WINDOW_NW``
 
 
 .. _tile-property-UnbreakableWindowW:
@@ -2018,7 +2221,7 @@ UnbreakableWindowNW
 UnbreakableWindowW
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``UNBREAKABLE_WINDOW_W``
+**Field:** ``TilePropertyKey.UNBREAKABLE_WINDOW_W``
 
 
 .. _tile-property-unflammable:
@@ -2026,7 +2229,7 @@ UnbreakableWindowW
 unflammable
 ^^^^^^^^^^^
 
-**Field:** ``UNFLAMMABLE``
+**Field:** ``TilePropertyKey.UNFLAMMABLE``
 
 
 .. _tile-property-unlit:
@@ -2034,7 +2237,7 @@ unflammable
 unlit
 ^^^^^
 
-**Field:** ``UNLIT``
+**Field:** ``TilePropertyKey.UNLIT``
 
 
 .. _tile-property-UseObjectDepthTexture:
@@ -2042,7 +2245,13 @@ unlit
 UseObjectDepthTexture
 ^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``USE_OBJECT_DEPTH_TEXTURE``
+**Field:** ``TilePropertyKey.USE_OBJECT_DEPTH_TEXTURE``
+
+
+Makes the tile use the tile depth of the tile it overlays. For example an overlay adding items on a shelf will use the shelf tile depth.
+
+
+**Type:** ``boolean``
 
 
 .. _tile-property-vegitation:
@@ -2050,7 +2259,7 @@ UseObjectDepthTexture
 vegitation
 ^^^^^^^^^^
 
-**Field:** ``VEGITATION``
+**Field:** ``TilePropertyKey.VEGITATION``
 
 
 .. _tile-property-wall:
@@ -2058,7 +2267,7 @@ vegitation
 wall
 ^^^^
 
-**Field:** ``WALL``
+**Field:** ``TilePropertyKey.WALL``
 
 
 .. _tile-property-WallN:
@@ -2066,7 +2275,7 @@ wall
 WallN
 ^^^^^
 
-**Field:** ``WALL_N``
+**Field:** ``TilePropertyKey.WALL_N``
 
 
 .. _tile-property-WallNTrans:
@@ -2074,7 +2283,7 @@ WallN
 WallNTrans
 ^^^^^^^^^^
 
-**Field:** ``WALL_N_TRANS``
+**Field:** ``TilePropertyKey.WALL_N_TRANS``
 
 
 .. _tile-property-WallNW:
@@ -2082,7 +2291,7 @@ WallNTrans
 WallNW
 ^^^^^^
 
-**Field:** ``WALL_NW``
+**Field:** ``TilePropertyKey.WALL_NW``
 
 
 .. _tile-property-WallNWTrans:
@@ -2090,7 +2299,7 @@ WallNW
 WallNWTrans
 ^^^^^^^^^^^
 
-**Field:** ``WALL_NW_TRANS``
+**Field:** ``TilePropertyKey.WALL_NW_TRANS``
 
 
 .. _tile-property-WallObjectAllowDoorframe:
@@ -2098,7 +2307,7 @@ WallNWTrans
 WallObjectAllowDoorframe
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``WALL_OBJECT_ALLOW_DOORFRAME``
+**Field:** ``TilePropertyKey.WALL_OBJECT_ALLOW_DOORFRAME``
 
 
 .. _tile-property-WallOverlay:
@@ -2106,7 +2315,7 @@ WallObjectAllowDoorframe
 WallOverlay
 ^^^^^^^^^^^
 
-**Field:** ``WALL_OVERLAY``
+**Field:** ``TilePropertyKey.WALL_OVERLAY``
 
 
 .. _tile-property-WallSE:
@@ -2114,7 +2323,7 @@ WallOverlay
 WallSE
 ^^^^^^
 
-**Field:** ``WALL_SE``
+**Field:** ``TilePropertyKey.WALL_SE``
 
 
 .. _tile-property-WallType:
@@ -2122,7 +2331,7 @@ WallSE
 WallType
 ^^^^^^^^
 
-**Field:** ``WALL_TYPE``
+**Field:** ``TilePropertyKey.WALL_TYPE``
 
 
 .. _tile-property-WallW:
@@ -2130,7 +2339,7 @@ WallType
 WallW
 ^^^^^
 
-**Field:** ``WALL_W``
+**Field:** ``TilePropertyKey.WALL_W``
 
 
 .. _tile-property-WallWTrans:
@@ -2138,7 +2347,7 @@ WallW
 WallWTrans
 ^^^^^^^^^^
 
-**Field:** ``WALL_W_TRANS``
+**Field:** ``TilePropertyKey.WALL_W_TRANS``
 
 
 .. _tile-property-water:
@@ -2146,7 +2355,7 @@ WallWTrans
 water
 ^^^^^
 
-**Field:** ``WATER``
+**Field:** ``TilePropertyKey.WATER``
 
 
 .. _tile-property-waterAmount:
@@ -2154,7 +2363,7 @@ water
 waterAmount
 ^^^^^^^^^^^
 
-**Field:** ``WATER_AMOUNT``
+**Field:** ``TilePropertyKey.WATER_AMOUNT``
 
 
 .. _tile-property-waterMaxAmount:
@@ -2162,7 +2371,7 @@ waterAmount
 waterMaxAmount
 ^^^^^^^^^^^^^^
 
-**Field:** ``WATER_MAX_AMOUNT``
+**Field:** ``TilePropertyKey.WATER_MAX_AMOUNT``
 
 
 .. _tile-property-waterPiped:
@@ -2170,7 +2379,7 @@ waterMaxAmount
 waterPiped
 ^^^^^^^^^^
 
-**Field:** ``WATER_PIPED``
+**Field:** ``TilePropertyKey.WATER_PIPED``
 
 
 .. _tile-property-WestRoofB:
@@ -2178,7 +2387,7 @@ waterPiped
 WestRoofB
 ^^^^^^^^^
 
-**Field:** ``WEST_ROOF_B``
+**Field:** ``TilePropertyKey.WEST_ROOF_B``
 
 
 .. _tile-property-WestRoofM:
@@ -2186,7 +2395,7 @@ WestRoofB
 WestRoofM
 ^^^^^^^^^
 
-**Field:** ``WEST_ROOF_M``
+**Field:** ``TilePropertyKey.WEST_ROOF_M``
 
 
 .. _tile-property-WestRoofT:
@@ -2194,7 +2403,7 @@ WestRoofM
 WestRoofT
 ^^^^^^^^^
 
-**Field:** ``WEST_ROOF_T``
+**Field:** ``TilePropertyKey.WEST_ROOF_T``
 
 
 .. _tile-property-WheelieBin:
@@ -2202,7 +2411,7 @@ WestRoofT
 WheelieBin
 ^^^^^^^^^^
 
-**Field:** ``WHEELIE_BIN``
+**Field:** ``TilePropertyKey.WHEELIE_BIN``
 
 
 .. _tile-property-windowFN:
@@ -2210,7 +2419,7 @@ WheelieBin
 windowFN
 ^^^^^^^^
 
-**Field:** ``WINDOW_FN``
+**Field:** ``TilePropertyKey.WINDOW_FN``
 
 
 .. _tile-property-windowFW:
@@ -2218,7 +2427,7 @@ windowFN
 windowFW
 ^^^^^^^^
 
-**Field:** ``WINDOW_FW``
+**Field:** ``TilePropertyKey.WINDOW_FW``
 
 
 .. _tile-property-WindowLocked:
@@ -2226,7 +2435,7 @@ windowFW
 WindowLocked
 ^^^^^^^^^^^^
 
-**Field:** ``WINDOW_LOCKED``
+**Field:** ``TilePropertyKey.WINDOW_LOCKED``
 
 
 .. _tile-property-WindowN:
@@ -2234,7 +2443,7 @@ WindowLocked
 WindowN
 ^^^^^^^
 
-**Field:** ``WINDOW_N``
+**Field:** ``TilePropertyKey.WINDOW_N``
 
 
 .. _tile-property-WindowW:
@@ -2242,7 +2451,7 @@ WindowN
 WindowW
 ^^^^^^^
 
-**Field:** ``WINDOW_W``
+**Field:** ``TilePropertyKey.WINDOW_W``
 
 
 .. _tile-property-WindType:
@@ -2250,7 +2459,7 @@ WindowW
 WindType
 ^^^^^^^^
 
-**Field:** ``WIND_TYPE``
+**Field:** ``TilePropertyKey.WIND_TYPE``
 
 
 .. _tile-property-Woffset:
@@ -2258,6 +2467,6 @@ WindType
 Woffset
 ^^^^^^^
 
-**Field:** ``W_OFFSET``
+**Field:** ``TilePropertyKey.W_OFFSET``
 
 
