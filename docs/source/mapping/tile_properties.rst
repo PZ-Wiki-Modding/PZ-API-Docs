@@ -225,15 +225,7 @@ CanBreak
 **Field:** ``TilePropertyKey.CAN_BREAK``
 
 
-`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
-
-If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
-
-The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
-
-The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
-
-`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
 
 
 **Type:** ``boolean``
@@ -1031,9 +1023,7 @@ GroupName
 **Field:** ``TilePropertyKey.GROUP_NAME``
 
 
-Used to define the item name, which will show as `GroupName <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#groupname>`_ + `CustomName <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#customname>`_. For example if CustomName is set to ``Bed`` and GroupName is set to ``Fancy``\ , it will show as ``Fancy Bed`` in the game. ``GroupName`` is used as a sub-category description of the object, such as its color, shape, name or quality.
-
-Those properties need to be the same for multi-tile objects.
+See description of :ref:`CustomName <tile-property-CustomName>` property.
 
 
 **Type:** ``string``
@@ -1286,7 +1276,7 @@ IsSurfaceOffset
 **Field:** ``TilePropertyKey.IS_SURFACE_OFFSET``
 
 
-Indicates the object is offset by the `Surface <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#surface>`_ value when on a tabletop.
+See description of :ref:`Surface <tile-property-Surface>` property.
 
 
 **Type:** ``boolean``
@@ -1338,6 +1328,10 @@ ItemHeight
 ^^^^^^^^^^
 
 **Field:** ``TilePropertyKey.ITEM_HEIGHT``
+
+
+See description of :ref:`Surface <tile-property-Surface>` property.
+
 
 **Type:** ``integer``
 
@@ -1665,15 +1659,7 @@ PickUpLevel
 **Field:** ``TilePropertyKey.PICK_UP_LEVEL``
 
 
-`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
-
-If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
-
-The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
-
-The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
-
-`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
 
 
 **Type:** ``integer``
@@ -1718,15 +1704,7 @@ PickUpWeight
 **Field:** ``TilePropertyKey.PICK_UP_WEIGHT``
 
 
-`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
-
-If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
-
-The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
-
-The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
-
-`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
 
 
 **Type:** ``integer``
@@ -1740,15 +1718,7 @@ PlaceTool
 **Field:** ``TilePropertyKey.PLACE_TOOL``
 
 
-`PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
-
-If you want to add new tools, you can usually use the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ that you add to your `item tools <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#tags>`_\ , or you can also look into the lua file ``media/Moveables/ISMoveableDefinitions.lua`` to see how they add each new tools.
-
-The `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_ is used to determine what level in the relevant skill you need to be able to pickup the tile. For example ``Hammer`` with a PickUpLevel of 2 will require a carpentry level of 2 to pickup the tile.
-
-The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickupweight>`_ will determine how much the tile weights in the inventory. This value is divded by 10, so for example a weight of 200 will mean an in-game encumbrance of 20. If `ForceSingleItem <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#forcesingleitem>`_ is set to ``true``\ , this is the total weight, otherwise this is the weight of each tile as a separate item.
-
-`CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
+See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
 
 
 **Type:** ``string``
@@ -2072,7 +2042,13 @@ Surface
 **Field:** ``TilePropertyKey.SURFACE``
 
 
-The surface position of the tile when an object is on a tabletop surface like a counter or table. Requires `IsSurfaceOffset <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#issurfaceoffset>`_ set to ``true``.
+`Surface <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#surface>`_ is used to indicate the height in pixel on the tile of the flat surface of the tile, which is notably used for tables to indicated at which height items will be placed.
+
+A second effect of this parameter can be triggered by setting `IsSurfaceOffset <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#issurfaceoffset>`_ to ``true``\ , which will instead make the Surface parameter indicate the bottom height of the tile, which is useful for object tiles which are placed on top of other tiles, such as flower pots or lamps.
+
+When the tile can be placed on another tile surface but also has a surface itself, the `ItemHeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#itemheight>`_ parameter can be used to indicate the height of the surface of the tile itself, and the Surface and IsSurfaceOffset parameters will then be used for the height of the bottom surface of the tile.
+
+You can find a demonstration of these properties on the wiki `here <https://pzwiki.net/wiki/Tile_properties#Surface_and_ItemHeight>`_
 
 
 **Type:** ``integer``

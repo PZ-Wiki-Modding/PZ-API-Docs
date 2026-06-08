@@ -7,7 +7,7 @@ Available item tags accessible from Lua code. Each tag can be accessed using ``I
    :widths: 20 30 50
    :header-rows: 1
 
-   * - [Field](https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ItemTag.html#field-summary)
+   * - `Field <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ItemTag.html#field-summary>`_
      - Script Name
      - Description
    * - ``ItemTag.AEROSOL``

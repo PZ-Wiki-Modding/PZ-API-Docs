@@ -66,6 +66,10 @@ Reference documentation for tile properties that define the characteristics and 
         default_value = prop_data.get('default', '')
         description = prop_data.get('description', '')
         values = prop_data.get('values', [])
+
+        desc_ref = prop_data.get('#desc', '')
+        if desc_ref:
+            description = f"See the description of the :ref:`{desc_ref} <tile-property-{desc_ref}>` property."
         
         # Add anchor label for reference
         anchor = f"tile-property-{prop_name}"
