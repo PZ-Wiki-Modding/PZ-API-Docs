@@ -222,7 +222,8 @@ No description
 AlwaysWelcomeGift
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: boolean
+:Attributes: Useless
 
 No description
 
@@ -334,9 +335,10 @@ No description
 BadInMicrowave
 ^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: boolean
+:Needs: ``ItemType`` = base:food
 
-Used to set whether this item will cause a fire when put in a microwave.
+No description
 
 .. _item-bandagepower:
 
@@ -499,9 +501,16 @@ No description
 Calories
 ^^^^^^^^
 
-:Type: Any
+:Type: float
+:Needs: ``ItemType`` = base:food
 
-No description
+The following stats are directly linked to the player's `nutrition <https://pzwiki.net/wiki/Nutrition>`_\ , which are hidden stats that will impact the player's weight gains and more (positive values will increase the stat when eaten):
+
+
+* `Calories <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-calories>`_
+* `Carbohydrates <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-carbohydrates>`_
+* `Lipids <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lipids>`_
+* `Proteins <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-proteins>`_
 
 .. _item-canattach:
 
@@ -599,9 +608,10 @@ Used to define whenever this item can get holes in it.
 CannedFood
 ^^^^^^^^^^
 
-:Type: Any
+:Type: boolean
+:Needs: ``ItemType`` = base:food
 
-No description
+`CannedFood <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-cannedfood>`_ will mark the item as a canned food which will impact how it is spawned in the world. It will also impact the type of item where instead of being "Food" it will be "CannedFood".
 
 .. _item-canstack:
 
@@ -635,9 +645,10 @@ No description
 cantBeConsolided
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: boolean
+:Needs: ``ItemType`` = base:drainable
 
-No description
+See :ref:`item-consolidateoption` for more details.
 
 .. _item-cantbefrozen:
 
@@ -672,9 +683,10 @@ No description
 Carbohydrates
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: float
+:Needs: ``ItemType`` = base:food
 
-No description
+See :ref:`item-calories` for more details.
 
 .. _item-categories:
 
@@ -879,8 +891,11 @@ ConsolidateOption
 ^^^^^^^^^^^^^^^^^
 
 :Type: Any
+:Needs: ``ItemType`` = base:drainable; ``cantBeConsolided`` = False
 
-No description
+By setting `cantBeConsolided <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-cantbeconsolided>`_ to ``false`` and providing a `ConsolidateOption <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-consolidateoption>`_ value, the item can be marked to merge its uses with other items of the same type in the inventory. This requires the item to be `Drainable type <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
+
+The ConsolidateOption value needs to be a translation key which will be passed through `getText <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Translator.html#getText(java.lang.String>`_\ ) to retrieve the translation value. The vanilla drainables (duct tape, wires, matches...) use the translation key ``ContextMenu_Merge`` which outputs a text 'Add to'.
 
 .. _item-cookingsound:
 
@@ -1169,7 +1184,7 @@ No description
 DoubleClickRecipe
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`craftRecipe`)
 
 No description
 
@@ -1279,9 +1294,29 @@ No description
 EvolvedRecipe
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: object (object: block->>string, kv: ':', pairs: ';')
 
-List of evolved recipes this item can be used in.
+`EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipe>`_ is used to list the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ this item can be used in as an ingredient. The syntax needs to be as follows:
+
+.. code-block:: cpp
+
+   EvolvedRecipe = recipeName1:quantity1;recipeName2:quantity2;recipeName3:quantity3,
+
+A custom flag ``cooked`` can also be added for specific recipes, for example:
+
+.. code-block:: cpp
+
+   EvolvedRecipe = recipeName1:quantity1|cooked;recipeName2:quantity2;recipeName3:quantity3,
+
+Here the ``recipeName1`` will require the item to be cooked first before being used in the recipe.
+
+A simpler syntax is also technically supported where the quantity can be omitted:
+
+.. code-block:: cpp
+
+   EvolvedRecipe = recipeName1;recipeName2:quantity2;recipeName3,
+
+`EvolvedRecipeName <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipename>`_ can be used to set the name of the item that will be displayed in the result item. That parameter gets ignored if the game language is not english, and due to a bug it won't even use the translation of the item so it will use the fullType.
 
 .. _item-evolvedrecipename:
 
@@ -1290,7 +1325,7 @@ EvolvedRecipeName
 
 :Type: Any
 
-No description
+See :ref:`item-evolvedrecipe` for more details.
 
 .. _item-explosionduration:
 
@@ -1697,9 +1732,15 @@ No description
 HungerChange
 ^^^^^^^^^^^^
 
-:Type: Any
+:Type: float
 
-No description
+Different stats are available for food items which will impact the player's hunger, thirst, boredom etc.
+
+
+* `HungerChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hungerchange>`_ when negative will reduce the hunger of the player, with ``100`` the maximum amount of hunger of a player
+* `ThirstChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-thirstchange>`_ when negative will reduce the thirst of the player, with ``100`` the maximum amount of thirst of a player
+* `UnhappyChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-unhappychange>`_ when positive will decrease the player's unhappiness, with ``100`` the maximum amount of unhappiness of a player
+* `StressChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-stresschange>`_ when negative will reduce the stress of the player, with ``100`` the maximum amount of stress of a player
 
 .. _item-icon:
 
@@ -1910,7 +1951,15 @@ IsCookable
 
 :Type: boolean
 
-No description
+`IsCookable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-iscookable>`_ marks as the item as cookable.
+
+`MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestocook>`_ controls how many in-game minutes it takes for the food to be fully cooked. 
+
+`MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestoburn>`_ controls how many in-game minutes it takes for the food to burn. This value must be higher than `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestocook>`_ or your item will be instantly burnt before being fully cooked.
+
+`RemoveNegativeEffectOnCooked <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-removenegativeeffectoncooked>`_ will remove any negative changes in thirst, unhappiness and boredom when the food is cooked.
+
+`BadInMicrowave <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-badinmicrowave>`_ will set the unhappiness and boredom changes to ``5.0`` when cooked in a microwave.
 
 .. _item-isdung:
 
@@ -1998,9 +2047,9 @@ Allowed values:
 ItemWhenDry
 ^^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`item`, with :ref:`module`)
 
-No description
+See :ref:`item-wet` for more details.
 
 .. _item-jamgunchance:
 
@@ -2084,9 +2133,10 @@ The ``new_light_level`` is limited to a maximum of ``2.5``.
 Lipids
 ^^^^^^
 
-:Type: Any
+:Type: float
+:Needs: ``ItemType`` = base:food
 
-No description
+See :ref:`item-calories` for more details.
 
 .. _item-lowlightbonus:
 
@@ -2391,12 +2441,9 @@ MinutesToBurn
 
 :Type: float
 :Default: ``120.0``
-:Needs: ``ItemType`` = base:food; ``IsCookable`` = True
+:Needs: ``IsCookable`` = True
 
-How many in-game minutes it takes to burn the food. This value must
-be higher than `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestocook>`_.
-
-In comparison with `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestocook>`_\ , this parameter is not available for ``base:drainable`` `ItemTypes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
+See :ref:`item-iscookable` for more details.
 
 .. _item-minutestocook:
 
@@ -2405,9 +2452,9 @@ MinutesToCook
 
 :Type: float
 :Default: ``60.0``
-:Needs: ``ItemType`` = base:food, base:drainable; ``IsCookable`` = True
+:Needs: ``IsCookable`` = True
 
-How many in-game minutes it takes to cook the food. This value must be smaller than `MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minutestoburn>`_.
+See :ref:`item-iscookable` for more details.
 
 .. _item-modelweaponpart:
 
@@ -2627,9 +2674,10 @@ No description
 Packaged
 ^^^^^^^^
 
-:Type: Any
+:Type: boolean
+:Needs: ``ItemType`` = base:food
 
-No description
+Setting this to ``true`` will add readable content on the food item, which will display the `nutrional information <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-calories>`_ of the food item.
 
 .. _item-padlock:
 
@@ -2796,9 +2844,10 @@ No description
 Proteins
 ^^^^^^^^
 
-:Type: Any
+:Type: float
+:Needs: ``ItemType`` = base:food
 
-No description
+See :ref:`item-calories` for more details.
 
 .. _item-pushbackmod:
 
@@ -2959,9 +3008,10 @@ No description
 RemoveNegativeEffectOnCooked
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: boolean
+:Needs: ``ItemType`` = base:food
 
-No description
+See :ref:`item-iscookable` for more details.
 
 .. _item-removeonbroken:
 
@@ -3014,16 +3064,22 @@ No description
 ReplaceOnDeplete
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`item`, with :ref:`module`)
 
-No description
+When providing a `ReplaceOnDeplete <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-replaceondeplete>`_\ , the moment the item is depleted (e.g. a drainable item has no uses left anymore), it will be replaced by the item defined in this parameter. If this is empty, the item will be deleted without any replacement. This can notably be used to replace towels with a `wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wet>`_ towel.
+
+`ReplaceOnExtinguish <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-replaceonextinguish>`_ on the other hand is used for `light sources items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lightstrength>`_ to swap between the lit and unlit version of the item when it is fully drained.
+
+`ReplaceOnRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-replaceonrotten>`_ is used for food items to swap to a different rotten version of items when they are fully rotten. This is actually not used to make an item rotten, which is natively handled by the game when providing `DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daysfresh>`_ and `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daystotallyrotten>`_ but instead when the item isn't necessary bad to eat after the days rotten duration, like ice cream becoming melted for example.
+
+`ReplaceOnUse <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-replaceonuse>`_ is used whenever an item is used, to replace it with another item. Used for containers containing food items to provide the container back after the food is eaten, or for dirty items getting cleaned.
 
 .. _item-replaceonextinguish:
 
 ReplaceOnExtinguish
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`item`, with :ref:`module`)
 
 No description
 
@@ -3032,7 +3088,8 @@ No description
 ReplaceOnRotten
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`item`, with :ref:`module`)
+:Needs: ``ItemType`` = base:food
 
 No description
 
@@ -3041,7 +3098,7 @@ No description
 ReplaceOnUse
 ^^^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`item`, with :ref:`module`)
 
 No description
 
@@ -3200,7 +3257,7 @@ No description
 SoundMap
 ^^^^^^^^
 
-:Type: Any
+:Type: object (object: string->>block, kv: ' ', pairs: ';')
 :Attributes: Can be duplicated
 
 No description
@@ -3246,9 +3303,10 @@ No description
 Spice
 ^^^^^
 
-:Type: Any
+:Type: boolean
+:Needs: ``ItemType`` = base:food, base:drainable
 
-No description
+Marks this item as a spice, which can be used in the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ system.
 
 .. _item-splatbloodonnodeath:
 
@@ -3582,8 +3640,13 @@ UseDelta
 
 :Type: float
 :Default: ``0.03125``
+:Needs: ``ItemType`` = base:drainable, base:weapon, base:radio
 
-No description
+Used to set the number of `uses <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getCurrentUses(>`_\ ) for the item where its durability has a value of ``1`` when full and ``0`` when empty. For example, a `base:drainable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ item with a ``UseDelta`` of ``0.03125`` (the default value) will have 32 uses ($1/0.03125$) before it is depleted.
+
+When used for `Clothing items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_\ , the ``UseDelta`` is used to indicate the amount of durability lost for `oxygen tanks <https://pzwiki.net/wiki/Oxygen_Tank>`_ for items with the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ ``base:scba`` or `gas mask filters <https://pzwiki.net/wiki/Gas_Mask_Filter>`_ for items with the ItemTags ``base:gasmask``\ , ``base:respirator`` or ``base:improvisedgasmask``.
+
+Some food items seem to be using that parameter but it doesn't seem to be used for those anywhere. There's uses for it in the Java for Drainable, Weapon and Radio items, but it doesn't seem to be limited to those.
 
 .. _item-useendurance:
 
@@ -3754,9 +3817,14 @@ Weight
 ^^^^^^
 
 :Type: float
+:Range: Min: 0.0
 :Default: ``1.0``
 
-Sets the weight of the item, or more commonly refered to as a encumbrance. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``.
+`Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``.
+
+`WeightEmpty <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weightempty>`_ is used to set the weight of a drainable when it is empty.
+
+`WeightWet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weightwet>`_ is used to set the weight of a clothing item when it is wet. The weight of the clothing item will be interpolated between ``Weight`` and ``WeightWet`` based on the `wetness <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getWetness(>`_\ ) of the clothing item.
 
 .. _item-weightempty:
 
@@ -3765,7 +3833,7 @@ WeightEmpty
 
 :Type: Any
 
-No description
+See :ref:`item-weight` for more details.
 
 .. _item-weightmodifier:
 
@@ -3785,23 +3853,35 @@ WeightReduction
 
 No description
 
+.. _item-weightwet:
+
+WeightWet
+^^^^^^^^^
+
+:Type: Any
+
+See :ref:`item-weight` for more details.
+
 .. _item-wet:
 
 Wet
 ^^^
 
-:Type: Any
+:Type: boolean
 
-No description
+`Wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wet>`_ marks the item as being wet. This is notably used for towels alongside the `WetCooldown <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wetcooldown>`_ which indicates how long the item will stay wet before drying out.
+
+When the item is dry, it is another item marked with the parameter `ItemWhenDry <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemwhendry>`_.
 
 .. _item-wetcooldown:
 
 WetCooldown
 ^^^^^^^^^^^
 
-:Type: Any
+:Type: float
+:Default: ``-1.0``
 
-No description
+See :ref:`item-wet` for more details.
 
 .. _item-wheelfriction:
 

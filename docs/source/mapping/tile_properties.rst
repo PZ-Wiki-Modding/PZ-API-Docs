@@ -8,149 +8,130 @@ Reference documentation for tile properties that define the characteristics and 
 alwaysDraw
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ALWAYS_DRAW``
-
+:Field: ``TilePropertyKey.ALWAYS_DRAW``
 
 .. _tile-property-AmbientSound:
 
 AmbientSound
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.AMBIENT_SOUND``
-
+:Field: ``TilePropertyKey.AMBIENT_SOUND``
 
 .. _tile-property-attachedCeiling:
 
 attachedCeiling
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_CEILING``
-
+:Field: ``TilePropertyKey.ATTACHED_CEILING``
 
 .. _tile-property-attachedE:
 
 attachedE
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_E``
-
+:Field: ``TilePropertyKey.ATTACHED_E``
 
 .. _tile-property-AttachedFloor:
 
 AttachedFloor
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_FLOOR``
-
+:Field: ``TilePropertyKey.ATTACHED_FLOOR``
 
 .. _tile-property-attachedN:
 
 attachedN
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_N``
-
+:Field: ``TilePropertyKey.ATTACHED_N``
 
 .. _tile-property-attachedNW:
 
 attachedNW
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_NW``
-
+:Field: ``TilePropertyKey.ATTACHED_NW``
 
 .. _tile-property-attachedS:
 
 attachedS
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_S``
-
+:Field: ``TilePropertyKey.ATTACHED_S``
 
 .. _tile-property-attachedSE:
 
 attachedSE
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_SE``
-
+:Field: ``TilePropertyKey.ATTACHED_SE``
 
 .. _tile-property-attachedSurface:
 
 attachedSurface
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_SURFACE``
-
+:Field: ``TilePropertyKey.ATTACHED_SURFACE``
 
 .. _tile-property-AttachedToGlass:
 
 AttachedToGlass
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_TO_GLASS``
-
+:Field: ``TilePropertyKey.ATTACHED_TO_GLASS``
 
 .. _tile-property-attachedW:
 
 attachedW
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACHED_W``
-
+:Field: ``TilePropertyKey.ATTACHED_W``
 
 .. _tile-property-attachtostairs:
 
 attachtostairs
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ATTACH_TO_STAIRS``
-
+:Field: ``TilePropertyKey.ATTACH_TO_STAIRS``
 
 .. _tile-property-bed:
 
 bed
 ^^^
 
-**Field:** ``TilePropertyKey.BED``
-
+:Field: ``TilePropertyKey.BED``
 
 .. _tile-property-BedType:
 
 BedType
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.BED_TYPE``
-
+:Field: ``TilePropertyKey.BED_TYPE``
 
 .. _tile-property-BlockRain:
 
 BlockRain
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.BLOCK_RAIN``
-
+:Field: ``TilePropertyKey.BLOCK_RAIN``
 
 .. _tile-property-blocksight:
 
 blocksight
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.BLOCK_SIGHT``
-
+:Field: ``TilePropertyKey.BLOCK_SIGHT``
 
 .. _tile-property-BlocksPlacement:
 
 BlocksPlacement
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.BLOCKS_PLACEMENT``
+:Field: ``TilePropertyKey.BLOCKS_PLACEMENT``
+:Type: ``boolean``
 
 
 If set to ``true``\ , other tiles cannot occupy the same square as this tile.
-
-
-**Type:** ``boolean``
 
 
 .. _tile-property-blueprint:
@@ -158,77 +139,67 @@ If set to ``true``\ , other tiles cannot occupy the same square as this tile.
 blueprint
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.BLUEPRINT``
-
+:Field: ``TilePropertyKey.BLUEPRINT``
 
 .. _tile-property-burning:
 
 burning
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.BURNING``
-
+:Field: ``TilePropertyKey.BURNING``
 
 .. _tile-property-burntOut:
 
 burntOut
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.BURNT_OUT``
-
+:Field: ``TilePropertyKey.BURNT_OUT``
 
 .. _tile-property-BurntTile:
 
 BurntTile
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.BURNT_TILE``
-
+:Field: ``TilePropertyKey.BURNT_TILE``
 
 .. _tile-property-Bush:
 
 Bush
 ^^^^
 
-**Field:** ``TilePropertyKey.BUSH``
-
+:Field: ``TilePropertyKey.BUSH``
 
 .. _tile-property-CanAttachAnimal:
 
 CanAttachAnimal
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CAN_ATTACH_ANIMAL``
-
+:Field: ``TilePropertyKey.CAN_ATTACH_ANIMAL``
 
 .. _tile-property-canBeCut:
 
 canBeCut
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CAN_BE_CUT``
-
+:Field: ``TilePropertyKey.CAN_BE_CUT``
 
 .. _tile-property-canBeRemoved:
 
 canBeRemoved
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CAN_BE_REMOVED``
-
+:Field: ``TilePropertyKey.CAN_BE_REMOVED``
 
 .. _tile-property-CanBreak:
 
 CanBreak
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CAN_BREAK``
+:Field: ``TilePropertyKey.CAN_BREAK``
+:Type: ``boolean``
 
 
-See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
-
-
-**Type:** ``boolean``
+See the description of the :ref:`PickUpTool <tile-property-PickUpTool>` property.
 
 
 .. _tile-property-canPathN:
@@ -236,311 +207,274 @@ See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
 canPathN
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CAN_PATH_N``
-
+:Field: ``TilePropertyKey.CAN_PATH_N``
 
 .. _tile-property-canPathW:
 
 canPathW
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CAN_PATH_W``
-
+:Field: ``TilePropertyKey.CAN_PATH_W``
 
 .. _tile-property-CanScrap:
 
 CanScrap
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CAN_SCRAP``
-
+:Field: ``TilePropertyKey.CAN_SCRAP``
 
 .. _tile-property-CantClimb:
 
 CantClimb
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CANT_CLIMB``
-
+:Field: ``TilePropertyKey.CANT_CLIMB``
 
 .. _tile-property-CarSlowFactor:
 
 CarSlowFactor
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CAR_SLOW_FACTOR``
-
+:Field: ``TilePropertyKey.CAR_SLOW_FACTOR``
 
 .. _tile-property-chairE:
 
 chairE
 ^^^^^^
 
-**Field:** ``TilePropertyKey.CHAIR_E``
-
+:Field: ``TilePropertyKey.CHAIR_E``
 
 .. _tile-property-chairN:
 
 chairN
 ^^^^^^
 
-**Field:** ``TilePropertyKey.CHAIR_N``
-
+:Field: ``TilePropertyKey.CHAIR_N``
 
 .. _tile-property-chairS:
 
 chairS
 ^^^^^^
 
-**Field:** ``TilePropertyKey.CHAIR_S``
-
+:Field: ``TilePropertyKey.CHAIR_S``
 
 .. _tile-property-chairW:
 
 chairW
 ^^^^^^
 
-**Field:** ``TilePropertyKey.CHAIR_W``
-
+:Field: ``TilePropertyKey.CHAIR_W``
 
 .. _tile-property-climbSheetE:
 
 climbSheetE
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLIMB_SHEET_E``
-
+:Field: ``TilePropertyKey.CLIMB_SHEET_E``
 
 .. _tile-property-climbSheetN:
 
 climbSheetN
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLIMB_SHEET_N``
-
+:Field: ``TilePropertyKey.CLIMB_SHEET_N``
 
 .. _tile-property-climbSheetS:
 
 climbSheetS
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLIMB_SHEET_S``
-
+:Field: ``TilePropertyKey.CLIMB_SHEET_S``
 
 .. _tile-property-climbSheetTopE:
 
 climbSheetTopE
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLIMB_SHEET_TOP_E``
-
+:Field: ``TilePropertyKey.CLIMB_SHEET_TOP_E``
 
 .. _tile-property-climbSheetTopN:
 
 climbSheetTopN
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLIMB_SHEET_TOP_N``
-
+:Field: ``TilePropertyKey.CLIMB_SHEET_TOP_N``
 
 .. _tile-property-climbSheetTopS:
 
 climbSheetTopS
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLIMB_SHEET_TOP_S``
-
+:Field: ``TilePropertyKey.CLIMB_SHEET_TOP_S``
 
 .. _tile-property-climbSheetTopW:
 
 climbSheetTopW
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLIMB_SHEET_TOP_W``
-
+:Field: ``TilePropertyKey.CLIMB_SHEET_TOP_W``
 
 .. _tile-property-climbSheetW:
 
 climbSheetW
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLIMB_SHEET_W``
-
+:Field: ``TilePropertyKey.CLIMB_SHEET_W``
 
 .. _tile-property-CloseSneakBonus:
 
 CloseSneakBonus
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CLOSE_SNEAK_BONUS``
-
+:Field: ``TilePropertyKey.CLOSE_SNEAK_BONUS``
 
 .. _tile-property-collideN:
 
 collideN
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.COLLIDE_N``
-
+:Field: ``TilePropertyKey.COLLIDE_N``
 
 .. _tile-property-collideW:
 
 collideW
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.COLLIDE_W``
-
+:Field: ``TilePropertyKey.COLLIDE_W``
 
 .. _tile-property-connectX:
 
 connectX
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONNECT_X``
-
+:Field: ``TilePropertyKey.CONNECT_X``
 
 .. _tile-property-connectY:
 
 connectY
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONNECT_Y``
-
+:Field: ``TilePropertyKey.CONNECT_Y``
 
 .. _tile-property-container:
 
 container
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONTAINER``
-
+:Field: ``TilePropertyKey.CONTAINER``
 
 .. _tile-property-ContainerCapacity:
 
 ContainerCapacity
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONTAINER_CAPACITY``
-
+:Field: ``TilePropertyKey.CONTAINER_CAPACITY``
 
 .. _tile-property-ContainerCloseSound:
 
 ContainerCloseSound
 ^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONTAINER_CLOSE_SOUND``
-
+:Field: ``TilePropertyKey.CONTAINER_CLOSE_SOUND``
 
 .. _tile-property-ContainerOpenSound:
 
 ContainerOpenSound
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONTAINER_OPEN_SOUND``
-
+:Field: ``TilePropertyKey.CONTAINER_OPEN_SOUND``
 
 .. _tile-property-ContainerPosition:
 
 ContainerPosition
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONTAINER_POSITION``
-
+:Field: ``TilePropertyKey.CONTAINER_POSITION``
 
 .. _tile-property-ContainerPutSound:
 
 ContainerPutSound
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONTAINER_PUT_SOUND``
-
+:Field: ``TilePropertyKey.CONTAINER_PUT_SOUND``
 
 .. _tile-property-ContainerTakeSound:
 
 ContainerTakeSound
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CONTAINER_TAKE_SOUND``
-
+:Field: ``TilePropertyKey.CONTAINER_TAKE_SOUND``
 
 .. _tile-property-CornerNorthWall:
 
 CornerNorthWall
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CORNER_NORTH_WALL``
-
+:Field: ``TilePropertyKey.CORNER_NORTH_WALL``
 
 .. _tile-property-CornerWestWall:
 
 CornerWestWall
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CORNER_WEST_WALL``
-
+:Field: ``TilePropertyKey.CORNER_WEST_WALL``
 
 .. _tile-property-curtainE:
 
 curtainE
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CURTAIN_E``
-
+:Field: ``TilePropertyKey.CURTAIN_E``
 
 .. _tile-property-curtainN:
 
 curtainN
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CURTAIN_N``
-
+:Field: ``TilePropertyKey.CURTAIN_N``
 
 .. _tile-property-CurtainOffset:
 
 CurtainOffset
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CURTAIN_OFFSET``
-
+:Field: ``TilePropertyKey.CURTAIN_OFFSET``
 
 .. _tile-property-curtainS:
 
 curtainS
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CURTAIN_S``
-
+:Field: ``TilePropertyKey.CURTAIN_S``
 
 .. _tile-property-CurtainSound:
 
 CurtainSound
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CURTAIN_SOUND``
-
+:Field: ``TilePropertyKey.CURTAIN_SOUND``
 
 .. _tile-property-curtainW:
 
 curtainW
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.CURTAIN_W``
-
+:Field: ``TilePropertyKey.CURTAIN_W``
 
 .. _tile-property-CustomItem:
 
 CustomItem
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CUSTOM_ITEM``
-
+:Field: ``TilePropertyKey.CUSTOM_ITEM``
 
 .. _tile-property-CustomName:
 
 CustomName
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CUSTOM_NAME``
+:Field: ``TilePropertyKey.CUSTOM_NAME``
+:Type: ``string``
 
 
 Used to define the item name, which will show as `GroupName <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#groupname>`_ + `CustomName <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#customname>`_. For example if CustomName is set to ``Bed`` and GroupName is set to ``Fancy``\ , it will show as ``Fancy Bed`` in the game. ``GroupName`` is used as a sub-category description of the object, such as its color, shape, name or quality.
@@ -548,207 +482,180 @@ Used to define the item name, which will show as `GroupName <https://pz-wiki-mod
 Those properties need to be the same for multi-tile objects.
 
 
-**Type:** ``string``
-
-
 .. _tile-property-CutawayHint:
 
 CutawayHint
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.CUTAWAY_HINT``
-
+:Field: ``TilePropertyKey.CUTAWAY_HINT``
 
 .. _tile-property-cutN:
 
 cutN
 ^^^^
 
-**Field:** ``TilePropertyKey.CUT_N``
-
+:Field: ``TilePropertyKey.CUT_N``
 
 .. _tile-property-cutW:
 
 cutW
 ^^^^
 
-**Field:** ``TilePropertyKey.CUT_W``
-
+:Field: ``TilePropertyKey.CUT_W``
 
 .. _tile-property-DamagedSprite:
 
 DamagedSprite
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DAMAGED_SPRITE``
-
+:Field: ``TilePropertyKey.DAMAGED_SPRITE``
 
 .. _tile-property-diamondFloor:
 
 diamondFloor
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DIAMOND_FLOOR``
-
+:Field: ``TilePropertyKey.DIAMOND_FLOOR``
 
 .. _tile-property-doorFrN:
 
 doorFrN
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_FR_N``
-
+:Field: ``TilePropertyKey.DOOR_FR_N``
 
 .. _tile-property-doorFrW:
 
 doorFrW
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_FR_W``
-
+:Field: ``TilePropertyKey.DOOR_FR_W``
 
 .. _tile-property-doorN:
 
 doorN
 ^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_N``
-
+:Field: ``TilePropertyKey.DOOR_N``
 
 .. _tile-property-DoorSound:
 
 DoorSound
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_SOUND``
-
+:Field: ``TilePropertyKey.DOOR_SOUND``
 
 .. _tile-property-doorTrans:
 
 doorTrans
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_TRANS``
-
+:Field: ``TilePropertyKey.DOOR_TRANS``
 
 .. _tile-property-doorW:
 
 doorW
 ^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_W``
-
+:Field: ``TilePropertyKey.DOOR_W``
 
 .. _tile-property-DoorWallN:
 
 DoorWallN
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_WALL_N``
-
+:Field: ``TilePropertyKey.DOOR_WALL_N``
 
 .. _tile-property-DoorWallNTrans:
 
 DoorWallNTrans
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_WALL_N_TRANS``
-
+:Field: ``TilePropertyKey.DOOR_WALL_N_TRANS``
 
 .. _tile-property-DoorWallNW:
 
 DoorWallNW
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_WALL_NW``
-
+:Field: ``TilePropertyKey.DOOR_WALL_NW``
 
 .. _tile-property-DoorWallNWTrans:
 
 DoorWallNWTrans
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_WALL_NW_TRANS``
-
+:Field: ``TilePropertyKey.DOOR_WALL_NW_TRANS``
 
 .. _tile-property-DoorWallW:
 
 DoorWallW
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_WALL_W``
-
+:Field: ``TilePropertyKey.DOOR_WALL_W``
 
 .. _tile-property-DoorWallWTrans:
 
 DoorWallWTrans
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOOR_WALL_W_TRANS``
-
+:Field: ``TilePropertyKey.DOOR_WALL_W_TRANS``
 
 .. _tile-property-DoubleDoor:
 
 DoubleDoor
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOUBLE_DOOR``
-
+:Field: ``TilePropertyKey.DOUBLE_DOOR``
 
 .. _tile-property-DoubleDoor1:
 
 DoubleDoor1
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOUBLE_DOOR_1``
-
+:Field: ``TilePropertyKey.DOUBLE_DOOR_1``
 
 .. _tile-property-DoubleDoor2:
 
 DoubleDoor2
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.DOUBLE_DOOR_2``
-
+:Field: ``TilePropertyKey.DOUBLE_DOOR_2``
 
 .. _tile-property-EntityScript:
 
 EntityScript
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ENTITY_SCRIPT``
-
+:Field: ``TilePropertyKey.ENTITY_SCRIPT``
 
 .. _tile-property-EntityScriptName:
 
 EntityScriptName
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ENTITY_SCRIPT_NAME``
-
+:Field: ``TilePropertyKey.ENTITY_SCRIPT_NAME``
 
 .. _tile-property-Eoffset:
 
 Eoffset
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.E_OFFSET``
-
+:Field: ``TilePropertyKey.E_OFFSET``
 
 .. _tile-property-exterior:
 
 exterior
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.EXTERIOR``
-
+:Field: ``TilePropertyKey.EXTERIOR``
 
 .. _tile-property-Facing:
 
 Facing
 ^^^^^^
 
-**Field:** ``TilePropertyKey.FACING``
+:Field: ``TilePropertyKey.FACING``
 
 
 The direction the object is facing. This is not the orientation, but the direction the objects front looks towards. If the value is ``South``\ , it means the tile has a north orientation and thus would be facing south.
@@ -756,183 +663,162 @@ The direction the object is facing. This is not the orientation, but the directi
 You can find an image which shows the directions of the game `here <https://pzwiki.net/wiki/Tile_properties#Directions>`_.
 
 
-**Possible values:**
+Allowed values:
 
-- ``North``
-- ``East``
-- ``South``
-- ``West``
+    - ``North``
+    - ``East``
+    - ``South``
+    - ``West``
 
 .. _tile-property-FasciaEdge:
 
 FasciaEdge
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FASCIA_EDGE``
-
+:Field: ``TilePropertyKey.FASCIA_EDGE``
 
 .. _tile-property-FasciaEdgeReversible:
 
 FasciaEdgeReversible
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FASCIA_EDGE_REVERSIBLE``
-
+:Field: ``TilePropertyKey.FASCIA_EDGE_REVERSIBLE``
 
 .. _tile-property-FenceTypeHigh:
 
 FenceTypeHigh
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FENCE_TYPE_HIGH``
-
+:Field: ``TilePropertyKey.FENCE_TYPE_HIGH``
 
 .. _tile-property-FenceTypeLow:
 
 FenceTypeLow
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FENCE_TYPE_LOW``
-
+:Field: ``TilePropertyKey.FENCE_TYPE_LOW``
 
 .. _tile-property-firerequirement:
 
 firerequirement
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FIRE_REQUIREMENT``
-
+:Field: ``TilePropertyKey.FIRE_REQUIREMENT``
 
 .. _tile-property-FloorAttachmentE:
 
 FloorAttachmentE
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_ATTACHMENT_E``
-
+:Field: ``TilePropertyKey.FLOOR_ATTACHMENT_E``
 
 .. _tile-property-FloorAttachmentN:
 
 FloorAttachmentN
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_ATTACHMENT_N``
-
+:Field: ``TilePropertyKey.FLOOR_ATTACHMENT_N``
 
 .. _tile-property-FloorAttachmentS:
 
 FloorAttachmentS
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_ATTACHMENT_S``
-
+:Field: ``TilePropertyKey.FLOOR_ATTACHMENT_S``
 
 .. _tile-property-FloorAttachmentW:
 
 FloorAttachmentW
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_ATTACHMENT_W``
-
+:Field: ``TilePropertyKey.FLOOR_ATTACHMENT_W``
 
 .. _tile-property-FloorHeight:
 
 FloorHeight
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_HEIGHT``
-
+:Field: ``TilePropertyKey.FLOOR_HEIGHT``
 
 .. _tile-property-FloorHeightOneThird:
 
 FloorHeightOneThird
 ^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_HEIGHT_ONE_THIRD``
-
+:Field: ``TilePropertyKey.FLOOR_HEIGHT_ONE_THIRD``
 
 .. _tile-property-FloorHeightTwoThirds:
 
 FloorHeightTwoThirds
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_HEIGHT_TWO_THIRDS``
-
+:Field: ``TilePropertyKey.FLOOR_HEIGHT_TWO_THIRDS``
 
 .. _tile-property-FloorMaterial:
 
 FloorMaterial
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_MATERIAL``
-
+:Field: ``TilePropertyKey.FLOOR_MATERIAL``
 
 .. _tile-property-FloorOverlay:
 
 FloorOverlay
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FLOOR_OVERLAY``
-
+:Field: ``TilePropertyKey.FLOOR_OVERLAY``
 
 .. _tile-property-FootstepMaterial:
 
 FootstepMaterial
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FOOTSTEP_MATERIAL``
-
+:Field: ``TilePropertyKey.FOOTSTEP_MATERIAL``
 
 .. _tile-property-ForceAmbient:
 
 ForceAmbient
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FORCE_AMBIENT``
-
+:Field: ``TilePropertyKey.FORCE_AMBIENT``
 
 .. _tile-property-forcedLocked:
 
 forcedLocked
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FORCED_LOCKED``
-
+:Field: ``TilePropertyKey.FORCED_LOCKED``
 
 .. _tile-property-forceFade:
 
 forceFade
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FORCE_FADE``
-
+:Field: ``TilePropertyKey.FORCE_FADE``
 
 .. _tile-property-forceLocked:
 
 forceLocked
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FORCE_LOCKED``
-
+:Field: ``TilePropertyKey.FORCE_LOCKED``
 
 .. _tile-property-forceRender:
 
 forceRender
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FORCE_RENDER``
-
+:Field: ``TilePropertyKey.FORCE_RENDER``
 
 .. _tile-property-ForceSingleItem:
 
 ForceSingleItem
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FORCE_SINGLE_ITEM``
+:Field: ``TilePropertyKey.FORCE_SINGLE_ITEM``
 
 
 Forces the object to be a single item in inventory even when it is made up of multiple tiles.
-
 
 
 .. _tile-property-Freezer:
@@ -940,93 +826,81 @@ Forces the object to be a single item in inventory even when it is made up of mu
 Freezer
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.FREEZER``
-
+:Field: ``TilePropertyKey.FREEZER``
 
 .. _tile-property-FreezerCapacity:
 
 FreezerCapacity
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FREEZER_CAPACITY``
-
+:Field: ``TilePropertyKey.FREEZER_CAPACITY``
 
 .. _tile-property-FreezerPosition:
 
 FreezerPosition
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FREEZER_POSITION``
-
+:Field: ``TilePropertyKey.FREEZER_POSITION``
 
 .. _tile-property-fuelAmount:
 
 fuelAmount
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.FUEL_AMOUNT``
-
+:Field: ``TilePropertyKey.FUEL_AMOUNT``
 
 .. _tile-property-GarageDoor:
 
 GarageDoor
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.GARAGE_DOOR``
-
+:Field: ``TilePropertyKey.GARAGE_DOOR``
 
 .. _tile-property-GeneratorSound:
 
 GeneratorSound
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.GENERATOR_SOUND``
-
+:Field: ``TilePropertyKey.GENERATOR_SOUND``
 
 .. _tile-property-GenericCraftingSurface:
 
 GenericCraftingSurface
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.GENERIC_CRAFTING_SURFACE``
-
+:Field: ``TilePropertyKey.GENERIC_CRAFTING_SURFACE``
 
 .. _tile-property-GlassRemovedOffset:
 
 GlassRemovedOffset
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.GLASS_REMOVED_OFFSET``
-
+:Field: ``TilePropertyKey.GLASS_REMOVED_OFFSET``
 
 .. _tile-property-grassFloor:
 
 grassFloor
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.GRASS_FLOOR``
-
+:Field: ``TilePropertyKey.GRASS_FLOOR``
 
 .. _tile-property-GrimeType:
 
 GrimeType
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.GRIME_TYPE``
-
+:Field: ``TilePropertyKey.GRIME_TYPE``
 
 .. _tile-property-GroupName:
 
 GroupName
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.GROUP_NAME``
+:Field: ``TilePropertyKey.GROUP_NAME``
+:Type: ``string``
 
 
-See description of :ref:`CustomName <tile-property-CustomName>` property.
-
-
-**Type:** ``string``
+See the description of the :ref:`CustomName <tile-property-CustomName>` property.
 
 
 .. _tile-property-halfheight:
@@ -1034,149 +908,130 @@ See description of :ref:`CustomName <tile-property-CustomName>` property.
 halfheight
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.HALF_HEIGHT``
-
+:Field: ``TilePropertyKey.HALF_HEIGHT``
 
 .. _tile-property-HasLightOnSprite:
 
 HasLightOnSprite
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.HAS_LIGHT_ON_SPRITE``
-
+:Field: ``TilePropertyKey.HAS_LIGHT_ON_SPRITE``
 
 .. _tile-property-HasRaindrop:
 
 HasRaindrop
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.HAS_RAINDROP``
-
+:Field: ``TilePropertyKey.HAS_RAINDROP``
 
 .. _tile-property-HasRainSplashes:
 
 HasRainSplashes
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.HAS_RAIN_SPLASHES``
-
+:Field: ``TilePropertyKey.HAS_RAIN_SPLASHES``
 
 .. _tile-property-hidewalls:
 
 hidewalls
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.HIDE_WALLS``
-
+:Field: ``TilePropertyKey.HIDE_WALLS``
 
 .. _tile-property-HitByCar:
 
 HitByCar
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.HIT_BY_CAR``
-
+:Field: ``TilePropertyKey.HIT_BY_CAR``
 
 .. _tile-property-HoppableN:
 
 HoppableN
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.HOPPABLE_N``
-
+:Field: ``TilePropertyKey.HOPPABLE_N``
 
 .. _tile-property-HoppableW:
 
 HoppableW
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.HOPPABLE_W``
-
+:Field: ``TilePropertyKey.HOPPABLE_W``
 
 .. _tile-property-IgnoreSurfaceSnap:
 
 IgnoreSurfaceSnap
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IGNORE_SURFACE_SNAP``
-
+:Field: ``TilePropertyKey.IGNORE_SURFACE_SNAP``
 
 .. _tile-property-interior:
 
 interior
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.INTERIOR``
-
+:Field: ``TilePropertyKey.INTERIOR``
 
 .. _tile-property-InteriorSide:
 
 InteriorSide
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.INTERIOR_SIDE``
-
+:Field: ``TilePropertyKey.INTERIOR_SIDE``
 
 .. _tile-property-invisible:
 
 invisible
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.INVISIBLE``
-
+:Field: ``TilePropertyKey.INVISIBLE``
 
 .. _tile-property-IsClosedState:
 
 IsClosedState
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_CLOSED_STATE``
-
+:Field: ``TilePropertyKey.IS_CLOSED_STATE``
 
 .. _tile-property-isEave:
 
 isEave
 ^^^^^^
 
-**Field:** ``TilePropertyKey.IS_EAVE``
-
+:Field: ``TilePropertyKey.IS_EAVE``
 
 .. _tile-property-IsFloorAttached:
 
 IsFloorAttached
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_FLOOR_ATTACHED``
-
+:Field: ``TilePropertyKey.IS_FLOOR_ATTACHED``
 
 .. _tile-property-IsFridge:
 
 IsFridge
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_FRIDGE``
-
+:Field: ``TilePropertyKey.IS_FRIDGE``
 
 .. _tile-property-IsGridExtensionTile:
 
 IsGridExtensionTile
 ^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_GRID_EXTENSION_TILE``
-
+:Field: ``TilePropertyKey.IS_GRID_EXTENSION_TILE``
 
 .. _tile-property-IsHigh:
 
 IsHigh
 ^^^^^^
 
-**Field:** ``TilePropertyKey.IS_HIGH``
+:Field: ``TilePropertyKey.IS_HIGH``
+:Type: ``boolean``
 
 
 Indicates the tile is high, which means the tile only oocupies the upper half of the height, like a painting or wall shelf.
-
-
-**Type:** ``boolean``
 
 
 .. _tile-property-IsLow:
@@ -1184,13 +1039,11 @@ Indicates the tile is high, which means the tile only oocupies the upper half of
 IsLow
 ^^^^^
 
-**Field:** ``TilePropertyKey.IS_LOW``
+:Field: ``TilePropertyKey.IS_LOW``
+:Type: ``boolean``
 
 
 Indicates the tile is low, which means the tile only oocupies the lower half of the height, like a bed or counter.
-
-
-**Type:** ``boolean``
 
 
 .. _tile-property-IsMirror:
@@ -1198,21 +1051,18 @@ Indicates the tile is low, which means the tile only oocupies the lower half of 
 IsMirror
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_MIRROR``
-
+:Field: ``TilePropertyKey.IS_MIRROR``
 
 .. _tile-property-IsMoveAble:
 
 IsMoveAble
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_MOVE_ABLE``
+:Field: ``TilePropertyKey.IS_MOVE_ABLE``
+:Type: ``boolean``
 
 
 Indicates the tile can be moved by the player. This will notably provide a `moveable item <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_. `MoveType <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#movetype>`_ allows you to set the type of moveable the tile is.
-
-
-**Type:** ``boolean``
 
 
 .. _tile-property-isMoveAbleObject:
@@ -1220,66 +1070,60 @@ Indicates the tile can be moved by the player. This will notably provide a `move
 isMoveAbleObject
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_MOVE_ABLE_OBJECT``
-
+:Field: ``TilePropertyKey.IS_MOVE_ABLE_OBJECT``
 
 .. _tile-property-IsoType:
 
 IsoType
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.ISO_TYPE``
+:Field: ``TilePropertyKey.ISO_TYPE``
+:Type: ``string``
 
 
 Used to select the class the tile will be. IsoObject is the default but based on your choice there will different behaviors and interactions with the tile.
 
 
-**Type:** ``string``
+Allowed values:
 
-**Possible values:**
-
-- ``IsoObject``
-- ``IsoBarbecue``
-- ``IsoBrokenGlass``
-- ``IsoClothingDryer``
-- ``IsoClothingWasher``
-- ``IsoCombinationWasherDryer``
-- ``IsoFireplace``
-- ``IsoMannequin``
-- ``IsoRadio``
-- ``IsoJukebox``
-- ``IsoStove``
-- ``IsoTelevision``
-- ``IsoMultiMedia``
+    - ``IsoObject``
+    - ``IsoBarbecue``
+    - ``IsoBrokenGlass``
+    - ``IsoClothingDryer``
+    - ``IsoClothingWasher``
+    - ``IsoCombinationWasherDryer``
+    - ``IsoFireplace``
+    - ``IsoMannequin``
+    - ``IsoRadio``
+    - ``IsoJukebox``
+    - ``IsoStove``
+    - ``IsoTelevision``
+    - ``IsoMultiMedia``
 
 .. _tile-property-IsPaintable:
 
 IsPaintable
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_PAINTABLE``
-
+:Field: ``TilePropertyKey.IS_PAINTABLE``
 
 .. _tile-property-IsStackable:
 
 IsStackable
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_STACKABLE``
-
+:Field: ``TilePropertyKey.IS_STACKABLE``
 
 .. _tile-property-IsSurfaceOffset:
 
 IsSurfaceOffset
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_SURFACE_OFFSET``
+:Field: ``TilePropertyKey.IS_SURFACE_OFFSET``
+:Type: ``boolean``
 
 
-See description of :ref:`Surface <tile-property-Surface>` property.
-
-
-**Type:** ``boolean``
+See the description of the :ref:`Surface <tile-property-Surface>` property.
 
 
 .. _tile-property-IsTable:
@@ -1287,11 +1131,10 @@ See description of :ref:`Surface <tile-property-Surface>` property.
 IsTable
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_TABLE``
+:Field: ``TilePropertyKey.IS_TABLE``
 
 
 Will treat the tile as a table surface.
-
 
 
 .. _tile-property-IsTableTop:
@@ -1299,11 +1142,10 @@ Will treat the tile as a table surface.
 IsTableTop
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_TABLE_TOP``
+:Field: ``TilePropertyKey.IS_TABLE_TOP``
 
 
 Will allow you to place tiles on top of this tile.
-
 
 
 .. _tile-property-IsTrashCan:
@@ -1311,31 +1153,26 @@ Will allow you to place tiles on top of this tile.
 IsTrashCan
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_TRASH_CAN``
-
+:Field: ``TilePropertyKey.IS_TRASH_CAN``
 
 .. _tile-property-IsWaterCollector:
 
 IsWaterCollector
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.IS_WATER_COLLECTOR``
-
+:Field: ``TilePropertyKey.IS_WATER_COLLECTOR``
 
 .. _tile-property-ItemHeight:
 
 ItemHeight
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ITEM_HEIGHT``
+:Field: ``TilePropertyKey.ITEM_HEIGHT``
+:Type: ``integer``
+:Default: ``0``
 
 
-See description of :ref:`Surface <tile-property-Surface>` property.
-
-
-**Type:** ``integer``
-
-**Default:** ``0``
+See the description of the :ref:`Surface <tile-property-Surface>` property.
 
 
 .. _tile-property-jukebox:
@@ -1343,326 +1180,286 @@ See description of :ref:`Surface <tile-property-Surface>` property.
 jukebox
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.JUKEBOX``
-
+:Field: ``TilePropertyKey.JUKEBOX``
 
 .. _tile-property-lightB:
 
 lightB
 ^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_B``
-
+:Field: ``TilePropertyKey.LIGHT_B``
 
 .. _tile-property-LightFilterB:
 
 LightFilterB
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_FILTER_B``
-
+:Field: ``TilePropertyKey.LIGHT_FILTER_B``
 
 .. _tile-property-LightFilterG:
 
 LightFilterG
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_FILTER_G``
-
+:Field: ``TilePropertyKey.LIGHT_FILTER_G``
 
 .. _tile-property-LightFilterIntensity:
 
 LightFilterIntensity
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_FILTER_INTENSITY``
-
+:Field: ``TilePropertyKey.LIGHT_FILTER_INTENSITY``
 
 .. _tile-property-LightFilterMix:
 
 LightFilterMix
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_FILTER_MIX``
-
+:Field: ``TilePropertyKey.LIGHT_FILTER_MIX``
 
 .. _tile-property-LightFilterR:
 
 LightFilterR
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_FILTER_R``
-
+:Field: ``TilePropertyKey.LIGHT_FILTER_R``
 
 .. _tile-property-lightG:
 
 lightG
 ^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_G``
-
+:Field: ``TilePropertyKey.LIGHT_G``
 
 .. _tile-property-lightR:
 
 lightR
 ^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_R``
-
+:Field: ``TilePropertyKey.LIGHT_R``
 
 .. _tile-property-LightRadius:
 
 LightRadius
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHT_RADIUS``
-
+:Field: ``TilePropertyKey.LIGHT_RADIUS``
 
 .. _tile-property-lightswitch:
 
 lightswitch
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LIGHTSWITCH``
-
+:Field: ``TilePropertyKey.LIGHTSWITCH``
 
 .. _tile-property-LinkedLocIs:
 
 LinkedLocIs
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LINKED_LOC_IS``
-
+:Field: ``TilePropertyKey.LINKED_LOC_IS``
 
 .. _tile-property-LinkedOffset:
 
 LinkedOffset
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LINKED_OFFSET``
-
+:Field: ``TilePropertyKey.LINKED_OFFSET``
 
 .. _tile-property-livingRoom:
 
 livingRoom
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.LIVING_ROOM``
-
+:Field: ``TilePropertyKey.LIVING_ROOM``
 
 .. _tile-property-makeWindowInvincible:
 
 makeWindowInvincible
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.MAKE_WINDOW_INVINCIBLE``
-
+:Field: ``TilePropertyKey.MAKE_WINDOW_INVINCIBLE``
 
 .. _tile-property-Material:
 
 Material
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.MATERIAL``
-
+:Field: ``TilePropertyKey.MATERIAL``
 
 .. _tile-property-Material2:
 
 Material2
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.MATERIAL_2``
-
+:Field: ``TilePropertyKey.MATERIAL_2``
 
 .. _tile-property-Material3:
 
 Material3
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.MATERIAL_3``
-
+:Field: ``TilePropertyKey.MATERIAL_3``
 
 .. _tile-property-MaterialType:
 
 MaterialType
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.MATERIAL_TYPE``
-
+:Field: ``TilePropertyKey.MATERIAL_TYPE``
 
 .. _tile-property-Microwave:
 
 Microwave
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.MICROWAVE``
-
+:Field: ``TilePropertyKey.MICROWAVE``
 
 .. _tile-property-MinimumCarSpeedDmg:
 
 MinimumCarSpeedDmg
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.MINIMUM_CAR_SPEED_DMG``
-
+:Field: ``TilePropertyKey.MINIMUM_CAR_SPEED_DMG``
 
 .. _tile-property-Movement:
 
 Movement
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.MOVEMENT``
-
+:Field: ``TilePropertyKey.MOVEMENT``
 
 .. _tile-property-MoveType:
 
 MoveType
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.MOVE_TYPE``
+:Field: ``TilePropertyKey.MOVE_TYPE``
+:Type: ``string``
 
 
 Sets the type of moveable the tile will be. This seems to be only related to the icon of item. There are also signs in the game code that when set to WallObject it will slightly impact the shape of the tile for physic interactions.
 
 
-**Type:** ``string``
+Allowed values:
 
-**Possible values:**
-
-- ``Normal``
-- ``WallObject``
-- ``WindowObject``
-- ``Window``
-- ``FloorTile``
-- ``FloorRug``
-- ``Vegitation``
+    - ``Normal``
+    - ``WallObject``
+    - ``WindowObject``
+    - ``Window``
+    - ``FloorTile``
+    - ``FloorRug``
+    - ``Vegitation``
 
 .. _tile-property-MoveWithWind:
 
 MoveWithWind
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.MOVE_WITH_WIND``
-
+:Field: ``TilePropertyKey.MOVE_WITH_WIND``
 
 .. _tile-property-name:
 
 name
 ^^^^
 
-**Field:** ``TilePropertyKey.NAME``
-
+:Field: ``TilePropertyKey.NAME``
 
 .. _tile-property-natureFloor:
 
 natureFloor
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.NATURE_FLOOR``
-
+:Field: ``TilePropertyKey.NATURE_FLOOR``
 
 .. _tile-property-NeverCutaway:
 
 NeverCutaway
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.NEVER_CUTAWAY``
-
+:Field: ``TilePropertyKey.NEVER_CUTAWAY``
 
 .. _tile-property-Noffset:
 
 Noffset
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.N_OFFSET``
-
+:Field: ``TilePropertyKey.N_OFFSET``
 
 .. _tile-property-NoFreezer:
 
 NoFreezer
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.NO_FREEZER``
-
+:Field: ``TilePropertyKey.NO_FREEZER``
 
 .. _tile-property-noStart:
 
 noStart
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.NO_START``
-
+:Field: ``TilePropertyKey.NO_START``
 
 .. _tile-property-NoWallLighting:
 
 NoWallLighting
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.NO_WALL_LIGHTING``
-
+:Field: ``TilePropertyKey.NO_WALL_LIGHTING``
 
 .. _tile-property-OpaquePixelsOnly:
 
 OpaquePixelsOnly
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.OPAQUE_PIXELS_ONLY``
-
-**Type:** ``boolean``
-
+:Field: ``TilePropertyKey.OPAQUE_PIXELS_ONLY``
+:Type: ``boolean``
 
 .. _tile-property-open:
 
 open
 ^^^^
 
-**Field:** ``TilePropertyKey.OPEN``
-
+:Field: ``TilePropertyKey.OPEN``
 
 .. _tile-property-OpenTileOffset:
 
 OpenTileOffset
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.OPEN_TILE_OFFSET``
-
+:Field: ``TilePropertyKey.OPEN_TILE_OFFSET``
 
 .. _tile-property-PaintingType:
 
 PaintingType
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.PAINTING_TYPE``
-
+:Field: ``TilePropertyKey.PAINTING_TYPE``
 
 .. _tile-property-PhysicsMesh:
 
 PhysicsMesh
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.PHYSICS_MESH``
-
+:Field: ``TilePropertyKey.PHYSICS_MESH``
 
 .. _tile-property-PhysicsShape:
 
 PhysicsShape
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.PHYSICS_SHAPE``
-
+:Field: ``TilePropertyKey.PHYSICS_SHAPE``
 
 .. _tile-property-PickUpLevel:
 
 PickUpLevel
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.PICK_UP_LEVEL``
+:Field: ``TilePropertyKey.PICK_UP_LEVEL``
+:Type: ``integer``
 
 
-See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
-
-
-**Type:** ``integer``
+See the description of the :ref:`PickUpTool <tile-property-PickUpTool>` property.
 
 
 .. _tile-property-PickUpTool:
@@ -1670,7 +1467,8 @@ See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
 PickUpTool
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.PICK_UP_TOOL``
+:Field: ``TilePropertyKey.PICK_UP_TOOL``
+:Type: ``string``
 
 
 `PickUpTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-pickuptool>`_ will indicate what tool the player needs to use to pick up the tile, while `PlaceTool <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-placetool>`_ will indicate what tool the player needs to use to place the tile.
@@ -1684,30 +1482,26 @@ The `PickUpWeight <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_pr
 `CanBreak <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#canbreak>`_ can be used to indicate that the tile has a chance to break when being picked up. The chance gets smaller based on the `PickUpLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#pickuplevel>`_.
 
 
-**Type:** ``string``
+Allowed values:
 
-**Possible values:**
-
-- ``None``
-- ``Hammer``
-- ``Crowbar``
-- ``Electrician``
-- ``Cutter``
-- ``Shovel``
-- ``Wrench``
+    - ``None``
+    - ``Hammer``
+    - ``Crowbar``
+    - ``Electrician``
+    - ``Cutter``
+    - ``Shovel``
+    - ``Wrench``
 
 .. _tile-property-PickUpWeight:
 
 PickUpWeight
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.PICK_UP_WEIGHT``
+:Field: ``TilePropertyKey.PICK_UP_WEIGHT``
+:Type: ``integer``
 
 
-See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
-
-
-**Type:** ``integer``
+See the description of the :ref:`PickUpTool <tile-property-PickUpTool>` property.
 
 
 .. _tile-property-PlaceTool:
@@ -1715,13 +1509,11 @@ See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
 PlaceTool
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.PLACE_TOOL``
+:Field: ``TilePropertyKey.PLACE_TOOL``
+:Type: ``string``
 
 
-See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
-
-
-**Type:** ``string``
+See the description of the :ref:`PickUpTool <tile-property-PickUpTool>` property.
 
 
 .. _tile-property-propaneTank:
@@ -1729,227 +1521,193 @@ See description of :ref:`PickUpTool <tile-property-PickUpTool>` property.
 propaneTank
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.PROPANE_TANK``
-
+:Field: ``TilePropertyKey.PROPANE_TANK``
 
 .. _tile-property-radio:
 
 radio
 ^^^^^
 
-**Field:** ``TilePropertyKey.RADIO``
-
+:Field: ``TilePropertyKey.RADIO``
 
 .. _tile-property-RenderLayer:
 
 RenderLayer
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.RENDER_LAYER``
-
+:Field: ``TilePropertyKey.RENDER_LAYER``
 
 .. _tile-property-RoofGroup:
 
 RoofGroup
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.ROOF_GROUP``
-
+:Field: ``TilePropertyKey.ROOF_GROUP``
 
 .. _tile-property-RoofWallStart:
 
 RoofWallStart
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.UNUSROOF_WALL_STARTD``
-
+:Field: ``TilePropertyKey.UNUSROOF_WALL_STARTD``
 
 .. _tile-property-ScrapSize:
 
 ScrapSize
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SCRAP_SIZE``
-
+:Field: ``TilePropertyKey.SCRAP_SIZE``
 
 .. _tile-property-ScrapToolUseOverride:
 
 ScrapToolUseOverride
 ^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SCRAP_TOOL_USE_OVERRIDE``
-
+:Field: ``TilePropertyKey.SCRAP_TOOL_USE_OVERRIDE``
 
 .. _tile-property-ScrapUseSkill:
 
 ScrapUseSkill
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SCRAP_USE_SKILL``
-
+:Field: ``TilePropertyKey.SCRAP_USE_SKILL``
 
 .. _tile-property-ScrapUseTool:
 
 ScrapUseTool
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SCRAP_USE_TOOL``
-
+:Field: ``TilePropertyKey.SCRAP_USE_TOOL``
 
 .. _tile-property-SeatMaterial:
 
 SeatMaterial
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SEAT_MATERIAL``
-
+:Field: ``TilePropertyKey.SEAT_MATERIAL``
 
 .. _tile-property-signal:
 
 signal
 ^^^^^^
 
-**Field:** ``TilePropertyKey.SIGNAL``
-
+:Field: ``TilePropertyKey.SIGNAL``
 
 .. _tile-property-SinkType:
 
 SinkType
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.SINK_TYPE``
-
+:Field: ``TilePropertyKey.SINK_TYPE``
 
 .. _tile-property-SlopedSurfaceDirection:
 
 SlopedSurfaceDirection
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SLOPED_SURFACE_DIRECTION``
+:Field: ``TilePropertyKey.SLOPED_SURFACE_DIRECTION``
+:Type: ``string``
 
-**Type:** ``string``
+Allowed values:
 
-**Possible values:**
-
-- ``N``
-- ``E``
-- ``S``
-- ``W``
-- ``NE``
-- ``NW``
-- ``SE``
-- ``SW``
+    - ``N``
+    - ``E``
+    - ``S``
+    - ``W``
+    - ``NE``
+    - ``NW``
+    - ``SE``
+    - ``SW``
 
 .. _tile-property-SlopedSurfaceHeightMax:
 
 SlopedSurfaceHeightMax
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SLOPED_SURFACE_HEIGHT_MAX``
-
-**Type:** ``integer``
-
-**Min:** ``0``
-
-**Max:** ``100``
-
-**Default:** ``0``
-
+:Field: ``TilePropertyKey.SLOPED_SURFACE_HEIGHT_MAX``
+:Type: ``integer``
+:Range: Min: 0, Max: 100
+:Default: ``0``
 
 .. _tile-property-SlopedSurfaceHeightMin:
 
 SlopedSurfaceHeightMin
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SLOPED_SURFACE_HEIGHT_MIN``
-
-**Type:** ``integer``
-
-**Min:** ``0``
-
-**Max:** ``100``
-
-**Default:** ``0``
-
+:Field: ``TilePropertyKey.SLOPED_SURFACE_HEIGHT_MIN``
+:Type: ``integer``
+:Range: Min: 0, Max: 100
+:Default: ``0``
 
 .. _tile-property-SmashedTileOffset:
 
 SmashedTileOffset
 ^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SMASHED_TILE_OFFSET``
-
+:Field: ``TilePropertyKey.SMASHED_TILE_OFFSET``
 
 .. _tile-property-smoke:
 
 smoke
 ^^^^^
 
-**Field:** ``TilePropertyKey.SMOKE``
-
+:Field: ``TilePropertyKey.SMOKE``
 
 .. _tile-property-SnowTile:
 
 SnowTile
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.SNOW_TILE``
-
+:Field: ``TilePropertyKey.SNOW_TILE``
 
 .. _tile-property-Soffset:
 
 Soffset
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.S_OFFSET``
-
+:Field: ``TilePropertyKey.S_OFFSET``
 
 .. _tile-property-solid:
 
 solid
 ^^^^^
 
-**Field:** ``TilePropertyKey.SOLID``
-
+:Field: ``TilePropertyKey.SOLID``
 
 .. _tile-property-solidfloor:
 
 solidfloor
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SOLID_FLOOR``
-
+:Field: ``TilePropertyKey.SOLID_FLOOR``
 
 .. _tile-property-solidtrans:
 
 solidtrans
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SOLID_TRANS``
-
+:Field: ``TilePropertyKey.SOLID_TRANS``
 
 .. _tile-property-SpearOnlyAttackThrough:
 
 SpearOnlyAttackThrough
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SPEAR_ONLY_ATTACK_THROUGH``
-
+:Field: ``TilePropertyKey.SPEAR_ONLY_ATTACK_THROUGH``
 
 .. _tile-property-SpriteGridLevel:
 
 SpriteGridLevel
 ^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SPRITE_GRID_LEVEL``
-
+:Field: ``TilePropertyKey.SPRITE_GRID_LEVEL``
 
 .. _tile-property-SpriteGridPos:
 
 SpriteGridPos
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.SPRITE_GRID_POS``
+:Field: ``TilePropertyKey.SPRITE_GRID_POS``
 
 
 Used to specify the position the tile occupies when it is part of multi-tile objects. The first coordinates is in the direction X while the second is in the direction Y. The positive X direction is pointing towards the bottom right, while the positive Y direction is pointing towards the bottom left.
@@ -1957,89 +1715,79 @@ Used to specify the position the tile occupies when it is part of multi-tile obj
 You can find an image which demonstrates the coordinates based on the positions `here <https://pzwiki.net/wiki/Tile_properties#Directions>`_.
 
 
-
 .. _tile-property-StackReplaceTileOffset:
 
 StackReplaceTileOffset
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.STACK_REPLACE_TILE_OFFSET``
-
-**Type:** ``integer``
-
-**Default:** ``0``
-
+:Field: ``TilePropertyKey.STACK_REPLACE_TILE_OFFSET``
+:Type: ``integer``
+:Default: ``0``
 
 .. _tile-property-stairsBN:
 
 stairsBN
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.STAIRS_BN``
-
+:Field: ``TilePropertyKey.STAIRS_BN``
 
 .. _tile-property-stairsBW:
 
 stairsBW
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.STAIRS_BW``
-
+:Field: ``TilePropertyKey.STAIRS_BW``
 
 .. _tile-property-stairsMN:
 
 stairsMN
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.STAIRS_MN``
-
+:Field: ``TilePropertyKey.STAIRS_MN``
 
 .. _tile-property-stairsMW:
 
 stairsMW
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.STAIRS_MW``
-
+:Field: ``TilePropertyKey.STAIRS_MW``
 
 .. _tile-property-stairsTN:
 
 stairsTN
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.STAIRS_TN``
-
+:Field: ``TilePropertyKey.STAIRS_TN``
 
 .. _tile-property-stairsTW:
 
 stairsTW
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.STAIRS_TW``
-
+:Field: ``TilePropertyKey.STAIRS_TW``
 
 .. _tile-property-StopCar:
 
 StopCar
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.STOP_CAR``
-
+:Field: ``TilePropertyKey.STOP_CAR``
 
 .. _tile-property-streetlight:
 
 streetlight
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.STREETLIGHT``
-
+:Field: ``TilePropertyKey.STREETLIGHT``
 
 .. _tile-property-Surface:
 
 Surface
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.SURFACE``
+:Field: ``TilePropertyKey.SURFACE``
+:Type: ``integer``
+:Default: ``0``
 
 
 `Surface <https://pz-wiki-modding.github.io/PZ-API-Docs/mapping/tile_properties.html#surface>`_ is used to indicate the height in pixel on the tile of the flat surface of the tile, which is notably used for tables to indicated at which height items will be placed.
@@ -2051,183 +1799,156 @@ When the tile can be placed on another tile surface but also has a surface itsel
 You can find a demonstration of these properties on the wiki `here <https://pzwiki.net/wiki/Tile_properties#Surface_and_ItemHeight>`_
 
 
-**Type:** ``integer``
-
-**Default:** ``0``
-
-
 .. _tile-property-tableN:
 
 tableN
 ^^^^^^
 
-**Field:** ``TilePropertyKey.TABLE_N``
-
+:Field: ``TilePropertyKey.TABLE_N``
 
 .. _tile-property-taintedWater:
 
 taintedWater
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TAINTED_WATER``
-
+:Field: ``TilePropertyKey.TAINTED_WATER``
 
 .. _tile-property-TallHoppableN:
 
 TallHoppableN
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TALL_HOPPABLE_N``
-
+:Field: ``TilePropertyKey.TALL_HOPPABLE_N``
 
 .. _tile-property-TallHoppableW:
 
 TallHoppableW
 ^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TALL_HOPPABLE_W``
-
+:Field: ``TilePropertyKey.TALL_HOPPABLE_W``
 
 .. _tile-property-ThumpSound:
 
 ThumpSound
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.THUMP_SOUND``
-
+:Field: ``TilePropertyKey.THUMP_SOUND``
 
 .. _tile-property-TieSheetRope:
 
 TieSheetRope
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TIE_SHEET_ROPE``
-
+:Field: ``TilePropertyKey.TIE_SHEET_ROPE``
 
 .. _tile-property-TileOverlay:
 
 TileOverlay
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TILE_OVERLAY``
-
+:Field: ``TilePropertyKey.TILE_OVERLAY``
 
 .. _tile-property-trans:
 
 trans
 ^^^^^
 
-**Field:** ``TilePropertyKey.TRANS``
-
+:Field: ``TilePropertyKey.TRANS``
 
 .. _tile-property-Translucent:
 
 Translucent
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TRANSLUCENT``
-
+:Field: ``TilePropertyKey.TRANSLUCENT``
 
 .. _tile-property-transparentFloor:
 
 transparentFloor
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TRANSPARENT_FLOOR``
-
+:Field: ``TilePropertyKey.TRANSPARENT_FLOOR``
 
 .. _tile-property-transparentN:
 
 transparentN
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TRANSPARENT_N``
-
+:Field: ``TilePropertyKey.TRANSPARENT_N``
 
 .. _tile-property-transparentW:
 
 transparentW
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TRANSPARENT_W``
-
+:Field: ``TilePropertyKey.TRANSPARENT_W``
 
 .. _tile-property-TreatAsWallOrder:
 
 TreatAsWallOrder
 ^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.TREAT_AS_WALL_ORDER``
-
+:Field: ``TilePropertyKey.TREAT_AS_WALL_ORDER``
 
 .. _tile-property-tree:
 
 tree
 ^^^^
 
-**Field:** ``TilePropertyKey.TREE``
-
+:Field: ``TilePropertyKey.TREE``
 
 .. _tile-property-TV:
 
 TV
 ^^
 
-**Field:** ``TilePropertyKey.TV``
-
+:Field: ``TilePropertyKey.TV``
 
 .. _tile-property-UnbreakableWindowN:
 
 UnbreakableWindowN
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.UNBREAKABLE_WINDOW_N``
-
+:Field: ``TilePropertyKey.UNBREAKABLE_WINDOW_N``
 
 .. _tile-property-UnbreakableWindowNW:
 
 UnbreakableWindowNW
 ^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.UNBREAKABLE_WINDOW_NW``
-
+:Field: ``TilePropertyKey.UNBREAKABLE_WINDOW_NW``
 
 .. _tile-property-UnbreakableWindowW:
 
 UnbreakableWindowW
 ^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.UNBREAKABLE_WINDOW_W``
-
+:Field: ``TilePropertyKey.UNBREAKABLE_WINDOW_W``
 
 .. _tile-property-unflammable:
 
 unflammable
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.UNFLAMMABLE``
-
+:Field: ``TilePropertyKey.UNFLAMMABLE``
 
 .. _tile-property-unlit:
 
 unlit
 ^^^^^
 
-**Field:** ``TilePropertyKey.UNLIT``
-
+:Field: ``TilePropertyKey.UNLIT``
 
 .. _tile-property-UseObjectDepthTexture:
 
 UseObjectDepthTexture
 ^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.USE_OBJECT_DEPTH_TEXTURE``
+:Field: ``TilePropertyKey.USE_OBJECT_DEPTH_TEXTURE``
+:Type: ``boolean``
 
 
 Makes the tile use the tile depth of the tile it overlays. For example an overlay adding items on a shelf will use the shelf tile depth.
-
-
-**Type:** ``boolean``
 
 
 .. _tile-property-vegitation:
@@ -2235,214 +1956,187 @@ Makes the tile use the tile depth of the tile it overlays. For example an overla
 vegitation
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.VEGITATION``
-
+:Field: ``TilePropertyKey.VEGITATION``
 
 .. _tile-property-wall:
 
 wall
 ^^^^
 
-**Field:** ``TilePropertyKey.WALL``
-
+:Field: ``TilePropertyKey.WALL``
 
 .. _tile-property-WallN:
 
 WallN
 ^^^^^
 
-**Field:** ``TilePropertyKey.WALL_N``
-
+:Field: ``TilePropertyKey.WALL_N``
 
 .. _tile-property-WallNTrans:
 
 WallNTrans
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WALL_N_TRANS``
-
+:Field: ``TilePropertyKey.WALL_N_TRANS``
 
 .. _tile-property-WallNW:
 
 WallNW
 ^^^^^^
 
-**Field:** ``TilePropertyKey.WALL_NW``
-
+:Field: ``TilePropertyKey.WALL_NW``
 
 .. _tile-property-WallNWTrans:
 
 WallNWTrans
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WALL_NW_TRANS``
-
+:Field: ``TilePropertyKey.WALL_NW_TRANS``
 
 .. _tile-property-WallObjectAllowDoorframe:
 
 WallObjectAllowDoorframe
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WALL_OBJECT_ALLOW_DOORFRAME``
-
+:Field: ``TilePropertyKey.WALL_OBJECT_ALLOW_DOORFRAME``
 
 .. _tile-property-WallOverlay:
 
 WallOverlay
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WALL_OVERLAY``
-
+:Field: ``TilePropertyKey.WALL_OVERLAY``
 
 .. _tile-property-WallSE:
 
 WallSE
 ^^^^^^
 
-**Field:** ``TilePropertyKey.WALL_SE``
-
+:Field: ``TilePropertyKey.WALL_SE``
 
 .. _tile-property-WallType:
 
 WallType
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.WALL_TYPE``
-
+:Field: ``TilePropertyKey.WALL_TYPE``
 
 .. _tile-property-WallW:
 
 WallW
 ^^^^^
 
-**Field:** ``TilePropertyKey.WALL_W``
-
+:Field: ``TilePropertyKey.WALL_W``
 
 .. _tile-property-WallWTrans:
 
 WallWTrans
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WALL_W_TRANS``
-
+:Field: ``TilePropertyKey.WALL_W_TRANS``
 
 .. _tile-property-water:
 
 water
 ^^^^^
 
-**Field:** ``TilePropertyKey.WATER``
-
+:Field: ``TilePropertyKey.WATER``
 
 .. _tile-property-waterAmount:
 
 waterAmount
 ^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WATER_AMOUNT``
-
+:Field: ``TilePropertyKey.WATER_AMOUNT``
 
 .. _tile-property-waterMaxAmount:
 
 waterMaxAmount
 ^^^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WATER_MAX_AMOUNT``
-
+:Field: ``TilePropertyKey.WATER_MAX_AMOUNT``
 
 .. _tile-property-waterPiped:
 
 waterPiped
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WATER_PIPED``
-
+:Field: ``TilePropertyKey.WATER_PIPED``
 
 .. _tile-property-WestRoofB:
 
 WestRoofB
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WEST_ROOF_B``
-
+:Field: ``TilePropertyKey.WEST_ROOF_B``
 
 .. _tile-property-WestRoofM:
 
 WestRoofM
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WEST_ROOF_M``
-
+:Field: ``TilePropertyKey.WEST_ROOF_M``
 
 .. _tile-property-WestRoofT:
 
 WestRoofT
 ^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WEST_ROOF_T``
-
+:Field: ``TilePropertyKey.WEST_ROOF_T``
 
 .. _tile-property-WheelieBin:
 
 WheelieBin
 ^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WHEELIE_BIN``
-
+:Field: ``TilePropertyKey.WHEELIE_BIN``
 
 .. _tile-property-windowFN:
 
 windowFN
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.WINDOW_FN``
-
+:Field: ``TilePropertyKey.WINDOW_FN``
 
 .. _tile-property-windowFW:
 
 windowFW
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.WINDOW_FW``
-
+:Field: ``TilePropertyKey.WINDOW_FW``
 
 .. _tile-property-WindowLocked:
 
 WindowLocked
 ^^^^^^^^^^^^
 
-**Field:** ``TilePropertyKey.WINDOW_LOCKED``
-
+:Field: ``TilePropertyKey.WINDOW_LOCKED``
 
 .. _tile-property-WindowN:
 
 WindowN
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.WINDOW_N``
-
+:Field: ``TilePropertyKey.WINDOW_N``
 
 .. _tile-property-WindowW:
 
 WindowW
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.WINDOW_W``
-
+:Field: ``TilePropertyKey.WINDOW_W``
 
 .. _tile-property-WindType:
 
 WindType
 ^^^^^^^^
 
-**Field:** ``TilePropertyKey.WIND_TYPE``
-
+:Field: ``TilePropertyKey.WIND_TYPE``
 
 .. _tile-property-Woffset:
 
 Woffset
 ^^^^^^^
 
-**Field:** ``TilePropertyKey.W_OFFSET``
-
+:Field: ``TilePropertyKey.W_OFFSET``
 
