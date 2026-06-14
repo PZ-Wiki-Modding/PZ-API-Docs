@@ -45,13 +45,13 @@ Root Type Details
 .. _animNode.type_AnimNode:
 
 type_AnimNode
-~~~~~~~~~~~~~
+-------------
 
 :Type: Complex
 :Composition: choice
 
 Elements
-^^^^^^^^
+~~~~~~~~
 
 .. _animNode.type_AnimNode.m_Name:
 
@@ -200,7 +200,7 @@ m_SubStateBoneWeights
 :Type: :ref:`type_SubStateBoneWeights <animNode.type_SubStateBoneWeights>`
 
 Attributes
-^^^^^^^^^^
+~~~~~~~~~~
 
 .. _animNode.type_AnimNode.x_extends:
 
@@ -226,19 +226,19 @@ The LoadRifle_Alt.xml file can import the LoadRifle.xml file by using:
    <animNode x_extends="LoadRifle.xml"></animNode>
 
 
-Schema Reference
-----------------
+Types
+-----
 
 .. _animNode.enum_Type:
 
 enum_Type
-~~~~~~~~~
+---------
 
 :Type: Simple
 :Base Type: ``xs:string``
 
 Allowed Values
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 - ``STRING``
 - ``BOOL``
@@ -248,12 +248,12 @@ Allowed Values
 .. _animNode.type_2DBlendTri:
 
 type_2DBlendTri
-~~~~~~~~~~~~~~~
+---------------
 
 :Type: Complex
 
 Elements
-^^^^^^^^
+~~~~~~~~
 
 .. _animNode.type_2DBlendTri.node1:
 
@@ -282,12 +282,12 @@ node3
 .. _animNode.type_2DBlends:
 
 type_2DBlends
-~~~~~~~~~~~~~
+-------------
 
 :Type: Complex
 
 Elements
-^^^^^^^^
+~~~~~~~~
 
 .. _animNode.type_2DBlends.m_AnimName:
 
@@ -322,7 +322,7 @@ m_SpeedScale
 :Type: ``xs:float``
 
 Attributes
-^^^^^^^^^^
+~~~~~~~~~~
 
 .. _animNode.type_2DBlends.referenceID:
 
@@ -335,12 +335,12 @@ referenceID
 .. _animNode.type_Condition:
 
 type_Condition
-~~~~~~~~~~~~~~
+--------------
 
 :Type: Complex
 
 Elements
-^^^^^^^^
+~~~~~~~~
 
 .. _animNode.type_Condition.m_Name:
 
@@ -375,7 +375,7 @@ m_Value
 :Type: ``xs:string``
 
 Attributes
-^^^^^^^^^^
+~~~~~~~~~~
 
 .. _animNode.type_Condition.x_name:
 
@@ -390,12 +390,12 @@ This is unused by the game but it seems to be a simple identifier (often a `GUID
 .. _animNode.type_Events:
 
 type_Events
-~~~~~~~~~~~
+-----------
 
 :Type: Complex
 
 Elements
-^^^^^^^^
+~~~~~~~~
 
 .. _animNode.type_Events.m_EventName:
 
@@ -438,7 +438,7 @@ m_ParameterValue
 The value to pass to the event when it is triggered. This can be used to specify which sound to play, which variable to set, and more, depending on the event being triggered.
 
 Attributes
-^^^^^^^^^^
+~~~~~~~~~~
 
 .. _animNode.type_Events.x_name:
 
@@ -451,12 +451,12 @@ x_name
 .. _animNode.type_SubStateBoneWeights:
 
 type_SubStateBoneWeights
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 :Type: Complex
 
 Elements
-^^^^^^^^
+~~~~~~~~
 
 .. _animNode.type_SubStateBoneWeights.boneName:
 
@@ -477,12 +477,12 @@ includeDescendants
 .. _animNode.type_Transitions:
 
 type_Transitions
-~~~~~~~~~~~~~~~~
+----------------
 
 :Type: Complex
 
 Elements
-^^^^^^^^
+~~~~~~~~
 
 .. _animNode.type_Transitions.m_Target:
 

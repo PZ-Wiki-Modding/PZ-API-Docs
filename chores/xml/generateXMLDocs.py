@@ -201,8 +201,8 @@ def generate_type_rst_content(xml_type: str, type_data: Dict[str, Any]) -> str:
             content += "\n"
         
         # Add other types in schema reference
-        content += "Schema Reference\n"
-        content += "-" * len("Schema Reference") + "\n\n"
+        content += "Types\n"
+        content += "-" * len("Types") + "\n\n"
         content += _generate_types_documentation(types, xml_type, root_type_name)
     
     return content
@@ -237,7 +237,7 @@ def _generate_single_type_documentation(type_name: str, type_info: Dict[str, Any
     label = f"{xml_type}.{type_name}"
     content = f".. _{label}:\n\n"
     content += f"{type_name}\n"
-    content += "~" * len(type_name) + "\n\n"
+    content += "-" * len(type_name) + "\n\n"
     
     type_class = type_info.get('type', '')
     
@@ -346,7 +346,7 @@ def _generate_complex_type_documentation(type_info: Dict[str, Any], xml_type: st
     elements = type_info.get('elements', [])
     if elements:
         content += "Elements\n"
-        content += "^" * len("Elements") + "\n\n"
+        content += "~" * len("Elements") + "\n\n"
         
         for element in elements:
             info = element.get('info', {})
@@ -374,7 +374,7 @@ def _generate_complex_type_documentation(type_info: Dict[str, Any], xml_type: st
     attributes = type_info.get('attributes', [])
     if attributes:
         content += "Attributes\n"
-        content += "^" * len("Attributes") + "\n\n"
+        content += "~" * len("Attributes") + "\n\n"
         
         for attribute in attributes:
             info = attribute.get('info', {})
@@ -414,7 +414,7 @@ def _generate_simple_type_documentation(type_info: Dict[str, Any], type_name: st
         if enumeration:
             content += "\n"
             content += "Allowed Values\n"
-            content += "^" * len("Allowed Values") + "\n\n"
+            content += "~" * len("Allowed Values") + "\n\n"
             for enum_item in enumeration:
                 # Handle both string and object enumeration values
                 if isinstance(enum_item, str):
