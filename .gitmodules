@@ -16,3 +16,6 @@
 [submodule "tile-properties-data"]
 	path = tile-properties-data
 	url = https://github.com/Unofficial-PZ-Mapping-Discord/tile-properties-data
+[submodule "pz-xml-data"]
+	path = pz-xml-data
+	url = https://github.com/PZ-Wiki-Modding/pz-xml-data

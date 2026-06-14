@@ -166,9 +166,8 @@ is3D
 ^^^^
 
 :Type: boolean
-:Attributes: Useless
 
-This parameter looks unused.
+Whenever this is set to ``false``\ , the distance to the sound will not impact its volume. This parameter doesn't impact the sound directionality.
 
 .. _sound-loop:
 

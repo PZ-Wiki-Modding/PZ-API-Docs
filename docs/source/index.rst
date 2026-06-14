@@ -24,3 +24,4 @@ Documentation Structure
    mapping
    translations
    java
+   xml
