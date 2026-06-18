@@ -39,7 +39,7 @@ max
 ^^^
 
 :Type: float
-:Needs: ``type`` = integer, double
+:Needs: ``type`` = ``integer``, ``double``
 
 The maximum value the option can have. Only for integer and double types.
 
@@ -49,7 +49,7 @@ min
 ^^^
 
 :Type: float
-:Needs: ``type`` = integer, double
+:Needs: ``type`` = ``integer``, ``double``
 
 The minimum value the option can have. Only for integer and double types.
 

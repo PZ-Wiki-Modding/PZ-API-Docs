@@ -32,6 +32,16 @@ def _dict_to_rst_csv(data: Dict[str, Any]) -> str:
     
     return rst
 
+def _load_itemtype_parameters() -> dict[str, list[str]]:
+    """Load the item parameters associated with ItemTypes from the JSON file."""
+    item_params_file = Path(__file__).parent.parent.parent / 'pz-scripts-data' / 'out' / 'itemParameters.json'
+    try:
+        with open(item_params_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error: Failed to load item parameters from {item_params_file}: {e}")
+        sys.exit(1)
+
 
 
 children_map: dict[str, List['ScriptBlock']] = {}
@@ -151,7 +161,7 @@ class ScriptBlock:
                 param_name = need.get('name', 'unknown')
                 values = need.get('values', [])
                 if values:
-                    values_str = ", ".join(str(v) for v in values)
+                    values_str = ", ".join(f"``{v}``" for v in values)
                     needs_lines.append(f"``{param_name}`` = {values_str}")
                 else:
                     needs_lines.append(f"``{param_name}``")
@@ -249,6 +259,28 @@ class ScriptBlock:
                 rst += f"- {parent}\n"
             rst += "\n"
         
+        return rst
+    
+    def _generate_itemtype_parameters_section(self) -> str:
+        """Generate RST documentation for item block parameters associated with ItemTypes."""
+        itemtype_parameters = _load_itemtype_parameters()
+        
+        title = "ItemType Specific Parameters"
+        rst = f".. _itemtype_specific_parameters:\n\n{title}\n{'-' * len(title)}\n\n"
+        rst += """Specific parameters are only available for certain :ref:`item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
+
+"""
+
+        for itemtype, params in itemtype_parameters.items():
+            if len(params) == 0:
+                continue
+            rst += f"**ItemType:** ``{itemtype}``\n\n"
+            rst += "Parameters:\n\n"
+            for param in sorted(params, key=lambda p: p.lower()):
+                label = _get_param_label(self.name, param)
+                rst += f"- :ref:`{param} <{label}>`\n"
+            rst += "\n"
+
         return rst
     
     def _generate_parameters_section(self) -> str:
@@ -357,6 +389,10 @@ class ScriptBlock:
         # ID Properties section
         rst += self._generate_id_section()
 
+        # If item block, add parameters associated to their ItemTypes
+        if self.name == "item":
+            rst += self._generate_itemtype_parameters_section()
+
         # Parameters section
         rst += self._generate_parameters_section()
 
@@ -401,6 +437,7 @@ class BlockDocumentationGenerator:
 
     def load_blocks(self) -> None:
         """Load all block definitions from the JSON file."""
+        # load blocks
         try:
             with open(self.blocks_file, 'r') as f:
                 blocks_data = json.load(f)
@@ -415,7 +452,7 @@ class BlockDocumentationGenerator:
             sys.exit(1)
 
         # yaml_files = sorted(self.blocks_file.glob('*.yaml'))
-        
+
         # for yaml_file in yaml_files:
         #     try:
         #         with open(yaml_file, 'r') as f:
