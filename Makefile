@@ -35,13 +35,18 @@ generate_java:
 	python3 ./chores/java/generateActionSoundTimeDocs.py
 	python3 ./chores/java/generateMagazineSubjectDocs.py
 	python3 ./chores/java/generateMetabolicsDocs.py
+	python3 ./chores/java/generateItemBodyLocationsDocs.py
 
 generate_translations:
 	source ./.venv/bin/activate
 	python3 ./chores/translations/generateLanguageCodesDocs.py
 	python3 ./chores/translations/generateTranslationFilesDocs.py
 
-generate: generate_scripts generate_mapping generate_java generate_translations
+generate_xml:
+	source ./.venv/bin/activate
+	python3 ./chores/xml/generateXMLDocs.py
+
+generate: generate_scripts generate_mapping generate_java generate_translations generate_xml
 
 html: generate
 	source ./.venv/bin/activate

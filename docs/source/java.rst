@@ -12,3 +12,4 @@ This documentation provides different data from parsing the decompiled Java code
    java/item_tags
    java/magazine_subject
    java/metabolics
+   java/item_body_locations
