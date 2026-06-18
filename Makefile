@@ -35,7 +35,7 @@ generate_java:
 	python3 ./chores/java/generateActionSoundTimeDocs.py
 	python3 ./chores/java/generateMagazineSubjectDocs.py
 	python3 ./chores/java/generateMetabolicsDocs.py
-	python3 ./chores/java/generateItemBodyLocationsDocs.py
+	python3 ./chores/java/generateItemBodyLocationDocs.py
 
 generate_translations:
 	source ./.venv/bin/activate
