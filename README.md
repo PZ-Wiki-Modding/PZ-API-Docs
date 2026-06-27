@@ -6,6 +6,7 @@ Those sources include two datasets and two parsers output:
 - [pz-translation-data](https://github.com/PZ-Wiki-Modding/pz-translation-data)
 - [pz-lua-parser](https://github.com/PZ-Wiki-Modding/pz-lua-parser)
 - [pz-java-parser](https://github.com/PZ-Wiki-Modding/pz-java-parser)
+- [pz-xml-data](https://github.com/PZ-Wiki-Modding/pz-xml-data)
 
 It also links to other resources relevant to the documentation:
 - The [unofficial B42 JavaDocs](https://demiurgequantified.github.io/ProjectZomboidJavaDocs/)
