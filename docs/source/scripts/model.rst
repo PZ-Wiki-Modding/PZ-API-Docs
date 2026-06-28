@@ -51,7 +51,7 @@ animationsMesh
 
 :Type: block (block: :ref:`animationsMesh`)
 
-No description
+Sets the `animations mesh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/animationsmesh.html>`_ for the model. This is used for models that are used for entities such as the character or animals.
 
 .. _model-attachmentparent:
 
@@ -76,9 +76,10 @@ No description
 boneWeight
 ^^^^^^^^^^
 
-:Type: Any
+:Type: object (object: string->>float, kv: ' ', pairs: ';')
+:Attributes: Can be duplicated
 
-No description
+Sets the bone weight for the model. This is notably used for vehicle bones but it is yet documented how this actually impacts the model or animations linked to it.
 
 .. _model-colorblue:
 
@@ -112,9 +113,22 @@ No description
 cullFace
 ^^^^^^^^
 
-:Type: Any
+:Type: string
+:Default: ``Back``
 
-No description
+Sets an OpenGL face culling mode for the model. By default the culling mode will be ``-1``\ , which defaults to ``Front``
+
+``None`` supposedly disables face culling, all polygons are rendered. ``Back`` culls back-facing polygons, only renders front faces. ``Front`` culls front-facing polygons, only renders back faces.
+
+This is likely the reason why when you have inverted normals on your model, you'll see through those inverted faces. You should keep this parameter by default however unless you actually need a model that can be seen on both sides of faces (plane models for example). This is used for muzzle flashes for guns notably.
+
+Note that this parameter defaulting to ``Front`` sounds abnormal as the faces pointing in the direction of the normals are rendered in the game, so this suggests that something is done at some point to invert the normals or something else is going on that would render the correct faces of the model.
+
+Allowed values:
+
+    - ``Back``
+    - ``Front``
+    - ``None``
 
 .. _model-file:
 
@@ -139,9 +153,9 @@ No description
 invertX
 ^^^^^^^
 
-:Type: Any
+:Type: boolean
 
-No description
+If set to ``true``\ , the model scale will be inverted on the X axis.
 
 .. _model-mesh:
 
@@ -176,9 +190,11 @@ No description
 postProcess
 ^^^^^^^^^^^
 
-:Type: Any
+:Type: string
 
-No description
+Sets post-processing steps for assimp to use when importing the model. Steps should be separated with ``;``\ , and prefixed with either ``+`` to add the step or ``-`` to remove the step (primarily used to remove a default step). Steps correspond to members of the `AiPostProcessSteps <https://github.com/assimp/assimp/blob/master/port/jassimp/jassimp/src/jassimp/AiPostProcessSteps.java>`_ enum. The default steps are ``FIND_INSTANCES``\ , ``MAKE_LEFT_HANDED``\ , ``LIMIT_BONE_WEIGHTS``\ , ``TRIANGULATE``\ , ``OPTIMIZE_MESHES``\ , ``REMOVE_REDUNDANT_MATERIALS``\ , ``JOIN_IDENTICAL_VERTICES``.
+
+It is unclear what this is used for exactly and should probably not be modified unless you are looking into advanced model manipulation.
 
 .. _model-rotate:
 
@@ -231,9 +247,9 @@ No description
 static
 ^^^^^^
 
-:Type: Any
+:Type: boolean
 
-No description
+If set to ``true``\ , the model will not deform with the bones it is parented to. This is typically used for non deformable objects, which means clothings should not be static.
 
 .. _model-texture:
 
@@ -259,7 +275,8 @@ It is suggested to put your textures in a subfolder of the ``textures`` folder n
 undoCoreScale
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: boolean
+:Default: ``False``
 
-No description
+If set to ``true``\ , the model scale will be multiplied by ``0.6666667``. This seems to be mostly used for tile models.
 

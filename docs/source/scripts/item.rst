@@ -170,7 +170,7 @@ Parameters
 AcceptItemFunction
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: string
 
 No description
 
@@ -543,7 +543,7 @@ BodyLocation
 
 :Type: Any
 
-Used to define which location on the human character this clothing item can be worn.
+Used to define which location on the human character this clothing item can be worn. Needs to be a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_body_locations.html>`_ value. You can also create new ones via `registries <https://pzwiki.net/wiki/Registries>`_.
 
 .. _item-book_subject:
 
@@ -660,8 +660,9 @@ CanBeEquipped
 ^^^^^^^^^^^^^
 
 :Type: Any
+:Needs: ``ItemType`` = ``base:container``, ``base:radio``
 
-No description
+Needs to reference a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-bodylocation>`_ value which will serve as the equipment location.
 
 .. _item-canbeplaced:
 
@@ -790,9 +791,11 @@ Capacity
 ^^^^^^^^
 
 :Type: integer
+:Range: Max: 50
 :Default: ``-1``
+:Needs: ``ItemType`` = ``base:container``
 
-No description
+Sets the capacity of the container. This value is limited to a maximum of 50 minus its own `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_. The weight of the bag will follow the formula ``equippedWeight = weight * EquippedOrWornEncumbranceMultiplier + contentWeight * (1.0 - weightReduction / 100)``.
 
 .. _item-carbohydrates:
 
@@ -878,7 +881,7 @@ Used to whenever this weapon can be used to do a close kill move, like knives to
 CloseSound
 ^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`sound`)
 
 No description
 
@@ -1147,10 +1150,10 @@ No description
 CustomEatSound
 ^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`sound`)
 :Attributes: Can be empty
 
-Custom sound to play when eating or drinking this item, refers to the ID of a sound script. Set to an empty string to disable any sound from playing.
+Custom sound to play when eating or drinking this item. Set to an empty string to disable any sound from playing.
 
 .. _item-cyclicratemultiplier:
 
@@ -1386,7 +1389,7 @@ No description
 enduranceChange
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: float
 
 No description
 
@@ -1658,27 +1661,39 @@ No description
 fluReduction
 ^^^^^^^^^^^^
 
-:Type: Any
+:Type: integer
+:Needs: ``ItemType`` = ``base:food``
 
-No description
+When eating this food item, the player cold or pain will be reduced by the percentage of the food being eaten times respectively the values of `fluReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-flureduction>`_ and `painReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-painreduction>`_.
 
 .. _item-foodsicknesschange:
 
 FoodSicknessChange
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: integer
 
-No description
+Set the base food sickness change.
+
+The amount of food sickness you get varies based on this parameter and other factors:
+
+
+* burnt food will divide by 3 the amount of food sickness you get
+* stale food will divide by 1.3
+* rotten food will divide by 2.2
+* cooked food will multiply by 1.3
+* raw food provides this base value
 
 .. _item-foodtype:
 
 FoodType
 ^^^^^^^^
 
-:Type: Any
+:Type: string
 
-No description
+Sets the food type of the item. A translation entry needs to be made for custom types which has the key ``ContextMenu_FoodType_<type>``.
+
+To be a valid food item to feed to animals, the item needs to be of type ``Fruits`` or ``Vegetables``.
 
 .. _item-goodhot:
 
@@ -2738,7 +2753,8 @@ No description
 OnCooked
 ^^^^^^^^
 
-:Type: Any
+:Type: callback
+:Needs: ``ItemType`` = ``base:drainable``, ``base:food``
 
 No description
 
@@ -2770,6 +2786,15 @@ OnEat
 
 No description
 
+.. _item-onlyacceptcategory:
+
+OnlyAcceptCategory
+^^^^^^^^^^^^^^^^^^
+
+:Type: string
+
+Makes sure only items with the specified `ItemCategory <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/itemcategory.html>`_ corresponding to the provided value of this parameter can be inserted into the container.
+
 .. _item-openingrecipe:
 
 OpeningRecipe
@@ -2784,7 +2809,7 @@ No description
 OpenSound
 ^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`sound`)
 
 No description
 
@@ -2866,9 +2891,10 @@ No description
 painReduction
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: integer
+:Needs: ``ItemType`` = ``base:food``
 
-No description
+See :ref:`item-flureduction` for more details.
 
 .. _item-parttype:
 
@@ -2962,14 +2988,41 @@ PlaceOneSound
 
 No description
 
+.. _item-poison:
+
+Poison
+^^^^^^
+
+:Type: boolean
+:Default: ``False``
+:Attributes: Useless
+:Needs: ``ItemType`` = ``base:food``
+
+See :ref:`item-poisonpower` for more details.
+
+.. _item-poisondetectionlevel:
+
+PoisonDetectionLevel
+^^^^^^^^^^^^^^^^^^^^
+
+:Type: integer
+
+See :ref:`item-poisonpower` for more details.
+
 .. _item-poisonpower:
 
 PoisonPower
 ^^^^^^^^^^^
 
-:Type: Any
+:Type: integer
 
-No description
+`PoisonPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-poisonpower>`_ defines the strength of the poison, where a positive value will make the food poisonous.
+
+`PoisonDetectionLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-poisondetectionlevel>`_ doesn't seem to be useful, where a positive value will make it pass all the checks anyway, so increasing that value doesn't do anything.]
+
+You can also mark an item to be shown as poisonous to the player by adding the `ItemTag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtag>`_ ``base:showpoison``.
+
+The parameters `Poison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-poison>`_ and `UseForPoison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useforpoison>`_ look unused.
 
 .. _item-pourtype:
 
@@ -3068,7 +3121,7 @@ Higher gives a more weighty, impactful feel.
 PutInSound
 ^^^^^^^^^^
 
-:Type: Any
+:Type: block (block: :ref:`sound`)
 
 No description
 
@@ -3257,9 +3310,10 @@ No description
 ReplaceOnCooked
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: array (array of string, separator: ';')
+:Needs: ``ItemType`` = ``base:drainable``, ``base:food``
 
-No description
+A list of `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ that will replace the cooked item by adding them to the player's inventory.
 
 .. _item-replaceondeplete:
 
@@ -3702,7 +3756,7 @@ You can then use that tag ``yourmodid:yourtagname`` in your item definition. And
 ThirstChange
 ^^^^^^^^^^^^
 
-:Type: Any
+:Type: float
 
 No description
 
@@ -3870,6 +3924,17 @@ UseEndurance
 If ``true``\ , the weapon will consume stamina on use based on the weapon `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_\ , `EnduranceMod <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-endurancemod>`_\ , fatigue modifiers and traits.
 
 For guns, it is preferable to keep this as ``False``.
+
+.. _item-useforpoison:
+
+UseForPoison
+^^^^^^^^^^^^
+
+:Type: integer
+:Default: ``0``
+:Needs: ``ItemType`` = ``base:food``
+
+No description
 
 .. _item-usesbattery:
 
@@ -4060,9 +4125,11 @@ No description
 WeightReduction
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: integer
+:Range: Min: 0, Max: 100
+:Needs: ``ItemType`` = ``base:container``
 
-No description
+Percentage of the total contained weight in the bag that will be reduced. If the bag's content weights 10 and the reduction is 65, the bag content will only weight
 
 .. _item-weightwet:
 

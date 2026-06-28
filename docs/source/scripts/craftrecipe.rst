@@ -19,6 +19,8 @@ For example:
        }
    }
 
+Some methods to modify existing recipes are documented on the `wiki <https://pzwiki.net/wiki/CraftRecipe#Modifying_existing_recipes>`_.
+
 To define a translation for this recipe, you need to create an entry in the translation file `Recipes.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#recipes>`_. The translation entry should be formatted like this:
 
 .. code-block:: json
@@ -150,7 +152,7 @@ AllowBatchCraft
 :Type: boolean
 :Default: ``True``
 
-The AllowBatchCraft parameter is used to allow the recipe to be crafted in batches. This will make a slider appear on the crafting to craft multiple ones at once. Needs to be a boolean and default is true, set to false to disable batch craft.
+The AllowBatchCraft parameter is used to allow the recipe to be crafted in batches. This will make a slider appear on the crafting to craft multiple ones at once. Needs to be a boolean and default is ``true``\ , set to ``false`` to disable batch craft.
 
 .. _craftrecipe-animation:
 
@@ -167,9 +169,11 @@ No description
 AutoLearnAll
 ^^^^^^^^^^^^
 
-:Type: Any
+:Type: object (object: string->>integer, kv: ':', pairs: ';')
 
-The ``autoLearnAll`` parameter specifies that all the provided skills and their associated level need to be reached to learn the recipe. The parameter should be formated this way:
+The `AutoLearnAll <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#autolearnall>`_ parameter specifies that all the provided skills and their associated level need to be reached to automatically learn the recipe. On the other hand, `AutoLearnAny <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#autolearnany>`_ specifies that at least one of the skills and its associated level need to be reached to automatically learn the recipe. Both can also be used together.
+
+Both parameters should be formatted this way:
 
 .. code-block:: cpp
 
@@ -177,9 +181,9 @@ The ``autoLearnAll`` parameter specifies that all the provided skills and their 
    autoLearnAll = <skill name>:<level amount>,
 
    /* multiple skills */
-   autoLearnAll = <skill1 name>:<level amount>;<skill2 name>:<level amount>,format
+   autoLearnAll = <skill1 name>:<level amount>;<skill2 name>:<level amount>,
 
-For the list of available skills, see `this <https://pzwiki.net/wiki/CraftRecipe#Available_skills>`_.
+For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRecipe#Available_skills>`_.
 
 For example:
 
@@ -192,25 +196,9 @@ For example:
 AutoLearnAny
 ^^^^^^^^^^^^
 
-:Type: Any
+:Type: object (object: string->>integer, kv: ':', pairs: ';')
 
-The autoLearnAny parameter specifies that at least one of the skills and its associated level need to be reached to learn the recipe. The parameter should be formated this way:
-
-.. code-block:: cpp
-
-   /* a single skill */
-   autoLearnAny = <skill name>:<level amount>,
-
-   /* multiple skills */
-   autoLearnAny = <skill1 name>:<level amount>;<skill2 name>:<level amount>,format
-
-For the list of available skills, see `this <https://pzwiki.net/wiki/CraftRecipe#Available_skills>`_.
-
-For example:
-
-.. code-block:: cpp
-
-   autoLearnAny = Carving:3;Maintenance:2,
+See :ref:`craftrecipe-autolearnall` for more details.
 
 .. _craftrecipe-canwalk:
 
@@ -227,16 +215,17 @@ Whether the player can walk while crafting this recipe.
 category
 ^^^^^^^^
 
-:Type: Any
+:Type: string
+:Default: ``Miscellaneous``
 
-The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in the crafting menu. Currently doesn't support translations (confirmed last 42.15).
+The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in crafting menu. Currently doesn't support translations (confirmed last 42.19.0).
 
 .. _craftrecipe-icon:
 
 Icon
 ^^^^
 
-:Type: Any
+:Type: string
 
 Specifies the icon associated with this crafting recipe. The icon needs to be located in ``media/textures``\ , for example ``media/textures/myIcon.png`` will be refered to as ``Icon = myIcon,``.
 
@@ -249,7 +238,23 @@ MetaRecipe
 
 :Type: Any
 
-A meta recipe is used to link two recipes so that if the meta recipe is known then this recipe will be known.
+A meta recipe is used to link two recipes so that if the meta recipe is known then this recipe will be known. The opposite however is not true, if the main recipe is known the meta recipe is not automatically known.
+
+In this example below, the recipe ``MyRecipe1`` will be known if the recipe ``MyRecipe2`` is known. However if the recipe ``MyRecipe1`` is known, the recipe ``MyRecipe2`` will not automatically be known and needs to be learnt.
+
+.. code-block:: cpp
+
+   craftRecipe MyRecipe1
+   {
+       ...
+   }
+
+   craftRecipe MyRecipe2
+   {
+       ...
+       metaRecipe = MyRecipe1,
+       ...
+   }
 
 .. _craftrecipe-needtobelearn:
 
@@ -265,66 +270,77 @@ Whether the recipe needs to be learned before it can be crafted.
 OnAddToMenu
 ^^^^^^^^^^^
 
-:Type: Any
+:Type: callback
 
-No description
+Called when the recipe gets added to the recipe menu. Return ``true`` to add it, and return ``false`` to stop it from getting added to the menu.
 
 .. _craftrecipe-oncreate:
 
 OnCreate
 ^^^^^^^^
 
-:Type: Any
+:Type: callback
 
-The OnCreate parameter allows the referencing of a Lua function that will be called when the crafting recipe is finished. This can be used to add custom behavior to the crafting recipe when it gets finished. The Lua function needs to be a `global function <https://pzwiki.net/wiki/Lua_(language>`_\ #Local_and_global), it can also be in a global table. The vanilla game OnCreate's are stored in the `Java <https://pzwiki.net/wiki/Java>`_.
+Various callback functions can be added to a recipe to trigger at specific moments during the crafting process:
 
-The function should have the following structure:
+
+* `OnCreate <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#oncreate>`_ is called when the crafting recipe is finished.
+* `OnTest <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#ontest>`_ is called to verify if the item can be used in the recipe.
+* `OnFailed <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#onfailed>`_ is called when the crafting recipe fails or is canceled.
+* `OnUpdate <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#onupdate>`_ is called every tick while the recipe is being crafted.
+
+The callback needs to be a Lua function defined as a `global function <https://pzwiki.net/wiki/Lua_(language>`_\ #Local_and_global), which can also be stored in a global table. The vanilla game OnCreate's are stored in the `Java <https://pzwiki.net/wiki/Java>`_.
+
+For example, for `OnCreate <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#oncreate>`_ you should have the following structure:
 
 .. code-block:: lua
 
+   ---@param craftRecipeData CraftRecipeData
+   ---@param character IsoGameCharacter
    function MyOnCreateFunction(craftRecipeData, character)
        -- your custom code here
    end
 
 The ``craftRecipeData`` is a `java object <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/entity/components/crafting/recipe/CraftRecipeData.html>`_ that contains the data of the crafting recipe. The ``character`` is the player character who is crafting the recipe.
 
+For `OnTest <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#ontest>`_ you should have the following structure:
+
+.. code-block:: lua
+
+   ---@param item InventoryItem
+   ---@param character IsoGameCharacter
+   ---@return boolean logicTestResult
+   function MyOnTestFunction(item, character)
+       -- your custom code here
+       return logicTestResult  -- based on your logic test above
+   end
+
 .. _craftrecipe-onfailed:
 
 OnFailed
 ^^^^^^^^
 
-:Type: Any
+:Type: callback
 
-No description
+See :ref:`craftrecipe-oncreate` for more details.
 
 .. _craftrecipe-ontest:
 
 OnTest
 ^^^^^^
 
-:Type: Any
+:Type: callback
 
-The OnTest parameter is used to define a Lua function that will be called to verify if the recipe can be crafted. If the function returns true, the recipe can be crafted but if the function returns false, the recipe cannot be crafted. The Lua function needs to be a `global function <https://pzwiki.net/wiki/Lua_(language>`_\ #Local_and_global), it can also be in a global table. The vanilla game OnTest's are stored in the `Java <https://pzwiki.net/wiki/Java>`_.
-
-The function should have the following structure:
-
-.. code-block:: lua
-
-   function MyOnTestFunction(item, character)
-       -- your custom code here
-       return logicTestResult  -- based on your logic test above
-   end
-
-``item`` is an InventoryItem while ``character`` is the player trying to craft this recipe.
+See :ref:`craftrecipe-oncreate` for more details.
 
 .. _craftrecipe-onupdate:
 
 OnUpdate
 ^^^^^^^^
 
-:Type: Any
+:Type: callback
 
-No description
+See :ref:`craftrecipe-oncreate` for more details.
 
 .. _craftrecipe-overlaystyle:
 
@@ -344,6 +360,15 @@ recipeGroup
 
 No description
 
+.. _craftrecipe-researchall:
+
+ResearchAll
+^^^^^^^^^^^
+
+:Type: Any
+
+See :ref:`craftrecipe-researchskilllevel` for more details.
+
 .. _craftrecipe-researchany:
 
 ResearchAny
@@ -351,25 +376,28 @@ ResearchAny
 
 :Type: Any
 
-No description
+See :ref:`craftrecipe-researchskilllevel` for more details.
 
 .. _craftrecipe-researchskilllevel:
 
 ResearchSkillLevel
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: integer
+:Default: ``-1``
 
-No description
+`ResearchSkillLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#researchskilllevel>`_ is used to define the skill level required for `ResearchAll <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#researchall>`_ and `ResearchAny <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#researchany>`_ to be able to research the recipe. Having the `inventive trait <https://pzwiki.net/wiki/Inventive>`_ will lower the required level by 2.
+
+`ResearchAll <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#researchall>`_ will require all the provided skills to be at least the required level, while `ResearchAny <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#researchany>`_ will require only one or more of the provided skills.
 
 .. _craftrecipe-skillrequired:
 
 SkillRequired
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: object (object: string->>integer, kv: ':', pairs: ';')
 
-Specifies the skill level required to perform this crafting action. It should be formated this way:
+Specifies the skill level required to perform this crafting action. It should be formatted this way:
 
 .. code-block:: cpp
 
@@ -379,7 +407,7 @@ Specifies the skill level required to perform this crafting action. It should be
    /* multiple skills */
    skillRequired = <skill1 name>:<level>;<skill2 name>:<level>,
 
-For the list of available skills, see `this <https://pzwiki.net/wiki/CraftRecipe#Available_skills>`_.
+For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRecipe#Available_skills>`_.
 
 For example:
 
@@ -412,22 +440,24 @@ For example:
 
 A crafting bench tag can be created by adding a `component CraftBench <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/component/component-craftbench.html>`_ to an `entity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/entity.html>`_ script, which can then be used in this tags parameter.
 
+You can find a list of tags available on the `wiki <https://pzwiki.net/wiki/CraftRecipe#List_of_tags>`_.
+
 .. _craftrecipe-time:
 
 time
 ^^^^
 
-:Type: Any
+:Type: integer
 :Default: ``50``
 
-The time it takes to craft the item, not using a specific unit of time.
+The time it takes to craft the item, not using a specific unit of time so refer to the vanilla recipes to get an idea of what value to use.
 
 .. _craftrecipe-timedaction:
 
 timedAction
 ^^^^^^^^^^^
 
-:Type: string (block: :ref:`timedAction`)
+:Type: block (block: :ref:`timedAction`)
 
 Refers to a timed action script block to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
 
@@ -436,9 +466,19 @@ Refers to a timed action script block to trigger during the crafting process, fo
 Tooltip
 ^^^^^^^
 
-:Type: Any
+:Type: string
 
-Description of the crafting which is shown in the crafting menu.
+Description of the crafting which is shown in the crafting menu. The value needs be a key in the `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ translation file. For example:
+
+.. code-block:: cpp
+
+   Tooltip = MyTooltipKey,
+
+And in the translation file:
+```json
+{
+  "MyTooltipKey": "This is my tooltip description."
+}
 
 .. _craftrecipe-xpaward:
 
@@ -447,7 +487,7 @@ xpAward
 
 :Type: Any
 
-Specifies the experience points awarded for crafting this item. The parameter should be formated this way:
+Specifies the experience points awarded for crafting this item. The parameter should be formatted this way:
 
 .. code-block:: cpp
 
@@ -457,7 +497,7 @@ Specifies the experience points awarded for crafting this item. The parameter sh
    /* multiple skills */
    xpAward = <skill1 name>:<xp amount>;<skill2 name>:<xp amount>,format
 
-For the list of available skills, see `this <https://pzwiki.net/wiki/CraftRecipe#Available_skills>`_.
+For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRecipe#Available_skills>`_.
 
 For example:
 

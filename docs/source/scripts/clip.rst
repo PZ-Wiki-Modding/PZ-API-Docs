@@ -47,7 +47,7 @@ distanceMax
 
 :Type: integer
 
-No description
+`distanceMax <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#distanceMax>`_ and `distanceMin <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#distanceMin>`_ respectively set the maximum and minimum distances between which the sound will gradually decrease in volume.
 
 .. _clip-distancemin:
 
@@ -56,7 +56,7 @@ distanceMin
 
 :Type: integer
 
-No description
+See :ref:`clip-distancemax` for more details.
 
 .. _clip-event:
 
@@ -65,7 +65,7 @@ event
 
 :Type: string
 
-No description
+Specifies an event that will trigger the playback of a specific sound. Used for sounds from FMOD sound banks (vanilla sound files).
 
 .. _clip-file:
 
@@ -74,7 +74,22 @@ file
 
 :Type: string
 
-No description
+The path to the sound file to be played, relative to the folder above the ``media`` folder. For the following file path:
+
+.. code-block::
+
+   📁 MyMod
+     📁 media
+       📁 sound
+         📄 my_sound.ogg
+
+This parameter will be:
+
+.. code-block:: cpp
+
+   file = media/sound/my_sound.ogg
+
+A file can be both of file format ``.ogg`` or ``.wav``\ , but ``.ogg`` is recommended for its smaller file size and better compression.
 
 .. _clip-pitch:
 
@@ -83,7 +98,7 @@ pitch
 
 :Type: float
 
-No description
+The pitch of the sound.
 
 .. _clip-reverbfactor:
 
@@ -92,7 +107,7 @@ reverbFactor
 
 :Type: float
 
-No description
+`reverbFactor <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#reverbFactor>`_ sets the amount of reverb applied to the sound while `reverbMaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#reverbMaxRange>`_ sets the maximum distance at which the reverb will be applied.
 
 .. _clip-reverbmaxrange:
 
@@ -101,7 +116,7 @@ reverbMaxRange
 
 :Type: float
 
-No description
+See :ref:`clip-reverbfactor` for more details.
 
 .. _clip-stopimmediate:
 
@@ -119,5 +134,5 @@ volume
 
 :Type: float
 
-No description
+Adjusts the volume of the sound. Preferably your sound file should be properly normalized to a volume of 1.0.
 
