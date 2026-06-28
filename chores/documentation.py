@@ -1,5 +1,7 @@
 import argparse
+from pathlib import Path
 
+from project import PROJECT_ROOT
 
 
 
@@ -8,8 +10,12 @@ import argparse
 
 
 class Documentation:
-    doc_type: str = "__"
-    doc_types: dict[str, type] = {}
+    _doc_types: dict[str, type] = {}
+    
+    # derived attributes
+    doc_type: str = "__BASE"
+    data_path: Path = PROJECT_ROOT
+    toc_path: Path
 
     def __init__(self):
         self.generate()
@@ -18,12 +24,12 @@ class Documentation:
         super().__init_subclass__(**kwargs)
         doc_type = cls.doc_type
         print(doc_type)
-        Documentation.doc_types[doc_type] = cls
+        Documentation._doc_types[doc_type] = cls
 
     @staticmethod
     def create(doc_type):
-        if doc_type in Documentation.doc_types:
-            return Documentation.doc_types[doc_type]()
+        if doc_type in Documentation._doc_types:
+            return Documentation._doc_types[doc_type]()
         raise ValueError(f"Unknown documentation type: {doc_type}")
     
     def generate(self):
@@ -32,7 +38,11 @@ class Documentation:
 
 class XMLDocumentation(Documentation):
     doc_type = "xml"
+    data_path = PROJECT_ROOT / "pz-xml-data" / "out" / "data.json"
+    toc_path = PROJECT_ROOT / "docs" / "xml.rst"
 
+    def generate(self):
+        print("Generating XML documentation...")
 
 
 
