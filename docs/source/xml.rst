@@ -8,3 +8,6 @@ Reference documentation for XML file formats used in Project Zomboid.
    :titlesonly:
 
    xml/animNode
+   xml/clothing
+   xml/clothingDecals
+   xml/clothingItem

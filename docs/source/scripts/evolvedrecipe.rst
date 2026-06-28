@@ -3,7 +3,31 @@
 evolvedrecipe
 =============
 
-Defines a dynamic recipe.
+Defines a dynamic recipe where items can be added in as ingredients in multiple steps. This is notably used to define soups, stews or beverages that can accept multiple combination of ingredients. Stats from each `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ are added to the final product.
+
+For an item to be accepted in a specific evolvedrecipe, it needs to have the parameter `EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipe>`_ which lists every evolved recipes it can be used in and in what quantity.
+
+For example:
+
+.. code-block:: cpp
+
+   evolvedrecipe Sandwich
+   {
+       BaseItem = Base.BreadSlices,
+       MaxItems = 4,
+       ResultItem = Base.Sandwich,
+       Name = Make Sandwich,
+       CanAddSpicesEmpty = true,
+       AddIngredientIfCooked = true,
+       Template = Sandwich,
+       Cookable = true,
+   }
+
+   item Processedcheese
+   {
+       EvolvedRecipe = Sandwich:5;Burger:5;Hotdog:5;Rice:5;Pasta:5;Bread:5;Omelette:5;Toast:5,
+       ...
+   }
 
 
 Hierarchy

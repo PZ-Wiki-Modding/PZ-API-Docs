@@ -28,7 +28,7 @@ Parameters
 ConditionModifier
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: float
 
 No description
 
@@ -47,7 +47,7 @@ No description
 GlobalItem
 ^^^^^^^^^^
 
-:Type: Any
+:Type: object (object: block->>integer, kv: '=', pairs: ';')
 
 No description
 
@@ -56,7 +56,7 @@ No description
 Require
 ^^^^^^^
 
-:Type: Any
+:Type: array (array of block, separator: ';')
 
 No description
 
