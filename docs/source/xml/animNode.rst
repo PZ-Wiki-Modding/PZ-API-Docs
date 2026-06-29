@@ -351,6 +351,30 @@ m_GrappleTweenInTime
 
 No description provided.
 
+Attributes
+^^^^^^^^^^
+
+x_extends
+"""""""""
+
+:Type: ``xs:string``
+:Use: optional
+
+Import another relative animNode file into this one. Needs to be the file name so for the following example folder structure: 
+
+.. code-block::
+
+   📁 AnimSets
+     📁 Rifle
+       📄 LoadRifle.xml
+       📄 LoadRifle_Alt.xml
+
+The LoadRifle_Alt.xml file can import the LoadRifle.xml file by using:
+
+.. code-block:: xml
+
+   <animNode x_extends="LoadRifle.xml"></animNode>
+
 
 .. _animnode-type_2dblends:
 
@@ -396,6 +420,17 @@ m_SpeedScale
 :Minimum occurence: 0
 :Maximum occurence: unbounded
 :Type: ``xs:float``
+
+No description provided.
+
+Attributes
+^^^^^^^^^^
+
+referenceID
+"""""""""""
+
+:Type: ``xs:integer``
+:Use: optional
 
 No description provided.
 
@@ -486,6 +521,17 @@ m_Value
 
 No description provided.
 
+Attributes
+^^^^^^^^^^
+
+x_name
+""""""
+
+:Type: ``xs:string``
+:Use: optional
+
+This is unused by the game but it seems to be a simple identifier (often a `GUID <https://pzwiki.net/wiki/GUID>`_\ ) used by the unreleased `AnimZed <https://pzwiki.net/wiki/AnimZed>`_.
+
 
 .. _animnode-type_events:
 
@@ -533,6 +579,17 @@ m_ParameterValue
 :Type: ``xs:string``
 
 The value to pass to the event when it is triggered. This can be used to specify which sound to play, which variable to set, and more, depending on the event being triggered.
+
+Attributes
+^^^^^^^^^^
+
+x_name
+""""""
+
+:Type: ``xs:string``
+:Use: optional
+
+This is unused by the game but it seems to be a simple identifier (often a `GUID <https://pzwiki.net/wiki/GUID>`_\ ) used by the unreleased `AnimZed <https://pzwiki.net/wiki/AnimZed>`_.
 
 
 .. _animnode-type_transitions:
@@ -648,4 +705,19 @@ enum_Type
 :Type: ``enum_Type``
 :Composition: all
 
+Restrictions
+^^^^^^^^^^^^
+
+:Base: ``xs:string``
+:Enumeration: 
+* ``STRING``
+* ``BOOL``
+* ``INT``
+* ``FLOAT``
+* ``OR``
+* ``EQU``
+* ``NEQ``
+* ``STRNEQ``
+* ``GTR``
+* ``LESS``
 

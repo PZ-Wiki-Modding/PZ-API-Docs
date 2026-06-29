@@ -68,6 +68,11 @@ element_metadata = metadata({
     "Type": {"access_key": "type", "formatter": _link_to_type_formatter},
 })
 
+attribute_metadata = metadata({
+    "Type": {"access_key": "type", "formatter": _link_to_type_formatter},
+    "Use": {"access_key": "use", "default": "optional"},
+})
+
 
 ## FORMATTERS
 def _make_type_definition(object_type: str, object_data: dict, type_name: str, type_data: dict, title: bool = True) -> str:
@@ -92,15 +97,29 @@ def _make_type_definition(object_type: str, object_data: dict, type_name: str, t
         out += headers.SUBSUBSECTION.make("Elements")
         for element_data in elements:
             out += _make_element_definition(object_type, object_data, element_data)
+    
+    # make attributes list
+    attributes = type_data.get("attributes", [])
+    if attributes:
+        # title with label
+        out += headers.SUBSUBSECTION.make("Attributes")
+        for attribute_data in attributes:
+            out += _make_attribute_definition(object_type, object_data, attribute_data)
 
+    # make restrictions list
+    restrictions = type_data.get("restrictions", [])
+    if restrictions:
+        out += headers.SUBSUBSECTION.make("Restrictions")
+        out += _make_restriction_definition(object_type, object_data, restrictions)
+        
     return out
 
 def _make_element_definition(object_type: str, object_data: dict, element_data: dict) -> str:
-    element_name = element_data['info']['name']
+    element_name = element_data['name']
     out = headers.PARAGRAPH.make(element_name)
 
     # make element metadata
-    out += element_metadata.generate(object_type, object_data, element_data['info']) + "\n\n"
+    out += element_metadata.generate(object_type, object_data, element_data['metadata']) + "\n\n"
 
     # description
     description = element_data.get("description", "No description provided.")
@@ -109,8 +128,36 @@ def _make_element_definition(object_type: str, object_data: dict, element_data: 
 
     return out
 
+def _make_attribute_definition(object_type: str, object_data: dict, attribute_data: dict) -> str:
+    out = headers.PARAGRAPH.make(attribute_data['name'])
 
+    # make attribute metadata
+    out += attribute_metadata.generate(object_type, object_data, attribute_data['metadata']) + "\n\n"
 
+    # description
+    description = attribute_data.get("description", "No description provided.")
+    sanitized_description = sanitize_description(description)
+    out += sanitized_description.strip() + "\n\n"
+
+    return out
+
+def _make_restriction_definition(object_type: str, object_data: dict, restrictions: dict) -> str:
+    out = ""
+
+    # base type
+    base = restrictions.get("base", None)
+    if base is not None:
+        out += metadata.make_metadata_string("Base", code_value_formatter(object_type, "base", base)) + "\n"
+
+    # enumerations
+    enumeration = restrictions.get("enumeration", [])
+    if enumeration:
+        out += metadata.make_metadata_string("Enumeration", "") + "\n"
+        for i, enum in enumerate(enumeration):
+            md = enum.get("metadata", {})
+            out += "* " + code_value_formatter(object_type, "enumeration", md['value']) + "\n"
+    
+    return out
 
 ## MAIN SUBCLASS
 
