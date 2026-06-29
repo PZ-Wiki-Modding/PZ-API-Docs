@@ -1,7 +1,8 @@
-from typing import Any, Callable, TypedDict, NotRequired
+from typing import Any, Callable, TypedDict, NotRequired, TypeVar, Generic
 
 from documentation import DocObject
 
+DocObjectT = TypeVar('DocObjectT', bound=DocObject)
 
 class Rule(TypedDict):
     """Type definition for a metadata rule."""
@@ -11,14 +12,15 @@ class Rule(TypedDict):
     # default fallback value. if not provided, then mandatory key
     default: NotRequired[str]
 
-    formatter: NotRequired[Callable[[str, dict, str, Any], str]]  # optional formatter function to format the value
+    # first arg needs to be Generic[DocObjectT]
+    formatter: NotRequired[Callable[[Any, str, Any], str]]  # optional formatter function to format the value
 
 
-class metadata:
+class metadata(Generic[DocObjectT]):
     def __init__(self, rule_set: dict[str, Rule]):
         self.rule_set = rule_set
 
-    def generate(self, object_type: str, object_data: dict[str, Any], data: dict[str, Any]) -> str:
+    def generate(self, obj: DocObjectT, data: dict[str, Any]) -> str:
         """Generate metadata string based on the provided data and rule set."""
         out = ""
         for key, rule in self.rule_set.items():
@@ -28,7 +30,7 @@ class metadata:
                 value = data[access_key]
                 # use formatter if provided in ruleset
                 if "formatter" in rule:
-                    value = rule["formatter"](object_type, object_data, key, value)
+                    value = rule["formatter"](obj, key, value)
 
             # use default if provided in ruleset
             elif "default" in rule:

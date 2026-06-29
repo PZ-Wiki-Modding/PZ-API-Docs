@@ -23,7 +23,7 @@ Root Details
 
 The root element is the top-level XML element that contains all other elements in the XML file.
 
-:Type: ``type_AnimNode``
+:Type: :ref:`type_AnimNode <animnode-type_animnode>`
 :Composition: all
 
 Elements
@@ -383,7 +383,7 @@ The LoadRifle_Alt.xml file can import the LoadRifle.xml file by using:
 type_2DBlends
 -------------
 
-:Type: ``type_2DBlends``
+:Type: :ref:`type_2DBlends <animnode-type_2dblends>`
 :Composition: all
 
 Elements
@@ -442,7 +442,7 @@ No description provided.
 type_2DBlendTri
 ---------------
 
-:Type: ``type_2DBlendTri``
+:Type: :ref:`type_2DBlendTri <animnode-type_2dblendtri>`
 :Composition: all
 
 Elements
@@ -481,7 +481,7 @@ No description provided.
 type_Condition
 --------------
 
-:Type: ``type_Condition``
+:Type: :ref:`type_Condition <animnode-type_condition>`
 :Composition: all
 
 Elements
@@ -540,7 +540,7 @@ This is unused by the game but it seems to be a simple identifier (often a `GUID
 type_Events
 -----------
 
-:Type: ``type_Events``
+:Type: :ref:`type_Events <animnode-type_events>`
 :Composition: all
 
 Elements
@@ -599,7 +599,7 @@ This is unused by the game but it seems to be a simple identifier (often a `GUID
 type_Transitions
 ----------------
 
-:Type: ``type_Transitions``
+:Type: :ref:`type_Transitions <animnode-type_transitions>`
 :Composition: all
 
 Elements
@@ -665,7 +665,7 @@ No description provided.
 type_SubStateBoneWeights
 ------------------------
 
-:Type: ``type_SubStateBoneWeights``
+:Type: :ref:`type_SubStateBoneWeights <animnode-type_substateboneweights>`
 :Composition: all
 
 Elements
@@ -704,7 +704,7 @@ No description provided.
 enum_Type
 ---------
 
-:Type: ``enum_Type``
+:Type: :ref:`enum_Type <animnode-enum_type>`
 :Composition: all
 
 Restrictions

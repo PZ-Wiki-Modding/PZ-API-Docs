@@ -33,21 +33,25 @@ def get_type_label(object_type: str, type_name: str) -> str:
 # def get_parameter_label(object_type: str, type_name: str, parameter_name: str) -> str:
 #     return get_type_label(object_type, type_name) + f"-{parameter_name}"
 
-def _link_to_type_formatter(object_type: str, object_data: dict, type_name: str, type_data: str) -> str:
+def _link_to_type_formatter(obj: "XMLDocObject", type_name: str, type_data: str|list) -> str:
     """Format the type name as a link to its documentation."""
+    object_type = obj.name
+    object_data = obj.data
+
     types = object_data.get("types", {})
-    sanitized_to_list = type_data if isinstance(type_data, list) else [type_data]
+    if not isinstance(type_data, list):
+        type_data = [type_data]
     out = ""
     is_first = True
-    for type_data in sanitized_to_list:
+    for v in type_data:
         if is_first is False:
             out += ", "
         is_first = False
-        if type_data not in types:
-            out += f"``{type_data}``"
+        if v not in types:
+            out += f"``{v}``"
         else:
-            label = get_type_label(object_type, type_data)
-            out += f":ref:`{type_data} <{label}>`"
+            label = get_type_label(object_type, v)
+            out += f":ref:`{v} <{label}>`"
     return out
 
 
@@ -58,27 +62,29 @@ root_metadata = metadata({
 })
 
 # used for type definitions
-type_metadata = metadata({
+type_metadata: metadata["XMLDocObject"] = metadata({
     "Type": {"access_key": "type", "formatter": _link_to_type_formatter}, # required in dataset
     "Composition": {"access_key": "composition", "default": "all"}, # composition defaults to "all" in the schema generator
 })
 
-element_metadata = metadata({
+element_metadata: metadata["XMLDocObject"] = metadata({
     "Minimum occurence": {"access_key": "minOccurs", "default": "0"},
     "Maximum occurence": {"access_key": "maxOccurs", "default": "unbounded"},
     "Type": {"access_key": "type", "formatter": _link_to_type_formatter},
 })
 
-attribute_metadata = metadata({
+attribute_metadata: metadata["XMLDocObject"] = metadata({
     "Type": {"access_key": "type", "formatter": _link_to_type_formatter},
     "Use": {"access_key": "use", "default": "optional"},
 })
 
 
 ## FORMATTERS
-def _make_type_definition(object_type: str, object_data: dict, type_name: str, type_data: dict, title: bool = True) -> str:
+def _make_type_definition(obj: "XMLDocObject", type_name: str, type_data: dict, title: bool = True) -> str:
     # init
     out = ""
+    object_type = obj.name
+    object_data = obj.data
 
     # make title if requested
     if title:
@@ -86,7 +92,7 @@ def _make_type_definition(object_type: str, object_data: dict, type_name: str, t
         out += headers.SUBSECTION.make(type_name, label)
 
     # make type metadata
-    out += type_metadata.generate(object_type, type_data, {
+    out += type_metadata.generate(obj, {
         "type": type_name,
         "description": type_data.get("description", "No description provided."),
     }) + "\n\n"
@@ -97,7 +103,7 @@ def _make_type_definition(object_type: str, object_data: dict, type_name: str, t
         # title with label
         out += headers.SUBSUBSECTION.make("Elements")
         for element_data in elements:
-            out += _make_element_definition(object_type, object_data, element_data)
+            out += _make_element_definition(obj, element_data)
     
     # make attributes list
     attributes = type_data.get("attributes", [])
@@ -105,7 +111,7 @@ def _make_type_definition(object_type: str, object_data: dict, type_name: str, t
         # title with label
         out += headers.SUBSUBSECTION.make("Attributes")
         for attribute_data in attributes:
-            out += _make_attribute_definition(object_type, object_data, attribute_data)
+            out += _make_attribute_definition(obj, attribute_data)
 
     # make restrictions list
     restrictions = type_data.get("restrictions", [])
@@ -115,12 +121,12 @@ def _make_type_definition(object_type: str, object_data: dict, type_name: str, t
         
     return out
 
-def _make_element_definition(object_type: str, object_data: dict, element_data: dict) -> str:
+def _make_element_definition(obj: "XMLDocObject", element_data: dict) -> str:
     element_name = element_data['name']
     out = headers.PARAGRAPH.make(element_name)
 
     # make element metadata
-    out += element_metadata.generate(object_type, object_data, element_data['metadata']) + "\n\n"
+    out += element_metadata.generate(obj, element_data['metadata']) + "\n\n"
 
     # description
     description = element_data.get("description", "No description provided.")
@@ -129,11 +135,11 @@ def _make_element_definition(object_type: str, object_data: dict, element_data: 
 
     return out
 
-def _make_attribute_definition(object_type: str, object_data: dict, attribute_data: dict) -> str:
+def _make_attribute_definition(obj: "XMLDocObject", attribute_data: dict) -> str:
     out = headers.PARAGRAPH.make(attribute_data['name'])
 
     # make attribute metadata
-    out += attribute_metadata.generate(object_type, object_data, attribute_data['metadata']) + "\n\n"
+    out += attribute_metadata.generate(obj, attribute_data['metadata']) + "\n\n"
 
     # description
     description = attribute_data.get("description", "No description provided.")
@@ -192,12 +198,11 @@ class XMLDocObject(DocObject):
         # root element
         label = get_type_label(object_type, root_type)
         content += headers.SUBSECTION.make(ROOT_TITLE, label)
-        content += root_metadata.generate(object_type, object_data, root_element) + "\n\n"
+        content += root_metadata.generate(self, root_element) + "\n\n"
         content += ROOT_DESCRIPTION.strip() + "\n\n"
 
         # make root type doc
-        content += _make_type_definition(object_type,
-                                         object_data,
+        content += _make_type_definition(self,
                                          root_type,
                                          root_type_data,
                                          title=False) + "\n"
@@ -209,7 +214,7 @@ class XMLDocObject(DocObject):
                 continue
 
             # make per type doc
-            content += _make_type_definition(object_type, object_data, type_name, type_data) + "\n"
+            content += _make_type_definition(self, type_name, type_data) + "\n"
 
         return content
     

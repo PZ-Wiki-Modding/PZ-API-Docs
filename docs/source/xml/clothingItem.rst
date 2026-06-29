@@ -25,7 +25,7 @@ Root Details
 
 The root element is the top-level XML element that contains all other elements in the XML file.
 
-:Type: ``type_clothingItem``
+:Type: :ref:`type_clothingItem <clothingitem-type_clothingitem>`
 :Composition: all
 
 Elements

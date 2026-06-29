@@ -45,7 +45,7 @@ Root Details
 
 The root element is the top-level XML element that contains all other elements in the XML file.
 
-:Type: ``type_clothingDecals``
+:Type: :ref:`type_clothingDecals <clothingdecals-type_clothingdecals>`
 :Composition: all
 
 Elements
@@ -66,7 +66,7 @@ Defines a decal group, that is a collection of decals associated to a name for r
 type_clothingDecalGroup
 -----------------------
 
-:Type: ``type_clothingDecalGroup``
+:Type: :ref:`type_clothingDecalGroup <clothingdecals-type_clothingdecalgroup>`
 :Composition: all
 
 Elements

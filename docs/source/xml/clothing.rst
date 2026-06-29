@@ -68,7 +68,7 @@ Root Details
 
 The root element is the top-level XML element that contains all other elements in the XML file.
 
-:Type: ``type_clothing``
+:Type: :ref:`type_clothing <clothing-type_clothing>`
 :Composition: all
 
 Elements
@@ -98,7 +98,7 @@ Define an outfit with `m_FemaleOutfits <https://pz-wiki-modding.github.io/PZ-API
 type_outfit
 -----------
 
-:Type: ``type_outfit``
+:Type: :ref:`type_outfit <clothing-type_outfit>`
 :Composition: all
 
 Elements
@@ -191,7 +191,7 @@ No description provided.
 type_item
 ---------
 
-:Type: ``type_item``
+:Type: :ref:`type_item <clothing-type_item>`
 :Composition: all
 
 Elements
@@ -230,7 +230,7 @@ Define a sub-item for a specific clothing item used in the outfit, so other item
 type_subItem
 ------------
 
-:Type: ``type_subItem``
+:Type: :ref:`type_subItem <clothing-type_subitem>`
 :Composition: all
 
 Elements

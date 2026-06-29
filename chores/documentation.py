@@ -47,7 +47,7 @@ class DocObject:
         """Retrieve the output path for a specific object's documentation."""
         # default output path is the toc path directory with the toc path's stem
         object_out_dir = self.doc.toc_path.parent / self.doc.toc_path.stem
-        return object_out_dir / f"{self.id}.rst"
+        return object_out_dir / f"{self.name}.rst"
 
     def generate_object(self) -> str:
         """Associate the generic header for the object documentation with the content."""
@@ -98,6 +98,7 @@ class Documentation:
 
     def __init__(self):
         self.preload_data()
+        self.prepare_data()
         self.pre_toc()
         self.generate_toc()
         self.generate()
@@ -182,3 +183,4 @@ class Documentation:
             out_path.parent.mkdir(parents=True, exist_ok=True)
             with open(out_path, "w") as f:
                 f.write(out)
+                echo.path(out_path, prefix="Creating object file:")
