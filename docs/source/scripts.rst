@@ -3,12 +3,10 @@ ScriptsDocs
 
 This section provides detailed documentation for all available `script <https://pzwiki.net/wiki/Scripts>`_ blocks.
 
-Table of Contents
------------------
-
 .. toctree::
    :maxdepth: 4
    :titlesonly:
+   :caption: Blocks
 
    scripts/_component_block
    scripts/alias

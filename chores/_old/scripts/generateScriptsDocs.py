@@ -34,7 +34,7 @@ def _dict_to_rst_csv(data: Dict[str, Any]) -> str:
 
 def _load_itemtype_parameters() -> dict[str, list[str]]:
     """Load the item parameters associated with ItemTypes from the JSON file."""
-    item_params_file = Path(__file__).parent.parent.parent / 'pz-scripts-data' / 'out' / 'itemParameters.json'
+    item_params_file = Path(__file__).parent.parent.parent.parent / 'pz-scripts-data' / 'out' / 'itemParameters.json'
     try:
         with open(item_params_file, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -537,7 +537,7 @@ class BlockDocumentationGenerator:
 def main():
     """Main entry point."""
     # Determine paths
-    script_dir = Path(__file__).parent.parent
+    script_dir = Path(__file__).parent.parent.parent
     root_dir = script_dir.parent  # Go up from scripts to root
     blocks_file = root_dir / 'pz-scripts-data' / 'out' / 'scriptBlocks.json'
     output_dir = root_dir / 'docs' / 'source'

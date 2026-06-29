@@ -11,8 +11,8 @@ def generate_colors_docs():
     """Generate and write colors documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
-    repo_root = script_dir.parent.parent
+    script_dir = Path(__file__).parent.parent.parent
+    repo_root = script_dir.parent
     colors_json_path = repo_root / "pz-java-parser" / "out" / "colors.json"
     colors_rst_path = repo_root / "docs" / "source" / "java" / "colors.rst"
     

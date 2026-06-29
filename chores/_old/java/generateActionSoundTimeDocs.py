@@ -11,8 +11,8 @@ def generate_action_sound_time_docs():
     """Generate and write action sound time documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
-    repo_root = script_dir.parent.parent
+    script_dir = Path(__file__).parent.parent.parent
+    repo_root = script_dir.parent
     action_sound_time_json_path = repo_root / "pz-java-parser" / "out" / "action_sound_time.json"
     action_sound_time_rst_path = repo_root / "docs" / "source" / "java" / "action_sound_time.rst"
     

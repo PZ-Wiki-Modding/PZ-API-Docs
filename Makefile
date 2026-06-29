@@ -18,33 +18,33 @@ clean:
 
 generate_scripts:
 	source ./.venv/bin/activate
-	python3 ./chores/scripts/generateScriptsDocs.py
+	python3 ./chores/_old/scripts/generateScriptsDocs.py
 
 generate_mapping:
 	source ./.venv/bin/activate
-	python3 ./chores/mapping/generateRoomsDocs.py
-	python3 ./chores/mapping/generateRoomsDistributionDocs.py
-	python3 ./chores/mapping/generateItemPickerContainerPropertiesDocs.py
-	python3 ./chores/mapping/generateProceduralDistributionsDocs.py
-	python3 ./chores/mapping/generateTilePropertiesDocs.py
+	python3 ./chores/_old/mapping/generateRoomsDocs.py
+	python3 ./chores/_old/mapping/generateRoomsDistributionDocs.py
+	python3 ./chores/_old/mapping/generateItemPickerContainerPropertiesDocs.py
+	python3 ./chores/_old/mapping/generateProceduralDistributionsDocs.py
+	python3 ./chores/_old/mapping/generateTilePropertiesDocs.py
 
 generate_java:
 	source ./.venv/bin/activate
-	python3 ./chores/java/generateColorsDocs.py
-	python3 ./chores/java/generateItemTagsDocs.py
-	python3 ./chores/java/generateActionSoundTimeDocs.py
-	python3 ./chores/java/generateMagazineSubjectDocs.py
-	python3 ./chores/java/generateMetabolicsDocs.py
-	python3 ./chores/java/generateItemBodyLocationDocs.py
+	python3 ./chores/_old/java/generateColorsDocs.py
+	python3 ./chores/_old/java/generateItemTagsDocs.py
+	python3 ./chores/_old/java/generateActionSoundTimeDocs.py
+	python3 ./chores/_old/java/generateMagazineSubjectDocs.py
+	python3 ./chores/_old/java/generateMetabolicsDocs.py
+	python3 ./chores/_old/java/generateItemBodyLocationDocs.py
 
 generate_translations:
 	source ./.venv/bin/activate
-	python3 ./chores/translations/generateLanguageCodesDocs.py
-	python3 ./chores/translations/generateTranslationFilesDocs.py
+	python3 ./chores/_old/translations/generateLanguageCodesDocs.py
+	python3 ./chores/_old/translations/generateTranslationFilesDocs.py
 
 generate_xml:
 	source ./.venv/bin/activate
-	python3 ./chores/xml/generateXMLDocs.py
+	python3 ./chores/main.py xml
 
 generate: generate_scripts generate_mapping generate_java generate_translations generate_xml
 

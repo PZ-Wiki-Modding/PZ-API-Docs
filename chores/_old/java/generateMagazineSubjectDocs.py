@@ -11,8 +11,8 @@ def generate_magazine_subject_docs():
     """Generate and write magazine subject documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
-    repo_root = script_dir.parent.parent
+    script_dir = Path(__file__).parent.parent.parent
+    repo_root = script_dir.parent
     magazine_subject_json_path = repo_root / "pz-java-parser" / "out" / "magazine_subject.json"
     magazine_subject_rst_path = repo_root / "docs" / "source" / "java" / "magazine_subject.rst"
     
