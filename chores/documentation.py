@@ -47,7 +47,7 @@ class DocObject:
         """Retrieve the output path for a specific object's documentation."""
         # default output path is the toc path directory with the toc path's stem
         object_out_dir = self.doc.toc_path.parent / self.doc.toc_path.stem
-        return object_out_dir / f"{self.name}.rst"
+        return object_out_dir / f"{self.id}.rst"
 
     def generate_object(self) -> str:
         """Associate the generic header for the object documentation with the content."""
