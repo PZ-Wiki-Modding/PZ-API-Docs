@@ -25,79 +25,65 @@ The file needs to exactly stored at the path ``media/clothing/clothingDecals.xml
      </group>
    </clothingDecals>
 
+
 File Patterns
 -------------
 
+The following file patterns are used to determine what the valid path for the XML file can be, relative to the `media <https://pzwiki.net/wiki/Mod_structure#Media_folder>`_ folder.
+
 - ``**/clothing/clothingDecals.xml``
 
-Root Element
+
+.. _clothingdecals-type_clothingdecals:
+
+Root Details
 ------------
 
-:Element: ``<clothingDecals>``
+:Element: clothingDecals
+
+The root element is the top-level XML element that contains all other elements in the XML file.
+
 :Type: ``type_clothingDecals``
-
-Structure
----------
-
-The root element uses a **choice** composition, meaning it can contain any combination of the following elements:
-
-- :ref:`<group> <clothingDecals.type_clothingDecals.group>` (optional): :ref:`type_clothingDecalGroup <clothingDecals.type_clothingDecalGroup>`
-
-Root Type Details
------------------
-
-.. _clothingDecals.type_clothingDecals:
-
-type_clothingDecals
--------------------
-
-:Type: Complex
-:Composition: choice
+:Composition: all
 
 Elements
-~~~~~~~~
-
-.. _clothingDecals.type_clothingDecals.group:
+^^^^^^^^
 
 group
-^^^^^
+"""""
 
-:Occurrence: Zero or more
-:Type: :ref:`type_clothingDecalGroup <clothingDecals.type_clothingDecalGroup>`
+:Minimum occurence: 0
+:Maximum occurence: unbounded
+:Type: :ref:`type_clothingDecalGroup <clothingdecals-type_clothingdecalgroup>`
 
 Defines a decal group, that is a collection of decals associated to a name for referencing.
 
 
-Types
------
-
-.. _clothingDecals.type_clothingDecalGroup:
+.. _clothingdecals-type_clothingdecalgroup:
 
 type_clothingDecalGroup
 -----------------------
 
-:Type: Complex
-:Composition: choice
+:Type: ``type_clothingDecalGroup``
+:Composition: all
 
 Elements
-~~~~~~~~
-
-.. _clothingDecals.type_clothingDecalGroup.name:
+^^^^^^^^
 
 name
-^^^^
+""""
 
-:Occurrence: Required (exactly once)
+:Minimum occurence: 1
+:Maximum occurence: 1
 :Type: ``xs:string``
 
 A unique identifier for the decal group.
 
-.. _clothingDecals.type_clothingDecalGroup.decal:
-
 decal
-^^^^^
+"""""
 
-:Occurrence: Zero or more
+:Minimum occurence: 0
+:Maximum occurence: unbounded
 :Type: ``xs:string``
 
 Refers to a texture file stored inside the folder ``media/textures/shirtdecals/``. The value needs to be the name of the file without the extension (which needs to be ``.png``\ ). Alternatively, it seems the game also accepts decals inside texture packs.
@@ -120,13 +106,13 @@ The decal parameter should have this following syntax:
    <decal>myDecal</decal>
    <decal>anotherDecal</decal>
 
-.. _clothingDecals.type_clothingDecalGroup.group:
-
 group
-^^^^^
+"""""
 
-:Occurrence: Zero or more
+:Minimum occurence: 0
+:Maximum occurence: unbounded
 :Type: ``xs:string``
 
 Refers to another `group <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingDecals.html#group>`_. This allows that group to use decals of the referenced group.
+
 

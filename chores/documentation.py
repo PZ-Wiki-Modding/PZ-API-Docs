@@ -1,30 +1,31 @@
 import json, m2r
 from pathlib import Path
 
-from project import PROJECT_ROOT, INDENT
+from project import PROJECT_ROOT, INDENT, sanitize_description
 from utility import echo
+from utility.rst import headers
 
 
 
-DEFAULT_TOC_FORMAT = """{title}
-{title_line}
+TOC_INSTRUCTIONS_TITLE = "Documentation Instructions"
 
-{toc_description}
+## UTILITY
 
-.. toctree::
-   :maxdepth: {toc_depth}
-   :titlesonly:
+def make_toc_tree(toc_elements: list[Path], toc_depth: int = 2) -> str:
+    """Create a TOC tree string for the provided elements."""
+    out = headers.SUBSECTION.make("Table of Contents")
+    out += ".. toctree::" + "\n"
+    out += f"   :maxdepth: {toc_depth}\n"
+    out += "   :titlesonly:\n\n"
+    for element in toc_elements:
+        out += f"{INDENT}{element}\n"
+    return out
 
-   {toc_elements}
-"""
+def code_value_formatter(object_type: str, key: str, value: str) -> str:
+    """Format the value for metadata output."""
+    return f"``{value}``"
 
-DEFAULT_ELEMENT_FORMAT = """{title}
-{title_line}
-
-{description}"""
-
-
-
+## MAIN CLASS
 
 class Documentation:
     _doc_types: dict[str, type] = {}
@@ -68,11 +69,6 @@ class Documentation:
         if doc_type in Documentation._doc_types:
             return Documentation._doc_types[doc_type]()
         raise ValueError(f"Unknown documentation type: {doc_type}")
-    
-## utility
-    def sanitize_description(self, description: str) -> str:
-        """Sanitize the provided description by converting Markdown to reStructuredText."""
-        return m2r.convert(description)
 
 ## subclass methods
     def preload_data(self) -> None:
@@ -87,51 +83,69 @@ class Documentation:
 
     def generate_toc(self) -> None:
         """Generate the table of contents (TOC) for the documentation."""
+        # retrieve toc path
         toc_path = self.toc_path
         toc_path.parent.mkdir(parents=True, exist_ok=True)
         echo.path(toc_path.relative_to(PROJECT_ROOT), prefix="Creating TOC file:")
-        toc_elements = sorted(self.toc_elements, key=lambda p: str(p))
-        with open(toc_path, "w") as f:
-            text = DEFAULT_TOC_FORMAT.format(
-                title=self.title,
-                title_line="=" * len(self.title),
-                toc_description=self.toc_description.strip(),
-                toc_depth=self.toc_depth,
-                toc_elements=f"\n{INDENT}".join(str(el) for el in toc_elements)
-            )
 
-            f.write(text)
+        # sort toc elements
+        toc_elements = sorted(self.toc_elements, key=lambda p: str(p))
+        
+        # format toc text
+        title = self.title
+        out = headers.SECTION.make(title)
+        out += self.toc_description.strip() + "\n\n"
+
+        # make reading instructions
+        instructions = self.generate_instructions()
+        if instructions is not None:
+            out += headers.SUBSECTION.make(TOC_INSTRUCTIONS_TITLE)
+            out += instructions.strip() + "\n\n"
+
+        # make toc tree
+        out += make_toc_tree(toc_elements, self.toc_depth)
+
+        # output toc file
+        with open(toc_path, "w") as f:
+            f.write(out)
+
+    def generate_instructions(self) -> str | None:
+        return None
 
     def generate(self) -> None:
         """Generate the documentation."""
-        for element_type, element_data in self.data.items():
-            self.generate_data_element(element_type, element_data)
+        for object_type, object_data in self.data.items():
+            out = self.generate_object(object_type, object_data)
+
+            # retrieve doc element path
+            out_path = self.get_object_path(object_type, object_data)
+            out_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(out_path, "w") as f:
+                f.write(out)
 
 
-## element doc generation
+## object doc generation
 
-    def generate_data_element(self, element_type: str, element_data: dict) -> str:
-        header = self.get_element_header(element_type, element_data)
-        out_path = self.get_element_path(element_type, element_data)
-        out_path.parent.mkdir(parents=True, exist_ok=True)
-        content = self.get_element_content(element_type, element_data)
+    def get_object_path(self, object_type: str, object_data: dict) -> Path:
+        """Retrieve the output path for a specific object's documentation."""
+        # default output path is the toc path directory with the toc path's stem
+        object_out_dir = self.toc_path.parent / self.toc_path.stem
+        return object_out_dir / f"{object_type}.rst"
+
+    def generate_object(self, object_type: str, object_data: dict) -> str:
+        """Associate the generic header for the object documentation with the content."""
+        header = self.get_object_header(object_type, object_data)
+        content = self.get_object_content(object_type, object_data)
         out = f"{header}\n\n{content}"
-        with open(out_path, "w") as f:
-            f.write(out)
+        return out
 
-    def get_element_path(self, element_type: str, element_data: dict) -> Path:
-        element_out_dir = self.toc_path.parent / self.toc_path.stem
-        return element_out_dir / f"{element_type}.rst"
-
-    def get_element_header(self, element_type: str, element_data: dict) -> str:
-        description = element_data.get("description", "No description provided.")
-        sanitized_description = self.sanitize_description(description)
-        header = DEFAULT_ELEMENT_FORMAT.format(
-            title=element_type,
-            title_line="=" * len(element_type),
-            description=sanitized_description.strip()
-        ).strip()
+    def get_object_header(self, object_type: str, object_data: dict) -> str:
+        """Retrieve the header for a specific object's documentation. This should be a RST header with the object's title and description."""
+        description = object_data.get("description", "No description provided.")
+        sanitized_description = sanitize_description(description)
+        header = headers.SECTION.make(object_type)
+        header += sanitized_description.strip()
         return header
 
-    def get_element_content(self, element_type: str, element_data: dict) -> str:
+    def get_object_content(self, object_type: str, object_data: dict) -> str:
         return ""
