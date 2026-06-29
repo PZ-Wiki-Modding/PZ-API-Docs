@@ -1015,7 +1015,7 @@ ConditionMax
 :Type: integer
 :Default: ``10``
 
-No description
+See :ref:`item-conditionlowerchanceonein` for more details.
 
 .. _item-consolidateoption:
 
@@ -3602,7 +3602,7 @@ StaticModel
 
 `StaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-staticmodel>`_ is used to define the model of the item being held in hands. On the other hand, `WorldStaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-worldstaticmodel>`_ is used to define the model of the item being placed in the world. The two models can be different, for example an item can have a handle that is up when held in hands, but down when placed in the world.
 
-Alternatively, `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-staticmodelsbyindex>`_ and `WorldStaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-worldstaticmodelsbyindex>`_ can be used to define multiple models for the same item definition, which is useful for variants of the same item (e.g. a weapon with different skins). You can use `IconsForTexture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-iconsfortexture>`_ alongside those to define different icons for each variant. Here's an example usage with three variants of the same item:
+Alternatively, `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-staticmodelsbyindex>`_ and `WorldStaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-worldstaticmodelsbyindex>`_ can be used to define multiple models for the same item definition, which is useful for variants of the same item (e.g. a weapon with different skins). You can use `IconsForTexture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-iconsfortexture>`_ alongside those to define different `icons <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-icon>`_ for each variant. Here's an example usage with three variants of the same item:
 
 .. code-block:: cpp
 
@@ -3617,7 +3617,7 @@ StaticModelsByIndex
 
 :Type: array (array of string, separator: ';')
 
-No description
+See :ref:`item-staticmodel` for more details.
 
 .. _item-stomppower:
 
@@ -4231,5 +4231,5 @@ WorldStaticModelsByIndex
 
 :Type: array (array of string, separator: ';')
 
-No description
+See :ref:`item-staticmodel` for more details.
 
