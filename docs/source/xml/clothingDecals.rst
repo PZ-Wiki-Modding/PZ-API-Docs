@@ -1,3 +1,5 @@
+.. _xml-clothingdecals:
+
 clothingDecals
 ==============
 

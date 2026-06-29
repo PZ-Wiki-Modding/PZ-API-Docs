@@ -138,12 +138,17 @@ class Documentation:
         content = self.get_object_content(object_type, object_data)
         out = f"{header}\n\n{content}"
         return out
+    
+    def get_object_label(self, object_type: str, object_data: dict) -> str:
+        """Retrieve the label for a specific object's documentation."""
+        return f"{self.doc_type}-{object_type.lower().replace(' ', '-')}"
 
     def get_object_header(self, object_type: str, object_data: dict) -> str:
         """Retrieve the header for a specific object's documentation. This should be a RST header with the object's title and description."""
         description = object_data.get("description", "No description provided.")
         sanitized_description = sanitize_description(description)
-        header = headers.SECTION.make(object_type)
+        label = self.get_object_label(object_type, object_data)
+        header = headers.SECTION.make(object_type, label = label)
         header += sanitized_description.strip()
         return header
 
