@@ -147,12 +147,12 @@ def _make_restriction_definition(object_type: str, object_data: dict, restrictio
     # base type
     base = restrictions.get("base", None)
     if base is not None:
-        out += metadata.make_metadata_string("Base", code_value_formatter(object_type, "base", base)) + "\n"
+        out += metadata.format_metadata("Base", code_value_formatter(object_type, "base", base)) + "\n"
 
     # enumerations
     enumeration = restrictions.get("enumeration", [])
     if enumeration:
-        out += metadata.make_metadata_string("Enumeration", "") + "\n"
+        out += metadata.format_metadata("Enumeration", "") + "\n"
         for i, enum in enumerate(enumeration):
             md = enum.get("metadata", {})
             out += "* " + code_value_formatter(object_type, "enumeration", md['value']) + "\n"
