@@ -1,5 +1,7 @@
 from typing import Any, Callable, TypedDict, NotRequired
 
+from documentation import DocObject
+
 
 class Rule(TypedDict):
     """Type definition for a metadata rule."""

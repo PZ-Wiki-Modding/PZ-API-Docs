@@ -1,5 +1,6 @@
 import json, m2r
 from pathlib import Path
+from typing import Any
 
 from project import PROJECT_ROOT, INDENT, sanitize_description
 from utility import echo
@@ -27,6 +28,57 @@ def code_value_formatter(object_type: str, key: str, value: str) -> str:
 
 ## MAIN CLASS
 
+
+
+class DocObject:
+    def __init__(self, object_type: str, object_data: Any, doc: "Documentation", source_data: dict) -> None:
+        self.name = object_type
+        self.id = self.sanitize_id(object_type)
+        self.data = object_data
+        self.doc = doc
+        self.source_data = source_data
+    
+    def sanitize_id(self, name: str) -> str:
+        return name.lower().replace(' ', '-')
+
+
+
+    def get_object_path(self) -> Path:
+        """Retrieve the output path for a specific object's documentation."""
+        # default output path is the toc path directory with the toc path's stem
+        object_out_dir = self.doc.toc_path.parent / self.doc.toc_path.stem
+        return object_out_dir / f"{self.id}.rst"
+
+    def generate_object(self) -> str:
+        """Associate the generic header for the object documentation with the content."""
+        header = self.get_header()
+        content = self.get_object_content()
+        out = f"{header}\n\n{content}"
+        return out
+
+    def get_name(self) -> str:
+        return self.name # default to original object_type
+
+    def get_label(self) -> str:
+        """Retrieve the label for a specific object's documentation."""
+        return f"{self.doc.doc_type}-{self.id}"
+
+    def get_header(self) -> str:
+        """Retrieve the header for a specific object's documentation. This should be a RST header with the object's title and description."""
+        description = self.data.get("description", "No description provided.")
+        sanitized_description = sanitize_description(description)
+        label = self.get_label()
+        name = self.get_name()
+        header = headers.SECTION.make(name, label = label)
+        header += sanitized_description.strip()
+        return header
+
+    def get_object_content(self) -> str:
+        return ""
+
+
+
+
 class Documentation:
     _doc_types: dict[str, type] = {}
 
@@ -35,6 +87,9 @@ class Documentation:
     doc_type: str = "__BASE"
     data_path: Path = PROJECT_ROOT
     data: dict = {}
+
+    docObject = DocObject # default
+    objects: list["DocObject"] = []
     
     toc_path: Path
     toc_elements: list[Path] = []
@@ -76,6 +131,11 @@ class Documentation:
         assert self.data_path.exists(), f"Data path does not exist: {self.data_path}"
         with open(self.data_path, "r") as f:
             self.data = json.load(f)
+    
+    def prepare_data(self) -> None:
+        for object_type, object_data in self.data.items():
+            obj = self.docObject(object_type, object_data, self, self.data)
+            self.objects.append(obj)
 
     def pre_toc(self) -> None:
         """Prepare the table of contents (TOC) elements."""
@@ -114,43 +174,11 @@ class Documentation:
 
     def generate(self) -> None:
         """Generate the documentation."""
-        for object_type, object_data in self.data.items():
-            out = self.generate_object(object_type, object_data)
+        for obj in self.objects:
+            out = obj.generate_object()
 
             # retrieve doc element path
-            out_path = self.get_object_path(object_type, object_data)
+            out_path = obj.get_object_path()
             out_path.parent.mkdir(parents=True, exist_ok=True)
             with open(out_path, "w") as f:
                 f.write(out)
-
-
-## object doc generation
-
-    def get_object_path(self, object_type: str, object_data: dict) -> Path:
-        """Retrieve the output path for a specific object's documentation."""
-        # default output path is the toc path directory with the toc path's stem
-        object_out_dir = self.toc_path.parent / self.toc_path.stem
-        return object_out_dir / f"{object_type}.rst"
-
-    def generate_object(self, object_type: str, object_data: dict) -> str:
-        """Associate the generic header for the object documentation with the content."""
-        header = self.get_object_header(object_type, object_data)
-        content = self.get_object_content(object_type, object_data)
-        out = f"{header}\n\n{content}"
-        return out
-    
-    def get_object_label(self, object_type: str, object_data: dict) -> str:
-        """Retrieve the label for a specific object's documentation."""
-        return f"{self.doc_type}-{object_type.lower().replace(' ', '-')}"
-
-    def get_object_header(self, object_type: str, object_data: dict) -> str:
-        """Retrieve the header for a specific object's documentation. This should be a RST header with the object's title and description."""
-        description = object_data.get("description", "No description provided.")
-        sanitized_description = sanitize_description(description)
-        label = self.get_object_label(object_type, object_data)
-        header = headers.SECTION.make(object_type, label = label)
-        header += sanitized_description.strip()
-        return header
-
-    def get_object_content(self, object_type: str, object_data: dict) -> str:
-        return ""

@@ -3,7 +3,7 @@ if __name__ == "__main__":
 
 from pathlib import Path
 
-from documentation import Documentation, code_value_formatter
+from documentation import Documentation, DocObject, code_value_formatter
 from project import PROJECT_ROOT, sanitize_description
 from utility.metadata import metadata
 from utility.rst import headers
@@ -162,26 +162,15 @@ def _make_restriction_definition(object_type: str, object_data: dict, restrictio
 
 ## MAIN SUBCLASS
 
-class XMLDocumentation(Documentation):
-    title = "XML"
-    doc_type = "xml"
-    data_path = PROJECT_ROOT / "pz-xml-data" / "out" / "data.json"
-    toc_path = PROJECT_ROOT / "docs" / "source" / "xml.rst"
-    toc_description = TOC_DESCRIPTION
 
-    def pre_toc(self) -> None:
-        for xml_type in self.data.keys():
-            xml_file_path = Path(f"xml/{xml_type}")
-            self.toc_elements.append(xml_file_path)
-
-    # def generate_instructions(self) -> str | None:
-    #     return "Test"
-
-    def get_object_content(self, object_type: str, object_data: dict) -> str:
+class XMLDocObject(DocObject):
+    def get_object_content(self) -> str:
         """Get the content for a specific XML object."""
         
         # init
         content = "\n"
+        object_type = self.name
+        object_data = self.data
 
         # create file pattern doc for the XML file
         patterns = object_data.get("patterns", [])
@@ -223,3 +212,29 @@ class XMLDocumentation(Documentation):
             content += _make_type_definition(object_type, object_data, type_name, type_data) + "\n"
 
         return content
+    
+
+
+
+
+class XMLDocumentation(Documentation):
+    title = "XML"
+    doc_type = "xml"
+    data_path = PROJECT_ROOT / "pz-xml-data" / "out" / "data.json"
+
+    docObject = XMLDocObject
+
+    toc_path = PROJECT_ROOT / "docs" / "source" / "xml.rst"
+    toc_description = TOC_DESCRIPTION
+
+    def pre_toc(self) -> None:
+        for xml_type in self.data.keys():
+            xml_file_path = Path(f"xml/{xml_type}")
+            self.toc_elements.append(xml_file_path)
+
+    # def generate_instructions(self) -> str | None:
+    #     return "Test"
+
+
+
+

@@ -16,9 +16,6 @@ This section provides detailed documentation for all available `script <https://
 """
 
 
-## METADATA
-
-
 ## UTILITY
 
 def _get_block_link(block_name: str) -> str:
@@ -26,6 +23,18 @@ def _get_block_link(block_name: str) -> str:
     l = block_name.lower()
     return l.replace(' ', '-')
 
+def _block_link_formatter(block_name: str, block_data: dict, key: str, other_block_name: str) -> str:
+    """Format the block name as a link to its documentation."""
+    label = _get_block_link(other_block_name)
+    return f":ref:`{other_block_name} <{label}>`"
+
+
+## METADATA
+
+block_metadata = metadata({
+    "Soft Override": {"access_key": "softOverride"},
+    "Is Variant": {"access_key": "isVariant", },
+})
 
 ## MAIN SUBCLASS
 
@@ -53,12 +62,13 @@ class ScriptsDocumentation(Documentation):
             script_file_path = script_file_path / _get_block_link(block_name)
             self.toc_elements.append(script_file_path)
 
-        def get_object_content(self, object_type: str, object_data: dict) -> str:
-            """Get the content for a specific script block."""
+    def get_object_content(self, object_type: str, object_data: dict) -> str:
+        """Get the content for a specific script block."""
 
-            # init
-            content = "\n"
+        # init
+        content = "\n"
 
+        # softOverride = object_data.get("softOverride", False)
 
-            return content
+        return content
 
