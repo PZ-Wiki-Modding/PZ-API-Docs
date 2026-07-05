@@ -1,7 +1,9 @@
-.. _character_trait_definition:
+.. _scripts-character_trait_definition:
 
 character_trait_definition
 ==========================
+
+:Soft Override: Unknown
 
 Defines a character trait.
 
@@ -9,66 +11,91 @@ Defines a character trait.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: True
 
 
 Parameters
 ----------
 
-.. _character_trait_definition-charactertrait:
-
-CharacterTrait
-^^^^^^^^^^^^^^
-
-:Type: string **(required)**
-
-The registries trait definition ID to link to. see the wiki page about `registries <https://pzwiki.net/wiki/Registries>`_ for more information.
-
-.. _character_trait_definition-cost:
-
-Cost
-^^^^
-
-:Type: integer **(required)**
-
-The cost of the trait when selecting a character. Negative values give points, positive values take points.
-
-.. _character_trait_definition-disabledinmultiplayer:
-
-DisabledInMultiplayer
-^^^^^^^^^^^^^^^^^^^^^
-
-:Type: boolean **(required)**
-
-If true, this trait will be disabled in multiplayer games.
-
-.. _character_trait_definition-grantedrecipes:
-
-GrantedRecipes
-^^^^^^^^^^^^^^
-
-:Type: array (array of string, separator: ';')
-
-A list of `craftRecipe <https://pzwiki.net/wiki/CraftRecipe>`_ IDs that are granted to the character when this trait is selected.
-
-.. _character_trait_definition-isprofessiontrait:
+.. _scripts-character_trait_definition-isprofessiontrait:
 
 IsProfessionTrait
 ^^^^^^^^^^^^^^^^^
 
-:Type: boolean **(required)**
+:Type: boolean
+:Required: True
 
 Defines whenever the trait is a profession trait or not, meaning it will only be available when selecting a profession.
 
-.. _character_trait_definition-mutuallyexclusivetraits:
+
+.. _scripts-character_trait_definition-disabledinmultiplayer:
+
+DisabledInMultiplayer
+^^^^^^^^^^^^^^^^^^^^^
+
+:Type: boolean
+:Required: True
+
+If true, this trait will be disabled in multiplayer games.
+
+
+.. _scripts-character_trait_definition-cost:
+
+Cost
+^^^^
+
+:Type: integer
+:Required: True
+
+The cost of the trait when selecting a character. Negative values give points, positive values take points.
+
+
+.. _scripts-character_trait_definition-charactertrait:
+
+CharacterTrait
+^^^^^^^^^^^^^^
+
+:Type: string
+:Required: True
+
+The registries trait definition ID to link to. see the wiki page about `registries <https://pzwiki.net/wiki/Registries>`_ for more information.
+
+
+.. _scripts-character_trait_definition-uiname:
+
+UIName
+^^^^^^
+
+:Type: string
+:Required: True
+
+The translation key for the trait's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
+
+
+.. _scripts-character_trait_definition-uidescription:
+
+UIDescription
+^^^^^^^^^^^^^
+
+:Type: string
+:Required: True
+
+The translation key for the trait's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
+
+
+.. _scripts-character_trait_definition-mutuallyexclusivetraits:
 
 MutuallyExclusiveTraits
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -77,34 +104,8 @@ MutuallyExclusiveTraits
 
 A list of trait IDs that are mutually exclusive with this trait. If one is selected, the others cannot be selected.
 
-.. _character_trait_definition-texture:
 
-Texture
-^^^^^^^
-
-:Type: string
-
-The path to the trait's icon texture. This should be a .png file located in the textures folder of your mod.
-
-.. _character_trait_definition-uidescription:
-
-UIDescription
-^^^^^^^^^^^^^
-
-:Type: string **(required)**
-
-The translation key for the trait's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
-
-.. _character_trait_definition-uiname:
-
-UIName
-^^^^^^
-
-:Type: string **(required)**
-
-The translation key for the trait's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
-
-.. _character_trait_definition-xpboosts:
+.. _scripts-character_trait_definition-xpboosts:
 
 XPBoosts
 ^^^^^^^^
@@ -118,4 +119,25 @@ For example:
 .. code-block:: cpp
 
    XPBoosts = Axe=1;Blunt=1,
+
+
+.. _scripts-character_trait_definition-grantedrecipes:
+
+GrantedRecipes
+^^^^^^^^^^^^^^
+
+:Type: array (array of string, separator: ';')
+
+A list of `craftRecipe <https://pzwiki.net/wiki/CraftRecipe>`_ IDs that are granted to the character when this trait is selected.
+
+
+.. _scripts-character_trait_definition-texture:
+
+Texture
+^^^^^^^
+
+:Type: string
+
+The path to the trait's icon texture. This should be a .png file located in the textures folder of your mod.
+
 

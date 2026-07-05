@@ -1,7 +1,9 @@
-.. _table:
+.. _scripts-table:
 
 table
 =====
+
+:Soft Override: Unknown
 
 
 
@@ -9,13 +11,23 @@ table
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`part`
+- :ref:`part <scripts-part>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
+
+
+Parameters
+----------
+
+This block has no parameters.
 

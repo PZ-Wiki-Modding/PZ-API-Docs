@@ -1,7 +1,9 @@
-.. _copyframe:
+.. _scripts-copyframe:
 
 CopyFrame
 =========
+
+:Soft Override: Unknown
 
 It is unknown what this block does.
 
@@ -9,44 +11,48 @@ It is unknown what this block does.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`animation`
+- :ref:`animation <scripts-animation>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _copyframe-frame:
+.. _scripts-copyframe-frame:
 
 frame
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _copyframe-source:
+
+.. _scripts-copyframe-source:
 
 source
 ^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _copyframe-sourceframe:
+
+.. _scripts-copyframe-sourceframe:
 
 sourceFrame
 ^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
 

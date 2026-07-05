@@ -1,7 +1,9 @@
-.. _physics:
+.. _scripts-physics:
 
 physics
 =======
+
+:Soft Override: Unknown
 
 
 
@@ -9,60 +11,66 @@ physics
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`template`
-- :ref:`vehicle`
+- :ref:`template <scripts-template>`
+- :ref:`vehicle <scripts-vehicle>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
 
-**Allowed ID Values:**
+This block can have an ID.
 
-- ``box``
-- ``sphere``
-- ``mesh``
+:Optional: False
+:Can have spaces: False
+:Allowed ID: 
+* ``box``
+* ``sphere``
+* ``mesh``
 
 
 Parameters
 ----------
 
-.. _physics-extents:
-
-extents
-^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _physics-offset:
+.. _scripts-physics-offset:
 
 offset
 ^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _physics-physicsshapescript:
 
-physicsShapeScript
-^^^^^^^^^^^^^^^^^^
+.. _scripts-physics-extents:
 
-:Type: string (block: :ref:`physicsShape`, with :ref:`module`)
+extents
+^^^^^^^
 
-No description
+:Type: Unknown
 
-.. _physics-rotate:
+No description provided.
+
+
+.. _scripts-physics-rotate:
 
 rotate
 ^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
+
+.. _scripts-physics-physicsshapescript:
+
+physicsShapeScript
+^^^^^^^^^^^^^^^^^^
+
+:Type: string (block: :ref:`physicsShape <scripts-physicsshape>`, with :ref:`module`)
+
+No description provided.
+
 

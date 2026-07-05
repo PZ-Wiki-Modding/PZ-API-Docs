@@ -1,7 +1,9 @@
-.. _layer:
+.. _scripts-layer:
 
 layer
 =====
+
+:Soft Override: Unknown
 
 
 
@@ -9,27 +11,28 @@ layer
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`face`
+- :ref:`face <scripts-face>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _layer-row:
+.. _scripts-layer-row:
 
 row
 ^^^
 
-:Type: Any
-:Attributes: Can be duplicated
+:Type: Unknown
 
-No description
+No description provided.
+
 

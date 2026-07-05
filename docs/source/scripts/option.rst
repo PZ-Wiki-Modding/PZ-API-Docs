@@ -1,7 +1,9 @@
-.. _option:
+.. _scripts-option:
 
 option
 ======
+
+:Soft Override: Unknown
 
 Defines a custom sandbox option for a mod.
 
@@ -9,51 +11,72 @@ Defines a custom sandbox option for a mod.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`root-sandboxoptions`
+- :ref:`ROOT-SandboxOptions <scripts-root-sandboxoptions>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _option-default:
+.. _scripts-option-type:
 
-default
-^^^^^^^
+type
+^^^^
 
-:Type: Any
-:Needs: ``type``
+:Type: string
+:Required: True
+:Allowed values: 
+* ``boolean``
+* ``integer``
+* ``double``
+* ``string``
+* ``enum``
 
-No description
+The type of the option.
 
-.. _option-max:
 
-max
-^^^
-
-:Type: float
-:Needs: ``type`` = ``integer``, ``double``
-
-The maximum value the option can have. Only for integer and double types.
-
-.. _option-min:
+.. _scripts-option-min:
 
 min
 ^^^
 
 :Type: float
-:Needs: ``type`` = ``integer``, ``double``
 
 The minimum value the option can have. Only for integer and double types.
 
-.. _option-page:
+
+.. _scripts-option-max:
+
+max
+^^^
+
+:Type: float
+
+The maximum value the option can have. Only for integer and double types.
+
+
+.. _scripts-option-default:
+
+default
+^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-option-page:
 
 page
 ^^^^
@@ -62,7 +85,8 @@ page
 
 The sandbox option to add the option to. Can be a custom page.
 
-.. _option-translation:
+
+.. _scripts-option-translation:
 
 translation
 ^^^^^^^^^^^
@@ -71,20 +95,4 @@ translation
 
 The translation key for the option's name.
 
-.. _option-type:
-
-type
-^^^^
-
-:Type: string **(required)**
-
-The type of the option.
-
-Allowed values:
-
-    - ``boolean``
-    - ``integer``
-    - ``double``
-    - ``string``
-    - ``enum``
 

@@ -1,7 +1,9 @@
-.. _colors:
+.. _scripts-colors:
 
 colors
 ======
+
+:Soft Override: Unknown
 
 Used to create a new color definition which can be then be used in other blocks. Those colors are added to the available `colors <https://pz-wiki-modding.github.io/PZ-API-Docs/java/colors.html>`_ via the use of `Colors.AddGameColor <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Colors.html#AddGameColor(java.lang.String,zombie.core.Color>`_\ ).
 
@@ -9,26 +11,31 @@ Used to create a new color definition which can be then be used in other blocks.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`xuiskin`
+- :ref:`xuiSkin <scripts-xuiskin>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _colors-_any:
+.. _scripts-colors-_any:
 
 _ANY
 ^^^^
 
 :Type: array (array of float, separator: ':')
 
-No description
+No description provided.
+
 

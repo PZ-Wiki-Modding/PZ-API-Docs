@@ -1,7 +1,10 @@
-.. _root-sandboxoptions:
+.. _scripts-root-sandboxoptions:
 
 ROOT-SandboxOptions
 ===================
+
+:Soft Override: Unknown
+:Is Root: True
 
 The root of a script file. Blocks than need to be in the root of the document should have this as parent.
 
@@ -9,28 +12,29 @@ The root of a script file. Blocks than need to be in the root of the document sh
 Hierarchy
 ---------
 
-This block does not require a parent block.
+This block can have the following child blocks:
 
-**Possible Child Blocks:**
-
-- :ref:`option`
+- :ref:`option <scripts-option>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _root-sandboxoptions-version:
+.. _scripts-root-sandboxoptions-version:
 
 VERSION
 ^^^^^^^
 
-:Type: Any **(required)**
+:Type: Unknown
+:Required: True
 
 The version of the handler of the sandbox options. Keep this equal to 1.
+
 

@@ -1,7 +1,9 @@
-.. _overlaymapper:
+.. _scripts-overlaymapper:
 
 overlayMapper
 =============
+
+:Soft Override: Unknown
 
 
 
@@ -9,13 +11,20 @@ overlayMapper
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`craftrecipe`
+- :ref:`craftRecipe <scripts-craftrecipe>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

@@ -1,7 +1,9 @@
-.. _tile:
+.. _scripts-tile:
 
 tile
 ====
+
+:Soft Override: Unknown
 
 Defines some tile properties of a specific tile on a tileset.
 
@@ -9,107 +11,117 @@ Defines some tile properties of a specific tile on a tileset.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`tileset`
+- :ref:`tileset <scripts-tileset>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`box`
-- :ref:`cylinder`
-- :ref:`polygon`
-- :ref:`properties`
+- :ref:`box <scripts-box>`
+- :ref:`polygon <scripts-polygon>`
+- :ref:`cylinder <scripts-cylinder>`
+- :ref:`properties <scripts-properties>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _tile-animation:
+.. _scripts-tile-xy:
 
-animation
-^^^^^^^^^
+xy
+^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+The position of the tile in the tileset.
 
-.. _tile-animationtime:
+If inside a `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ file, the separator is ``x`` but when inside a `spriteModels.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-spritemodels.html>`_
 
-animationTime
-^^^^^^^^^^^^^
 
-:Type: Any
-
-No description
-
-.. _tile-isprofessiontrait:
+.. _scripts-tile-isprofessiontrait:
 
 IsProfessionTrait
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _tile-modelscript:
 
-modelScript
-^^^^^^^^^^^
-
-:Type: block (block: :ref:`model`, with :ref:`module`)
-
-No description
-
-.. _tile-rotate:
-
-rotate
-^^^^^^
-
-:Type: array (array of integer, separator: ' ')
-
-No description
-
-.. _tile-runtime:
+.. _scripts-tile-runtime:
 
 runtime
 ^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _tile-scale:
 
-scale
-^^^^^
+.. _scripts-tile-modelscript:
 
-:Type: array (array of float, separator: ' ')
+modelScript
+^^^^^^^^^^^
 
-No description
+:Type: block (block: :ref:`model <scripts-model>`, with :ref:`module`)
 
-.. _tile-translate:
+No description provided.
+
+
+.. _scripts-tile-translate:
 
 translate
 ^^^^^^^^^
 
 :Type: array (array of integer, separator: ' ')
 
-No description
+No description provided.
 
-.. _tile-xy:
 
-xy
-^^
+.. _scripts-tile-rotate:
 
-:Type: Any
+rotate
+^^^^^^
 
-The position of the tile in the tileset.
+:Type: array (array of integer, separator: ' ')
 
-If inside a `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ file, the separator is ``x`` but when inside a `spriteModels.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-spritemodels.html>`_
+No description provided.
+
+
+.. _scripts-tile-scale:
+
+scale
+^^^^^
+
+:Type: array (array of float, separator: ' ')
+
+No description provided.
+
+
+.. _scripts-tile-animation:
+
+animation
+^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-tile-animationtime:
+
+animationTime
+^^^^^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
 

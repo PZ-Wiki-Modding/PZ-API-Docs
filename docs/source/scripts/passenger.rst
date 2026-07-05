@@ -1,7 +1,9 @@
-.. _passenger:
+.. _scripts-passenger:
 
 passenger
 =========
+
+:Soft Override: Unknown
 
 Defines a passenger position in a vehicle script.
 
@@ -9,41 +11,47 @@ Defines a passenger position in a vehicle script.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`vehicle`
+- :ref:`vehicle <scripts-vehicle>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`anim`
-- :ref:`position`
-- :ref:`switchseat`
+- :ref:`position <scripts-position>`
+- :ref:`switchSeat <scripts-switchseat>`
+- :ref:`anim <scripts-anim>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _passenger-area:
-
-area
-^^^^
-
-:Type: Any
-
-No description
-
-.. _passenger-door:
+.. _scripts-passenger-door:
 
 door
 ^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
+
+.. _scripts-passenger-area:
+
+area
+^^^^
+
+:Type: Unknown
+
+No description provided.
+
 

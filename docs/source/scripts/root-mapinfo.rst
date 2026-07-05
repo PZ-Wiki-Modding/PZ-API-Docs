@@ -1,7 +1,11 @@
-.. _root-mapinfo:
+.. _scripts-root-mapinfo:
 
 ROOT-MapInfo
 ============
+
+:Soft Override: Unknown
+:Is Root: True
+:No comma: True
 
 The ``map.info`` file is used to define the map's information. It is used by the game to display the map in the map selection screen and to load the map into the world.
 It needs to be located in:
@@ -14,90 +18,92 @@ It needs to be located in:
                📄 map.info
 
 
-Hierarchy
----------
+ID
+--
 
-This block does not require a parent block.
-
-
-ID Properties
--------------
-
-This block should not have an ID.
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _root-mapinfo-demovideo:
-
-demoVideo
-^^^^^^^^^
-
-:Type: Any
-
-`Video file <https://pzwiki.net/wiki/File_formats#Video_format>`_ used to showcase the map when selecting it.
-
-.. _root-mapinfo-description:
-
-description
-^^^^^^^^^^^
-
-:Type: Any
-
-Description of the map.
-
-.. _root-mapinfo-fixed2x:
-
-fixed2x
-^^^^^^^
-
-:Type: Any
-
-Boolean which fixes rendering issues. Leave it as ``true`` if you are not sure.
-
-.. _root-mapinfo-lots:
-
-lots
-^^^^
-
-:Type: Any
-
-Refers to the world map the map will be loaded into. For a map which is inside the vanilla world map, use ``lots=Muldraugh, KY``.
-
-.. _root-mapinfo-title:
+.. _scripts-root-mapinfo-title:
 
 title
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
 Title of the map.
 
-.. _root-mapinfo-zooms:
 
-zoomS
-^^^^^
+.. _scripts-root-mapinfo-description:
 
-:Type: Any
+description
+^^^^^^^^^^^
 
-Zoom parameter used to define the position of the camera on the world map when chosing the map to spawn in.
+:Type: Unknown
 
-.. _root-mapinfo-zoomx:
+Description of the map.
+
+
+.. _scripts-root-mapinfo-lots:
+
+lots
+^^^^
+
+:Type: Unknown
+
+Refers to the world map the map will be loaded into. For a map which is inside the vanilla world map, use ``lots=Muldraugh, KY``.
+
+
+.. _scripts-root-mapinfo-fixed2x:
+
+fixed2x
+^^^^^^^
+
+:Type: Unknown
+
+Boolean which fixes rendering issues. Leave it as ``true`` if you are not sure.
+
+
+.. _scripts-root-mapinfo-zoomx:
 
 zoomX
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
 Position parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
-.. _root-mapinfo-zoomy:
+
+.. _scripts-root-mapinfo-zoomy:
 
 zoomY
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
 Position parameter used to define the position of the camera on the world map when chosing the map to spawn in.
+
+
+.. _scripts-root-mapinfo-zooms:
+
+zoomS
+^^^^^
+
+:Type: Unknown
+
+Zoom parameter used to define the position of the camera on the world map when chosing the map to spawn in.
+
+
+.. _scripts-root-mapinfo-demovideo:
+
+demoVideo
+^^^^^^^^^
+
+:Type: Unknown
+
+`Video file <https://pzwiki.net/wiki/File_formats#Video_format>`_ used to showcase the map when selecting it.
+
 

@@ -1,7 +1,9 @@
-.. _cylinder:
+.. _scripts-cylinder:
 
 cylinder
 ========
+
+:Soft Override: Unknown
 
 `box <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/box.html>`_\ , `cylinder <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/cylinder.html>`_ and `polygon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/polygon.html>`_ are used in `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ to define the tile depth of a tile.
 
@@ -11,64 +13,68 @@ You can find more information `here <https://pzwiki.net/wiki/Tile_depth>`_.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`tile`
+- :ref:`tile <scripts-tile>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _cylinder-height:
+.. _scripts-cylinder-translate:
 
-height
+translate
+^^^^^^^^^
+
+:Type: array (array of integer, separator: 'x')
+
+No description provided.
+
+
+.. _scripts-cylinder-rotate:
+
+rotate
 ^^^^^^
 
-:Type: integer
+:Type: array (array of integer, separator: 'x')
 
-No description
+No description provided.
 
-.. _cylinder-radius1:
+
+.. _scripts-cylinder-radius1:
 
 radius1
 ^^^^^^^
 
 :Type: integer
 
-No description
+No description provided.
 
-.. _cylinder-radius2:
+
+.. _scripts-cylinder-radius2:
 
 radius2
 ^^^^^^^
 
 :Type: integer
 
-No description
+No description provided.
 
-.. _cylinder-rotate:
 
-rotate
+.. _scripts-cylinder-height:
+
+height
 ^^^^^^
 
- (see :ref:`box-translate`)
-:Type: array (array of integer, separator: 'x')
+:Type: integer
 
-No description
+No description provided.
 
-.. _cylinder-translate:
-
-translate
-^^^^^^^^^
-
- (see :ref:`box-translate`)
-:Type: array (array of integer, separator: 'x')
-
-No description
 

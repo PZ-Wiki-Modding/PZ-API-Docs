@@ -1,7 +1,10 @@
-.. _component-uiconfig:
+.. _scripts-component-uiconfig:
 
 component UiConfig
 ==================
+
+:Soft Override: Unknown
+:Is Variant of: :ref:`component <scripts-component>`
 
 
 
@@ -9,44 +12,48 @@ component UiConfig
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`entity`
+- :ref:`entity <scripts-entity>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _component-uiconfig-entitystyle:
-
-entityStyle
-^^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _component-uiconfig-uienabled:
-
-uiEnabled
-^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _component-uiconfig-xuiskin:
+.. _scripts-component-uiconfig-xuiskin:
 
 xuiSkin
 ^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
+
+.. _scripts-component-uiconfig-entitystyle:
+
+entityStyle
+^^^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-component-uiconfig-uienabled:
+
+uiEnabled
+^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
 

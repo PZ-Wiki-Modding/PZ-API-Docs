@@ -1,7 +1,9 @@
-.. _position:
+.. _scripts-position:
 
 position
 ========
+
+:Soft Override: Unknown
 
 
 
@@ -9,44 +11,51 @@ position
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`passenger`
+- :ref:`passenger <scripts-passenger>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _position-area:
-
-area
-^^^^
-
-:Type: Any
-
-No description
-
-.. _position-offset:
+.. _scripts-position-offset:
 
 offset
 ^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _position-rotate:
+
+.. _scripts-position-rotate:
 
 rotate
 ^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
+
+.. _scripts-position-area:
+
+area
+^^^^
+
+:Type: Unknown
+
+No description provided.
+
 

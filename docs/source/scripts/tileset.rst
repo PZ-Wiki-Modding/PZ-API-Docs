@@ -1,7 +1,9 @@
-.. _tileset:
+.. _scripts-tileset:
 
 tileset
 =======
+
+:Soft Override: Unknown
 
 Used to define properties of tiles of tilesets.
 
@@ -9,26 +11,27 @@ Used to define properties of tiles of tilesets.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`spritemodel`
-- :ref:`tilegeometry`
+- :ref:`spriteModel <scripts-spritemodel>`
+- :ref:`tileGeometry <scripts-tilegeometry>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`tile`
+- :ref:`tile <scripts-tile>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _tileset-name:
+.. _scripts-tileset-name:
 
 name
 ^^^^
@@ -36,4 +39,5 @@ name
 :Type: string
 
 The name of the tileset. For example ``furniture_bedding_01``.
+
 

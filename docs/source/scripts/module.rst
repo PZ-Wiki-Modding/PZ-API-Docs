@@ -1,7 +1,9 @@
-.. _module:
+.. _scripts-module:
 
 module
 ======
+
+:Soft Override: Unknown
 
 A module serves as a namespace for your scripts and is the barebone for most scripts you will create in your mod. The game's namespace is ``Base``\ , and while you can insert in it, it is recommended to use your own module for your mod's scripts to avoid conflicts with the game and other mods.
 
@@ -20,41 +22,51 @@ Most scripts that are defined in a module will need to be refered to by their 'f
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`root-scripts`
+- :ref:`ROOT-Scripts <scripts-root-scripts>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`animation`
-- :ref:`animationsmesh`
-- :ref:`character_profession_definition`
-- :ref:`character_trait_definition`
-- :ref:`clock`
-- :ref:`craftrecipe`
-- :ref:`energy`
-- :ref:`entity`
-- :ref:`evolvedrecipe`
-- :ref:`fixing`
-- :ref:`fluid`
-- :ref:`imports`
-- :ref:`item`
-- :ref:`mannequin`
-- :ref:`model`
-- :ref:`physicshitreaction`
-- :ref:`physicsshape`
-- :ref:`ragdoll`
-- :ref:`sound`
-- :ref:`soundtimeline`
-- :ref:`template`
-- :ref:`timedaction`
-- :ref:`vehicle`
-- :ref:`vehicleenginerpm`
-- :ref:`xuiskin`
+- :ref:`model <scripts-model>`
+- :ref:`entity <scripts-entity>`
+- :ref:`ragdoll <scripts-ragdoll>`
+- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
+- :ref:`energy <scripts-energy>`
+- :ref:`physicsShape <scripts-physicsshape>`
+- :ref:`clock <scripts-clock>`
+- :ref:`timedAction <scripts-timedaction>`
+- :ref:`physicsHitReaction <scripts-physicshitreaction>`
+- :ref:`fixing <scripts-fixing>`
+- :ref:`item <scripts-item>`
+- :ref:`character_profession_definition <scripts-character_profession_definition>`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
+- :ref:`template <scripts-template>`
+- :ref:`animationsMesh <scripts-animationsmesh>`
+- :ref:`soundTimeline <scripts-soundtimeline>`
+- :ref:`animation <scripts-animation>`
+- :ref:`fluid <scripts-fluid>`
+- :ref:`character_trait_definition <scripts-character_trait_definition>`
+- :ref:`sound <scripts-sound>`
+- :ref:`xuiSkin <scripts-xuiskin>`
+- :ref:`craftRecipe <scripts-craftrecipe>`
+- :ref:`imports <scripts-imports>`
+- :ref:`mannequin <scripts-mannequin>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
+
+
+Parameters
+----------
+
+This block has no parameters.
 

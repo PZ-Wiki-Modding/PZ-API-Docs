@@ -1,7 +1,9 @@
-.. _model:
+.. _scripts-model:
 
 model
 =====
+
+:Soft Override: Unknown
 
 Used to define a model properties so it can be used in other elements of the game, most notably in `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ and `vehicles <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html>`_. The basic structure of a model block is as follows:
 
@@ -20,101 +22,93 @@ Used to define a model properties so it can be used in other elements of the gam
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
-- :ref:`vehicle`
-- :ref:`part`
+- :ref:`module <scripts-module>`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`part <scripts-part>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`attachment`
+- :ref:`attachment <scripts-attachment>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
 
-**Incompatible Parents:**
+This block can have an ID.
 
-- vehicle
+:Optional: ['part']
+:Can have spaces: False
+:No ID for parents: 
+* ``:ref:`vehicle <scripts-vehicle>```
 
 
 Parameters
 ----------
 
-.. _model-animationsmesh:
+.. _scripts-model-animationsmesh:
 
 animationsMesh
 ^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`animationsMesh`)
+:Type: block (block: :ref:`animationsMesh <scripts-animationsmesh>`)
 
 Sets the `animations mesh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/animationsmesh.html>`_ for the model. This is used for models that are used for entities such as the character or animals.
 
-.. _model-attachmentparent:
 
-attachmentParent
-^^^^^^^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _model-attachmentself:
-
-attachmentSelf
-^^^^^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _model-boneweight:
+.. _scripts-model-boneweight:
 
 boneWeight
 ^^^^^^^^^^
 
 :Type: object (object: string->>float, kv: ' ', pairs: ';')
-:Attributes: Can be duplicated
 
 Sets the bone weight for the model. This is notably used for vehicle bones but it is yet documented how this actually impacts the model or animations linked to it.
 
-.. _model-colorblue:
+
+.. _scripts-model-colorblue:
 
 ColorBlue
 ^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _model-colorgreen:
+
+.. _scripts-model-colorgreen:
 
 ColorGreen
 ^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _model-colorred:
+
+.. _scripts-model-colorred:
 
 ColorRed
 ^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _model-cullface:
+
+.. _scripts-model-cullface:
 
 cullFace
 ^^^^^^^^
 
 :Type: string
 :Default: ``Back``
+:Allowed values: 
+* ``Back``
+* ``Front``
+* ``None``
 
 Sets an OpenGL face culling mode for the model. By default the culling mode will be ``-1``\ , which defaults to ``Front``
 
@@ -124,31 +118,18 @@ This is likely the reason why when you have inverted normals on your model, you'
 
 Note that this parameter defaulting to ``Front`` sounds abnormal as the faces pointing in the direction of the normals are rendered in the game, so this suggests that something is done at some point to invert the normals or something else is going on that would render the correct faces of the model.
 
-Allowed values:
 
-    - ``Back``
-    - ``Front``
-    - ``None``
-
-.. _model-file:
+.. _scripts-model-file:
 
 file
 ^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _model-ignorevehiclescale:
 
-ignoreVehicleScale
-^^^^^^^^^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _model-invertx:
+.. _scripts-model-invertx:
 
 invertX
 ^^^^^^^
@@ -157,12 +138,13 @@ invertX
 
 If set to ``true``\ , the model scale will be inverted on the X axis.
 
-.. _model-mesh:
+
+.. _scripts-model-mesh:
 
 mesh
 ^^^^
 
-:Type: Any
+:Type: Unknown
 
 Path to the model file relative to the ``media/models_X`` folder. The model file can be either of ``.fbx`` or ``.glb`` but also the not recommended ``.x`` (read more `here <https://pzwiki.net/wiki/Modeling#File_types>`_\ ). The extension should not be included in the value of this parameter.
 
@@ -176,16 +158,18 @@ If your ``mesh`` parameter is set to ``my_model``\ , the game will expect the mo
 
 It is suggested to put your models in a subfolder of the ``models_X`` folder named after your mod to reduce the risk of model name conflicts with other mods.
 
-.. _model-offset:
+
+.. _scripts-model-offset:
 
 offset
 ^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _model-postprocess:
+
+.. _scripts-model-postprocess:
 
 postProcess
 ^^^^^^^^^^^
@@ -196,16 +180,8 @@ Sets post-processing steps for assimp to use when importing the model. Steps sho
 
 It is unclear what this is used for exactly and should probably not be modified unless you are looking into advanced model manipulation.
 
-.. _model-rotate:
 
-rotate
-^^^^^^
-
-:Type: Any
-
-No description
-
-.. _model-scale:
+.. _scripts-model-scale:
 
 scale
 ^^^^^
@@ -214,12 +190,13 @@ scale
 
 Used to scale the model up or down. A value of ``1`` means the model is at its original size.
 
-.. _model-shader:
+
+.. _scripts-model-shader:
 
 shader
 ^^^^^^
 
-:Type: Any
+:Type: Unknown
 
 Used to control what shader will apply on the model. The most common shaders which are used by the game are:
 
@@ -233,16 +210,18 @@ Used to control what shader will apply on the model. The most common shaders whi
 
 The shaders are stored in the folder ``media/shaders``.
 
-.. _model-specialkeyring:
+
+.. _scripts-model-specialkeyring:
 
 specialKeyRing
 ^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _model-static:
+
+.. _scripts-model-static:
 
 static
 ^^^^^^
@@ -251,12 +230,13 @@ static
 
 If set to ``true``\ , the model will not deform with the bones it is parented to. This is typically used for non deformable objects, which means clothings should not be static.
 
-.. _model-texture:
+
+.. _scripts-model-texture:
 
 texture
 ^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
 Path to the texture file relative to the ``media/textures`` folder. The texture file should be of ``.png`` format only.
 
@@ -270,7 +250,8 @@ For example, if your ``texture`` parameter is set to ``my_model_texture``\ , the
 
 It is suggested to put your textures in a subfolder of the ``textures`` folder named after your mod to reduce the risk of texture name conflicts with other mods.
 
-.. _model-undocorescale:
+
+.. _scripts-model-undocorescale:
 
 undoCoreScale
 ^^^^^^^^^^^^^
@@ -279,4 +260,45 @@ undoCoreScale
 :Default: ``False``
 
 If set to ``true``\ , the model scale will be multiplied by ``0.6666667``. This seems to be mostly used for tile models.
+
+
+.. _scripts-model-attachmentparent:
+
+attachmentParent
+^^^^^^^^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-model-attachmentself:
+
+attachmentSelf
+^^^^^^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-model-ignorevehiclescale:
+
+ignoreVehicleScale
+^^^^^^^^^^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-model-rotate:
+
+rotate
+^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
 

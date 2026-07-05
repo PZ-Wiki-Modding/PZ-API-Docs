@@ -1,19 +1,22 @@
-.. _root-spritemodels:
+.. _scripts-root-spritemodels:
 
 ROOT-SpriteModels
 =================
 
+:Soft Override: Unknown
+:Is Root: True
+
 The ``spriteModels.txt`` file is used to register `models <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ and animations to tiles. This is notably used for radio items as well as doors and ramps.
 
 
-Hierarchy
----------
+ID
+--
 
-This block does not require a parent block.
+This block should have no ID.
 
 
-ID Properties
--------------
+Parameters
+----------
 
-This block should not have an ID.
+This block has no parameters.
 

@@ -1,7 +1,9 @@
-.. _clip:
+.. _scripts-clip:
 
 clip
 ====
+
+:Soft Override: Unknown
 
 Defines a clip to be used in a `sound script <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_\ , which is a single sound file with properties that determine how it is played in the game.
 
@@ -26,39 +28,22 @@ Defines a clip to be used in a `sound script <https://pz-wiki-modding.github.io/
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`sound`
+- :ref:`sound <scripts-sound>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _clip-distancemax:
-
-distanceMax
-^^^^^^^^^^^
-
-:Type: integer
-
-`distanceMax <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#distanceMax>`_ and `distanceMin <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#distanceMin>`_ respectively set the maximum and minimum distances between which the sound will gradually decrease in volume.
-
-.. _clip-distancemin:
-
-distanceMin
-^^^^^^^^^^^
-
-:Type: integer
-
-See :ref:`clip-distancemax` for more details.
-
-.. _clip-event:
+.. _scripts-clip-event:
 
 event
 ^^^^^
@@ -67,7 +52,18 @@ event
 
 Specifies an event that will trigger the playback of a specific sound. Used for sounds from FMOD sound banks (vanilla sound files).
 
-.. _clip-file:
+
+.. _scripts-clip-distancemax:
+
+distanceMax
+^^^^^^^^^^^
+
+:Type: integer
+
+`distanceMax <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#distanceMax>`_ and `distanceMin <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#distanceMin>`_ respectively set the maximum and minimum distances between which the sound will gradually decrease in volume.
+
+
+.. _scripts-clip-file:
 
 file
 ^^^^
@@ -91,16 +87,28 @@ This parameter will be:
 
 A file can be both of file format ``.ogg`` or ``.wav``\ , but ``.ogg`` is recommended for its smaller file size and better compression.
 
-.. _clip-pitch:
 
-pitch
-^^^^^
+.. _scripts-clip-distancemin:
+
+distanceMin
+^^^^^^^^^^^
+
+:Type: integer
+
+See parameter :ref:`distanceMax <scripts-clip-distancemax>`.
+
+
+.. _scripts-clip-volume:
+
+volume
+^^^^^^
 
 :Type: float
 
-The pitch of the sound.
+Adjusts the volume of the sound. Preferably your sound file should be properly normalized to a volume of 1.0.
 
-.. _clip-reverbfactor:
+
+.. _scripts-clip-reverbfactor:
 
 reverbFactor
 ^^^^^^^^^^^^
@@ -109,30 +117,34 @@ reverbFactor
 
 `reverbFactor <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#reverbFactor>`_ sets the amount of reverb applied to the sound while `reverbMaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#reverbMaxRange>`_ sets the maximum distance at which the reverb will be applied.
 
-.. _clip-reverbmaxrange:
+
+.. _scripts-clip-pitch:
+
+pitch
+^^^^^
+
+:Type: float
+
+The pitch of the sound.
+
+
+.. _scripts-clip-reverbmaxrange:
 
 reverbMaxRange
 ^^^^^^^^^^^^^^
 
 :Type: float
 
-See :ref:`clip-reverbfactor` for more details.
+See parameter :ref:`reverbFactor <scripts-clip-reverbfactor>`.
 
-.. _clip-stopimmediate:
+
+.. _scripts-clip-stopimmediate:
 
 stopImmediate
 ^^^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _clip-volume:
-
-volume
-^^^^^^
-
-:Type: float
-
-Adjusts the volume of the sound. Preferably your sound file should be properly normalized to a volume of 1.0.
 

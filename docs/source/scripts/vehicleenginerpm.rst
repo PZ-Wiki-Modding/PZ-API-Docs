@@ -1,7 +1,9 @@
-.. _vehicleenginerpm:
+.. _scripts-vehicleenginerpm:
 
 vehicleEngineRPM
 ================
+
+:Soft Override: Unknown
 
 Unclear how the definition of this block works.
 
@@ -46,25 +48,29 @@ Here's the jeep example from the base game:
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`data`
+- :ref:`data <scripts-data>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _vehicleenginerpm-version:
+.. _scripts-vehicleenginerpm-version:
 
 VERSION
 ^^^^^^^
@@ -72,4 +78,5 @@ VERSION
 :Type: integer
 
 Unclear what this does, preferably keep it at 1.
+
 

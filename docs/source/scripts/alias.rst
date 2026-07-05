@@ -1,7 +1,10 @@
-.. _alias:
+.. _scripts-alias:
 
 alias
 =====
+
+:Soft Override: Unknown
+:No comma: True
 
 Defines an alias for a list of tiles. This can be directly be refered to in `rule <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/rule.html>`_ blocks to list a bunch of tiles in different blocks or to organize them by type. Say for example you can list all the trees in an alias to use later, or split by tree type to easily associate to a color.
 
@@ -58,35 +61,38 @@ Here is an example of how to use it:
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`root-rules`
+- :ref:`ROOT-Rules <scripts-root-rules>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _alias-name:
+.. _scripts-alias-name:
 
 name
 ^^^^
 
 :Type: string
 
-No description
+No description provided.
 
-.. _alias-tiles:
+
+.. _scripts-alias-tiles:
 
 tiles
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
 

@@ -1,7 +1,10 @@
-.. _component-durability:
+.. _scripts-component-durability:
 
 component Durability
 ====================
+
+:Soft Override: Unknown
+:Is Variant of: :ref:`component <scripts-component>`
 
 
 
@@ -9,13 +12,20 @@ component Durability
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`item`
+- :ref:`item <scripts-item>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

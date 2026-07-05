@@ -1,7 +1,9 @@
-.. _window:
+.. _scripts-window:
 
 window
 ======
+
+:Soft Override: Unknown
 
 
 
@@ -9,26 +11,28 @@ window
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`part`
+- :ref:`part <scripts-part>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _window-openable:
+.. _scripts-window-openable:
 
 openable
 ^^^^^^^^
 
 :Type: boolean
 
-No description
+No description provided.
+
 

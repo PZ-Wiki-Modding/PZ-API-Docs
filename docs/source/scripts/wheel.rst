@@ -1,7 +1,9 @@
-.. _wheel:
+.. _scripts-wheel:
 
 wheel
 =====
+
+:Soft Override: Unknown
 
 Defines the wheels of a vehicle. While the ID can technically be anything, only the IDs 'FrontLeft', 'FrontRight', 'RearLeft', and 'RearRight' are recognized by the game and will function properly.
 
@@ -9,54 +11,62 @@ Defines the wheels of a vehicle. While the ID can technically be anything, only 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`template`
-- :ref:`vehicle`
+- :ref:`template <scripts-template>`
+- :ref:`vehicle <scripts-vehicle>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _wheel-front:
-
-front
-^^^^^
-
-:Type: Any
-
-No description
-
-.. _wheel-offset:
-
-offset
-^^^^^^
-
-:Type: Any
-
-No description
-
-.. _wheel-radius:
+.. _scripts-wheel-radius:
 
 radius
 ^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _wheel-width:
+
+.. _scripts-wheel-offset:
+
+offset
+^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-wheel-front:
+
+front
+^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-wheel-width:
 
 width
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
 

@@ -1,7 +1,11 @@
-.. _root-blends:
+.. _scripts-root-blends:
 
 ROOT-Blends
 ===========
+
+:Soft Override: Unknown
+:Is Root: True
+:No comma: True
 
 The ``Blends.txt`` file is used in the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_ to assign blend tiles around the tiles you paint.
 
@@ -9,28 +13,28 @@ The ``Blends.txt`` file is used in the `mapping tools <https://pzwiki.net/wiki/M
 Hierarchy
 ---------
 
-This block does not require a parent block.
+This block can have the following child blocks:
 
-**Possible Child Blocks:**
-
-- :ref:`blend`
+- :ref:`blend <scripts-blend>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _root-blends-name:
+.. _scripts-root-blends-name:
 
 name
 ^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
 

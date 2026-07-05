@@ -3,10 +3,12 @@ ScriptsDocs
 
 This section provides detailed documentation for all available `script <https://pzwiki.net/wiki/Scripts>`_ blocks.
 
+Table of Contents
+-----------------
+
 .. toctree::
    :maxdepth: 4
    :titlesonly:
-   :caption: Blocks
 
    scripts/_component_block
    scripts/alias
@@ -26,6 +28,18 @@ This section provides detailed documentation for all available `script <https://
    scripts/clock
    scripts/colors
    scripts/component
+   scripts/component/component-contextmenuconfig
+   scripts/component/component-craftbench
+   scripts/component/component-craftbenchsounds
+   scripts/component/component-craftrecipe
+   scripts/component/component-dryingcraftlogic
+   scripts/component/component-durability
+   scripts/component/component-fluidcontainer
+   scripts/component/component-resources
+   scripts/component/component-spriteconfig
+   scripts/component/component-spriteoverlayconfig
+   scripts/component/component-uiconfig
+   scripts/component/component-wallcoveringconfig
    scripts/components
    scripts/container
    scripts/contextentry

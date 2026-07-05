@@ -19,6 +19,7 @@ clean:
 generate_scripts:
 	source ./.venv/bin/activate
 	python3 ./chores/_old/scripts/generateScriptsDocs.py
+	python3 ./chores/main.py scripts
 
 generate_mapping:
 	source ./.venv/bin/activate

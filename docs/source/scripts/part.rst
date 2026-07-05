@@ -1,7 +1,9 @@
-.. _part:
+.. _scripts-part:
 
 part
 ====
+
+:Soft Override: Unknown
 
 
 
@@ -9,118 +11,132 @@ part
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`template`
-- :ref:`vehicle`
+- :ref:`template <scripts-template>`
+- :ref:`vehicle <scripts-vehicle>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`anim`
-- :ref:`container`
-- :ref:`door`
-- :ref:`lua`
-- :ref:`model`
-- :ref:`table`
-- :ref:`window`
+- :ref:`model <scripts-model>`
+- :ref:`container <scripts-container>`
+- :ref:`table <scripts-table>`
+- :ref:`lua <scripts-lua>`
+- :ref:`anim <scripts-anim>`
+- :ref:`window <scripts-window>`
+- :ref:`door <scripts-door>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _part-area:
-
-area
-^^^^
-
-:Type: Any
-
-No description
-
-.. _part-category:
-
-category
-^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _part-durability:
-
-durability
-^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _part-itemtype:
+.. _scripts-part-itemtype:
 
 itemType
 ^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _part-mechanicarea:
+
+.. _scripts-part-category:
+
+category
+^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-part-durability:
+
+durability
+^^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-part-mechanicarea:
 
 mechanicArea
 ^^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _part-mechanicrequirekey:
+
+.. _scripts-part-area:
+
+area
+^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-part-mechanicrequirekey:
 
 mechanicRequireKey
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _part-parent:
 
-parent
-^^^^^^
-
-:Type: Any
-
-No description
-
-.. _part-repairmechanic:
+.. _scripts-part-repairmechanic:
 
 repairMechanic
 ^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _part-specificitem:
+
+.. _scripts-part-parent:
+
+parent
+^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-part-specificitem:
 
 specificItem
 ^^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _part-wheel:
+
+.. _scripts-part-wheel:
 
 wheel
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
 

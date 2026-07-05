@@ -1,7 +1,10 @@
-.. _root-default:
+.. _scripts-root-default:
 
 ROOT-Default
 ============
+
+:Soft Override: Unknown
+:Is Root: True
 
 The default.txt file is used to select the mods and maps that will be loaded by the game.
 
@@ -9,29 +12,27 @@ The default.txt file is used to select the mods and maps that will be loaded by 
 Hierarchy
 ---------
 
-This block does not require a parent block.
+This block can have the following child blocks:
 
-**Required Child Blocks:**
+- :ref:`mods <scripts-mods>`
+- :ref:`maps <scripts-maps>`
 
-- :ref:`mods`
-- :ref:`maps`
+This block requires these following children to be valid:
 
-**Possible Child Blocks:**
-
-- :ref:`maps`
-- :ref:`mods`
+- :ref:`mods <scripts-mods>`
+- :ref:`maps <scripts-maps>`
 
 
-ID Properties
--------------
+ID
+--
 
-This block should not have an ID.
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _root-default-version:
+.. _scripts-root-default-version:
 
 VERSION
 ^^^^^^^
@@ -39,4 +40,5 @@ VERSION
 :Type: integer
 
 The version of the default.txt file. Keep it at 1.
+
 

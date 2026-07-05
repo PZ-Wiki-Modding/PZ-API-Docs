@@ -1,7 +1,9 @@
-.. _entity:
+.. _scripts-entity:
 
 entity
 ======
+
+:Soft Override: Unknown
 
 Defines a tile with special properties.
 
@@ -9,61 +11,68 @@ Defines a tile with special properties.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
-- :ref:`xuiskin`
+- :ref:`module <scripts-module>`
+- :ref:`xuiSkin <scripts-xuiskin>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`component`
-- :ref:`component-contextmenuconfig`
-- :ref:`component-craftbench`
-- :ref:`component-craftbenchsounds`
-- :ref:`component-craftrecipe`
-- :ref:`component-dryingcraftlogic`
-- :ref:`component-fluidcontainer`
-- :ref:`component-resources`
-- :ref:`component-spriteconfig`
-- :ref:`component-spriteoverlayconfig`
-- :ref:`component-uiconfig`
-- :ref:`component-wallcoveringconfig`
-- :ref:`components`
+- :ref:`component <scripts-component>`
+- :ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>`
+- :ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>`
+- :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
+- :ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>`
+- :ref:`component UiConfig <scripts-component-uiconfig>`
+- :ref:`component CraftRecipe <scripts-component-craftrecipe>`
+- :ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>`
+- :ref:`component Resources <scripts-component-resources>`
+- :ref:`components <scripts-components>`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+- :ref:`component SpriteConfig <scripts-component-spriteconfig>`
+- :ref:`component CraftBench <scripts-component-craftbench>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: ['xuiSkin']
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _entity-displayname:
-
-DisplayName
-^^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _entity-icon:
-
-Icon
-^^^^
-
-:Type: Any
-
-No description
-
-.. _entity-luawindowclass:
+.. _scripts-entity-luawindowclass:
 
 LuaWindowClass
 ^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
+
+.. _scripts-entity-displayname:
+
+DisplayName
+^^^^^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-entity-icon:
+
+Icon
+^^^^
+
+:Type: Unknown
+
+No description provided.
+
 

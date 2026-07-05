@@ -1,7 +1,9 @@
-.. _character_profession_definition:
+.. _scripts-character_profession_definition:
 
 character_profession_definition
 ===============================
+
+:Soft Override: Unknown
 
 Defines a character profession.
 
@@ -22,21 +24,25 @@ Defines a character profession.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _character_profession_definition-characterprofession:
+.. _scripts-character_profession_definition-characterprofession:
 
 CharacterProfession
 ^^^^^^^^^^^^^^^^^^^
@@ -45,7 +51,8 @@ CharacterProfession
 
 The `registries <https://pzwiki.net/wiki/Registries>`_ profession ID to link to.
 
-.. _character_profession_definition-cost:
+
+.. _scripts-character_profession_definition-cost:
 
 Cost
 ^^^^
@@ -54,43 +61,8 @@ Cost
 
 The cost of the profession when selecting a character. Negative values remove points, positive values add points.
 
-.. _character_profession_definition-grantedrecipes:
 
-GrantedRecipes
-^^^^^^^^^^^^^^
-
-:Type: array (array of string, separator: ';')
-
-A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
-
-.. _character_profession_definition-grantedtraits:
-
-GrantedTraits
-^^^^^^^^^^^^^
-
-:Type: array (array of string, separator: ';')
-
-A list of character trait IDs that are granted to the character when this profession is selected.
-
-.. _character_profession_definition-iconpathname:
-
-IconPathName
-^^^^^^^^^^^^
-
-:Type: string
-
-No description
-
-.. _character_profession_definition-uidescription:
-
-UIDescription
-^^^^^^^^^^^^^
-
-:Type: string
-
-The translation key for the profession's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
-
-.. _character_profession_definition-uiname:
+.. _scripts-character_profession_definition-uiname:
 
 UIName
 ^^^^^^
@@ -99,7 +71,38 @@ UIName
 
 The translation key for the profession's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
 
-.. _character_profession_definition-xpboosts:
+
+.. _scripts-character_profession_definition-uidescription:
+
+UIDescription
+^^^^^^^^^^^^^
+
+:Type: string
+
+The translation key for the profession's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
+
+
+.. _scripts-character_profession_definition-iconpathname:
+
+IconPathName
+^^^^^^^^^^^^
+
+:Type: string
+
+No description provided.
+
+
+.. _scripts-character_profession_definition-grantedtraits:
+
+GrantedTraits
+^^^^^^^^^^^^^
+
+:Type: array (array of string, separator: ';')
+
+A list of character trait IDs that are granted to the character when this profession is selected.
+
+
+.. _scripts-character_profession_definition-xpboosts:
 
 XPBoosts
 ^^^^^^^^
@@ -113,4 +116,15 @@ For example:
 .. code-block:: cpp
 
    XPBoosts = Axe=1;Blunt=1,
+
+
+.. _scripts-character_profession_definition-grantedrecipes:
+
+GrantedRecipes
+^^^^^^^^^^^^^^
+
+:Type: array (array of string, separator: ';')
+
+A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
+
 

@@ -1,7 +1,9 @@
-.. _hand:
+.. _scripts-hand:
 
 hand
 ====
+
+:Soft Override: Unknown
 
 
 
@@ -9,13 +11,23 @@ hand
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`clock`
+- :ref:`clock <scripts-clock>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
+
+
+Parameters
+----------
+
+This block has no parameters.
 

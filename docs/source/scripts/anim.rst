@@ -1,7 +1,9 @@
-.. _anim:
+.. _scripts-anim:
 
 anim
 ====
+
+:Soft Override: Unknown
 
 
 
@@ -9,72 +11,82 @@ anim
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`part`
-- :ref:`passenger`
+- :ref:`part <scripts-part>`
+- :ref:`passenger <scripts-passenger>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _anim-angle:
-
-angle
-^^^^^
-
-:Type: Any
-
-No description
-
-.. _anim-anim:
+.. _scripts-anim-anim:
 
 anim
 ^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _anim-animate:
 
-animate
-^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _anim-rate:
+.. _scripts-anim-rate:
 
 rate
 ^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
 
-.. _anim-reverse:
 
-reverse
-^^^^^^^
+.. _scripts-anim-angle:
 
-:Type: Any
+angle
+^^^^^
 
-No description
+:Type: Unknown
 
-.. _anim-sound:
+No description provided.
+
+
+.. _scripts-anim-sound:
 
 sound
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
+
+.. _scripts-anim-reverse:
+
+reverse
+^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-anim-animate:
+
+animate
+^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
 

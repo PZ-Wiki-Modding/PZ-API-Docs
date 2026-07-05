@@ -7,7 +7,7 @@ INDENT = " " * 3
 
 def sanitize_description(description: str) -> str:
     """Sanitize the provided description by converting Markdown to reStructuredText."""
-    return m2r.convert(description)
+    return m2r.convert(description).strip()
 
 
 if __name__ == "__main__":

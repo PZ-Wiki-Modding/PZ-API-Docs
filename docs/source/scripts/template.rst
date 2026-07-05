@@ -1,7 +1,9 @@
-.. _template:
+.. _scripts-template:
 
 template
 ========
+
+:Soft Override: Unknown
 
 
 
@@ -9,25 +11,34 @@ template
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`area`
-- :ref:`attachment`
-- :ref:`crawlthroughwheel`
-- :ref:`lightbar`
-- :ref:`part`
-- :ref:`physics`
-- :ref:`skin`
-- :ref:`sound`
-- :ref:`wheel`
+- :ref:`lightbar <scripts-lightbar>`
+- :ref:`area <scripts-area>`
+- :ref:`part <scripts-part>`
+- :ref:`attachment <scripts-attachment>`
+- :ref:`sound <scripts-sound>`
+- :ref:`wheel <scripts-wheel>`
+- :ref:`physics <scripts-physics>`
+- :ref:`skin <scripts-skin>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
+
+
+Parameters
+----------
+
+This block has no parameters.
 

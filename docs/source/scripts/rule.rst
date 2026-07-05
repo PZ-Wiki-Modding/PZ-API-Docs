@@ -1,7 +1,10 @@
-.. _rule:
+.. _scripts-rule:
 
 rule
 ====
+
+:Soft Override: Unknown
+:No comma: True
 
 A ``rule`` block defines a conversion rule for the `BMP to TMX <https://pzwiki.net/wiki/BMP_to_TMX>`_ conversion process in the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_. It is used to associate a color on the BMP for the vegetation or main image to a list of tiles to apply on a specific layer in the TMX.
 
@@ -22,21 +25,32 @@ For example:
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`root-rules`
+- :ref:`ROOT-Rules <scripts-root-rules>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _rule-bitmap:
+.. _scripts-rule-label:
+
+label
+^^^^^
+
+:Type: string
+
+No description provided.
+
+
+.. _scripts-rule-bitmap:
 
 bitmap
 ^^^^^^
@@ -45,39 +59,13 @@ bitmap
 
 A value of ``1`` will have this rule used for the vegetation image, while a value of ``0`` will have it used for the main tiles image. Trees will for example use ``1`` while ground tiles will use ``0``.
 
-.. _rule-color:
 
-color
-^^^^^
-
-:Type: array (array of integer, separator: ' ')
-
-The RGB color to replace with the tiles in the ``tiles`` parameter. This is the color you painted in your image file to associate to this rule.
-
-.. _rule-label:
-
-label
-^^^^^
-
-:Type: string
-
-No description
-
-.. _rule-layer:
-
-layer
-^^^^^
-
-:Type: string
-
-The layer to apply the tiles on.
-
-.. _rule-tiles:
+.. _scripts-rule-tiles:
 
 tiles
 ^^^^^
 
-:Type: Any
+:Type: Unknown
 
 A list of tiles to apply randomly for this color. You can also use an alias block here to reference a list of tiles.
 
@@ -124,4 +112,25 @@ Or with one or more alias blocks:
    tiles = [
      treez1
    ]
+
+
+.. _scripts-rule-color:
+
+color
+^^^^^
+
+:Type: array (array of integer, separator: ' ')
+
+The RGB color to replace with the tiles in the ``tiles`` parameter. This is the color you painted in your image file to associate to this rule.
+
+
+.. _scripts-rule-layer:
+
+layer
+^^^^^
+
+:Type: string
+
+The layer to apply the tiles on.
+
 

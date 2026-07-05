@@ -1,7 +1,9 @@
-.. _attachment:
+.. _scripts-attachment:
 
 attachment
 ==========
+
+:Soft Override: Unknown
 
 Defines an attachment point on a `model <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ or `vehicle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html>`_ block. The ID is the attachment name, it can be a custom ID or an existing one often used to define specific attachments. While manually modifying the attachment block is definitely possible, it is recommended to use the `attachment editor <https://pzwiki.net/wiki/Attachment_Editor>`_ to create and edit those attachments.
 
@@ -41,39 +43,27 @@ For a full list of attachment points, see the `attachment <https://pzwiki.net/wi
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`vehicle`
-- :ref:`model`
-- :ref:`template`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`model <scripts-model>`
+- :ref:`template <scripts-template>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+:Optional: False
+:Can have spaces: False
 
 
 Parameters
 ----------
 
-.. _attachment-bone:
-
-bone
-^^^^
-
-:Type: Any
-
-.. code-block::
-
-   The name of the bone to which the model is attached to. 
-
-
-.. code-block:: cpp
-
-    bone = Bip01_L_Hand,
-
-.. _attachment-offset:
+.. _scripts-attachment-offset:
 
 offset
 ^^^^^^
@@ -86,7 +76,8 @@ The position offset of the model relative to the bone. This is a vector in the f
 
    offset = -0.0300 -0.1020 0.1210,
 
-.. _attachment-rotate:
+
+.. _scripts-attachment-rotate:
 
 rotate
 ^^^^^^
@@ -99,7 +90,18 @@ The rotation of the model relative to the bone. This is a vector in the format `
 
    rotate = -60.0000 -49.0000 -3.0000,
 
-.. _attachment-scale:
+
+.. _scripts-attachment-zoffset:
+
+zoffset
+^^^^^^^
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-attachment-scale:
 
 scale
 ^^^^^
@@ -112,12 +114,21 @@ The scale multiplier applied to the model attached to this attachment point.
 
    scale = 0.5,
 
-.. _attachment-zoffset:
 
-zoffset
-^^^^^^^
+.. _scripts-attachment-bone:
 
-:Type: Any
+bone
+^^^^
 
-No description
+:Type: Unknown
+
+.. code-block::
+
+   The name of the bone to which the model is attached to. 
+
+
+.. code-block:: cpp
+
+    bone = Bip01_L_Hand,
+
 

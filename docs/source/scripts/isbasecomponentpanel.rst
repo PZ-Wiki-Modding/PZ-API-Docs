@@ -1,7 +1,9 @@
-.. _isbasecomponentpanel:
+.. _scripts-isbasecomponentpanel:
 
 ISBaseComponentPanel
 ====================
+
+:Soft Override: Unknown
 
 
 
@@ -9,13 +11,20 @@ ISBaseComponentPanel
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`xuiskin`
+- :ref:`xuiSkin <scripts-xuiskin>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

@@ -1,7 +1,9 @@
-.. _skin:
+.. _scripts-skin:
 
 skin
 ====
+
+:Soft Override: Unknown
 
 
 
@@ -9,27 +11,29 @@ skin
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`template`
-- :ref:`vehicle`
+- :ref:`template <scripts-template>`
+- :ref:`vehicle <scripts-vehicle>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _skin-texture:
+.. _scripts-skin-texture:
 
 texture
 ^^^^^^^
 
-:Type: Any
+:Type: Unknown
 
-No description
+No description provided.
+
 

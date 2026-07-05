@@ -1,7 +1,9 @@
-.. _spritemodel:
+.. _scripts-spritemodel:
 
 spriteModel
 ===========
+
+:Soft Override: Unknown
 
 Used to define tileset properties.
 
@@ -9,30 +11,32 @@ Used to define tileset properties.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`root-scripts`
+- :ref:`ROOT-Scripts <scripts-root-scripts>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`tileset`
+- :ref:`tileset <scripts-tileset>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _spritemodel-version:
+.. _scripts-spritemodel-version:
 
 VERSION
 ^^^^^^^
 
 :Type: integer
 
-No description
+No description provided.
+
 

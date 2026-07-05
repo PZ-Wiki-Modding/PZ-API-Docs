@@ -1,8 +1,6 @@
 from typing import Any, Callable, TypedDict, NotRequired, TypeVar, Generic
 
-from documentation import DocObject
-
-DocObjectT = TypeVar('DocObjectT', bound=DocObject)
+from documentation import DocObject, DocObjectT
 
 class Rule(TypedDict):
     """Type definition for a metadata rule."""
@@ -10,19 +8,20 @@ class Rule(TypedDict):
     access_key: NotRequired[str]
     
     # default fallback value. if not provided, then mandatory key
-    default: NotRequired[str]
+    default: NotRequired[str | None]
 
     # first arg needs to be Generic[DocObjectT]
     formatter: NotRequired[Callable[[Any, str, Any], str]]  # optional formatter function to format the value
 
 
-class metadata(Generic[DocObjectT]):
+class Metadata(Generic[DocObjectT]):
     def __init__(self, rule_set: dict[str, Rule]):
         self.rule_set = rule_set
 
     def generate(self, obj: DocObjectT, data: dict[str, Any]) -> str:
         """Generate metadata string based on the provided data and rule set."""
         out = ""
+        i = 0
         for key, rule in self.rule_set.items():
             # check if exists in data
             access_key = rule.get("access_key", key)
@@ -35,16 +34,24 @@ class metadata(Generic[DocObjectT]):
             # use default if provided in ruleset
             elif "default" in rule:
                 value = rule["default"]
+                
+                # skip if default is None, means we just hide it
+                if value is None:
+                    continue
 
             # unexpected behavior: key is mandatory
             else:
                 raise ValueError(f"Missing required metadata key: {key}")
             
             out += self.format_metadata(key, value) + "\n"
+            i += 1
+
+        if i == 0:
+            return ""
 
         return out.strip()
     
     @staticmethod
-    def format_metadata(key: str, value: str) -> str:
+    def format_metadata(key: str, value: str | None) -> str:
         """Helper method to format a single metadata key-value pair."""
         return f":{key}: {value}"

@@ -1,7 +1,9 @@
-.. _container:
+.. _scripts-container:
 
 container
 =========
+
+:Soft Override: Unknown
 
 
 
@@ -9,30 +11,32 @@ container
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`part`
+- :ref:`part <scripts-part>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _container-capacity:
+.. _scripts-container-capacity:
 
 capacity
 ^^^^^^^^
 
 :Type: integer
 
-No description
+No description provided.
 
-.. _container-conditionaffectscapacity:
+
+.. _scripts-container-conditionaffectscapacity:
 
 conditionAffectsCapacity
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,7 +45,8 @@ conditionAffectsCapacity
 
 Sets whenever the condition of the part will impact the `capacity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-capacity>`_. A lower condition will negatively impact the container's capacity.
 
-.. _container-contenttype:
+
+.. _scripts-container-contenttype:
 
 contentType
 ^^^^^^^^^^^
@@ -50,7 +55,8 @@ contentType
 
 Unclear how this parameter works exactly. The game uses it to define the "content" of tires and gas tanks by providing the string keys ``Gasoline`` or ``Air``. It seems to simply remove any item container being used as the container for this part.
 
-.. _container-seat:
+
+.. _scripts-container-seat:
 
 seat
 ^^^^
@@ -59,7 +65,8 @@ seat
 
 The seat ID of this container. When present, this container can be used as a seat for a vehicle.
 
-.. _container-soundmap:
+
+.. _scripts-container-soundmap:
 
 soundMap
 ^^^^^^^^
@@ -82,7 +89,8 @@ The ``key`` can be one of the following:
 
 The ``soundRef`` should be a reference to a `sound block <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_.
 
-.. _container-test:
+
+.. _scripts-container-test:
 
 test
 ^^^^
@@ -127,4 +135,5 @@ The parameters are:
 * ``vehicle`` is a `BaseVehicle <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/vehicles/BaseVehicle.html>`_ class
 * ``part`` is a `VehiclePart <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/vehicles/VehiclePart.html>`_
 * ``chr`` is an `IsoGameCharacter <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/characters/IsoGameCharacter.html>`_
+
 

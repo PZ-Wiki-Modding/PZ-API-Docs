@@ -5,7 +5,7 @@ from pathlib import Path
 
 from documentation import Documentation, DocObject, code_value_formatter
 from project import PROJECT_ROOT, sanitize_description
-from utility.metadata import metadata
+from utility.metadata import Metadata
 from utility.rst import headers
 
 
@@ -57,23 +57,23 @@ def _link_to_type_formatter(obj: "XMLDocObject", type_name: str, type_data: str|
 
 ## METADATA TYPES
 # used for root element metadata
-root_metadata = metadata({
+root_metadata = Metadata({
     "Element": {"access_key": "name"}, # required in dataset
 })
 
 # used for type definitions
-type_metadata: metadata["XMLDocObject"] = metadata({
+type_metadata: Metadata["XMLDocObject"] = Metadata({
     "Type": {"access_key": "type", "formatter": _link_to_type_formatter}, # required in dataset
     "Composition": {"access_key": "composition", "default": "all"}, # composition defaults to "all" in the schema generator
 })
 
-element_metadata: metadata["XMLDocObject"] = metadata({
+element_metadata: Metadata["XMLDocObject"] = Metadata({
     "Minimum occurence": {"access_key": "minOccurs", "default": "0"},
     "Maximum occurence": {"access_key": "maxOccurs", "default": "unbounded"},
     "Type": {"access_key": "type", "formatter": _link_to_type_formatter},
 })
 
-attribute_metadata: metadata["XMLDocObject"] = metadata({
+attribute_metadata: Metadata["XMLDocObject"] = Metadata({
     "Type": {"access_key": "type", "formatter": _link_to_type_formatter},
     "Use": {"access_key": "use", "default": "optional"},
 })
@@ -131,7 +131,7 @@ def _make_element_definition(obj: "XMLDocObject", element_data: dict) -> str:
     # description
     description = element_data.get("description", "No description provided.")
     sanitized_description = sanitize_description(description)
-    out += sanitized_description.strip() + "\n\n"
+    out += sanitized_description + "\n\n"
 
     return out
 
@@ -144,7 +144,7 @@ def _make_attribute_definition(obj: "XMLDocObject", attribute_data: dict) -> str
     # description
     description = attribute_data.get("description", "No description provided.")
     sanitized_description = sanitize_description(description)
-    out += sanitized_description.strip() + "\n\n"
+    out += sanitized_description + "\n\n"
 
     return out
 
@@ -154,12 +154,12 @@ def _make_restriction_definition(object_type: str, object_data: dict, restrictio
     # base type
     base = restrictions.get("base", None)
     if base is not None:
-        out += metadata.format_metadata("Base", code_value_formatter(object_type, "base", base)) + "\n"
+        out += Metadata.format_metadata("Base", code_value_formatter(object_type, "base", base)) + "\n"
 
     # enumerations
     enumeration = restrictions.get("enumeration", [])
     if enumeration:
-        out += metadata.format_metadata("Enumeration", "") + "\n"
+        out += Metadata.format_metadata("Enumeration", "") + "\n"
         for i, enum in enumerate(enumeration):
             md = enum.get("metadata", {})
             out += "* " + code_value_formatter(object_type, "enumeration", md['value']) + "\n"

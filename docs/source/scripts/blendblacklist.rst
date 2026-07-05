@@ -1,7 +1,9 @@
-.. _blendblacklist:
+.. _scripts-blendblacklist:
 
 BlendBlackList
 ==============
+
+:Soft Override: Unknown
 
 BlendWhiteList defines a whitelist for fluids that the fluid can be blended with, while BlendBlackList defines a blacklist. By default those blocks are set whitelist, but you can add one of the available parameters to indicate whenever the block is a whitelist or a blacklist.
 
@@ -11,17 +13,24 @@ Fluids that are whitelisted/blacklisted can be identified either by their catego
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`fluid`
+- :ref:`fluid <scripts-fluid>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`categories`
+- :ref:`Categories <scripts-categories>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

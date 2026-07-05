@@ -1,7 +1,9 @@
-.. _outputs:
+.. _scripts-outputs:
 
 outputs
 =======
+
+:Soft Override: False
 
 The ``outputs`` block defines the items that will be created when the recipe is finished. Outputs are listed one after the other and follow the format below:
 
@@ -33,13 +35,20 @@ For example:
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`craftrecipe`
+- :ref:`craftRecipe <scripts-craftrecipe>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

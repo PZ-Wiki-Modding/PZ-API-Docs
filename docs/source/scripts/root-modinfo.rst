@@ -1,63 +1,35 @@
-.. _root-modinfo:
+.. _scripts-root-modinfo:
 
 ROOT-ModInfo
 ============
 
+:Soft Override: Unknown
+:Is Root: True
+:No comma: True
+
 The mod.info file, which contains all the information about a mod.
 
 
-Hierarchy
----------
+ID
+--
 
-This block does not require a parent block.
-
-
-ID Properties
--------------
-
-This block should not have an ID.
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _root-modinfo-author:
+.. _scripts-root-modinfo-name:
 
-author
-^^^^^^
-
-:Type: string
-
-Name of the author(s) of the mod. Multiple authors are often separated by commas but no convention exists.
-
-.. _root-modinfo-category:
-
-category
-^^^^^^^^
-
-:Type: string
-
-Category is used for filtering mods in the in-game ModManager. Known categories are "map", "vehicle", "features", "modpack". Using other terms will not generate a new filter category.
-
-.. _root-modinfo-description:
-
-description
-^^^^^^^^^^^
-
-:Type: string
-
-Description of your mod, which shows up in the mod manager. The description supports `ISRichTextPanel <https://pzwiki.net/wiki/ISRichTextPanel>`_ tags. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
-
-.. _root-modinfo-icon:
-
-icon
+name
 ^^^^
 
 :Type: string
 
-Image which will be used in the mod manager to put next to the name of the mod in the list of available mods. This image will be small and while you can use a full image size, you do not need it. You can set your poster as the icon too to not ship two images if desired.
+The displayed name for your mod in the game's mod manager. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
 
-.. _root-modinfo-id:
+
+.. _scripts-root-modinfo-id:
 
 id
 ^^
@@ -70,85 +42,43 @@ between mods.
 
 **Note:** This is not the same as the `Workshop ID <https://pzwiki.net/wiki/Workshop_ID>`_.
 
-.. _root-modinfo-incompatible:
 
-incompatible
-^^^^^^^^^^^^
+.. _scripts-root-modinfo-author:
 
-:Type: string
-
-Mods that cannot be enabled at the same time as this mod. When enabled, the other mods will be unselectable. This mod will also become unselectable if any of the other mods are enabled.
-
-Example:
-
-.. code-block::
-
-   incompatible=theUnwantedMod,theOtherOne
-
-.. _root-modinfo-loadmodafter:
-
-loadModAfter
-^^^^^^^^^^^^
+author
+^^^^^^
 
 :Type: string
 
-Loads the mod only after the set of mods listed.
+Name of the author(s) of the mod. Multiple authors are often separated by commas but no convention exists.
 
-Example:
 
-.. code-block::
+.. _scripts-root-modinfo-description:
 
-   loadModAfter=someMod,anotherMod
-
-.. _root-modinfo-loadmodbefore:
-
-loadModBefore
-^^^^^^^^^^^^^
+description
+^^^^^^^^^^^
 
 :Type: string
 
-Loads the mod before the set of mods listed.
+Description of your mod, which shows up in the mod manager. The description supports `ISRichTextPanel <https://pzwiki.net/wiki/ISRichTextPanel>`_ tags. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
 
-Example:
 
-.. code-block::
+.. _scripts-root-modinfo-url:
 
-   loadModBefore=someMod,anotherMod
-
-.. _root-modinfo-modversion:
-
-modversion
-^^^^^^^^^^
+url
+^^^
 
 :Type: string
 
-Version of the mod.
+Shows a URL link in the mod manager on the page of your mod for users to click on to open in their internet browser. The parameter appears as "Homepage" in the mod manager. For a list of valid links, see `URL <https://pzwiki.net/wiki/URL>`_.
 
-.. _root-modinfo-name:
 
-name
-^^^^
-
-:Type: string
-
-The displayed name for your mod in the game's mod manager. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
-
-.. _root-modinfo-pack:
-
-pack
-^^^^
-
-:Type: string
-
-Name of pack files that need to be loaded by the game. Notably used for `Texture pack <https://pzwiki.net/wiki/Texture_pack>`_ and `Tile pack <https://pzwiki.net/wiki/Mapping>`_.
-
-.. _root-modinfo-poster:
+.. _scripts-root-modinfo-poster:
 
 poster
 ^^^^^^
 
 :Type: string
-:Attributes: Can be duplicated
 
 Image which will show up in the mod manager as the mod image. Multiple posters can be used to show multiple images, but the first one will be used as the main poster in the mod manager. The rest will be in a list of images of the mod that users can click on to view.
 
@@ -170,7 +100,28 @@ If you have multiple versions of your mod (e.g., 42.12 and 42.13) and don't want
    poster=../common/mymodname_flying_chickens.png
    poster=../common/mymodname_credits.png
 
-.. _root-modinfo-require:
+
+.. _scripts-root-modinfo-icon:
+
+icon
+^^^^
+
+:Type: string
+
+Image which will be used in the mod manager to put next to the name of the mod in the list of available mods. This image will be small and while you can use a full image size, you do not need it. You can set your poster as the icon too to not ship two images if desired.
+
+
+.. _scripts-root-modinfo-modversion:
+
+modversion
+^^^^^^^^^^
+
+:Type: string
+
+Version of the mod.
+
+
+.. _scripts-root-modinfo-require:
 
 require
 ^^^^^^^
@@ -185,7 +136,76 @@ Example:
 
    require=theNeededMod,theOtherOne
 
-.. _root-modinfo-tiledef:
+
+.. _scripts-root-modinfo-incompatible:
+
+incompatible
+^^^^^^^^^^^^
+
+:Type: string
+
+Mods that cannot be enabled at the same time as this mod. When enabled, the other mods will be unselectable. This mod will also become unselectable if any of the other mods are enabled.
+
+Example:
+
+.. code-block::
+
+   incompatible=theUnwantedMod,theOtherOne
+
+
+.. _scripts-root-modinfo-loadmodafter:
+
+loadModAfter
+^^^^^^^^^^^^
+
+:Type: string
+
+Loads the mod only after the set of mods listed.
+
+Example:
+
+.. code-block::
+
+   loadModAfter=someMod,anotherMod
+
+
+.. _scripts-root-modinfo-loadmodbefore:
+
+loadModBefore
+^^^^^^^^^^^^^
+
+:Type: string
+
+Loads the mod before the set of mods listed.
+
+Example:
+
+.. code-block::
+
+   loadModBefore=someMod,anotherMod
+
+
+.. _scripts-root-modinfo-category:
+
+category
+^^^^^^^^
+
+:Type: string
+
+Category is used for filtering mods in the in-game ModManager. Known categories are "map", "vehicle", "features", "modpack". Using other terms will not generate a new filter category.
+
+
+.. _scripts-root-modinfo-pack:
+
+pack
+^^^^
+
+:Type: string
+
+Name of pack files that need to be loaded by the game. Notably used for `Texture pack <https://pzwiki.net/wiki/Texture_pack>`_ and `Tile pack <https://pzwiki.net/wiki/Mapping>`_.
+
+
+.. _scripts-root-modinfo-tiledef:
 
 tiledef
 ^^^^^^^
@@ -202,16 +222,18 @@ Example:
 
 If you upload your mod with a new tiledef ID, you can update the list to reduce the chance of incompatibility with other mods adding tile packs.
 
-.. _root-modinfo-url:
 
-url
-^^^
+.. _scripts-root-modinfo-versionmin:
+
+versionMin
+^^^^^^^^^^
 
 :Type: string
 
-Shows a URL link in the mod manager on the page of your mod for users to click on to open in their internet browser. The parameter appears as "Homepage" in the mod manager. For a list of valid links, see `URL <https://pzwiki.net/wiki/URL>`_.
+The minimum version of the game the mod can be used on. This number needs to be in the format ``build.major`` at the very least, and not just ``build`` or it won't work. Example ``42.0``.
 
-.. _root-modinfo-versionmax:
+
+.. _scripts-root-modinfo-versionmax:
 
 versionMax
 ^^^^^^^^^^
@@ -220,12 +242,4 @@ versionMax
 
 The maximum version of the game the mod can be used on. This number needs to be in the format ``build.major`` at the very least, and not just ``build`` or it won't work. Example ``42.12``.
 
-.. _root-modinfo-versionmin:
-
-versionMin
-^^^^^^^^^^
-
-:Type: string
-
-The minimum version of the game the mod can be used on. This number needs to be in the format ``build.major`` at the very least, and not just ``build`` or it won't work. Example ``42.0``.
 

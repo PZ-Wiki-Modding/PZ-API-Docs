@@ -1,11 +1,13 @@
 import json, m2r
 from pathlib import Path
-from typing import Any
+from typing import Any, TypeVar, Generic, TYPE_CHECKING
 
 from project import PROJECT_ROOT, INDENT, sanitize_description
 from utility import echo
 from utility.rst import headers
 
+if TYPE_CHECKING:
+    from utility.metadata import Metadata
 
 
 TOC_INSTRUCTIONS_TITLE = "Documentation Instructions"
@@ -31,6 +33,7 @@ def code_value_formatter(object_type: str, key: str, value: str) -> str:
 
 
 class DocObject:
+    headerMetadata: 'Metadata | None' = None
     def __init__(self, object_type: str, object_data: Any, doc: "Documentation", source_data: dict) -> None:
         self.name = object_type
         self.id = self.sanitize_id(object_type)
@@ -70,16 +73,19 @@ class DocObject:
         label = self.get_label()
         name = self.get_name()
         header = headers.SECTION.make(name, label = label)
-        header += sanitized_description.strip()
+        if self.headerMetadata is not None:
+            header += self.headerMetadata.generate(self, self.data) + "\n\n"
+        header += sanitized_description
         return header
 
     def get_object_content(self) -> str:
         return ""
 
+DocObjectT = TypeVar('DocObjectT', bound=DocObject)
 
 
 
-class Documentation:
+class Documentation(Generic[DocObjectT]):
     _doc_types: dict[str, type] = {}
 
     # derived attributes
@@ -88,9 +94,9 @@ class Documentation:
     data_path: Path = PROJECT_ROOT
     data: dict = {}
 
-    docObject = DocObject # default
-    objects: list["DocObject"] = []
-    
+    docObject: type[DocObjectT]
+    objects: list[DocObjectT] = []
+
     toc_path: Path
     toc_elements: list[Path] = []
     toc_description: str = "Documentation description not provided."
