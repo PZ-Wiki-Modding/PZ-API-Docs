@@ -3060,9 +3060,16 @@ Inert for standard rifles. Required only for shotgun-style spread.
 ProjectileSpread
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+:Type: float
+:Needs: ``ItemType`` = ``base:weapon``
 
-No description
+Projectile spread seems to be mostly a visual effect and doesn't affect the actual hit chance of the weapon. The spread will be calculated following a formula close to the following:
+
+.. code-block::
+
+   spread = ProjectileSpread * 10 degrees +/- 2 degrees
+
+With the ``spread`` value being the total cone angle of the projectiles.
 
 .. _item-projectilespreadmodifier:
 
@@ -4095,7 +4102,7 @@ Weight
 :Range: Min: 0.0
 :Default: ``1.0``
 
-`Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``.
+`Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``. You need to make sure to add a `translation <https://pzwiki.net/wiki/Item_(scripts>`_\ #Display_name) to the item or the weight will not work in-game.
 
 `WeightEmpty <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weightempty>`_ is used to set the weight of a drainable when it is empty.
 

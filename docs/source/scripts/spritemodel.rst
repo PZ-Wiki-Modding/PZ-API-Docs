@@ -11,7 +11,7 @@ Hierarchy
 
 **Valid Parent Blocks:**
 
-- :ref:`root-scripts`
+- :ref:`root-spritemodels`
 
 **Possible Child Blocks:**
 

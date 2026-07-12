@@ -41,7 +41,7 @@ Structure
 
 The root element uses a **choice** composition, meaning it can contain any combination of the following elements:
 
-- :ref:`<group> <clothingDecals.type_clothingDecals.group>` (optional): :ref:`type_clothingDecalGroup <clothingDecals.type_clothingDecalGroup>`
+- :ref:`<> <clothingDecals.type_clothingDecals.>` (optional): ````
 
 Root Type Details
 -----------------
@@ -57,13 +57,13 @@ type_clothingDecals
 Elements
 ~~~~~~~~
 
-.. _clothingDecals.type_clothingDecals.group:
+.. _clothingDecals.type_clothingDecals.unknown:
 
-group
-^^^^^
+unknown
+^^^^^^^
 
-:Occurrence: Zero or more
-:Type: :ref:`type_clothingDecalGroup <clothingDecals.type_clothingDecalGroup>`
+:Occurrence: Optional (0 or 1)
+:Type: ``unknown``
 
 Defines a decal group, that is a collection of decals associated to a name for referencing.
 
@@ -82,23 +82,23 @@ type_clothingDecalGroup
 Elements
 ~~~~~~~~
 
-.. _clothingDecals.type_clothingDecalGroup.name:
+.. _clothingDecals.type_clothingDecalGroup.unknown:
 
-name
-^^^^
+unknown
+^^^^^^^
 
-:Occurrence: Required (exactly once)
-:Type: ``xs:string``
+:Occurrence: Optional (0 or 1)
+:Type: ``unknown``
 
 A unique identifier for the decal group.
 
-.. _clothingDecals.type_clothingDecalGroup.decal:
+.. _clothingDecals.type_clothingDecalGroup.unknown:
 
-decal
-^^^^^
+unknown
+^^^^^^^
 
-:Occurrence: Zero or more
-:Type: ``xs:string``
+:Occurrence: Optional (0 or 1)
+:Type: ``unknown``
 
 Refers to a texture file stored inside the folder ``media/textures/shirtdecals/``. The value needs to be the name of the file without the extension (which needs to be ``.png``\ ). Alternatively, it seems the game also accepts decals inside texture packs.
 
@@ -106,12 +106,11 @@ For example, for the following file structure:
 
 .. code-block::
 
-   📁 MyMod
-     📁 media
-       📁 textures
-         📁 shirtdecals
-           📄 myDecal.png
-           📄 anotherDecal.png
+   📁 media
+     📁 textures
+       📁 shirtdecals
+         📄 myDecal.png
+         📄 anotherDecal.png
 
 The decal parameter should have this following syntax:
 
@@ -120,13 +119,13 @@ The decal parameter should have this following syntax:
    <decal>myDecal</decal>
    <decal>anotherDecal</decal>
 
-.. _clothingDecals.type_clothingDecalGroup.group:
+.. _clothingDecals.type_clothingDecalGroup.unknown:
 
-group
-^^^^^
+unknown
+^^^^^^^
 
-:Occurrence: Zero or more
-:Type: ``xs:string``
+:Occurrence: Optional (0 or 1)
+:Type: ``unknown``
 
 Refers to another `group <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingDecals.html#group>`_. This allows that group to use decals of the referenced group.
 

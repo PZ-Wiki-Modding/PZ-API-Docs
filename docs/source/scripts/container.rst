@@ -65,6 +65,7 @@ soundMap
 ^^^^^^^^
 
 :Type: object (object: string->>block, kv: ' ', pairs: ';')
+:Attributes: Can be duplicated
 
 Register a sound script associated to a type of sound for this container. The syntax should be as follows:
 

@@ -142,9 +142,7 @@ No description
 Template
 ^^^^^^^^
 
-:Type: block (block: :ref:`evolvedrecipe`)
+:Type: string
 
-Whenever an item uses this recipe via the `EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipe>`_ parameter, and links to the recipe of the ``Template``\ , that ingredient will be added to both the template and this evolved recipe. This allows you to make variants of the same evolved recipe with different containers, for example for beverages, where the same recipe can be used for a cup, a bottle or a jar.
-
-It will not copy the parameters of the template recipe however, only the ingredients.
+Whenever an `item <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ uses this recipe via the `EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipe>`_ parameter, and links to the recipe of the ``Template``\ , that ingredient will be added to both every evolved recipe with this template value. This allows you to make variants of the same evolved recipe with different containers, for example for beverages, where the same recipe can be used for a cup, a bottle or a jar.
 
