@@ -18,13 +18,13 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`model <scripts-model>`
-- :ref:`container <scripts-container>`
-- :ref:`table <scripts-table>`
 - :ref:`lua <scripts-lua>`
 - :ref:`anim <scripts-anim>`
 - :ref:`window <scripts-window>`
 - :ref:`door <scripts-door>`
+- :ref:`model <scripts-model>`
+- :ref:`table <scripts-table>`
+- :ref:`container <scripts-container>`
 
 
 

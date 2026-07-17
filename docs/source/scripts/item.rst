@@ -39,9 +39,9 @@ This block can be a child of the following blocks:
 This block can have the following child blocks:
 
 - :ref:`component <scripts-component>`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 - :ref:`component Durability <scripts-component-durability>`
 - :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
-- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 
 
 
@@ -4357,7 +4357,7 @@ Weight
 :Default: ``1.0``
 :Minimum: ``0.0``
 
-`Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``.
+`Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``. You need to make sure to add a `translation <https://pzwiki.net/wiki/Item_(scripts>`_\ #Display_name) to the item or the weight will not work in-game.
 
 `WeightEmpty <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weightempty>`_ is used to set the weight of a drainable when it is empty.
 

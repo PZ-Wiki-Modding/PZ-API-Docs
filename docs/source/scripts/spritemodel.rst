@@ -13,7 +13,7 @@ Hierarchy
 
 This block can be a child of the following blocks:
 
-- :ref:`ROOT-Scripts <scripts-root-scripts>`
+- :ref:`ROOT-SpriteModels <scripts-root-spritemodels>`
 
 This block can have the following child blocks:
 

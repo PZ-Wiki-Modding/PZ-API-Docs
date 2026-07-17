@@ -17,10 +17,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`entity <scripts-entity>`
-- :ref:`ISBaseComponentPanel <scripts-isbasecomponentpanel>`
 - :ref:`imports <scripts-imports>`
+- :ref:`entity <scripts-entity>`
 - :ref:`colors <scripts-colors>`
+- :ref:`ISBaseComponentPanel <scripts-isbasecomponentpanel>`
 - :ref:`ISTableLayoutCell <scripts-istablelayoutcell>`
 
 

@@ -94,12 +94,11 @@ For example, for the following file structure:
 
 .. code-block::
 
-   📁 MyMod
-     📁 media
-       📁 textures
-         📁 shirtdecals
-           📄 myDecal.png
-           📄 anotherDecal.png
+   📁 media
+     📁 textures
+       📁 shirtdecals
+         📄 myDecal.png
+         📄 anotherDecal.png
 
 The decal parameter should have this following syntax:
 

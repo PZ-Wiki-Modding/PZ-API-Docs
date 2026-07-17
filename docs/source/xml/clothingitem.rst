@@ -46,11 +46,10 @@ For example, for the following file structure:
 
 .. code-block::
 
-   📁 MyMod
-     📁 media
-       📁 models_X
-         📁 MyAwesomeClothing
-           📄 myClothing.fbx
+   📁 media
+     📁 models_X
+       📁 MyAwesomeClothing
+         📄 myClothing.fbx
 
 These parameters should have this following syntax:
 
@@ -77,11 +76,10 @@ For example, for the following file structure:
 
 .. code-block::
 
-   📁 MyMod
-     📁 media
-       📁 models_X
-         📁 MyAwesomeClothing
-           📄 myClothing.fbx
+   📁 media
+     📁 models_X
+       📁 MyAwesomeClothing
+         📄 myClothing.fbx
 
 These parameters should have this following syntax:
 
@@ -108,11 +106,10 @@ For example, for the following file structure:
 
 .. code-block::
 
-   📁 MyMod
-     📁 media
-       📁 models_X
-         📁 MyAwesomeClothing
-           📄 myClothing.fbx
+   📁 media
+     📁 models_X
+       📁 MyAwesomeClothing
+         📄 myClothing.fbx
 
 These parameters should have this following syntax:
 
@@ -139,11 +136,10 @@ For example, for the following file structure:
 
 .. code-block::
 
-   📁 MyMod
-     📁 media
-       📁 models_X
-         📁 MyAwesomeClothing
-           📄 myClothing.fbx
+   📁 media
+     📁 models_X
+       📁 MyAwesomeClothing
+         📄 myClothing.fbx
 
 These parameters should have this following syntax:
 
@@ -162,7 +158,7 @@ m_GUID
 :Maximum occurence: 1
 :Type: ``xs:string``
 
-The `GUID <https://pzwiki.net/wiki/GUID>`_ of the clothing item.
+The `GUID <https://pzwiki.net/wiki/GUID>`_ of the clothing item. This needs to be the same as the one inside the `fileGuidTable <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/fileGuidTable.html#guid>`_ file for the clothing item to be recognized by the game.
 
 m_Static
 """"""""
@@ -222,12 +218,11 @@ For example, for the following file structure:
 
 .. code-block::
 
-   📁 MyMod
-     📁 media
-       📁 textures
-         📁 CoolMod
-           📄 texture1.png
-           📄 texture2.png
+   📁 media
+     📁 textures
+       📁 CoolMod
+         📄 texture1.png
+         📄 texture2.png
 
 You'd have:
 
@@ -251,12 +246,11 @@ For example, for the following file structure:
 
 .. code-block::
 
-   📁 MyMod
-     📁 media
-       📁 textures
-         📁 CoolMod
-           📄 texture1.png
-           📄 texture2.png
+   📁 media
+     📁 textures
+       📁 CoolMod
+         📄 texture1.png
+         📄 texture2.png
 
 You'd have:
 

@@ -39,18 +39,18 @@ This block can have an ID.
 * ``ContextMenuConfig``
 * ``WallCoveringConfig``
 :Variants: 
+* ``:ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>```
+* ``:ref:`component FluidContainer <scripts-component-fluidcontainer>```
 * ``:ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>```
-* ``:ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>```
 * ``:ref:`component Durability <scripts-component-durability>```
 * ``:ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>```
-* ``:ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>```
-* ``:ref:`component UiConfig <scripts-component-uiconfig>```
 * ``:ref:`component CraftRecipe <scripts-component-craftrecipe>```
-* ``:ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>```
-* ``:ref:`component Resources <scripts-component-resources>```
-* ``:ref:`component FluidContainer <scripts-component-fluidcontainer>```
-* ``:ref:`component SpriteConfig <scripts-component-spriteconfig>```
+* ``:ref:`component UiConfig <scripts-component-uiconfig>```
 * ``:ref:`component CraftBench <scripts-component-craftbench>```
+* ``:ref:`component SpriteConfig <scripts-component-spriteconfig>```
+* ``:ref:`component Resources <scripts-component-resources>```
+* ``:ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>```
+* ``:ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>```
 
 
 Parameters

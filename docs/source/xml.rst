@@ -10,7 +10,8 @@ Table of Contents
    :maxdepth: 2
    :titlesonly:
 
-   xml/animNode
+   xml/animnode
    xml/clothing
-   xml/clothingDecals
-   xml/clothingItem
+   xml/clothingdecals
+   xml/clothingitem
+   xml/fileguidtable

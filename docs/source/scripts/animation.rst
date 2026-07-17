@@ -17,8 +17,8 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`CopyFrame <scripts-copyframe>`
 - :ref:`CopyFrames <scripts-copyframes>`
+- :ref:`CopyFrame <scripts-copyframe>`
 
 
 

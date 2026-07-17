@@ -15,7 +15,6 @@ Hierarchy
 This block can have the following child blocks:
 
 - :ref:`module <scripts-module>`
-- :ref:`spriteModel <scripts-spritemodel>`
 
 
 

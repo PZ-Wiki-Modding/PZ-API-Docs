@@ -18,9 +18,9 @@ This block can be a child of the following blocks:
 This block can have the following child blocks:
 
 - :ref:`box <scripts-box>`
+- :ref:`properties <scripts-properties>`
 - :ref:`polygon <scripts-polygon>`
 - :ref:`cylinder <scripts-cylinder>`
-- :ref:`properties <scripts-properties>`
 
 
 

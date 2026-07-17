@@ -120,7 +120,9 @@ m_Guid
 :Maximum occurence: 1
 :Type: ``xs:string``
 
-The `GUID <https://pzwiki.net/wiki/GUID>`_ of the outfit.
+The `GUID <https://pzwiki.net/wiki/GUID>`_ of the outfit. This is the GUID associated to the clothing in the `fileGuidTable <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/fileGuidTable.html#guid>`_ and `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ files.
+
+To use a vanilla clothing item in your outfit, you need to redefine it in your own mod's fileGuidTable.xml file, otherwise the game will not recognize it.
 
 m_Top
 """""

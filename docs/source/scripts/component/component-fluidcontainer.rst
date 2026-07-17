@@ -19,8 +19,8 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`whitelist <scripts-whitelist>`
 - :ref:`Fluids <scripts-fluids>`
+- :ref:`whitelist <scripts-whitelist>`
 
 
 

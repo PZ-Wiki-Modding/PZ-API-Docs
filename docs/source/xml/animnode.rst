@@ -51,9 +51,10 @@ For example, take the animation file ``Bob_Reload_Rifle_Load.glb`` with the foll
 
 .. code-block::
 
-   📁 anims_X
-     📁 Bob
-       📄 Bob_Reload_Rifle_Load.glb
+   📁 media
+     📁 anims_X
+       📁 Bob
+         📄 Bob_Reload_Rifle_Load.glb
 
 To reference it in the animNode, you would use:
 
@@ -366,10 +367,11 @@ Import another relative animNode file into this one. Needs to be the file name s
 
 .. code-block::
 
-   📁 AnimSets
-     📁 Rifle
-       📄 LoadRifle.xml
-       📄 LoadRifle_Alt.xml
+   📁 media
+     📁 AnimSets
+       📁 Rifle
+         📄 LoadRifle.xml
+         📄 LoadRifle_Alt.xml
 
 The LoadRifle_Alt.xml file can import the LoadRifle.xml file by using:
 

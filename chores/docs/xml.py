@@ -233,8 +233,8 @@ class XMLDocumentation(Documentation):
     toc_description = TOC_DESCRIPTION
 
     def pre_toc(self) -> None:
-        for xml_type in self.data.keys():
-            xml_file_path = Path(f"xml/{xml_type}")
+        for obj in self.objects:
+            xml_file_path = Path(f"xml/{obj.id}")
             self.toc_elements.append(xml_file_path)
 
     # def generate_instructions(self) -> str | None:

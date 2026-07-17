@@ -125,9 +125,9 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
+- :ref:`outputs <scripts-outputs>`
 - :ref:`inputs <scripts-inputs>`
 - :ref:`overlayMapper <scripts-overlaymapper>`
-- :ref:`outputs <scripts-outputs>`
 - :ref:`itemMapper <scripts-itemmapper>`
 
 This block requires these following children to be valid:

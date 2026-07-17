@@ -17,9 +17,9 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`position <scripts-position>`
-- :ref:`switchSeat <scripts-switchseat>`
 - :ref:`anim <scripts-anim>`
+- :ref:`switchSeat <scripts-switchseat>`
+- :ref:`position <scripts-position>`
 
 
 

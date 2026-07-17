@@ -28,31 +28,31 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`model <scripts-model>`
-- :ref:`entity <scripts-entity>`
-- :ref:`ragdoll <scripts-ragdoll>`
-- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
-- :ref:`energy <scripts-energy>`
-- :ref:`physicsShape <scripts-physicsshape>`
-- :ref:`clock <scripts-clock>`
-- :ref:`timedAction <scripts-timedaction>`
-- :ref:`physicsHitReaction <scripts-physicshitreaction>`
-- :ref:`fixing <scripts-fixing>`
-- :ref:`item <scripts-item>`
-- :ref:`character_profession_definition <scripts-character_profession_definition>`
-- :ref:`vehicle <scripts-vehicle>`
-- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
 - :ref:`template <scripts-template>`
+- :ref:`xuiSkin <scripts-xuiskin>`
+- :ref:`animation <scripts-animation>`
+- :ref:`mannequin <scripts-mannequin>`
+- :ref:`clock <scripts-clock>`
+- :ref:`imports <scripts-imports>`
+- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
 - :ref:`animationsMesh <scripts-animationsmesh>`
 - :ref:`soundTimeline <scripts-soundtimeline>`
-- :ref:`animation <scripts-animation>`
+- :ref:`item <scripts-item>`
+- :ref:`entity <scripts-entity>`
+- :ref:`physicsShape <scripts-physicsshape>`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`physicsHitReaction <scripts-physicshitreaction>`
+- :ref:`fixing <scripts-fixing>`
+- :ref:`ragdoll <scripts-ragdoll>`
+- :ref:`character_profession_definition <scripts-character_profession_definition>`
 - :ref:`fluid <scripts-fluid>`
-- :ref:`character_trait_definition <scripts-character_trait_definition>`
 - :ref:`sound <scripts-sound>`
-- :ref:`xuiSkin <scripts-xuiskin>`
+- :ref:`energy <scripts-energy>`
 - :ref:`craftRecipe <scripts-craftrecipe>`
-- :ref:`imports <scripts-imports>`
-- :ref:`mannequin <scripts-mannequin>`
+- :ref:`model <scripts-model>`
+- :ref:`character_trait_definition <scripts-character_trait_definition>`
+- :ref:`timedAction <scripts-timedaction>`
+- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
 
 
 
