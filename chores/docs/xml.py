@@ -6,7 +6,7 @@ from pathlib import Path
 from documentation import Documentation, DocObject, code_value_formatter
 from project import PROJECT_ROOT, sanitize_description
 from utility.metadata import Metadata
-from utility.rst import headers
+from utility.rst import Headers
 
 
 
@@ -89,7 +89,7 @@ def _make_type_definition(obj: "XMLDocObject", type_name: str, type_data: dict, 
     # make title if requested
     if title:
         label = get_type_label(object_type, type_name)
-        out += headers.SUBSECTION.make(type_name, label)
+        out += Headers.SUBSECTION.make(type_name, label)
 
     # make type metadata
     out += type_metadata.generate(obj, {
@@ -101,7 +101,7 @@ def _make_type_definition(obj: "XMLDocObject", type_name: str, type_data: dict, 
     elements = type_data.get("elements", [])
     if elements:
         # title with label
-        out += headers.SUBSUBSECTION.make("Elements")
+        out += Headers.SUBSUBSECTION.make("Elements")
         for element_data in elements:
             out += _make_element_definition(obj, element_data)
     
@@ -109,21 +109,21 @@ def _make_type_definition(obj: "XMLDocObject", type_name: str, type_data: dict, 
     attributes = type_data.get("attributes", [])
     if attributes:
         # title with label
-        out += headers.SUBSUBSECTION.make("Attributes")
+        out += Headers.SUBSUBSECTION.make("Attributes")
         for attribute_data in attributes:
             out += _make_attribute_definition(obj, attribute_data)
 
     # make restrictions list
     restrictions = type_data.get("restrictions", [])
     if restrictions:
-        out += headers.SUBSUBSECTION.make("Restrictions")
+        out += Headers.SUBSUBSECTION.make("Restrictions")
         out += _make_restriction_definition(object_type, object_data, restrictions)
         
     return out
 
 def _make_element_definition(obj: "XMLDocObject", element_data: dict) -> str:
     element_name = element_data['name']
-    out = headers.PARAGRAPH.make(element_name)
+    out = Headers.PARAGRAPH.make(element_name)
 
     # make element metadata
     out += element_metadata.generate(obj, element_data['metadata']) + "\n\n"
@@ -136,7 +136,7 @@ def _make_element_definition(obj: "XMLDocObject", element_data: dict) -> str:
     return out
 
 def _make_attribute_definition(obj: "XMLDocObject", attribute_data: dict) -> str:
-    out = headers.PARAGRAPH.make(attribute_data['name'])
+    out = Headers.PARAGRAPH.make(attribute_data['name'])
 
     # make attribute metadata
     out += attribute_metadata.generate(obj, attribute_data['metadata']) + "\n\n"
@@ -181,7 +181,7 @@ class XMLDocObject(DocObject):
         # create file pattern doc for the XML file
         patterns = object_data.get("patterns", [])
         if patterns:
-            content += headers.SUBSECTION.make(PATTERN_TITLE)
+            content += Headers.SUBSECTION.make(PATTERN_TITLE)
             content += PATTERN_DESCRIPTION.strip() + "\n\n"
             for pattern in patterns:
                 content += f"- ``{pattern}``\n"
@@ -197,7 +197,7 @@ class XMLDocObject(DocObject):
 
         # root element
         label = get_type_label(object_type, root_type)
-        content += headers.SUBSECTION.make(ROOT_TITLE, label)
+        content += Headers.SUBSECTION.make(ROOT_TITLE, label)
         content += root_metadata.generate(self, root_element) + "\n\n"
         content += ROOT_DESCRIPTION.strip() + "\n\n"
 

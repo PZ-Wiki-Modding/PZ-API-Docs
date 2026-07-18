@@ -3,7 +3,9 @@
 container
 =========
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 
@@ -31,7 +33,9 @@ Parameters
 capacity
 ^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 No description provided.
 
@@ -41,7 +45,9 @@ No description provided.
 conditionAffectsCapacity
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Sets whenever the condition of the part will impact the `capacity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-capacity>`_. A lower condition will negatively impact the container's capacity.
 
@@ -51,7 +57,9 @@ Sets whenever the condition of the part will impact the `capacity <https://pz-wi
 contentType
 ^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Unclear how this parameter works exactly. The game uses it to define the "content" of tires and gas tanks by providing the string keys ``Gasoline`` or ``Air``. It seems to simply remove any item container being used as the container for this part.
 
@@ -61,7 +69,9 @@ Unclear how this parameter works exactly. The game uses it to define the "conten
 seat
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The seat ID of this container. When present, this container can be used as a seat for a vehicle.
 
@@ -71,7 +81,9 @@ The seat ID of this container. When present, this container can be used as a sea
 soundMap
 ^^^^^^^^
 
-:Type: object (object: string->>block, kv: ' ', pairs: ';')
+.. attribute:: Type
+
+   object (object: string->>block, kv: ' ', pairs: ';')
 
 Register a sound script associated to a type of sound for this container. The syntax should be as follows:
 
@@ -95,7 +107,9 @@ The ``soundRef`` should be a reference to a `sound block <https://pz-wiki-moddin
 test
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Refers to a Lua global function returning a boolean which is used to determine whether an item can be put in this container when trying to transfer items.
 

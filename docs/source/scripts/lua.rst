@@ -3,7 +3,9 @@
 lua
 ===
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 

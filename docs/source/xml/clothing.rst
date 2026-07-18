@@ -64,12 +64,19 @@ The following file patterns are used to determine what the valid path for the XM
 Root Details
 ------------
 
-:Element: outfitManager
+.. attribute:: Element
+
+   outfitManager
 
 The root element is the top-level XML element that contains all other elements in the XML file.
 
-:Type: :ref:`type_clothing <clothing-type_clothing>`
-:Composition: all
+.. attribute:: Type
+
+   :ref:`type_clothing <clothing-type_clothing>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
 ^^^^^^^^
@@ -77,18 +84,34 @@ Elements
 m_FemaleOutfits
 """""""""""""""
 
-:Minimum occurence: 0
-:Maximum occurence: unbounded
-:Type: :ref:`type_outfit <clothing-type_outfit>`
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_outfit <clothing-type_outfit>`
 
 Define an outfit with `m_FemaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-femaleoutfits>`_ and `m_MaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-maleoutfits>`_ respectively for the female and male characters. If one of the two is not defined, it won't spawn naturally on the other gender in the game. Both male and female outfits can (and probably should) keep the same `m_Name <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-name>`_ and `m_Guid <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-guid>`_ values.
 
 m_MaleOutfits
 """""""""""""
 
-:Minimum occurence: 0
-:Maximum occurence: unbounded
-:Type: :ref:`type_outfit <clothing-type_outfit>`
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_outfit <clothing-type_outfit>`
 
 Define an outfit with `m_FemaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-femaleoutfits>`_ and `m_MaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-maleoutfits>`_ respectively for the female and male characters. If one of the two is not defined, it won't spawn naturally on the other gender in the game. Both male and female outfits can (and probably should) keep the same `m_Name <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-name>`_ and `m_Guid <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-guid>`_ values.
 
@@ -98,8 +121,13 @@ Define an outfit with `m_FemaleOutfits <https://pz-wiki-modding.github.io/PZ-API
 type_outfit
 -----------
 
-:Type: :ref:`type_outfit <clothing-type_outfit>`
-:Composition: all
+.. attribute:: Type
+
+   :ref:`type_outfit <clothing-type_outfit>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
 ^^^^^^^^
@@ -107,18 +135,34 @@ Elements
 m_Name
 """"""
 
-:Minimum occurence: 1
-:Maximum occurence: 1
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The unique identifier for the outfit. Preferably keep it the same for the male and female variants.
 
 m_Guid
 """"""
 
-:Minimum occurence: 1
-:Maximum occurence: 1
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The `GUID <https://pzwiki.net/wiki/GUID>`_ of the outfit. This is the GUID associated to the clothing in the `fileGuidTable <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/fileGuidTable.html#guid>`_ and `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ files.
 
@@ -127,63 +171,119 @@ To use a vanilla clothing item in your outfit, you need to redefine it in your o
 m_Top
 """""
 
-:Minimum occurence: 0
-:Maximum occurence: 1
-:Type: ``xs:boolean``
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
 
 If set to ``true``\ , the outfit will spawn with random pants or shirts, respectivement for the parameters `m_Pants <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-pants>`_ and `m_Top <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-top>`_. When those two parameters are not set, they default to ``true``.
 
 m_Pants
 """""""
 
-:Minimum occurence: 0
-:Maximum occurence: 1
-:Type: ``xs:boolean``
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
 
 No description provided.
 
 m_AllowPantsHue
 """""""""""""""
 
-:Minimum occurence: 0
-:Maximum occurence: 1
-:Type: ``xs:boolean``
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
 
 No description provided.
 
 m_AllowTopTint
 """"""""""""""
 
-:Minimum occurence: 0
-:Maximum occurence: 1
-:Type: ``xs:boolean``
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
 
 No description provided.
 
 m_AllowPantsTint
 """"""""""""""""
 
-:Minimum occurence: 0
-:Maximum occurence: 1
-:Type: ``xs:boolean``
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
 
 No description provided.
 
 m_AllowTShirtDecal
 """"""""""""""""""
 
-:Minimum occurence: 0
-:Maximum occurence: 1
-:Type: ``xs:boolean``
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
 
 No description provided.
 
 m_items
 """""""
 
-:Minimum occurence: 1
-:Maximum occurence: unbounded
-:Type: :ref:`type_item <clothing-type_item>`
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_item <clothing-type_item>`
 
 No description provided.
 
@@ -193,8 +293,13 @@ No description provided.
 type_item
 ---------
 
-:Type: :ref:`type_item <clothing-type_item>`
-:Composition: all
+.. attribute:: Type
+
+   :ref:`type_item <clothing-type_item>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
 ^^^^^^^^
@@ -202,27 +307,51 @@ Elements
 probability
 """""""""""
 
-:Minimum occurence: 1
-:Maximum occurence: 1
-:Type: ``xs:float``
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:float``
 
 The probability of the item being selected for the outfit. Needs to be a value between 0.0 and 1.0.
 
 itemGUID
 """"""""
 
-:Minimum occurence: 1
-:Maximum occurence: 1
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ of the clothing item that should be part of the outfit. You can define extra outfits thanks to the `subItems <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-subitems>`_ parameter.
 
 subItems
 """"""""
 
-:Minimum occurence: 0
-:Maximum occurence: unbounded
-:Type: :ref:`type_subItem <clothing-type_subitem>`
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_subItem <clothing-type_subitem>`
 
 Define a sub-item for a specific clothing item used in the outfit, so other items can also be picked.
 
@@ -232,8 +361,13 @@ Define a sub-item for a specific clothing item used in the outfit, so other item
 type_subItem
 ------------
 
-:Type: :ref:`type_subItem <clothing-type_subitem>`
-:Composition: all
+.. attribute:: Type
+
+   :ref:`type_subItem <clothing-type_subitem>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
 ^^^^^^^^
@@ -241,9 +375,17 @@ Elements
 itemGUID
 """"""""
 
-:Minimum occurence: 1
-:Maximum occurence: 1
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ of the clothing item that should be part of the outfit. You can define extra outfits thanks to the `subItems <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-subitems>`_ parameter.
 

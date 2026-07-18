@@ -3,7 +3,9 @@
 entity
 ======
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a tile with special properties.
 
@@ -39,8 +41,13 @@ ID
 
 This block can have an ID.
 
-:Optional: ['xuiSkin']
-:Can have spaces: False
+.. attribute:: Optional
+
+   ['xuiSkin']
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -51,7 +58,9 @@ Parameters
 LuaWindowClass
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -61,7 +70,9 @@ No description provided.
 DisplayName
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -71,7 +82,9 @@ No description provided.
 Icon
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

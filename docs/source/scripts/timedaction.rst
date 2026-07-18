@@ -3,7 +3,9 @@
 timedAction
 ===========
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 The timedAction script block is used to define an action which can be used in `craftRecipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_. You can specify the animation played, props in hands during the action, the sound played. Also define its impact on the player character, including effects on calories burned and body heat generation.
 
@@ -59,8 +61,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -71,7 +78,9 @@ Parameters
 actionAnim
 ^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The actionAnim parameter is used to define the animation played during a timed action. It links to a `PerformingAction <https://pzwiki.net/wiki/PerformingAction>`_ define in the action `AnimSets <https://pzwiki.net/wiki/AnimSet>`_ of the player.
 
@@ -81,7 +90,9 @@ The actionAnim parameter is used to define the animation played during a timed a
 animVarKey
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 The `animVarKey <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/timedaction.html#animVarKey>`_ and `animVarVal <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/timedaction.html#animVarVal>`_ parameters are used together to link to a specific `AnimNode Conditions <https://pzwiki.net/wiki/Conditions>`_. ``animVarKey`` will correspond to the ``m_Name`` field and ``animVarVal`` to the ``m_Value`` field.
 
@@ -116,7 +127,9 @@ You can define those parameters in the timedAction as follows:
 animVarVal
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`animVarKey <scripts-timedaction-animvarkey>`.
 
@@ -126,7 +139,9 @@ See parameter :ref:`animVarKey <scripts-timedaction-animvarkey>`.
 completionSound
 ^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 Defines the sound played at the end of the action.
 
@@ -136,7 +151,9 @@ Defines the sound played at the end of the action.
 metabolics
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 The metabolics parameter is used to define the impact of the action on the player character's metabolics, such as the calories burn rate or body heat generation. It uses predefined enumeration values to specify the multiplier on the metabolism. You can find a list of metabolic types and their associated values in the `Metabolics <https://pz-wiki-modding.github.io/PZ-API-Docs/java/metabolics.html>`_ documentation.
 
@@ -146,7 +163,9 @@ The metabolics parameter is used to define the impact of the action on the playe
 muscleStrainFactor
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Muscle strain is an effect which applies to the character limbs, simulating the fatigue and strain of performing certain actions. A timedAction script can be set to apply muscle strain to specific limbs and based on the level of the character in a specific skill.
 
@@ -166,7 +185,9 @@ If `muscleStrainSkill <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/tim
 muscleStrainParts
 ^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 See parameter :ref:`muscleStrainFactor <scripts-timedaction-musclestrainfactor>`.
 
@@ -176,7 +197,9 @@ See parameter :ref:`muscleStrainFactor <scripts-timedaction-musclestrainfactor>`
 muscleStrainSkill
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`muscleStrainFactor <scripts-timedaction-musclestrainfactor>`.
 
@@ -186,7 +209,9 @@ See parameter :ref:`muscleStrainFactor <scripts-timedaction-musclestrainfactor>`
 prop1
 ^^^^^
 
-:Type: string (block: :ref:`model <scripts-model>`, with :ref:`module`)
+.. attribute:: Type
+
+   string (block: :ref:`model <scripts-model>`, with :ref:`module`)
 
 No description provided.
 
@@ -196,7 +221,9 @@ No description provided.
 prop2
 ^^^^^
 
-:Type: string (block: :ref:`model <scripts-model>`, with :ref:`module`)
+.. attribute:: Type
+
+   string (block: :ref:`model <scripts-model>`, with :ref:`module`)
 
 No description provided.
 
@@ -206,7 +233,9 @@ No description provided.
 sound
 ^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 Defines the sound played during the action.
 
@@ -216,9 +245,17 @@ Defines the sound played during the action.
 soundTime
 ^^^^^^^^^
 
-:Type: string
-:Is useless: True
-:Default: ``action_start``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Is useless
+
+   True
+
+.. attribute:: Default
+
+   ``action_start``
 
 This parameter is used in the Lua to indicate when the sound should be played during the timed action. This is notably used to play a sound at the end or the start of the action during `crafting <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftRecipe.html#timedAction>`_.
 

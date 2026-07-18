@@ -3,7 +3,9 @@
 ISTableLayoutCell
 =================
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 
@@ -22,8 +24,13 @@ ID
 
 This block can have an ID.
 
-:Optional: ['xuiSkin']
-:Can have spaces: False
+.. attribute:: Optional
+
+   ['xuiSkin']
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters

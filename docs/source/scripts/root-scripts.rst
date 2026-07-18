@@ -3,8 +3,13 @@
 ROOT-Scripts
 ============
 
-:Soft Override: Unknown
-:Is Root: True
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
 
 The root of a script file. Blocks than need to be in the root of the document should have this as parent.
 

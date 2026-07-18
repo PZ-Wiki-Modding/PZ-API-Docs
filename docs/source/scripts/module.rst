@@ -3,7 +3,9 @@
 module
 ======
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 A module serves as a namespace for your scripts and is the barebone for most scripts you will create in your mod. The game's namespace is ``Base``\ , and while you can insert in it, it is recommended to use your own module for your mod's scripts to avoid conflicts with the game and other mods.
 
@@ -61,8 +63,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters

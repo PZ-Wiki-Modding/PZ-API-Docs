@@ -3,7 +3,9 @@
 craftRecipe
 ===========
 
-:Soft Override: True
+.. attribute:: Soft Override
+
+   True
 
 The 'craftRecipe' script block is used to define a crafting recipe, which allows players to craft items or tiles in the game based on the parent script block. For example, a craftRecipe defined inside a `module <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/module.html>`_ will be a recipe to craft an item usually, while when defined inside an `entity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/entity.html>`_ it will be the building recipe for that entity.
 
@@ -140,8 +142,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -152,8 +159,13 @@ Parameters
 AllowBatchCraft
 ^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 The AllowBatchCraft parameter is used to allow the recipe to be crafted in batches. This will make a slider appear on the crafting to craft multiple ones at once. Needs to be a boolean and default is ``true``\ , set to ``false`` to disable batch craft.
 
@@ -163,8 +175,13 @@ The AllowBatchCraft parameter is used to allow the recipe to be crafted in batch
 Animation
 ^^^^^^^^^
 
-:Type: string
-:Is useless: True
+.. attribute:: Type
+
+   string
+
+.. attribute:: Is useless
+
+   True
 
 No description provided.
 
@@ -174,7 +191,9 @@ No description provided.
 AutoLearnAll
 ^^^^^^^^^^^^
 
-:Type: object (object: string->>integer, kv: ':', pairs: ';')
+.. attribute:: Type
+
+   object (object: string->>integer, kv: ':', pairs: ';')
 
 The `AutoLearnAll <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#autolearnall>`_ parameter specifies that all the provided skills and their associated level need to be reached to automatically learn the recipe. On the other hand, `AutoLearnAny <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#autolearnany>`_ specifies that at least one of the skills and its associated level need to be reached to automatically learn the recipe. Both can also be used together.
 
@@ -202,7 +221,9 @@ For example:
 AutoLearnAny
 ^^^^^^^^^^^^
 
-:Type: object (object: string->>integer, kv: ':', pairs: ';')
+.. attribute:: Type
+
+   object (object: string->>integer, kv: ':', pairs: ';')
 
 See parameter :ref:`AutoLearnAll <scripts-craftrecipe-autolearnall>`.
 
@@ -212,8 +233,13 @@ See parameter :ref:`AutoLearnAll <scripts-craftrecipe-autolearnall>`.
 CanWalk
 ^^^^^^^
 
-:Type: boolean
-:Default: ``False``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``False``
 
 Whether the player can walk while crafting this recipe.
 
@@ -223,8 +249,13 @@ Whether the player can walk while crafting this recipe.
 category
 ^^^^^^^^
 
-:Type: string
-:Default: ``Miscellaneous``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``Miscellaneous``
 
 The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in crafting menu. Currently doesn't support translations (confirmed last 42.19.0).
 
@@ -234,7 +265,9 @@ The category under which the recipe will be listed in the crafting menu. Helps t
 Icon
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Specifies the icon associated with this crafting recipe. The icon needs to be located in ``media/textures``\ , for example ``media/textures/myIcon.png`` will be refered to as ``Icon = myIcon,``.
 
@@ -246,7 +279,9 @@ This seems to be used only once in the vanilla recipes with the entry ``Icon = I
 MetaRecipe
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 A meta recipe is used to link two recipes so that if the meta recipe is known then this recipe will be known. The opposite however is not true, if the main recipe is known the meta recipe is not automatically known.
 
@@ -272,7 +307,9 @@ In this example below, the recipe ``MyRecipe1`` will be known if the recipe ``My
 NeedToBeLearn
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Whether the recipe needs to be learned before it can be crafted.
 
@@ -282,7 +319,9 @@ Whether the recipe needs to be learned before it can be crafted.
 OnCreate
 ^^^^^^^^
 
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 Various callback functions can be added to a recipe to trigger at specific moments during the crafting process:
 
@@ -324,7 +363,9 @@ For `OnTest <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.h
 OnTest
 ^^^^^^
 
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
 
@@ -334,7 +375,9 @@ See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
 OnFailed
 ^^^^^^^^
 
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
 
@@ -344,7 +387,9 @@ See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
 OnUpdate
 ^^^^^^^^
 
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
 
@@ -354,7 +399,9 @@ See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
 OnAddToMenu
 ^^^^^^^^^^^
 
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 Called when the recipe gets added to the recipe menu. Return ``true`` to add it, and return ``false`` to stop it from getting added to the menu.
 
@@ -364,7 +411,9 @@ Called when the recipe gets added to the recipe menu. Return ``true`` to add it,
 overlayStyle
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -374,7 +423,9 @@ No description provided.
 recipeGroup
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -384,7 +435,9 @@ No description provided.
 ResearchAll
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`ResearchSkillLevel <scripts-craftrecipe-researchskilllevel>`.
 
@@ -394,7 +447,9 @@ See parameter :ref:`ResearchSkillLevel <scripts-craftrecipe-researchskilllevel>`
 ResearchAny
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`ResearchSkillLevel <scripts-craftrecipe-researchskilllevel>`.
 
@@ -404,8 +459,13 @@ See parameter :ref:`ResearchSkillLevel <scripts-craftrecipe-researchskilllevel>`
 ResearchSkillLevel
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``-1``
 
 `ResearchSkillLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#researchskilllevel>`_ is used to define the skill level required for `ResearchAll <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#researchall>`_ and `ResearchAny <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#researchany>`_ to be able to research the recipe. Having the `inventive trait <https://pzwiki.net/wiki/Inventive>`_ will lower the required level by 2.
 
@@ -417,7 +477,9 @@ ResearchSkillLevel
 SkillRequired
 ^^^^^^^^^^^^^
 
-:Type: object (object: string->>integer, kv: ':', pairs: ';')
+.. attribute:: Type
+
+   object (object: string->>integer, kv: ':', pairs: ';')
 
 Specifies the skill level required to perform this crafting action. It should be formatted this way:
 
@@ -443,8 +505,13 @@ For example:
 tags
 ^^^^
 
-:Type: array (array of string, separator: ';')
-:Required: True
+.. attribute:: Type
+
+   array (array of string, separator: ';')
+
+.. attribute:: Required
+
+   True
 
 Specifies specific conditions which need to be respected to craft this item. At least one crafting bench tag is necessary for the craft to be recognized, such as ``AnySurfaceCraft``. The syntax is as follows:
 
@@ -472,8 +539,13 @@ You can find a list of tags available on the `wiki <https://pzwiki.net/wiki/Craf
 time
 ^^^^
 
-:Type: integer
-:Default: ``50``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``50``
 
 The time it takes to craft the item, not using a specific unit of time so refer to the vanilla recipes to get an idea of what value to use.
 
@@ -483,7 +555,9 @@ The time it takes to craft the item, not using a specific unit of time so refer 
 timedAction
 ^^^^^^^^^^^
 
-:Type: block (block: :ref:`timedAction <scripts-timedaction>`)
+.. attribute:: Type
+
+   block (block: :ref:`timedAction <scripts-timedaction>`)
 
 Refers to a timed action script block to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
 
@@ -493,7 +567,9 @@ Refers to a timed action script block to trigger during the crafting process, fo
 Tooltip
 ^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Description of the crafting which is shown in the crafting menu. The value needs be a key in the `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ translation file. For example:
 
@@ -513,7 +589,9 @@ And in the translation file:
 xpAward
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Specifies the experience points awarded for crafting this item. The parameter should be formatted this way:
 

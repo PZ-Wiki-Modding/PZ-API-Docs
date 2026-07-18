@@ -3,7 +3,9 @@
 anim
 ====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 
@@ -23,8 +25,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -35,7 +42,9 @@ Parameters
 anim
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -45,7 +54,9 @@ No description provided.
 rate
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -55,7 +66,9 @@ No description provided.
 angle
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -65,7 +78,9 @@ No description provided.
 sound
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -75,7 +90,9 @@ No description provided.
 reverse
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -85,7 +102,9 @@ No description provided.
 animate
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

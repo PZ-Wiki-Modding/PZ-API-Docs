@@ -3,7 +3,9 @@
 tile
 ====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines some tile properties of a specific tile on a tileset.
 
@@ -38,7 +40,9 @@ Parameters
 xy
 ^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 The position of the tile in the tileset.
 
@@ -50,7 +54,9 @@ If inside a `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scr
 IsProfessionTrait
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -60,7 +66,9 @@ No description provided.
 runtime
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -70,7 +78,9 @@ No description provided.
 modelScript
 ^^^^^^^^^^^
 
-:Type: block (block: :ref:`model <scripts-model>`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`model <scripts-model>`, with :ref:`module`)
 
 No description provided.
 
@@ -80,7 +90,9 @@ No description provided.
 translate
 ^^^^^^^^^
 
-:Type: array (array of integer, separator: ' ')
+.. attribute:: Type
+
+   array (array of integer, separator: ' ')
 
 No description provided.
 
@@ -90,7 +102,9 @@ No description provided.
 rotate
 ^^^^^^
 
-:Type: array (array of integer, separator: ' ')
+.. attribute:: Type
+
+   array (array of integer, separator: ' ')
 
 No description provided.
 
@@ -100,7 +114,9 @@ No description provided.
 scale
 ^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
 
 No description provided.
 
@@ -110,7 +126,9 @@ No description provided.
 animation
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -120,7 +138,9 @@ No description provided.
 animationTime
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

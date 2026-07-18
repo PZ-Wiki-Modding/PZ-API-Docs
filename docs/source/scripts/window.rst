@@ -3,7 +3,9 @@
 window
 ======
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 
@@ -31,7 +33,9 @@ Parameters
 openable
 ^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 No description provided.
 

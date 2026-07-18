@@ -3,7 +3,9 @@
 Fluids
 ======
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Used to make a list of fluids to appear in a `FluidContainer component <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/component/component_fluidcontainer.html>`_.
 
@@ -31,7 +33,9 @@ Parameters
 fluid
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Refers to a fluid script
 

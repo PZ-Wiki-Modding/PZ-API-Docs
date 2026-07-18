@@ -3,8 +3,13 @@
 rule
 ====
 
-:Soft Override: Unknown
-:No comma: True
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: No comma
+
+   True
 
 A ``rule`` block defines a conversion rule for the `BMP to TMX <https://pzwiki.net/wiki/BMP_to_TMX>`_ conversion process in the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_. It is used to associate a color on the BMP for the vegetation or main image to a list of tiles to apply on a specific layer in the TMX.
 
@@ -45,7 +50,9 @@ Parameters
 label
 ^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -55,7 +62,9 @@ No description provided.
 bitmap
 ^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 A value of ``1`` will have this rule used for the vegetation image, while a value of ``0`` will have it used for the main tiles image. Trees will for example use ``1`` while ground tiles will use ``0``.
 
@@ -65,7 +74,9 @@ A value of ``1`` will have this rule used for the vegetation image, while a valu
 tiles
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 A list of tiles to apply randomly for this color. You can also use an alias block here to reference a list of tiles.
 
@@ -119,7 +130,9 @@ Or with one or more alias blocks:
 color
 ^^^^^
 
-:Type: array (array of integer, separator: ' ')
+.. attribute:: Type
+
+   array (array of integer, separator: ' ')
 
 The RGB color to replace with the tiles in the ``tiles`` parameter. This is the color you painted in your image file to associate to this rule.
 
@@ -129,7 +142,9 @@ The RGB color to replace with the tiles in the ``tiles`` parameter. This is the 
 layer
 ^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The layer to apply the tiles on.
 

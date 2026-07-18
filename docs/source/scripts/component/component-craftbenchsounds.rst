@@ -3,8 +3,13 @@
 component CraftBenchSounds
 ==========================
 
-:Soft Override: Unknown
-:Is Variant of: :ref:`component <scripts-component>`
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
 
 
 
@@ -32,7 +37,9 @@ Parameters
 AddFuel
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -42,7 +49,9 @@ No description provided.
 LightFire
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -52,7 +61,9 @@ No description provided.
 Running
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -62,7 +73,9 @@ No description provided.
 AddInput
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -72,7 +85,9 @@ No description provided.
 RemoveInput
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -82,7 +97,9 @@ No description provided.
 StartCraft
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

@@ -3,7 +3,9 @@
 animationsMesh
 ==============
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines an animated mesh, usually for characters or animals.
 
@@ -22,8 +24,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -34,7 +41,9 @@ Parameters
 animationDirectory
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -44,7 +53,9 @@ No description provided.
 animationPrefix
 ^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -54,7 +65,9 @@ No description provided.
 keepMeshAnimations
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -64,7 +77,9 @@ No description provided.
 meshFile
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -74,7 +89,9 @@ No description provided.
 postProcess
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

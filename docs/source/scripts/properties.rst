@@ -3,7 +3,9 @@
 properties
 ==========
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Provide properties for a `tile <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/tile.html>`_.
 

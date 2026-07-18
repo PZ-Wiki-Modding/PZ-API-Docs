@@ -3,9 +3,17 @@
 ROOT-MapInfo
 ============
 
-:Soft Override: Unknown
-:Is Root: True
-:No comma: True
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
+
+.. attribute:: No comma
+
+   True
 
 The ``map.info`` file is used to define the map's information. It is used by the game to display the map in the map selection screen and to load the map into the world.
 It needs to be located in:
@@ -32,7 +40,9 @@ Parameters
 title
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Title of the map.
 
@@ -42,7 +52,9 @@ Title of the map.
 description
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Description of the map.
 
@@ -52,7 +64,9 @@ Description of the map.
 lots
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Refers to the world map the map will be loaded into. For a map which is inside the vanilla world map, use ``lots=Muldraugh, KY``.
 
@@ -62,7 +76,9 @@ Refers to the world map the map will be loaded into. For a map which is inside t
 fixed2x
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Boolean which fixes rendering issues. Leave it as ``true`` if you are not sure.
 
@@ -72,7 +88,9 @@ Boolean which fixes rendering issues. Leave it as ``true`` if you are not sure.
 zoomX
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Position parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
@@ -82,7 +100,9 @@ Position parameter used to define the position of the camera on the world map wh
 zoomY
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Position parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
@@ -92,7 +112,9 @@ Position parameter used to define the position of the camera on the world map wh
 zoomS
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Zoom parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
@@ -102,7 +124,9 @@ Zoom parameter used to define the position of the camera on the world map when c
 demoVideo
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 `Video file <https://pzwiki.net/wiki/File_formats#Video_format>`_ used to showcase the map when selecting it.
 

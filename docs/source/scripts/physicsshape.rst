@@ -3,7 +3,9 @@
 physicsShape
 ============
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a 3D object's physical shape to be used as a world object.
 
@@ -34,8 +36,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -46,7 +53,9 @@ Parameters
 mesh
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The path to the model's mesh file, relative to the folder ``media/models_X``.
 
@@ -56,7 +65,9 @@ The path to the model's mesh file, relative to the folder ``media/models_X``.
 translate
 ^^^^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
 
 The position offset of the model, in the format ``x y z``.
 
@@ -66,7 +77,9 @@ The position offset of the model, in the format ``x y z``.
 rotate
 ^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
 
 The rotation of the model, in the format ``x y z``.
 

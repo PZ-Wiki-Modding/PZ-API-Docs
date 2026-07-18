@@ -3,8 +3,13 @@
 alias
 =====
 
-:Soft Override: Unknown
-:No comma: True
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: No comma
+
+   True
 
 Defines an alias for a list of tiles. This can be directly be refered to in `rule <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/rule.html>`_ blocks to list a bunch of tiles in different blocks or to organize them by type. Say for example you can list all the trees in an alias to use later, or split by tree type to easily associate to a color.
 
@@ -81,7 +86,9 @@ Parameters
 name
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -91,7 +98,9 @@ No description provided.
 tiles
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

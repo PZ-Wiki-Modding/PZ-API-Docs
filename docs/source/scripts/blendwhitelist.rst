@@ -3,7 +3,9 @@
 BlendWhiteList
 ==============
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 BlendWhiteList defines a whitelist for fluids that the fluid can be blended with, while BlendBlackList defines a blacklist. By default those blocks are set whitelist, but you can add one of the available parameters to indicate whenever the block is a whitelist or a blacklist.
 
@@ -37,7 +39,9 @@ Parameters
 whitelist
 ^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Indicates whenever blending with other fluids is allowed.
 
@@ -47,7 +51,9 @@ Indicates whenever blending with other fluids is allowed.
 blacklist
 ^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Indicates whenever blending with other fluids is disallowed.
 
@@ -57,7 +63,9 @@ Indicates whenever blending with other fluids is disallowed.
 fluid
 ^^^^^
 
-:Type: array (array of string, separator: '/')
+.. attribute:: Type
+
+   array (array of string, separator: '/')
 
 A list of fluids.
 
@@ -67,7 +75,9 @@ A list of fluids.
 category
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Unclear what this is for since this is usually achieved with a `categories <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/categories.html>`_ child block.
 
@@ -77,8 +87,13 @@ Unclear what this is for since this is usually achieved with a `categories <http
 filterType
 ^^^^^^^^^^
 
-:Type: Unknown
-:Allowed values: 
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Allowed values
+
+   
 * ``whitelist``
 
 Just use `whitelist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#whitelist>`_ or `blacklist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#blacklist>`_.

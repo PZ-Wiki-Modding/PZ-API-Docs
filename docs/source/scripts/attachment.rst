@@ -3,7 +3,9 @@
 attachment
 ==========
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines an attachment point on a `model <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ or `vehicle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html>`_ block. The ID is the attachment name, it can be a custom ID or an existing one often used to define specific attachments. While manually modifying the attachment block is definitely possible, it is recommended to use the `attachment editor <https://pzwiki.net/wiki/Attachment_Editor>`_ to create and edit those attachments.
 
@@ -56,8 +58,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -68,7 +75,9 @@ Parameters
 offset
 ^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
 
 The position offset of the model relative to the bone. This is a vector in the format ``x y z``. 
 
@@ -82,7 +91,9 @@ The position offset of the model relative to the bone. This is a vector in the f
 rotate
 ^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
 
 The rotation of the model relative to the bone. This is a vector in the format ``x y z``. The values are degrees.
 
@@ -96,7 +107,9 @@ The rotation of the model relative to the bone. This is a vector in the format `
 zoffset
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -106,7 +119,9 @@ No description provided.
 scale
 ^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 The scale multiplier applied to the model attached to this attachment point.
 
@@ -120,7 +135,9 @@ The scale multiplier applied to the model attached to this attachment point.
 bone
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 .. code-block::
 

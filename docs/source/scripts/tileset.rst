@@ -3,7 +3,9 @@
 tileset
 =======
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Used to define properties of tiles of tilesets.
 
@@ -36,7 +38,9 @@ Parameters
 name
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The name of the tileset. For example ``furniture_bedding_01``.
 

@@ -3,7 +3,9 @@
 door
 ====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 
@@ -22,8 +24,13 @@ ID
 
 This block can have an ID.
 
-:Optional: ['part']
-:Can have spaces: False
+.. attribute:: Optional
+
+   ['part']
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters

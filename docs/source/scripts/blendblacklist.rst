@@ -3,7 +3,9 @@
 BlendBlackList
 ==============
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 BlendWhiteList defines a whitelist for fluids that the fluid can be blended with, while BlendBlackList defines a blacklist. By default those blocks are set whitelist, but you can add one of the available parameters to indicate whenever the block is a whitelist or a blacklist.
 

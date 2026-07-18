@@ -3,8 +3,13 @@
 component DryingCraftLogic
 ==========================
 
-:Soft Override: Unknown
-:Is Variant of: :ref:`component <scripts-component>`
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
 
 
 
@@ -32,7 +37,9 @@ Parameters
 Recipes
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -42,7 +49,9 @@ No description provided.
 StartMode
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -52,7 +61,9 @@ No description provided.
 inputGroup
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -62,7 +73,9 @@ No description provided.
 outputGroup
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -72,7 +85,9 @@ No description provided.
 actionAnim
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

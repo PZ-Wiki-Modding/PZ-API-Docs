@@ -3,9 +3,17 @@
 ROOT-Blends
 ===========
 
-:Soft Override: Unknown
-:Is Root: True
-:No comma: True
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
+
+.. attribute:: No comma
+
+   True
 
 The ``Blends.txt`` file is used in the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_ to assign blend tiles around the tiles you paint.
 
@@ -33,7 +41,9 @@ Parameters
 name
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

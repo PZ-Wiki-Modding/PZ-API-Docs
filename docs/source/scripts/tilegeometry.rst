@@ -3,7 +3,9 @@
 tileGeometry
 ============
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Used to define tile geometries for each `tile <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/tile.html>`_ in a `tileset <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/tileset.html>`_.
 
@@ -35,8 +37,13 @@ Parameters
 VERSION
 ^^^^^^^
 
-:Type: integer
-:Allowed values: 
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Allowed values
+
+   
 * ``1``
 * ``2``
 

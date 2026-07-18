@@ -3,9 +3,17 @@
 ROOT-MapBaseXML
 ===============
 
-:Soft Override: Unknown
-:Is Root: True
-:No comma: True
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
+
+.. attribute:: No comma
+
+   True
 
 The ``MapBaseXML.txt`` file is used to configure the layers of the TMX file.
 

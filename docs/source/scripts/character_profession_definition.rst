@@ -3,7 +3,9 @@
 character_profession_definition
 ===============================
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a character profession.
 
@@ -35,8 +37,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -47,7 +54,9 @@ Parameters
 CharacterProfession
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The `registries <https://pzwiki.net/wiki/Registries>`_ profession ID to link to.
 
@@ -57,7 +66,9 @@ The `registries <https://pzwiki.net/wiki/Registries>`_ profession ID to link to.
 Cost
 ^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 The cost of the profession when selecting a character. Negative values remove points, positive values add points.
 
@@ -67,7 +78,9 @@ The cost of the profession when selecting a character. Negative values remove po
 UIName
 ^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The translation key for the profession's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
 
@@ -77,7 +90,9 @@ The translation key for the profession's name. The translation key needs to be i
 UIDescription
 ^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The translation key for the profession's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
 
@@ -87,7 +102,9 @@ The translation key for the profession's description. The translation key needs 
 IconPathName
 ^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -97,7 +114,9 @@ No description provided.
 GrantedTraits
 ^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 A list of character trait IDs that are granted to the character when this profession is selected.
 
@@ -107,7 +126,9 @@ A list of character trait IDs that are granted to the character when this profes
 XPBoosts
 ^^^^^^^^
 
-:Type: object (object: string->>integer, kv: '=', pairs: ';')
+.. attribute:: Type
+
+   object (object: string->>integer, kv: '=', pairs: ';')
 
 A list of experience boosts granted by this profession. Each entry should contain a skill name and the corresponding boost amount.
 
@@ -123,7 +144,9 @@ For example:
 GrantedRecipes
 ^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
 

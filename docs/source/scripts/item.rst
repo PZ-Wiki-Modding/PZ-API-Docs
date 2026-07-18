@@ -3,7 +3,9 @@
 item
 ====
 
-:Soft Override: True
+.. attribute:: Soft Override
+
+   True
 
 The item block is used to create items in the game, from weapons to food and clothing. The parameters available in this block mostly depend on the type of item you are creating, set with `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
@@ -50,8 +52,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 ItemType parameters
@@ -167,7 +174,9 @@ Parameters
 AcceptItemFunction
 ^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -177,8 +186,13 @@ No description provided.
 AcceptMediaType
 ^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``-1``
 
 No description provided.
 
@@ -188,7 +202,9 @@ No description provided.
 ActivatedItem
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -198,7 +214,9 @@ No description provided.
 AimingMod
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -208,7 +226,9 @@ No description provided.
 AimingPerkCritModifier
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`CriticalChance <scripts-item-criticalchance>`.
 
@@ -218,7 +238,9 @@ See parameter :ref:`CriticalChance <scripts-item-criticalchance>`.
 AimingPerkHitChanceModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`HitChance <scripts-item-hitchance>`.
 
@@ -228,7 +250,9 @@ See parameter :ref:`HitChance <scripts-item-hitchance>`.
 AimingPerkMinAngleModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`MinAngle <scripts-item-minangle>`.
 
@@ -238,7 +262,9 @@ See parameter :ref:`MinAngle <scripts-item-minangle>`.
 AimingPerkRangeModifier
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`MaxRange <scripts-item-maxrange>`.
 
@@ -248,7 +274,9 @@ See parameter :ref:`MaxRange <scripts-item-maxrange>`.
 Aimingtime
 ^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtime>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtimemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. The attachments directly add or subtract their `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtimemodifier>`_ to the aiming delay.
 
@@ -282,7 +310,9 @@ On each shots or equip, the aiming delay will be increased or reduced, being imp
 AimingTimeModifier
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`AimingTime <scripts-item-aimingtime>`.
 
@@ -292,7 +322,9 @@ See parameter :ref:`AimingTime <scripts-item-aimingtime>`.
 AimReleaseSound
 ^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -302,7 +334,9 @@ No description provided.
 AlarmSound
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -312,7 +346,9 @@ No description provided.
 Alcoholic
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -322,7 +358,9 @@ No description provided.
 AlcoholPower
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -332,7 +370,9 @@ No description provided.
 AlwaysKnockdown
 ^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -342,8 +382,13 @@ No description provided.
 AlwaysWelcomeGift
 ^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Is useless: True
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Is useless
+
+   True
 
 No description provided.
 
@@ -353,7 +398,9 @@ No description provided.
 AmmoBox
 ^^^^^^^
 
-:Type: string (block: :ref:`item <scripts-item>`, with :ref:`module`)
+.. attribute:: Type
+
+   string (block: :ref:`item <scripts-item>`, with :ref:`module`)
 
 No description provided.
 
@@ -363,7 +410,9 @@ No description provided.
 AmmoType
 ^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 `AmmoType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-ammotype>`_ indicates what ammo is consumed when shooting, but it also determines tracer and hit-reaction sound lookups. The value needs to reference the `registries <https://pzwiki.net/wiki/Registries>`_ entry of the ammo you want to use. The vanilla ammunition types which are available by default are:
 
@@ -402,7 +451,9 @@ A custom ``WeaponReloadType`` can be used if the relevant animations and conditi
 AngleFalloff
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -412,7 +463,9 @@ No description provided.
 AnimalFeedType
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -422,7 +475,9 @@ No description provided.
 AttachmentReplacement
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -432,7 +487,9 @@ No description provided.
 AttachmentsProvided
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -442,7 +499,9 @@ No description provided.
 AttachmentType
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -452,7 +511,9 @@ No description provided.
 BadCold
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -462,7 +523,9 @@ No description provided.
 BadInMicrowave
 ^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 No description provided.
 
@@ -472,7 +535,9 @@ No description provided.
 BandagePower
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -482,8 +547,13 @@ No description provided.
 BaseSpeed
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -493,7 +563,9 @@ No description provided.
 BaseVolumeRange
 ^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -503,7 +575,9 @@ No description provided.
 BiteDefense
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -513,8 +587,13 @@ No description provided.
 BloodLocation
 ^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
-:Allowed values: 
+.. attribute:: Type
+
+   array (array of string, separator: ';')
+
+.. attribute:: Allowed values
+
+   
 * ``Apron``
 * ``ShirtNoSleeves``
 * ``JumperNoSleeves``
@@ -559,7 +638,9 @@ No description provided.
 BodyLocation
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Used to define which location on the human character this clothing item can be worn. Needs to be a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_body_locations.html>`_ value. You can also create new ones via `registries <https://pzwiki.net/wiki/Registries>`_.
 
@@ -569,7 +650,9 @@ Used to define which location on the human character this clothing item can be w
 book_subject
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -579,7 +662,9 @@ No description provided.
 BoredomChange
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -589,7 +674,9 @@ No description provided.
 brakeForce
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -599,7 +686,9 @@ No description provided.
 BreakSound
 ^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -609,7 +698,9 @@ No description provided.
 BringToBearSound
 ^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -619,7 +710,9 @@ No description provided.
 BulletDefense
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -629,7 +722,9 @@ No description provided.
 BulletHitArmourSound
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -639,7 +734,9 @@ No description provided.
 Calories
 ^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 The following stats are directly linked to the player's `nutrition <https://pzwiki.net/wiki/Nutrition>`_\ , which are hidden stats that will impact the player's weight gains and more (positive values will increase the stat when eaten):
 
@@ -655,7 +752,9 @@ The following stats are directly linked to the player's `nutrition <https://pzwi
 CanAttach
 ^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 `CanAttach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-canattach>`_ and `CanDetach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-candetach>`_ are used to define whenever a `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ can be respectively attached or detached to and from a `HandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
@@ -667,7 +766,9 @@ CanAttach
 CanBandage
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -677,7 +778,9 @@ No description provided.
 CanBarricade
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -687,7 +790,9 @@ No description provided.
 CanBeEquipped
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Needs to reference a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-bodylocation>`_ value which will serve as the equipment location.
 
@@ -697,7 +802,9 @@ Needs to reference a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-A
 CanBePlaced
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -707,7 +814,9 @@ No description provided.
 CanBeRemote
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -717,7 +826,9 @@ No description provided.
 CanBeReused
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -727,7 +838,9 @@ No description provided.
 CanBeWrite
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -737,7 +850,9 @@ No description provided.
 CanDetach
 ^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 See parameter :ref:`CanAttach <scripts-item-canattach>`.
 
@@ -747,8 +862,13 @@ See parameter :ref:`CanAttach <scripts-item-canattach>`.
 CanHaveHoles
 ^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 Used to define whenever this item can get holes in it.
 
@@ -758,7 +878,9 @@ Used to define whenever this item can get holes in it.
 CannedFood
 ^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 `CannedFood <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-cannedfood>`_ will mark the item as a canned food which will impact how it is spawned in the world. It will also impact the type of item where instead of being "Food" it will be "CannedFood".
 
@@ -768,7 +890,9 @@ CannedFood
 CanStack
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -778,7 +902,9 @@ No description provided.
 CanStoreWater
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -788,7 +914,9 @@ No description provided.
 CantAttackWithLowestEndurance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -798,7 +926,9 @@ No description provided.
 cantBeConsolided
 ^^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 See parameter :ref:`ConsolidateOption <scripts-item-consolidateoption>`.
 
@@ -808,7 +938,9 @@ See parameter :ref:`ConsolidateOption <scripts-item-consolidateoption>`.
 CantBeFrozen
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -818,7 +950,9 @@ No description provided.
 CantEat
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -828,9 +962,17 @@ No description provided.
 Capacity
 ^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
-:Maximum: ``50``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``-1``
+
+.. attribute:: Maximum
+
+   ``50``
 
 Sets the capacity of the container. This value is limited to a maximum of 50 minus its own `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_. The weight of the bag will follow the formula ``equippedWeight = weight * EquippedOrWornEncumbranceMultiplier + contentWeight * (1.0 - weightReduction / 100)``.
 
@@ -840,7 +982,9 @@ Sets the capacity of the container. This value is limited to a maximum of 50 min
 Carbohydrates
 ^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`Calories <scripts-item-calories>`.
 
@@ -850,7 +994,9 @@ See parameter :ref:`Calories <scripts-item-calories>`.
 Categories
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -860,7 +1006,9 @@ No description provided.
 ChanceToFall
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -870,7 +1018,9 @@ No description provided.
 ChanceToSpawnDamaged
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -880,8 +1030,13 @@ No description provided.
 ClickSound
 ^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
-:Default: ``Stormy9mmClick``
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
+
+.. attribute:: Default
+
+   ``Stormy9mmClick``
 
 No description provided.
 
@@ -891,8 +1046,13 @@ No description provided.
 ClipSize
 ^^^^^^^^
 
-:Type: integer
-:Is useless: True
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Is useless
+
+   True
 
 No description provided.
 
@@ -902,8 +1062,13 @@ No description provided.
 ClipSizeModifier
 ^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Is useless: True
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Is useless
+
+   True
 
 No description provided.
 
@@ -913,7 +1078,9 @@ No description provided.
 CloseKillMove
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Used to whenever this weapon can be used to do a close kill move, like knives to assassinate in the back.
 
@@ -923,7 +1090,9 @@ Used to whenever this weapon can be used to do a close kill move, like knives to
 CloseSound
 ^^^^^^^^^^
 
-:Type: block (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -933,7 +1102,9 @@ No description provided.
 ClothingExtraSubmenu
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
 
@@ -943,7 +1114,9 @@ See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
 ClothingItem
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 ``ClothingItem`` references the clothing defined inside the `clothing.xml <https://pzwiki.net/wiki/Clothing.xml>`_ file. ``ClothingExtraSubmenu`` will define the name of the context menu option to equip the clothing item.
 
@@ -955,7 +1128,9 @@ ClothingItem
 ClothingItemExtra
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
 
@@ -965,7 +1140,9 @@ See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
 ClothingItemExtraOption
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
 
@@ -975,8 +1152,13 @@ See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
 ColorBlue
 ^^^^^^^^^
 
-:Type: integer
-:Default: ``255``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``255``
 
 No description provided.
 
@@ -986,8 +1168,13 @@ No description provided.
 ColorGreen
 ^^^^^^^^^^
 
-:Type: integer
-:Default: ``255``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``255``
 
 No description provided.
 
@@ -997,8 +1184,13 @@ No description provided.
 ColorRed
 ^^^^^^^^
 
-:Type: integer
-:Default: ``255``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``255``
 
 No description provided.
 
@@ -1008,8 +1200,13 @@ No description provided.
 CombatSpeedModifier
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -1019,7 +1216,9 @@ No description provided.
 ConditionAffectsCapacity
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Set whenever condition of the item can impact the capacity value of the container.
 
@@ -1029,8 +1228,13 @@ Set whenever condition of the item can impact the capacity value of the containe
 ConditionLowerChanceOneIn
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``10``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``10``
 
 `ConditionLowerChanceOneIn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-conditionlowerchanceonein>`_ impacts the durability of the item, reducing the value
 used to calculate the chance by doing ``chance = 1/ConditionLowerChanceOneIn``\ ,
@@ -1045,7 +1249,9 @@ item.
 ConditionLowerOffroad
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1055,7 +1261,9 @@ No description provided.
 ConditionLowerStandard
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1065,8 +1273,13 @@ No description provided.
 ConditionMax
 ^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``10``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``10``
 
 See parameter :ref:`ConditionLowerChanceOneIn <scripts-item-conditionlowerchanceonein>`.
 
@@ -1076,7 +1289,9 @@ See parameter :ref:`ConditionLowerChanceOneIn <scripts-item-conditionlowerchance
 ConsolidateOption
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 By setting `cantBeConsolided <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-cantbeconsolided>`_ to ``false`` and providing a `ConsolidateOption <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-consolidateoption>`_ value, the item can be marked to merge its uses with other items of the same type in the inventory. This requires the item to be `Drainable type <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
@@ -1088,7 +1303,9 @@ The ConsolidateOption value needs to be a translation key which will be passed t
 CookingSound
 ^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 Custom sound to play when cooking this item.
 
@@ -1098,7 +1315,9 @@ Custom sound to play when cooking this item.
 CorpseSicknessDefense
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1108,7 +1327,9 @@ No description provided.
 Cosmetic
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1118,8 +1339,13 @@ No description provided.
 Count
 ^^^^^
 
-:Type: integer
-:Default: ``1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1``
 
 The parameter is unused in the game scripts, unclear what it is used for.
 
@@ -1129,8 +1355,13 @@ The parameter is unused in the game scripts, unclear what it is used for.
 CritDmgMultiplier
 ^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``2.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``2.0``
 
 Multiplier applied to the damage of a hit if it is a critical hit, applied inside `IsoGameCharacter.Hit() <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/characters/IsoGameCharacter.html#Hit(zombie.inventory.types.HandWeapon,zombie.characters.IsoGameCharacter,float,boolean,float,boolean>`_\ ). Two types of crits can trigger:
 
@@ -1146,8 +1377,13 @@ The default value of the ``HandWeapon`` class is ``2.0``. Values of ``3.0`` to `
 CriticalChance
 ^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``20.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``20.0``
 
 `CriticalChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-criticalchance>`_ sets the base critical hit chance of the weapon. The final ``CriticalChance`` value after all applied bonuses and penalties have been applied is compared on a 0-100 roll.
 
@@ -1200,7 +1436,9 @@ For PvP targets, the entire formula is bypassed and `StopPower <https://pz-wiki-
 CustomContextMenu
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1210,8 +1448,13 @@ No description provided.
 CustomEatSound
 ^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`sound <scripts-sound>`)
-:Can be empty: True
+.. attribute:: Type
+
+   block (block: :ref:`sound <scripts-sound>`)
+
+.. attribute:: Can be empty
+
+   True
 
 Custom sound to play when eating or drinking this item. Set to an empty string to disable any sound from playing.
 
@@ -1221,9 +1464,17 @@ Custom sound to play when eating or drinking this item. Set to an empty string t
 CyclicRateMultiplier
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
-:Minimum: ``0.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
+
+.. attribute:: Minimum
+
+   ``0.0``
 
 Only in ``Auto`` `fire mode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemode>`_. Drives the full-auto animation cycle rate via the ``autoShootSpeed`` `animation variable <https://pzwiki.net/wiki/Conditions>`_.
 
@@ -1237,7 +1488,9 @@ Increase for SMG feel and decrease for heavy LMG feel.
 DamageCategory
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1247,7 +1500,9 @@ No description provided.
 DamageMakeHole
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1257,7 +1512,9 @@ No description provided.
 DangerousUncooked
 ^^^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 If true, the item will cause food poisoning when eaten raw. Used for example for raw meat. The `iron gut <https://pzwiki.net/wiki/Iron_Gut>`_ trait will stop you from getting sick from eating a raw food with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-tags>`_ ``Egg``. The severity of the food poisoning is not impacted by traits or other criteria, only by the quantity of food you eat.
 
@@ -1267,8 +1524,13 @@ If true, the item will cause food poisoning when eaten raw. Used for example for
 DaysFresh
 ^^^^^^^^^
 
-:Type: integer
-:Default: ``1000000000``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1000000000``
 
 `DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daysfresh>`_ sets how many days this food item will stay fresh with default sandbox settings. `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daystotallyrotten>`_ sets how many days this food item will take to rot.
 
@@ -1280,8 +1542,13 @@ DaysFresh
 DaysTotallyRotten
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``1000000000``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1000000000``
 
 See parameter :ref:`DaysFresh <scripts-item-daysfresh>`.
 
@@ -1291,7 +1558,9 @@ See parameter :ref:`DaysFresh <scripts-item-daysfresh>`.
 DigitalPadlock
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1301,7 +1570,9 @@ No description provided.
 DigType
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1311,8 +1582,13 @@ No description provided.
 DisappearOnUse
 ^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 No description provided.
 
@@ -1322,7 +1598,9 @@ No description provided.
 DiscomfortModifier
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1332,7 +1610,9 @@ No description provided.
 DisplayCategory
 ^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1342,7 +1622,9 @@ No description provided.
 DamageModifier
 ^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
 
@@ -1352,9 +1634,17 @@ See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
 DoorDamage
 ^^^^^^^^^^
 
-:Type: integer
-:Default: ``1``
-:Minimum: ``1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1``
+
+.. attribute:: Minimum
+
+   ``1``
 
 Damage dealt to doors, windows, barricades and some vehicle/object hits. The damage to doors cannot go lower than 1, even in the formulas it is clamped to a minimum of 1. The formula used to retrieve the damage to doors is:
 
@@ -1370,8 +1660,13 @@ More parameters will impact the door damage based on where it is used.
 DoorHitSound
 ^^^^^^^^^^^^
 
-:Type: string
-:Default: ``BaseballBatHit``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``BaseballBatHit``
 
 No description provided.
 
@@ -1381,7 +1676,9 @@ No description provided.
 DoubleClickRecipe
 ^^^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`craftRecipe <scripts-craftrecipe>`)
+.. attribute:: Type
+
+   block (block: :ref:`craftRecipe <scripts-craftrecipe>`)
 
 No description provided.
 
@@ -1391,7 +1688,9 @@ No description provided.
 DropSound
 ^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1401,7 +1700,9 @@ No description provided.
 Eattime
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1411,7 +1712,9 @@ No description provided.
 EatType
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1421,7 +1724,9 @@ No description provided.
 EjectAmmoSound
 ^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1431,7 +1736,9 @@ No description provided.
 EjectAmmoStartSound
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1441,7 +1748,9 @@ No description provided.
 EjectAmmoStopSound
 ^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1451,7 +1760,9 @@ No description provided.
 enduranceChange
 ^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 No description provided.
 
@@ -1461,8 +1772,13 @@ No description provided.
 EnduranceMod
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 See parameter :ref:`UseEndurance <scripts-item-useendurance>`.
 
@@ -1472,7 +1788,9 @@ See parameter :ref:`UseEndurance <scripts-item-useendurance>`.
 engineLoudness
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1482,7 +1800,9 @@ No description provided.
 EquippedNoSprint
 ^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1492,7 +1812,9 @@ No description provided.
 EquipSound
 ^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1502,7 +1824,9 @@ No description provided.
 EvolvedRecipe
 ^^^^^^^^^^^^^
 
-:Type: object (object: block->>string, kv: ':', pairs: ';')
+.. attribute:: Type
+
+   object (object: block->>string, kv: ':', pairs: ';')
 
 `EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipe>`_ is used to list the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ this item can be used in as an ingredient. The syntax needs to be as follows:
 
@@ -1532,7 +1856,9 @@ A simpler syntax is also technically supported where the quantity can be omitted
 EvolvedRecipeName
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`EvolvedRecipe <scripts-item-evolvedrecipe>`.
 
@@ -1542,7 +1868,9 @@ See parameter :ref:`EvolvedRecipe <scripts-item-evolvedrecipe>`.
 ExplosionDuration
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 
@@ -1552,7 +1880,9 @@ See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 ExplosionPower
 ^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 If set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_
 
@@ -1562,7 +1892,9 @@ If set above 0, the explosion will burn tiles and set fire to them based on the 
 ExplosionRange
 ^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ out of 100 is a chance of the explosion to set on fire tiles and burn characters in the `ExplosionRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionrange>`_. A value above 100 means the explosion will always set on fire tiles and burn characters, while a value of 0 means it will never set on fire tiles nor burn characters. Each tiles in the explosion range will run the `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ check independently, so a value of 50 means that on average half of the tiles in the explosion range will be set on fire.
 
@@ -1580,7 +1912,9 @@ ExplosionRange
 ExplosionSound
 ^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 
@@ -1590,7 +1924,9 @@ See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 ExplosionTimer
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1600,7 +1936,9 @@ No description provided.
 FabricType
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1610,7 +1948,9 @@ No description provided.
 fatigueChange
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1620,7 +1960,9 @@ No description provided.
 FillFromDispenserSound
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1630,7 +1972,9 @@ No description provided.
 FillFromLakeSound
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1640,7 +1984,9 @@ No description provided.
 FillFromTapSound
 ^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1650,7 +1996,9 @@ No description provided.
 FillFromToiletSound
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1660,8 +2008,13 @@ No description provided.
 FireFuelRatio
 ^^^^^^^^^^^^^
 
-:Type: Unknown
-:Is useless: True
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Is useless
+
+   True
 
 No description provided.
 
@@ -1671,7 +2024,9 @@ No description provided.
 FireMode
 ^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 `FireModePossibilities <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemodepossibilities>`_ lists the available fire modes of the weapon, and the player can automatically switch between them with the relevant keybind. `FireMode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemode>`_ sets the default fire mode of the weapon, which is the one it will spawn with.
 
@@ -1689,7 +2044,9 @@ Other values are not supported by the game and will be considered as ``Single``.
 FireModePossibilities
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: '/')
+.. attribute:: Type
+
+   array (array of string, separator: '/')
 
 See parameter :ref:`FireMode <scripts-item-firemode>`.
 
@@ -1699,7 +2056,9 @@ See parameter :ref:`FireMode <scripts-item-firemode>`.
 FireRange
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 
@@ -1709,7 +2068,9 @@ See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 FireStartingChance
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 
@@ -1719,7 +2080,9 @@ See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 FireStartingEnergy
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 No description provided.
 
@@ -1729,7 +2092,9 @@ No description provided.
 FishingLure
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1739,7 +2104,9 @@ No description provided.
 fluReduction
 ^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 When eating this food item, the player cold or pain will be reduced by the percentage of the food being eaten times respectively the values of `fluReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-flureduction>`_ and `painReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-painreduction>`_.
 
@@ -1749,7 +2116,9 @@ When eating this food item, the player cold or pain will be reduced by the perce
 FoodSicknessChange
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 Set the base food sickness change.
 
@@ -1768,7 +2137,9 @@ The amount of food sickness you get varies based on this parameter and other fac
 FoodType
 ^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Sets the food type of the item. A translation entry needs to be made for custom types which has the key ``ContextMenu_FoodType_<type>``.
 
@@ -1780,7 +2151,9 @@ To be a valid food item to feed to animals, the item needs to be of type ``Fruit
 GoodHot
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1790,7 +2163,9 @@ No description provided.
 GunType
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1800,8 +2175,13 @@ No description provided.
 HaveChamber
 ^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 Whether the weapon has a chamber that can hold a round in addition to its magazine.
 
@@ -1811,7 +2191,9 @@ Whether the weapon has a chamber that can hold a round in addition to its magazi
 HeadCondition
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1821,8 +2203,13 @@ No description provided.
 HeadConditionLowerChanceMultiplier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -1832,7 +2219,9 @@ No description provided.
 HeadConditionMax
 ^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1842,8 +2231,13 @@ No description provided.
 HearingModifier
 ^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -1853,7 +2247,9 @@ No description provided.
 HerbalistType
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1863,7 +2259,9 @@ No description provided.
 Hidden
 ^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1873,7 +2271,9 @@ No description provided.
 HitAngleMod
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -1883,7 +2283,9 @@ No description provided.
 HitChance
 ^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 `HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchance>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `HitChanceModified <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchancemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
@@ -1944,7 +2346,9 @@ At point-blank range, all combined penalties are scaled toward zero, so close sh
 HitChanceModifier
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`HitChance <scripts-item-hitchance>`.
 
@@ -1954,8 +2358,13 @@ See parameter :ref:`HitChance <scripts-item-hitchance>`.
 HitFloorSound
 ^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
-:Default: ``BatOnFloor``
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
+
+.. attribute:: Default
+
+   ``BatOnFloor``
 
 No description provided.
 
@@ -1965,8 +2374,13 @@ No description provided.
 HitSound
 ^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
-:Default: ``BaseballBatHit``
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
+
+.. attribute:: Default
+
+   ``BaseballBatHit``
 
 No description provided.
 
@@ -1976,7 +2390,9 @@ No description provided.
 HungerChange
 ^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 Different stats are available for food items which will impact the player's hunger, thirst, boredom etc.
 
@@ -1992,8 +2408,13 @@ Different stats are available for food items which will impact the player's hung
 Icon
 ^^^^
 
-:Type: string
-:Default: ``None``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``None``
 
 Used to specify the icon of the item, usually used in the inventory and crafting menus to easily recognize the item. The icon file needs to be located inside the ``media/textures/`` folder and the file name must start with ``Item_``\ , and be of the extension ``.png``.
 
@@ -2064,7 +2485,9 @@ To add variants based on food condition, you would have the following file struc
 IconColorMask
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2074,7 +2497,9 @@ No description provided.
 IconFluidMask
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2084,7 +2509,9 @@ No description provided.
 IconsForTexture
 ^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 See parameter :ref:`Icon <scripts-item-icon>`.
 
@@ -2094,8 +2521,13 @@ See parameter :ref:`Icon <scripts-item-icon>`.
 IdleAnim
 ^^^^^^^^
 
-:Type: string
-:Default: ``Idle``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``Idle``
 
 No description provided.
 
@@ -2105,8 +2537,13 @@ No description provided.
 ImpactSound
 ^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
-:Default: ``BaseballBatHit``
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
+
+.. attribute:: Default
+
+   ``BaseballBatHit``
 
 No description provided.
 
@@ -2116,7 +2553,9 @@ No description provided.
 InsertAllBulletsReload
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2126,7 +2565,9 @@ No description provided.
 InsertAmmoSound
 ^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -2136,7 +2577,9 @@ No description provided.
 InsertAmmoStartSound
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -2146,7 +2589,9 @@ No description provided.
 InsertAmmoStopSound
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -2156,7 +2601,9 @@ No description provided.
 Insulation
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2166,7 +2613,9 @@ No description provided.
 InverseCoughProbability
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2176,7 +2625,9 @@ No description provided.
 InverseCoughProbabilitySmoker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2186,7 +2637,9 @@ No description provided.
 IsAimedFirearm
 ^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-isaimedfirearm>`_ enables the entire aimed-firearm subsystem: ballistics controller, reticle, muzzle flash, firearm-specific condition handling and ballistics-base target detection. Without it the weapon falls back to melee sweep logic.
 
@@ -2198,7 +2651,9 @@ Set to ``true`` for any normal gun. Distinct from `Ranged <https://pz-wiki-moddi
 IsAimedHandWeapon
 ^^^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 No description provided.
 
@@ -2208,7 +2663,9 @@ No description provided.
 IsCookable
 ^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 `IsCookable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-iscookable>`_ marks as the item as cookable.
 
@@ -2226,7 +2683,9 @@ IsCookable
 IsDung
 ^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 No description provided.
 
@@ -2236,7 +2695,9 @@ No description provided.
 IsHighTier
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2246,7 +2707,9 @@ No description provided.
 IsPortable
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2256,7 +2719,9 @@ No description provided.
 IsTelevision
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2266,7 +2731,9 @@ No description provided.
 IsWaterSource
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2276,7 +2743,9 @@ No description provided.
 ItemAfterCleaning
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2286,9 +2755,17 @@ No description provided.
 ItemType
 ^^^^^^^^
 
-:Type: string
-:Required: True
-:Allowed values: 
+.. attribute:: Type
+
+   string
+
+.. attribute:: Required
+
+   True
+
+.. attribute:: Allowed values
+
+   
 * ``base:alarmclock``
 * ``base:alarmclockclothing``
 * ``base:animal``
@@ -2313,8 +2790,13 @@ Defines the class of the item which will impact which parameters the item can ta
 Type
 ^^^^
 
-:Type: Unknown
-:Deprecated: {'replacedBy': 'ItemType', 'version': '42.13.0'}
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Deprecated
+
+   {'replacedBy': 'ItemType', 'version': '42.13.0'}
 
 Used to set the class of the item, which will influence parameters available.
 
@@ -2324,8 +2806,13 @@ Used to set the class of the item, which will influence parameters available.
 DisplayName
 ^^^^^^^^^^^
 
-:Type: Unknown
-:Deprecated: {'description': 'Naming an item should be done with a translation entry. See the [wiki](https://pzwiki.net/wiki/DisplayName) page for more information.', 'version': '42.13.0'}
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Deprecated
+
+   {'description': 'Naming an item should be done with a translation entry. See the [wiki](https://pzwiki.net/wiki/DisplayName) page for more information.', 'version': '42.13.0'}
 
 Sets the name of the item which will be displayed in-game. It's recommended to use a translation entry for this parameter to allow localization of the item name.
 
@@ -2335,7 +2822,9 @@ Sets the name of the item which will be displayed in-game. It's recommended to u
 ItemWhenDry
 ^^^^^^^^^^^
 
-:Type: block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
 
 See parameter :ref:`Wet <scripts-item-wet>`.
 
@@ -2345,8 +2834,13 @@ See parameter :ref:`Wet <scripts-item-wet>`.
 JamGunChance
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 Base probability of a jam on each trigger pull. Final jam roml also scales with the sandbox jam multiplier, current gun condition (lower condition = higher jam chance), and low Aiming/Strength.
 
@@ -2358,7 +2852,9 @@ Base probability of a jam on each trigger pull. Final jam roml also scales with 
 KeepOnDeplete
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2368,7 +2864,9 @@ No description provided.
 KnockBackOnNoDeath
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2378,8 +2876,13 @@ No description provided.
 KnockdownMod
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -2389,7 +2892,9 @@ No description provided.
 LearnedRecipes
 ^^^^^^^^^^^^^^
 
-:Type: array (array of block, separator: ';')
+.. attribute:: Type
+
+   array (array of block, separator: ';')
 
 List of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ this item will teach the player when read.
 
@@ -2399,7 +2904,9 @@ List of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craf
 LightDistance
 ^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`LightStrength <scripts-item-lightstrength>`.
 
@@ -2409,7 +2916,9 @@ See parameter :ref:`LightStrength <scripts-item-lightstrength>`.
 LightStrength
 ^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 `LightDistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lightdistance>`_ is used to determine the radius of the light emitted by the item. It is compared to the `Manhattan distance <https://en.wikipedia.org/wiki/Taxicab_geometry>`_ of the item to the square. The higher the value, the higher is the radius of the light.
 
@@ -2427,7 +2936,9 @@ The ``new_light_level`` is limited to a maximum of ``2.5``.
 Lipids
 ^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`Calories <scripts-item-calories>`.
 
@@ -2437,8 +2948,13 @@ See parameter :ref:`Calories <scripts-item-calories>`.
 LowLightBonus
 ^^^^^^^^^^^^^
 
-:Type: float
-:Is useless: True
+.. attribute:: Type
+
+   float
+
+.. attribute:: Is useless
+
+   True
 
 No description provided.
 
@@ -2448,8 +2964,13 @@ No description provided.
 LvlSkillTrained
 ^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``-1``
 
 No description provided.
 
@@ -2459,7 +2980,9 @@ No description provided.
 magazine_subject
 ^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 You can find a list of subjects in the `MagazineSubject <https://pz-wiki-modding.github.io/PZ-API-Docs/java/magazine_subject.html>`_.
 
@@ -2469,7 +2992,9 @@ You can find a list of subjects in the `MagazineSubject <https://pz-wiki-modding
 MagazineType
 ^^^^^^^^^^^^
 
-:Type: string (block: :ref:`item <scripts-item>`, with :ref:`module`)
+.. attribute:: Type
+
+   string (block: :ref:`item <scripts-item>`, with :ref:`module`)
 
 See parameter :ref:`AmmoType <scripts-item-ammotype>`.
 
@@ -2479,7 +3004,9 @@ See parameter :ref:`AmmoType <scripts-item-ammotype>`.
 MakeUpType
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2489,7 +3016,9 @@ No description provided.
 ManuallyRemoveSpentRounds
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2499,7 +3028,9 @@ No description provided.
 Map
 ^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2509,7 +3040,9 @@ No description provided.
 MaxAmmo
 ^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 No description provided.
 
@@ -2519,8 +3052,13 @@ No description provided.
 MaxCapacity
 ^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``-1``
 
 No description provided.
 
@@ -2530,8 +3068,13 @@ No description provided.
 MaxChannel
 ^^^^^^^^^^
 
-:Type: integer
-:Default: ``108000``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``108000``
 
 No description provided.
 
@@ -2541,8 +3084,13 @@ No description provided.
 MaxDamage
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.5``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.5``
 
 Rolls the hit damage of the weapon between ``MinDamage`` and ``MaxDamage``.
 
@@ -2554,8 +3102,13 @@ Rolls the hit damage of the weapon between ``MinDamage`` and ``MaxDamage``.
 MaxHitcount
 ^^^^^^^^^^^
 
-:Type: integer
-:Default: ``1000``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1000``
 
 `MaxHitcount <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxhitcount>`_ sets the maximum number of targets the weapon can hit with one attack. For ranged weapons, it will determine how many targets a single shot can hit. For melee weapons, a single swing can hit multiple targets if the relevant sandbox option allows it (Weapon Multi-Hit).
 
@@ -2569,7 +3122,9 @@ Keep ``MaxHitcount`` to 1 for a standard rifle, and set it to 2 with `PiercingBu
 MaxItemSize
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2579,8 +3134,13 @@ No description provided.
 MaxRange
 ^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 `MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrange>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `MaxRangeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrangemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
@@ -2598,7 +3158,9 @@ All rifles from the base game have a ``AimingPerkRangeModifier`` of 0, so `aimin
 MaxRangeModifier
 ^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`MaxRange <scripts-item-maxrange>`.
 
@@ -2608,7 +3170,9 @@ See parameter :ref:`MaxRange <scripts-item-maxrange>`.
 MaxSightRange
 ^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxsightrange>`_ define the optimal sight window, to be more specific, the distance band where hits and critical hits bonuses peak.
 
@@ -2633,7 +3197,9 @@ A CQC gun should have a low `MaxSightRange <https://pz-wiki-modding.github.io/PZ
 MechanicsItem
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2643,7 +3209,9 @@ No description provided.
 MediaCategory
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2653,7 +3221,9 @@ No description provided.
 Medical
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2663,7 +3233,9 @@ No description provided.
 MetalValue
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2673,7 +3245,9 @@ No description provided.
 MicRange
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2683,8 +3257,13 @@ No description provided.
 MinAngle
 ^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-isaimedfirearm>`_ set to ``true``\ , the ballistics controller handles target detection and does not use `MinAngle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minangle>`_ in the ranged hit-chance formula. These serve one narrow purpose: the ``isMeleeTargetTooCloseToShoot()`` check, detecting if a target is so close it should trigger a melee strike instead of a shot.
 
@@ -2702,8 +3281,13 @@ For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.
 MinChannel
 ^^^^^^^^^^
 
-:Type: integer
-:Default: ``88000``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``88000``
 
 No description provided.
 
@@ -2713,7 +3297,9 @@ No description provided.
 MinDamage
 ^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
 
@@ -2723,7 +3309,9 @@ See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
 MinimumSwingtime
 ^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2733,7 +3321,9 @@ No description provided.
 MinRange
 ^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 Hard minimum attack distance. If the target is closer than ``MinRange``\ , the ballistics controller does not register the shot and the game may force a melee swap. This is a binary threshold, not a penalty band. Separate from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_.
 
@@ -2745,7 +3335,9 @@ Long rifles should be hard to use in tight spaces. ``0.2`` to ``0.35`` is a smal
 MinSightRange
 ^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`MaxSightRange <scripts-item-maxsightrange>`.
 
@@ -2755,8 +3347,13 @@ See parameter :ref:`MaxSightRange <scripts-item-maxsightrange>`.
 MinutesToBurn
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``120.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``120.0``
 
 See parameter :ref:`IsCookable <scripts-item-iscookable>`.
 
@@ -2766,8 +3363,13 @@ See parameter :ref:`IsCookable <scripts-item-iscookable>`.
 MinutesToCook
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``60.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``60.0``
 
 See parameter :ref:`IsCookable <scripts-item-iscookable>`.
 
@@ -2777,7 +3379,9 @@ See parameter :ref:`IsCookable <scripts-item-iscookable>`.
 ModelWeaponPart
 ^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ' ')
+.. attribute:: Type
+
+   array (array of string, separator: ' ')
 
 No description provided.
 
@@ -2787,7 +3391,9 @@ No description provided.
 MountOn
 ^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 No description provided.
 
@@ -2797,8 +3403,13 @@ No description provided.
 MultipleHitConditionAffected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 No description provided.
 
@@ -2808,7 +3419,9 @@ No description provided.
 MuzzleFlashModelKey
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`model <scripts-model>`)
+.. attribute:: Type
+
+   string (block: :ref:`model <scripts-model>`)
 
 No description provided.
 
@@ -2818,8 +3431,13 @@ No description provided.
 NeckProtectionModifier
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -2829,7 +3447,9 @@ No description provided.
 needtobeclosedoncereload
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2839,7 +3459,9 @@ No description provided.
 NoiseDuration
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2849,7 +3471,9 @@ No description provided.
 NoiseRange
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2859,7 +3483,9 @@ No description provided.
 NoTransmit
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2869,8 +3495,13 @@ No description provided.
 NPCSoundBoost
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -2880,8 +3511,13 @@ No description provided.
 NumberOfPages
 ^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``-1``
 
 No description provided.
 
@@ -2891,8 +3527,13 @@ No description provided.
 NumLevelsTrained
 ^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1``
 
 No description provided.
 
@@ -2902,7 +3543,9 @@ No description provided.
 OnAttach
 ^^^^^^^^
 
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 See parameter :ref:`CanAttach <scripts-item-canattach>`.
 
@@ -2912,7 +3555,9 @@ See parameter :ref:`CanAttach <scripts-item-canattach>`.
 OnBreak
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2922,7 +3567,9 @@ No description provided.
 OnCooked
 ^^^^^^^^
 
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 No description provided.
 
@@ -2932,7 +3579,9 @@ No description provided.
 OnCreate
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2942,7 +3591,9 @@ No description provided.
 OnDetach
 ^^^^^^^^
 
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 See parameter :ref:`CanAttach <scripts-item-canattach>`.
 
@@ -2952,7 +3603,9 @@ See parameter :ref:`CanAttach <scripts-item-canattach>`.
 OnEat
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2962,7 +3615,9 @@ No description provided.
 OnlyAcceptCategory
 ^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Makes sure only items with the specified `ItemCategory <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/itemcategory.html>`_ corresponding to the provided value of this parameter can be inserted into the container.
 
@@ -2972,7 +3627,9 @@ Makes sure only items with the specified `ItemCategory <https://pz-wiki-modding.
 OpeningRecipe
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -2982,7 +3639,9 @@ No description provided.
 OpenSound
 ^^^^^^^^^
 
-:Type: block (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -2992,7 +3651,9 @@ No description provided.
 OriginX
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3002,7 +3663,9 @@ No description provided.
 OriginY
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3012,7 +3675,9 @@ No description provided.
 originZ
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3022,7 +3687,9 @@ No description provided.
 OtherHandRequire
 ^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3032,7 +3699,9 @@ No description provided.
 OtherHandUse
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3042,7 +3711,9 @@ No description provided.
 Packaged
 ^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Setting this to ``true`` will add readable content on the food item, which will display the `nutrional information <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-calories>`_ of the food item.
 
@@ -3052,7 +3723,9 @@ Setting this to ``true`` will add readable content on the food item, which will 
 Padlock
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3062,7 +3735,9 @@ No description provided.
 PageToWrite
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3072,7 +3747,9 @@ No description provided.
 painReduction
 ^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`fluReduction <scripts-item-flureduction>`.
 
@@ -3082,7 +3759,9 @@ See parameter :ref:`fluReduction <scripts-item-flureduction>`.
 PartType
 ^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Marks the `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ as a specific type of part. For proper tooltip of your weapon part, you need to either use one of the existing parts or use a custom part type but provide a translation entry inside `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ as ``Tooltip_weapon_`` followed by that part type value. For example, if you set ``PartType = customPart``\ , you need to provide a translation entry as ``Tooltip_weapon_customPart`` with the name of your part.
 
@@ -3127,7 +3806,9 @@ Technically, there are other ``Tooltip_weapon_`` combination than the ones liste
 PhysicsObject
 ^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`item <scripts-item>`, with :ref:`module`)
+.. attribute:: Type
+
+   string (block: :ref:`item <scripts-item>`, with :ref:`module`)
 
 Provides another item (or itself) as a throwable object. When used, the item will be thrown instead of used as an actual in hands weapon.
 
@@ -3137,7 +3818,9 @@ Provides another item (or itself) as a throwable object. When used, the item wil
 PiercingBullets
 ^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 See parameter :ref:`MaxHitcount <scripts-item-maxhitcount>`.
 
@@ -3147,7 +3830,9 @@ See parameter :ref:`MaxHitcount <scripts-item-maxhitcount>`.
 PlacedSprite
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3157,7 +3842,9 @@ No description provided.
 PlaceMultipleSound
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3167,7 +3854,9 @@ No description provided.
 PlaceOneSound
 ^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -3177,9 +3866,17 @@ No description provided.
 Poison
 ^^^^^^
 
-:Type: boolean
-:Is useless: True
-:Default: ``False``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Is useless
+
+   True
+
+.. attribute:: Default
+
+   ``False``
 
 See parameter :ref:`PoisonPower <scripts-item-poisonpower>`.
 
@@ -3189,7 +3886,9 @@ See parameter :ref:`PoisonPower <scripts-item-poisonpower>`.
 PoisonDetectionLevel
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`PoisonPower <scripts-item-poisonpower>`.
 
@@ -3199,7 +3898,9 @@ See parameter :ref:`PoisonPower <scripts-item-poisonpower>`.
 PoisonPower
 ^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 `PoisonPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-poisonpower>`_ defines the strength of the poison, where a positive value will make the food poisonous.
 
@@ -3215,7 +3916,9 @@ The parameters `Poison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/it
 PourType
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3225,7 +3928,9 @@ No description provided.
 primaryAnimMask
 ^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3235,8 +3940,13 @@ No description provided.
 Projectilecount
 ^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1``
 
 Only active when the weapon is ranged and has `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-rangefalloff>`_ set to ``true``. In that mode, the ballistics controller generates multiple spread projectiles. The field is never read when `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-rangefalloff>`_ is ``false``.
 
@@ -3248,7 +3958,9 @@ Inert for standard rifles. Required only for shotgun-style spread.
 ProjectileSpread
 ^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 Projectile spread seems to be mostly a visual effect and doesn't affect the actual hit chance of the weapon. The spread will be calculated following a formula close to the following:
 
@@ -3264,7 +3976,9 @@ With the ``spread`` value being the total cone angle of the projectiles.
 ProjectileSpreadModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 No description provided.
 
@@ -3274,8 +3988,13 @@ No description provided.
 ProjectileWeightCenter
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -3285,7 +4004,9 @@ No description provided.
 ProtectFromRainWhenEquipped
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3295,7 +4016,9 @@ No description provided.
 Proteins
 ^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`Calories <scripts-item-calories>`.
 
@@ -3305,8 +4028,13 @@ See parameter :ref:`Calories <scripts-item-calories>`.
 PushBackMod
 ^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 Scales the magnitude of the hit-reaction push applied to the target character. A higher value will increase the time the target is staggered. It will also impact the spread of blood.
 
@@ -3318,7 +4046,9 @@ Higher gives a more weighty, impactful feel.
 PutInSound
 ^^^^^^^^^^
 
-:Type: block (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -3328,7 +4058,9 @@ No description provided.
 RackAfterShoot
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3338,7 +4070,9 @@ No description provided.
 RackSound
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3348,7 +4082,9 @@ No description provided.
 RainFactor
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3358,7 +4094,9 @@ No description provided.
 Ranged
 ^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 See parameter :ref:`IsAimedFirearm <scripts-item-isaimedfirearm>`.
 
@@ -3368,7 +4106,9 @@ See parameter :ref:`IsAimedFirearm <scripts-item-isaimedfirearm>`.
 RangeFalloff
 ^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 No description provided.
 
@@ -3378,7 +4118,9 @@ No description provided.
 ReadType
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3388,7 +4130,9 @@ No description provided.
 RecoilDelay
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelaymodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. Weapon attachments will add or subtract from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ directly.
 
@@ -3409,7 +4153,9 @@ Aim countdown starts when the recoil delay counter is less than ``effectiveDelay
 RecoilDelayModifier
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`RecoilDelay <scripts-item-recoildelay>`.
 
@@ -3419,7 +4165,9 @@ See parameter :ref:`RecoilDelay <scripts-item-recoildelay>`.
 ReduceInfectionPower
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3429,7 +4177,9 @@ No description provided.
 Reloadtime
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3439,7 +4189,9 @@ No description provided.
 ReloadTimeModifier
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 No description provided.
 
@@ -3449,7 +4201,9 @@ No description provided.
 RemoteController
 ^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3459,7 +4213,9 @@ No description provided.
 RemoteRange
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3469,7 +4225,9 @@ No description provided.
 RemoveNegativeEffectOnCooked
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 See parameter :ref:`IsCookable <scripts-item-iscookable>`.
 
@@ -3479,8 +4237,13 @@ See parameter :ref:`IsCookable <scripts-item-iscookable>`.
 RemoveOnBroken
 ^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 No description provided.
 
@@ -3490,7 +4253,9 @@ No description provided.
 RemoveUnhappinessWhenCooked
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3500,7 +4265,9 @@ No description provided.
 ReplaceInPrimaryHand
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3510,7 +4277,9 @@ No description provided.
 ReplaceInSecondHand
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3520,7 +4289,9 @@ No description provided.
 ReplaceOnCooked
 ^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 A list of `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ that will replace the cooked item by adding them to the player's inventory.
 
@@ -3530,7 +4301,9 @@ A list of `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.htm
 ReplaceOnDeplete
 ^^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
 
 When providing a `ReplaceOnDeplete <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-replaceondeplete>`_\ , the moment the item is depleted (e.g. a drainable item has no uses left anymore), it will be replaced by the item defined in this parameter. If this is empty, the item will be deleted without any replacement. This can notably be used to replace towels with a `wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wet>`_ towel.
 
@@ -3546,7 +4319,9 @@ When providing a `ReplaceOnDeplete <https://pz-wiki-modding.github.io/PZ-API-Doc
 ReplaceOnExtinguish
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
 
 No description provided.
 
@@ -3556,7 +4331,9 @@ No description provided.
 ReplaceOnRotten
 ^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
 
 No description provided.
 
@@ -3566,7 +4343,9 @@ No description provided.
 ReplaceOnUse
 ^^^^^^^^^^^^
 
-:Type: block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
 
 No description provided.
 
@@ -3576,7 +4355,9 @@ No description provided.
 RequireInHandOrInventory
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3586,7 +4367,9 @@ No description provided.
 RequiresEquippedBothHands
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 No description provided.
 
@@ -3596,7 +4379,9 @@ No description provided.
 Researchablerecipes
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 No description provided.
 
@@ -3606,8 +4391,13 @@ No description provided.
 RunAnim
 ^^^^^^^
 
-:Type: string
-:Default: ``Run``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``Run``
 
 No description provided.
 
@@ -3617,8 +4407,13 @@ No description provided.
 RunSpeedModifier
 ^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -3628,8 +4423,13 @@ No description provided.
 ScaleWorldIcon
 ^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -3639,7 +4439,9 @@ No description provided.
 ScratchDefense
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3649,7 +4451,9 @@ No description provided.
 secondaryAnimMask
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3659,7 +4463,9 @@ No description provided.
 SensorRange
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3669,7 +4475,9 @@ No description provided.
 Sharpness
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3679,7 +4487,9 @@ No description provided.
 ShellFallSound
 ^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -3689,8 +4499,13 @@ No description provided.
 ShoutMultiplier
 ^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -3700,7 +4515,9 @@ No description provided.
 ShoutType
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3710,8 +4527,13 @@ No description provided.
 SkillTrained
 ^^^^^^^^^^^^
 
-:Type: string
-:Default: ````
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ````
 
 No description provided.
 
@@ -3721,7 +4543,9 @@ No description provided.
 SmokeRange
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3731,8 +4555,13 @@ No description provided.
 SoundGain
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -3742,7 +4571,9 @@ No description provided.
 SoundMap
 ^^^^^^^^
 
-:Type: object (object: string->>block, kv: ' ', pairs: ';')
+.. attribute:: Type
+
+   object (object: string->>block, kv: ' ', pairs: ';')
 
 No description provided.
 
@@ -3752,7 +4583,9 @@ No description provided.
 SoundParameter
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3762,7 +4595,9 @@ No description provided.
 SoundRadius
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3772,7 +4607,9 @@ No description provided.
 SoundVolume
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3782,7 +4619,9 @@ No description provided.
 SpawnWith
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3792,7 +4631,9 @@ No description provided.
 Spice
 ^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Marks this item as a spice, which can be used in the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ system.
 
@@ -3802,7 +4643,9 @@ Marks this item as a spice, which can be used in the `evolved recipes <https://p
 SplatBloodOnNoDeath
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3812,8 +4655,13 @@ No description provided.
 SplatNumber
 ^^^^^^^^^^^
 
-:Type: integer
-:Default: ``2``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``2``
 
 No description provided.
 
@@ -3823,8 +4671,13 @@ No description provided.
 SplatSize
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -3834,7 +4687,9 @@ No description provided.
 StaticModel
 ^^^^^^^^^^^
 
-:Type: block (block: :ref:`model <scripts-model>`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`model <scripts-model>`, with :ref:`module`)
 
 `StaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-staticmodel>`_ is used to define the model of the item being held in hands. On the other hand, `WorldStaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-worldstaticmodel>`_ is used to define the model of the item being placed in the world. The two models can be different, for example an item can have a handle that is up when held in hands, but down when placed in the world.
 
@@ -3852,7 +4707,9 @@ Alternatively, `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Do
 StaticModelsByIndex
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
 
@@ -3862,8 +4719,13 @@ See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
 StompPower
 ^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -3873,8 +4735,13 @@ No description provided.
 StopPower
 ^^^^^^^^^
 
-:Type: float
-:Default: ``5.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``5.0``
 
 See parameter :ref:`CriticalChance <scripts-item-criticalchance>`.
 
@@ -3884,7 +4751,9 @@ See parameter :ref:`CriticalChance <scripts-item-criticalchance>`.
 StressChange
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3894,8 +4763,13 @@ No description provided.
 SubCategory
 ^^^^^^^^^^^
 
-:Type: string
-:Default: ````
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ````
 
 No description provided.
 
@@ -3905,7 +4779,9 @@ No description provided.
 SurvivalGear
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3915,7 +4791,9 @@ No description provided.
 suspensionCompression
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3925,7 +4803,9 @@ No description provided.
 suspensionDamping
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3935,7 +4815,9 @@ No description provided.
 SwingAmountBeforeImpact
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -3945,8 +4827,13 @@ No description provided.
 SwingAnim
 ^^^^^^^^^
 
-:Type: string
-:Default: ``Rifle``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``Rifle``
 
 No description provided.
 
@@ -3956,8 +4843,13 @@ No description provided.
 SwingSound
 ^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
-:Default: ``BaseballBatSwing``
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
+
+.. attribute:: Default
+
+   ``BaseballBatSwing``
 
 No description provided.
 
@@ -3967,8 +4859,13 @@ No description provided.
 Swingtime
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -3978,7 +4875,9 @@ No description provided.
 Tags
 ^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 A list of tags to assign to the item. Tags are used by the game to easily identify properties of the items from the Lua or Java. This can notably be used in `craftRecipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_.
 
@@ -4005,7 +4904,9 @@ You can then use that tag ``yourmodid:yourtagname`` in your item definition. And
 ThirstChange
 ^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 No description provided.
 
@@ -4015,8 +4916,13 @@ No description provided.
 ticksPerEquipUse
 ^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``30``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``30``
 
 No description provided.
 
@@ -4026,8 +4932,13 @@ No description provided.
 ToHitModifier
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -4037,7 +4948,9 @@ No description provided.
 Tooltip
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4047,7 +4960,9 @@ No description provided.
 TorchCone
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4057,8 +4972,13 @@ No description provided.
 TorchDot
 ^^^^^^^^
 
-:Type: float
-:Default: ``0.96``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``0.96``
 
 No description provided.
 
@@ -4068,7 +4988,9 @@ No description provided.
 TransmitRange
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4078,8 +5000,13 @@ No description provided.
 Trap
 ^^^^
 
-:Type: boolean
-:Default: ``False``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``False``
 
 No description provided.
 
@@ -4089,7 +5016,9 @@ No description provided.
 TreeDamage
 ^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4099,7 +5028,9 @@ No description provided.
 triggerExplosionTimer
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4109,7 +5040,9 @@ No description provided.
 TwoHandWeapon
 ^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 `TwoHandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-twohandweapon>`_ marks the weapon as a two-handed weapon. `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ gets a x1.3 penalty when the weapon is held one-handed instead of two handed. `RequiresEquippedBothHands <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-requiresequippedbothhands>`_ enforces the equip restriction in the context menu.
 
@@ -4119,7 +5052,9 @@ TwoHandWeapon
 TwoWay
 ^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4129,7 +5064,9 @@ No description provided.
 UnequipSound
 ^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound <scripts-sound>`)
+.. attribute:: Type
+
+   string (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -4139,7 +5076,9 @@ No description provided.
 UnhappyChange
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4149,8 +5088,13 @@ No description provided.
 UseDelta
 ^^^^^^^^
 
-:Type: float
-:Default: ``0.03125``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``0.03125``
 
 Used to set the number of `uses <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getCurrentUses(>`_\ ) for the item where its durability has a value of ``1`` when full and ``0`` when empty. For example, a `base:drainable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ item with a ``UseDelta`` of ``0.03125`` (the default value) will have 32 uses ($1/0.03125$) before it is depleted.
 
@@ -4164,8 +5108,13 @@ Some food items seem to be using that parameter but it doesn't seem to be used f
 UseEndurance
 ^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 If ``true``\ , the weapon will consume stamina on use based on the weapon `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_\ , `EnduranceMod <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-endurancemod>`_\ , fatigue modifiers and traits.
 
@@ -4177,8 +5126,13 @@ For guns, it is preferable to keep this as ``False``.
 UseForPoison
 ^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``0``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``0``
 
 No description provided.
 
@@ -4188,7 +5142,9 @@ No description provided.
 UsesBattery
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4198,7 +5154,9 @@ No description provided.
 UseSelf
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4208,8 +5166,13 @@ No description provided.
 UseWhileEquipped
 ^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 No description provided.
 
@@ -4219,7 +5182,9 @@ No description provided.
 UseWhileUnequipped
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4229,7 +5194,9 @@ No description provided.
 UseWorldItem
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4239,7 +5206,9 @@ No description provided.
 VehiclePartModel
 ^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4249,7 +5218,9 @@ No description provided.
 VehicleType
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4259,8 +5230,13 @@ No description provided.
 VisionModifier
 ^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -4270,7 +5246,9 @@ No description provided.
 VisualAid
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4280,7 +5258,9 @@ No description provided.
 WaterResistance
 ^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4290,7 +5270,9 @@ No description provided.
 WeaponHitArmourSound
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4300,8 +5282,13 @@ No description provided.
 WeaponLength
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``0.4``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``0.4``
 
 No description provided.
 
@@ -4311,8 +5298,13 @@ No description provided.
 WeaponReloadType
 ^^^^^^^^^^^^^^^^
 
-:Type: string
-:Default: ``handgun``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``handgun``
 
 See parameter :ref:`AmmoType <scripts-item-ammotype>`.
 
@@ -4322,7 +5314,9 @@ See parameter :ref:`AmmoType <scripts-item-ammotype>`.
 WeaponSprite
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4332,7 +5326,9 @@ No description provided.
 WeaponSpritesByIndex
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4342,8 +5338,13 @@ No description provided.
 WeaponWeight
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 No description provided.
 
@@ -4353,9 +5354,17 @@ No description provided.
 Weight
 ^^^^^^
 
-:Type: float
-:Default: ``1.0``
-:Minimum: ``0.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
+
+.. attribute:: Minimum
+
+   ``0.0``
 
 `Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``. You need to make sure to add a `translation <https://pzwiki.net/wiki/Item_(scripts>`_\ #Display_name) to the item or the weight will not work in-game.
 
@@ -4369,7 +5378,9 @@ Weight
 WeightEmpty
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`Weight <scripts-item-weight>`.
 
@@ -4379,7 +5390,9 @@ See parameter :ref:`Weight <scripts-item-weight>`.
 WeightWet
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 See parameter :ref:`Weight <scripts-item-weight>`.
 
@@ -4389,7 +5402,9 @@ See parameter :ref:`Weight <scripts-item-weight>`.
 WeightModifier
 ^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 No description provided.
 
@@ -4399,9 +5414,17 @@ No description provided.
 WeightReduction
 ^^^^^^^^^^^^^^^
 
-:Type: integer
-:Minimum: ``0``
-:Maximum: ``100``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Minimum
+
+   ``0``
+
+.. attribute:: Maximum
+
+   ``100``
 
 Percentage of the total contained weight in the bag that will be reduced. If the bag's content weights 10 and the reduction is 65, the bag content will only weight
 
@@ -4411,7 +5434,9 @@ Percentage of the total contained weight in the bag that will be reduced. If the
 Wet
 ^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 `Wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wet>`_ marks the item as being wet. This is notably used for towels alongside the `WetCooldown <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wetcooldown>`_ which indicates how long the item will stay wet before drying out.
 
@@ -4423,8 +5448,13 @@ When the item is dry, it is another item marked with the parameter `ItemWhenDry 
 WetCooldown
 ^^^^^^^^^^^
 
-:Type: float
-:Default: ``-1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``-1.0``
 
 See parameter :ref:`Wet <scripts-item-wet>`.
 
@@ -4434,7 +5464,9 @@ See parameter :ref:`Wet <scripts-item-wet>`.
 wheelFriction
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4444,7 +5476,9 @@ No description provided.
 WindResistance
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4454,7 +5488,9 @@ No description provided.
 WithDrainable
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4464,7 +5500,9 @@ No description provided.
 WithoutDrainable
 ^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4474,7 +5512,9 @@ No description provided.
 WorldObjectSprite
 ^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4484,7 +5524,9 @@ No description provided.
 WorldRender
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -4494,7 +5536,9 @@ No description provided.
 WorldStaticModel
 ^^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`model <scripts-model>`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`model <scripts-model>`, with :ref:`module`)
 
 See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
 
@@ -4504,7 +5548,9 @@ See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
 WorldStaticModelsByIndex
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
 

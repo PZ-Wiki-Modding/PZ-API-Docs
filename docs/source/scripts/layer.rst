@@ -3,7 +3,9 @@
 layer
 =====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 
@@ -31,7 +33,9 @@ Parameters
 row
 ^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

@@ -1,22 +1,22 @@
 
 # RST headers
-class headers(str):
-    SECTION: 'headers'          # h1
-    SUBSECTION: 'headers'       # h2
-    SUBSUBSECTION: 'headers'    # h3
-    PARAGRAPH: 'headers'       # h4
+class Headers(str):
+    SECTION: 'Headers'          # h1
+    SUBSECTION: 'Headers'       # h2
+    SUBSUBSECTION: 'Headers'    # h3
+    PARAGRAPH: 'Headers'       # h4
     
     def __new__(cls, value):
         return str.__new__(cls, value)
 
     def next(self):
         """Return the next header level."""
-        if self == headers.SECTION:
-            return headers.SUBSECTION
-        elif self == headers.SUBSECTION:
-            return headers.SUBSUBSECTION
-        elif self == headers.SUBSUBSECTION:
-            return headers.PARAGRAPH
+        if self == Headers.SECTION:
+            return Headers.SUBSECTION
+        elif self == Headers.SUBSECTION:
+            return Headers.SUBSUBSECTION
+        elif self == Headers.SUBSUBSECTION:
+            return Headers.PARAGRAPH
         else:
             raise ValueError("No next header level for PARAGRAPHS.")
         
@@ -30,16 +30,16 @@ class headers(str):
 
 
 # Define the headers after the class
-headers.SECTION = headers("=")
-headers.SUBSECTION = headers("-")
-headers.SUBSUBSECTION = headers("^")
-headers.PARAGRAPH = headers('"')
+Headers.SECTION = Headers("=")
+Headers.SUBSECTION = Headers("-")
+Headers.SUBSUBSECTION = Headers("^")
+Headers.PARAGRAPH = Headers('"')
 
 
 
 if __name__ == "__main__":
     # Example usage
-    current_header = headers.SECTION
+    current_header = Headers.SECTION
     print(f"Current header: {current_header}")
     next_header = current_header.next()
     print(f"Next header: {next_header}")

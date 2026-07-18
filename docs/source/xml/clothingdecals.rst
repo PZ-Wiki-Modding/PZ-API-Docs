@@ -41,12 +41,19 @@ The following file patterns are used to determine what the valid path for the XM
 Root Details
 ------------
 
-:Element: clothingDecals
+.. attribute:: Element
+
+   clothingDecals
 
 The root element is the top-level XML element that contains all other elements in the XML file.
 
-:Type: :ref:`type_clothingDecals <clothingdecals-type_clothingdecals>`
-:Composition: all
+.. attribute:: Type
+
+   :ref:`type_clothingDecals <clothingdecals-type_clothingdecals>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
 ^^^^^^^^
@@ -54,9 +61,17 @@ Elements
 group
 """""
 
-:Minimum occurence: 0
-:Maximum occurence: unbounded
-:Type: :ref:`type_clothingDecalGroup <clothingdecals-type_clothingdecalgroup>`
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_clothingDecalGroup <clothingdecals-type_clothingdecalgroup>`
 
 Defines a decal group, that is a collection of decals associated to a name for referencing.
 
@@ -66,8 +81,13 @@ Defines a decal group, that is a collection of decals associated to a name for r
 type_clothingDecalGroup
 -----------------------
 
-:Type: :ref:`type_clothingDecalGroup <clothingdecals-type_clothingdecalgroup>`
-:Composition: all
+.. attribute:: Type
+
+   :ref:`type_clothingDecalGroup <clothingdecals-type_clothingdecalgroup>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
 ^^^^^^^^
@@ -75,18 +95,34 @@ Elements
 name
 """"
 
-:Minimum occurence: 1
-:Maximum occurence: 1
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 A unique identifier for the decal group.
 
 decal
 """""
 
-:Minimum occurence: 0
-:Maximum occurence: unbounded
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   ``xs:string``
 
 Refers to a texture file stored inside the folder ``media/textures/shirtdecals/``. The value needs to be the name of the file without the extension (which needs to be ``.png``\ ). Alternatively, it seems the game also accepts decals inside texture packs.
 
@@ -110,9 +146,17 @@ The decal parameter should have this following syntax:
 group
 """""
 
-:Minimum occurence: 0
-:Maximum occurence: unbounded
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   ``xs:string``
 
 Refers to another `group <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingDecals.html#group>`_. This allows that group to use decals of the referenced group.
 

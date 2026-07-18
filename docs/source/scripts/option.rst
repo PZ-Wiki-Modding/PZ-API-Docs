@@ -3,7 +3,9 @@
 option
 ======
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a custom sandbox option for a mod.
 
@@ -22,8 +24,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -34,9 +41,17 @@ Parameters
 type
 ^^^^
 
-:Type: string
-:Required: True
-:Allowed values: 
+.. attribute:: Type
+
+   string
+
+.. attribute:: Required
+
+   True
+
+.. attribute:: Allowed values
+
+   
 * ``boolean``
 * ``integer``
 * ``double``
@@ -51,7 +66,9 @@ The type of the option.
 min
 ^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 The minimum value the option can have. Only for integer and double types.
 
@@ -61,7 +78,9 @@ The minimum value the option can have. Only for integer and double types.
 max
 ^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 The maximum value the option can have. Only for integer and double types.
 
@@ -71,7 +90,9 @@ The maximum value the option can have. Only for integer and double types.
 default
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -81,7 +102,9 @@ No description provided.
 page
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The sandbox option to add the option to. Can be a custom page.
 
@@ -91,7 +114,9 @@ The sandbox option to add the option to. Can be a custom page.
 translation
 ^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The translation key for the option's name.
 

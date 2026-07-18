@@ -3,8 +3,13 @@
 component UiConfig
 ==================
 
-:Soft Override: Unknown
-:Is Variant of: :ref:`component <scripts-component>`
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
 
 
 
@@ -32,7 +37,9 @@ Parameters
 xuiSkin
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -42,7 +49,9 @@ No description provided.
 entityStyle
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -52,7 +61,9 @@ No description provided.
 uiEnabled
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

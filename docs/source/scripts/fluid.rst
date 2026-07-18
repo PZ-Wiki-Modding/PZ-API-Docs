@@ -3,7 +3,9 @@
 fluid
 =====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Create a new fluid definition. Different properties can be provided for the fluid v ia the use of different children blocks:
 
@@ -35,8 +37,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -47,7 +54,9 @@ Parameters
 ColorReference
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 A reference to a color defined in the Colors class. You can find a full list of the colors available in the `Colors <https://pz-wiki-modding.github.io/PZ-API-Docs/java/colors.html>`_ documentation.
 
@@ -67,7 +76,9 @@ For example, to use the color ``Azure`` from the documentation:
 DisplayName
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 The name of the fluid that will be displayed in the game. The value corresponds to the key for the fluid's name in the `Fluids.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#fluids>`_ translation file. The translation keys for the fluid usually have the prefix ``Fluid_Name_`` but this is technically not required.
 

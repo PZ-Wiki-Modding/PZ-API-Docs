@@ -3,8 +3,13 @@
 component Durability
 ====================
 
-:Soft Override: Unknown
-:Is Variant of: :ref:`component <scripts-component>`
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
 
 
 

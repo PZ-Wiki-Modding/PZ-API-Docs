@@ -3,7 +3,9 @@
 clip
 ====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a clip to be used in a `sound script <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_\ , which is a single sound file with properties that determine how it is played in the game.
 
@@ -48,7 +50,9 @@ Parameters
 event
 ^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Specifies an event that will trigger the playback of a specific sound. Used for sounds from FMOD sound banks (vanilla sound files).
 
@@ -58,7 +62,9 @@ Specifies an event that will trigger the playback of a specific sound. Used for 
 distanceMax
 ^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 `distanceMax <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#distanceMax>`_ and `distanceMin <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#distanceMin>`_ respectively set the maximum and minimum distances between which the sound will gradually decrease in volume.
 
@@ -68,7 +74,9 @@ distanceMax
 file
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The path to the sound file to be played, relative to the folder above the ``media`` folder. For the following file path:
 
@@ -93,7 +101,9 @@ A file can be both of file format ``.ogg`` or ``.wav``\ , but ``.ogg`` is recomm
 distanceMin
 ^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 See parameter :ref:`distanceMax <scripts-clip-distancemax>`.
 
@@ -103,7 +113,9 @@ See parameter :ref:`distanceMax <scripts-clip-distancemax>`.
 volume
 ^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 Adjusts the volume of the sound. Preferably your sound file should be properly normalized to a volume of 1.0.
 
@@ -113,7 +125,9 @@ Adjusts the volume of the sound. Preferably your sound file should be properly n
 reverbFactor
 ^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 `reverbFactor <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#reverbFactor>`_ sets the amount of reverb applied to the sound while `reverbMaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/clip.html#reverbMaxRange>`_ sets the maximum distance at which the reverb will be applied.
 
@@ -123,7 +137,9 @@ reverbFactor
 pitch
 ^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 The pitch of the sound.
 
@@ -133,7 +149,9 @@ The pitch of the sound.
 reverbMaxRange
 ^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 See parameter :ref:`reverbFactor <scripts-clip-reverbfactor>`.
 
@@ -143,7 +161,9 @@ See parameter :ref:`reverbFactor <scripts-clip-reverbfactor>`.
 stopImmediate
 ^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

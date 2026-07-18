@@ -7,7 +7,7 @@ from pathlib import Path
 from documentation import Documentation, DocObject, DocObjectT, code_value_formatter
 from project import PROJECT_ROOT, sanitize_description
 from utility.metadata import Metadata
-from utility.rst import headers
+from utility.rst import Headers
 
 
 ## DEFINITIONS
@@ -191,7 +191,7 @@ class ScriptsDocObject(DocObject):
         children_blocks = self.data.get("children", [])
         needsChildren = self.data.get("needsChildren", None)
         if parent_blocks or children_blocks:
-            content += headers.SUBSECTION.make("Hierarchy")
+            content += Headers.SUBSECTION.make("Hierarchy")
 
             if parent_blocks:    
                 content += "This block can be a child of the following blocks:\n\n"
@@ -210,7 +210,7 @@ class ScriptsDocObject(DocObject):
             content += "\n\n"
 
         # make ID section
-        content += headers.SUBSECTION.make("ID")
+        content += Headers.SUBSECTION.make("ID")
         id_data = self.data.get("ID", None)
         if id_data is None:
             content += "This block should have no ID.\n\n\n"
@@ -220,13 +220,13 @@ class ScriptsDocObject(DocObject):
 
         # generate specific ItemType list for item block
         if self.data['name'] == "item":
-            content += headers.SUBSECTION.make("ItemType parameters")
+            content += Headers.SUBSECTION.make("ItemType parameters")
             content += ITEMTYPE_PARAMETERS_DESCRIPTION.strip()
             content += "\n\n"
 
             for itemtype, parameters in itemtype_parameters.items():
                 if parameters:
-                    content += headers.SUBSUBSECTION.make(itemtype)
+                    content += Headers.SUBSUBSECTION.make(itemtype)
                     for parameter in parameters:
                         label = _get_parameter_label(name, parameter)
                         content += f"- {_make_ref_label(parameter, label)}\n"
@@ -235,7 +235,7 @@ class ScriptsDocObject(DocObject):
 
         # generate parameter section
         parameters = self.data.get("parameters", {})
-        content += headers.SUBSECTION.make("Parameters")
+        content += Headers.SUBSECTION.make("Parameters")
         if not parameters:
             content += "This block has no parameters.\n\n"
         else:
@@ -252,7 +252,7 @@ class ScriptsDocObject(DocObject):
 
                 # make parameter subsection
                 label = _get_parameter_label(name, parameter['name'])
-                content += headers.SUBSUBSECTION.make(parameter['name'], label)
+                content += Headers.SUBSUBSECTION.make(parameter['name'], label)
                 content += parameter_metadata.generate(self, parameter) + "\n\n"
                 content += sanitized_description + "\n\n"
                 content += "\n"

@@ -3,8 +3,13 @@
 component WallCoveringConfig
 ============================
 
-:Soft Override: Unknown
-:Is Variant of: :ref:`component <scripts-component>`
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
 
 
 
@@ -32,7 +37,9 @@ Parameters
 sign
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -42,7 +49,9 @@ No description provided.
 type
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

@@ -3,7 +3,9 @@
 sound
 =====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Makes one or more sound clips available for use in the game. Multiple clips can be added to a sound script, and the game will randomly select one of them to play when the sound is triggered.
 
@@ -45,9 +47,17 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
-:No ID for parents: 
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
+
+.. attribute:: No ID for parents
+
+   
 * ``:ref:`vehicle <scripts-vehicle>```
 * ``:ref:`template <scripts-template>```
 
@@ -60,7 +70,9 @@ Parameters
 alarm
 ^^^^^
 
-:Type: array (array of string, separator: ' ')
+.. attribute:: Type
+
+   array (array of string, separator: ' ')
 
 No description provided.
 
@@ -70,7 +82,9 @@ No description provided.
 alarmLoop
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -80,7 +94,9 @@ No description provided.
 backSignal
 ^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -90,7 +106,9 @@ No description provided.
 category
 ^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Unclear what this parameter is for.
 
@@ -100,7 +118,9 @@ Unclear what this parameter is for.
 engine
 ^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -110,7 +130,9 @@ No description provided.
 engineStart
 ^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -120,7 +142,9 @@ No description provided.
 engineTurnOff
 ^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -130,7 +154,9 @@ No description provided.
 handBrake
 ^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -140,7 +166,9 @@ No description provided.
 horn
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -150,7 +178,9 @@ No description provided.
 ignitionFail
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -160,7 +190,9 @@ No description provided.
 ignitionFailNoPower
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 No description provided.
 
@@ -170,7 +202,9 @@ No description provided.
 is3D
 ^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Whenever this is set to ``false``\ , the distance to the sound will not impact its volume. This parameter doesn't impact the sound directionality.
 
@@ -180,7 +214,9 @@ Whenever this is set to ``false``\ , the distance to the sound will not impact i
 loop
 ^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Whether the sound should loop or not. The sound plays until turned off manually via Lua code or the emitter is destroyed.
 
@@ -190,9 +226,17 @@ Whether the sound should loop or not. The sound plays until turned off manually 
 master
 ^^^^^^
 
-:Type: string
-:Default: ``Primary``
-:Allowed values: 
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``Primary``
+
+.. attribute:: Allowed values
+
+   
 * ``Primary``
 * ``Ambient``
 * ``Music``
@@ -206,7 +250,9 @@ Links the sound to a sound handling setting, which controls the volume of all so
 maxInstancesPerEmitter
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 Specifies how many of this sound the sound emitter can play at the same time.
 

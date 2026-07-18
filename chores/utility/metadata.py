@@ -1,5 +1,6 @@
 from typing import Any, Callable, TypedDict, NotRequired, TypeVar, Generic
 
+from project import INDENT
 from documentation import DocObject, DocObjectT
 
 class Rule(TypedDict):
@@ -49,9 +50,9 @@ class Metadata(Generic[DocObjectT]):
         if i == 0:
             return ""
 
-        return out.strip()
+        return out.rstrip()  # remove trailing newline
     
     @staticmethod
     def format_metadata(key: str, value: str | None) -> str:
         """Helper method to format a single metadata key-value pair."""
-        return f":{key}: {value}"
+        return f".. attribute:: {key}\n\n{INDENT}{value}\n"

@@ -3,7 +3,9 @@
 box
 ===
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 `box <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/box.html>`_\ , `cylinder <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/cylinder.html>`_ and `polygon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/polygon.html>`_ are used in `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ to define the tile depth of a tile.
 
@@ -33,7 +35,9 @@ Parameters
 translate
 ^^^^^^^^^
 
-:Type: array (array of integer, separator: 'x')
+.. attribute:: Type
+
+   array (array of integer, separator: 'x')
 
 No description provided.
 
@@ -43,7 +47,9 @@ No description provided.
 rotate
 ^^^^^^
 
-:Type: array (array of integer, separator: 'x')
+.. attribute:: Type
+
+   array (array of integer, separator: 'x')
 
 No description provided.
 
@@ -53,7 +59,9 @@ No description provided.
 min
 ^^^
 
-:Type: array (array of integer, separator: 'x')
+.. attribute:: Type
+
+   array (array of integer, separator: 'x')
 
 No description provided.
 
@@ -63,7 +71,9 @@ No description provided.
 max
 ^^^
 
-:Type: array (array of integer, separator: 'x')
+.. attribute:: Type
+
+   array (array of integer, separator: 'x')
 
 No description provided.
 

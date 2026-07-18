@@ -3,8 +3,13 @@
 component SpriteConfig
 ======================
 
-:Soft Override: Unknown
-:Is Variant of: :ref:`component <scripts-component>`
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
 
 
 
@@ -39,7 +44,9 @@ Parameters
 isThumpable
 ^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -49,7 +56,9 @@ No description provided.
 OnCreate
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -59,7 +68,9 @@ No description provided.
 isProp
 ^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -69,7 +80,9 @@ No description provided.
 OnIsValid
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -79,7 +92,9 @@ No description provided.
 TimedActionOnIsValid
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -89,7 +104,9 @@ No description provided.
 health
 ^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 No description provided.
 
@@ -99,7 +116,9 @@ No description provided.
 skillBaseHealth
 ^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 No description provided.
 

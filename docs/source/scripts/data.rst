@@ -3,7 +3,9 @@
 data
 ====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 
@@ -31,8 +33,13 @@ Parameters
 afterGearChange
 ^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``0.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``0.0``
 
 No description provided.
 
@@ -42,8 +49,13 @@ No description provided.
 gearChange
 ^^^^^^^^^^
 
-:Type: float
-:Default: ``0.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``0.0``
 
 No description provided.
 

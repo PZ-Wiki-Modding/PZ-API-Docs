@@ -3,7 +3,9 @@
 fixing
 ======
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines how an item can be repaired or fixed.
 
@@ -22,8 +24,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: True
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   True
 
 
 Parameters
@@ -34,7 +41,9 @@ Parameters
 Fixer
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -44,7 +53,9 @@ No description provided.
 Require
 ^^^^^^^
 
-:Type: array (array of block, separator: ';')
+.. attribute:: Type
+
+   array (array of block, separator: ';')
 
 No description provided.
 
@@ -54,7 +65,9 @@ No description provided.
 GlobalItem
 ^^^^^^^^^^
 
-:Type: object (object: block->>integer, kv: '=', pairs: ';')
+.. attribute:: Type
+
+   object (object: block->>integer, kv: '=', pairs: ';')
 
 No description provided.
 
@@ -64,7 +77,9 @@ No description provided.
 ConditionModifier
 ^^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 No description provided.
 

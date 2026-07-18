@@ -35,12 +35,19 @@ The following file patterns are used to determine what the valid path for the XM
 Root Details
 ------------
 
-:Element: fileGuidTable
+.. attribute:: Element
+
+   fileGuidTable
 
 The root element is the top-level XML element that contains all other elements in the XML file.
 
-:Type: :ref:`type_fileGuidTable <fileguidtable-type_fileguidtable>`
-:Composition: all
+.. attribute:: Type
+
+   :ref:`type_fileGuidTable <fileguidtable-type_fileguidtable>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
 ^^^^^^^^
@@ -48,9 +55,17 @@ Elements
 files
 """""
 
-:Minimum occurence: 0
-:Maximum occurence: unbounded
-:Type: :ref:`type_fileGuidTable_files <fileguidtable-type_fileguidtable_files>`
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_fileGuidTable_files <fileguidtable-type_fileguidtable_files>`
 
 Define a `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html>`_ file and GUID association.
 
@@ -78,8 +93,13 @@ You should have the following parameters:
 type_fileGuidTable_files
 ------------------------
 
-:Type: :ref:`type_fileGuidTable_files <fileguidtable-type_fileguidtable_files>`
-:Composition: all
+.. attribute:: Type
+
+   :ref:`type_fileGuidTable_files <fileguidtable-type_fileguidtable_files>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
 ^^^^^^^^
@@ -87,9 +107,17 @@ Elements
 path
 """"
 
-:Minimum occurence: 1
-:Maximum occurence: 1
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The path to the `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html>`_ file. This path is relative to the upper folder of ``media``\ , for example for the following structure:
 
@@ -110,9 +138,17 @@ You need the following parameter:
 guid
 """"
 
-:Minimum occurence: 1
-:Maximum occurence: 1
-:Type: ``xs:string``
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The `GUID <https://pzwiki.net/wiki/GUID>`_ of the clothing item. This needs to be the same as the one inside the `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ file for the clothing item to be recognized by the game.
 

@@ -3,8 +3,13 @@
 ROOT-Default
 ============
 
-:Soft Override: Unknown
-:Is Root: True
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
 
 The default.txt file is used to select the mods and maps that will be loaded by the game.
 
@@ -37,7 +42,9 @@ Parameters
 VERSION
 ^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 The version of the default.txt file. Keep it at 1.
 

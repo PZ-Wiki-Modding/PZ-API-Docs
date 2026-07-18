@@ -3,7 +3,9 @@
 CopyFrames
 ==========
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 It is unknown what this block does.
 
@@ -31,7 +33,9 @@ Parameters
 frame
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -41,7 +45,9 @@ No description provided.
 source
 ^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -51,7 +57,9 @@ No description provided.
 sourceFrame1
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -61,7 +69,9 @@ No description provided.
 sourceFrame2
 ^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

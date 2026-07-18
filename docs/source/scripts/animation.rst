@@ -3,7 +3,9 @@
 animation
 =========
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 It is unknown what this block does.
 
@@ -27,8 +29,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters

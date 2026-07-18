@@ -3,7 +3,9 @@
 blend
 =====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Used to define blend rules for the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_ painting tool.
 
@@ -31,7 +33,9 @@ Parameters
 layer
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 The layer the blend rule applies to. Should be one of the layers defined in the ``TMXconfig.txt`` file.
 
@@ -41,7 +45,9 @@ The layer the blend rule applies to. Should be one of the layers defined in the 
 mainTile
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Used to identify which tiles will trigger the blend. This can be a single tile or an array of tiles, and it supports ``alias`` blocks.
 
@@ -95,7 +101,9 @@ Or with one or more alias blocks:
 blendTile
 ^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 Used to define the tiles which will be used for the blend around the ``mainTile``. This can be a single tile or an array of tiles, and it supports ``alias`` blocks.
 
@@ -149,8 +157,13 @@ Or with one or more alias blocks:
 dir
 ^^^
 
-:Type: Unknown
-:Allowed values: 
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Allowed values
+
+   
 * ``n``
 * ``ne``
 * ``e``
@@ -168,7 +181,9 @@ The direction the blend applies to.
 exclude
 ^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 A list of tiles which will be excluded from being blended. This can be a single tile or an array of tiles, and it supports ``alias`` blocks.
 
@@ -186,7 +201,9 @@ Where each entries separated by a space are an alias.
 exclude2
 ^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

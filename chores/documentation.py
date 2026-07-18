@@ -4,19 +4,20 @@ from typing import Any, TypeVar, Generic, TYPE_CHECKING
 
 from project import PROJECT_ROOT, INDENT, sanitize_description
 from utility import echo
-from utility.rst import headers
+from utility.rst import Headers
 
 if TYPE_CHECKING:
     from utility.metadata import Metadata
 
 
 TOC_INSTRUCTIONS_TITLE = "Documentation Instructions"
+TOC_TITLE = "Table of Contents"
 
 ## UTILITY
 
 def make_toc_tree(toc_elements: list[Path], toc_depth: int = 2) -> str:
     """Create a TOC tree string for the provided elements."""
-    out = headers.SUBSECTION.make("Table of Contents")
+    out = Headers.SUBSECTION.make(TOC_TITLE)
     out += ".. toctree::" + "\n"
     out += f"   :maxdepth: {toc_depth}\n"
     out += "   :titlesonly:\n\n"
@@ -72,7 +73,7 @@ class DocObject:
         sanitized_description = sanitize_description(description)
         label = self.get_label()
         name = self.get_name()
-        header = headers.SECTION.make(name, label = label)
+        header = Headers.SECTION.make(name, label = label)
         if self.headerMetadata is not None:
             header += self.headerMetadata.generate(self, self.data) + "\n\n"
         header += sanitized_description
@@ -160,13 +161,13 @@ class Documentation(Generic[DocObjectT]):
         
         # format toc text
         title = self.title
-        out = headers.SECTION.make(title)
+        out = Headers.SECTION.make(title)
         out += self.toc_description.strip() + "\n\n"
 
         # make reading instructions
         instructions = self.generate_instructions()
         if instructions is not None:
-            out += headers.SUBSECTION.make(TOC_INSTRUCTIONS_TITLE)
+            out += Headers.SUBSECTION.make(TOC_INSTRUCTIONS_TITLE)
             out += instructions.strip() + "\n\n"
 
         # make toc tree

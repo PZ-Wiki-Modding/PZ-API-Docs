@@ -3,7 +3,9 @@
 component
 =========
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 A component is a block which can be added as a child to a specific block type like an item, vehicle etc, to provide additional functionalities.
 
@@ -23,9 +25,17 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
-:Allowed ID: 
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
+
+.. attribute:: Allowed ID
+
+   
 * ``CraftRecipe``
 * ``SpriteConfig``
 * ``UiConfig``
@@ -38,7 +48,10 @@ This block can have an ID.
 * ``FluidContainer``
 * ``ContextMenuConfig``
 * ``WallCoveringConfig``
-:Variants: 
+
+.. attribute:: Variants
+
+   
 * ``:ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>```
 * ``:ref:`component FluidContainer <scripts-component-fluidcontainer>```
 * ``:ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>```

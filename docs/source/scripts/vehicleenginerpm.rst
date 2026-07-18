@@ -3,7 +3,9 @@
 vehicleEngineRPM
 ================
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Unclear how the definition of this block works.
 
@@ -63,8 +65,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -75,7 +82,9 @@ Parameters
 VERSION
 ^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 Unclear what this does, preferably keep it at 1.
 

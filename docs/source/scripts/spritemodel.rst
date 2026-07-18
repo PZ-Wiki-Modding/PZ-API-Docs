@@ -3,7 +3,9 @@
 spriteModel
 ===========
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Used to define tileset properties.
 
@@ -35,7 +37,9 @@ Parameters
 VERSION
 ^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 No description provided.
 

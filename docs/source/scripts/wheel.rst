@@ -3,7 +3,9 @@
 wheel
 =====
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines the wheels of a vehicle. While the ID can technically be anything, only the IDs 'FrontLeft', 'FrontRight', 'RearLeft', and 'RearRight' are recognized by the game and will function properly.
 
@@ -23,8 +25,13 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
@@ -35,7 +42,9 @@ Parameters
 radius
 ^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -45,7 +54,9 @@ No description provided.
 offset
 ^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -55,7 +66,9 @@ No description provided.
 front
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -65,7 +78,9 @@ No description provided.
 width
 ^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

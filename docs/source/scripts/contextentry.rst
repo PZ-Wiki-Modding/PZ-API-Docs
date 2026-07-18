@@ -3,7 +3,9 @@
 contextEntry
 ============
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 
 
@@ -31,7 +33,9 @@ Parameters
 menu
 ^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 
@@ -41,7 +45,9 @@ No description provided.
 customFunction
 ^^^^^^^^^^^^^^
 
-:Type: Unknown
+.. attribute:: Type
+
+   Unknown
 
 No description provided.
 

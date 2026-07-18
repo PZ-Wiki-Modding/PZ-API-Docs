@@ -3,7 +3,9 @@
 xuiSkin
 =======
 
-:Soft Override: Unknown
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a XUI interface skin.
 
@@ -30,9 +32,17 @@ ID
 
 This block can have an ID.
 
-:Optional: False
-:Can have spaces: False
-:Forbidden ID: 
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
+
+.. attribute:: Forbidden ID
+
+   
 * ``default``
 
 

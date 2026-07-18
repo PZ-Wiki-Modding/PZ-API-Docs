@@ -3,8 +3,13 @@
 ROOT-SandboxOptions
 ===================
 
-:Soft Override: Unknown
-:Is Root: True
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
 
 The root of a script file. Blocks than need to be in the root of the document should have this as parent.
 
@@ -32,8 +37,13 @@ Parameters
 VERSION
 ^^^^^^^
 
-:Type: Unknown
-:Required: True
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Required
+
+   True
 
 The version of the handler of the sandbox options. Keep this equal to 1.
 
