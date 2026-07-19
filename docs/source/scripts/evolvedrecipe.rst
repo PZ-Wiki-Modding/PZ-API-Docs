@@ -97,7 +97,7 @@ BaseItem
 
 .. attribute:: Type
 
-   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 The `item <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ which will serve as the base for this recipe, that is the item which will be combined with the ingredients to create the `ResultItem <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html#resultitem>`_.
 
@@ -182,7 +182,7 @@ ResultItem
 
 .. attribute:: Type
 
-   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 No description provided.
 

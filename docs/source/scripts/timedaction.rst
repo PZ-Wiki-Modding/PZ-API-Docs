@@ -211,7 +211,7 @@ prop1
 
 .. attribute:: Type
 
-   string (block: :ref:`model <scripts-model>`, with :ref:`module`)
+   string (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -223,7 +223,7 @@ prop2
 
 .. attribute:: Type
 
-   string (block: :ref:`model <scripts-model>`, with :ref:`module`)
+   string (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 No description provided.
 

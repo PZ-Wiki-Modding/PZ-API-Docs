@@ -1,6 +1,6 @@
 import json, m2r
 from pathlib import Path
-from typing import Any, TypeVar, Generic, TYPE_CHECKING
+from typing import Any, TypeVar, Generic, TYPE_CHECKING, overload
 
 from project import PROJECT_ROOT, INDENT, sanitize_description
 from utility import echo
@@ -180,6 +180,12 @@ class Documentation(Generic[DocObjectT]):
             out += Headers.SUBSECTION.make(TOC_INSTRUCTIONS_TITLE)
             out += instructions.strip() + "\n\n"
 
+        # make contributing section
+        contribute = self.generate_contributing()
+        if contribute is not None:
+            out += Headers.SUBSECTION.make("Contributing")
+            out += contribute.strip() + "\n\n"
+
         # make toc tree
         out += make_toc_tree(toc_elements, self.toc_depth)
 
@@ -188,6 +194,9 @@ class Documentation(Generic[DocObjectT]):
             f.write(out)
 
     def generate_instructions(self) -> str | None:
+        return None
+
+    def generate_contributing(self) -> str | None:
         return None
 
     def generate(self) -> None:

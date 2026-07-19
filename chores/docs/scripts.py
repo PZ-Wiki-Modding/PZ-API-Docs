@@ -16,6 +16,30 @@ TOC_DESCRIPTION = """
 This section provides detailed documentation for all available `script <https://pzwiki.net/wiki/Scripts>`_ blocks.
 """
 
+TOC_INSTRUCTIONS = f"""
+Each script block has its own documentation page. These will each contain metadata about the block (soft overides, is variant etc), a description and a few sections:
+* Explaining the block's hierarchy in relation to other blocks (parents, children, mandatory children)
+* About the block's ID
+* A list of all parameters
+
+A variant block means it is a block that will have completely different behavior from the original block and other variants based on conditions. These conditions are usually the ID of the block.
+
+Each parameters will contain the following information based on what is provided by the game and the currently documented data from `pz-scripts-data <https://github.com/PZ-Wiki-Modding/pz-scripts-data>`_:
+* The type of the parameter, which can be a simple type (string, number, boolean), a block type (which will link to the block's documentation), an array type (with a separator), or an object type (with key and value types, and separators)
+* If the parameter is deprecated or not
+* If the parameter is required or not
+* If the parameter can be empty or not
+* The default value of the parameter, if any
+* The minimum and maximum values of the parameter, if any
+* A list of allowed values for the parameter, if any
+
+The type will always be provided, and if not yet documented it will show as `Unknown`. The other ones may not be provided due to a lack of information or these simply don't exist for the parameter.
+"""
+
+TOC_CONTRIBUTING = """
+You can contribute to this documentation by editing the `pz-scripts-data <https://github.com/PZ-Wiki-Modding/pz-scripts-data>`_ repository. You can read more about it `here <https://github.com/PZ-Wiki-Modding/pz-scripts-data/blob/main/CONTRIBUTING.md>`_.
+"""
+
 ITEMTYPE_PARAMETERS_PATH = PROJECT_ROOT / "pz-scripts-data" / "out" / "itemParameters.json"
 ITEMTYPE_PARAMETERS_DESCRIPTION = """
 Specific parameters are only available for certain :ref:`item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
@@ -89,7 +113,7 @@ def _type_formatter(obj: "ScriptsDocObject", key: str, type_data: dict) -> str:
         if block_name:
             type_str += f" (block: {_block_link_formatter(obj, '', block_name)}"
             if full_type:
-                type_str += ", with :ref:`module`"
+                type_str += ", with :ref:`scripts-module`"
             type_str += ")"
     
     # Add array information
@@ -260,7 +284,6 @@ class ScriptsDocumentation(Documentation):
     toc_depth = 4
 
     def pre_toc(self) -> None:
-        default_path = Path("scripts")
         for obj in self.objects:
             # get the relative path of the script file to the toc path's parent
             script_file_path = obj.get_object_path().relative_to(self.toc_path.parent)
@@ -270,3 +293,9 @@ class ScriptsDocumentation(Documentation):
 
             # store
             self.toc_elements.append(script_file_path)
+
+    def generate_instructions(self) -> str | None:
+        return TOC_INSTRUCTIONS
+
+    def generate_contributing(self) -> str | None:
+        return TOC_CONTRIBUTING

@@ -49,7 +49,7 @@ def generate_rst_content(magazine_subject_data: list) -> str:
     content = """Magazine Subject
 ================
 
-Available `magazine subjects <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/MagazineSubject.html>`_ accessible used for the :ref:`item-magazine_subject` property.
+Available `magazine subjects <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/MagazineSubject.html>`_ accessible used for the :ref:`scripts-item-magazine_subject` property.
 
 .. list-table:: Magazine Subjects
    :widths: 25 25

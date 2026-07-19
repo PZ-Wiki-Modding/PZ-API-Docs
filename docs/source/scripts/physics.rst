@@ -87,7 +87,7 @@ physicsShapeScript
 
 .. attribute:: Type
 
-   string (block: :ref:`physicsShape <scripts-physicsshape>`, with :ref:`module`)
+   string (block: :ref:`physicsShape <scripts-physicsshape>`, with :ref:`scripts-module`)
 
 No description provided.
 

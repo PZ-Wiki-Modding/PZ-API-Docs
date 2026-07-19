@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "pz-scripts-data/schemas/blocks.json": "pz-scripts-data/data/blocks/**"
+    }
+}

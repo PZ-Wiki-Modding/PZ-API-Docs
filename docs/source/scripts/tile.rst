@@ -80,7 +80,7 @@ modelScript
 
 .. attribute:: Type
 
-   block (block: :ref:`model <scripts-model>`, with :ref:`module`)
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 No description provided.
 

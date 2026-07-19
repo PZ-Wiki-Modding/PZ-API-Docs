@@ -400,7 +400,7 @@ AmmoBox
 
 .. attribute:: Type
 
-   string (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   string (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -2824,7 +2824,7 @@ ItemWhenDry
 
 .. attribute:: Type
 
-   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 See parameter :ref:`Wet <scripts-item-wet>`.
 
@@ -2994,7 +2994,7 @@ MagazineType
 
 .. attribute:: Type
 
-   string (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   string (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 See parameter :ref:`AmmoType <scripts-item-ammotype>`.
 
@@ -3808,7 +3808,7 @@ PhysicsObject
 
 .. attribute:: Type
 
-   string (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   string (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 Provides another item (or itself) as a throwable object. When used, the item will be thrown instead of used as an actual in hands weapon.
 
@@ -4303,7 +4303,7 @@ ReplaceOnDeplete
 
 .. attribute:: Type
 
-   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 When providing a `ReplaceOnDeplete <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-replaceondeplete>`_\ , the moment the item is depleted (e.g. a drainable item has no uses left anymore), it will be replaced by the item defined in this parameter. If this is empty, the item will be deleted without any replacement. This can notably be used to replace towels with a `wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wet>`_ towel.
 
@@ -4321,7 +4321,7 @@ ReplaceOnExtinguish
 
 .. attribute:: Type
 
-   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -4333,7 +4333,7 @@ ReplaceOnRotten
 
 .. attribute:: Type
 
-   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -4345,7 +4345,7 @@ ReplaceOnUse
 
 .. attribute:: Type
 
-   block (block: :ref:`item <scripts-item>`, with :ref:`module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -4689,7 +4689,7 @@ StaticModel
 
 .. attribute:: Type
 
-   block (block: :ref:`model <scripts-model>`, with :ref:`module`)
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 `StaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-staticmodel>`_ is used to define the model of the item being held in hands. On the other hand, `WorldStaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-worldstaticmodel>`_ is used to define the model of the item being placed in the world. The two models can be different, for example an item can have a handle that is up when held in hands, but down when placed in the world.
 
@@ -5538,7 +5538,7 @@ WorldStaticModel
 
 .. attribute:: Type
 
-   block (block: :ref:`model <scripts-model>`, with :ref:`module`)
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
 

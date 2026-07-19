@@ -1,7 +1,7 @@
 Metabolics
 ==========
 
-Available `metabolic levels <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/characters/BodyDamage/Metabolics.html>`_ which are used for the :ref:`timedaction-metabolics` property.
+Available `metabolic levels <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/characters/BodyDamage/Metabolics.html>`_ which are used for the :ref:`scripts-timedaction-metabolics` property.
 
 .. list-table:: Metabolic Levels
    :widths: 30 20
