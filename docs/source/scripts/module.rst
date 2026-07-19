@@ -30,31 +30,31 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`template <scripts-template>`
 - :ref:`xuiSkin <scripts-xuiskin>`
 - :ref:`animation <scripts-animation>`
+- :ref:`ragdoll <scripts-ragdoll>`
+- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
+- :ref:`entity <scripts-entity>`
+- :ref:`craftRecipe <scripts-craftrecipe>`
+- :ref:`physicsHitReaction <scripts-physicshitreaction>`
+- :ref:`model <scripts-model>`
+- :ref:`soundTimeline <scripts-soundtimeline>`
 - :ref:`mannequin <scripts-mannequin>`
+- :ref:`sound <scripts-sound>`
+- :ref:`timedAction <scripts-timedaction>`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
+- :ref:`template <scripts-template>`
+- :ref:`fluid <scripts-fluid>`
+- :ref:`item <scripts-item>`
+- :ref:`fixing <scripts-fixing>`
+- :ref:`animationsMesh <scripts-animationsmesh>`
+- :ref:`physicsShape <scripts-physicsshape>`
+- :ref:`energy <scripts-energy>`
 - :ref:`clock <scripts-clock>`
 - :ref:`imports <scripts-imports>`
-- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
-- :ref:`animationsMesh <scripts-animationsmesh>`
-- :ref:`soundTimeline <scripts-soundtimeline>`
-- :ref:`item <scripts-item>`
-- :ref:`entity <scripts-entity>`
-- :ref:`physicsShape <scripts-physicsshape>`
-- :ref:`vehicle <scripts-vehicle>`
-- :ref:`physicsHitReaction <scripts-physicshitreaction>`
-- :ref:`fixing <scripts-fixing>`
-- :ref:`ragdoll <scripts-ragdoll>`
-- :ref:`character_profession_definition <scripts-character_profession_definition>`
-- :ref:`fluid <scripts-fluid>`
-- :ref:`sound <scripts-sound>`
-- :ref:`energy <scripts-energy>`
-- :ref:`craftRecipe <scripts-craftrecipe>`
-- :ref:`model <scripts-model>`
 - :ref:`character_trait_definition <scripts-character_trait_definition>`
-- :ref:`timedAction <scripts-timedaction>`
-- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
+- :ref:`character_profession_definition <scripts-character_profession_definition>`
 
 
 

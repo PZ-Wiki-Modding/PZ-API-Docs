@@ -27,8 +27,8 @@ This block can have the following child blocks:
 
 - :ref:`BlendWhiteList <scripts-blendwhitelist>`
 - :ref:`Poison <scripts-poison>`
-- :ref:`Categories <scripts-categories>`
 - :ref:`Properties <scripts-properties>`
+- :ref:`Categories <scripts-categories>`
 
 
 

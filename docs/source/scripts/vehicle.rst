@@ -19,16 +19,16 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`area <scripts-area>`
-- :ref:`attachment <scripts-attachment>`
-- :ref:`physics <scripts-physics>`
-- :ref:`passenger <scripts-passenger>`
-- :ref:`part <scripts-part>`
-- :ref:`sound <scripts-sound>`
-- :ref:`model <scripts-model>`
-- :ref:`wheel <scripts-wheel>`
 - :ref:`skin <scripts-skin>`
+- :ref:`attachment <scripts-attachment>`
 - :ref:`lightbar <scripts-lightbar>`
+- :ref:`model <scripts-model>`
+- :ref:`sound <scripts-sound>`
+- :ref:`area <scripts-area>`
+- :ref:`part <scripts-part>`
+- :ref:`physics <scripts-physics>`
+- :ref:`wheel <scripts-wheel>`
+- :ref:`passenger <scripts-passenger>`
 
 
 
@@ -94,9 +94,7 @@ carModelName
 
    string
 
-Set the `translation <https://pzwiki.net/wiki/Translation>`_ key for the car name. The translation entry needs to be stored inside the IG_UI translation file and have ``IGUI_VehicleName`` as a prefix. 
-
-For example:
+Set the `translation <https://pzwiki.net/wiki/Translation>`_ key for the car name. The translation entry needs to be stored inside the `IG_UI <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#ig-ui>`_ translation file and have ``IGUI_VehicleName`` as a prefix. For example:
 
 .. code-block:: cpp
 
@@ -118,7 +116,7 @@ centerOfMassOffset
 
 .. attribute:: Type
 
-   Unknown
+   array (array of float, separator: ' ')
 
 No description provided.
 
@@ -136,7 +134,7 @@ engineForce
 
    ``3000``
 
-engineForce is 10x what is displayed in the mechanics menu for horsepower.
+``engineForce`` is 10x what is displayed in the mechanics menu for horsepower.
 
 
 .. _scripts-vehicle-engineidlespeed:
@@ -447,8 +445,6 @@ A maximum of 9 ratios can be set with the parameters:
 * `gearRatio7 <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratio7>`_
 * `gearRatio8 <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratio8>`_
 
-Those ratios take floats
-
 
 .. _scripts-vehicle-haslighter:
 
@@ -479,7 +475,7 @@ hasSiren
 
    True
 
-No description provided.
+This is unused by the game.
 
 
 .. _scripts-vehicle-issmallvehicle:
@@ -495,7 +491,7 @@ isSmallVehicle
 
    ``True``
 
-No description provided.
+If the vehicle a small vehicle, the zombies will bang on the windows differently. If set to false they will thump by banging while if set to true, they will thump with their shoulder.
 
 
 .. _scripts-vehicle-mass:
@@ -513,7 +509,7 @@ mass
 
 Sets the mass of the vehicle which will notably be used for various physic calculations. 
 
-By default is equal to 800. As a reference, a car has a mass of around 800, pickup trucks have around 1100, a simple trailer around 200, a burnt vehicle 400 or 500. See the game scripts for more examples. Values in excess of 1400 can cause vehicle wheels to start sinking into the ground and be unable to move.
+By default is equal to 800. As a reference, cars have a mass of around 800, pickup trucks have around 1100, a simple trailer around 200, a burnt vehicle 400 or 500. See the game scripts for more examples. Values in excess of 1400 can cause vehicle wheels to start sinking into the ground and be unable to move.
 
 
 .. _scripts-vehicle-maxspeed:
@@ -720,7 +716,7 @@ seats
 
    ``2``
 
-Sets the number of seats this vehicle can have. A seat `part <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/part.html>`_ needs to be created which will hold a `container <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container>`_ block with a parameter `seat <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-seat>`_
+Sets the number of seats this vehicle can have. A seat `part <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/part.html>`_ needs to be created which will hold a `container <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container>`_ block with a parameter `seat <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-seat>`_.
 
 
 .. _scripts-vehicle-shadowextents:
@@ -756,7 +752,7 @@ specialKeyRing
 
    array (array of string, separator: ';')
 
-``specialKeyRing`` needs to reference a keyring item to spawn. ``specialKeyRingChance`` is used to set the chance to spawn this keyring.
+`specialKeyRing <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-specialkeyring>`_ needs to reference a keyring item to spawn. `specialKeyRingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-specialkeyringchance>`_ is used to set the chance to spawn this keyring.
 
 
 .. _scripts-vehicle-specialkeyringchance:
@@ -940,7 +936,7 @@ template!
 
    Unknown
 
-No description provided.
+See parameter :ref:`template <scripts-vehicle-template>`.
 
 
 .. _scripts-vehicle-texturedamage1overlay:
@@ -1084,7 +1080,7 @@ wheelFriction
 
    ``800.0``
 
-It is 1.2 to 1.9 for all vanilla vehicles and controls turning and stopping (but not acceleration) tire friction limits, with 1.4 being the most common. Values over 1.8 can cause vehicles to flip in sharp turns. (Likely depends somewhat on center of mass)
+It is 1.2 to 1.9 for all vanilla vehicles and controls turning and stopping (but not acceleration) tire friction limits, with 1.4 being the most common. Values over 1.8 can cause vehicles to flip in sharp turns. (Likely depends somewhat on center of mass).
 
 
 .. _scripts-vehicle-zombietype:

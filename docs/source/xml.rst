@@ -32,6 +32,8 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
+
    xml/animnode
    xml/clothing
    xml/clothingdecals

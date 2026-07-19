@@ -141,7 +141,7 @@ completionSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 Defines the sound played at the end of the action.
 
@@ -211,7 +211,7 @@ prop1
 
 .. attribute:: Type
 
-   string (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -223,7 +223,7 @@ prop2
 
 .. attribute:: Type
 
-   string (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -235,7 +235,7 @@ sound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 Defines the sound played during the action.
 

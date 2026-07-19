@@ -52,18 +52,18 @@ This block can have an ID.
 .. attribute:: Variants
 
    
-* ``:ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>```
 * ``:ref:`component FluidContainer <scripts-component-fluidcontainer>```
-* ``:ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>```
-* ``:ref:`component Durability <scripts-component-durability>```
-* ``:ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>```
-* ``:ref:`component CraftRecipe <scripts-component-craftrecipe>```
-* ``:ref:`component UiConfig <scripts-component-uiconfig>```
+* ``:ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>```
 * ``:ref:`component CraftBench <scripts-component-craftbench>```
 * ``:ref:`component SpriteConfig <scripts-component-spriteconfig>```
-* ``:ref:`component Resources <scripts-component-resources>```
-* ``:ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>```
+* ``:ref:`component UiConfig <scripts-component-uiconfig>```
+* ``:ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>```
+* ``:ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>```
 * ``:ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>```
+* ``:ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>```
+* ``:ref:`component Durability <scripts-component-durability>```
+* ``:ref:`component CraftRecipe <scripts-component-craftrecipe>```
+* ``:ref:`component Resources <scripts-component-resources>```
 
 
 Parameters

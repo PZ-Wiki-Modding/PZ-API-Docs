@@ -7,7 +7,7 @@ option
 
    Unknown
 
-Defines a custom sandbox option for a mod.
+Defines a custom sandbox option for a mod. You can find more information about sandbox options `here <https://pzwiki.net/wiki/Sandbox_options>`_.
 
 
 Hierarchy
@@ -94,7 +94,7 @@ default
 
    Unknown
 
-No description provided.
+The default value of the option. The type of the value must match the type of the option.
 
 
 .. _scripts-option-page:
@@ -118,6 +118,18 @@ translation
 
    string
 
-The translation key for the option's name.
+The translation key for the option's name. The translation key in the `Sandbox <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#sandbox>`_ translation file should have the prefix ``Sandbox_``.
+
+For example, with the translation parameter as such:
+
+.. code-block:: java
+
+   translation = MyMod_MyOption
+
+The translation key in the Sandbox translation file should be:
+
+.. code-block:: json
+
+   "Sandbox_MyMod_MyOption": "My Option"
 
 

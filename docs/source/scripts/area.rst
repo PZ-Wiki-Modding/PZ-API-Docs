@@ -44,7 +44,7 @@ xywh
 
 .. attribute:: Type
 
-   Unknown
+   array (array of float, separator: ' ')
 
 No description provided.
 

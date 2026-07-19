@@ -40,10 +40,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`component <scripts-component>`
 - :ref:`component FluidContainer <scripts-component-fluidcontainer>`
-- :ref:`component Durability <scripts-component-durability>`
 - :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
+- :ref:`component <scripts-component>`
+- :ref:`component Durability <scripts-component-durability>`
 
 
 
@@ -64,7 +64,7 @@ This block can have an ID.
 ItemType parameters
 -------------------
 
-Specific parameters are only available for certain :ref:`item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
+Specific parameters are only available for certain :ref:`scripts-item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
 
 base:drainable
 ^^^^^^^^^^^^^^
@@ -176,7 +176,7 @@ AcceptItemFunction
 
 .. attribute:: Type
 
-   string
+   callback
 
 No description provided.
 
@@ -400,7 +400,7 @@ AmmoBox
 
 .. attribute:: Type
 
-   string (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -432,7 +432,7 @@ AmmoType
 
 `MagazineType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-magazinetype>`_ is used to set the magazine item the gun uses. If not provided, then the gun doesn't use a magazine item and loads rounds individually. `MaxAmmo <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxammo>`_ is used to set the capacity of either the magazine item or the gun.
 
-`WeaponReloadType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weaponreloadtype>`_ is used to select the reload workflow of the gun. Notably affects rack-after-shot, insertion style and animations. The provided value references the `variable condition <https://pzwiki.net/wiki/Conditions>`_ ``WeaponReloadType`` in `AnimNodes <https://pzwiki.net/wiki/AnimNodes>`_. The game has the following values available by default:
+`WeaponReloadType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weaponreloadtype>`_ is used to select the reload workflow of the gun. Notably affects rack-after-shot, insertion style and animations. The provided value references the `variable condition <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/animNode.html#m-conditions>`_ ``WeaponReloadType`` in `AnimNodes <https://pzwiki.net/wiki/AnimNodes>`_. The game has the following values available by default:
 
 
 * ``handgun``
@@ -513,9 +513,9 @@ BadCold
 
 .. attribute:: Type
 
-   Unknown
+   boolean
 
-No description provided.
+
 
 
 .. _scripts-item-badinmicrowave:
@@ -652,9 +652,13 @@ book_subject
 
 .. attribute:: Type
 
-   Unknown
+   array (array of string, separator: ';')
 
-No description provided.
+Add a subject to the litterature item. The value needs to be an array of `BookSubject <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/BookSubject.html>`_ values.
+
+`book_subject <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-book-subject>`_ is for books while `magazine_subject <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-magazine-subject>`_ is for magazines.
+
+This is notably used to pick a random book or magazine when spawning a book.
 
 
 .. _scripts-item-boredomchange:
@@ -664,9 +668,9 @@ BoredomChange
 
 .. attribute:: Type
 
-   Unknown
+   integer
 
-No description provided.
+See parameter :ref:`HungerChange <scripts-item-hungerchange>`.
 
 
 .. _scripts-item-brakeforce:
@@ -688,7 +692,7 @@ BreakSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -700,7 +704,7 @@ BringToBearSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -754,7 +758,7 @@ CanAttach
 
 .. attribute:: Type
 
-   string
+   callback
 
 `CanAttach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-canattach>`_ and `CanDetach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-candetach>`_ are used to define whenever a `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ can be respectively attached or detached to and from a `HandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
@@ -852,7 +856,7 @@ CanDetach
 
 .. attribute:: Type
 
-   string
+   callback
 
 See parameter :ref:`CanAttach <scripts-item-canattach>`.
 
@@ -1032,7 +1036,7 @@ ClickSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 .. attribute:: Default
 
@@ -1305,7 +1309,7 @@ CookingSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 Custom sound to play when cooking this item.
 
@@ -1560,9 +1564,9 @@ DigitalPadlock
 
 .. attribute:: Type
 
-   Unknown
+   boolean
 
-No description provided.
+Looks unused by the game.
 
 
 .. _scripts-item-digtype:
@@ -1678,7 +1682,7 @@ DoubleClickRecipe
 
 .. attribute:: Type
 
-   block (block: :ref:`craftRecipe <scripts-craftrecipe>`)
+   block (block: :ref:`craftRecipe <scripts-craftrecipe>`, with :ref:`scripts-module`)
 
 No description provided.
 
@@ -1690,7 +1694,7 @@ DropSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1714,9 +1718,28 @@ EatType
 
 .. attribute:: Type
 
-   Unknown
+   string
 
-No description provided.
+Used mostly on the Lua side and in `AnimNodes <https://pzwiki.net/wiki/AnimNode>`_ as a `condition <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/animNode.html#m-conditions>`_ to mark what animation to use when eating this item. Based on the type of item, this is directly applied to the ``FoodType`` animation condition.
+
+Here's a small summary of some special conditions:
+
+
+* ``Pot`` and ``PotForged`` are applied directly, and will force the item to be held in the right hand and removing other items from the left hand, meant for a pot held with two hands.
+* ``popcan`` forces drinking `timed action <https://pzwiki.net/wiki/Timed_Action_(Lua>`_\ ) ``maxTime`` to a flat ``160``.
+* ``Candrink`` will make the player uses an item with the  spoon or `fork <https://pzwiki.net/wiki/Fork#Eating>`_ tag in their inventory. A "scraping" sound will also be played when using an utensil and 70% of the eating action is passed.
+* ``Plate`` can also use a fork or spoon.
+* ``2handbowl`` will use only spoons in the player inventory.
+
+There also exists more generic ones:
+
+
+* ``2hand``
+* ``plate`` (different than ``Plate``\ )
+* ``EatSmall``
+* ``EatBox``
+
+You can use any custom value which will be passed to the ``FoodType`` condition.
 
 
 .. _scripts-item-ejectammosound:
@@ -1726,7 +1749,7 @@ EjectAmmoSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1738,7 +1761,7 @@ EjectAmmoStartSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1750,7 +1773,7 @@ EjectAmmoStopSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1814,7 +1837,7 @@ EquipSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -1884,7 +1907,7 @@ ExplosionPower
 
    integer
 
-If set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_
+See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 
 
 .. _scripts-item-explosionrange:
@@ -1897,6 +1920,16 @@ ExplosionRange
    integer
 
 `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ out of 100 is a chance of the explosion to set on fire tiles and burn characters in the `ExplosionRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionrange>`_. A value above 100 means the explosion will always set on fire tiles and burn characters, while a value of 0 means it will never set on fire tiles nor burn characters. Each tiles in the explosion range will run the `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ check independently, so a value of 50 means that on average half of the tiles in the explosion range will be set on fire.
+
+If `ExplosionPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionpower>`_ is set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_.
+
+`extraDamage <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-extradamage>`_ is used to add a net bonus damage dealt by the trap.
+
+The damage the trap deals is calculated as follows:
+
+.. code-block::
+
+   damage = random(explosionPower/20, explosionPower/20 * 2) + extraDamage
 
 `SmokeRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-smokerange>`_ sets the range of the smoke effect. Squares in this range also can be set on fire individually based on `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_.
 
@@ -1914,7 +1947,7 @@ ExplosionSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 
@@ -1929,6 +1962,18 @@ ExplosionTimer
    Unknown
 
 No description provided.
+
+
+.. _scripts-item-extradamage:
+
+extraDamage
+^^^^^^^^^^^
+
+.. attribute:: Type
+
+   float
+
+See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 
 
 .. _scripts-item-fabrictype:
@@ -2155,7 +2200,7 @@ GoodHot
 
    Unknown
 
-No description provided.
+`GoodHot <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-goodhot>`_ reduces by a flat 2 the happiness change when eating this food hot. On the other hand, `BadCold <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-badcold>`_ increases by a flat 2 the unhappiness change when eating this food cold.
 
 
 .. _scripts-item-guntype:
@@ -2360,7 +2405,7 @@ HitFloorSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 .. attribute:: Default
 
@@ -2376,7 +2421,7 @@ HitSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 .. attribute:: Default
 
@@ -2401,6 +2446,7 @@ Different stats are available for food items which will impact the player's hung
 * `ThirstChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-thirstchange>`_ when negative will reduce the thirst of the player, with ``100`` the maximum amount of thirst of a player
 * `UnhappyChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-unhappychange>`_ when positive will decrease the player's unhappiness, with ``100`` the maximum amount of unhappiness of a player
 * `StressChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-stresschange>`_ when negative will reduce the stress of the player, with ``100`` the maximum amount of stress of a player
+* `BoredomChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-boredomchange>`_ when negative will reduce the boredom of the player, with ``100`` the maximum amount of boredom of a player
 
 
 .. _scripts-item-icon:
@@ -2539,7 +2585,7 @@ ImpactSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 .. attribute:: Default
 
@@ -2567,7 +2613,7 @@ InsertAmmoSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -2579,7 +2625,7 @@ InsertAmmoStartSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -2591,7 +2637,7 @@ InsertAmmoStopSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -2972,7 +3018,7 @@ LvlSkillTrained
 
    ``-1``
 
-No description provided.
+See parameter :ref:`SkillTrained <scripts-item-skilltrained>`.
 
 
 .. _scripts-item-magazine_subject:
@@ -2994,7 +3040,7 @@ MagazineType
 
 .. attribute:: Type
 
-   string (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 See parameter :ref:`AmmoType <scripts-item-ammotype>`.
 
@@ -3421,7 +3467,7 @@ MuzzleFlashModelKey
 
 .. attribute:: Type
 
-   string (block: :ref:`model <scripts-model>`)
+   block (block: :ref:`model <scripts-model>`)
 
 No description provided.
 
@@ -3519,7 +3565,7 @@ NumberOfPages
 
    ``-1``
 
-No description provided.
+See parameter :ref:`SkillTrained <scripts-item-skilltrained>`.
 
 
 .. _scripts-item-numlevelstrained:
@@ -3535,7 +3581,7 @@ NumLevelsTrained
 
    ``1``
 
-No description provided.
+See parameter :ref:`SkillTrained <scripts-item-skilltrained>`.
 
 
 .. _scripts-item-onattach:
@@ -3557,9 +3603,9 @@ OnBreak
 
 .. attribute:: Type
 
-   Unknown
+   callback
 
-No description provided.
+Triggered when the item condition drops below 0.
 
 
 .. _scripts-item-oncooked:
@@ -3581,9 +3627,9 @@ OnCreate
 
 .. attribute:: Type
 
-   Unknown
+   callback
 
-No description provided.
+Triggered when the item is instantiated.
 
 
 .. _scripts-item-ondetach:
@@ -3653,9 +3699,9 @@ OriginX
 
 .. attribute:: Type
 
-   Unknown
+   integer
 
-No description provided.
+Seems to indicate the coordinates this item is associate to, mostly used for keys.
 
 
 .. _scripts-item-originy:
@@ -3665,9 +3711,9 @@ OriginY
 
 .. attribute:: Type
 
-   Unknown
+   integer
 
-No description provided.
+See parameter :ref:`OriginX <scripts-item-originx>`.
 
 
 .. _scripts-item-originz:
@@ -3677,9 +3723,9 @@ originZ
 
 .. attribute:: Type
 
-   Unknown
+   integer
 
-No description provided.
+See parameter :ref:`OriginX <scripts-item-originx>`.
 
 
 .. _scripts-item-otherhandrequire:
@@ -3808,7 +3854,7 @@ PhysicsObject
 
 .. attribute:: Type
 
-   string (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 Provides another item (or itself) as a throwable object. When used, the item will be thrown instead of used as an actual in hands weapon.
 
@@ -3856,7 +3902,7 @@ PlaceOneSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -3918,9 +3964,21 @@ PourType
 
 .. attribute:: Type
 
-   Unknown
+   string
 
-No description provided.
+Sets an identifier for the pouring type. This will set the ``PourType`` `condition <https://pzwiki.net/wiki/Conditions>`_ of `AnimNode <https://pzwiki.net/wiki/AnimNode>`_ to the provided value when doing different actions:
+
+
+* pouring, dumping, adding liquid etc
+* fertilizing
+* curing a plant
+
+Specific values have different effects:
+
+
+* ``Bucket`` will cause the item to play the sound ``Base.PourLiquidOnGroundMetal`` with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-tags>`_ ``base:hasmetal`` when pouring liquid.
+* ``Pot`` will also play ``Base.PourLiquidOnGroundMetal`` but without the need for the tag.
+* Other values will play ``Base.PourLiquidOnGround`` when pouring liquid.
 
 
 .. _scripts-item-primaryanimmask:
@@ -4350,6 +4408,18 @@ ReplaceOnUse
 No description provided.
 
 
+.. _scripts-item-replaceonuseon:
+
+ReplaceOnUseOn
+^^^^^^^^^^^^^^
+
+.. attribute:: Type
+
+   array (array of string, separator: '-')
+
+Unclear what this does exactly.
+
+
 .. _scripts-item-requireinhandorinventory:
 
 RequireInHandOrInventory
@@ -4489,7 +4559,7 @@ ShellFallSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -4535,7 +4605,9 @@ SkillTrained
 
    ````
 
-No description provided.
+`SkillTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-skilltrained>`_ is used to determine which skill the player will start training when reading this literature.
+
+`LvlSkillTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lvlskilltrained>`_ indicates at what level this literature can be used to start training the skill. `NumLevelsTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-numlevelstrained>`_ marks how many level can be trained thanks to this literature.
 
 
 .. _scripts-item-smokerange:
@@ -4845,7 +4917,7 @@ SwingSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 .. attribute:: Default
 
@@ -5066,7 +5138,7 @@ UnequipSound
 
 .. attribute:: Type
 
-   string (block: :ref:`sound <scripts-sound>`)
+   block (block: :ref:`sound <scripts-sound>`)
 
 No description provided.
 
@@ -5260,9 +5332,11 @@ WaterResistance
 
 .. attribute:: Type
 
-   Unknown
+   float
 
-No description provided.
+`WaterResistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-waterresistance>`_ is used to define how much the clothing item will resist water. The higher the value, the more resistant the clothing item will be to water. A value of ``1.0`` means the clothing item is fully waterproof, while a value of ``0.0`` means it is not waterproof at all.
+
+This is the exact same process for `WindResistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-windresistance>`_ but for wind instead of water.
 
 
 .. _scripts-item-weaponhitarmoursound:
@@ -5480,7 +5554,7 @@ WindResistance
 
    Unknown
 
-No description provided.
+See parameter :ref:`WaterResistance <scripts-item-waterresistance>`.
 
 
 .. _scripts-item-withdrainable:

@@ -34,6 +34,8 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 4
+   :titlesonly:
+
    scripts/_component_block
    scripts/alias
    scripts/anim
@@ -110,7 +112,6 @@ Table of Contents
    scripts/polygon
    scripts/position
    scripts/progress
-   scripts/properties
    scripts/properties
    scripts/ragdoll
    scripts/root-blends

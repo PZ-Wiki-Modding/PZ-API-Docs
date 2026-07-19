@@ -20,12 +20,12 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`lua <scripts-lua>`
 - :ref:`anim <scripts-anim>`
 - :ref:`window <scripts-window>`
-- :ref:`door <scripts-door>`
-- :ref:`model <scripts-model>`
+- :ref:`lua <scripts-lua>`
 - :ref:`table <scripts-table>`
+- :ref:`model <scripts-model>`
+- :ref:`door <scripts-door>`
 - :ref:`container <scripts-container>`
 
 
