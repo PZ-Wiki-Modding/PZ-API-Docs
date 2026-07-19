@@ -29,6 +29,16 @@ def code_value_formatter(object_type: str, key: str, value: str) -> str:
     """Format the value for metadata output."""
     return f"``{value}``"
 
+def list_formatter(obj: "DocObject", key: str, value_list: list) -> str:
+    """Format a list of values for metadata output."""
+    if not isinstance(value_list, list):
+        return code_value_formatter(obj.name, key, value_list)
+    out = ""
+    for i, v in enumerate(value_list):
+        out += f"* {code_value_formatter(obj.name, key, v)}\n"
+    return "\n" + out.strip()
+
+
 ## MAIN CLASS
 
 

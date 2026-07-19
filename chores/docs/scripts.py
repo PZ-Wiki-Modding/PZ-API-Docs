@@ -4,10 +4,10 @@ if __name__ == "__main__":
 import json
 from pathlib import Path
 
-from documentation import Documentation, DocObject, DocObjectT, code_value_formatter
+from documentation import Documentation, DocObject, DocObjectT, code_value_formatter, list_formatter
 from project import PROJECT_ROOT, sanitize_description
 from utility.metadata import Metadata
-from utility.rst import Headers
+from utility.rst import Headers, make_ref_label
 
 
 ## DEFINITIONS
@@ -50,38 +50,25 @@ def _get_parameter_label(block_name: str, parameter_name: str) -> str:
     """Get the label for a parameter."""
     return f"{_get_block_label(block_name)}-{_sanitize_id(parameter_name)}"
 
-def _make_ref_label(text: str, label: str) -> str:
-    """Make a reference label for a given label."""
-    return f":ref:`{text} <{label}>`"
-
 def _block_link_formatter(obj: "ScriptsDocObject", key: str, other_block_name: str) -> str:
     """Format the block name as a link to its documentation."""
     # this shouldn't be necessary, but just in case
     if not _is_block(other_block_name, obj):
         return code_value_formatter(obj.name, key, other_block_name)
     label = _get_block_label(other_block_name)
-    return _make_ref_label(other_block_name, label)
-
-def _list_formatter(obj: "ScriptsDocObject", key: str, value_list: list) -> str:
-    """Format a list of values for metadata output."""
-    if not isinstance(value_list, list):
-        return code_value_formatter(obj.name, key, value_list)
-    out = ""
-    for i, v in enumerate(value_list):
-        out += f"* {code_value_formatter(obj.name, key, v)}\n"
-    return "\n" + out.strip()
+    return make_ref_label(other_block_name, label)
 
 def _block_link_list_formatter(obj: "ScriptsDocObject", key: str, value_list: list) -> str:
     for i, v in enumerate(value_list):
         value_list[i] = _block_link_formatter(obj, key, v)
-    return _list_formatter(obj, key, value_list)
+    return list_formatter(obj, key, value_list)
 
 def _parameter_link_list_formatter(obj: "ScriptsDocObject", key: str, value_list: list) -> str:
     for i, v in enumerate(value_list):
         block_name = obj.data['name']
         label = _get_parameter_label(block_name, v)
-        value_list[i] = _make_ref_label(v, label)
-    return _list_formatter(obj, key, value_list)
+        value_list[i] = make_ref_label(v, label)
+    return list_formatter(obj, key, value_list)
 
 def _variant_list_formatter(obj: "ScriptsDocObject", key: str, isVariant: bool) -> str:
     variants = obj.data.get('variants', [])
@@ -136,8 +123,8 @@ block_metadata = Metadata({
 id_metadata = Metadata({
     "Optional": {"access_key": "optional", "default": "False"},
     "Can have spaces": {"access_key": "canHaveSpace", "default": "False"},
-    "Allowed ID": {"access_key": "values", "formatter": _list_formatter, "default": None},
-    "Forbidden ID": {"access_key": "forbidden", "formatter": _list_formatter, "default": None},
+    "Allowed ID": {"access_key": "values", "formatter": list_formatter, "default": None},
+    "Forbidden ID": {"access_key": "forbidden", "formatter": list_formatter, "default": None},
     "Variants": {"access_key": "asType", "formatter": _variant_list_formatter, "default": None},
     "No ID for parents": {"access_key": "parentsWithout", "formatter": _block_link_list_formatter, "default": None},
 })
@@ -152,7 +139,7 @@ parameter_metadata = Metadata({
     "Default": {"access_key": "default", "default": None, "formatter": code_value_formatter},
     "Minimum": {"access_key": "minimum", "default": None, "formatter": code_value_formatter},
     "Maximum": {"access_key": "maximum", "default": None, "formatter": code_value_formatter},
-    "Allowed values": {"access_key": "values", "formatter": _list_formatter, "default": None},
+    "Allowed values": {"access_key": "values", "formatter": list_formatter, "default": None},
     "Incompatible with": {"access_key": "incompatibleWith", "formatter": _parameter_link_list_formatter, "default": None},
 })
 
@@ -229,7 +216,7 @@ class ScriptsDocObject(DocObject):
                     content += Headers.SUBSUBSECTION.make(itemtype)
                     for parameter in parameters:
                         label = _get_parameter_label(name, parameter)
-                        content += f"- {_make_ref_label(parameter, label)}\n"
+                        content += f"- {make_ref_label(parameter, label)}\n"
                     content += "\n"
             content += "\n\n"
 
@@ -247,7 +234,7 @@ class ScriptsDocObject(DocObject):
                 else:
                     block_name, parameter_name = ref_description.split("/")
                     ref_label = _get_parameter_label(block_name, parameter_name)
-                    description = f"See parameter {_make_ref_label(parameter_name, ref_label)}."
+                    description = f"See parameter {make_ref_label(parameter_name, ref_label)}."
                 sanitized_description = sanitize_description(description)
 
                 # make parameter subsection

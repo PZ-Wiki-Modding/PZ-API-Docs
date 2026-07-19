@@ -1,10 +1,19 @@
+from enum import StrEnum
+
+
+
+def make_ref_label(text: str, label: str) -> str:
+    """Make a reference label for a given label."""
+    return f":ref:`{text} <{label}>`"
+
+
 
 # RST headers
-class Headers(str):
-    SECTION: 'Headers'          # h1
-    SUBSECTION: 'Headers'       # h2
-    SUBSUBSECTION: 'Headers'    # h3
-    PARAGRAPH: 'Headers'       # h4
+class Headers(StrEnum):
+    SECTION = '='
+    SUBSECTION = '-'
+    SUBSUBSECTION = '^'
+    PARAGRAPH = '"'
     
     def __new__(cls, value):
         return str.__new__(cls, value)
@@ -28,12 +37,6 @@ class Headers(str):
         out += f"{title}\n{self * len(title)}\n\n"
         return out
 
-
-# Define the headers after the class
-Headers.SECTION = Headers("=")
-Headers.SUBSECTION = Headers("-")
-Headers.SUBSUBSECTION = Headers("^")
-Headers.PARAGRAPH = Headers('"')
 
 
 
