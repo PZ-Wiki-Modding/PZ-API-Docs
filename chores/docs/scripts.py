@@ -42,7 +42,7 @@ You can contribute to this documentation by editing the `pz-scripts-data <https:
 
 ITEMTYPE_PARAMETERS_PATH = PROJECT_ROOT / "pz-scripts-data" / "out" / "itemParameters.json"
 ITEMTYPE_PARAMETERS_DESCRIPTION = """
-Specific parameters are only available for certain :ref:`item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
+Specific parameters are only available for certain :ref:`scripts-item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
 """
 
 
