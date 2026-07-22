@@ -11,7 +11,7 @@ component SpriteConfig
 
    :ref:`component <scripts-component>`
 
-
+No description provided.
 
 
 Hierarchy

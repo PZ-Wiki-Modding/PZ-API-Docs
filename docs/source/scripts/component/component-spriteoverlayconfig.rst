@@ -11,7 +11,7 @@ component SpriteOverlayConfig
 
    :ref:`component <scripts-component>`
 
-
+No description provided.
 
 
 Hierarchy

@@ -47,6 +47,7 @@ class DocObject:
     headerMetadata: 'Metadata | None' = None
     def __init__(self, object_type: str, object_data: Any, doc: "Documentation", source_data: dict) -> None:
         self.name = object_type
+        #FIXME: this is not stable across changes to object_type, use manifest of some sort ?
         self.id = self.sanitize_id(object_type)
         self.data = object_data
         self.doc = doc
@@ -79,7 +80,9 @@ class DocObject:
 
     def get_header(self) -> str:
         """Retrieve the header for a specific object's documentation. This should be a RST header with the object's title and description."""
-        description = self.data.get("description", "No description provided.")
+        description = self.data.get("description")
+        if description is None or not description.strip():
+            description = "No description provided."
         sanitized_description = sanitize_description(description)
         label = self.get_label()
         name = self.get_name()

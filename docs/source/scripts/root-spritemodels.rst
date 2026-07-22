@@ -21,10 +21,6 @@ This block can have the following child blocks:
 
 - :ref:`spriteModel <scripts-spritemodel>`
 
-**Possible Child Blocks:**
-
-- :ref:`spritemodel`
-
 
 
 ID
