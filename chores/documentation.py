@@ -1,4 +1,4 @@
-import json, m2r
+import json, shutil
 from pathlib import Path
 from typing import Any, TypeVar, Generic, TYPE_CHECKING, overload
 
@@ -55,7 +55,6 @@ class DocObject:
     
     def sanitize_id(self, name: str) -> str:
         return name.lower().replace(' ', '-')
-
 
 
     def get_object_path(self) -> Path:
@@ -147,6 +146,15 @@ class Documentation(Generic[DocObjectT]):
         raise ValueError(f"Unknown documentation type: {doc_type}")
 
 ## subclass methods
+    def cleanup(self) -> None:
+        """Cleanup the output folder for the DocObjects documentation to delete removed items."""
+        object_out_dir = self.toc_path.parent / self.toc_path.stem
+        if not object_out_dir.exists():
+            return
+        shutil.rmtree(object_out_dir)
+        echo.path(object_out_dir, prefix="Cleaned up destination:")
+
+
     def preload_data(self) -> None:
         """Preload the documentation data."""
         assert self.data_path.exists(), f"Data path does not exist: {self.data_path}"
@@ -160,7 +168,15 @@ class Documentation(Generic[DocObjectT]):
 
     def pre_toc(self) -> None:
         """Prepare the table of contents (TOC) elements."""
-        pass
+        for obj in self.objects:
+            # get the relative path of the script file to the toc path's parent
+            object_file_path = obj.get_object_path().relative_to(self.toc_path.parent)
+
+            # remove .rst part
+            object_file_path = object_file_path.parent / object_file_path.stem
+
+            # store
+            self.toc_elements.append(object_file_path)
 
     def generate_toc(self) -> None:
         """Generate the table of contents (TOC) for the documentation."""
@@ -204,6 +220,7 @@ class Documentation(Generic[DocObjectT]):
 
     def generate(self) -> None:
         """Generate the documentation."""
+        self.cleanup()
         for obj in self.objects:
             out = obj.generate_object()
 

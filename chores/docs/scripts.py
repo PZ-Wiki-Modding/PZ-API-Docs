@@ -283,17 +283,6 @@ class ScriptsDocumentation(Documentation):
     toc_description = TOC_DESCRIPTION
     toc_depth = 4
 
-    def pre_toc(self) -> None:
-        for obj in self.objects:
-            # get the relative path of the script file to the toc path's parent
-            script_file_path = obj.get_object_path().relative_to(self.toc_path.parent)
-
-            # remove .rst part
-            script_file_path = script_file_path.parent / script_file_path.stem
-
-            # store
-            self.toc_elements.append(script_file_path)
-
     def generate_instructions(self) -> str | None:
         return TOC_INSTRUCTIONS
 
