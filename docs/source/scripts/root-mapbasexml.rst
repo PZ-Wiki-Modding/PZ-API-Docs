@@ -1,19 +1,31 @@
-.. _root-mapbasexml:
+.. _scripts-root-mapbasexml:
 
 ROOT-MapBaseXML
 ===============
 
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
+
+.. attribute:: No comma
+
+   True
+
 The ``MapBaseXML.txt`` file is used to configure the layers of the TMX file.
 
 
-Hierarchy
----------
+ID
+--
 
-This block does not require a parent block.
+This block should have no ID.
 
 
-ID Properties
--------------
+Parameters
+----------
 
-This block should not have an ID.
+This block has no parameters.
 

@@ -1,7 +1,11 @@
-.. _fixing:
+.. _scripts-fixing:
 
 fixing
 ======
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines how an item can be repaired or fixed.
 
@@ -9,54 +13,74 @@ Defines how an item can be repaired or fixed.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   True
 
 
 Parameters
 ----------
 
-.. _fixing-conditionmodifier:
-
-ConditionModifier
-^^^^^^^^^^^^^^^^^
-
-:Type: float
-
-No description
-
-.. _fixing-fixer:
+.. _scripts-fixing-fixer:
 
 Fixer
 ^^^^^
 
-:Type: Any
-:Attributes: Can be duplicated
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _fixing-globalitem:
+No description provided.
 
-GlobalItem
-^^^^^^^^^^
 
-:Type: object (object: block->>integer, kv: '=', pairs: ';')
-
-No description
-
-.. _fixing-require:
+.. _scripts-fixing-require:
 
 Require
 ^^^^^^^
 
-:Type: array (array of block, separator: ';')
+.. attribute:: Type
 
-No description
+   array (array of block, separator: ';')
+
+No description provided.
+
+
+.. _scripts-fixing-globalitem:
+
+GlobalItem
+^^^^^^^^^^
+
+.. attribute:: Type
+
+   object (object: block->>integer, kv: '=', pairs: ';')
+
+No description provided.
+
+
+.. _scripts-fixing-conditionmodifier:
+
+ConditionModifier
+^^^^^^^^^^^^^^^^^
+
+.. attribute:: Type
+
+   float
+
+No description provided.
+
 

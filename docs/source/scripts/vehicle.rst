@@ -1,7 +1,11 @@
-.. _vehicle:
+.. _scripts-vehicle:
 
 vehicle
 =======
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a vehicle.
 
@@ -9,71 +13,88 @@ Defines a vehicle.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`area`
-- :ref:`attachment`
-- :ref:`crawlthroughwheel`
-- :ref:`lightbar`
-- :ref:`model`
-- :ref:`part`
-- :ref:`passenger`
-- :ref:`physics`
-- :ref:`skin`
-- :ref:`sound`
-- :ref:`wheel`
+- :ref:`skin <scripts-skin>`
+- :ref:`attachment <scripts-attachment>`
+- :ref:`lightbar <scripts-lightbar>`
+- :ref:`model <scripts-model>`
+- :ref:`sound <scripts-sound>`
+- :ref:`area <scripts-area>`
+- :ref:`part <scripts-part>`
+- :ref:`physics <scripts-physics>`
+- :ref:`wheel <scripts-wheel>`
+- :ref:`passenger <scripts-passenger>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _vehicle-animaltrailersize:
+.. _scripts-vehicle-animaltrailersize:
 
 animalTrailerSize
 ^^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 Sets the maximum total encumbrance from animals in the animal trailer. The horsebox and livestock trailers both use 500.
 
-.. _vehicle-brakingforce:
+
+.. _scripts-vehicle-brakingforce:
 
 brakingForce
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _vehicle-carmechanicsoverlay:
+No description provided.
+
+
+.. _scripts-vehicle-carmechanicsoverlay:
 
 carMechanicsOverlay
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-carmodelname:
+No description provided.
+
+
+.. _scripts-vehicle-carmodelname:
 
 carModelName
 ^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-Set the `translation <https://pzwiki.net/wiki/Translation>`_ key for the car name. The translation entry needs to be stored inside the IG_UI translation file and have ``IGUI_VehicleName`` as a prefix. 
+   string
 
-For example:
+Set the `translation <https://pzwiki.net/wiki/Translation>`_ key for the car name. The translation entry needs to be stored inside the `IG_UI <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#ig-ui>`_ translation file and have ``IGUI_VehicleName`` as a prefix. For example:
 
 .. code-block:: cpp
 
@@ -87,213 +108,327 @@ With the translation entry inside ``IG_UI.json``\ :
      "IGUI_VehicleNameYourCar": "Your car model"
    }
 
-.. _vehicle-centerofmassoffset:
+
+.. _scripts-vehicle-centerofmassoffset:
 
 centerOfMassOffset
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   array (array of float, separator: ' ')
 
-.. _vehicle-engineforce:
+No description provided.
+
+
+.. _scripts-vehicle-engineforce:
 
 engineForce
 ^^^^^^^^^^^
 
-:Type: float
-:Default: ``3000``
+.. attribute:: Type
 
-engineForce is 10x what is displayed in the mechanics menu for horsepower.
+   float
 
-.. _vehicle-engineidlespeed:
+.. attribute:: Default
+
+   ``3000``
+
+``engineForce`` is 10x what is displayed in the mechanics menu for horsepower.
+
+
+.. _scripts-vehicle-engineidlespeed:
 
 engineIdleSpeed
 ^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``750.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-engineloudness:
+.. attribute:: Default
+
+   ``750.0``
+
+No description provided.
+
+
+.. _scripts-vehicle-engineloudness:
 
 engineLoudness
 ^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``100``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _vehicle-enginequality:
+.. attribute:: Default
+
+   ``100``
+
+No description provided.
+
+
+.. _scripts-vehicle-enginequality:
 
 engineQuality
 ^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``100``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _vehicle-enginerepairlevel:
+.. attribute:: Default
+
+   ``100``
+
+No description provided.
+
+
+.. _scripts-vehicle-enginerepairlevel:
 
 engineRepairLevel
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 Required `mechanics skill <https://pzwiki.net/wiki/Mechanics>`_ level for repearing the vehicle's engine.
 
-.. _vehicle-enginerpmtype:
+
+.. _scripts-vehicle-enginerpmtype:
 
 engineRPMType
 ^^^^^^^^^^^^^
 
-:Type: string
-:Default: ``jeep``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``jeep``
 
 Sets the engine to a RPM type (\ `See vehicleEngineRPM block <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicleenginerpm.html>`_\ ).
 
-.. _vehicle-extents:
+
+.. _scripts-vehicle-extents:
 
 extents
 ^^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
 
-No description
+   array (array of float, separator: ' ')
 
-.. _vehicle-extentsoffset:
+No description provided.
+
+
+.. _scripts-vehicle-extentsoffset:
 
 extentsOffset
 ^^^^^^^^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
 
-No description
+   array (array of float, separator: ' ')
 
-.. _vehicle-forcedcolor:
+No description provided.
+
+
+.. _scripts-vehicle-forcedcolor:
 
 forcedColor
 ^^^^^^^^^^^
 
-:Type: array (array of float, separator: ' ')
-:Default: ``-1 -1 -1``
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
+
+.. attribute:: Default
+
+   ``-1 -1 -1``
 
 Sets a forced HSV color on the vehicle. The value needs to be of format ``hue sat val``.
 
-.. _vehicle-frontenddurability:
+
+.. _scripts-vehicle-frontenddurability:
 
 frontEndDurability
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``100``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``100``
 
 It is unclear what that parameter does but as of 42.16.3, the game uses ``frontEndHealth`` which is a mistake.
 
-.. _vehicle-frontendhealth:
+
+.. _scripts-vehicle-frontendhealth:
 
 frontEndHealth
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. warning::
+.. attribute:: Deprecated
 
-   **Deprecated**
+   {'description': 'While that parameter is present in vanilla scripts as of 42.16.3, it actually does nothing because it is not parsed as `frontEndHealth` but as `frontEndDurability`.', 'replacedBy': 'frontEndDurability'}
 
-   Use :ref:`vehicle-frontenddurability` instead.
+No description provided.
 
-   While that parameter is present in vanilla scripts as of 42.16.3, it actually does nothing because it is not parsed as ``frontEndHealth`` but as ``frontEndDurability``.
 
-.. _vehicle-gearratio1:
+.. _scripts-vehicle-gearratior:
+
+gearRatioR
+^^^^^^^^^^
+
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``7.09``
+
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratio1:
 
 gearRatio1
 ^^^^^^^^^^
 
-:Type: float
-:Default: ``6.44``
+.. attribute:: Type
 
-See :ref:`vehicle-gearratiocount` for more details.
+   float
 
-.. _vehicle-gearratio2:
+.. attribute:: Default
+
+   ``6.44``
+
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratio2:
 
 gearRatio2
 ^^^^^^^^^^
 
-:Type: Any
-:Default: ``4.1``
+.. attribute:: Type
 
-See :ref:`vehicle-gearratiocount` for more details.
+   Unknown
 
-.. _vehicle-gearratio3:
+.. attribute:: Default
+
+   ``4.1``
+
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratio3:
 
 gearRatio3
 ^^^^^^^^^^
 
-:Type: Any
-:Default: ``2.29``
+.. attribute:: Type
 
-See :ref:`vehicle-gearratiocount` for more details.
+   Unknown
 
-.. _vehicle-gearratio4:
+.. attribute:: Default
+
+   ``2.29``
+
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratio4:
 
 gearRatio4
 ^^^^^^^^^^
 
-:Type: Any
-:Default: ``1.47``
+.. attribute:: Type
 
-See :ref:`vehicle-gearratiocount` for more details.
+   Unknown
 
-.. _vehicle-gearratio5:
+.. attribute:: Default
+
+   ``1.47``
+
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratio5:
 
 gearRatio5
 ^^^^^^^^^^
 
-:Type: Any
-:Default: ``1.0``
+.. attribute:: Type
 
-See :ref:`vehicle-gearratiocount` for more details.
+   Unknown
 
-.. _vehicle-gearratio6:
+.. attribute:: Default
+
+   ``1.0``
+
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratio6:
 
 gearRatio6
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`vehicle-gearratiocount` for more details.
+   Unknown
 
-.. _vehicle-gearratio7:
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratio7:
 
 gearRatio7
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`vehicle-gearratiocount` for more details.
+   Unknown
 
-.. _vehicle-gearratio8:
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratio8:
 
 gearRatio8
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`vehicle-gearratiocount` for more details.
+   Unknown
 
-.. _vehicle-gearratiocount:
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
+
+
+.. _scripts-vehicle-gearratiocount:
 
 gearRatioCount
 ^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``4``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``4``
 
 `gearRatioCount <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratiocount>`_ will set the number of gear ratios the car can have. The vanilla cars use 4, while sport cars use 5. 
 
@@ -310,139 +445,188 @@ A maximum of 9 ratios can be set with the parameters:
 * `gearRatio7 <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratio7>`_
 * `gearRatio8 <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratio8>`_
 
-Those ratios take floats
 
-.. _vehicle-gearratior:
-
-gearRatioR
-^^^^^^^^^^
-
-:Type: float
-:Default: ``7.09``
-
-See :ref:`vehicle-gearratiocount` for more details.
-
-.. _vehicle-haslighter:
+.. _scripts-vehicle-haslighter:
 
 hasLighter
 ^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 Sets whenever this car has a lighter to light a cigarette.
 
-.. _vehicle-hassiren:
+
+.. _scripts-vehicle-hassiren:
 
 hasSiren
 ^^^^^^^^
 
-:Type: boolean
-:Attributes: Useless
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _vehicle-issmallvehicle:
+.. attribute:: Is useless
+
+   True
+
+This is unused by the game.
+
+
+.. _scripts-vehicle-issmallvehicle:
 
 isSmallVehicle
 ^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _vehicle-mass:
+.. attribute:: Default
+
+   ``True``
+
+If the vehicle a small vehicle, the zombies will bang on the windows differently. If set to false they will thump by banging while if set to true, they will thump with their shoulder.
+
+
+.. _scripts-vehicle-mass:
 
 mass
 ^^^^
 
-:Type: float
-:Default: ``800``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``800``
 
 Sets the mass of the vehicle which will notably be used for various physic calculations. 
 
-By default is equal to 800. As a reference, a car has a mass of around 800, pickup trucks have around 1100, a simple trailer around 200, a burnt vehicle 400 or 500. See the game scripts for more examples. Values in excess of 1400 can cause vehicle wheels to start sinking into the ground and be unable to move.
+By default is equal to 800. As a reference, cars have a mass of around 800, pickup trucks have around 1100, a simple trailer around 200, a burnt vehicle 400 or 500. See the game scripts for more examples. Values in excess of 1400 can cause vehicle wheels to start sinking into the ground and be unable to move.
 
-.. _vehicle-maxspeed:
+
+.. _scripts-vehicle-maxspeed:
 
 maxSpeed
 ^^^^^^^^
 
-:Type: float
-:Default: ``20.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-maxspeedreverse:
+.. attribute:: Default
+
+   ``20.0``
+
+No description provided.
+
+
+.. _scripts-vehicle-maxspeedreverse:
 
 maxSpeedReverse
 ^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``40.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-maxsuspensiontravelcm:
+.. attribute:: Default
+
+   ``40.0``
+
+No description provided.
+
+
+.. _scripts-vehicle-maxsuspensiontravelcm:
 
 maxSuspensionTravelCm
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``500.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-mechanictype:
+.. attribute:: Default
+
+   ``500.0``
+
+No description provided.
+
+
+.. _scripts-vehicle-mechanictype:
 
 mechanicType
 ^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Allowed values
+
+   
+* ``1``
+* ``2``
+* ``3``
 
 Defines what class the vehicle is, that is 1 for standard, 2 for heavy-duty and 3 for performance.
 
-Allowed values:
 
-    - ``1``
-    - ``2``
-    - ``3``
-
-.. _vehicle-neverspawnkey:
+.. _scripts-vehicle-neverspawnkey:
 
 neverSpawnKey
 ^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Sets whenever this vehicle will never have a key spawning in buildings or on zombies spawning around the vehicle.
 
-.. _vehicle-notkillcrops:
+
+.. _scripts-vehicle-notkillcrops:
 
 notKillCrops
 ^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Sets whenever the vehicle will destroy crops it is driving on.
 
-.. _vehicle-offroadefficiency:
+
+.. _scripts-vehicle-offroadefficiency:
 
 offRoadEfficiency
 ^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 Affects horsepower reduction when offroad (Higher = less horsepower reduction when offroad.)
 
-.. _vehicle-physicschassisshape:
+
+.. _scripts-vehicle-physicschassisshape:
 
 physicsChassisShape
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
 
 Defines the hitbox of the vehicle. The value should be three numbers defining the dimensions of a box:
 
@@ -458,317 +642,456 @@ For example:
 
 When setting `useChassisPhysicsCollision <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-usechassisphysicscollision>`_ to ``false``\ , it will instead use `physics <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/physics.html>`_ for the hitbox of the vehicle.
 
-.. _vehicle-playerdamageprotection:
+
+.. _scripts-vehicle-playerdamageprotection:
 
 playerDamageProtection
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 Multiplier applied to the amount of damage the player takes when crashing in the car. A value of 1 doesn't change the damage, but a lower value reduces it and a higher value increases it.
 
-.. _vehicle-rearenddurability:
+
+.. _scripts-vehicle-rearenddurability:
 
 rearEndDurability
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``100``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``100``
 
 It is unclear what that parameter does but as of 42.16.3, the game uses ``rearEndHealth`` which is a mistake.
 
-.. _vehicle-rearendhealth:
+
+.. _scripts-vehicle-rearendhealth:
 
 rearEndHealth
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. warning::
+.. attribute:: Deprecated
 
-   **Deprecated**
+   {'description': 'While that parameter is present in vanilla scripts as of 42.16.3, it actually does nothing because it is not parsed as `rearEndHealth` but as `rearEndDurability`.', 'replacedBy': 'rearEndDurability'}
 
-   Use :ref:`vehicle-rearenddurability` instead.
+No description provided.
 
-   While that parameter is present in vanilla scripts as of 42.16.3, it actually does nothing because it is not parsed as ``rearEndHealth`` but as ``rearEndDurability``.
 
-.. _vehicle-rollinfluence:
+.. _scripts-vehicle-rollinfluence:
 
 rollInfluence
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``0.1``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-seats:
+.. attribute:: Default
+
+   ``0.1``
+
+No description provided.
+
+
+.. _scripts-vehicle-seats:
 
 seats
 ^^^^^
 
-:Type: integer
-:Default: ``2``
+.. attribute:: Type
 
-Sets the number of seats this vehicle can have. A seat `part <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/part.html>`_ needs to be created which will hold a `container <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container>`_ block with a parameter `seat <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-seat>`_
+   integer
 
-.. _vehicle-shadowextents:
+.. attribute:: Default
+
+   ``2``
+
+Sets the number of seats this vehicle can have. A seat `part <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/part.html>`_ needs to be created which will hold a `container <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container>`_ block with a parameter `seat <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-seat>`_.
+
+
+.. _scripts-vehicle-shadowextents:
 
 shadowExtents
 ^^^^^^^^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
 
-No description
+   array (array of float, separator: ' ')
 
-.. _vehicle-shadowoffset:
+No description provided.
+
+
+.. _scripts-vehicle-shadowoffset:
 
 shadowOffset
 ^^^^^^^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
 
-No description
+   array (array of float, separator: ' ')
 
-.. _vehicle-specialkeyring:
+No description provided.
+
+
+.. _scripts-vehicle-specialkeyring:
 
 specialKeyRing
 ^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
 
-``specialKeyRing`` needs to reference a keyring item to spawn. ``specialKeyRingChance`` is used to set the chance to spawn this keyring.
+   array (array of string, separator: ';')
 
-.. _vehicle-specialkeyringchance:
+`specialKeyRing <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-specialkeyring>`_ needs to reference a keyring item to spawn. `specialKeyRingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-specialkeyringchance>`_ is used to set the chance to spawn this keyring.
+
+
+.. _scripts-vehicle-specialkeyringchance:
 
 specialKeyRingChance
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
 
-See :ref:`vehicle-specialkeyring` for more details.
+   integer
 
-.. _vehicle-speciallootchance:
+See parameter :ref:`specialKeyRing <scripts-vehicle-specialkeyring>`.
+
+
+.. _scripts-vehicle-speciallootchance:
 
 specialLootChance
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``8``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _vehicle-steeringclamp:
+.. attribute:: Default
+
+   ``8``
+
+No description provided.
+
+
+.. _scripts-vehicle-steeringclamp:
 
 steeringClamp
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``0.4``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``0.4``
 
 Maximum angle you can turn the front wheels left/right
 
-.. _vehicle-steeringincrement:
+
+.. _scripts-vehicle-steeringincrement:
 
 steeringIncrement
 ^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``0.04``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-stoppingmovementforce:
+.. attribute:: Default
+
+   ``0.04``
+
+No description provided.
+
+
+.. _scripts-vehicle-stoppingmovementforce:
 
 stoppingMovementForce
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 A drag factor applied to the vehicle at all times
 
-.. _vehicle-storagecapacity:
+
+.. _scripts-vehicle-storagecapacity:
 
 storageCapacity
 ^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``100``
-:Attributes: Useless
+.. attribute:: Type
 
-No description
+   integer
 
-.. _vehicle-suspensioncompression:
+.. attribute:: Is useless
+
+   True
+
+.. attribute:: Default
+
+   ``100``
+
+No description provided.
+
+
+.. _scripts-vehicle-suspensioncompression:
 
 suspensionCompression
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``4.4``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-suspensiondamping:
+.. attribute:: Default
+
+   ``4.4``
+
+No description provided.
+
+
+.. _scripts-vehicle-suspensiondamping:
 
 suspensionDamping
 ^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``2.3``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-suspensionrestlength:
+.. attribute:: Default
+
+   ``2.3``
+
+No description provided.
+
+
+.. _scripts-vehicle-suspensionrestlength:
 
 suspensionRestLength
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``0.6``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-suspensionstiffness:
+.. attribute:: Default
+
+   ``0.6``
+
+No description provided.
+
+
+.. _scripts-vehicle-suspensionstiffness:
 
 suspensionStiffness
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``20.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _vehicle-template:
+.. attribute:: Default
+
+   ``20.0``
+
+No description provided.
+
+
+.. _scripts-vehicle-template:
 
 template
 ^^^^^^^^
 
-:Type: Any
-:Attributes: Can be duplicated
+.. attribute:: Type
+
+   Unknown
 
 Uses a template script data for this vehicle.
 
-.. _vehicle-template!:
+
+.. _scripts-vehicle-template!:
 
 template!
 ^^^^^^^^^
 
-:Type: Any
-:Attributes: Can be duplicated
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _vehicle-texturedamage1overlay:
+See parameter :ref:`template <scripts-vehicle-template>`.
+
+
+.. _scripts-vehicle-texturedamage1overlay:
 
 textureDamage1Overlay
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-texturedamage1shell:
+No description provided.
+
+
+.. _scripts-vehicle-texturedamage1shell:
 
 textureDamage1Shell
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-texturedamage2overlay:
+No description provided.
+
+
+.. _scripts-vehicle-texturedamage2overlay:
 
 textureDamage2Overlay
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-texturedamage2shell:
+No description provided.
+
+
+.. _scripts-vehicle-texturedamage2shell:
 
 textureDamage2Shell
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-texturelights:
+No description provided.
+
+
+.. _scripts-vehicle-texturelights:
 
 textureLights
 ^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-texturemask:
+No description provided.
+
+
+.. _scripts-vehicle-texturemask:
 
 textureMask
 ^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-texturemaskenable:
+No description provided.
+
+
+.. _scripts-vehicle-texturemaskenable:
 
 textureMaskEnable
 ^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Attributes: Useless
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _vehicle-texturerust:
+.. attribute:: Is useless
+
+   True
+
+No description provided.
+
+
+.. _scripts-vehicle-texturerust:
 
 textureRust
 ^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-textureshadow:
+No description provided.
+
+
+.. _scripts-vehicle-textureshadow:
 
 textureShadow
 ^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _vehicle-usechassisphysicscollision:
+No description provided.
+
+
+.. _scripts-vehicle-usechassisphysicscollision:
 
 useChassisPhysicsCollision
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 By default ``true`` which makes the vehicle use the `physicsChassisShape <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-physicschassisshape>`_ for its hitbox. If set to false, it will instead use the `physics <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/physics.html>`_ blocks as the hitbox of the vehicle.
 
-.. _vehicle-wheelfriction:
+
+.. _scripts-vehicle-wheelfriction:
 
 wheelFriction
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``800.0``
+.. attribute:: Type
 
-It is 1.2 to 1.9 for all vanilla vehicles and controls turning and stopping (but not acceleration) tire friction limits, with 1.4 being the most common. Values over 1.8 can cause vehicles to flip in sharp turns. (Likely depends somewhat on center of mass)
+   float
 
-.. _vehicle-zombietype:
+.. attribute:: Default
+
+   ``800.0``
+
+It is 1.2 to 1.9 for all vanilla vehicles and controls turning and stopping (but not acceleration) tire friction limits, with 1.4 being the most common. Values over 1.8 can cause vehicles to flip in sharp turns. (Likely depends somewhat on center of mass).
+
+
+.. _scripts-vehicle-zombietype:
 
 zombieType
 ^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 Used to chose what zombie may spawn around the vehicle and is likely to have the key of the vehicle.
+
 

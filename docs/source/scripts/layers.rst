@@ -1,7 +1,15 @@
-.. _layers:
+.. _scripts-layers:
 
 layers
 ======
+
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: No comma
+
+   True
 
 Used to define the default layers of a new TMX file.
 
@@ -9,37 +17,42 @@ Used to define the default layers of a new TMX file.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`root-tmxconfig`
+- :ref:`ROOT-TMXconfig <scripts-root-tmxconfig>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _layers-object:
-
-object
-^^^^^^
-
-:Type: string
-:Only for parents: ROOT-MapBaseXML
-
-No description
-
-.. _layers-tile:
+.. _scripts-layers-tile:
 
 tile
 ^^^^
 
-:Type: string
-:Attributes: Can be duplicated
+.. attribute:: Type
 
-No description
+   string
+
+No description provided.
+
+
+.. _scripts-layers-object:
+
+object
+^^^^^^
+
+.. attribute:: Type
+
+   string
+
+No description provided.
+
 

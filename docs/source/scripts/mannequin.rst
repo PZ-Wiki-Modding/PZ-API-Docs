@@ -1,7 +1,11 @@
-.. _mannequin:
+.. _scripts-mannequin:
 
 mannequin
 =========
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Used to define `mannequins <https://pzwiki.net/wiki/Mannequin>`_\ , which can be used in `mapping <https://pzwiki.net/wiki/Mapping>`_ to create mannequins in the world.
 
@@ -11,26 +15,37 @@ To get a list of available mannequins, see `this <https://pzwiki.net/wiki/Manneq
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _mannequin-animset:
+.. _scripts-mannequin-animset:
 
 animSet
 ^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 `animSet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html#mannequin-animset>`_ defines the `AnimSet <https://pzwiki.net/wiki/AnimSet>`_ used by the mannequin, which you probably should keep as ``mannequin``. `animState <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html#mannequin-animstate>`_ will set the `AnimState <https://pzwiki.net/wiki/AnimState>`_ used in the provided animSet. The `pose <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html#mannequin-pose>`_ parameter will set the `AnimNode <https://pzwiki.net/wiki/AnimNode>`_ used by the mannequin, so the file inside the animState.
 
@@ -62,31 +77,43 @@ If we want to use the AnimState ``female`` and AnimNode ``pose01.xml``\ , we nee
    animState=female,
    pose=pose01,
 
-.. _mannequin-animstate:
+
+.. _scripts-mannequin-animstate:
 
 animState
 ^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-See :ref:`mannequin-animset` for more details.
+   string
 
-.. _mannequin-female:
+See parameter :ref:`animSet <scripts-mannequin-animset>`.
+
+
+.. _scripts-mannequin-female:
 
 female
 ^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 Set to ``true`` to mark the mannequin as female, which wil change its body type.
 
-.. _mannequin-model:
+
+.. _scripts-mannequin-model:
 
 model
 ^^^^^
 
-:Type: block (block: :ref:`model`)
+.. attribute:: Type
+
+   block (block: :ref:`model <scripts-model>`)
 
 The `model <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ used by the mannequin. Some of the models available are:
 
@@ -98,31 +125,44 @@ The `model <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ 
 
 By combining it with the `texture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html#mannequin-texture>`_ parameter, you can create a variety of mannequin appearances.
 
-.. _mannequin-outfit:
+
+.. _scripts-mannequin-outfit:
 
 outfit
 ^^^^^^
 
-:Type: string
-:Attributes: Can be empty
+.. attribute:: Type
+
+   string
+
+.. attribute:: Can be empty
+
+   True
 
 The outfit used by the mannequin.
 
-.. _mannequin-pose:
+
+.. _scripts-mannequin-pose:
 
 pose
 ^^^^
 
-:Type: string
+.. attribute:: Type
 
-See :ref:`mannequin-animset` for more details.
+   string
 
-.. _mannequin-texture:
+See parameter :ref:`animSet <scripts-mannequin-animset>`.
+
+
+.. _scripts-mannequin-texture:
 
 texture
 ^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Used to chose the texture that will be rendered on the mannequin model. The texture needs to be in the ``media/textures/body`` folder.
+
 

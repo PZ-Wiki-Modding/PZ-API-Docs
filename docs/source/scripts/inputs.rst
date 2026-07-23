@@ -1,22 +1,33 @@
-.. _inputs:
+.. _scripts-inputs:
 
 inputs
 ======
 
+.. attribute:: Soft Override
 
+   False
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`craftrecipe`
-- :ref:`component-craftrecipe`
+- :ref:`craftRecipe <scripts-craftrecipe>`
+- :ref:`component CraftRecipe <scripts-component-craftrecipe>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

@@ -1,3 +1,5 @@
+.. _xml-clothing:
+
 clothing
 ========
 
@@ -48,213 +50,343 @@ The file should be stored at the exact path ``media/clothing/clothing.xml`` and 
      </m_MaleOutfits>
    </outfitManager>
 
+
 File Patterns
 -------------
 
+The following file patterns are used to determine what the valid path for the XML file can be, relative to the `media <https://pzwiki.net/wiki/Mod_structure#Media_folder>`_ folder.
+
 - ``**/clothing/clothing.xml``
 
-Root Element
+
+.. _clothing-type_clothing:
+
+Root Details
 ------------
 
-:Element: ``<outfitManager>``
-:Type: ``type_clothing``
+.. attribute:: Element
 
-Structure
----------
+   outfitManager
 
-The root element uses a **choice** composition, meaning it can contain any combination of the following elements:
+The root element is the top-level XML element that contains all other elements in the XML file.
 
-- :ref:`<> <clothing.type_clothing.>` (optional): ````
-- :ref:`<> <clothing.type_clothing.>` (optional): ````
+.. attribute:: Type
 
-Root Type Details
------------------
+   :ref:`type_clothing <clothing-type_clothing>`
 
-.. _clothing.type_clothing:
+.. attribute:: Composition
 
-type_clothing
--------------
-
-:Type: Complex
-:Composition: choice
+   all
 
 Elements
-~~~~~~~~
+^^^^^^^^
 
-.. _clothing.type_clothing.unknown:
+m_FemaleOutfits
+"""""""""""""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_outfit <clothing-type_outfit>`
 
 Define an outfit with `m_FemaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-femaleoutfits>`_ and `m_MaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-maleoutfits>`_ respectively for the female and male characters. If one of the two is not defined, it won't spawn naturally on the other gender in the game. Both male and female outfits can (and probably should) keep the same `m_Name <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-name>`_ and `m_Guid <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-guid>`_ values.
 
-.. _clothing.type_clothing.unknown:
+m_MaleOutfits
+"""""""""""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_outfit <clothing-type_outfit>`
 
 Define an outfit with `m_FemaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-femaleoutfits>`_ and `m_MaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-maleoutfits>`_ respectively for the female and male characters. If one of the two is not defined, it won't spawn naturally on the other gender in the game. Both male and female outfits can (and probably should) keep the same `m_Name <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-name>`_ and `m_Guid <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-guid>`_ values.
 
 
-Types
------
-
-.. _clothing.type_item:
-
-type_item
----------
-
-:Type: Complex
-:Composition: choice
-
-Elements
-~~~~~~~~
-
-.. _clothing.type_item.unknown:
-
-unknown
-^^^^^^^
-
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
-
-The probability of the item being selected for the outfit. Needs to be a value between 0.0 and 1.0.
-
-.. _clothing.type_item.unknown:
-
-unknown
-^^^^^^^
-
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
-
-The `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ of the clothing item that should be part of the outfit. You can define extra outfits thanks to the `subItems <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-subitems>`_ parameter.
-
-.. _clothing.type_item.unknown:
-
-unknown
-^^^^^^^
-
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
-
-Define a sub-item for a specific clothing item used in the outfit, so other items can also be picked.
-
-.. _clothing.type_outfit:
+.. _clothing-type_outfit:
 
 type_outfit
 -----------
 
-:Type: Complex
-:Composition: choice
+.. attribute:: Type
+
+   :ref:`type_outfit <clothing-type_outfit>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
-~~~~~~~~
+^^^^^^^^
 
-.. _clothing.type_outfit.unknown:
+m_Name
+""""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The unique identifier for the outfit. Preferably keep it the same for the male and female variants.
 
-.. _clothing.type_outfit.unknown:
+m_Guid
+""""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The `GUID <https://pzwiki.net/wiki/GUID>`_ of the outfit. This is the GUID associated to the clothing in the `fileGuidTable <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/fileGuidTable.html#guid>`_ and `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ files.
 
 To use a vanilla clothing item in your outfit, you need to redefine it in your own mod's fileGuidTable.xml file, otherwise the game will not recognize it.
 
-.. _clothing.type_outfit.unknown:
+m_Top
+"""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
 
 If set to ``true``\ , the outfit will spawn with random pants or shirts, respectivement for the parameters `m_Pants <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-pants>`_ and `m_Top <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-top>`_. When those two parameters are not set, they default to ``true``.
 
-.. _clothing.type_outfit.unknown:
+m_Pants
+"""""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   0
 
-.. _clothing.type_outfit.unknown:
+.. attribute:: Maximum occurence
 
-unknown
-^^^^^^^
+   1
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+.. attribute:: Type
 
-.. _clothing.type_outfit.unknown:
+   ``xs:boolean``
 
-unknown
-^^^^^^^
+No description provided.
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+m_AllowPantsHue
+"""""""""""""""
 
-.. _clothing.type_outfit.unknown:
+.. attribute:: Minimum occurence
 
-unknown
-^^^^^^^
+   0
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+.. attribute:: Maximum occurence
 
-.. _clothing.type_outfit.unknown:
+   1
 
-unknown
-^^^^^^^
+.. attribute:: Type
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   ``xs:boolean``
 
-.. _clothing.type_outfit.unknown:
+No description provided.
 
-unknown
-^^^^^^^
+m_AllowTopTint
+""""""""""""""
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+.. attribute:: Minimum occurence
 
-.. _clothing.type_subItem:
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
+
+No description provided.
+
+m_AllowPantsTint
+""""""""""""""""
+
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
+
+No description provided.
+
+m_AllowTShirtDecal
+""""""""""""""""""
+
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:boolean``
+
+No description provided.
+
+m_items
+"""""""
+
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_item <clothing-type_item>`
+
+No description provided.
+
+
+.. _clothing-type_item:
+
+type_item
+---------
+
+.. attribute:: Type
+
+   :ref:`type_item <clothing-type_item>`
+
+.. attribute:: Composition
+
+   all
+
+Elements
+^^^^^^^^
+
+probability
+"""""""""""
+
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:float``
+
+The probability of the item being selected for the outfit. Needs to be a value between 0.0 and 1.0.
+
+itemGUID
+""""""""
+
+.. attribute:: Minimum occurence
+
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
+
+The `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ of the clothing item that should be part of the outfit. You can define extra outfits thanks to the `subItems <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-subitems>`_ parameter.
+
+subItems
+""""""""
+
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_subItem <clothing-type_subitem>`
+
+Define a sub-item for a specific clothing item used in the outfit, so other items can also be picked.
+
+
+.. _clothing-type_subitem:
 
 type_subItem
 ------------
 
-:Type: Complex
-:Composition: choice
+.. attribute:: Type
+
+   :ref:`type_subItem <clothing-type_subitem>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
-~~~~~~~~
+^^^^^^^^
 
-.. _clothing.type_subItem.unknown:
+itemGUID
+""""""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ of the clothing item that should be part of the outfit. You can define extra outfits thanks to the `subItems <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-subitems>`_ parameter.
+
 

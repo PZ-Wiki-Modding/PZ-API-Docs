@@ -1,56 +1,73 @@
-.. _component:
+.. _scripts-component:
 
 component
 =========
 
+.. attribute:: Soft Override
+
+   Unknown
+
 A component is a block which can be added as a child to a specific block type like an item, vehicle etc, to provide additional functionalities.
 
-.. toctree::
-   :maxdepth: 4
-   :titlesonly:
-   :caption: Variants
-
-   component/component-contextmenuconfig
-   component/component-craftbench
-   component/component-craftbenchsounds
-   component/component-craftrecipe
-   component/component-dryingcraftlogic
-   component/component-durability
-   component/component-fluidcontainer
-   component/component-resources
-   component/component-spriteconfig
-   component/component-spriteoverlayconfig
-   component/component-uiconfig
-   component/component-wallcoveringconfig
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`item`
-- :ref:`entity`
+- :ref:`item <scripts-item>`
+- :ref:`entity <scripts-entity>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
 
-Using a specific ID will make this block have different properties.
+This block can have an ID.
 
-**Allowed ID Values:**
+.. attribute:: Optional
 
-- :ref:`CraftRecipe <component-craftrecipe>`
-- :ref:`SpriteConfig <component-spriteconfig>`
-- :ref:`UiConfig <component-uiconfig>`
-- :ref:`CraftBench <component-craftbench>`
-- :ref:`CraftBenchSounds <component-craftbenchsounds>`
-- :ref:`Resources <component-resources>`
-- :ref:`DryingCraftLogic <component-dryingcraftlogic>`
-- :ref:`SpriteOverlayConfig <component-spriteoverlayconfig>`
-- :ref:`Durability <component-durability>`
-- :ref:`FluidContainer <component-fluidcontainer>`
-- :ref:`ContextMenuConfig <component-contextmenuconfig>`
-- :ref:`WallCoveringConfig <component-wallcoveringconfig>`
+   False
+
+.. attribute:: Can have spaces
+
+   False
+
+.. attribute:: Allowed ID
+
+   
+* ``CraftRecipe``
+* ``SpriteConfig``
+* ``UiConfig``
+* ``CraftBench``
+* ``CraftBenchSounds``
+* ``Resources``
+* ``DryingCraftLogic``
+* ``SpriteOverlayConfig``
+* ``Durability``
+* ``FluidContainer``
+* ``ContextMenuConfig``
+* ``WallCoveringConfig``
+
+.. attribute:: Variants
+
+   
+* ``:ref:`component FluidContainer <scripts-component-fluidcontainer>```
+* ``:ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>```
+* ``:ref:`component CraftBench <scripts-component-craftbench>```
+* ``:ref:`component SpriteConfig <scripts-component-spriteconfig>```
+* ``:ref:`component UiConfig <scripts-component-uiconfig>```
+* ``:ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>```
+* ``:ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>```
+* ``:ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>```
+* ``:ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>```
+* ``:ref:`component Durability <scripts-component-durability>```
+* ``:ref:`component CraftRecipe <scripts-component-craftrecipe>```
+* ``:ref:`component Resources <scripts-component-resources>```
+
+
+Parameters
+----------
+
+This block has no parameters.
 

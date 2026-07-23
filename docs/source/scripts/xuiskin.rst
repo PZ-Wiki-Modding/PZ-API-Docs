@@ -1,7 +1,11 @@
-.. _xuiskin:
+.. _scripts-xuiskin:
 
 xuiSkin
 =======
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a XUI interface skin.
 
@@ -9,21 +13,41 @@ Defines a XUI interface skin.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`colors`
-- :ref:`entity`
-- :ref:`imports`
-- :ref:`isbasecomponentpanel`
-- :ref:`istablelayoutcell`
+- :ref:`ISTableLayoutCell <scripts-istablelayoutcell>`
+- :ref:`entity <scripts-entity>`
+- :ref:`imports <scripts-imports>`
+- :ref:`ISBaseComponentPanel <scripts-isbasecomponentpanel>`
+- :ref:`colors <scripts-colors>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
+
+.. attribute:: Forbidden ID
+
+   
+* ``default``
+
+
+Parameters
+----------
+
+This block has no parameters.
 

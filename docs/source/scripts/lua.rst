@@ -1,21 +1,32 @@
-.. _lua:
+.. _scripts-lua:
 
 lua
 ===
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`part`
+- :ref:`part <scripts-part>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

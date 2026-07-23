@@ -1,96 +1,125 @@
-.. _component-spriteconfig:
+.. _scripts-component-spriteconfig:
 
 component SpriteConfig
 ======================
 
+.. attribute:: Soft Override
 
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`entity`
+- :ref:`entity <scripts-entity>`
 
-**Required Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`face`
+- :ref:`face <scripts-face>`
 
-**Possible Child Blocks:**
+This block requires these following children to be valid:
 
-- :ref:`face`
+- :ref:`face <scripts-face>`
 
 
-ID Properties
--------------
+ID
+--
 
-This block should not have an ID.
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _component-spriteconfig-health:
-
-health
-^^^^^^
-
-:Type: integer
-
-No description
-
-.. _component-spriteconfig-isprop:
-
-isProp
-^^^^^^
-
-:Type: Any
-
-No description
-
-.. _component-spriteconfig-isthumpable:
+.. _scripts-component-spriteconfig-isthumpable:
 
 isThumpable
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-spriteconfig-oncreate:
+No description provided.
+
+
+.. _scripts-component-spriteconfig-oncreate:
 
 OnCreate
 ^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-spriteconfig-onisvalid:
+No description provided.
+
+
+.. _scripts-component-spriteconfig-isprop:
+
+isProp
+^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-component-spriteconfig-onisvalid:
 
 OnIsValid
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-spriteconfig-skillbasehealth:
+No description provided.
 
-skillBaseHealth
-^^^^^^^^^^^^^^^
 
-:Type: integer
-
-No description
-
-.. _component-spriteconfig-timedactiononisvalid:
+.. _scripts-component-spriteconfig-timedactiononisvalid:
 
 TimedActionOnIsValid
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
+
+No description provided.
+
+
+.. _scripts-component-spriteconfig-health:
+
+health
+^^^^^^
+
+.. attribute:: Type
+
+   integer
+
+No description provided.
+
+
+.. _scripts-component-spriteconfig-skillbasehealth:
+
+skillBaseHealth
+^^^^^^^^^^^^^^^
+
+.. attribute:: Type
+
+   integer
+
+No description provided.
+
 

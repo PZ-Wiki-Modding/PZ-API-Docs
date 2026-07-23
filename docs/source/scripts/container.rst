@@ -1,71 +1,89 @@
-.. _container:
+.. _scripts-container:
 
 container
 =========
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`part`
+- :ref:`part <scripts-part>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _container-capacity:
+.. _scripts-container-capacity:
 
 capacity
 ^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
 
-No description
+   integer
 
-.. _container-conditionaffectscapacity:
+No description provided.
+
+
+.. _scripts-container-conditionaffectscapacity:
 
 conditionAffectsCapacity
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Sets whenever the condition of the part will impact the `capacity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-capacity>`_. A lower condition will negatively impact the container's capacity.
 
-.. _container-contenttype:
+
+.. _scripts-container-contenttype:
 
 contentType
 ^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Unclear how this parameter works exactly. The game uses it to define the "content" of tires and gas tanks by providing the string keys ``Gasoline`` or ``Air``. It seems to simply remove any item container being used as the container for this part.
 
-.. _container-seat:
+
+.. _scripts-container-seat:
 
 seat
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The seat ID of this container. When present, this container can be used as a seat for a vehicle.
 
-.. _container-soundmap:
+
+.. _scripts-container-soundmap:
 
 soundMap
 ^^^^^^^^
 
-:Type: object (object: string->>block, kv: ' ', pairs: ';')
-:Attributes: Can be duplicated
+.. attribute:: Type
+
+   object (object: string->>block, kv: ' ', pairs: ';')
 
 Register a sound script associated to a type of sound for this container. The syntax should be as follows:
 
@@ -83,12 +101,15 @@ The ``key`` can be one of the following:
 
 The ``soundRef`` should be a reference to a `sound block <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_.
 
-.. _container-test:
+
+.. _scripts-container-test:
 
 test
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Refers to a Lua global function returning a boolean which is used to determine whether an item can be put in this container when trying to transfer items.
 
@@ -128,4 +149,5 @@ The parameters are:
 * ``vehicle`` is a `BaseVehicle <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/vehicles/BaseVehicle.html>`_ class
 * ``part`` is a `VehiclePart <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/vehicles/VehiclePart.html>`_
 * ``chr`` is an `IsoGameCharacter <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/characters/IsoGameCharacter.html>`_
+
 

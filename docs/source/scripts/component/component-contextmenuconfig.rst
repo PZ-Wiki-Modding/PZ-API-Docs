@@ -1,30 +1,44 @@
-.. _component-contextmenuconfig:
+.. _scripts-component-contextmenuconfig:
 
 component ContextMenuConfig
 ===========================
 
+.. attribute:: Soft Override
 
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`item`
-- :ref:`entity`
+- :ref:`item <scripts-item>`
+- :ref:`entity <scripts-entity>`
 
-**Required Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`contextentry`
+- :ref:`contextEntry <scripts-contextentry>`
 
-**Possible Child Blocks:**
+This block requires these following children to be valid:
 
-- :ref:`contextentry`
+- :ref:`contextEntry <scripts-contextentry>`
 
 
-ID Properties
--------------
+ID
+--
 
-This block should not have an ID.
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

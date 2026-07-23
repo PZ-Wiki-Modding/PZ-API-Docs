@@ -1,21 +1,40 @@
-.. _door:
+.. _scripts-door:
 
 door
 ====
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`part`
+- :ref:`part <scripts-part>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   ['part']
+
+.. attribute:: Can have spaces
+
+   False
+
+
+Parameters
+----------
+
+This block has no parameters.
 

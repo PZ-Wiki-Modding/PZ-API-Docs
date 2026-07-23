@@ -11,8 +11,8 @@ def generate_action_sound_time_docs():
     """Generate and write action sound time documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
-    repo_root = script_dir.parent.parent
+    script_dir = Path(__file__).parent.parent.parent
+    repo_root = script_dir.parent
     action_sound_time_json_path = repo_root / "pz-java-parser" / "out" / "action_sound_time.json"
     action_sound_time_rst_path = repo_root / "docs" / "source" / "java" / "action_sound_time.rst"
     
@@ -49,7 +49,7 @@ def generate_rst_content(action_sound_time_data: list) -> str:
     content = """ActionSoundTime
 ===============
 
-Available `action sound time <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ActionSoundTime.html>`_ events accessible for :ref:`timedaction-soundtime`.
+Available `action sound time <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ActionSoundTime.html>`_ events accessible for :ref:`scripts-timedaction-soundtime`.
 
 .. list-table:: Action Sound Time Events
    :widths: 30 30

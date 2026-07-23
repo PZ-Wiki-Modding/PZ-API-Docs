@@ -1,79 +1,106 @@
-.. _component-craftbenchsounds:
+.. _scripts-component-craftbenchsounds:
 
 component CraftBenchSounds
 ==========================
 
+.. attribute:: Soft Override
 
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`entity`
+- :ref:`entity <scripts-entity>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _component-craftbenchsounds-addfuel:
+.. _scripts-component-craftbenchsounds-addfuel:
 
 AddFuel
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-craftbenchsounds-addinput:
+No description provided.
 
-AddInput
-^^^^^^^^
 
-:Type: Any
-
-No description
-
-.. _component-craftbenchsounds-lightfire:
+.. _scripts-component-craftbenchsounds-lightfire:
 
 LightFire
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-craftbenchsounds-removeinput:
+No description provided.
 
-RemoveInput
-^^^^^^^^^^^
 
-:Type: Any
-
-No description
-
-.. _component-craftbenchsounds-running:
+.. _scripts-component-craftbenchsounds-running:
 
 Running
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-craftbenchsounds-startcraft:
+No description provided.
+
+
+.. _scripts-component-craftbenchsounds-addinput:
+
+AddInput
+^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-component-craftbenchsounds-removeinput:
+
+RemoveInput
+^^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-component-craftbenchsounds-startcraft:
 
 StartCraft
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
+
+No description provided.
+
 

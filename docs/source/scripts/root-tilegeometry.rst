@@ -1,7 +1,15 @@
-.. _root-tilegeometry:
+.. _scripts-root-tilegeometry:
 
 ROOT-TileGeometry
 =================
+
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
 
 The ``tileGeometry.txt`` file is used to register the tile depth of tiles. The file needs to be located inside the `common/media <https://pzwiki.net/wiki/Mod_structure#Common_and_versioning_folders>`_ folder.
 
@@ -9,15 +17,20 @@ The ``tileGeometry.txt`` file is used to register the tile depth of tiles. The f
 Hierarchy
 ---------
 
-This block does not require a parent block.
+This block can have the following child blocks:
 
-**Possible Child Blocks:**
-
-- :ref:`tilegeometry`
+- :ref:`tileGeometry <scripts-tilegeometry>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

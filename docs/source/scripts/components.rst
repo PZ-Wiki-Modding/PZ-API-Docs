@@ -1,25 +1,36 @@
-.. _components:
+.. _scripts-components:
 
 components
 ==========
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`entity`
+- :ref:`entity <scripts-entity>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`_component_block`
+- :ref:`_COMPONENT_BLOCK <scripts-_component_block>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

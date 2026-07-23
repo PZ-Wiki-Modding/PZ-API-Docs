@@ -1,45 +1,62 @@
-.. _data:
+.. _scripts-data:
 
 data
 ====
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`vehicleenginerpm`
+- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _data-aftergearchange:
+.. _scripts-data-aftergearchange:
 
 afterGearChange
 ^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``0.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _data-gearchange:
+.. attribute:: Default
+
+   ``0.0``
+
+No description provided.
+
+
+.. _scripts-data-gearchange:
 
 gearChange
 ^^^^^^^^^^
 
-:Type: float
-:Default: ``0.0``
+.. attribute:: Type
 
-No description
+   float
+
+.. attribute:: Default
+
+   ``0.0``
+
+No description provided.
+
 

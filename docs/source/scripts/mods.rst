@@ -1,7 +1,11 @@
-.. _mods:
+.. _scripts-mods:
 
 mods
 ====
+
+.. attribute:: Soft Override
+
+   Unknown
 
 A list of mods in the `default.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-default.html>`_ file. The `mod ID <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-modinfo.html#root-modinfo-id>`_ should be used to reference the mods.
 
@@ -20,27 +24,30 @@ It should use the following syntax:
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`root-default`
+- :ref:`ROOT-Default <scripts-root-default>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _mods-mod:
+.. _scripts-mods-mod:
 
 mod
 ^^^
 
-:Type: string
-:Attributes: Can be duplicated
+.. attribute:: Type
+
+   string
 
 The mod ID of the mod to load, which can be found in the `mod.info <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-modinfo.html>`_ file of the mod.
+
 

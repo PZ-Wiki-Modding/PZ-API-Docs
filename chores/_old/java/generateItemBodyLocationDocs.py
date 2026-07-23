@@ -11,8 +11,8 @@ def generate_item_body_location_docs():
     """Generate and write item body locations documentation to RST file."""
     
     # Define paths
-    script_dir = Path(__file__).parent
-    repo_root = script_dir.parent.parent
+    script_dir = Path(__file__).parent.parent.parent
+    repo_root = script_dir.parent
     item_body_locations_json_path = repo_root / "pz-java-parser" / "out" / "item_body_locations.json"
     item_body_locations_rst_path = repo_root / "docs" / "source" / "java" / "item_body_locations.rst"
     

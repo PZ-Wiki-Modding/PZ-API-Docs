@@ -1,7 +1,15 @@
-.. _root-scripts:
+.. _scripts-root-scripts:
 
 ROOT-Scripts
 ============
+
+.. attribute:: Soft Override
+
+   Unknown
+
+.. attribute:: Is Root
+
+   True
 
 The root of a script file. Blocks than need to be in the root of the document should have this as parent.
 
@@ -9,15 +17,20 @@ The root of a script file. Blocks than need to be in the root of the document sh
 Hierarchy
 ---------
 
-This block does not require a parent block.
+This block can have the following child blocks:
 
-**Possible Child Blocks:**
-
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

@@ -1,7 +1,7 @@
 ActionSoundTime
 ===============
 
-Available `action sound time <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ActionSoundTime.html>`_ events accessible for :ref:`timedaction-soundtime`.
+Available `action sound time <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/ActionSoundTime.html>`_ events accessible for :ref:`scripts-timedaction-soundtime`.
 
 .. list-table:: Action Sound Time Events
    :widths: 30 30

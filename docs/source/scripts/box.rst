@@ -1,7 +1,11 @@
-.. _box:
+.. _scripts-box:
 
 box
 ===
+
+.. attribute:: Soft Override
+
+   Unknown
 
 `box <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/box.html>`_\ , `cylinder <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/cylinder.html>`_ and `polygon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/polygon.html>`_ are used in `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ to define the tile depth of a tile.
 
@@ -11,53 +15,66 @@ You can find more information `here <https://pzwiki.net/wiki/Tile_depth>`_.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`tile`
+- :ref:`tile <scripts-tile>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _box-max:
-
-max
-^^^
-
-:Type: array (array of integer, separator: 'x')
-
-No description
-
-.. _box-min:
-
-min
-^^^
-
-:Type: array (array of integer, separator: 'x')
-
-No description
-
-.. _box-rotate:
-
-rotate
-^^^^^^
-
-:Type: array (array of integer, separator: 'x')
-
-No description
-
-.. _box-translate:
+.. _scripts-box-translate:
 
 translate
 ^^^^^^^^^
 
-:Type: array (array of integer, separator: 'x')
+.. attribute:: Type
 
-No description
+   array (array of integer, separator: 'x')
+
+No description provided.
+
+
+.. _scripts-box-rotate:
+
+rotate
+^^^^^^
+
+.. attribute:: Type
+
+   array (array of integer, separator: 'x')
+
+No description provided.
+
+
+.. _scripts-box-min:
+
+min
+^^^
+
+.. attribute:: Type
+
+   array (array of integer, separator: 'x')
+
+No description provided.
+
+
+.. _scripts-box-max:
+
+max
+^^^
+
+.. attribute:: Type
+
+   array (array of integer, separator: 'x')
+
+No description provided.
+
 

@@ -1,35 +1,51 @@
-.. _area:
+.. _scripts-area:
 
 area
 ====
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`template`
-- :ref:`vehicle`
+- :ref:`template <scripts-template>`
+- :ref:`vehicle <scripts-vehicle>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _area-xywh:
+.. _scripts-area-xywh:
 
 xywh
 ^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   array (array of float, separator: ' ')
+
+No description provided.
+
 

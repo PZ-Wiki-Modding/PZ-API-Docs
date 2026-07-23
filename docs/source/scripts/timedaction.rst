@@ -1,7 +1,11 @@
-.. _timedaction:
+.. _scripts-timedaction:
 
 timedAction
 ===========
+
+.. attribute:: Soft Override
+
+   Unknown
 
 The timedAction script block is used to define an action which can be used in `craftRecipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_. You can specify the animation played, props in hands during the action, the sound played. Also define its impact on the player character, including effects on calories burned and body heat generation.
 
@@ -46,35 +50,49 @@ Below are a few examples of ``timedAction`` blocks from the vanilla game:
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _timedaction-actionanim:
+.. _scripts-timedaction-actionanim:
 
 actionAnim
 ^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The actionAnim parameter is used to define the animation played during a timed action. It links to a `PerformingAction <https://pzwiki.net/wiki/PerformingAction>`_ define in the action `AnimSets <https://pzwiki.net/wiki/AnimSet>`_ of the player.
 
-.. _timedaction-animvarkey:
+
+.. _scripts-timedaction-animvarkey:
 
 animVarKey
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 The `animVarKey <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/timedaction.html#animVarKey>`_ and `animVarVal <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/timedaction.html#animVarVal>`_ parameters are used together to link to a specific `AnimNode Conditions <https://pzwiki.net/wiki/Conditions>`_. ``animVarKey`` will correspond to the ``m_Name`` field and ``animVarVal`` to the ``m_Value`` field.
 
@@ -103,39 +121,51 @@ You can define those parameters in the timedAction as follows:
    animVarKey      = LootPosition,
    animVarVal      = Low,
 
-.. _timedaction-animvarval:
+
+.. _scripts-timedaction-animvarval:
 
 animVarVal
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`timedaction-animvarkey` for more details.
+   Unknown
 
-.. _timedaction-completionsound:
+See parameter :ref:`animVarKey <scripts-timedaction-animvarkey>`.
+
+
+.. _scripts-timedaction-completionsound:
 
 completionSound
 ^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
+
+   block (block: :ref:`sound <scripts-sound>`)
 
 Defines the sound played at the end of the action.
 
-.. _timedaction-metabolics:
+
+.. _scripts-timedaction-metabolics:
 
 metabolics
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 The metabolics parameter is used to define the impact of the action on the player character's metabolics, such as the calories burn rate or body heat generation. It uses predefined enumeration values to specify the multiplier on the metabolism. You can find a list of metabolic types and their associated values in the `Metabolics <https://pz-wiki-modding.github.io/PZ-API-Docs/java/metabolics.html>`_ documentation.
 
-.. _timedaction-musclestrainfactor:
+
+.. _scripts-timedaction-musclestrainfactor:
 
 muscleStrainFactor
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 Muscle strain is an effect which applies to the character limbs, simulating the fatigue and strain of performing certain actions. A timedAction script can be set to apply muscle strain to specific limbs and based on the level of the character in a specific skill.
 
@@ -149,64 +179,88 @@ If `muscleStrainSkill <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/tim
 
    strain = deltaTime * muscleStrainFactor * (1 - skillLevel * 0.5)
 
-.. _timedaction-musclestrainparts:
+
+.. _scripts-timedaction-musclestrainparts:
 
 muscleStrainParts
 ^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
-:Needs: ``muscleStrainParts``
+.. attribute:: Type
 
-See :ref:`timedaction-musclestrainfactor` for more details.
+   array (array of string, separator: ';')
 
-.. _timedaction-musclestrainskill:
+See parameter :ref:`muscleStrainFactor <scripts-timedaction-musclestrainfactor>`.
+
+
+.. _scripts-timedaction-musclestrainskill:
 
 muscleStrainSkill
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`timedaction-musclestrainfactor` for more details.
+   Unknown
 
-.. _timedaction-prop1:
+See parameter :ref:`muscleStrainFactor <scripts-timedaction-musclestrainfactor>`.
+
+
+.. _scripts-timedaction-prop1:
 
 prop1
 ^^^^^
 
-:Type: string (block: :ref:`model`, with :ref:`module`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
-.. _timedaction-prop2:
+No description provided.
+
+
+.. _scripts-timedaction-prop2:
 
 prop2
 ^^^^^
 
-:Type: string (block: :ref:`model`, with :ref:`module`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
-.. _timedaction-sound:
+No description provided.
+
+
+.. _scripts-timedaction-sound:
 
 sound
 ^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
+
+   block (block: :ref:`sound <scripts-sound>`)
 
 Defines the sound played during the action.
 
-.. _timedaction-soundtime:
+
+.. _scripts-timedaction-soundtime:
 
 soundTime
 ^^^^^^^^^
 
-:Type: string
-:Default: ``action_start``
-:Attributes: Useless
+.. attribute:: Type
+
+   string
+
+.. attribute:: Is useless
+
+   True
+
+.. attribute:: Default
+
+   ``action_start``
 
 This parameter is used in the Lua to indicate when the sound should be played during the timed action. This is notably used to play a sound at the end or the start of the action during `crafting <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftRecipe.html#timedAction>`_.
 
 By itself, this doesn't do anything and requires implementation in `Lua <https://pzwiki.net/wiki/Lua_(API>`_\ ). For example inside ``ISHandcraftAction``.
 
 For a full list of the accepted events, see `this <https://pz-wiki-modding.github.io/PZ-API-Docs/java/action_sound_time.html>`_.
+
 

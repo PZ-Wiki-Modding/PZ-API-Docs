@@ -1,410 +1,358 @@
+.. _translation-codes:
+
 Language Codes
 ==============
 
 Available language codes, full language names and encoding.
 
-.. _ar-language:
+.. _translation-codes-RU:
 
-AR - Espanol (AR) - Argentina Spanish
---------------------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``AR``
-   * - Language Name
-     - Espanol (AR) - Argentina Spanish
-   * - Encoding
-     - UTF-8
-
-.. _ca-language:
-
-CA - Catalan
--------------
+RU
+--
 
 .. list-table::
    :widths: auto
 
-   * - Code
-     - ``CA``
-   * - Language Name
-     - Catalan
-   * - Encoding
-     - UTF-8
-
-.. _ch-language:
-
-CH - Traditional Chinese
--------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``CH``
-   * - Language Name
-     - Traditional Chinese
-   * - Encoding
-     - UTF-8
-
-.. _cn-language:
-
-CN - Simplified Chinese
-------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``CN``
-   * - Language Name
-     - Simplified Chinese
-   * - Encoding
-     - UTF-8
-
-.. _cs-language:
-
-CS - Czech
------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``CS``
-   * - Language Name
-     - Czech
-   * - Encoding
-     - UTF-8
-
-.. _da-language:
-
-DA - Danish
-------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``DA``
-   * - Language Name
-     - Danish
-   * - Encoding
-     - UTF-8
-
-.. _de-language:
-
-DE - Deutsch - German
-----------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``DE``
-   * - Language Name
-     - Deutsch - German
-   * - Encoding
-     - UTF-8
-
-.. _en-language:
-
-EN - English
--------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``EN``
-   * - Language Name
-     - English
-   * - Encoding
-     - UTF-8
-
-.. _es-language:
-
-ES - Espanol (ES) - Spanish
-----------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``ES``
-   * - Language Name
-     - Espanol (ES) - Spanish
-   * - Encoding
-     - UTF-8
-
-.. _fi-language:
-
-FI - Finnish
--------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``FI``
-   * - Language Name
-     - Finnish
-   * - Encoding
-     - UTF-8
-
-.. _fr-language:
-
-FR - Francais - French
------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``FR``
-   * - Language Name
-     - Francais - French
-   * - Encoding
-     - UTF-8
-
-.. _hu-language:
-
-HU - Hungarian
----------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``HU``
-   * - Language Name
-     - Hungarian
-   * - Encoding
-     - UTF-8
-
-.. _id-language:
-
-ID - Indonesia
----------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``ID``
-   * - Language Name
-     - Indonesia
-   * - Encoding
-     - UTF-8
-
-.. _it-language:
-
-IT - Italiano
---------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``IT``
-   * - Language Name
-     - Italiano
-   * - Encoding
-     - UTF-8
-
-.. _jp-language:
-
-JP - Japanese
---------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``JP``
-   * - Language Name
-     - Japanese
-   * - Encoding
-     - UTF-8
-
-.. _ko-language:
-
-KO - Korean
-------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``KO``
-   * - Language Name
-     - Korean
-   * - Encoding
-     - UTF-8
-
-.. _nl-language:
-
-NL - Nederlands - Dutch
-------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``NL``
-   * - Language Name
-     - Nederlands - Dutch
-   * - Encoding
-     - UTF-8
-
-.. _no-language:
-
-NO - Norsk - Norwegian
------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``NO``
-   * - Language Name
-     - Norsk - Norwegian
-   * - Encoding
-     - UTF-8
-
-.. _ph-language:
-
-PH - Tagalog - Filipino
-------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``PH``
-   * - Language Name
-     - Tagalog - Filipino
-   * - Encoding
-     - UTF-8
-
-.. _pl-language:
-
-PL - Polish
-------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``PL``
-   * - Language Name
-     - Polish
-   * - Encoding
-     - UTF-8
-
-.. _pt-language:
-
-PT - Portuguese
-----------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``PT``
-   * - Language Name
-     - Portuguese
-   * - Encoding
-     - UTF-8
-
-.. _ptbr-language:
-
-PTBR - Brazilian Portuguese
-----------------------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``PTBR``
-   * - Language Name
-     - Brazilian Portuguese
-   * - Encoding
-     - UTF-8
-
-.. _ro-language:
-
-RO - Romanian
---------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``RO``
-   * - Language Name
-     - Romanian
-   * - Encoding
-     - UTF-8
-
-.. _ru-language:
-
-RU - Russian
--------------
-
-.. list-table::
-   :widths: auto
-
-   * - Code
-     - ``RU``
    * - Language Name
      - Russian
    * - Encoding
      - UTF-8
 
-.. _th-language:
+.. _translation-codes-TH:
 
-TH - Thai
-----------
+TH
+--
 
 .. list-table::
    :widths: auto
 
-   * - Code
-     - ``TH``
    * - Language Name
      - Thai
    * - Encoding
      - UTF-8
 
-.. _tr-language:
+.. _translation-codes-ID:
 
-TR - Turkish
--------------
+ID
+--
 
 .. list-table::
    :widths: auto
 
-   * - Code
-     - ``TR``
+   * - Language Name
+     - Indonesia
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-CA:
+
+CA
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Catalan
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-TR:
+
+TR
+--
+
+.. list-table::
+   :widths: auto
+
    * - Language Name
      - Turkish
    * - Encoding
      - UTF-8
 
-.. _ua-language:
+.. _translation-codes-PL:
 
-UA - Ukrainian
----------------
+PL
+--
 
 .. list-table::
    :widths: auto
 
-   * - Code
-     - ``UA``
+   * - Language Name
+     - Polish
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-PH:
+
+PH
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Tagalog - Filipino
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-IT:
+
+IT
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Italiano
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-KO:
+
+KO
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Korean
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-FR:
+
+FR
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Francais - French
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-NO:
+
+NO
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Norsk - Norwegian
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-UA:
+
+UA
+--
+
+.. list-table::
+   :widths: auto
+
    * - Language Name
      - Ukrainian
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-CS:
+
+CS
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Czech
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-DE:
+
+DE
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Deutsch - German
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-ES:
+
+ES
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Espanol (ES) - Spanish
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-PTBR:
+
+PTBR
+----
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Brazilian Portuguese
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-HU:
+
+HU
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Hungarian
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-EN:
+
+EN
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - English
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-CH:
+
+CH
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Traditional Chinese
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-AR:
+
+AR
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Espanol (AR) - Argentina Spanish
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-PT:
+
+PT
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Portuguese
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-NL:
+
+NL
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Nederlands - Dutch
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-FI:
+
+FI
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Finnish
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-CN:
+
+CN
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Simplified Chinese
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-JP:
+
+JP
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Japanese
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-RO:
+
+RO
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Romanian
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-DA:
+
+DA
+--
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Danish
    * - Encoding
      - UTF-8
 

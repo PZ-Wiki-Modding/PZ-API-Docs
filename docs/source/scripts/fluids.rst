@@ -1,7 +1,11 @@
-.. _fluids:
+.. _scripts-fluids:
 
 Fluids
 ======
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Used to make a list of fluids to appear in a `FluidContainer component <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/component/component_fluidcontainer.html>`_.
 
@@ -9,27 +13,30 @@ Used to make a list of fluids to appear in a `FluidContainer component <https://
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`component-fluidcontainer`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _fluids-fluid:
+.. _scripts-fluids-fluid:
 
 fluid
 ^^^^^
 
-:Type: Any
-:Attributes: Can be duplicated
+.. attribute:: Type
+
+   Unknown
 
 Refers to a fluid script
+
 

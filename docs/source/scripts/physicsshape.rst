@@ -1,7 +1,11 @@
-.. _physicsshape:
+.. _scripts-physicsshape:
 
 physicsShape
 ============
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines a 3D object's physical shape to be used as a world object.
 
@@ -21,44 +25,62 @@ For example:
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _physicsshape-mesh:
+.. _scripts-physicsshape-mesh:
 
 mesh
 ^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 The path to the model's mesh file, relative to the folder ``media/models_X``.
 
-.. _physicsshape-rotate:
 
-rotate
-^^^^^^
-
-:Type: array (array of float, separator: ' ')
-
-The rotation of the model, in the format ``x y z``.
-
-.. _physicsshape-translate:
+.. _scripts-physicsshape-translate:
 
 translate
 ^^^^^^^^^
 
-:Type: array (array of float, separator: ' ')
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
 
 The position offset of the model, in the format ``x y z``.
+
+
+.. _scripts-physicsshape-rotate:
+
+rotate
+^^^^^^
+
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
+
+The rotation of the model, in the format ``x y z``.
+
 

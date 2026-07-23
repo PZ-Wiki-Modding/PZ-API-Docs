@@ -1,7 +1,11 @@
-.. _animationsmesh:
+.. _scripts-animationsmesh:
 
 animationsMesh
 ==============
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines an animated mesh, usually for characters or animals.
 
@@ -9,64 +13,86 @@ Defines an animated mesh, usually for characters or animals.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _animationsmesh-animationdirectory:
+.. _scripts-animationsmesh-animationdirectory:
 
 animationDirectory
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
-:Attributes: Can be duplicated
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _animationsmesh-animationprefix:
+No description provided.
+
+
+.. _scripts-animationsmesh-animationprefix:
 
 animationPrefix
 ^^^^^^^^^^^^^^^
 
-:Type: Any
-:Attributes: Can be duplicated
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _animationsmesh-keepmeshanimations:
+No description provided.
+
+
+.. _scripts-animationsmesh-keepmeshanimations:
 
 keepMeshAnimations
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _animationsmesh-meshfile:
+No description provided.
+
+
+.. _scripts-animationsmesh-meshfile:
 
 meshFile
 ^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _animationsmesh-postprocess:
+No description provided.
+
+
+.. _scripts-animationsmesh-postprocess:
 
 postProcess
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
+
+No description provided.
+
 

@@ -1,62 +1,79 @@
-.. _lightbar:
+.. _scripts-lightbar:
 
 lightbar
 ========
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`template`
-- :ref:`vehicle`
+- :ref:`template <scripts-template>`
+- :ref:`vehicle <scripts-vehicle>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _lightbar-leftcol:
-
-leftCol
-^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _lightbar-rightcol:
-
-rightCol
-^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _lightbar-soundsiren:
-
-soundSiren
-^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _lightbar-texture:
+.. _scripts-lightbar-texture:
 
 texture
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
+
+No description provided.
+
+
+.. _scripts-lightbar-soundsiren:
+
+soundSiren
+^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-lightbar-leftcol:
+
+leftCol
+^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-lightbar-rightcol:
+
+rightCol
+^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
 

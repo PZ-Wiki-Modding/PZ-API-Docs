@@ -1,73 +1,92 @@
-.. _component-craftrecipe:
+.. _scripts-component-craftrecipe:
 
 component CraftRecipe
 =====================
 
+.. attribute:: Soft Override
 
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`entity`
+- :ref:`entity <scripts-entity>`
 
-**Required Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`inputs`
+- :ref:`inputs <scripts-inputs>`
 
-**Possible Child Blocks:**
+This block requires these following children to be valid:
 
-- :ref:`inputs`
+- :ref:`inputs <scripts-inputs>`
 
 
-ID Properties
--------------
+ID
+--
 
-This block should not have an ID.
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _component-craftrecipe-category:
+.. _scripts-component-craftrecipe-category:
 
 category
 ^^^^^^^^
 
- (see :ref:`craftrecipe-category`)
-:Type: string
-:Default: ``Miscellaneous``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``Miscellaneous``
 
 The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in crafting menu. Currently doesn't support translations (confirmed last 42.19.0).
 
-.. _component-craftrecipe-needtobelearn:
+
+.. _scripts-component-craftrecipe-needtobelearn:
 
 NeedToBeLearn
 ^^^^^^^^^^^^^
 
- (see :ref:`craftrecipe-needtobelearn`)
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 Whether the recipe needs to be learned before it can be crafted.
 
-.. _component-craftrecipe-onaddtomenu:
+
+.. _scripts-component-craftrecipe-onaddtomenu:
 
 OnAddToMenu
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-craftrecipe-oncreate:
+No description provided.
+
+
+.. _scripts-component-craftrecipe-oncreate:
 
 OnCreate
 ^^^^^^^^
 
- (see :ref:`craftrecipe-oncreate`)
-:Type: callback
+.. attribute:: Type
+
+   callback
 
 Various callback functions can be added to a recipe to trigger at specific moments during the crafting process:
 
@@ -103,13 +122,15 @@ For `OnTest <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.h
        return logicTestResult  -- based on your logic test above
    end
 
-.. _component-craftrecipe-skillrequired:
+
+.. _scripts-component-craftrecipe-skillrequired:
 
 SkillRequired
 ^^^^^^^^^^^^^
 
- (see :ref:`craftrecipe-skillrequired`)
-:Type: object (object: string->>integer, kv: ':', pairs: ';')
+.. attribute:: Type
+
+   object (object: string->>integer, kv: ':', pairs: ';')
 
 Specifies the skill level required to perform this crafting action. It should be formatted this way:
 
@@ -129,13 +150,19 @@ For example:
 
    skillRequired = Blacksmith:3;Tailoring:2,
 
-.. _component-craftrecipe-tags:
+
+.. _scripts-component-craftrecipe-tags:
 
 tags
 ^^^^
 
- (see :ref:`craftrecipe-tags`)
-:Type: array (array of string, separator: ';') **(required)**
+.. attribute:: Type
+
+   array (array of string, separator: ';')
+
+.. attribute:: Required
+
+   True
 
 Specifies specific conditions which need to be respected to craft this item. At least one crafting bench tag is necessary for the craft to be recognized, such as ``AnySurfaceCraft``. The syntax is as follows:
 
@@ -157,34 +184,43 @@ A crafting bench tag can be created by adding a `component CraftBench <https://p
 
 You can find a list of tags available on the `wiki <https://pzwiki.net/wiki/CraftRecipe#List_of_tags>`_.
 
-.. _component-craftrecipe-time:
+
+.. _scripts-component-craftrecipe-time:
 
 time
 ^^^^
 
- (see :ref:`craftrecipe-time`)
-:Type: integer
-:Default: ``50``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``50``
 
 The time it takes to craft the item, not using a specific unit of time so refer to the vanilla recipes to get an idea of what value to use.
 
-.. _component-craftrecipe-timedaction:
+
+.. _scripts-component-craftrecipe-timedaction:
 
 timedAction
 ^^^^^^^^^^^
 
- (see :ref:`craftrecipe-timedaction`)
-:Type: block (block: :ref:`timedAction`)
+.. attribute:: Type
+
+   block (block: :ref:`timedAction <scripts-timedaction>`)
 
 Refers to a timed action script block to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
 
-.. _component-craftrecipe-tooltip:
+
+.. _scripts-component-craftrecipe-tooltip:
 
 Tooltip
 ^^^^^^^
 
- (see :ref:`craftrecipe-tooltip`)
-:Type: string
+.. attribute:: Type
+
+   string
 
 Description of the crafting which is shown in the crafting menu. The value needs be a key in the `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ translation file. For example:
 
@@ -198,13 +234,15 @@ And in the translation file:
   "MyTooltipKey": "This is my tooltip description."
 }
 
-.. _component-craftrecipe-xpaward:
+
+.. _scripts-component-craftrecipe-xpaward:
 
 xpAward
 ^^^^^^^
 
- (see :ref:`craftrecipe-xpaward`)
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 Specifies the experience points awarded for crafting this item. The parameter should be formatted this way:
 
@@ -223,4 +261,5 @@ For example:
 .. code-block:: cpp
 
    xpAward = Blacksmith:10;Tailoring:5,
+
 

@@ -1,7 +1,11 @@
-.. _attachment:
+.. _scripts-attachment:
 
 attachment
 ==========
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines an attachment point on a `model <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ or `vehicle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html>`_ block. The ID is the attachment name, it can be a custom ID or an existing one often used to define specific attachments. While manually modifying the attachment block is definitely possible, it is recommended to use the `attachment editor <https://pzwiki.net/wiki/Attachment_Editor>`_ to create and edit those attachments.
 
@@ -41,28 +45,99 @@ For a full list of attachment points, see the `attachment <https://pzwiki.net/wi
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`vehicle`
-- :ref:`model`
-- :ref:`template`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`model <scripts-model>`
+- :ref:`template <scripts-template>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _attachment-bone:
+.. _scripts-attachment-offset:
+
+offset
+^^^^^^
+
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
+
+The position offset of the model relative to the bone. This is a vector in the format ``x y z``. 
+
+.. code-block:: cpp
+
+   offset = -0.0300 -0.1020 0.1210,
+
+
+.. _scripts-attachment-rotate:
+
+rotate
+^^^^^^
+
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
+
+The rotation of the model relative to the bone. This is a vector in the format ``x y z``. The values are degrees.
+
+.. code-block:: cpp
+
+   rotate = -60.0000 -49.0000 -3.0000,
+
+
+.. _scripts-attachment-zoffset:
+
+zoffset
+^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-attachment-scale:
+
+scale
+^^^^^
+
+.. attribute:: Type
+
+   float
+
+The scale multiplier applied to the model attached to this attachment point.
+
+.. code-block:: cpp
+
+   scale = 0.5,
+
+
+.. _scripts-attachment-bone:
 
 bone
 ^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 .. code-block::
 
@@ -73,51 +148,4 @@ bone
 
     bone = Bip01_L_Hand,
 
-.. _attachment-offset:
-
-offset
-^^^^^^
-
-:Type: array (array of float, separator: ' ')
-
-The position offset of the model relative to the bone. This is a vector in the format ``x y z``. 
-
-.. code-block:: cpp
-
-   offset = -0.0300 -0.1020 0.1210,
-
-.. _attachment-rotate:
-
-rotate
-^^^^^^
-
-:Type: array (array of float, separator: ' ')
-
-The rotation of the model relative to the bone. This is a vector in the format ``x y z``. The values are degrees.
-
-.. code-block:: cpp
-
-   rotate = -60.0000 -49.0000 -3.0000,
-
-.. _attachment-scale:
-
-scale
-^^^^^
-
-:Type: float
-
-The scale multiplier applied to the model attached to this attachment point.
-
-.. code-block:: cpp
-
-   scale = 0.5,
-
-.. _attachment-zoffset:
-
-zoffset
-^^^^^^^
-
-:Type: Any
-
-No description
 

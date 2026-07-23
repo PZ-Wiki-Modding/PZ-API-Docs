@@ -1,7 +1,11 @@
-.. _blendwhitelist:
+.. _scripts-blendwhitelist:
 
 BlendWhiteList
 ==============
+
+.. attribute:: Soft Override
+
+   Unknown
 
 BlendWhiteList defines a whitelist for fluids that the fluid can be blended with, while BlendBlackList defines a blacklist. By default those blocks are set whitelist, but you can add one of the available parameters to indicate whenever the block is a whitelist or a blacklist.
 
@@ -11,70 +15,87 @@ Fluids that are whitelisted/blacklisted can be identified either by their catego
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`fluid`
+- :ref:`fluid <scripts-fluid>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`categories`
+- :ref:`Categories <scripts-categories>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _blendwhitelist-blacklist:
-
-blacklist
-^^^^^^^^^
-
-:Type: boolean
-
-Indicates whenever blending with other fluids is disallowed.
-
-.. _blendwhitelist-category:
-
-category
-^^^^^^^^
-
-:Type: Any
-
-Unclear what this is for since this is usually achieved with a `categories <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/categories.html>`_ child block.
-
-.. _blendwhitelist-filtertype:
-
-filterType
-^^^^^^^^^^
-
-:Type: Any
-
-Just use `whitelist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#whitelist>`_ or `blacklist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#blacklist>`_.
-
-Allowed values:
-
-    - ``whitelist``
-
-.. _blendwhitelist-fluid:
-
-fluid
-^^^^^
-
-:Type: array (array of string, separator: '/')
-
-A list of fluids.
-
-.. _blendwhitelist-whitelist:
+.. _scripts-blendwhitelist-whitelist:
 
 whitelist
 ^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 Indicates whenever blending with other fluids is allowed.
+
+
+.. _scripts-blendwhitelist-blacklist:
+
+blacklist
+^^^^^^^^^
+
+.. attribute:: Type
+
+   boolean
+
+Indicates whenever blending with other fluids is disallowed.
+
+
+.. _scripts-blendwhitelist-fluid:
+
+fluid
+^^^^^
+
+.. attribute:: Type
+
+   array (array of string, separator: '/')
+
+A list of fluids.
+
+
+.. _scripts-blendwhitelist-category:
+
+category
+^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+Unclear what this is for since this is usually achieved with a `categories <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/categories.html>`_ child block.
+
+
+.. _scripts-blendwhitelist-filtertype:
+
+filterType
+^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Allowed values
+
+   
+* ``whitelist``
+
+Just use `whitelist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#whitelist>`_ or `blacklist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#blacklist>`_.
+
 

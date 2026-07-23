@@ -1,26 +1,46 @@
-.. _group:
+.. _scripts-group:
 
 group
 =====
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`component-resources`
+- :ref:`component Resources <scripts-component-resources>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
 
-**Allowed ID Values:**
+This block can have an ID.
 
-- ``craft_inputs``
-- ``craft_outputs``
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
+
+.. attribute:: Allowed ID
+
+   
+* ``craft_inputs``
+* ``craft_outputs``
+
+
+Parameters
+----------
+
+This block has no parameters.
 

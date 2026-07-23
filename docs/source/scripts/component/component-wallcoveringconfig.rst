@@ -1,43 +1,58 @@
-.. _component-wallcoveringconfig:
+.. _scripts-component-wallcoveringconfig:
 
 component WallCoveringConfig
 ============================
 
+.. attribute:: Soft Override
 
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`entity`
+- :ref:`entity <scripts-entity>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _component-wallcoveringconfig-sign:
+.. _scripts-component-wallcoveringconfig-sign:
 
 sign
 ^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-wallcoveringconfig-type:
+No description provided.
+
+
+.. _scripts-component-wallcoveringconfig-type:
 
 type
 ^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
+
+No description provided.
+
 

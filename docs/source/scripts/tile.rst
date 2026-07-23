@@ -1,7 +1,11 @@
-.. _tile:
+.. _scripts-tile:
 
 tile
 ====
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Defines some tile properties of a specific tile on a tileset.
 
@@ -9,107 +13,135 @@ Defines some tile properties of a specific tile on a tileset.
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`tileset`
+- :ref:`tileset <scripts-tileset>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`box`
-- :ref:`cylinder`
-- :ref:`polygon`
-- :ref:`properties`
+- :ref:`polygon <scripts-polygon>`
+- :ref:`box <scripts-box>`
+- :ref:`cylinder <scripts-cylinder>`
+- :ref:`Properties <scripts-properties>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _tile-animation:
-
-animation
-^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _tile-animationtime:
-
-animationTime
-^^^^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _tile-isprofessiontrait:
-
-IsProfessionTrait
-^^^^^^^^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _tile-modelscript:
-
-modelScript
-^^^^^^^^^^^
-
-:Type: block (block: :ref:`model`, with :ref:`module`)
-
-No description
-
-.. _tile-rotate:
-
-rotate
-^^^^^^
-
-:Type: array (array of integer, separator: ' ')
-
-No description
-
-.. _tile-runtime:
-
-runtime
-^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _tile-scale:
-
-scale
-^^^^^
-
-:Type: array (array of float, separator: ' ')
-
-No description
-
-.. _tile-translate:
-
-translate
-^^^^^^^^^
-
-:Type: array (array of integer, separator: ' ')
-
-No description
-
-.. _tile-xy:
+.. _scripts-tile-xy:
 
 xy
 ^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 The position of the tile in the tileset.
 
 If inside a `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ file, the separator is ``x`` but when inside a `spriteModels.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-spritemodels.html>`_
+
+
+.. _scripts-tile-isprofessiontrait:
+
+IsProfessionTrait
+^^^^^^^^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-tile-runtime:
+
+runtime
+^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-tile-modelscript:
+
+modelScript
+^^^^^^^^^^^
+
+.. attribute:: Type
+
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
+
+No description provided.
+
+
+.. _scripts-tile-translate:
+
+translate
+^^^^^^^^^
+
+.. attribute:: Type
+
+   array (array of integer, separator: ' ')
+
+No description provided.
+
+
+.. _scripts-tile-rotate:
+
+rotate
+^^^^^^
+
+.. attribute:: Type
+
+   array (array of integer, separator: ' ')
+
+No description provided.
+
+
+.. _scripts-tile-scale:
+
+scale
+^^^^^
+
+.. attribute:: Type
+
+   array (array of float, separator: ' ')
+
+No description provided.
+
+
+.. _scripts-tile-animation:
+
+animation
+^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-tile-animationtime:
+
+animationTime
+^^^^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
 

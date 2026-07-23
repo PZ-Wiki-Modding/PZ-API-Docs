@@ -1,3 +1,5 @@
+.. _xml-fileguidtable:
+
 fileGuidTable
 =============
 
@@ -19,45 +21,51 @@ An example file would look like this:
      </files>
    </fileGuidTable>
 
+
 File Patterns
 -------------
 
+The following file patterns are used to determine what the valid path for the XML file can be, relative to the `media <https://pzwiki.net/wiki/Mod_structure#Media_folder>`_ folder.
+
 - ``**/media/fileGuidTable.xml``
 
-Root Element
+
+.. _fileguidtable-type_fileguidtable:
+
+Root Details
 ------------
 
-:Element: ``<fileGuidTable>``
-:Type: ``type_fileGuidTable``
+.. attribute:: Element
 
-Structure
----------
+   fileGuidTable
 
-The root element uses a **choice** composition, meaning it can contain any combination of the following elements:
+The root element is the top-level XML element that contains all other elements in the XML file.
 
-- :ref:`<> <fileGuidTable.type_fileGuidTable.>` (optional): ````
+.. attribute:: Type
 
-Root Type Details
------------------
+   :ref:`type_fileGuidTable <fileguidtable-type_fileguidtable>`
 
-.. _fileGuidTable.type_fileGuidTable:
+.. attribute:: Composition
 
-type_fileGuidTable
-------------------
-
-:Type: Complex
-:Composition: choice
+   all
 
 Elements
-~~~~~~~~
+^^^^^^^^
 
-.. _fileGuidTable.type_fileGuidTable.unknown:
+files
+"""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   :ref:`type_fileGuidTable_files <fileguidtable-type_fileguidtable_files>`
 
 Define a `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html>`_ file and GUID association.
 
@@ -80,27 +88,36 @@ You should have the following parameters:
    </files>
 
 
-Types
------
-
-.. _fileGuidTable.type_fileGuidTable_files:
+.. _fileguidtable-type_fileguidtable_files:
 
 type_fileGuidTable_files
 ------------------------
 
-:Type: Complex
-:Composition: sequence
+.. attribute:: Type
+
+   :ref:`type_fileGuidTable_files <fileguidtable-type_fileguidtable_files>`
+
+.. attribute:: Composition
+
+   all
 
 Elements
-~~~~~~~~
+^^^^^^^^
 
-.. _fileGuidTable.type_fileGuidTable_files.unknown:
+path
+""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The path to the `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html>`_ file. This path is relative to the upper folder of ``media``\ , for example for the following structure:
 
@@ -118,13 +135,21 @@ You need the following parameter:
 
    <path>media/clothing/clothingItems/MyClothingItem.xml</path>
 
-.. _fileGuidTable.type_fileGuidTable_files.unknown:
+guid
+""""
 
-unknown
-^^^^^^^
+.. attribute:: Minimum occurence
 
-:Occurrence: Optional (0 or 1)
-:Type: ``unknown``
+   1
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
 
 The `GUID <https://pzwiki.net/wiki/GUID>`_ of the clothing item. This needs to be the same as the one inside the `clothingItem <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ file for the clothing item to be recognized by the game.
+
 

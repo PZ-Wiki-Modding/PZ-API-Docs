@@ -1,7 +1,11 @@
-.. _fluid:
+.. _scripts-fluid:
 
 fluid
 =====
+
+.. attribute:: Soft Override
+
+   Unknown
 
 Create a new fluid definition. Different properties can be provided for the fluid v ia the use of different children blocks:
 
@@ -15,34 +19,44 @@ Create a new fluid definition. Different properties can be provided for the flui
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`blendblacklist`
-- :ref:`blendwhitelist`
-- :ref:`categories`
-- :ref:`poison`
-- :ref:`properties`
+- :ref:`BlendWhiteList <scripts-blendwhitelist>`
+- :ref:`Poison <scripts-poison>`
+- :ref:`Properties <scripts-properties>`
+- :ref:`Categories <scripts-categories>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _fluid-colorreference:
+.. _scripts-fluid-colorreference:
 
 ColorReference
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 A reference to a color defined in the Colors class. You can find a full list of the colors available in the `Colors <https://pz-wiki-modding.github.io/PZ-API-Docs/java/colors.html>`_ documentation.
 
@@ -56,12 +70,15 @@ For example, to use the color ``Azure`` from the documentation:
      ...
    }
 
-.. _fluid-displayname:
+
+.. _scripts-fluid-displayname:
 
 DisplayName
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 The name of the fluid that will be displayed in the game. The value corresponds to the key for the fluid's name in the `Fluids.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#fluids>`_ translation file. The translation keys for the fluid usually have the prefix ``Fluid_Name_`` but this is technically not required.
 
@@ -82,4 +99,5 @@ And in the translation file of your mod:
    {
      "Fluid_Name_YourFluid": "Your Fluid"
    }
+
 

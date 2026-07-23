@@ -1,70 +1,94 @@
-.. _component-dryingcraftlogic:
+.. _scripts-component-dryingcraftlogic:
 
 component DryingCraftLogic
 ==========================
 
+.. attribute:: Soft Override
 
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`entity`
+- :ref:`entity <scripts-entity>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
 
 
 Parameters
 ----------
 
-.. _component-dryingcraftlogic-actionanim:
-
-actionAnim
-^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _component-dryingcraftlogic-inputgroup:
-
-inputGroup
-^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _component-dryingcraftlogic-outputgroup:
-
-outputGroup
-^^^^^^^^^^^
-
-:Type: Any
-
-No description
-
-.. _component-dryingcraftlogic-recipes:
+.. _scripts-component-dryingcraftlogic-recipes:
 
 Recipes
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _component-dryingcraftlogic-startmode:
+No description provided.
+
+
+.. _scripts-component-dryingcraftlogic-startmode:
 
 StartMode
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
+
+No description provided.
+
+
+.. _scripts-component-dryingcraftlogic-inputgroup:
+
+inputGroup
+^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-component-dryingcraftlogic-outputgroup:
+
+outputGroup
+^^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
+
+.. _scripts-component-dryingcraftlogic-actionanim:
+
+actionAnim
+^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+No description provided.
+
 

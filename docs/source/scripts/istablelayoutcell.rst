@@ -1,21 +1,40 @@
-.. _istablelayoutcell:
+.. _scripts-istablelayoutcell:
 
 ISTableLayoutCell
 =================
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`xuiskin`
+- :ref:`xuiSkin <scripts-xuiskin>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   ['xuiSkin']
+
+.. attribute:: Can have spaces
+
+   False
+
+
+Parameters
+----------
+
+This block has no parameters.
 

@@ -1,7 +1,11 @@
-.. _item:
+.. _scripts-item:
 
 item
 ====
+
+.. attribute:: Soft Override
+
+   True
 
 The item block is used to create items in the game, from weapons to food and clothing. The parameters available in this block mostly depend on the type of item you are creating, set with `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
@@ -26,227 +30,253 @@ To add a name to display for your item, you need to add the item full type, that
      "yourModule.yourID": "Your Item Name"
    }
 
-This block can be soft overridden in scripts.
-
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`module`
+- :ref:`module <scripts-module>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`component`
-- :ref:`component-contextmenuconfig`
-- :ref:`component-durability`
-- :ref:`component-fluidcontainer`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+- :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
+- :ref:`component <scripts-component>`
+- :ref:`component Durability <scripts-component-durability>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
 
-.. _itemtype_specific_parameters:
+This block can have an ID.
 
-ItemType Specific Parameters
-----------------------------
+.. attribute:: Optional
 
-Specific parameters are only available for certain :ref:`item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
+   False
 
-**ItemType:** ``base:drainable``
+.. attribute:: Can have spaces
 
-Parameters:
+   False
 
-- :ref:`cantBeConsolided <item-cantbeconsolided>`
-- :ref:`ConsolidateOption <item-consolidateoption>`
-- :ref:`Spice <item-spice>`
-- :ref:`UseDelta <item-usedelta>`
 
-**ItemType:** ``base:food``
+ItemType parameters
+-------------------
 
-Parameters:
+Specific parameters are only available for certain :ref:`scripts-item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
 
-- :ref:`BadInMicrowave <item-badinmicrowave>`
-- :ref:`Calories <item-calories>`
-- :ref:`CannedFood <item-cannedfood>`
-- :ref:`Carbohydrates <item-carbohydrates>`
-- :ref:`DangerousUncooked <item-dangerousuncooked>`
-- :ref:`DaysFresh <item-daysfresh>`
-- :ref:`DaysTotallyRotten <item-daystotallyrotten>`
-- :ref:`Lipids <item-lipids>`
-- :ref:`Packaged <item-packaged>`
-- :ref:`Proteins <item-proteins>`
-- :ref:`RemoveNegativeEffectOnCooked <item-removenegativeeffectoncooked>`
-- :ref:`ReplaceOnRotten <item-replaceonrotten>`
-- :ref:`Spice <item-spice>`
+base:drainable
+^^^^^^^^^^^^^^
 
-**ItemType:** ``base:literature``
+- :ref:`cantBeConsolided <scripts-item-cantbeconsolided>`
+- :ref:`ConsolidateOption <scripts-item-consolidateoption>`
+- :ref:`Spice <scripts-item-spice>`
+- :ref:`UseDelta <scripts-item-usedelta>`
 
-Parameters:
+base:food
+^^^^^^^^^
 
-- :ref:`LearnedRecipes <item-learnedrecipes>`
-- :ref:`LvlSkillTrained <item-lvlskilltrained>`
+- :ref:`BadInMicrowave <scripts-item-badinmicrowave>`
+- :ref:`Calories <scripts-item-calories>`
+- :ref:`CannedFood <scripts-item-cannedfood>`
+- :ref:`Carbohydrates <scripts-item-carbohydrates>`
+- :ref:`DangerousUncooked <scripts-item-dangerousuncooked>`
+- :ref:`DaysFresh <scripts-item-daysfresh>`
+- :ref:`DaysTotallyRotten <scripts-item-daystotallyrotten>`
+- :ref:`Lipids <scripts-item-lipids>`
+- :ref:`Packaged <scripts-item-packaged>`
+- :ref:`Proteins <scripts-item-proteins>`
+- :ref:`RemoveNegativeEffectOnCooked <scripts-item-removenegativeeffectoncooked>`
+- :ref:`ReplaceOnRotten <scripts-item-replaceonrotten>`
+- :ref:`Spice <scripts-item-spice>`
 
-**ItemType:** ``base:normal``
+base:literature
+^^^^^^^^^^^^^^^
 
-Parameters:
+- :ref:`LearnedRecipes <scripts-item-learnedrecipes>`
+- :ref:`LvlSkillTrained <scripts-item-lvlskilltrained>`
 
-- :ref:`AmmoType <item-ammotype>`
+base:normal
+^^^^^^^^^^^
 
-**ItemType:** ``base:radio``
+- :ref:`AmmoType <scripts-item-ammotype>`
 
-Parameters:
+base:radio
+^^^^^^^^^^
 
-- :ref:`UseDelta <item-usedelta>`
+- :ref:`UseDelta <scripts-item-usedelta>`
 
-**ItemType:** ``base:weapon``
+base:weapon
+^^^^^^^^^^^
 
-Parameters:
+- :ref:`AimingPerkMinAngleModifier <scripts-item-aimingperkminanglemodifier>`
+- :ref:`AimingPerkRangeModifier <scripts-item-aimingperkrangemodifier>`
+- :ref:`Aimingtime <scripts-item-aimingtime>`
+- :ref:`AmmoBox <scripts-item-ammobox>`
+- :ref:`AmmoType <scripts-item-ammotype>`
+- :ref:`ClickSound <scripts-item-clicksound>`
+- :ref:`CriticalChance <scripts-item-criticalchance>`
+- :ref:`CyclicRateMultiplier <scripts-item-cyclicratemultiplier>`
+- :ref:`EnduranceMod <scripts-item-endurancemod>`
+- :ref:`ExplosionDuration <scripts-item-explosionduration>`
+- :ref:`ExplosionPower <scripts-item-explosionpower>`
+- :ref:`ExplosionRange <scripts-item-explosionrange>`
+- :ref:`FireMode <scripts-item-firemode>`
+- :ref:`FireModePossibilities <scripts-item-firemodepossibilities>`
+- :ref:`FireRange <scripts-item-firerange>`
+- :ref:`FireStartingChance <scripts-item-firestartingchance>`
+- :ref:`FireStartingEnergy <scripts-item-firestartingenergy>`
+- :ref:`HitChance <scripts-item-hitchance>`
+- :ref:`HitFloorSound <scripts-item-hitfloorsound>`
+- :ref:`HitSound <scripts-item-hitsound>`
+- :ref:`ImpactSound <scripts-item-impactsound>`
+- :ref:`IsAimedFirearm <scripts-item-isaimedfirearm>`
+- :ref:`IsAimedHandWeapon <scripts-item-isaimedhandweapon>`
+- :ref:`JamGunChance <scripts-item-jamgunchance>`
+- :ref:`MagazineType <scripts-item-magazinetype>`
+- :ref:`MaxHitcount <scripts-item-maxhitcount>`
+- :ref:`MaxSightRange <scripts-item-maxsightrange>`
+- :ref:`MinAngle <scripts-item-minangle>`
+- :ref:`MinSightRange <scripts-item-minsightrange>`
+- :ref:`PhysicsObject <scripts-item-physicsobject>`
+- :ref:`PiercingBullets <scripts-item-piercingbullets>`
+- :ref:`Projectilecount <scripts-item-projectilecount>`
+- :ref:`PushBackMod <scripts-item-pushbackmod>`
+- :ref:`Ranged <scripts-item-ranged>`
+- :ref:`RangeFalloff <scripts-item-rangefalloff>`
+- :ref:`RecoilDelay <scripts-item-recoildelay>`
+- :ref:`ShellFallSound <scripts-item-shellfallsound>`
+- :ref:`StopPower <scripts-item-stoppower>`
+- :ref:`SwingSound <scripts-item-swingsound>`
+- :ref:`TwoHandWeapon <scripts-item-twohandweapon>`
+- :ref:`UseDelta <scripts-item-usedelta>`
+- :ref:`UseEndurance <scripts-item-useendurance>`
+- :ref:`WeaponReloadType <scripts-item-weaponreloadtype>`
 
-- :ref:`AimingPerkMinAngleModifier <item-aimingperkminanglemodifier>`
-- :ref:`AimingPerkRangeModifier <item-aimingperkrangemodifier>`
-- :ref:`Aimingtime <item-aimingtime>`
-- :ref:`AmmoBox <item-ammobox>`
-- :ref:`AmmoType <item-ammotype>`
-- :ref:`ClickSound <item-clicksound>`
-- :ref:`CriticalChance <item-criticalchance>`
-- :ref:`CyclicRateMultiplier <item-cyclicratemultiplier>`
-- :ref:`EnduranceMod <item-endurancemod>`
-- :ref:`ExplosionDuration <item-explosionduration>`
-- :ref:`ExplosionPower <item-explosionpower>`
-- :ref:`ExplosionRange <item-explosionrange>`
-- :ref:`FireMode <item-firemode>`
-- :ref:`FireModePossibilities <item-firemodepossibilities>`
-- :ref:`FireRange <item-firerange>`
-- :ref:`FireStartingChance <item-firestartingchance>`
-- :ref:`FireStartingEnergy <item-firestartingenergy>`
-- :ref:`HitChance <item-hitchance>`
-- :ref:`HitFloorSound <item-hitfloorsound>`
-- :ref:`HitSound <item-hitsound>`
-- :ref:`ImpactSound <item-impactsound>`
-- :ref:`IsAimedFirearm <item-isaimedfirearm>`
-- :ref:`IsAimedHandWeapon <item-isaimedhandweapon>`
-- :ref:`JamGunChance <item-jamgunchance>`
-- :ref:`MagazineType <item-magazinetype>`
-- :ref:`MaxHitcount <item-maxhitcount>`
-- :ref:`MaxSightRange <item-maxsightrange>`
-- :ref:`MinAngle <item-minangle>`
-- :ref:`MinSightRange <item-minsightrange>`
-- :ref:`PhysicsObject <item-physicsobject>`
-- :ref:`PiercingBullets <item-piercingbullets>`
-- :ref:`Projectilecount <item-projectilecount>`
-- :ref:`PushBackMod <item-pushbackmod>`
-- :ref:`Ranged <item-ranged>`
-- :ref:`RangeFalloff <item-rangefalloff>`
-- :ref:`RecoilDelay <item-recoildelay>`
-- :ref:`ShellFallSound <item-shellfallsound>`
-- :ref:`StopPower <item-stoppower>`
-- :ref:`SwingSound <item-swingsound>`
-- :ref:`TwoHandWeapon <item-twohandweapon>`
-- :ref:`UseDelta <item-usedelta>`
-- :ref:`UseEndurance <item-useendurance>`
-- :ref:`WeaponReloadType <item-weaponreloadtype>`
+base:weaponpart
+^^^^^^^^^^^^^^^
 
-**ItemType:** ``base:weaponpart``
+- :ref:`AimingTimeModifier <scripts-item-aimingtimemodifier>`
+- :ref:`HitChanceModifier <scripts-item-hitchancemodifier>`
+- :ref:`MaxRangeModifier <scripts-item-maxrangemodifier>`
+- :ref:`MaxSightRange <scripts-item-maxsightrange>`
+- :ref:`MinSightRange <scripts-item-minsightrange>`
+- :ref:`RecoilDelayModifier <scripts-item-recoildelaymodifier>`
 
-Parameters:
-
-- :ref:`AimingTimeModifier <item-aimingtimemodifier>`
-- :ref:`HitChanceModifier <item-hitchancemodifier>`
-- :ref:`MaxRangeModifier <item-maxrangemodifier>`
-- :ref:`MaxSightRange <item-maxsightrange>`
-- :ref:`MinSightRange <item-minsightrange>`
-- :ref:`RecoilDelayModifier <item-recoildelaymodifier>`
 
 
 Parameters
 ----------
 
-.. _item-acceptitemfunction:
+.. _scripts-item-acceptitemfunction:
 
 AcceptItemFunction
 ^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   callback
 
-.. _item-acceptmediatype:
+No description provided.
+
+
+.. _scripts-item-acceptmediatype:
 
 AcceptMediaType
 ^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-activateditem:
+.. attribute:: Default
+
+   ``-1``
+
+No description provided.
+
+
+.. _scripts-item-activateditem:
 
 ActivatedItem
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-aimingmod:
+No description provided.
+
+
+.. _scripts-item-aimingmod:
 
 AimingMod
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-aimingperkcritmodifier:
+No description provided.
+
+
+.. _scripts-item-aimingperkcritmodifier:
 
 AimingPerkCritModifier
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
 
-See :ref:`item-criticalchance` for more details.
+   integer
 
-.. _item-aimingperkhitchancemodifier:
+See parameter :ref:`CriticalChance <scripts-item-criticalchance>`.
+
+
+.. _scripts-item-aimingperkhitchancemodifier:
 
 AimingPerkHitChanceModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
 
-See :ref:`item-hitchance` for more details.
+   float
 
-.. _item-aimingperkminanglemodifier:
+See parameter :ref:`HitChance <scripts-item-hitchance>`.
+
+
+.. _scripts-item-aimingperkminanglemodifier:
 
 AimingPerkMinAngleModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-See :ref:`item-minangle` for more details.
+   float
 
-.. _item-aimingperkrangemodifier:
+See parameter :ref:`MinAngle <scripts-item-minangle>`.
+
+
+.. _scripts-item-aimingperkrangemodifier:
 
 AimingPerkRangeModifier
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-See :ref:`item-maxrange` for more details.
+   float
 
-.. _item-aimingtime:
+See parameter :ref:`MaxRange <scripts-item-maxrange>`.
+
+
+.. _scripts-item-aimingtime:
 
 Aimingtime
 ^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   integer
 
 `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtime>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtimemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. The attachments directly add or subtract their `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingtimemodifier>`_ to the aiming delay.
 
@@ -274,88 +304,115 @@ On each shots or equip, the aiming delay will be increased or reduced, being imp
            * (Dextrous ? 0.8 : AllThumbs ? 1.2 : 1.0)
            * (in vehicle ? 1.5 : 1.0)
 
-.. _item-aimingtimemodifier:
+
+.. _scripts-item-aimingtimemodifier:
 
 AimingTimeModifier
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-See :ref:`item-aimingtime` for more details.
+   integer
 
-.. _item-aimreleasesound:
+See parameter :ref:`AimingTime <scripts-item-aimingtime>`.
+
+
+.. _scripts-item-aimreleasesound:
 
 AimReleaseSound
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-alarmsound:
+No description provided.
+
+
+.. _scripts-item-alarmsound:
 
 AlarmSound
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-alcoholic:
+No description provided.
+
+
+.. _scripts-item-alcoholic:
 
 Alcoholic
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-alcoholpower:
+No description provided.
+
+
+.. _scripts-item-alcoholpower:
 
 AlcoholPower
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-alwaysknockdown:
+No description provided.
+
+
+.. _scripts-item-alwaysknockdown:
 
 AlwaysKnockdown
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-alwayswelcomegift:
+No description provided.
+
+
+.. _scripts-item-alwayswelcomegift:
 
 AlwaysWelcomeGift
 ^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Attributes: Useless
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-ammobox:
+.. attribute:: Is useless
+
+   True
+
+No description provided.
+
+
+.. _scripts-item-ammobox:
 
 AmmoBox
 ^^^^^^^
 
-:Type: string (block: :ref:`item`, with :ref:`module`)
-:Needs: ``ItemType`` = ``base:weapon``; ``IsAimedFirearm`` = ``True``
+.. attribute:: Type
 
-No description
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-.. _item-ammotype:
+No description provided.
+
+
+.. _scripts-item-ammotype:
 
 AmmoType
 ^^^^^^^^
 
-:Type: string
-:Needs: ``ItemType`` = ``base:weapon``, ``base:normal``
+.. attribute:: Type
+
+   string
 
 `AmmoType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-ammotype>`_ indicates what ammo is consumed when shooting, but it also determines tracer and hit-reaction sound lookups. The value needs to reference the `registries <https://pzwiki.net/wiki/Registries>`_ entry of the ammo you want to use. The vanilla ammunition types which are available by default are:
 
@@ -375,7 +432,7 @@ AmmoType
 
 `MagazineType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-magazinetype>`_ is used to set the magazine item the gun uses. If not provided, then the gun doesn't use a magazine item and loads rounds individually. `MaxAmmo <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxammo>`_ is used to set the capacity of either the magazine item or the gun.
 
-`WeaponReloadType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weaponreloadtype>`_ is used to select the reload workflow of the gun. Notably affects rack-after-shot, insertion style and animations. The provided value references the `variable condition <https://pzwiki.net/wiki/Conditions>`_ ``WeaponReloadType`` in `AnimNodes <https://pzwiki.net/wiki/AnimNodes>`_. The game has the following values available by default:
+`WeaponReloadType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weaponreloadtype>`_ is used to select the reload workflow of the gun. Notably affects rack-after-shot, insertion style and animations. The provided value references the `variable condition <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/animNode.html#m-conditions>`_ ``WeaponReloadType`` in `AnimNodes <https://pzwiki.net/wiki/AnimNodes>`_. The game has the following values available by default:
 
 
 * ``handgun``
@@ -388,233 +445,302 @@ AmmoType
 
 A custom ``WeaponReloadType`` can be used if the relevant animations and condition logic are properly set up in a custom `AnimNode <https://pzwiki.net/wiki/AnimNodes>`_.
 
-.. _item-anglefalloff:
+
+.. _scripts-item-anglefalloff:
 
 AngleFalloff
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-animalfeedtype:
+No description provided.
+
+
+.. _scripts-item-animalfeedtype:
 
 AnimalFeedType
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-attachmentreplacement:
+No description provided.
+
+
+.. _scripts-item-attachmentreplacement:
 
 AttachmentReplacement
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-attachmentsprovided:
+No description provided.
+
+
+.. _scripts-item-attachmentsprovided:
 
 AttachmentsProvided
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-attachmenttype:
+No description provided.
+
+
+.. _scripts-item-attachmenttype:
 
 AttachmentType
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-badcold:
+No description provided.
+
+
+.. _scripts-item-badcold:
 
 BadCold
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-badinmicrowave:
+
+
+
+.. _scripts-item-badinmicrowave:
 
 BadInMicrowave
 ^^^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-bandagepower:
+No description provided.
+
+
+.. _scripts-item-bandagepower:
 
 BandagePower
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-basespeed:
+No description provided.
+
+
+.. _scripts-item-basespeed:
 
 BaseSpeed
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-basevolumerange:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-basevolumerange:
 
 BaseVolumeRange
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-bitedefense:
+No description provided.
+
+
+.. _scripts-item-bitedefense:
 
 BiteDefense
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-bloodlocation:
+No description provided.
+
+
+.. _scripts-item-bloodlocation:
 
 BloodLocation
 ^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
 
-No description
+   array (array of string, separator: ';')
 
-Allowed values:
+.. attribute:: Allowed values
 
-    - ``Apron``
-    - ``ShirtNoSleeves``
-    - ``JumperNoSleeves``
-    - ``Shirt``
-    - ``ShirtLongSleeves``
-    - ``Jumper``
-    - ``Jacket``
-    - ``LongJacket``
-    - ``ShortsShort``
-    - ``Trousers``
-    - ``Shoes``
-    - ``FullHelmet``
-    - ``Bag``
-    - ``Hands``
-    - ``Head``
-    - ``Neck``
-    - ``Groin``
-    - ``UpperBody``
-    - ``LowerBody``
-    - ``LowerLegs``
-    - ``UpperLegs``
-    - ``LowerArms``
-    - ``UpperArms``
-    - ``Hand_L``
-    - ``Hand_R``
-    - ``ForeArm_L``
-    - ``ForeArm_R``
-    - ``UpperArm_L``
-    - ``UpperArm_R``
-    - ``UpperLeg_L``
-    - ``UpperLeg_R``
-    - ``LowerLeg_L``
-    - ``LowerLeg_R``
-    - ``Foot_L``
-    - ``Foot_R``
+   
+* ``Apron``
+* ``ShirtNoSleeves``
+* ``JumperNoSleeves``
+* ``Shirt``
+* ``ShirtLongSleeves``
+* ``Jumper``
+* ``Jacket``
+* ``LongJacket``
+* ``ShortsShort``
+* ``Trousers``
+* ``Shoes``
+* ``FullHelmet``
+* ``Bag``
+* ``Hands``
+* ``Head``
+* ``Neck``
+* ``Groin``
+* ``UpperBody``
+* ``LowerBody``
+* ``LowerLegs``
+* ``UpperLegs``
+* ``LowerArms``
+* ``UpperArms``
+* ``Hand_L``
+* ``Hand_R``
+* ``ForeArm_L``
+* ``ForeArm_R``
+* ``UpperArm_L``
+* ``UpperArm_R``
+* ``UpperLeg_L``
+* ``UpperLeg_R``
+* ``LowerLeg_L``
+* ``LowerLeg_R``
+* ``Foot_L``
+* ``Foot_R``
 
-.. _item-bodylocation:
+No description provided.
+
+
+.. _scripts-item-bodylocation:
 
 BodyLocation
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 Used to define which location on the human character this clothing item can be worn. Needs to be a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_body_locations.html>`_ value. You can also create new ones via `registries <https://pzwiki.net/wiki/Registries>`_.
 
-.. _item-book_subject:
+
+.. _scripts-item-book_subject:
 
 book_subject
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   array (array of string, separator: ';')
 
-.. _item-boredomchange:
+Add a subject to the litterature item. The value needs to be an array of `BookSubject <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/BookSubject.html>`_ values.
+
+`book_subject <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-book-subject>`_ is for books while `magazine_subject <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-magazine-subject>`_ is for magazines.
+
+This is notably used to pick a random book or magazine when spawning a book.
+
+
+.. _scripts-item-boredomchange:
 
 BoredomChange
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-brakeforce:
+See parameter :ref:`HungerChange <scripts-item-hungerchange>`.
+
+
+.. _scripts-item-brakeforce:
 
 brakeForce
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-breaksound:
+No description provided.
+
+
+.. _scripts-item-breaksound:
 
 BreakSound
 ^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-bringtobearsound:
+No description provided.
+
+
+.. _scripts-item-bringtobearsound:
 
 BringToBearSound
 ^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-bulletdefense:
+No description provided.
+
+
+.. _scripts-item-bulletdefense:
 
 BulletDefense
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-bullethitarmoursound:
+No description provided.
+
+
+.. _scripts-item-bullethitarmoursound:
 
 BulletHitArmourSound
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-calories:
+No description provided.
+
+
+.. _scripts-item-calories:
 
 Calories
 ^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
+
+   float
 
 The following stats are directly linked to the player's `nutrition <https://pzwiki.net/wiki/Nutrition>`_\ , which are hidden stats that will impact the player's weight gains and more (positive values will increase the stat when eaten):
 
@@ -624,363 +750,495 @@ The following stats are directly linked to the player's `nutrition <https://pzwi
 * `Lipids <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lipids>`_
 * `Proteins <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-proteins>`_
 
-.. _item-canattach:
+
+.. _scripts-item-canattach:
 
 CanAttach
 ^^^^^^^^^
 
-:Type: string
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
+
+   callback
 
 `CanAttach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-canattach>`_ and `CanDetach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-candetach>`_ are used to define whenever a `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ can be respectively attached or detached to and from a `HandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
 `OnAttach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-onattach>`_ and `OnDetach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-ondetach>`_ are used to define a callback function which will be called when the weapon part is attached or detached from the weapon.
 
-.. _item-canbandage:
+
+.. _scripts-item-canbandage:
 
 CanBandage
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-canbarricade:
+No description provided.
+
+
+.. _scripts-item-canbarricade:
 
 CanBarricade
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-canbeequipped:
+No description provided.
+
+
+.. _scripts-item-canbeequipped:
 
 CanBeEquipped
 ^^^^^^^^^^^^^
 
-:Type: Any
-:Needs: ``ItemType`` = ``base:container``, ``base:radio``
+.. attribute:: Type
+
+   Unknown
 
 Needs to reference a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-bodylocation>`_ value which will serve as the equipment location.
 
-.. _item-canbeplaced:
+
+.. _scripts-item-canbeplaced:
 
 CanBePlaced
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-canberemote:
+No description provided.
+
+
+.. _scripts-item-canberemote:
 
 CanBeRemote
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-canbereused:
+No description provided.
+
+
+.. _scripts-item-canbereused:
 
 CanBeReused
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-canbewrite:
+No description provided.
+
+
+.. _scripts-item-canbewrite:
 
 CanBeWrite
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-candetach:
+No description provided.
+
+
+.. _scripts-item-candetach:
 
 CanDetach
 ^^^^^^^^^
 
-:Type: string
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-See :ref:`item-canattach` for more details.
+   callback
 
-.. _item-canhaveholes:
+See parameter :ref:`CanAttach <scripts-item-canattach>`.
+
+
+.. _scripts-item-canhaveholes:
 
 CanHaveHoles
 ^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 Used to define whenever this item can get holes in it.
 
-.. _item-cannedfood:
+
+.. _scripts-item-cannedfood:
 
 CannedFood
 ^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
+
+   boolean
 
 `CannedFood <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-cannedfood>`_ will mark the item as a canned food which will impact how it is spawned in the world. It will also impact the type of item where instead of being "Food" it will be "CannedFood".
 
-.. _item-canstack:
+
+.. _scripts-item-canstack:
 
 CanStack
 ^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-canstorewater:
+No description provided.
+
+
+.. _scripts-item-canstorewater:
 
 CanStoreWater
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-cantattackwithlowestendurance:
+No description provided.
+
+
+.. _scripts-item-cantattackwithlowestendurance:
 
 CantAttackWithLowestEndurance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-cantbeconsolided:
+No description provided.
+
+
+.. _scripts-item-cantbeconsolided:
 
 cantBeConsolided
 ^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:drainable``
+.. attribute:: Type
 
-See :ref:`item-consolidateoption` for more details.
+   boolean
 
-.. _item-cantbefrozen:
+See parameter :ref:`ConsolidateOption <scripts-item-consolidateoption>`.
+
+
+.. _scripts-item-cantbefrozen:
 
 CantBeFrozen
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-canteat:
+No description provided.
+
+
+.. _scripts-item-canteat:
 
 CantEat
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-capacity:
+No description provided.
+
+
+.. _scripts-item-capacity:
 
 Capacity
 ^^^^^^^^
 
-:Type: integer
-:Range: Max: 50
-:Default: ``-1``
-:Needs: ``ItemType`` = ``base:container``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``-1``
+
+.. attribute:: Maximum
+
+   ``50``
 
 Sets the capacity of the container. This value is limited to a maximum of 50 minus its own `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_. The weight of the bag will follow the formula ``equippedWeight = weight * EquippedOrWornEncumbranceMultiplier + contentWeight * (1.0 - weightReduction / 100)``.
 
-.. _item-carbohydrates:
+
+.. _scripts-item-carbohydrates:
 
 Carbohydrates
 ^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-See :ref:`item-calories` for more details.
+   float
 
-.. _item-categories:
+See parameter :ref:`Calories <scripts-item-calories>`.
+
+
+.. _scripts-item-categories:
 
 Categories
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-chancetofall:
+No description provided.
+
+
+.. _scripts-item-chancetofall:
 
 ChanceToFall
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-chancetospawndamaged:
+No description provided.
+
+
+.. _scripts-item-chancetospawndamaged:
 
 ChanceToSpawnDamaged
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-clicksound:
+No description provided.
+
+
+.. _scripts-item-clicksound:
 
 ClickSound
 ^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
-:Default: ``Stormy9mmClick``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-clipsize:
+.. attribute:: Default
+
+   ``Stormy9mmClick``
+
+No description provided.
+
+
+.. _scripts-item-clipsize:
 
 ClipSize
 ^^^^^^^^
 
-:Type: integer
-:Attributes: Useless
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-clipsizemodifier:
+.. attribute:: Is useless
+
+   True
+
+No description provided.
+
+
+.. _scripts-item-clipsizemodifier:
 
 ClipSizeModifier
 ^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Attributes: Useless
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-closekillmove:
+.. attribute:: Is useless
+
+   True
+
+No description provided.
+
+
+.. _scripts-item-closekillmove:
 
 CloseKillMove
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 Used to whenever this weapon can be used to do a close kill move, like knives to assassinate in the back.
 
-.. _item-closesound:
+
+.. _scripts-item-closesound:
 
 CloseSound
 ^^^^^^^^^^
 
-:Type: block (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-clothingextrasubmenu:
+No description provided.
+
+
+.. _scripts-item-clothingextrasubmenu:
 
 ClothingExtraSubmenu
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`item-clothingitem` for more details.
+   Unknown
 
-.. _item-clothingitem:
+See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
+
+
+.. _scripts-item-clothingitem:
 
 ClothingItem
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 ``ClothingItem`` references the clothing defined inside the `clothing.xml <https://pzwiki.net/wiki/Clothing.xml>`_ file. ``ClothingExtraSubmenu`` will define the name of the context menu option to equip the clothing item.
 
 ``ClothingItemExtra`` and ``ClothingItemExtraOption`` are used to define additional clothing equip options, they reference another item script block.
 
-.. _item-clothingitemextra:
+
+.. _scripts-item-clothingitemextra:
 
 ClothingItemExtra
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
-:Needs: ``ClothingItemExtraOption``
+.. attribute:: Type
 
-See :ref:`item-clothingitem` for more details.
+   Unknown
 
-.. _item-clothingitemextraoption:
+See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
+
+
+.. _scripts-item-clothingitemextraoption:
 
 ClothingItemExtraOption
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
-:Needs: ``ClothingItemExtra``
+.. attribute:: Type
 
-See :ref:`item-clothingitem` for more details.
+   Unknown
 
-.. _item-colorblue:
+See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
+
+
+.. _scripts-item-colorblue:
 
 ColorBlue
 ^^^^^^^^^
 
-:Type: integer
-:Default: ``255``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-colorgreen:
+.. attribute:: Default
+
+   ``255``
+
+No description provided.
+
+
+.. _scripts-item-colorgreen:
 
 ColorGreen
 ^^^^^^^^^^
 
-:Type: integer
-:Default: ``255``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-colorred:
+.. attribute:: Default
+
+   ``255``
+
+No description provided.
+
+
+.. _scripts-item-colorred:
 
 ColorRed
 ^^^^^^^^
 
-:Type: integer
-:Default: ``255``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-combatspeedmodifier:
+.. attribute:: Default
+
+   ``255``
+
+No description provided.
+
+
+.. _scripts-item-combatspeedmodifier:
 
 CombatSpeedModifier
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-conditionaffectscapacity:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-conditionaffectscapacity:
 
 ConditionAffectsCapacity
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
+
+   Unknown
 
 Set whenever condition of the item can impact the capacity value of the container.
 
-.. _item-conditionlowerchanceonein:
+
+.. _scripts-item-conditionlowerchanceonein:
 
 ConditionLowerChanceOneIn
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``10``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``10``
 
 `ConditionLowerChanceOneIn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-conditionlowerchanceonein>`_ impacts the durability of the item, reducing the value
 used to calculate the chance by doing ``chance = 1/ConditionLowerChanceOneIn``\ ,
@@ -989,90 +1247,125 @@ item.
 
 `ConditionMax <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-conditionmax>`_ sets the total durability pool, starting condition and repair ceiling. Make these two parameters high for robust military rifles, and low for a cheap civilian gun.
 
-.. _item-conditionloweroffroad:
+
+.. _scripts-item-conditionloweroffroad:
 
 ConditionLowerOffroad
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-conditionlowerstandard:
+No description provided.
+
+
+.. _scripts-item-conditionlowerstandard:
 
 ConditionLowerStandard
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-conditionmax:
+No description provided.
+
+
+.. _scripts-item-conditionmax:
 
 ConditionMax
 ^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``10``
+.. attribute:: Type
 
-See :ref:`item-conditionlowerchanceonein` for more details.
+   integer
 
-.. _item-consolidateoption:
+.. attribute:: Default
+
+   ``10``
+
+See parameter :ref:`ConditionLowerChanceOneIn <scripts-item-conditionlowerchanceonein>`.
+
+
+.. _scripts-item-consolidateoption:
 
 ConsolidateOption
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
-:Needs: ``ItemType`` = ``base:drainable``; ``cantBeConsolided`` = ``False``
+.. attribute:: Type
+
+   Unknown
 
 By setting `cantBeConsolided <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-cantbeconsolided>`_ to ``false`` and providing a `ConsolidateOption <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-consolidateoption>`_ value, the item can be marked to merge its uses with other items of the same type in the inventory. This requires the item to be `Drainable type <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_.
 
 The ConsolidateOption value needs to be a translation key which will be passed through `getText <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Translator.html#getText(java.lang.String>`_\ ) to retrieve the translation value. The vanilla drainables (duct tape, wires, matches...) use the translation key ``ContextMenu_Merge`` which outputs a text 'Add to'.
 
-.. _item-cookingsound:
+
+.. _scripts-item-cookingsound:
 
 CookingSound
 ^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
+
+   block (block: :ref:`sound <scripts-sound>`)
 
 Custom sound to play when cooking this item.
 
-.. _item-corpsesicknessdefense:
+
+.. _scripts-item-corpsesicknessdefense:
 
 CorpseSicknessDefense
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-cosmetic:
+No description provided.
+
+
+.. _scripts-item-cosmetic:
 
 Cosmetic
 ^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-count:
+No description provided.
+
+
+.. _scripts-item-count:
 
 Count
 ^^^^^
 
-:Type: integer
-:Default: ``1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1``
 
 The parameter is unused in the game scripts, unclear what it is used for.
 
-.. _item-critdmgmultiplier:
+
+.. _scripts-item-critdmgmultiplier:
 
 CritDmgMultiplier
 ^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``2.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``2.0``
 
 Multiplier applied to the damage of a hit if it is a critical hit, applied inside `IsoGameCharacter.Hit() <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/characters/IsoGameCharacter.html#Hit(zombie.inventory.types.HandWeapon,zombie.characters.IsoGameCharacter,float,boolean,float,boolean>`_\ ). Two types of crits can trigger:
 
@@ -1082,14 +1375,19 @@ Multiplier applied to the damage of a hit if it is a critical hit, applied insid
 
 The default value of the ``HandWeapon`` class is ``2.0``. Values of ``3.0`` to ``5.0`` visibly spike crit damage while values above ``5.0`` also start boosting stomps.
 
-.. _item-criticalchance:
+
+.. _scripts-item-criticalchance:
 
 CriticalChance
 ^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``20.0``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``20.0``
 
 `CriticalChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-criticalchance>`_ sets the base critical hit chance of the weapon. The final ``CriticalChance`` value after all applied bonuses and penalties have been applied is compared on a 0-100 roll.
 
@@ -1136,34 +1434,51 @@ For PvP targets, the entire formula is bypassed and `StopPower <https://pz-wiki-
 
 ``CriticalChance`` sets the floor for unskilled players while ``AimingPerkCritModifier`` rewards more or less the character ability to aim. High modified and low base chance means the weapon is a skill-gated crit machine, making the weapon a sort of "experts" weapon.
 
-.. _item-customcontextmenu:
+
+.. _scripts-item-customcontextmenu:
 
 CustomContextMenu
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-customeatsound:
+No description provided.
+
+
+.. _scripts-item-customeatsound:
 
 CustomEatSound
 ^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`sound`)
-:Attributes: Can be empty
+.. attribute:: Type
+
+   block (block: :ref:`sound <scripts-sound>`)
+
+.. attribute:: Can be empty
+
+   True
 
 Custom sound to play when eating or drinking this item. Set to an empty string to disable any sound from playing.
 
-.. _item-cyclicratemultiplier:
+
+.. _scripts-item-cyclicratemultiplier:
 
 CyclicRateMultiplier
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Range: Min: 0.0
-:Default: ``1.0``
-:Needs: ``ItemType`` = ``base:weapon``; ``IsAimedFirearm`` = ``True``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
+
+.. attribute:: Minimum
+
+   ``0.0``
 
 Only in ``Auto`` `fire mode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemode>`_. Drives the full-auto animation cycle rate via the ``autoShootSpeed`` `animation variable <https://pzwiki.net/wiki/Conditions>`_.
 
@@ -1171,137 +1486,169 @@ A higher value means more shots per second. In ``Single`` mode this field is ign
 
 Increase for SMG feel and decrease for heavy LMG feel.
 
-.. _item-damagecategory:
+
+.. _scripts-item-damagecategory:
 
 DamageCategory
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-damagemakehole:
+No description provided.
+
+
+.. _scripts-item-damagemakehole:
 
 DamageMakeHole
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-damagemodifier:
+No description provided.
 
-DamageModifier
-^^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weaponpart``
-
-See :ref:`item-maxdamage` for more details.
-
-.. _item-dangerousuncooked:
+.. _scripts-item-dangerousuncooked:
 
 DangerousUncooked
 ^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
+
+   boolean
 
 If true, the item will cause food poisoning when eaten raw. Used for example for raw meat. The `iron gut <https://pzwiki.net/wiki/Iron_Gut>`_ trait will stop you from getting sick from eating a raw food with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-tags>`_ ``Egg``. The severity of the food poisoning is not impacted by traits or other criteria, only by the quantity of food you eat.
 
-.. _item-daysfresh:
+
+.. _scripts-item-daysfresh:
 
 DaysFresh
 ^^^^^^^^^
 
-:Type: integer
-:Default: ``1000000000``
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1000000000``
 
 `DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daysfresh>`_ sets how many days this food item will stay fresh with default sandbox settings. `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-daystotallyrotten>`_ sets how many days this food item will take to rot.
 
 `Icon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-icon>`_ provides the ability to set a different icon for the rotten and stale version of the food.
 
-.. _item-daystotallyrotten:
+
+.. _scripts-item-daystotallyrotten:
 
 DaysTotallyRotten
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``1000000000``
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-See :ref:`item-daysfresh` for more details.
+   integer
 
-.. _item-digitalpadlock:
+.. attribute:: Default
+
+   ``1000000000``
+
+See parameter :ref:`DaysFresh <scripts-item-daysfresh>`.
+
+
+.. _scripts-item-digitalpadlock:
 
 DigitalPadlock
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-digtype:
+Looks unused by the game.
+
+
+.. _scripts-item-digtype:
 
 DigType
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-disappearonuse:
+No description provided.
+
+
+.. _scripts-item-disappearonuse:
 
 DisappearOnUse
 ^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-discomfortmodifier:
+.. attribute:: Default
+
+   ``True``
+
+No description provided.
+
+
+.. _scripts-item-discomfortmodifier:
 
 DiscomfortModifier
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-displaycategory:
+No description provided.
+
+
+.. _scripts-item-displaycategory:
 
 DisplayCategory
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-displayname:
+No description provided.
 
-DisplayName
-^^^^^^^^^^^
 
-:Type: Any
+.. _scripts-item-damagemodifier:
 
-Sets the name of the item which will be displayed in-game. It's recommended to use a translation entry for this parameter to allow localization of the item name.
+DamageModifier
+^^^^^^^^^^^^^^
 
-.. warning::
+.. attribute:: Type
 
-   **Deprecated** (since version 42.13.0)
+   float
 
-   Naming an item should be done with a translation entry. See the `wiki <https://pzwiki.net/wiki/DisplayName>`_ page for more information.
+See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
 
-.. _item-doordamage:
+
+.. _scripts-item-doordamage:
 
 DoorDamage
 ^^^^^^^^^^
 
-:Type: integer
-:Range: Min: 1
-:Default: ``1``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1``
+
+.. attribute:: Minimum
+
+   ``1``
 
 Damage dealt to doors, windows, barricades and some vehicle/object hits. The damage to doors cannot go lower than 1, even in the formulas it is clamped to a minimum of 1. The formula used to retrieve the damage to doors is:
 
@@ -1311,132 +1658,198 @@ Damage dealt to doors, windows, barricades and some vehicle/object hits. The dam
 
 More parameters will impact the door damage based on where it is used.
 
-.. _item-doorhitsound:
+
+.. _scripts-item-doorhitsound:
 
 DoorHitSound
 ^^^^^^^^^^^^
 
-:Type: string
-:Default: ``BaseballBatHit``
+.. attribute:: Type
 
-No description
+   string
 
-.. _item-doubleclickrecipe:
+.. attribute:: Default
+
+   ``BaseballBatHit``
+
+No description provided.
+
+
+.. _scripts-item-doubleclickrecipe:
 
 DoubleClickRecipe
 ^^^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`craftRecipe`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`craftRecipe <scripts-craftrecipe>`, with :ref:`scripts-module`)
 
-.. _item-dropsound:
+No description provided.
+
+
+.. _scripts-item-dropsound:
 
 DropSound
 ^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-eattime:
+No description provided.
+
+
+.. _scripts-item-eattime:
 
 Eattime
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-eattype:
+No description provided.
+
+
+.. _scripts-item-eattype:
 
 EatType
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   string
 
-.. _item-ejectammosound:
+Used mostly on the Lua side and in `AnimNodes <https://pzwiki.net/wiki/AnimNode>`_ as a `condition <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/animNode.html#m-conditions>`_ to mark what animation to use when eating this item. Based on the type of item, this is directly applied to the ``FoodType`` animation condition.
+
+Here's a small summary of some special conditions:
+
+
+* ``Pot`` and ``PotForged`` are applied directly, and will force the item to be held in the right hand and removing other items from the left hand, meant for a pot held with two hands.
+* ``popcan`` forces drinking `timed action <https://pzwiki.net/wiki/Timed_Action_(Lua>`_\ ) ``maxTime`` to a flat ``160``.
+* ``Candrink`` will make the player uses an item with the  spoon or `fork <https://pzwiki.net/wiki/Fork#Eating>`_ tag in their inventory. A "scraping" sound will also be played when using an utensil and 70% of the eating action is passed.
+* ``Plate`` can also use a fork or spoon.
+* ``2handbowl`` will use only spoons in the player inventory.
+
+There also exists more generic ones:
+
+
+* ``2hand``
+* ``plate`` (different than ``Plate``\ )
+* ``EatSmall``
+* ``EatBox``
+
+You can use any custom value which will be passed to the ``FoodType`` condition.
+
+
+.. _scripts-item-ejectammosound:
 
 EjectAmmoSound
 ^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-ejectammostartsound:
+No description provided.
+
+
+.. _scripts-item-ejectammostartsound:
 
 EjectAmmoStartSound
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-ejectammostopsound:
+No description provided.
+
+
+.. _scripts-item-ejectammostopsound:
 
 EjectAmmoStopSound
 ^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-endurancechange:
+No description provided.
+
+
+.. _scripts-item-endurancechange:
 
 enduranceChange
 ^^^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-endurancemod:
+No description provided.
+
+
+.. _scripts-item-endurancemod:
 
 EnduranceMod
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-See :ref:`item-useendurance` for more details.
+   float
 
-.. _item-engineloudness:
+.. attribute:: Default
+
+   ``1.0``
+
+See parameter :ref:`UseEndurance <scripts-item-useendurance>`.
+
+
+.. _scripts-item-engineloudness:
 
 engineLoudness
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-equippednosprint:
+No description provided.
+
+
+.. _scripts-item-equippednosprint:
 
 EquippedNoSprint
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-equipsound:
+No description provided.
+
+
+.. _scripts-item-equipsound:
 
 EquipSound
 ^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-evolvedrecipe:
+No description provided.
+
+
+.. _scripts-item-evolvedrecipe:
 
 EvolvedRecipe
 ^^^^^^^^^^^^^
 
-:Type: object (object: block->>string, kv: ':', pairs: ';')
+.. attribute:: Type
+
+   object (object: block->>string, kv: ':', pairs: ';')
 
 `EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipe>`_ is used to list the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ this item can be used in as an ingredient. The syntax needs to be as follows:
 
@@ -1460,44 +1873,63 @@ A simpler syntax is also technically supported where the quantity can be omitted
 
 `EvolvedRecipeName <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipename>`_ can be used to set the name of the item that will be displayed in the result item. That parameter gets ignored if the game language is not english, and due to a bug it won't even use the translation of the item so it will use the fullType.
 
-.. _item-evolvedrecipename:
+
+.. _scripts-item-evolvedrecipename:
 
 EvolvedRecipeName
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`item-evolvedrecipe` for more details.
+   Unknown
 
-.. _item-explosionduration:
+See parameter :ref:`EvolvedRecipe <scripts-item-evolvedrecipe>`.
+
+
+.. _scripts-item-explosionduration:
 
 ExplosionDuration
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-See :ref:`item-explosionrange` for more details.
+   integer
 
-.. _item-explosionpower:
+See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
+
+
+.. _scripts-item-explosionpower:
 
 ExplosionPower
 ^^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-If set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_
+   integer
 
-.. _item-explosionrange:
+See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
+
+
+.. _scripts-item-explosionrange:
 
 ExplosionRange
 ^^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   integer
 
 `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ out of 100 is a chance of the explosion to set on fire tiles and burn characters in the `ExplosionRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionrange>`_. A value above 100 means the explosion will always set on fire tiles and burn characters, while a value of 0 means it will never set on fire tiles nor burn characters. Each tiles in the explosion range will run the `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_ check independently, so a value of 50 means that on average half of the tiles in the explosion range will be set on fire.
+
+If `ExplosionPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionpower>`_ is set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_.
+
+`extraDamage <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-extradamage>`_ is used to add a net bonus damage dealt by the trap.
+
+The damage the trap deals is calculated as follows:
+
+.. code-block::
+
+   damage = random(explosionPower/20, explosionPower/20 * 2) + extraDamage
 
 `SmokeRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-smokerange>`_ sets the range of the smoke effect. Squares in this range also can be set on fire individually based on `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firestartingchance>`_.
 
@@ -1507,95 +1939,139 @@ ExplosionRange
 
 `ExplosionSound <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionsound>`_ can be used to set the sound played when the explosion happens, while `ExplosionDuration <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-explosionduration>`_ can be used to set the duration of the explosion effect, which is especially useful for smoke bombs.
 
-.. _item-explosionsound:
+
+.. _scripts-item-explosionsound:
 
 ExplosionSound
 ^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-See :ref:`item-explosionrange` for more details.
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-explosiontimer:
+See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
+
+
+.. _scripts-item-explosiontimer:
 
 ExplosionTimer
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-fabrictype:
+No description provided.
+
+
+.. _scripts-item-extradamage:
+
+extraDamage
+^^^^^^^^^^^
+
+.. attribute:: Type
+
+   float
+
+See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
+
+
+.. _scripts-item-fabrictype:
 
 FabricType
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-fatiguechange:
+No description provided.
+
+
+.. _scripts-item-fatiguechange:
 
 fatigueChange
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-fillfromdispensersound:
+No description provided.
+
+
+.. _scripts-item-fillfromdispensersound:
 
 FillFromDispenserSound
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-fillfromlakesound:
+No description provided.
+
+
+.. _scripts-item-fillfromlakesound:
 
 FillFromLakeSound
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-fillfromtapsound:
+No description provided.
+
+
+.. _scripts-item-fillfromtapsound:
 
 FillFromTapSound
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-fillfromtoiletsound:
+No description provided.
+
+
+.. _scripts-item-fillfromtoiletsound:
 
 FillFromToiletSound
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-firefuelratio:
+No description provided.
+
+
+.. _scripts-item-firefuelratio:
 
 FireFuelRatio
 ^^^^^^^^^^^^^
 
-:Type: Any
-:Attributes: Useless
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-firemode:
+.. attribute:: Is useless
+
+   True
+
+No description provided.
+
+
+.. _scripts-item-firemode:
 
 FireMode
 ^^^^^^^^
 
-:Type: string
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   string
 
 `FireModePossibilities <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemodepossibilities>`_ lists the available fire modes of the weapon, and the player can automatically switch between them with the relevant keybind. `FireMode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-firemode>`_ sets the default fire mode of the weapon, which is the one it will spawn with.
 
@@ -1607,71 +2083,87 @@ The vanilla fire modes are:
 
 Other values are not supported by the game and will be considered as ``Single``.
 
-.. _item-firemodepossibilities:
+
+.. _scripts-item-firemodepossibilities:
 
 FireModePossibilities
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: '/')
-:Needs: ``ItemType`` = ``base:weapon``; ``FireMode``
+.. attribute:: Type
 
-See :ref:`item-firemode` for more details.
+   array (array of string, separator: '/')
 
-.. _item-firerange:
+See parameter :ref:`FireMode <scripts-item-firemode>`.
+
+
+.. _scripts-item-firerange:
 
 FireRange
 ^^^^^^^^^
 
-:Type: Any
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-See :ref:`item-explosionrange` for more details.
+   Unknown
 
-.. _item-firestartingchance:
+See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
+
+
+.. _scripts-item-firestartingchance:
 
 FireStartingChance
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-See :ref:`item-explosionrange` for more details.
+   integer
 
-.. _item-firestartingenergy:
+See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
+
+
+.. _scripts-item-firestartingenergy:
 
 FireStartingEnergy
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-fishinglure:
+No description provided.
+
+
+.. _scripts-item-fishinglure:
 
 FishingLure
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-flureduction:
+No description provided.
+
+
+.. _scripts-item-flureduction:
 
 fluReduction
 ^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
+
+   integer
 
 When eating this food item, the player cold or pain will be reduced by the percentage of the food being eaten times respectively the values of `fluReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-flureduction>`_ and `painReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-painreduction>`_.
 
-.. _item-foodsicknesschange:
+
+.. _scripts-item-foodsicknesschange:
 
 FoodSicknessChange
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 Set the base food sickness change.
 
@@ -1684,117 +2176,161 @@ The amount of food sickness you get varies based on this parameter and other fac
 * cooked food will multiply by 1.3
 * raw food provides this base value
 
-.. _item-foodtype:
+
+.. _scripts-item-foodtype:
 
 FoodType
 ^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Sets the food type of the item. A translation entry needs to be made for custom types which has the key ``ContextMenu_FoodType_<type>``.
 
 To be a valid food item to feed to animals, the item needs to be of type ``Fruits`` or ``Vegetables``.
 
-.. _item-goodhot:
+
+.. _scripts-item-goodhot:
 
 GoodHot
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-guntype:
+`GoodHot <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-goodhot>`_ reduces by a flat 2 the happiness change when eating this food hot. On the other hand, `BadCold <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-badcold>`_ increases by a flat 2 the unhappiness change when eating this food cold.
+
+
+.. _scripts-item-guntype:
 
 GunType
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-havechamber:
+No description provided.
+
+
+.. _scripts-item-havechamber:
 
 HaveChamber
 ^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 Whether the weapon has a chamber that can hold a round in addition to its magazine.
 
-.. _item-headcondition:
+
+.. _scripts-item-headcondition:
 
 HeadCondition
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-headconditionlowerchancemultiplier:
+No description provided.
+
+
+.. _scripts-item-headconditionlowerchancemultiplier:
 
 HeadConditionLowerChanceMultiplier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-headconditionmax:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-headconditionmax:
 
 HeadConditionMax
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-hearingmodifier:
+No description provided.
+
+
+.. _scripts-item-hearingmodifier:
 
 HearingModifier
 ^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-herbalisttype:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-herbalisttype:
 
 HerbalistType
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-hidden:
+No description provided.
+
+
+.. _scripts-item-hidden:
 
 Hidden
 ^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-hitanglemod:
+No description provided.
+
+
+.. _scripts-item-hitanglemod:
 
 HitAngleMod
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-hitchance:
+No description provided.
+
+
+.. _scripts-item-hitchance:
 
 HitChance
 ^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   integer
 
 `HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchance>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `HitChanceModified <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchancemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
@@ -1849,44 +2385,59 @@ The final obtained value of ``HitChance`` is clamped against the `MINIMUM_TO_HIT
 
 At point-blank range, all combined penalties are scaled toward zero, so close shots are always more forgiving. The `HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-hitchance>`_ parameter will set the floor for all players while `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-aimingperkhitchancemodifier>`_ will increase accuracy with the level of aiming of the player. Low base and high modifier makes the gun terrible while unskilled but excellent with investment in aiming.
 
-.. _item-hitchancemodifier:
+
+.. _scripts-item-hitchancemodifier:
 
 HitChanceModifier
 ^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-See :ref:`item-hitchance` for more details.
+   integer
 
-.. _item-hitfloorsound:
+See parameter :ref:`HitChance <scripts-item-hitchance>`.
+
+
+.. _scripts-item-hitfloorsound:
 
 HitFloorSound
 ^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
-:Default: ``BatOnFloor``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-hitsound:
+.. attribute:: Default
+
+   ``BatOnFloor``
+
+No description provided.
+
+
+.. _scripts-item-hitsound:
 
 HitSound
 ^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
-:Default: ``BaseballBatHit``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-hungerchange:
+.. attribute:: Default
+
+   ``BaseballBatHit``
+
+No description provided.
+
+
+.. _scripts-item-hungerchange:
 
 HungerChange
 ^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 Different stats are available for food items which will impact the player's hunger, thirst, boredom etc.
 
@@ -1895,14 +2446,21 @@ Different stats are available for food items which will impact the player's hung
 * `ThirstChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-thirstchange>`_ when negative will reduce the thirst of the player, with ``100`` the maximum amount of thirst of a player
 * `UnhappyChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-unhappychange>`_ when positive will decrease the player's unhappiness, with ``100`` the maximum amount of unhappiness of a player
 * `StressChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-stresschange>`_ when negative will reduce the stress of the player, with ``100`` the maximum amount of stress of a player
+* `BoredomChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-boredomchange>`_ when negative will reduce the boredom of the player, with ``100`` the maximum amount of boredom of a player
 
-.. _item-icon:
+
+.. _scripts-item-icon:
 
 Icon
 ^^^^
 
-:Type: string
-:Default: ``None``
+.. attribute:: Type
+
+   string
+
+.. attribute:: Default
+
+   ``None``
 
 Used to specify the icon of the item, usually used in the inventory and crafting menus to easily recognize the item. The icon file needs to be located inside the ``media/textures/`` folder and the file name must start with ``Item_``\ , and be of the extension ``.png``.
 
@@ -1967,145 +2525,193 @@ To add variants based on food condition, you would have the following file struc
 
 `IconsForTexture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-iconsfortexture>`_ can be used alongside `WorldStaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-worldstaticmodelsbyindex>`_ and `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-staticmodelsbyindex>`_ to have variant icons for different models, and all for the same item definition. See those parameters definitions for more information.
 
-.. _item-iconcolormask:
+
+.. _scripts-item-iconcolormask:
 
 IconColorMask
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-iconfluidmask:
+No description provided.
+
+
+.. _scripts-item-iconfluidmask:
 
 IconFluidMask
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-iconsfortexture:
+No description provided.
+
+
+.. _scripts-item-iconsfortexture:
 
 IconsForTexture
 ^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
 
-See :ref:`item-icon` for more details.
+   array (array of string, separator: ';')
 
-.. _item-idleanim:
+See parameter :ref:`Icon <scripts-item-icon>`.
+
+
+.. _scripts-item-idleanim:
 
 IdleAnim
 ^^^^^^^^
 
-:Type: string
-:Default: ``Idle``
+.. attribute:: Type
 
-No description
+   string
 
-.. _item-impactsound:
+.. attribute:: Default
+
+   ``Idle``
+
+No description provided.
+
+
+.. _scripts-item-impactsound:
 
 ImpactSound
 ^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
-:Default: ``BaseballBatHit``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-insertallbulletsreload:
+.. attribute:: Default
+
+   ``BaseballBatHit``
+
+No description provided.
+
+
+.. _scripts-item-insertallbulletsreload:
 
 InsertAllBulletsReload
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-insertammosound:
+No description provided.
+
+
+.. _scripts-item-insertammosound:
 
 InsertAmmoSound
 ^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-insertammostartsound:
+No description provided.
+
+
+.. _scripts-item-insertammostartsound:
 
 InsertAmmoStartSound
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-insertammostopsound:
+No description provided.
+
+
+.. _scripts-item-insertammostopsound:
 
 InsertAmmoStopSound
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-insulation:
+No description provided.
+
+
+.. _scripts-item-insulation:
 
 Insulation
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-inversecoughprobability:
+No description provided.
+
+
+.. _scripts-item-inversecoughprobability:
 
 InverseCoughProbability
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-inversecoughprobabilitysmoker:
+No description provided.
+
+
+.. _scripts-item-inversecoughprobabilitysmoker:
 
 InverseCoughProbabilitySmoker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-isaimedfirearm:
+No description provided.
+
+
+.. _scripts-item-isaimedfirearm:
 
 IsAimedFirearm
 ^^^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:weapon``; ``MaxAmmo``
+.. attribute:: Type
+
+   boolean
 
 `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-isaimedfirearm>`_ enables the entire aimed-firearm subsystem: ballistics controller, reticle, muzzle flash, firearm-specific condition handling and ballistics-base target detection. Without it the weapon falls back to melee sweep logic.
 
 Set to ``true`` for any normal gun. Distinct from `Ranged <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-ranged>`_ which marks the item as a ranged weapon for the animations `conditions <https://pzwiki.net/wiki/Conditions>`_.
 
-.. _item-isaimedhandweapon:
+
+.. _scripts-item-isaimedhandweapon:
 
 IsAimedHandWeapon
 ^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-iscookable:
+No description provided.
+
+
+.. _scripts-item-iscookable:
 
 IsCookable
 ^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 `IsCookable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-iscookable>`_ marks as the item as cookable.
 
@@ -2117,162 +2723,248 @@ IsCookable
 
 `BadInMicrowave <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-badinmicrowave>`_ will set the unhappiness and boredom changes to ``5.0`` when cooked in a microwave.
 
-.. _item-isdung:
+
+.. _scripts-item-isdung:
 
 IsDung
 ^^^^^^
 
-:Type: boolean
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-ishightier:
+No description provided.
+
+
+.. _scripts-item-ishightier:
 
 IsHighTier
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-isportable:
+No description provided.
+
+
+.. _scripts-item-isportable:
 
 IsPortable
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-istelevision:
+No description provided.
+
+
+.. _scripts-item-istelevision:
 
 IsTelevision
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-iswatersource:
+No description provided.
+
+
+.. _scripts-item-iswatersource:
 
 IsWaterSource
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-itemaftercleaning:
+No description provided.
+
+
+.. _scripts-item-itemaftercleaning:
 
 ItemAfterCleaning
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-itemtype:
+No description provided.
+
+
+.. _scripts-item-itemtype:
 
 ItemType
 ^^^^^^^^
 
-:Type: string **(required)**
+.. attribute:: Type
+
+   string
+
+.. attribute:: Required
+
+   True
+
+.. attribute:: Allowed values
+
+   
+* ``base:alarmclock``
+* ``base:alarmclockclothing``
+* ``base:animal``
+* ``base:clothing``
+* ``base:container``
+* ``base:drainable``
+* ``base:food``
+* ``base:key``
+* ``base:literature``
+* ``base:map``
+* ``base:moveable``
+* ``base:normal``
+* ``base:radio``
+* ``base:weapon``
+* ``base:weaponpart``
 
 Defines the class of the item which will impact which parameters the item can take and its properties as well as how it is used by the player. Clothing for instance will handle differently their texture and model in comparison to the other type of items, containers can hold items and weapons can be used by the player to attack and deal damage. You cannot use a custom class of item and only the ones accepted by the game.
 
-Allowed values:
 
-    - ``base:alarmclock``
-    - ``base:alarmclockclothing``
-    - ``base:animal``
-    - ``base:clothing``
-    - ``base:container``
-    - ``base:drainable``
-    - ``base:food``
-    - ``base:key``
-    - ``base:literature``
-    - ``base:map``
-    - ``base:moveable``
-    - ``base:normal``
-    - ``base:radio``
-    - ``base:weapon``
-    - ``base:weaponpart``
+.. _scripts-item-type:
 
-.. _item-itemwhendry:
+Type
+^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Deprecated
+
+   {'replacedBy': 'ItemType', 'version': '42.13.0'}
+
+Used to set the class of the item, which will influence parameters available.
+
+
+.. _scripts-item-displayname:
+
+DisplayName
+^^^^^^^^^^^
+
+.. attribute:: Type
+
+   Unknown
+
+.. attribute:: Deprecated
+
+   {'description': 'Naming an item should be done with a translation entry. See the [wiki](https://pzwiki.net/wiki/DisplayName) page for more information.', 'version': '42.13.0'}
+
+Sets the name of the item which will be displayed in-game. It's recommended to use a translation entry for this parameter to allow localization of the item name.
+
+
+.. _scripts-item-itemwhendry:
 
 ItemWhenDry
 ^^^^^^^^^^^
 
-:Type: block (block: :ref:`item`, with :ref:`module`)
+.. attribute:: Type
 
-See :ref:`item-wet` for more details.
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-.. _item-jamgunchance:
+See parameter :ref:`Wet <scripts-item-wet>`.
+
+
+.. _scripts-item-jamgunchance:
 
 JamGunChance
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 Base probability of a jam on each trigger pull. Final jam roml also scales with the sandbox jam multiplier, current gun condition (lower condition = higher jam chance), and low Aiming/Strength.
 
 ``JamGunChance = 1`` is already low. Setting it to ``0`` basically disables jams from this weapon. Higher values makes the gun unreliable and punishes neglecting the gun or unskilled use.
 
-.. _item-keepondeplete:
+
+.. _scripts-item-keepondeplete:
 
 KeepOnDeplete
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-knockbackonnodeath:
+No description provided.
+
+
+.. _scripts-item-knockbackonnodeath:
 
 KnockBackOnNoDeath
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-knockdownmod:
+No description provided.
+
+
+.. _scripts-item-knockdownmod:
 
 KnockdownMod
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-learnedrecipes:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-learnedrecipes:
 
 LearnedRecipes
 ^^^^^^^^^^^^^^
 
-:Type: array (array of block, separator: ';')
-:Needs: ``ItemType`` = ``base:literature``
+.. attribute:: Type
+
+   array (array of block, separator: ';')
 
 List of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ this item will teach the player when read.
 
-.. _item-lightdistance:
+
+.. _scripts-item-lightdistance:
 
 LightDistance
 ^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
 
-See :ref:`item-lightstrength` for more details.
+   integer
 
-.. _item-lightstrength:
+See parameter :ref:`LightStrength <scripts-item-lightstrength>`.
+
+
+.. _scripts-item-lightstrength:
 
 LightStrength
 ^^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 `LightDistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lightdistance>`_ is used to determine the radius of the light emitted by the item. It is compared to the `Manhattan distance <https://en.wikipedia.org/wiki/Taxicab_geometry>`_ of the item to the square. The higher the value, the higher is the radius of the light.
 
@@ -2284,132 +2976,185 @@ LightStrength
 
 The ``new_light_level`` is limited to a maximum of ``2.5``.
 
-.. _item-lipids:
+
+.. _scripts-item-lipids:
 
 Lipids
 ^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-See :ref:`item-calories` for more details.
+   float
 
-.. _item-lowlightbonus:
+See parameter :ref:`Calories <scripts-item-calories>`.
+
+
+.. _scripts-item-lowlightbonus:
 
 LowLightBonus
 ^^^^^^^^^^^^^
 
-:Type: float
-:Attributes: Useless
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-lvlskilltrained:
+.. attribute:: Is useless
+
+   True
+
+No description provided.
+
+
+.. _scripts-item-lvlskilltrained:
 
 LvlSkillTrained
 ^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
-:Needs: ``ItemType`` = ``base:literature``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-magazine_subject:
+.. attribute:: Default
+
+   ``-1``
+
+See parameter :ref:`SkillTrained <scripts-item-skilltrained>`.
+
+
+.. _scripts-item-magazine_subject:
 
 magazine_subject
 ^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 You can find a list of subjects in the `MagazineSubject <https://pz-wiki-modding.github.io/PZ-API-Docs/java/magazine_subject.html>`_.
 
-.. _item-magazinetype:
+
+.. _scripts-item-magazinetype:
 
 MagazineType
 ^^^^^^^^^^^^
 
-:Type: string (block: :ref:`item`, with :ref:`module`)
-:Needs: ``ItemType`` = ``base:weapon``; ``IsAimedFirearm`` = ``True``
+.. attribute:: Type
 
-See :ref:`item-ammotype` for more details.
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-.. _item-makeuptype:
+See parameter :ref:`AmmoType <scripts-item-ammotype>`.
+
+
+.. _scripts-item-makeuptype:
 
 MakeUpType
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-manuallyremovespentrounds:
+No description provided.
+
+
+.. _scripts-item-manuallyremovespentrounds:
 
 ManuallyRemoveSpentRounds
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-map:
+No description provided.
+
+
+.. _scripts-item-map:
 
 Map
 ^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-maxammo:
+No description provided.
+
+
+.. _scripts-item-maxammo:
 
 MaxAmmo
 ^^^^^^^
 
-:Type: integer
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-maxcapacity:
+No description provided.
+
+
+.. _scripts-item-maxcapacity:
 
 MaxCapacity
 ^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-maxchannel:
+.. attribute:: Default
+
+   ``-1``
+
+No description provided.
+
+
+.. _scripts-item-maxchannel:
 
 MaxChannel
 ^^^^^^^^^^
 
-:Type: integer
-:Default: ``108000``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-maxdamage:
+.. attribute:: Default
+
+   ``108000``
+
+No description provided.
+
+
+.. _scripts-item-maxdamage:
 
 MaxDamage
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.5``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.5``
 
 Rolls the hit damage of the weapon between ``MinDamage`` and ``MaxDamage``.
 
 `WeaponParts <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ can modify the damage of the weapon with the `DamageModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-damagemodifier>`_ parameter. When equipped, a `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ will increase the minimum and maximum damage of the weapon by the provided value. You are not limited to positive values, you can also add damage debuffs to the weapon by providing negative values.
 
-.. _item-maxhitcount:
+
+.. _scripts-item-maxhitcount:
 
 MaxHitcount
 ^^^^^^^^^^^
 
-:Type: integer
-:Default: ``1000``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1000``
 
 `MaxHitcount <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxhitcount>`_ sets the maximum number of targets the weapon can hit with one attack. For ranged weapons, it will determine how many targets a single shot can hit. For melee weapons, a single swing can hit multiple targets if the relevant sandbox option allows it (Weapon Multi-Hit).
 
@@ -2417,22 +3162,31 @@ When `PiercingBullets <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/ite
 
 Keep ``MaxHitcount`` to 1 for a standard rifle, and set it to 2 with `PiercingBullets <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-piercingbullets>`_ to have AP rounds behavior (M16A2 for example).
 
-.. _item-maxitemsize:
+
+.. _scripts-item-maxitemsize:
 
 MaxItemSize
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-maxrange:
+No description provided.
+
+
+.. _scripts-item-maxrange:
 
 MaxRange
 ^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 `MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrange>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `MaxRangeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxrangemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
@@ -2444,23 +3198,27 @@ The `MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#i
 
 All rifles from the base game have a ``AimingPerkRangeModifier`` of 0, so `aiming level <https://pzwiki.net/wiki/Aiming>`_ has no effect on the range of guns. Set it above 0 to give skilled players extra reach.
 
-.. _item-maxrangemodifier:
+
+.. _scripts-item-maxrangemodifier:
 
 MaxRangeModifier
 ^^^^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-See :ref:`item-maxrange` for more details.
+   float
 
-.. _item-maxsightrange:
+See parameter :ref:`MaxRange <scripts-item-maxrange>`.
+
+
+.. _scripts-item-maxsightrange:
 
 MaxSightRange
 ^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weapon``, ``base:weaponpart``
+.. attribute:: Type
+
+   float
 
 `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxsightrange>`_ define the optimal sight window, to be more specific, the distance band where hits and critical hits bonuses peak.
 
@@ -2479,59 +3237,79 @@ Below ``effectiveMin``\ , a small linear penalty is applied as the gun is not su
 
 A CQC gun should have a low `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-maxsightrange>`_ while a marksman riffle should have a high `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_ with a wide window.
 
-.. _item-mechanicsitem:
+
+.. _scripts-item-mechanicsitem:
 
 MechanicsItem
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-mediacategory:
+No description provided.
+
+
+.. _scripts-item-mediacategory:
 
 MediaCategory
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-medical:
+No description provided.
+
+
+.. _scripts-item-medical:
 
 Medical
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-metalvalue:
+No description provided.
+
+
+.. _scripts-item-metalvalue:
 
 MetalValue
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-micrange:
+No description provided.
+
+
+.. _scripts-item-micrange:
 
 MicRange
 ^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-minangle:
+No description provided.
+
+
+.. _scripts-item-minangle:
 
 MinAngle
 ^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-isaimedfirearm>`_ set to ``true``\ , the ballistics controller handles target detection and does not use `MinAngle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minangle>`_ in the ranged hit-chance formula. These serve one narrow purpose: the ``isMeleeTargetTooCloseToShoot()`` check, detecting if a target is so close it should trigger a melee strike instead of a shot.
 
@@ -2543,366 +3321,493 @@ For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.
 
    effectiveMinAngle = MinAngle - AimingPerkMinAngleModifier * Aiming level
 
-.. _item-minchannel:
+
+.. _scripts-item-minchannel:
 
 MinChannel
 ^^^^^^^^^^
 
-:Type: integer
-:Default: ``88000``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-mindamage:
+.. attribute:: Default
+
+   ``88000``
+
+No description provided.
+
+
+.. _scripts-item-mindamage:
 
 MinDamage
 ^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
 
-See :ref:`item-maxdamage` for more details.
+   float
 
-.. _item-minimumswingtime:
+See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
+
+
+.. _scripts-item-minimumswingtime:
 
 MinimumSwingtime
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-minrange:
+No description provided.
+
+
+.. _scripts-item-minrange:
 
 MinRange
 ^^^^^^^^
 
-:Type: float
+.. attribute:: Type
+
+   float
 
 Hard minimum attack distance. If the target is closer than ``MinRange``\ , the ballistics controller does not register the shot and the game may force a melee swap. This is a binary threshold, not a penalty band. Separate from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-minsightrange>`_.
 
 Long rifles should be hard to use in tight spaces. ``0.2`` to ``0.35`` is a small gap but ``0.61`` is noticeably limiting indoors.
 
-.. _item-minsightrange:
+
+.. _scripts-item-minsightrange:
 
 MinSightRange
 ^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weapon``, ``base:weaponpart``
+.. attribute:: Type
 
-See :ref:`item-maxsightrange` for more details.
+   float
 
-.. _item-minutestoburn:
+See parameter :ref:`MaxSightRange <scripts-item-maxsightrange>`.
+
+
+.. _scripts-item-minutestoburn:
 
 MinutesToBurn
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``120.0``
-:Needs: ``IsCookable`` = ``True``
+.. attribute:: Type
 
-See :ref:`item-iscookable` for more details.
+   float
 
-.. _item-minutestocook:
+.. attribute:: Default
+
+   ``120.0``
+
+See parameter :ref:`IsCookable <scripts-item-iscookable>`.
+
+
+.. _scripts-item-minutestocook:
 
 MinutesToCook
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``60.0``
-:Needs: ``IsCookable`` = ``True``
+.. attribute:: Type
 
-See :ref:`item-iscookable` for more details.
+   float
 
-.. _item-modelweaponpart:
+.. attribute:: Default
+
+   ``60.0``
+
+See parameter :ref:`IsCookable <scripts-item-iscookable>`.
+
+
+.. _scripts-item-modelweaponpart:
 
 ModelWeaponPart
 ^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ' ')
-:Attributes: Can be duplicated
+.. attribute:: Type
 
-No description
+   array (array of string, separator: ' ')
 
-.. _item-mounton:
+No description provided.
+
+
+.. _scripts-item-mounton:
 
 MountOn
 ^^^^^^^
 
-:Type: array (array of string, separator: ';')
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-No description
+   array (array of string, separator: ';')
 
-.. _item-multiplehitconditionaffected:
+No description provided.
+
+
+.. _scripts-item-multiplehitconditionaffected:
 
 MultipleHitConditionAffected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-muzzleflashmodelkey:
+.. attribute:: Default
+
+   ``True``
+
+No description provided.
+
+
+.. _scripts-item-muzzleflashmodelkey:
 
 MuzzleFlashModelKey
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`model`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`model <scripts-model>`)
 
-.. _item-neckprotectionmodifier:
+No description provided.
+
+
+.. _scripts-item-neckprotectionmodifier:
 
 NeckProtectionModifier
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-needtobeclosedoncereload:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-needtobeclosedoncereload:
 
 needtobeclosedoncereload
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-noiseduration:
+No description provided.
+
+
+.. _scripts-item-noiseduration:
 
 NoiseDuration
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-noiserange:
+No description provided.
+
+
+.. _scripts-item-noiserange:
 
 NoiseRange
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-notransmit:
+No description provided.
+
+
+.. _scripts-item-notransmit:
 
 NoTransmit
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-npcsoundboost:
+No description provided.
+
+
+.. _scripts-item-npcsoundboost:
 
 NPCSoundBoost
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-numberofpages:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-numberofpages:
 
 NumberOfPages
 ^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``-1``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-numlevelstrained:
+.. attribute:: Default
+
+   ``-1``
+
+See parameter :ref:`SkillTrained <scripts-item-skilltrained>`.
+
+
+.. _scripts-item-numlevelstrained:
 
 NumLevelsTrained
 ^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``1``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-onattach:
+.. attribute:: Default
+
+   ``1``
+
+See parameter :ref:`SkillTrained <scripts-item-skilltrained>`.
+
+
+.. _scripts-item-onattach:
 
 OnAttach
 ^^^^^^^^
 
-:Type: callback
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-See :ref:`item-canattach` for more details.
+   callback
 
-.. _item-onbreak:
+See parameter :ref:`CanAttach <scripts-item-canattach>`.
+
+
+.. _scripts-item-onbreak:
 
 OnBreak
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   callback
 
-.. _item-oncooked:
+Triggered when the item condition drops below 0.
+
+
+.. _scripts-item-oncooked:
 
 OnCooked
 ^^^^^^^^
 
-:Type: callback
-:Needs: ``ItemType`` = ``base:drainable``, ``base:food``
+.. attribute:: Type
 
-No description
+   callback
 
-.. _item-oncreate:
+No description provided.
+
+
+.. _scripts-item-oncreate:
 
 OnCreate
 ^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   callback
 
-.. _item-ondetach:
+Triggered when the item is instantiated.
+
+
+.. _scripts-item-ondetach:
 
 OnDetach
 ^^^^^^^^
 
-:Type: callback
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-See :ref:`item-canattach` for more details.
+   callback
 
-.. _item-oneat:
+See parameter :ref:`CanAttach <scripts-item-canattach>`.
+
+
+.. _scripts-item-oneat:
 
 OnEat
 ^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-onlyacceptcategory:
+No description provided.
+
+
+.. _scripts-item-onlyacceptcategory:
 
 OnlyAcceptCategory
 ^^^^^^^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
+
+   string
 
 Makes sure only items with the specified `ItemCategory <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/itemcategory.html>`_ corresponding to the provided value of this parameter can be inserted into the container.
 
-.. _item-openingrecipe:
+
+.. _scripts-item-openingrecipe:
 
 OpeningRecipe
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-opensound:
+No description provided.
+
+
+.. _scripts-item-opensound:
 
 OpenSound
 ^^^^^^^^^
 
-:Type: block (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-originx:
+No description provided.
+
+
+.. _scripts-item-originx:
 
 OriginX
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-originy:
+Seems to indicate the coordinates this item is associate to, mostly used for keys.
+
+
+.. _scripts-item-originy:
 
 OriginY
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-originz:
+See parameter :ref:`OriginX <scripts-item-originx>`.
+
+
+.. _scripts-item-originz:
 
 originZ
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-otherhandrequire:
+See parameter :ref:`OriginX <scripts-item-originx>`.
+
+
+.. _scripts-item-otherhandrequire:
 
 OtherHandRequire
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-otherhanduse:
+No description provided.
+
+
+.. _scripts-item-otherhanduse:
 
 OtherHandUse
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-packaged:
+No description provided.
+
+
+.. _scripts-item-packaged:
 
 Packaged
 ^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
+
+   boolean
 
 Setting this to ``true`` will add readable content on the food item, which will display the `nutrional information <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-calories>`_ of the food item.
 
-.. _item-padlock:
+
+.. _scripts-item-padlock:
 
 Padlock
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-pagetowrite:
+No description provided.
+
+
+.. _scripts-item-pagetowrite:
 
 PageToWrite
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-painreduction:
+No description provided.
+
+
+.. _scripts-item-painreduction:
 
 painReduction
 ^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-See :ref:`item-flureduction` for more details.
+   integer
 
-.. _item-parttype:
+See parameter :ref:`fluReduction <scripts-item-flureduction>`.
+
+
+.. _scripts-item-parttype:
 
 PartType
 ^^^^^^^^
 
-:Type: string
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
+
+   string
 
 Marks the `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ as a specific type of part. For proper tooltip of your weapon part, you need to either use one of the existing parts or use a custom part type but provide a translation entry inside `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ as ``Tooltip_weapon_`` followed by that part type value. For example, if you set ``PartType = customPart``\ , you need to provide a translation entry as ``Tooltip_weapon_customPart`` with the name of your part.
 
@@ -2941,80 +3846,107 @@ Technically, there are other ``Tooltip_weapon_`` combination than the ones liste
 * NoClip
 * NoMaintenanceXp
 
-.. _item-physicsobject:
+
+.. _scripts-item-physicsobject:
 
 PhysicsObject
 ^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`item`, with :ref:`module`)
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 Provides another item (or itself) as a throwable object. When used, the item will be thrown instead of used as an actual in hands weapon.
 
-.. _item-piercingbullets:
+
+.. _scripts-item-piercingbullets:
 
 PiercingBullets
 ^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:weapon``; ``IsAimedFirearm`` = ``True``; ``MaxHitcount``
+.. attribute:: Type
 
-See :ref:`item-maxhitcount` for more details.
+   boolean
 
-.. _item-placedsprite:
+See parameter :ref:`MaxHitcount <scripts-item-maxhitcount>`.
+
+
+.. _scripts-item-placedsprite:
 
 PlacedSprite
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-placemultiplesound:
+No description provided.
+
+
+.. _scripts-item-placemultiplesound:
 
 PlaceMultipleSound
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-placeonesound:
+No description provided.
+
+
+.. _scripts-item-placeonesound:
 
 PlaceOneSound
 ^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-poison:
+No description provided.
+
+
+.. _scripts-item-poison:
 
 Poison
 ^^^^^^
 
-:Type: boolean
-:Default: ``False``
-:Attributes: Useless
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-See :ref:`item-poisonpower` for more details.
+   boolean
 
-.. _item-poisondetectionlevel:
+.. attribute:: Is useless
+
+   True
+
+.. attribute:: Default
+
+   ``False``
+
+See parameter :ref:`PoisonPower <scripts-item-poisonpower>`.
+
+
+.. _scripts-item-poisondetectionlevel:
 
 PoisonDetectionLevel
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
 
-See :ref:`item-poisonpower` for more details.
+   integer
 
-.. _item-poisonpower:
+See parameter :ref:`PoisonPower <scripts-item-poisonpower>`.
+
+
+.. _scripts-item-poisonpower:
 
 PoisonPower
 ^^^^^^^^^^^
 
-:Type: integer
+.. attribute:: Type
+
+   integer
 
 `PoisonPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-poisonpower>`_ defines the strength of the poison, where a positive value will make the food poisonous.
 
@@ -3024,44 +3956,69 @@ You can also mark an item to be shown as poisonous to the player by adding the `
 
 The parameters `Poison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-poison>`_ and `UseForPoison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useforpoison>`_ look unused.
 
-.. _item-pourtype:
+
+.. _scripts-item-pourtype:
 
 PourType
 ^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   string
 
-.. _item-primaryanimmask:
+Sets an identifier for the pouring type. This will set the ``PourType`` `condition <https://pzwiki.net/wiki/Conditions>`_ of `AnimNode <https://pzwiki.net/wiki/AnimNode>`_ to the provided value when doing different actions:
+
+
+* pouring, dumping, adding liquid etc
+* fertilizing
+* curing a plant
+
+Specific values have different effects:
+
+
+* ``Bucket`` will cause the item to play the sound ``Base.PourLiquidOnGroundMetal`` with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-tags>`_ ``base:hasmetal`` when pouring liquid.
+* ``Pot`` will also play ``Base.PourLiquidOnGroundMetal`` but without the need for the tag.
+* Other values will play ``Base.PourLiquidOnGround`` when pouring liquid.
+
+
+.. _scripts-item-primaryanimmask:
 
 primaryAnimMask
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-projectilecount:
+No description provided.
+
+
+.. _scripts-item-projectilecount:
 
 Projectilecount
 ^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``1``
-:Needs: ``ItemType`` = ``base:weapon``; ``IsAimedFirearm`` = ``True``; ``RangeFalloff`` = ``True``
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Default
+
+   ``1``
 
 Only active when the weapon is ranged and has `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-rangefalloff>`_ set to ``true``. In that mode, the ballistics controller generates multiple spread projectiles. The field is never read when `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-rangefalloff>`_ is ``false``.
 
 Inert for standard rifles. Required only for shotgun-style spread.
 
-.. _item-projectilespread:
+
+.. _scripts-item-projectilespread:
 
 ProjectileSpread
 ^^^^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   float
 
 Projectile spread seems to be mostly a visual effect and doesn't affect the actual hit chance of the weapon. The spread will be calculated following a formula close to the following:
 
@@ -3071,130 +4028,169 @@ Projectile spread seems to be mostly a visual effect and doesn't affect the actu
 
 With the ``spread`` value being the total cone angle of the projectiles.
 
-.. _item-projectilespreadmodifier:
+
+.. _scripts-item-projectilespreadmodifier:
 
 ProjectileSpreadModifier
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-projectileweightcenter:
+No description provided.
+
+
+.. _scripts-item-projectileweightcenter:
 
 ProjectileWeightCenter
 ^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-protectfromrainwhenequipped:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-protectfromrainwhenequipped:
 
 ProtectFromRainWhenEquipped
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-proteins:
+No description provided.
+
+
+.. _scripts-item-proteins:
 
 Proteins
 ^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-See :ref:`item-calories` for more details.
+   float
 
-.. _item-pushbackmod:
+See parameter :ref:`Calories <scripts-item-calories>`.
+
+
+.. _scripts-item-pushbackmod:
 
 PushBackMod
 ^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
 
 Scales the magnitude of the hit-reaction push applied to the target character. A higher value will increase the time the target is staggered. It will also impact the spread of blood.
 
 Higher gives a more weighty, impactful feel.
 
-.. _item-putinsound:
+
+.. _scripts-item-putinsound:
 
 PutInSound
 ^^^^^^^^^^
 
-:Type: block (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-rackaftershoot:
+No description provided.
+
+
+.. _scripts-item-rackaftershoot:
 
 RackAfterShoot
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-racksound:
+No description provided.
+
+
+.. _scripts-item-racksound:
 
 RackSound
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-rainfactor:
+No description provided.
+
+
+.. _scripts-item-rainfactor:
 
 RainFactor
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-ranged:
+No description provided.
+
+
+.. _scripts-item-ranged:
 
 Ranged
 ^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-See :ref:`item-isaimedfirearm` for more details.
+   boolean
 
-.. _item-rangefalloff:
+See parameter :ref:`IsAimedFirearm <scripts-item-isaimedfirearm>`.
+
+
+.. _scripts-item-rangefalloff:
 
 RangeFalloff
 ^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-readtype:
+No description provided.
+
+
+.. _scripts-item-readtype:
 
 ReadType
 ^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-recoildelay:
+No description provided.
+
+
+.. _scripts-item-recoildelay:
 
 RecoilDelay
 ^^^^^^^^^^^
 
-:Type: Any
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   Unknown
 
 `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelaymodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. Weapon attachments will add or subtract from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ directly.
 
@@ -3209,125 +4205,163 @@ Controls how long post-shot recovery takes before aim settling can begin. High v
 
 Aim countdown starts when the recoil delay counter is less than ``effectiveDelay * AimingLevel / 30``. Higher aiming also lets aim recovery start earlier in the recoil window.
 
-.. _item-recoildelaymodifier:
+
+.. _scripts-item-recoildelaymodifier:
 
 RecoilDelayModifier
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-See :ref:`item-recoildelay` for more details.
+   Unknown
 
-.. _item-reduceinfectionpower:
+See parameter :ref:`RecoilDelay <scripts-item-recoildelay>`.
+
+
+.. _scripts-item-reduceinfectionpower:
 
 ReduceInfectionPower
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-reloadtime:
+No description provided.
+
+
+.. _scripts-item-reloadtime:
 
 Reloadtime
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-reloadtimemodifier:
+No description provided.
+
+
+.. _scripts-item-reloadtimemodifier:
 
 ReloadTimeModifier
 ^^^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Needs: ``ItemType`` = ``base:weaponpart``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-remotecontroller:
+No description provided.
+
+
+.. _scripts-item-remotecontroller:
 
 RemoteController
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-remoterange:
+No description provided.
+
+
+.. _scripts-item-remoterange:
 
 RemoteRange
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-removenegativeeffectoncooked:
+No description provided.
+
+
+.. _scripts-item-removenegativeeffectoncooked:
 
 RemoveNegativeEffectOnCooked
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-See :ref:`item-iscookable` for more details.
+   boolean
 
-.. _item-removeonbroken:
+See parameter :ref:`IsCookable <scripts-item-iscookable>`.
+
+
+.. _scripts-item-removeonbroken:
 
 RemoveOnBroken
 ^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-removeunhappinesswhencooked:
+.. attribute:: Default
+
+   ``True``
+
+No description provided.
+
+
+.. _scripts-item-removeunhappinesswhencooked:
 
 RemoveUnhappinessWhenCooked
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-replaceinprimaryhand:
+No description provided.
+
+
+.. _scripts-item-replaceinprimaryhand:
 
 ReplaceInPrimaryHand
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-replaceinsecondhand:
+No description provided.
+
+
+.. _scripts-item-replaceinsecondhand:
 
 ReplaceInSecondHand
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-replaceoncooked:
+No description provided.
+
+
+.. _scripts-item-replaceoncooked:
 
 ReplaceOnCooked
 ^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
-:Needs: ``ItemType`` = ``base:drainable``, ``base:food``
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 A list of `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ that will replace the cooked item by adding them to the player's inventory.
 
-.. _item-replaceondeplete:
+
+.. _scripts-item-replaceondeplete:
 
 ReplaceOnDeplete
 ^^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`item`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 When providing a `ReplaceOnDeplete <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-replaceondeplete>`_\ , the moment the item is depleted (e.g. a drainable item has no uses left anymore), it will be replaced by the item defined in this parameter. If this is empty, the item will be deleted without any replacement. This can notably be used to replace towels with a `wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wet>`_ towel.
 
@@ -3337,275 +4371,397 @@ When providing a `ReplaceOnDeplete <https://pz-wiki-modding.github.io/PZ-API-Doc
 
 `ReplaceOnUse <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-replaceonuse>`_ is used whenever an item is used, to replace it with another item. Used for containers containing food items to provide the container back after the food is eaten, or for dirty items getting cleaned.
 
-.. _item-replaceonextinguish:
+
+.. _scripts-item-replaceonextinguish:
 
 ReplaceOnExtinguish
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`item`, with :ref:`module`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-.. _item-replaceonrotten:
+No description provided.
+
+
+.. _scripts-item-replaceonrotten:
 
 ReplaceOnRotten
 ^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`item`, with :ref:`module`)
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-No description
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-.. _item-replaceonuse:
+No description provided.
+
+
+.. _scripts-item-replaceonuse:
 
 ReplaceOnUse
 ^^^^^^^^^^^^
 
-:Type: block (block: :ref:`item`, with :ref:`module`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-.. _item-requireinhandorinventory:
+No description provided.
+
+
+.. _scripts-item-replaceonuseon:
+
+ReplaceOnUseOn
+^^^^^^^^^^^^^^
+
+.. attribute:: Type
+
+   array (array of string, separator: '-')
+
+Unclear what this does exactly.
+
+
+.. _scripts-item-requireinhandorinventory:
 
 RequireInHandOrInventory
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-requiresequippedbothhands:
+No description provided.
+
+
+.. _scripts-item-requiresequippedbothhands:
 
 RequiresEquippedBothHands
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: boolean
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-researchablerecipes:
+No description provided.
+
+
+.. _scripts-item-researchablerecipes:
 
 Researchablerecipes
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
 
-No description
+   array (array of string, separator: ';')
 
-.. _item-runanim:
+No description provided.
+
+
+.. _scripts-item-runanim:
 
 RunAnim
 ^^^^^^^
 
-:Type: string
-:Default: ``Run``
+.. attribute:: Type
 
-No description
+   string
 
-.. _item-runspeedmodifier:
+.. attribute:: Default
+
+   ``Run``
+
+No description provided.
+
+
+.. _scripts-item-runspeedmodifier:
 
 RunSpeedModifier
 ^^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-scaleworldicon:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-scaleworldicon:
 
 ScaleWorldIcon
 ^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-scratchdefense:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-scratchdefense:
 
 ScratchDefense
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-secondaryanimmask:
+No description provided.
+
+
+.. _scripts-item-secondaryanimmask:
 
 secondaryAnimMask
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-sensorrange:
+No description provided.
+
+
+.. _scripts-item-sensorrange:
 
 SensorRange
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-sharpness:
+No description provided.
+
+
+.. _scripts-item-sharpness:
 
 Sharpness
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-shellfallsound:
+No description provided.
+
+
+.. _scripts-item-shellfallsound:
 
 ShellFallSound
 ^^^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-shoutmultiplier:
+No description provided.
+
+
+.. _scripts-item-shoutmultiplier:
 
 ShoutMultiplier
 ^^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-shouttype:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-shouttype:
 
 ShoutType
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-skilltrained:
+No description provided.
+
+
+.. _scripts-item-skilltrained:
 
 SkillTrained
 ^^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _item-smokerange:
+.. attribute:: Default
+
+   ````
+
+`SkillTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-skilltrained>`_ is used to determine which skill the player will start training when reading this literature.
+
+`LvlSkillTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-lvlskilltrained>`_ indicates at what level this literature can be used to start training the skill. `NumLevelsTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-numlevelstrained>`_ marks how many level can be trained thanks to this literature.
+
+
+.. _scripts-item-smokerange:
 
 SmokeRange
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-soundgain:
+No description provided.
+
+
+.. _scripts-item-soundgain:
 
 SoundGain
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-soundmap:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-soundmap:
 
 SoundMap
 ^^^^^^^^
 
-:Type: object (object: string->>block, kv: ' ', pairs: ';')
-:Attributes: Can be duplicated
+.. attribute:: Type
 
-No description
+   object (object: string->>block, kv: ' ', pairs: ';')
 
-.. _item-soundparameter:
+No description provided.
+
+
+.. _scripts-item-soundparameter:
 
 SoundParameter
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-soundradius:
+No description provided.
+
+
+.. _scripts-item-soundradius:
 
 SoundRadius
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-soundvolume:
+No description provided.
+
+
+.. _scripts-item-soundvolume:
 
 SoundVolume
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-spawnwith:
+No description provided.
+
+
+.. _scripts-item-spawnwith:
 
 SpawnWith
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-spice:
+No description provided.
+
+
+.. _scripts-item-spice:
 
 Spice
 ^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:food``, ``base:drainable``
+.. attribute:: Type
+
+   boolean
 
 Marks this item as a spice, which can be used in the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ system.
 
-.. _item-splatbloodonnodeath:
+
+.. _scripts-item-splatbloodonnodeath:
 
 SplatBloodOnNoDeath
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-splatnumber:
+No description provided.
+
+
+.. _scripts-item-splatnumber:
 
 SplatNumber
 ^^^^^^^^^^^
 
-:Type: integer
-:Default: ``2``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-splatsize:
+.. attribute:: Default
+
+   ``2``
+
+No description provided.
+
+
+.. _scripts-item-splatsize:
 
 SplatSize
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-staticmodel:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-staticmodel:
 
 StaticModel
 ^^^^^^^^^^^
 
-:Type: block (block: :ref:`model`, with :ref:`module`)
+.. attribute:: Type
+
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 `StaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-staticmodel>`_ is used to define the model of the item being held in hands. On the other hand, `WorldStaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-worldstaticmodel>`_ is used to define the model of the item being placed in the world. The two models can be different, for example an item can have a handle that is up when held in hands, but down when placed in the world.
 
@@ -3617,127 +4773,183 @@ Alternatively, `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Do
    WorldStaticModelsByIndex = AK47;AK47_Desert;AK47_Woodland,
    IconsForTexture = AK47;AK47_Desert;AK47_Woodland,
 
-.. _item-staticmodelsbyindex:
+
+.. _scripts-item-staticmodelsbyindex:
 
 StaticModelsByIndex
 ^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
 
-See :ref:`item-staticmodel` for more details.
+   array (array of string, separator: ';')
 
-.. _item-stomppower:
+See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
+
+
+.. _scripts-item-stomppower:
 
 StompPower
 ^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-stoppower:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-stoppower:
 
 StopPower
 ^^^^^^^^^
 
-:Type: float
-:Default: ``5.0``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-See :ref:`item-criticalchance` for more details.
+   float
 
-.. _item-stresschange:
+.. attribute:: Default
+
+   ``5.0``
+
+See parameter :ref:`CriticalChance <scripts-item-criticalchance>`.
+
+
+.. _scripts-item-stresschange:
 
 StressChange
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-subcategory:
+No description provided.
+
+
+.. _scripts-item-subcategory:
 
 SubCategory
 ^^^^^^^^^^^
 
-:Type: string
+.. attribute:: Type
 
-No description
+   string
 
-.. _item-survivalgear:
+.. attribute:: Default
+
+   ````
+
+No description provided.
+
+
+.. _scripts-item-survivalgear:
 
 SurvivalGear
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-suspensioncompression:
+No description provided.
+
+
+.. _scripts-item-suspensioncompression:
 
 suspensionCompression
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-suspensiondamping:
+No description provided.
+
+
+.. _scripts-item-suspensiondamping:
 
 suspensionDamping
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-swingamountbeforeimpact:
+No description provided.
+
+
+.. _scripts-item-swingamountbeforeimpact:
 
 SwingAmountBeforeImpact
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-swinganim:
+No description provided.
+
+
+.. _scripts-item-swinganim:
 
 SwingAnim
 ^^^^^^^^^
 
-:Type: string
-:Default: ``Rifle``
+.. attribute:: Type
 
-No description
+   string
 
-.. _item-swingsound:
+.. attribute:: Default
+
+   ``Rifle``
+
+No description provided.
+
+
+.. _scripts-item-swingsound:
 
 SwingSound
 ^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
-:Default: ``BaseballBatSwing``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-swingtime:
+.. attribute:: Default
+
+   ``BaseballBatSwing``
+
+No description provided.
+
+
+.. _scripts-item-swingtime:
 
 Swingtime
 ^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-tags:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-tags:
 
 Tags
 ^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
+
+   array (array of string, separator: ';')
 
 A list of tags to assign to the item. Tags are used by the game to easily identify properties of the items from the Lua or Java. This can notably be used in `craftRecipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_.
 
@@ -3758,160 +4970,203 @@ To create a custom tag, you have to first create its definition in your mod's `r
 
 You can then use that tag ``yourmodid:yourtagname`` in your item definition. And you can use the stored ItemTag reference ``YourModRegistry.YOUR_TAG_NAME`` in your Lua code.
 
-.. _item-thirstchange:
+
+.. _scripts-item-thirstchange:
 
 ThirstChange
 ^^^^^^^^^^^^
 
-:Type: float
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-ticksperequipuse:
+No description provided.
+
+
+.. _scripts-item-ticksperequipuse:
 
 ticksPerEquipUse
 ^^^^^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``30``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-tohitmodifier:
+.. attribute:: Default
+
+   ``30``
+
+No description provided.
+
+
+.. _scripts-item-tohitmodifier:
 
 ToHitModifier
 ^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-tooltip:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-tooltip:
 
 Tooltip
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-torchcone:
+No description provided.
+
+
+.. _scripts-item-torchcone:
 
 TorchCone
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-torchdot:
+No description provided.
+
+
+.. _scripts-item-torchdot:
 
 TorchDot
 ^^^^^^^^
 
-:Type: float
-:Default: ``0.96``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-transmitrange:
+.. attribute:: Default
+
+   ``0.96``
+
+No description provided.
+
+
+.. _scripts-item-transmitrange:
 
 TransmitRange
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-trap:
+No description provided.
+
+
+.. _scripts-item-trap:
 
 Trap
 ^^^^
 
-:Type: boolean
-:Default: ``False``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-treedamage:
+.. attribute:: Default
+
+   ``False``
+
+No description provided.
+
+
+.. _scripts-item-treedamage:
 
 TreeDamage
 ^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-triggerexplosiontimer:
+No description provided.
+
+
+.. _scripts-item-triggerexplosiontimer:
 
 triggerExplosionTimer
 ^^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-twohandweapon:
+No description provided.
+
+
+.. _scripts-item-twohandweapon:
 
 TwoHandWeapon
 ^^^^^^^^^^^^^
 
-:Type: boolean
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   boolean
 
 `TwoHandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-twohandweapon>`_ marks the weapon as a two-handed weapon. `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-recoildelay>`_ gets a x1.3 penalty when the weapon is held one-handed instead of two handed. `RequiresEquippedBothHands <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-requiresequippedbothhands>`_ enforces the equip restriction in the context menu.
 
-.. _item-twoway:
+
+.. _scripts-item-twoway:
 
 TwoWay
 ^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-type:
+No description provided.
 
-Type
-^^^^
 
-:Type: Any
-
-Used to set the class of the item, which will influence parameters available.
-
-.. warning::
-
-   **Deprecated** (since version 42.13.0)
-
-   Use :ref:`item-itemtype` instead.
-
-.. _item-unequipsound:
+.. _scripts-item-unequipsound:
 
 UnequipSound
 ^^^^^^^^^^^^
 
-:Type: string (block: :ref:`sound`)
+.. attribute:: Type
 
-No description
+   block (block: :ref:`sound <scripts-sound>`)
 
-.. _item-unhappychange:
+No description provided.
+
+
+.. _scripts-item-unhappychange:
 
 UnhappyChange
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-usedelta:
+No description provided.
+
+
+.. _scripts-item-usedelta:
 
 UseDelta
 ^^^^^^^^
 
-:Type: float
-:Default: ``0.03125``
-:Needs: ``ItemType`` = ``base:drainable``, ``base:weapon``, ``base:radio``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``0.03125``
 
 Used to set the number of `uses <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getCurrentUses(>`_\ ) for the item where its durability has a value of ``1`` when full and ``0`` when empty. For example, a `base:drainable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemtype>`_ item with a ``UseDelta`` of ``0.03125`` (the default value) will have 32 uses ($1/0.03125$) before it is depleted.
 
@@ -3919,188 +5174,271 @@ When used for `Clothing items <https://pz-wiki-modding.github.io/PZ-API-Docs/scr
 
 Some food items seem to be using that parameter but it doesn't seem to be used for those anywhere. There's uses for it in the Java for Drainable, Weapon and Radio items, but it doesn't seem to be limited to those.
 
-.. _item-useendurance:
+
+.. _scripts-item-useendurance:
 
 UseEndurance
 ^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
-:Needs: ``ItemType`` = ``base:weapon``
+.. attribute:: Type
+
+   boolean
+
+.. attribute:: Default
+
+   ``True``
 
 If ``true``\ , the weapon will consume stamina on use based on the weapon `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_\ , `EnduranceMod <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-endurancemod>`_\ , fatigue modifiers and traits.
 
 For guns, it is preferable to keep this as ``False``.
 
-.. _item-useforpoison:
+
+.. _scripts-item-useforpoison:
 
 UseForPoison
 ^^^^^^^^^^^^
 
-:Type: integer
-:Default: ``0``
-:Needs: ``ItemType`` = ``base:food``
+.. attribute:: Type
 
-No description
+   integer
 
-.. _item-usesbattery:
+.. attribute:: Default
+
+   ``0``
+
+No description provided.
+
+
+.. _scripts-item-usesbattery:
 
 UsesBattery
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-useself:
+No description provided.
+
+
+.. _scripts-item-useself:
 
 UseSelf
 ^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-usewhileequipped:
+No description provided.
+
+
+.. _scripts-item-usewhileequipped:
 
 UseWhileEquipped
 ^^^^^^^^^^^^^^^^
 
-:Type: boolean
-:Default: ``True``
+.. attribute:: Type
 
-No description
+   boolean
 
-.. _item-usewhileunequipped:
+.. attribute:: Default
+
+   ``True``
+
+No description provided.
+
+
+.. _scripts-item-usewhileunequipped:
 
 UseWhileUnequipped
 ^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-useworlditem:
+No description provided.
+
+
+.. _scripts-item-useworlditem:
 
 UseWorldItem
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-vehiclepartmodel:
+No description provided.
+
+
+.. _scripts-item-vehiclepartmodel:
 
 VehiclePartModel
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-vehicletype:
+No description provided.
+
+
+.. _scripts-item-vehicletype:
 
 VehicleType
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-visionmodifier:
+No description provided.
+
+
+.. _scripts-item-visionmodifier:
 
 VisionModifier
 ^^^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-visualaid:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-visualaid:
 
 VisualAid
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-waterresistance:
+No description provided.
+
+
+.. _scripts-item-waterresistance:
 
 WaterResistance
 ^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-weaponhitarmoursound:
+`WaterResistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-waterresistance>`_ is used to define how much the clothing item will resist water. The higher the value, the more resistant the clothing item will be to water. A value of ``1.0`` means the clothing item is fully waterproof, while a value of ``0.0`` means it is not waterproof at all.
+
+This is the exact same process for `WindResistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-windresistance>`_ but for wind instead of water.
+
+
+.. _scripts-item-weaponhitarmoursound:
 
 WeaponHitArmourSound
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-weaponlength:
+No description provided.
+
+
+.. _scripts-item-weaponlength:
 
 WeaponLength
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``0.4``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-weaponreloadtype:
+.. attribute:: Default
+
+   ``0.4``
+
+No description provided.
+
+
+.. _scripts-item-weaponreloadtype:
 
 WeaponReloadType
 ^^^^^^^^^^^^^^^^
 
-:Type: string
-:Default: ``handgun``
-:Needs: ``ItemType`` = ``base:weapon``; ``IsAimedFirearm`` = ``True``
+.. attribute:: Type
 
-See :ref:`item-ammotype` for more details.
+   string
 
-.. _item-weaponsprite:
+.. attribute:: Default
+
+   ``handgun``
+
+See parameter :ref:`AmmoType <scripts-item-ammotype>`.
+
+
+.. _scripts-item-weaponsprite:
 
 WeaponSprite
 ^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-weaponspritesbyindex:
+No description provided.
+
+
+.. _scripts-item-weaponspritesbyindex:
 
 WeaponSpritesByIndex
 ^^^^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-weaponweight:
+No description provided.
+
+
+.. _scripts-item-weaponweight:
 
 WeaponWeight
 ^^^^^^^^^^^^
 
-:Type: float
-:Default: ``1.0``
+.. attribute:: Type
 
-No description
+   float
 
-.. _item-weight:
+.. attribute:: Default
+
+   ``1.0``
+
+No description provided.
+
+
+.. _scripts-item-weight:
 
 Weight
 ^^^^^^
 
-:Type: float
-:Range: Min: 0.0
-:Default: ``1.0``
+.. attribute:: Type
+
+   float
+
+.. attribute:: Default
+
+   ``1.0``
+
+.. attribute:: Minimum
+
+   ``0.0``
 
 `Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-useendurance>`_ is ``true``. You need to make sure to add a `translation <https://pzwiki.net/wiki/Item_(scripts>`_\ #Display_name) to the item or the weight will not work in-game.
 
@@ -4108,135 +5446,186 @@ Weight
 
 `WeightWet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-weightwet>`_ is used to set the weight of a clothing item when it is wet. The weight of the clothing item will be interpolated between ``Weight`` and ``WeightWet`` based on the `wetness <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getWetness(>`_\ ) of the clothing item.
 
-.. _item-weightempty:
+
+.. _scripts-item-weightempty:
 
 WeightEmpty
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`item-weight` for more details.
+   Unknown
 
-.. _item-weightmodifier:
+See parameter :ref:`Weight <scripts-item-weight>`.
 
-WeightModifier
-^^^^^^^^^^^^^^
 
-:Type: float
-:Needs: ``ItemType`` = ``base:weaponpart``
-
-No description
-
-.. _item-weightreduction:
-
-WeightReduction
-^^^^^^^^^^^^^^^
-
-:Type: integer
-:Range: Min: 0, Max: 100
-:Needs: ``ItemType`` = ``base:container``
-
-Percentage of the total contained weight in the bag that will be reduced. If the bag's content weights 10 and the reduction is 65, the bag content will only weight
-
-.. _item-weightwet:
+.. _scripts-item-weightwet:
 
 WeightWet
 ^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-See :ref:`item-weight` for more details.
+   Unknown
 
-.. _item-wet:
+See parameter :ref:`Weight <scripts-item-weight>`.
+
+
+.. _scripts-item-weightmodifier:
+
+WeightModifier
+^^^^^^^^^^^^^^
+
+.. attribute:: Type
+
+   float
+
+No description provided.
+
+
+.. _scripts-item-weightreduction:
+
+WeightReduction
+^^^^^^^^^^^^^^^
+
+.. attribute:: Type
+
+   integer
+
+.. attribute:: Minimum
+
+   ``0``
+
+.. attribute:: Maximum
+
+   ``100``
+
+Percentage of the total contained weight in the bag that will be reduced. If the bag's content weights 10 and the reduction is 65, the bag content will only weight
+
+
+.. _scripts-item-wet:
 
 Wet
 ^^^
 
-:Type: boolean
+.. attribute:: Type
+
+   boolean
 
 `Wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wet>`_ marks the item as being wet. This is notably used for towels alongside the `WetCooldown <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-wetcooldown>`_ which indicates how long the item will stay wet before drying out.
 
 When the item is dry, it is another item marked with the parameter `ItemWhenDry <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-itemwhendry>`_.
 
-.. _item-wetcooldown:
+
+.. _scripts-item-wetcooldown:
 
 WetCooldown
 ^^^^^^^^^^^
 
-:Type: float
-:Default: ``-1.0``
+.. attribute:: Type
 
-See :ref:`item-wet` for more details.
+   float
 
-.. _item-wheelfriction:
+.. attribute:: Default
+
+   ``-1.0``
+
+See parameter :ref:`Wet <scripts-item-wet>`.
+
+
+.. _scripts-item-wheelfriction:
 
 wheelFriction
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-windresistance:
+No description provided.
+
+
+.. _scripts-item-windresistance:
 
 WindResistance
 ^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-withdrainable:
+See parameter :ref:`WaterResistance <scripts-item-waterresistance>`.
+
+
+.. _scripts-item-withdrainable:
 
 WithDrainable
 ^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-withoutdrainable:
+No description provided.
+
+
+.. _scripts-item-withoutdrainable:
 
 WithoutDrainable
 ^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-worldobjectsprite:
+No description provided.
+
+
+.. _scripts-item-worldobjectsprite:
 
 WorldObjectSprite
 ^^^^^^^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-worldrender:
+No description provided.
+
+
+.. _scripts-item-worldrender:
 
 WorldRender
 ^^^^^^^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _item-worldstaticmodel:
+No description provided.
+
+
+.. _scripts-item-worldstaticmodel:
 
 WorldStaticModel
 ^^^^^^^^^^^^^^^^
 
-:Type: block (block: :ref:`model`, with :ref:`module`)
+.. attribute:: Type
 
-See :ref:`item-staticmodel` for more details.
+   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
-.. _item-worldstaticmodelsbyindex:
+See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
+
+
+.. _scripts-item-worldstaticmodelsbyindex:
 
 WorldStaticModelsByIndex
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Type: array (array of string, separator: ';')
+.. attribute:: Type
 
-See :ref:`item-staticmodel` for more details.
+   array (array of string, separator: ';')
+
+See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
+
 

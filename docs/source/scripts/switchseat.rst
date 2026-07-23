@@ -1,52 +1,74 @@
-.. _switchseat:
+.. _scripts-switchseat:
 
 switchSeat
 ==========
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`passenger`
+- :ref:`passenger <scripts-passenger>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
+
+This block can have an ID.
+
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
 
 
 Parameters
 ----------
 
-.. _switchseat-anim:
+.. _scripts-switchseat-anim:
 
 anim
 ^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _switchseat-rate:
+No description provided.
+
+
+.. _scripts-switchseat-rate:
 
 rate
 ^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
 
-.. _switchseat-sound:
+No description provided.
+
+
+.. _scripts-switchseat-sound:
 
 sound
 ^^^^^
 
-:Type: Any
+.. attribute:: Type
 
-No description
+   Unknown
+
+No description provided.
+
 

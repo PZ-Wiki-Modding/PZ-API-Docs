@@ -1,7 +1,11 @@
-.. _maps:
+.. _scripts-maps:
 
 maps
 ====
+
+.. attribute:: Soft Override
+
+   Unknown
 
 A list of maps in the `default.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-default.html>`_ file.
 
@@ -9,13 +13,20 @@ A list of maps in the `default.txt <https://pz-wiki-modding.github.io/PZ-API-Doc
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`root-default`
+- :ref:`ROOT-Default <scripts-root-default>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 

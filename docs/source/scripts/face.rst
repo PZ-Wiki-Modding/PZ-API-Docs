@@ -1,39 +1,59 @@
-.. _face:
+.. _scripts-face:
 
 face
 ====
 
+.. attribute:: Soft Override
 
+   Unknown
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`component-spriteconfig`
-- :ref:`style`
-- :ref:`progress`
+- :ref:`component SpriteConfig <scripts-component-spriteconfig>`
+- :ref:`style <scripts-style>`
+- :ref:`progress <scripts-progress>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`layer`
+- :ref:`layer <scripts-layer>`
 
 
-ID Properties
--------------
 
-This block should have an ID.
+ID
+--
 
-**Allowed ID Values:**
+This block can have an ID.
 
-- ``SINGLE``
-- ``S``
-- ``E``
-- ``W``
-- ``N``
-- ``S_OPEN``
-- ``E_OPEN``
-- ``W_OPEN``
-- ``N_OPEN``
+.. attribute:: Optional
+
+   False
+
+.. attribute:: Can have spaces
+
+   False
+
+.. attribute:: Allowed ID
+
+   
+* ``SINGLE``
+* ``S``
+* ``E``
+* ``W``
+* ``N``
+* ``S_OPEN``
+* ``E_OPEN``
+* ``W_OPEN``
+* ``N_OPEN``
+
+
+Parameters
+----------
+
+This block has no parameters.
 

@@ -1,25 +1,40 @@
-.. _component-resources:
+.. _scripts-component-resources:
 
 component Resources
 ===================
 
+.. attribute:: Soft Override
 
+   Unknown
+
+.. attribute:: Is Variant of
+
+   :ref:`component <scripts-component>`
+
+No description provided.
 
 
 Hierarchy
 ---------
 
-**Valid Parent Blocks:**
+This block can be a child of the following blocks:
 
-- :ref:`entity`
+- :ref:`entity <scripts-entity>`
 
-**Possible Child Blocks:**
+This block can have the following child blocks:
 
-- :ref:`group`
+- :ref:`group <scripts-group>`
 
 
-ID Properties
--------------
 
-This block should not have an ID.
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+This block has no parameters.
 
