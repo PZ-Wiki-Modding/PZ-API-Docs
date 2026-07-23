@@ -40,8 +40,7 @@ generate_java:
 
 generate_translations:
 	source ./.venv/bin/activate
-	python3 ./chores/_old/translations/generateLanguageCodesDocs.py
-	python3 ./chores/_old/translations/generateTranslationFilesDocs.py
+	python3 ./chores/main.py translation
 
 generate_xml:
 	source ./.venv/bin/activate

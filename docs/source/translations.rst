@@ -1,10 +1,14 @@
 Translations
 ============
 
-Documentation for translation files and supported language codes.
+Documentation description not provided.
+
+Table of Contents
+-----------------
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
 
-   translations/translation_files
    translations/language_codes
+   translations/translation_files
