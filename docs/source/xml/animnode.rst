@@ -187,6 +187,23 @@ m_TrackTimeToVariable
 
 No description provided.
 
+m_Finished
+""""""""""
+
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   1
+
+.. attribute:: Type
+
+   ``xs:string``
+
+Looks unused.
+
 m_Looped
 """"""""
 
@@ -863,7 +880,7 @@ m_Type
 
 .. attribute:: Type
 
-   :ref:`enum_Type <animnode-enum_type>`
+   :ref:`rule_Type <animnode-rule_type>`
 
 No description provided.
 
@@ -886,6 +903,74 @@ No description provided.
 
 m_Value
 """""""
+
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   ``xs:string``
+
+No description provided.
+
+m_IntValue
+""""""""""
+
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   ``xs:integer``
+
+No description provided.
+
+m_FloatValue
+""""""""""""
+
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   ``xs:float``
+
+No description provided.
+
+m_BoolValue
+"""""""""""
+
+.. attribute:: Minimum occurence
+
+   0
+
+.. attribute:: Maximum occurence
+
+   unbounded
+
+.. attribute:: Type
+
+   ``xs:boolean``
+
+No description provided.
+
+m_StringValue
+"""""""""""""
 
 .. attribute:: Minimum occurence
 
@@ -964,7 +1049,7 @@ m_Time
 
 .. attribute:: Type
 
-   ``xs:string``
+   :ref:`rule_Time <animnode-rule_time>`
 
 The moment during the animation when the event will be triggered. This can be set to Start or End.
 
@@ -981,7 +1066,7 @@ m_TimePc
 
 .. attribute:: Type
 
-   ``xs:float``
+   :ref:`rule_TimePc <animnode-rule_timepc>`
 
 The moment during the animation when the event will be triggered. This uses a normalized time, so ``0`` is the start and ``1`` is the end. In comparison to ``m_Time``\ , this allows for more precision of when to trigger the event.
 
@@ -1206,14 +1291,14 @@ weight
 No description provided.
 
 
-.. _animnode-enum_type:
+.. _animnode-rule_type:
 
-enum_Type
+rule_Type
 ---------
 
 .. attribute:: Type
 
-   :ref:`enum_Type <animnode-enum_type>`
+   :ref:`rule_Type <animnode-rule_type>`
 
 .. attribute:: Composition
 
@@ -1240,4 +1325,52 @@ Restrictions
 * ``STRNEQ``
 * ``GTR``
 * ``LESS``
+
+.. _animnode-rule_time:
+
+rule_Time
+---------
+
+.. attribute:: Type
+
+   :ref:`rule_Time <animnode-rule_time>`
+
+.. attribute:: Composition
+
+   all
+
+Restrictions
+^^^^^^^^^^^^
+
+.. attribute:: Base
+
+   ``xs:string``
+
+.. attribute:: Enumeration
+
+   
+
+* ``Start``
+* ``End``
+
+.. _animnode-rule_timepc:
+
+rule_TimePc
+-----------
+
+.. attribute:: Type
+
+   :ref:`rule_TimePc <animnode-rule_timepc>`
+
+.. attribute:: Composition
+
+   all
+
+Restrictions
+^^^^^^^^^^^^
+
+.. attribute:: Base
+
+   ``xs:float``
+
 
