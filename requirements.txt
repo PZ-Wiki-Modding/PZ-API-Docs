@@ -1,4 +1,0 @@
-sphinx>=5.0
-pyyaml
-pydata_sphinx_theme
-m2r

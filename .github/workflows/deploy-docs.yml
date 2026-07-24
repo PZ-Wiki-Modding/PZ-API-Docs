@@ -6,9 +6,10 @@ on:
       - 'main'
     paths:
       - 'docs/**'
-      - 'chores/**'
+      - 'src/**'
       - '.github/workflows/deploy-docs.yml'
       - 'project.json'
+      - 'pyproject.toml'
   schedule:
     - cron: '0 0 * * *' # every day at midnight
   pull_request:
@@ -27,12 +28,12 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v6.1.0
         with:
-          python-version: '3.14'
+          python-version: '3.12.3'
           cache: 'pip'
 
       - name: Install dependencies
         run: | 
-          pip install -r requirements.txt
+          pip install .
       
       - name: Build Sphinx
         run: |

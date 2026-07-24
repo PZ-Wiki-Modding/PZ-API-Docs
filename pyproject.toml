@@ -1,0 +1,16 @@
+[project]
+name = "pz-api-docs"
+description = "PZ API Documentation provides a comprehensive reference for the Project Zomboid API generated automatically from various datasets and sources."
+requires-python = ">=3.12.3"
+version = "1.0.0"
+license = "Custom"
+license-files = ["LICENSE"]
+authors = [
+  { name = "SimKDT" },
+]
+dependencies = [
+    "sphinx>=5.0",
+    "pyyaml",
+    "pydata_sphinx_theme",
+    "m2r"
+]

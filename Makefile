@@ -18,6 +18,7 @@ clean:
 
 generate_scripts:
 	source ./.venv/bin/activate
+<<<<<<< HEAD
 	python3 ./chores/_old/scripts/generateScriptsDocs.py
 	python3 ./chores/main.py scripts
 
@@ -45,6 +46,35 @@ generate_translations:
 generate_xml:
 	source ./.venv/bin/activate
 	python3 ./chores/main.py xml
+=======
+	python3 ./src/scripts/generateScriptsDocs.py
+
+generate_mapping:
+	source ./.venv/bin/activate
+	python3 ./src/mapping/generateRoomsDocs.py
+	python3 ./src/mapping/generateRoomsDistributionDocs.py
+	python3 ./src/mapping/generateItemPickerContainerPropertiesDocs.py
+	python3 ./src/mapping/generateProceduralDistributionsDocs.py
+	python3 ./src/mapping/generateTilePropertiesDocs.py
+
+generate_java:
+	source ./.venv/bin/activate
+	python3 ./src/java/generateColorsDocs.py
+	python3 ./src/java/generateItemTagsDocs.py
+	python3 ./src/java/generateActionSoundTimeDocs.py
+	python3 ./src/java/generateMagazineSubjectDocs.py
+	python3 ./src/java/generateMetabolicsDocs.py
+	python3 ./src/java/generateItemBodyLocationDocs.py
+
+generate_translations:
+	source ./.venv/bin/activate
+	python3 ./src/translations/generateLanguageCodesDocs.py
+	python3 ./src/translations/generateTranslationFilesDocs.py
+
+generate_xml:
+	source ./.venv/bin/activate
+	python3 ./src/xml/generateXMLDocs.py
+>>>>>>> 4ca061f (reorganize files into src folder, include pyproject for details on the python setup. Added LICENSE and CONTRIBUTING files)
 
 generate: generate_scripts generate_mapping generate_java generate_translations generate_xml
 

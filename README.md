@@ -12,3 +12,9 @@ It also links to other resources relevant to the documentation:
 - The [unofficial B42 JavaDocs](https://demiurgequantified.github.io/ProjectZomboidJavaDocs/)
 - The [ZedScripts](https://github.com/PZ-Wiki-Modding/ZedScripts) VSCode extension
 - The [unofficial LuaDocs](https://demiurgequantified.github.io/ProjectZomboidLuaDocs/)
+
+## Contributing
+If you want to contribute to this project, please see [CONTRIBUTING](CONTRIBUTING.md) for more information.
+
+## LICENSE
+See [LICENSE](LICENSE) for more information.
