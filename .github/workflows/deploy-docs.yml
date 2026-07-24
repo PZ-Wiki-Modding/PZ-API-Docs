@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
     paths:
-      - 'docs/**'
+      - 'docs/source/**'
       - 'src/**'
       - '.github/workflows/deploy-docs.yml'
       - 'project.json'
