@@ -40,7 +40,7 @@ TOC_CONTRIBUTING = """
 You can contribute to this documentation by editing the `pz-scripts-data <https://github.com/PZ-Wiki-Modding/pz-scripts-data>`_ repository. You can read more about it `here <https://github.com/PZ-Wiki-Modding/pz-scripts-data/blob/main/CONTRIBUTING.md>`_.
 """
 
-ITEMTYPE_PARAMETERS_PATH = PROJECT_ROOT / "pz-scripts-data" / "out" / "itemParameters.json"
+ITEMTYPE_PARAMETERS_PATH = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "itemParameters.json"
 ITEMTYPE_PARAMETERS_DESCRIPTION = """
 Specific parameters are only available for certain :ref:`scripts-item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
 """
@@ -275,7 +275,7 @@ class ScriptsDocObject(DocObject):
 class ScriptsDocumentation(Documentation):
     title = "ScriptsDocs"
     doc_type = "scripts"
-    data_path = PROJECT_ROOT / "pz-scripts-data" / "out" / "scriptBlocks.json"
+    data_path = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "scriptBlocks.json"
 
     docObject = ScriptsDocObject
 

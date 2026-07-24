@@ -18,7 +18,7 @@ def generate_procedural_distributions_docs():
     # Define paths
     script_dir = Path(__file__).parent.parent.parent
     repo_root = script_dir.parent
-    distributions_json_path = repo_root / "pz-lua-parser" / "out" / "procedural_distributions.json"
+    distributions_json_path = repo_root / "external" / "pz-lua-parser" / "out" / "procedural_distributions.json"
     distributions_rst_path = repo_root / "docs" / "source" / "mapping" / "procedural_distributions.rst"
     
     # Read distributions from JSON
@@ -34,7 +34,7 @@ def generate_procedural_distributions_docs():
         return False
     
     # Load item names
-    item_names_path = repo_root / "pz-lua-parser" / "out" / "item_names.json"
+    item_names_path = repo_root / "external" / "pz-lua-parser" / "out" / "item_names.json"
     try:
         with open(item_names_path, 'r') as f:
             item_names = json.load(f)

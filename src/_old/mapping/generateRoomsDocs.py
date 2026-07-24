@@ -14,7 +14,7 @@ def generate_room_docs():
     # Define paths
     script_dir = Path(__file__).parent.parent.parent
     repo_root = script_dir.parent
-    rooms_json_path = repo_root / "pz-lua-parser" / "out" / "rooms.json"
+    rooms_json_path = repo_root / "external" / "pz-lua-parser" / "out" / "rooms.json"
     rooms_rst_path = repo_root / "docs" / "source" / "mapping" / "rooms.rst"
     
     # Read rooms from JSON

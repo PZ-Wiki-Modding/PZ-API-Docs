@@ -247,7 +247,7 @@ class XMLDocObject(DocObject):
 class XMLDocumentation(Documentation):
     title = "XML"
     doc_type = "xml"
-    data_path = PROJECT_ROOT / "pz-xml-data" / "out" / "data.json"
+    data_path = PROJECT_ROOT / "external" / "pz-xml-data" / "out" / "data.json"
 
     docObject = XMLDocObject
 

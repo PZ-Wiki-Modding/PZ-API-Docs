@@ -15,7 +15,7 @@ def generate_properties_docs():
     # Define paths
     script_dir = Path(__file__).parent.parent.parent
     repo_root = script_dir.parent
-    properties_yaml_path = repo_root / "pz-lua-parser" / "data" / "ItemPickerContainer_properties.yaml"
+    properties_yaml_path = repo_root / "external" / "pz-lua-parser" / "data" / "ItemPickerContainer_properties.yaml"
     properties_rst_path = repo_root / "docs" / "source" / "mapping" / "item_picker_container_properties.rst"
     
     # Read properties from YAML

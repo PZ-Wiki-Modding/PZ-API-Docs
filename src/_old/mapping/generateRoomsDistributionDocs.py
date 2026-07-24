@@ -14,8 +14,8 @@ def generate_distributions_docs():
     # Define paths
     script_dir = Path(__file__).parent.parent.parent
     repo_root = script_dir.parent
-    distributions_json_path = repo_root / "pz-lua-parser" / "out" / "distributions.json"
-    procedural_json_path = repo_root / "pz-lua-parser" / "out" / "procedural_distributions.json"
+    distributions_json_path = repo_root / "external" / "pz-lua-parser" / "out" / "distributions.json"
+    procedural_json_path = repo_root / "external" / "pz-lua-parser" / "out" / "procedural_distributions.json"
     distributions_rst_path = repo_root / "docs" / "source" / "mapping" / "rooms_distributions.rst"
     
     # Read distributions from JSON

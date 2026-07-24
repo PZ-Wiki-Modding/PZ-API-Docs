@@ -13,7 +13,7 @@ def generate_metabolics_docs():
     # Define paths
     script_dir = Path(__file__).parent.parent.parent
     repo_root = script_dir.parent
-    metabolics_json_path = repo_root / "pz-java-parser" / "out" / "metabolics.json"
+    metabolics_json_path = repo_root / "external" / "pz-java-parser" / "out" / "metabolics.json"
     metabolics_rst_path = repo_root / "docs" / "source" / "java" / "metabolics.rst"
     
     # Read metabolics data from JSON

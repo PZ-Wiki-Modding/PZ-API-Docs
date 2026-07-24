@@ -14,7 +14,7 @@ def generate_item_tags_docs():
     # Define paths
     script_dir = Path(__file__).parent.parent.parent
     repo_root = script_dir.parent
-    item_tags_json_path = repo_root / "pz-java-parser" / "out" / "item_tags.json"
+    item_tags_json_path = repo_root / "external" / "pz-java-parser" / "out" / "item_tags.json"
     item_tags_rst_path = repo_root / "docs" / "source" / "java" / "item_tags.rst"
     
     # Read item tags from JSON

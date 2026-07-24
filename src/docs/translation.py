@@ -115,8 +115,8 @@ class TranslationDocumentation(Documentation):
     title = "Translations"
     doc_type = "translation"
 
-    data_path_files = PROJECT_ROOT / "pz-translation-data" / "out" / "translationFiles.json"
-    data_path_codes = PROJECT_ROOT / "pz-translation-data" / "out" / "languageCodes.json"
+    data_path_files = PROJECT_ROOT / "external" / "pz-translation-data" / "out" / "translationFiles.json"
+    data_path_codes = PROJECT_ROOT / "external" / "pz-translation-data" / "out" / "languageCodes.json"
 
     toc_path = PROJECT_ROOT / "docs" / "source" / "translations.rst"
 

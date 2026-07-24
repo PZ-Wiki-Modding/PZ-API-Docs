@@ -13,7 +13,7 @@ def generate_colors_docs():
     # Define paths
     script_dir = Path(__file__).parent.parent.parent
     repo_root = script_dir.parent
-    colors_json_path = repo_root / "pz-java-parser" / "out" / "colors.json"
+    colors_json_path = repo_root / "external" / "pz-java-parser" / "out" / "colors.json"
     colors_rst_path = repo_root / "docs" / "source" / "java" / "colors.rst"
     
     # Read colors from JSON
