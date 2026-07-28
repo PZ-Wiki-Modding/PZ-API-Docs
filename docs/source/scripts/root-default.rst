@@ -19,8 +19,8 @@ Hierarchy
 
 This block can have the following child blocks:
 
-- :ref:`maps <scripts-maps>`
 - :ref:`mods <scripts-mods>`
+- :ref:`maps <scripts-maps>`
 
 This block requires these following children to be valid:
 

@@ -65,7 +65,7 @@ animationsMesh
 
 .. attribute:: Type
 
-   block (block: :ref:`animationsMesh <scripts-animationsmesh>`)
+   block (block: :ref:`animationsMesh <scripts-animationsmesh>`, with :ref:`scripts-module`)
 
 Sets the `animations mesh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/animationsmesh.html>`_ for the model. This is used for models that are used for entities such as the character or animals.
 
@@ -238,7 +238,7 @@ shader
 
 .. attribute:: Type
 
-   Unknown
+   string
 
 Used to control what shader will apply on the model. The most common shaders which are used by the game are:
 

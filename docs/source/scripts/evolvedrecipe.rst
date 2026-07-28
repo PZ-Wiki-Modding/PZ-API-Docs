@@ -128,7 +128,7 @@ Cookable
    
 * ``true``
 
-If true, the `ResultItem <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html#resultitem>`_ will be cookable.
+If this parameter is present, the `ResultItem <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html#resultitem>`_ will be cookable. Setting it to false will **NOT** make this value false internally, you need to remove the parameter entirely to make it false.
 
 
 .. _scripts-evolvedrecipe-maxitems:

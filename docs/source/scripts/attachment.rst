@@ -79,11 +79,8 @@ offset
 
    array (array of float, separator: ' ')
 
-The position offset of the model relative to the bone. This is a vector in the format ``x y z``. 
-
-.. code-block:: cpp
-
-   offset = -0.0300 -0.1020 0.1210,
+The position offset of the model relative to the bone. This is a vector in the format ``x y z``. ``cpp
+offset = -0.0300 -0.1020 0.1210,``
 
 
 .. _scripts-attachment-rotate:
@@ -139,13 +136,10 @@ bone
 
    Unknown
 
-.. code-block::
-
-   The name of the bone to which the model is attached to. 
-
+The name of the bone to which the model is attached to.
 
 .. code-block:: cpp
 
-    bone = Bip01_L_Hand,
+   bone = Bip01_L_Hand,
 
 

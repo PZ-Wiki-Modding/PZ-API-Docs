@@ -21,8 +21,8 @@ Hierarchy
 
 This block can have the following child blocks:
 
-- :ref:`rule <scripts-rule>`
 - :ref:`alias <scripts-alias>`
+- :ref:`rule <scripts-rule>`
 
 
 
