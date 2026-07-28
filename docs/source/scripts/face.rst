@@ -41,15 +41,15 @@ This block can have an ID.
 .. attribute:: Allowed ID
 
    
-* ``SINGLE``
-* ``S``
-* ``E``
-* ``W``
-* ``N``
-* ``S_OPEN``
-* ``E_OPEN``
-* ``W_OPEN``
-* ``N_OPEN``
+   * SINGLE
+   * S
+   * E
+   * W
+   * N
+   * S_OPEN
+   * E_OPEN
+   * W_OPEN
+   * N_OPEN
 
 
 Parameters

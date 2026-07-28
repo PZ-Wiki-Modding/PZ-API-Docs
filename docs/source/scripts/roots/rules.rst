@@ -14,7 +14,7 @@ ROOT-Rules
 .. attribute:: Root patterns
 
    
-* ````Rules\.txt$````
+   * ``Rules\.txt$``
 
 The ``Rules.txt`` file is used in the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_ to define new `BMP to TMX <https://pzwiki.net/wiki/BMP_to_TMX>`_ conversion rules. You can store this file anywhere on your computer and you need to reference it in the BMP Tool settings.
 

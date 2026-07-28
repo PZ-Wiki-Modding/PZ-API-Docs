@@ -18,7 +18,7 @@ ROOT-ModInfo
 .. attribute:: Root patterns
 
    
-* ````mod\.info$````
+   * ``mod\.info$``
 
 The mod.info file, which contains all the information about a mod.
 

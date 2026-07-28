@@ -40,12 +40,12 @@ maxEffect
 .. attribute:: Allowed values
 
    
-* ``None``
-* ``Mild``
-* ``Medium``
-* ``Severe``
-* ``Extreme``
-* ``Deadly``
+   * None
+   * Mild
+   * Medium
+   * Severe
+   * Extreme
+   * Deadly
 
 Defines the strength of the poison.
 

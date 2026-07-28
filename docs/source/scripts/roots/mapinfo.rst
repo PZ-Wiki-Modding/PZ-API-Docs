@@ -18,7 +18,7 @@ ROOT-MapInfo
 .. attribute:: Root patterns
 
    
-* ````media\/maps\/[\s\S]+\/map\.info$````
+   * ``media\/maps\/[\s\S]+\/map\.info$``
 
 The ``map.info`` file is used to define the map's information. It is used by the game to display the map in the map selection screen and to load the map into the world.
 It needs to be located in:

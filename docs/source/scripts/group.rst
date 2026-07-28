@@ -35,8 +35,8 @@ This block can have an ID.
 .. attribute:: Allowed ID
 
    
-* ``craft_inputs``
-* ``craft_outputs``
+   * craft_inputs
+   * craft_outputs
 
 
 Parameters

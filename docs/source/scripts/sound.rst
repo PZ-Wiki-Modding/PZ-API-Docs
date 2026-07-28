@@ -58,8 +58,8 @@ This block can have an ID.
 .. attribute:: No ID for parents
 
    
-* ``:ref:`vehicle <scripts-vehicle>```
-* ``:ref:`template <scripts-template>```
+   * :ref:`vehicle <scripts-vehicle>`
+   * :ref:`template <scripts-template>`
 
 
 Parameters
@@ -237,10 +237,10 @@ master
 .. attribute:: Allowed values
 
    
-* ``Primary``
-* ``Ambient``
-* ``Music``
-* ``VehicleEngine``
+   * Primary
+   * Ambient
+   * Music
+   * VehicleEngine
 
 Links the sound to a sound handling setting, which controls the volume of all sounds linked to it. This doesn't seems to be working properly, as some methods that call sounds will simply not take into account the current sound settings. You can find a relevant request about this issue on the #mod_portal channel of the official Discord `here <https://discord.com/channels/136501320340209664/1476602902607954043/1505634480939860119>`_.
 

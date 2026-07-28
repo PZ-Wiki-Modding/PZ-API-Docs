@@ -594,41 +594,41 @@ BloodLocation
 .. attribute:: Allowed values
 
    
-* ``Apron``
-* ``ShirtNoSleeves``
-* ``JumperNoSleeves``
-* ``Shirt``
-* ``ShirtLongSleeves``
-* ``Jumper``
-* ``Jacket``
-* ``LongJacket``
-* ``ShortsShort``
-* ``Trousers``
-* ``Shoes``
-* ``FullHelmet``
-* ``Bag``
-* ``Hands``
-* ``Head``
-* ``Neck``
-* ``Groin``
-* ``UpperBody``
-* ``LowerBody``
-* ``LowerLegs``
-* ``UpperLegs``
-* ``LowerArms``
-* ``UpperArms``
-* ``Hand_L``
-* ``Hand_R``
-* ``ForeArm_L``
-* ``ForeArm_R``
-* ``UpperArm_L``
-* ``UpperArm_R``
-* ``UpperLeg_L``
-* ``UpperLeg_R``
-* ``LowerLeg_L``
-* ``LowerLeg_R``
-* ``Foot_L``
-* ``Foot_R``
+   * Apron
+   * ShirtNoSleeves
+   * JumperNoSleeves
+   * Shirt
+   * ShirtLongSleeves
+   * Jumper
+   * Jacket
+   * LongJacket
+   * ShortsShort
+   * Trousers
+   * Shoes
+   * FullHelmet
+   * Bag
+   * Hands
+   * Head
+   * Neck
+   * Groin
+   * UpperBody
+   * LowerBody
+   * LowerLegs
+   * UpperLegs
+   * LowerArms
+   * UpperArms
+   * Hand_L
+   * Hand_R
+   * ForeArm_L
+   * ForeArm_R
+   * UpperArm_L
+   * UpperArm_R
+   * UpperLeg_L
+   * UpperLeg_R
+   * LowerLeg_L
+   * LowerLeg_R
+   * Foot_L
+   * Foot_R
 
 No description provided.
 
@@ -2812,21 +2812,21 @@ ItemType
 .. attribute:: Allowed values
 
    
-* ``base:alarmclock``
-* ``base:alarmclockclothing``
-* ``base:animal``
-* ``base:clothing``
-* ``base:container``
-* ``base:drainable``
-* ``base:food``
-* ``base:key``
-* ``base:literature``
-* ``base:map``
-* ``base:moveable``
-* ``base:normal``
-* ``base:radio``
-* ``base:weapon``
-* ``base:weaponpart``
+   * base:alarmclock
+   * base:alarmclockclothing
+   * base:animal
+   * base:clothing
+   * base:container
+   * base:drainable
+   * base:food
+   * base:key
+   * base:literature
+   * base:map
+   * base:moveable
+   * base:normal
+   * base:radio
+   * base:weapon
+   * base:weaponpart
 
 Defines the class of the item which will impact which parameters the item can take and its properties as well as how it is used by the player. Clothing for instance will handle differently their texture and model in comparison to the other type of items, containers can hold items and weapons can be used by the player to attack and deal damage. You cannot use a custom class of item and only the ones accepted by the game.
 

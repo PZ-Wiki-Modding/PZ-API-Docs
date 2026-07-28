@@ -55,4 +55,6 @@ class Metadata(Generic[DocObjectT]):
     @staticmethod
     def format_metadata(key: str, value: str | None) -> str:
         """Helper method to format a single metadata key-value pair."""
+        value = str(value)
+        value = f"\n{INDENT}".join(value.split('\n'))
         return f".. attribute:: {key}\n\n{INDENT}{value}\n"

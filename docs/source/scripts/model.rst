@@ -52,7 +52,7 @@ This block can have an ID.
 .. attribute:: No ID for parents
 
    
-* ``:ref:`vehicle <scripts-vehicle>```
+   * :ref:`vehicle <scripts-vehicle>`
 
 
 Parameters
@@ -134,9 +134,9 @@ cullFace
 .. attribute:: Allowed values
 
    
-* ``Back``
-* ``Front``
-* ``None``
+   * Back
+   * Front
+   * None
 
 Sets an OpenGL face culling mode for the model. By default the culling mode will be ``-1``\ , which defaults to ``Front``
 

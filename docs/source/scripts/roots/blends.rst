@@ -18,7 +18,7 @@ ROOT-Blends
 .. attribute:: Root patterns
 
    
-* ````Blends\.txt$````
+   * ``Blends\.txt$``
 
 The ``Blends.txt`` file is used in the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_ to assign blend tiles around the tiles you paint.
 

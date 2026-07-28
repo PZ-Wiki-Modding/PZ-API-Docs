@@ -44,8 +44,8 @@ VERSION
 .. attribute:: Allowed values
 
    
-* ``1``
-* ``2``
+   * 1
+   * 2
 
 The version of the tile geometry file format. The vanilla files use version ``2``.
 

@@ -25,7 +25,7 @@ def list_formatter(obj: "DocObject", key: str, value_list: list) -> str:
         return code_value_formatter(obj.name, key, value_list)
     out = ""
     for i, v in enumerate(value_list):
-        out += f"* {code_value_formatter(obj.name, key, v)}\n"
+        out += f"* {v}\n"
     return "\n" + out.strip()
 
 def code_list_formatter(obj: "DocObject", key: str, value_list: list) -> str:

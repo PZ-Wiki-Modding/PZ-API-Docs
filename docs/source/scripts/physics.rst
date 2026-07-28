@@ -36,9 +36,9 @@ This block can have an ID.
 .. attribute:: Allowed ID
 
    
-* ``box``
-* ``sphere``
-* ``mesh``
+   * box
+   * sphere
+   * mesh
 
 
 Parameters

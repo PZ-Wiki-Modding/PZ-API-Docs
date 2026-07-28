@@ -572,9 +572,9 @@ mechanicType
 .. attribute:: Allowed values
 
    
-* ``1``
-* ``2``
-* ``3``
+   * 1
+   * 2
+   * 3
 
 Defines what class the vehicle is, that is 1 for standard, 2 for heavy-duty and 3 for performance.
 

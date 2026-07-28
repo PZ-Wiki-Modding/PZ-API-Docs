@@ -94,7 +94,7 @@ filterType
 .. attribute:: Allowed values
 
    
-* ``whitelist``
+   * whitelist
 
 Just use `whitelist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#whitelist>`_ or `blacklist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#blacklist>`_.
 

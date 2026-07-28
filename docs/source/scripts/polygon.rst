@@ -66,9 +66,9 @@ plane
 .. attribute:: Allowed values
 
    
-* ``XY``
-* ``XZ``
-* ``YZ``
+   * XY
+   * XZ
+   * YZ
 
 No description provided.
 

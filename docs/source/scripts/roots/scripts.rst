@@ -14,7 +14,7 @@ ROOT-Scripts
 .. attribute:: Root patterns
 
    
-* ````media\/scripts\/[\s\S]+\.txt$````
+   * ``media\/scripts\/[\s\S]+\.txt$``
 
 The root of a script file. Blocks than need to be in the root of the document should have this as parent.
 

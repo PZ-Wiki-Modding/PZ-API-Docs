@@ -118,8 +118,8 @@ InitialPercent
 .. attribute:: Incompatible with
 
    
-* ``:ref:`InitialPercentMin <scripts-component-fluidcontainer-initialpercentmin>```
-* ``:ref:`InitialPercentMax <scripts-component-fluidcontainer-initialpercentmax>```
+   * :ref:`InitialPercentMin <scripts-component-fluidcontainer-initialpercentmin>`
+   * :ref:`InitialPercentMax <scripts-component-fluidcontainer-initialpercentmax>`
 
 No description provided.
 
@@ -140,7 +140,7 @@ InitialPercentMax
 .. attribute:: Incompatible with
 
    
-* ``:ref:`InitialPercent <scripts-component-fluidcontainer-initialpercent>```
+   * :ref:`InitialPercent <scripts-component-fluidcontainer-initialpercent>`
 
 The minimum amount of fluid which will appear in this container.
 
@@ -161,7 +161,7 @@ InitialPercentMin
 .. attribute:: Incompatible with
 
    
-* ``:ref:`InitialPercent <scripts-component-fluidcontainer-initialpercent>```
+   * :ref:`InitialPercent <scripts-component-fluidcontainer-initialpercent>`
 
 The maximum amount of fluid which will appear in this container.
 

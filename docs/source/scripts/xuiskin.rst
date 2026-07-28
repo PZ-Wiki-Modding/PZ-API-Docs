@@ -43,7 +43,7 @@ This block can have an ID.
 .. attribute:: Forbidden ID
 
    
-* ``default``
+   * default
 
 
 Parameters

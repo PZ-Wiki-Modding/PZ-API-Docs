@@ -14,7 +14,7 @@ ROOT-SandboxOptions
 .. attribute:: Root patterns
 
    
-* ````media\/sandbox-options\.txt$````
+   * ``media\/sandbox-options\.txt$``
 
 The root of a sandbox options file. The file should be stored in the following path:
 
@@ -60,7 +60,7 @@ VERSION
 .. attribute:: Allowed values
 
    
-* ``1``
+   * 1
 
 The version of the handler of the sandbox options. Keep this equal to 1.
 

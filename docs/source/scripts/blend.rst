@@ -164,14 +164,14 @@ dir
 .. attribute:: Allowed values
 
    
-* ``n``
-* ``ne``
-* ``e``
-* ``se``
-* ``s``
-* ``sw``
-* ``w``
-* ``nw``
+   * n
+   * ne
+   * e
+   * se
+   * s
+   * sw
+   * w
+   * nw
 
 The direction the blend applies to.
 

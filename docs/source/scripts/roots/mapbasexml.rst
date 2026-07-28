@@ -18,7 +18,7 @@ ROOT-MapBaseXML
 .. attribute:: Root patterns
 
    
-* ````MapBaseXML\.txt$````
+   * ``MapBaseXML\.txt$``
 
 The ``MapBaseXML.txt`` file is used to configure the layers of the TMX file.
 

@@ -36,34 +36,34 @@ This block can have an ID.
 .. attribute:: Allowed ID
 
    
-* ``CraftRecipe``
-* ``SpriteConfig``
-* ``UiConfig``
-* ``CraftBench``
-* ``CraftBenchSounds``
-* ``Resources``
-* ``DryingCraftLogic``
-* ``SpriteOverlayConfig``
-* ``Durability``
-* ``FluidContainer``
-* ``ContextMenuConfig``
-* ``WallCoveringConfig``
+   * CraftRecipe
+   * SpriteConfig
+   * UiConfig
+   * CraftBench
+   * CraftBenchSounds
+   * Resources
+   * DryingCraftLogic
+   * SpriteOverlayConfig
+   * Durability
+   * FluidContainer
+   * ContextMenuConfig
+   * WallCoveringConfig
 
 .. attribute:: Variants
 
    
-* ``:ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>```
-* ``:ref:`component CraftRecipe <scripts-component-craftrecipe>```
-* ``:ref:`component UiConfig <scripts-component-uiconfig>```
-* ``:ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>```
-* ``:ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>```
-* ``:ref:`component SpriteConfig <scripts-component-spriteconfig>```
-* ``:ref:`component Resources <scripts-component-resources>```
-* ``:ref:`component CraftBench <scripts-component-craftbench>```
-* ``:ref:`component FluidContainer <scripts-component-fluidcontainer>```
-* ``:ref:`component Durability <scripts-component-durability>```
-* ``:ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>```
-* ``:ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>```
+   * :ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>`
+   * :ref:`component CraftRecipe <scripts-component-craftrecipe>`
+   * :ref:`component UiConfig <scripts-component-uiconfig>`
+   * :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
+   * :ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>`
+   * :ref:`component SpriteConfig <scripts-component-spriteconfig>`
+   * :ref:`component Resources <scripts-component-resources>`
+   * :ref:`component CraftBench <scripts-component-craftbench>`
+   * :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+   * :ref:`component Durability <scripts-component-durability>`
+   * :ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>`
+   * :ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>`
 
 
 Parameters

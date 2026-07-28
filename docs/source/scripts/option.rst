@@ -52,11 +52,11 @@ type
 .. attribute:: Allowed values
 
    
-* ``boolean``
-* ``integer``
-* ``double``
-* ``string``
-* ``enum``
+   * boolean
+   * integer
+   * double
+   * string
+   * enum
 
 The type of the option.
 
