@@ -1,4 +1,4 @@
-.. _scripts-root-mapinfo:
+.. _scripts-mapinfo:
 
 ROOT-MapInfo
 ============

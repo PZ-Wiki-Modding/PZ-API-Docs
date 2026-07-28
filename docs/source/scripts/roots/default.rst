@@ -1,4 +1,4 @@
-.. _scripts-root-default:
+.. _scripts-default:
 
 ROOT-Default
 ============

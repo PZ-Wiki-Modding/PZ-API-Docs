@@ -31,6 +31,26 @@ Contributing
 
 You can contribute to this documentation by editing the `pz-scripts-data <https://github.com/PZ-Wiki-Modding/pz-scripts-data>`_ repository. You can read more about it `here <https://github.com/PZ-Wiki-Modding/pz-scripts-data/blob/main/CONTRIBUTING.md>`_.
 
+Root Files
+----------
+
+.. toctree::
+   :maxdepth: 4
+   :titlesonly:
+
+   scripts/roots/blends
+   scripts/roots/default
+   scripts/roots/mapbasexml
+   scripts/roots/mapinfo
+   scripts/roots/modinfo
+   scripts/roots/rules
+   scripts/roots/sandboxoptions
+   scripts/roots/scripts
+   scripts/roots/spritemodels
+   scripts/roots/tilegeometry
+   scripts/roots/tmxconfig
+
+
 Table of Contents
 -----------------
 
@@ -116,17 +136,6 @@ Table of Contents
    scripts/progress
    scripts/properties
    scripts/ragdoll
-   scripts/root-blends
-   scripts/root-default
-   scripts/root-mapbasexml
-   scripts/root-mapinfo
-   scripts/root-modinfo
-   scripts/root-rules
-   scripts/root-sandboxoptions
-   scripts/root-scripts
-   scripts/root-spritemodels
-   scripts/root-tilegeometry
-   scripts/root-tmxconfig
    scripts/rule
    scripts/skin
    scripts/sound

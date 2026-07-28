@@ -1,4 +1,4 @@
-.. _scripts-root-spritemodels:
+.. _scripts-spritemodels:
 
 ROOT-SpriteModels
 =================

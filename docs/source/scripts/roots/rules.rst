@@ -1,4 +1,4 @@
-.. _scripts-root-rules:
+.. _scripts-rules:
 
 ROOT-Rules
 ==========

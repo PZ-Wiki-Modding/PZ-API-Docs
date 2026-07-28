@@ -23,7 +23,22 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'sphinx.ext.viewcode',
+    'sphinx_reredirects',
 ]
+
+redirects = {
+    "scripts/root-blends": "./roots/blends.html",
+    "scripts/root-default": "./roots/default.html",
+    "scripts/root-mapbasexml": "./roots/mapbasexml.html",
+    "scripts/root-mapinfo": "./roots/mapinfo.html",
+    "scripts/root-modinfo": "./roots/modinfo.html",
+    "scripts/root-rules": "./roots/rules.html",
+    "scripts/root-sandboxoptions": "./roots/sandboxoptions.html",
+    "scripts/root-scripts": "./roots/scripts.html",
+    "scripts/root-spritemodels": "./roots/spritemodels.html",
+    "scripts/root-tilegeometry": "./roots/tilegeometry.html",
+    "scripts/root-tmxconfig": "./roots/tmxconfig.html",
+}
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

@@ -4,8 +4,13 @@ if __name__ == "__main__":
 import json
 from pathlib import Path
 
-from documentation import Documentation, DocObject, DocObjectT, code_value_formatter, list_formatter
-from project import PROJECT_ROOT, sanitize_description
+from documentation import (
+    Documentation, 
+    DocObject, DocObjectT, 
+    code_value_formatter, list_formatter, 
+    TOC_TITLE
+)
+from project import PROJECT_ROOT, sanitize_description, INDENT
 from utility.metadata import Metadata
 from utility.rst import Headers, make_ref_label
 
@@ -175,12 +180,22 @@ class ScriptsDocObject(DocObject):
     data: dict
     headerMetadata = block_metadata
 
+    def sanitize_id(self, name: str) -> str:
+        isRoot = self.data.get("isRoot", False)
+        id = name.lower().replace(' ', '-')
+        if isRoot:
+            return id.replace('root-', '')
+        return id
+
     def get_object_path(self) -> Path:
         """Retrieve the output path for a specific object's documentation."""
         # default output path is the toc path directory with the toc path's stem
         object_out_dir = self.doc.toc_path.parent / self.doc.toc_path.stem
+        isRoot = self.data.get("isRoot", None)
         isVariant = self.data.get("isVariant", None)
-        if isVariant is not None:
+        if isRoot is not None:
+            object_out_dir = object_out_dir / 'roots'
+        elif isVariant is not None:
             variant_out_path = None
             for object in self.doc.objects:
                 if object.data["name"] == isVariant:
@@ -284,6 +299,26 @@ class ScriptsDocumentation(Documentation):
     toc_path = PROJECT_ROOT / "docs" / "source" / "scripts.rst"
     toc_description = TOC_DESCRIPTION
     toc_depth = 4
+
+    def make_toc_tree(self, toc_elements: list[Path], toc_depth: int = 2, title: str = TOC_TITLE) -> str:
+        """Create a TOC string for the script blocks and root files."""
+        # filter root elements out
+        root_elements = [element for element in toc_elements if "roots" in str(element)]
+
+        # filter non-root elements
+        non_root_elements = [element for element in toc_elements if element not in root_elements]
+
+        out = super().make_toc_tree(root_elements, toc_depth, title="Root Files")
+        out += "\n\n"
+        out += super().make_toc_tree(non_root_elements, toc_depth)
+
+        # out = Headers.SUBSECTION.make(title)
+        # out += ".. toctree::" + "\n"
+        # out += f"   :maxdepth: {toc_depth}\n"
+        # out += "   :titlesonly:\n\n"
+        # for element in toc_elements:
+        #     out += f"{INDENT}{element}\n"
+        return out
 
     def generate_instructions(self) -> str | None:
         return TOC_INSTRUCTIONS

@@ -1,4 +1,4 @@
-.. _scripts-root-tilegeometry:
+.. _scripts-tilegeometry:
 
 ROOT-TileGeometry
 =================

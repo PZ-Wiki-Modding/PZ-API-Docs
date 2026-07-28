@@ -1,4 +1,4 @@
-.. _scripts-root-sandboxoptions:
+.. _scripts-sandboxoptions:
 
 ROOT-SandboxOptions
 ===================

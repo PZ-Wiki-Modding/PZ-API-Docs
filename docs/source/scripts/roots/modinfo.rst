@@ -1,4 +1,4 @@
-.. _scripts-root-modinfo:
+.. _scripts-modinfo:
 
 ROOT-ModInfo
 ============

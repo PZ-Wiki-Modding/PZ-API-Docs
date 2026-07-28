@@ -1,4 +1,4 @@
-.. _scripts-root-blends:
+.. _scripts-blends:
 
 ROOT-Blends
 ===========

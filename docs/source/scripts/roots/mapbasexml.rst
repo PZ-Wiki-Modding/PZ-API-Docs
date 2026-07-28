@@ -1,4 +1,4 @@
-.. _scripts-root-mapbasexml:
+.. _scripts-mapbasexml:
 
 ROOT-MapBaseXML
 ===============

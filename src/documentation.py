@@ -15,16 +15,6 @@ TOC_TITLE = "Table of Contents"
 
 ## UTILITY
 
-def make_toc_tree(toc_elements: list[Path], toc_depth: int = 2) -> str:
-    """Create a TOC tree string for the provided elements."""
-    out = Headers.SUBSECTION.make(TOC_TITLE)
-    out += ".. toctree::" + "\n"
-    out += f"   :maxdepth: {toc_depth}\n"
-    out += "   :titlesonly:\n\n"
-    for element in toc_elements:
-        out += f"{INDENT}{element}\n"
-    return out
-
 def code_value_formatter(object_type: str, key: str, value: str) -> str:
     """Format the value for metadata output."""
     return f"``{value}``"
@@ -48,10 +38,10 @@ class DocObject:
     def __init__(self, object_type: str, object_data: Any, doc: "Documentation", source_data: dict) -> None:
         self.name = object_type
         #FIXME: this is not stable across changes to object_type, use manifest of some sort ?
-        self.id = self.sanitize_id(object_type)
         self.data = object_data
         self.doc = doc
         self.source_data = source_data
+        self.id = self.sanitize_id(object_type)
     
     def sanitize_id(self, name: str) -> str:
         return name.lower().replace(' ', '-')
@@ -178,6 +168,16 @@ class Documentation(Generic[DocObjectT]):
             # store
             self.toc_elements.append(object_file_path)
 
+    def make_toc_tree(self, toc_elements: list[Path], toc_depth: int = 2, title: str = TOC_TITLE) -> str:
+        """Create a TOC tree string for the provided elements."""
+        out = Headers.SUBSECTION.make(title)
+        out += ".. toctree::" + "\n"
+        out += f"   :maxdepth: {toc_depth}\n"
+        out += "   :titlesonly:\n\n"
+        for element in toc_elements:
+            out += f"{INDENT}{element}\n"
+        return out
+
     def generate_toc(self) -> None:
         """Generate the table of contents (TOC) for the documentation."""
         # retrieve toc path
@@ -206,7 +206,7 @@ class Documentation(Generic[DocObjectT]):
             out += contribute.strip() + "\n\n"
 
         # make toc tree
-        out += make_toc_tree(toc_elements, self.toc_depth)
+        out += self.make_toc_tree(toc_elements, self.toc_depth)
 
         # output toc file
         with open(toc_path, "w") as f:

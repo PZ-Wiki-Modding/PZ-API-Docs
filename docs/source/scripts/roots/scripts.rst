@@ -1,4 +1,4 @@
-.. _scripts-root-scripts:
+.. _scripts-scripts:
 
 ROOT-Scripts
 ============

@@ -1,4 +1,4 @@
-.. _scripts-root-tmxconfig:
+.. _scripts-tmxconfig:
 
 ROOT-TMXconfig
 ==============
