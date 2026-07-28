@@ -15,6 +15,11 @@ ROOT-TMXconfig
 
    True
 
+.. attribute:: Root patterns
+
+   
+* ````TMXconfig\.txt$````
+
 The ``TMXconfig.txt`` file is used to configure the default layers which will be created in the TMX file.
 
 

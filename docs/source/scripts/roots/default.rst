@@ -11,6 +11,11 @@ ROOT-Default
 
    True
 
+.. attribute:: Root patterns
+
+   
+* ````mods/default\.txt$````
+
 The default.txt file is used to select the mods and maps that will be loaded by the game.
 
 

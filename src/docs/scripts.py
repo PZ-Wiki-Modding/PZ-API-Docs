@@ -7,7 +7,7 @@ from pathlib import Path
 from documentation import (
     Documentation, 
     DocObject, DocObjectT, 
-    code_value_formatter, list_formatter, 
+    code_value_formatter, list_formatter, code_list_formatter,
     TOC_TITLE
 )
 from project import PROJECT_ROOT, sanitize_description, INDENT
@@ -149,6 +149,7 @@ block_metadata = Metadata({
     "Is Root": {"access_key": "isRoot", "default": None},
     "Is Variant of": {"access_key": "isVariant", "formatter": _block_link_formatter, "default": None},
     "No comma": {"access_key": "noComma", "default": None},
+    "Root patterns": {"access_key": "pattern", "default": None, "formatter": code_list_formatter},
 })
 
 id_metadata = Metadata({

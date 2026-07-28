@@ -11,6 +11,11 @@ ROOT-SandboxOptions
 
    True
 
+.. attribute:: Root patterns
+
+   
+* ````media\/sandbox-options\.txt$````
+
 The root of a sandbox options file. The file should be stored in the following path:
 
 .. code-block::
