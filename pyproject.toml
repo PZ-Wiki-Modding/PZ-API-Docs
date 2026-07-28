@@ -8,8 +8,9 @@ authors = [
   { name = "SimKDT" },
 ]
 dependencies = [
-    "sphinx>=5.0",
+    "m2r",
     "pyyaml",
+    "sphinx>=5.0",
     "pydata_sphinx_theme",
-    "m2r"
+    "sphinx-reredirects",
 ]
