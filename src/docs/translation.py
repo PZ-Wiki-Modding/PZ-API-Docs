@@ -73,7 +73,8 @@ class _GenericTranslationDocObject(DocObject):
     def get_object_content(self) -> str:
         """Generate the content for a specific object's documentation."""
         out = ""
-        for key, item in self.data.items():
+        data = sorted(self.data.values(), key=lambda x: x['name'])
+        for item in data:
             name = item['name']
             out += f"{Headers.SUBSECTION.make(name, label = self.get_item_label(name))}"
 
