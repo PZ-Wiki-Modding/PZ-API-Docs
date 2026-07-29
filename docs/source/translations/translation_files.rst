@@ -79,6 +79,19 @@ ContextMenu
 
 Translations used in the context menus of the game.
 
+.. _translation-files-Credits_Translator:
+
+Credits_Translator
+------------------
+
+.. list-table::
+   :widths: auto
+
+   * - File Name
+     - Credits_Translator
+
+Provides the names of the translators for the specific language code. This is basically useless for mods and only used by the game.
+
 .. _translation-files-DynamicRadio:
 
 DynamicRadio
@@ -226,6 +239,19 @@ ItemName
      - ``^[A-Za-z0-9_]+\.[A-Za-z0-9_]+$``
 
 Translations for item scripts. The key needs to be the full type of the item.
+
+.. _translation-files-language:
+
+language
+--------
+
+.. list-table::
+   :widths: auto
+
+   * - File Name
+     - language
+
+Used to define a new language for the game. It needs to be stored inside a folder named after the new language code, and the file itself must be named "language.json".
 
 .. _translation-files-Location_Generic:
 

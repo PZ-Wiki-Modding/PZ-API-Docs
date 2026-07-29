@@ -118,7 +118,33 @@ ES
    :widths: auto
 
    * - Language Name
-     - Espanol (ES) - Spanish
+     - Español (España) - Spanish
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-ES_CL:
+
+ES_CL
+-----
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Español (Chile) - Chilean Spanish
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-ES_MX:
+
+ES_MX
+-----
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Español (México) - Mexican Spanish
    * - Encoding
      - UTF-8
 
@@ -314,6 +340,19 @@ RU
 
    * - Language Name
      - Russian
+   * - Encoding
+     - UTF-8
+
+.. _translation-codes-STREW:
+
+STREW
+-----
+
+.. list-table::
+   :widths: auto
+
+   * - Language Name
+     - Strewberrie
    * - Encoding
      - UTF-8
 
