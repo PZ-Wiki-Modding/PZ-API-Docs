@@ -1,0 +1,253 @@
+{
+    "xml.fileAssociations": [
+        {
+            "pattern": "**/clothing/clothing.xml",
+            "systemId": "https://raw.githubusercontent.com/PZ-Wiki-Modding/pz-xml-data/refs/heads/main/out/schemas/clothing.xsd"
+        },
+        {
+            "pattern": "**/media/fileGuidTable.xml",
+            "systemId": "https://raw.githubusercontent.com/PZ-Wiki-Modding/pz-xml-data/refs/heads/main/out/schemas/fileGuidTable.xsd"
+        },
+        {
+            "pattern": "**/clothing/clothingItems/**/*.xml",
+            "systemId": "https://raw.githubusercontent.com/PZ-Wiki-Modding/pz-xml-data/refs/heads/main/out/schemas/clothingItem.xsd"
+        },
+        {
+            "pattern": "**/AnimSets/**/*.xml",
+            "systemId": "https://raw.githubusercontent.com/PZ-Wiki-Modding/pz-xml-data/refs/heads/main/out/schemas/animNode.xsd"
+        },
+        {
+            "pattern": "**/clothing/clothingDecals.xml",
+            "systemId": "https://raw.githubusercontent.com/PZ-Wiki-Modding/pz-xml-data/refs/heads/main/out/schemas/clothingDecals.xsd"
+        }
+    ],
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Tooltip.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Tooltip.schema.json",
+            "name": "PZ Tooltip translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Farming.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Farming.schema.json",
+            "name": "PZ Farming translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/EvolvedRecipeName.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/EvolvedRecipeName.schema.json",
+            "name": "PZ EvolvedRecipeName translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/MakeUp.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/MakeUp.schema.json",
+            "name": "PZ MakeUp translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/BodyParts.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/BodyParts.schema.json",
+            "name": "PZ BodyParts translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/SurvivorNames.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/SurvivorNames.schema.json",
+            "name": "PZ SurvivorNames translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/language.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/language.schema.json",
+            "name": "PZ language translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Recorded_Media.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Recorded_Media.schema.json",
+            "name": "PZ Recorded_Media translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/MultiStageBuild.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/MultiStageBuild.schema.json",
+            "name": "PZ MultiStageBuild translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/GameSound.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/GameSound.schema.json",
+            "name": "PZ GameSound translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Moodles.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Moodles.schema.json",
+            "name": "PZ Moodles translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Credits_Translator.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Credits_Translator.schema.json",
+            "name": "PZ Credits_Translator translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/ContextMenu.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/ContextMenu.schema.json",
+            "name": "PZ ContextMenu translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Stash.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Stash.schema.json",
+            "name": "PZ Stash translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/SurvivalGuide.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/SurvivalGuide.schema.json",
+            "name": "PZ SurvivalGuide translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/UI.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/UI.schema.json",
+            "name": "PZ UI translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/RecipeGroups.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/RecipeGroups.schema.json",
+            "name": "PZ RecipeGroups translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Moveables.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Moveables.schema.json",
+            "name": "PZ Moveables translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Fluids.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Fluids.schema.json",
+            "name": "PZ Fluids translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/ItemName.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/ItemName.schema.json",
+            "name": "PZ ItemName translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Challenge.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Challenge.schema.json",
+            "name": "PZ Challenge translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/IG_UI.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/IG_UI.schema.json",
+            "name": "PZ IG_UI translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Entity.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Entity.schema.json",
+            "name": "PZ Entity translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Recipes.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Recipes.schema.json",
+            "name": "PZ Recipes translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Print_Media.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Print_Media.schema.json",
+            "name": "PZ Print_Media translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Print_Text.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Print_Text.schema.json",
+            "name": "PZ Print_Text translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Attributes.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Attributes.schema.json",
+            "name": "PZ Attributes translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/MapLabel.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/MapLabel.schema.json",
+            "name": "PZ MapLabel translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Mod.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Mod.schema.json",
+            "name": "PZ Mod translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/Sandbox.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/Sandbox.schema.json",
+            "name": "PZ Sandbox translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/RadioData.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/RadioData.schema.json",
+            "name": "PZ RadioData translation schema"
+        },
+        {
+            "fileMatch": [
+                "**/media/lua/shared/Translate/*/DynamicRadio.json"
+            ],
+            "url": "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data/refs/heads/main/out/schemas/DynamicRadio.schema.json",
+            "name": "PZ DynamicRadio translation schema"
+        }
+    ],
+    "json.schemaDownload.trustedDomains": {
+        "https://raw.githubusercontent.com/pz-wiki-modding/pz-translation-data": true
+    }
+}
