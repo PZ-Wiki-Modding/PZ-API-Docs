@@ -48,6 +48,11 @@ exclude_patterns = [
     # 'mapping/**',
 ]
 
+# the mapping docs can be quite long to compile to html to 
+# having the whole distributions
+if os.environ["QUICK_BUILD"] == "1":
+    exclude_patterns.append(r'mapping/**')
+
 # html_theme = 'pydata_sphinx_theme'
 html_theme = "furo"
 html_static_path = ['_static']
