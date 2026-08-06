@@ -28,7 +28,7 @@ clean:
 	rm -rf source/scripts
 
 generate_scripts:
-	.venv/bin/python3 ./src/main.py scripts
+	.venv/bin/python3 ./src/generate.py scripts
 
 generate_mapping:
 	.venv/bin/python3 ./src/_old/mapping/generateRoomsDocs.py
@@ -46,10 +46,10 @@ generate_java:
 	.venv/bin/python3 ./src/_old/java/generateItemBodyLocationDocs.py
 
 generate_translations:
-	.venv/bin/python3 ./src/main.py translation
+	.venv/bin/python3 ./src/generate.py translation
 
 generate_xml:
-	.venv/bin/python3 ./src/main.py xml
+	.venv/bin/python3 ./src/generate.py xml
 
 generate: generate_scripts generate_mapping generate_java generate_translations generate_xml
 # 	echo ${QUICK}
