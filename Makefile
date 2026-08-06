@@ -65,8 +65,7 @@ html: generate
 	sphinx-build -b html source build/html
 
 serve: html
-	cd docs/build/html
-	.venv/bin/python3 -m http.server 8000
+	.venv/bin/python3 -m http.server 8000 -d docs/build/html
 
 pdf: generate
 	source ./.venv/bin/activate
