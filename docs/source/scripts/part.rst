@@ -3,9 +3,7 @@
 part
 ====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -35,13 +33,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
@@ -49,120 +43,100 @@ Parameters
 
 .. _scripts-part-itemtype:
 
-itemType
-^^^^^^^^
+.. attribute:: itemType
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-category:
 
-category
-^^^^^^^^
+.. attribute:: category
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-durability:
 
-durability
-^^^^^^^^^^
+.. attribute:: durability
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-mechanicarea:
 
-mechanicArea
-^^^^^^^^^^^^
+.. attribute:: mechanicArea
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-area:
 
-area
-^^^^
+.. attribute:: area
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-mechanicrequirekey:
 
-mechanicRequireKey
-^^^^^^^^^^^^^^^^^^
+.. attribute:: mechanicRequireKey
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-repairmechanic:
 
-repairMechanic
-^^^^^^^^^^^^^^
+.. attribute:: repairMechanic
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-parent:
 
-parent
-^^^^^^
+.. attribute:: parent
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-specificitem:
 
-specificItem
-^^^^^^^^^^^^
+.. attribute:: specificItem
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-part-wheel:
 
-wheel
-^^^^^
+.. attribute:: wheel
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

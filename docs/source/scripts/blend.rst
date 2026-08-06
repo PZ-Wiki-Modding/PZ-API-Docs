@@ -3,9 +3,7 @@
 blend
 =====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Used to define blend rules for the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_ painting tool.
 
@@ -30,24 +28,20 @@ Parameters
 
 .. _scripts-blend-layer:
 
-layer
-^^^^^
+.. attribute:: layer
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 The layer the blend rule applies to. Should be one of the layers defined in the ``TMXconfig.txt`` file.
 
 
 .. _scripts-blend-maintile:
 
-mainTile
-^^^^^^^^
+.. attribute:: mainTile
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Used to identify which tiles will trigger the blend. This can be a single tile or an array of tiles, and it supports ``alias`` blocks.
 
@@ -98,12 +92,10 @@ Or with one or more alias blocks:
 
 .. _scripts-blend-blendtile:
 
-blendTile
-^^^^^^^^^
+.. attribute:: blendTile
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Used to define the tiles which will be used for the blend around the ``mainTile``. This can be a single tile or an array of tiles, and it supports ``alias`` blocks.
 
@@ -154,36 +146,22 @@ Or with one or more alias blocks:
 
 .. _scripts-blend-dir:
 
-dir
-^^^
+.. attribute:: dir
+   :noindex:
 
-.. attribute:: Type
+:Type: Unknown
 
-   Unknown
-
-.. attribute:: Allowed values
-
-   
-   * n
-   * ne
-   * e
-   * se
-   * s
-   * sw
-   * w
-   * nw
+:Allowed values:    ``e`` | ``n`` | ``ne`` | ``nw`` | ``s`` | ``se`` | ``sw`` | ``w``
 
 The direction the blend applies to.
 
 
 .. _scripts-blend-exclude:
 
-exclude
-^^^^^^^
+.. attribute:: exclude
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 A list of tiles which will be excluded from being blended. This can be a single tile or an array of tiles, and it supports ``alias`` blocks.
 
@@ -198,12 +176,10 @@ Where each entries separated by a space are an alias.
 
 .. _scripts-blend-exclude2:
 
-exclude2
-^^^^^^^^
+.. attribute:: exclude2
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

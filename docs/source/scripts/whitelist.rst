@@ -3,9 +3,7 @@
 whitelist
 =========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Whitelists a fluid to be allowed to put inside a `fluid container <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/component/component_fluidcontainer.html>`_.
 
@@ -30,12 +28,10 @@ Parameters
 
 .. _scripts-whitelist-fluid:
 
-fluid
-^^^^^
+.. attribute:: fluid
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 A fluid which is allowed to be put inside this fluid container.
 

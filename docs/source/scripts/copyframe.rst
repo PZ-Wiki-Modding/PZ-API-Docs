@@ -3,9 +3,7 @@
 CopyFrame
 =========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 It is unknown what this block does.
 
@@ -30,36 +28,30 @@ Parameters
 
 .. _scripts-copyframe-frame:
 
-frame
-^^^^^
+.. attribute:: frame
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-copyframe-source:
 
-source
-^^^^^^
+.. attribute:: source
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-copyframe-sourceframe:
 
-sourceFrame
-^^^^^^^^^^^
+.. attribute:: sourceFrame
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

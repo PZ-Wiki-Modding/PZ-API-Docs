@@ -3,9 +3,7 @@
 lightbar
 ========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -31,48 +29,40 @@ Parameters
 
 .. _scripts-lightbar-texture:
 
-texture
-^^^^^^^
+.. attribute:: texture
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-lightbar-soundsiren:
 
-soundSiren
-^^^^^^^^^^
+.. attribute:: soundSiren
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-lightbar-leftcol:
 
-leftCol
-^^^^^^^
+.. attribute:: leftCol
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-lightbar-rightcol:
 
-rightCol
-^^^^^^^^
+.. attribute:: rightCol
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

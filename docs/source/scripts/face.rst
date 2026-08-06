@@ -3,9 +3,7 @@
 face
 ====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -30,26 +28,11 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
+:Can have spaces: False
 
-.. attribute:: Can have spaces
-
-   False
-
-.. attribute:: Allowed ID
-
-   
-   * SINGLE
-   * S
-   * E
-   * W
-   * N
-   * S_OPEN
-   * E_OPEN
-   * W_OPEN
-   * N_OPEN
+:Allowed ID:    ``E_OPEN`` | ``E`` | ``N_OPEN`` | ``N`` | ``SINGLE`` | ``S_OPEN`` | ``S`` | ``W_OPEN`` | ``W``
 
 
 Parameters

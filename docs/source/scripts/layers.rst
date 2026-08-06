@@ -3,13 +3,9 @@
 layers
 ======
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
-
-.. attribute:: No comma
-
-   True
+:No comma: True
 
 Used to define the default layers of a new TMX file.
 
@@ -34,24 +30,20 @@ Parameters
 
 .. _scripts-layers-tile:
 
-tile
-^^^^
+.. attribute:: tile
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-layers-object:
 
-object
-^^^^^^
+.. attribute:: object
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 

@@ -3,9 +3,7 @@
 maps
 ====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 A list of maps in the `default.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-default.html>`_ file.
 

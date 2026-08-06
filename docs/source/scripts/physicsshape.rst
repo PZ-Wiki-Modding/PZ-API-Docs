@@ -3,9 +3,7 @@
 physicsShape
 ============
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Defines a 3D object's physical shape to be used as a world object.
 
@@ -36,13 +34,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
@@ -50,36 +44,30 @@ Parameters
 
 .. _scripts-physicsshape-mesh:
 
-mesh
-^^^^
+.. attribute:: mesh
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The path to the model's mesh file, relative to the folder ``media/models_X``.
 
 
 .. _scripts-physicsshape-translate:
 
-translate
-^^^^^^^^^
+.. attribute:: translate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 The position offset of the model, in the format ``x y z``.
 
 
 .. _scripts-physicsshape-rotate:
 
-rotate
-^^^^^^
+.. attribute:: rotate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 The rotation of the model, in the format ``x y z``.
 

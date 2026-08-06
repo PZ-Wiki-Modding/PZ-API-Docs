@@ -1,24 +1,15 @@
-.. _scripts-blends:
+.. _scripts-root-blends:
 
 ROOT-Blends
 ===========
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
+:Is Root: True
 
-.. attribute:: Is Root
+:No comma: True
 
-   True
-
-.. attribute:: No comma
-
-   True
-
-.. attribute:: Root patterns
-
-   
-   * ``Blends\.txt$``
+:Root patterns:    ``Blends\.txt$``
 
 The ``Blends.txt`` file is used in the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_ to assign blend tiles around the tiles you paint.
 
@@ -43,12 +34,10 @@ Parameters
 
 .. _scripts-root-blends-name:
 
-name
-^^^^
+.. attribute:: name
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

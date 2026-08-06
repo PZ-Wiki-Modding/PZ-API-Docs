@@ -3,13 +3,9 @@
 component FluidContainer
 ========================
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
-
-.. attribute:: Is Variant of
-
-   :ref:`component <scripts-component>`
+:Is Variant of: :ref:`component <scripts-component>`
 
 Adds a fluid container to an item
 
@@ -40,192 +36,138 @@ Parameters
 
 .. _scripts-component-fluidcontainer-capacity:
 
-Capacity
-^^^^^^^^
+.. attribute:: Capacity
+   :noindex:
 
-.. attribute:: Type
+:Type: float
 
-   float
-
-.. attribute:: Default
-
-   ``1.0``
+:Default: ``1.0``
 
 The fluid capacity of the container, the minimum value is ``0.05``.
 
 
 .. _scripts-component-fluidcontainer-containername:
 
-ContainerName
-^^^^^^^^^^^^^
+.. attribute:: ContainerName
+   :noindex:
 
-.. attribute:: Type
+:Type: string
 
-   string
+:Is useless: True
 
-.. attribute:: Is useless
-
-   True
-
-.. attribute:: Default
-
-   ``FluidContainer``
+:Default: ``FluidContainer``
 
 The name of the fluid container, seems to be unused. The name cannot have whitespaces, the game will sanitize it to remove them and show an error in the console about it.
 
 
 .. _scripts-component-fluidcontainer-customdrinksound:
 
-CustomDrinkSound
-^^^^^^^^^^^^^^^^
+.. attribute:: CustomDrinkSound
+   :noindex:
 
-.. attribute:: Type
+:Type: string
 
-   string
-
-.. attribute:: Default
-
-   ``DrinkingFromGeneric``
+:Default: ``DrinkingFromGeneric``
 
 Refers to a `sound block <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_ to trigger when drinking.
 
 
 .. _scripts-component-fluidcontainer-hiddenamount:
 
-HiddenAmount
-^^^^^^^^^^^^
+.. attribute:: HiddenAmount
+   :noindex:
 
-.. attribute:: Type
+:Type: boolean
 
-   boolean
-
-.. attribute:: Default
-
-   ``False``
+:Default: ``False``
 
 When true, will hide the fluid quantity from the UI.
 
 
 .. _scripts-component-fluidcontainer-initialpercent:
 
-InitialPercent
-^^^^^^^^^^^^^^
+.. attribute:: InitialPercent
+   :noindex:
 
-.. attribute:: Type
+:Type: float
 
-   float
-
-.. attribute:: Incompatible with
-
-   
-   * :ref:`InitialPercentMin <scripts-component-fluidcontainer-initialpercentmin>`
-   * :ref:`InitialPercentMax <scripts-component-fluidcontainer-initialpercentmax>`
+:Incompatible with:    :ref:`InitialPercentMax <scripts-component-fluidcontainer-initialpercentmax>` | :ref:`InitialPercentMin <scripts-component-fluidcontainer-initialpercentmin>`
 
 No description provided.
 
 
 .. _scripts-component-fluidcontainer-initialpercentmax:
 
-InitialPercentMax
-^^^^^^^^^^^^^^^^^
+.. attribute:: InitialPercentMax
+   :noindex:
 
-.. attribute:: Type
+:Type: float
 
-   float
+:Default: ``1.0``
 
-.. attribute:: Default
-
-   ``1.0``
-
-.. attribute:: Incompatible with
-
-   
-   * :ref:`InitialPercent <scripts-component-fluidcontainer-initialpercent>`
+:Incompatible with:    :ref:`InitialPercent <scripts-component-fluidcontainer-initialpercent>`
 
 The minimum amount of fluid which will appear in this container.
 
 
 .. _scripts-component-fluidcontainer-initialpercentmin:
 
-InitialPercentMin
-^^^^^^^^^^^^^^^^^
+.. attribute:: InitialPercentMin
+   :noindex:
 
-.. attribute:: Type
+:Type: float
 
-   float
+:Default: ``0.0``
 
-.. attribute:: Default
-
-   ``0.0``
-
-.. attribute:: Incompatible with
-
-   
-   * :ref:`InitialPercent <scripts-component-fluidcontainer-initialpercent>`
+:Incompatible with:    :ref:`InitialPercent <scripts-component-fluidcontainer-initialpercent>`
 
 The maximum amount of fluid which will appear in this container.
 
 
 .. _scripts-component-fluidcontainer-inputlocked:
 
-InputLocked
-^^^^^^^^^^^
+.. attribute:: InputLocked
+   :noindex:
 
-.. attribute:: Type
+:Type: boolean
 
-   boolean
-
-.. attribute:: Default
-
-   ``False``
+:Default: ``False``
 
 Unused.
 
 
 .. _scripts-component-fluidcontainer-opened:
 
-Opened
-^^^^^^
+.. attribute:: Opened
+   :noindex:
 
-.. attribute:: Type
+:Type: boolean
 
-   boolean
-
-.. attribute:: Default
-
-   ``True``
+:Default: ``True``
 
 Unused.
 
 
 .. _scripts-component-fluidcontainer-pickrandomfluid:
 
-PickRandomFluid
-^^^^^^^^^^^^^^^
+.. attribute:: PickRandomFluid
+   :noindex:
 
-.. attribute:: Type
+:Type: boolean
 
-   boolean
-
-.. attribute:: Default
-
-   ``False``
+:Default: ``False``
 
 When set to true, the container will pick one of the available fluids in the `Fluids <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/fluids.html>`_ child block at random when filling. If set to false, it will make every fluids appear.
 
 
 .. _scripts-component-fluidcontainer-rainfactor:
 
-RainFactor
-^^^^^^^^^^
+.. attribute:: RainFactor
+   :noindex:
 
-.. attribute:: Type
+:Type: float
 
-   float
-
-.. attribute:: Default
-
-   ``0.0``
+:Default: ``0.0``
 
 Defines how much rain contributes to filling the container. A high value increases the rate of filling. A value of ``0.0`` means that rain will not fill the container, which is the default value of the parameter.
 
@@ -234,16 +176,12 @@ If the item is a weapon and ``RainFactor`` is set to a value above the default, 
 
 .. _scripts-component-fluidcontainer-fillswithcleanwater:
 
-FillsWithCleanWater
-^^^^^^^^^^^^^^^^^^^
+.. attribute:: FillsWithCleanWater
+   :noindex:
 
-.. attribute:: Type
+:Type: boolean
 
-   boolean
-
-.. attribute:: Default
-
-   ``False``
+:Default: ``False``
 
 When set to true, the container will fill with clean water instead of tainted water when left outside in the rain.
 

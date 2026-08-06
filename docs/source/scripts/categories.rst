@@ -3,9 +3,7 @@
 Categories
 ==========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Acts as a sort of tag list. Notably used in fluid scripts. Doesn't have parameters and instead just functions as a list.
 

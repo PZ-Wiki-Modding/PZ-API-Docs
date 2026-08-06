@@ -3,9 +3,7 @@
 Poison
 ======
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Defines poison properties for a fluid script.
 
@@ -30,46 +28,32 @@ Parameters
 
 .. _scripts-poison-maxeffect:
 
-maxEffect
-^^^^^^^^^
+.. attribute:: maxEffect
+   :noindex:
 
-.. attribute:: Type
+:Type: string
 
-   string
-
-.. attribute:: Allowed values
-
-   
-   * None
-   * Mild
-   * Medium
-   * Severe
-   * Extreme
-   * Deadly
+:Allowed values:    ``Deadly`` | ``Extreme`` | ``Medium`` | ``Mild`` | ``None`` | ``Severe``
 
 Defines the strength of the poison.
 
 
 .. _scripts-poison-minamount:
 
-minAmount
-^^^^^^^^^
+.. attribute:: minAmount
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The minimum amount required to consume to poison the player.
 
 
 .. _scripts-poison-diluteratio:
 
-diluteRatio
-^^^^^^^^^^^
+.. attribute:: diluteRatio
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The ratio at which the poison is diluted when mixed with other fluids.
 

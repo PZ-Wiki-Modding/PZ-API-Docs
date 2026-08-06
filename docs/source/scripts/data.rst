@@ -3,9 +3,7 @@
 data
 ====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -30,32 +28,24 @@ Parameters
 
 .. _scripts-data-aftergearchange:
 
-afterGearChange
-^^^^^^^^^^^^^^^
+.. attribute:: afterGearChange
+   :noindex:
 
-.. attribute:: Type
+:Type: float
 
-   float
-
-.. attribute:: Default
-
-   ``0.0``
+:Default: ``0.0``
 
 No description provided.
 
 
 .. _scripts-data-gearchange:
 
-gearChange
-^^^^^^^^^^
+.. attribute:: gearChange
+   :noindex:
 
-.. attribute:: Type
+:Type: float
 
-   float
-
-.. attribute:: Default
-
-   ``0.0``
+:Default: ``0.0``
 
 No description provided.
 

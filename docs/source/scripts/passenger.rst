@@ -3,9 +3,7 @@
 passenger
 =========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Defines a passenger position in a vehicle script.
 
@@ -30,13 +28,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
@@ -44,24 +38,20 @@ Parameters
 
 .. _scripts-passenger-door:
 
-door
-^^^^
+.. attribute:: door
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-passenger-area:
 
-area
-^^^^
+.. attribute:: area
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

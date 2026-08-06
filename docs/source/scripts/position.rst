@@ -3,9 +3,7 @@
 position
 ========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -24,13 +22,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
@@ -38,36 +32,30 @@ Parameters
 
 .. _scripts-position-offset:
 
-offset
-^^^^^^
+.. attribute:: offset
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-position-rotate:
 
-rotate
-^^^^^^
+.. attribute:: rotate
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-position-area:
 
-area
-^^^^
+.. attribute:: area
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

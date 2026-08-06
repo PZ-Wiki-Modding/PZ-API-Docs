@@ -3,9 +3,7 @@
 container
 =========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -30,60 +28,50 @@ Parameters
 
 .. _scripts-container-capacity:
 
-capacity
-^^^^^^^^
+.. attribute:: capacity
+   :noindex:
 
-.. attribute:: Type
-
-   integer
+:Type: integer
 
 No description provided.
 
 
 .. _scripts-container-conditionaffectscapacity:
 
-conditionAffectsCapacity
-^^^^^^^^^^^^^^^^^^^^^^^^
+.. attribute:: conditionAffectsCapacity
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 Sets whenever the condition of the part will impact the `capacity <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/container.html#container-capacity>`_. A lower condition will negatively impact the container's capacity.
 
 
 .. _scripts-container-contenttype:
 
-contentType
-^^^^^^^^^^^
+.. attribute:: contentType
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Unclear how this parameter works exactly. The game uses it to define the "content" of tires and gas tanks by providing the string keys ``Gasoline`` or ``Air``. It seems to simply remove any item container being used as the container for this part.
 
 
 .. _scripts-container-seat:
 
-seat
-^^^^
+.. attribute:: seat
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The seat ID of this container. When present, this container can be used as a seat for a vehicle.
 
 
 .. _scripts-container-soundmap:
 
-soundMap
-^^^^^^^^
+.. attribute:: soundMap
+   :noindex:
 
-.. attribute:: Type
-
-   object (object: string->>block, kv: ' ', pairs: ';')
+:Type: object (object: string->>block, kv: ' ', pairs: ';')
 
 Register a sound script associated to a type of sound for this container. The syntax should be as follows:
 
@@ -104,12 +92,10 @@ The ``soundRef`` should be a reference to a `sound block <https://pz-wiki-moddin
 
 .. _scripts-container-test:
 
-test
-^^^^
+.. attribute:: test
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Refers to a Lua global function returning a boolean which is used to determine whether an item can be put in this container when trying to transfer items.
 

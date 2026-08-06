@@ -3,9 +3,7 @@
 sound
 =====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Makes one or more sound clips available for use in the game. Multiple clips can be added to a sound script, and the game will randomly select one of them to play when the sound is triggered.
 
@@ -47,19 +45,11 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
+:Can have spaces: False
 
-.. attribute:: Can have spaces
-
-   False
-
-.. attribute:: No ID for parents
-
-   
-   * :ref:`vehicle <scripts-vehicle>`
-   * :ref:`template <scripts-template>`
+:No ID for parents:    :ref:`template <scripts-template>` | :ref:`vehicle <scripts-vehicle>`
 
 
 Parameters
@@ -67,192 +57,154 @@ Parameters
 
 .. _scripts-sound-alarm:
 
-alarm
-^^^^^
+.. attribute:: alarm
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of string, separator: ' ')
+:Type: array (array of string, separator: ' ')
 
 No description provided.
 
 
 .. _scripts-sound-alarmloop:
 
-alarmLoop
-^^^^^^^^^
+.. attribute:: alarmLoop
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-sound-backsignal:
 
-backSignal
-^^^^^^^^^^
+.. attribute:: backSignal
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-sound-category:
 
-category
-^^^^^^^^
+.. attribute:: category
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Unclear what this parameter is for.
 
 
 .. _scripts-sound-engine:
 
-engine
-^^^^^^
+.. attribute:: engine
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-sound-enginestart:
 
-engineStart
-^^^^^^^^^^^
+.. attribute:: engineStart
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-sound-engineturnoff:
 
-engineTurnOff
-^^^^^^^^^^^^^
+.. attribute:: engineTurnOff
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-sound-handbrake:
 
-handBrake
-^^^^^^^^^
+.. attribute:: handBrake
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-sound-horn:
 
-horn
-^^^^
+.. attribute:: horn
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-sound-ignitionfail:
 
-ignitionFail
-^^^^^^^^^^^^
+.. attribute:: ignitionFail
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-sound-ignitionfailnopower:
 
-ignitionFailNoPower
-^^^^^^^^^^^^^^^^^^^
+.. attribute:: ignitionFailNoPower
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-sound-is3d:
 
-is3D
-^^^^
+.. attribute:: is3D
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 Whenever this is set to ``false``\ , the distance to the sound will not impact its volume. This parameter doesn't impact the sound directionality.
 
 
 .. _scripts-sound-loop:
 
-loop
-^^^^
+.. attribute:: loop
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 Whether the sound should loop or not. The sound plays until turned off manually via Lua code or the emitter is destroyed.
 
 
 .. _scripts-sound-master:
 
-master
-^^^^^^
+.. attribute:: master
+   :noindex:
 
-.. attribute:: Type
+:Type: string
 
-   string
+:Default: ``Primary``
 
-.. attribute:: Default
-
-   ``Primary``
-
-.. attribute:: Allowed values
-
-   
-   * Primary
-   * Ambient
-   * Music
-   * VehicleEngine
+:Allowed values:    ``Ambient`` | ``Music`` | ``Primary`` | ``VehicleEngine``
 
 Links the sound to a sound handling setting, which controls the volume of all sounds linked to it. This doesn't seems to be working properly, as some methods that call sounds will simply not take into account the current sound settings. You can find a relevant request about this issue on the #mod_portal channel of the official Discord `here <https://discord.com/channels/136501320340209664/1476602902607954043/1505634480939860119>`_.
 
 
 .. _scripts-sound-maxinstancesperemitter:
 
-maxInstancesPerEmitter
-^^^^^^^^^^^^^^^^^^^^^^
+.. attribute:: maxInstancesPerEmitter
+   :noindex:
 
-.. attribute:: Type
-
-   integer
+:Type: integer
 
 Specifies how many of this sound the sound emitter can play at the same time.
 

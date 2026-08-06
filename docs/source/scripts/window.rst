@@ -3,9 +3,7 @@
 window
 ======
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -30,12 +28,10 @@ Parameters
 
 .. _scripts-window-openable:
 
-openable
-^^^^^^^^
+.. attribute:: openable
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 No description provided.
 

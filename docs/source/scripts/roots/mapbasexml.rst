@@ -1,24 +1,15 @@
-.. _scripts-mapbasexml:
+.. _scripts-root-mapbasexml:
 
 ROOT-MapBaseXML
 ===============
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
+:Is Root: True
 
-.. attribute:: Is Root
+:No comma: True
 
-   True
-
-.. attribute:: No comma
-
-   True
-
-.. attribute:: Root patterns
-
-   
-   * ``MapBaseXML\.txt$``
+:Root patterns:    ``MapBaseXML\.txt$``
 
 The ``MapBaseXML.txt`` file is used to configure the layers of the TMX file.
 

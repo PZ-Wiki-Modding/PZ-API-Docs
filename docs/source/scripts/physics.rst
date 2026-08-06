@@ -3,9 +3,7 @@
 physics
 =======
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -25,20 +23,11 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
+:Can have spaces: False
 
-.. attribute:: Can have spaces
-
-   False
-
-.. attribute:: Allowed ID
-
-   
-   * box
-   * sphere
-   * mesh
+:Allowed ID:    ``box`` | ``mesh`` | ``sphere``
 
 
 Parameters
@@ -46,48 +35,40 @@ Parameters
 
 .. _scripts-physics-offset:
 
-offset
-^^^^^^
+.. attribute:: offset
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-physics-extents:
 
-extents
-^^^^^^^
+.. attribute:: extents
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-physics-rotate:
 
-rotate
-^^^^^^
+.. attribute:: rotate
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-physics-physicsshapescript:
 
-physicsShapeScript
-^^^^^^^^^^^^^^^^^^
+.. attribute:: physicsShapeScript
+   :noindex:
 
-.. attribute:: Type
-
-   block (block: :ref:`physicsShape <scripts-physicsshape>`, with :ref:`scripts-module`)
+:Type: block (block: :ref:`physicsShape <scripts-physicsshape>`, with :ref:`scripts-module`)
 
 No description provided.
 

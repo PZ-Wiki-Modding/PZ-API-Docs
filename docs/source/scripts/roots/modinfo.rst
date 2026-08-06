@@ -1,24 +1,15 @@
-.. _scripts-modinfo:
+.. _scripts-root-modinfo:
 
 ROOT-ModInfo
 ============
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
+:Is Root: True
 
-.. attribute:: Is Root
+:No comma: True
 
-   True
-
-.. attribute:: No comma
-
-   True
-
-.. attribute:: Root patterns
-
-   
-   * ``mod\.info$``
+:Root patterns:    ``mod\.info$``
 
 The mod.info file, which contains all the information about a mod.
 
@@ -34,24 +25,20 @@ Parameters
 
 .. _scripts-root-modinfo-name:
 
-name
-^^^^
+.. attribute:: name
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The displayed name for your mod in the game's mod manager. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
 
 
 .. _scripts-root-modinfo-id:
 
-id
-^^
+.. attribute:: id
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The unique identifier of the mod, used in a mod list of the user or
 servers to activate the mod. Make sure to use something unique which isn't shared
@@ -62,48 +49,40 @@ between mods.
 
 .. _scripts-root-modinfo-author:
 
-author
-^^^^^^
+.. attribute:: author
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Name of the author(s) of the mod. Multiple authors are often separated by commas but no convention exists.
 
 
 .. _scripts-root-modinfo-description:
 
-description
-^^^^^^^^^^^
+.. attribute:: description
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Description of your mod, which shows up in the mod manager. The description supports `ISRichTextPanel <https://pzwiki.net/wiki/ISRichTextPanel>`_ tags. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
 
 
 .. _scripts-root-modinfo-url:
 
-url
-^^^
+.. attribute:: url
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Shows a URL link in the mod manager on the page of your mod for users to click on to open in their internet browser. The parameter appears as "Homepage" in the mod manager. For a list of valid links, see `URL <https://pzwiki.net/wiki/URL>`_.
 
 
 .. _scripts-root-modinfo-poster:
 
-poster
-^^^^^^
+.. attribute:: poster
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Image which will show up in the mod manager as the mod image. Multiple posters can be used to show multiple images, but the first one will be used as the main poster in the mod manager. The rest will be in a list of images of the mod that users can click on to view.
 
@@ -128,36 +107,30 @@ If you have multiple versions of your mod (e.g., 42.12 and 42.13) and don't want
 
 .. _scripts-root-modinfo-icon:
 
-icon
-^^^^
+.. attribute:: icon
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Image which will be used in the mod manager to put next to the name of the mod in the list of available mods. This image will be small and while you can use a full image size, you do not need it. You can set your poster as the icon too to not ship two images if desired.
 
 
 .. _scripts-root-modinfo-modversion:
 
-modversion
-^^^^^^^^^^
+.. attribute:: modversion
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Version of the mod.
 
 
 .. _scripts-root-modinfo-require:
 
-require
-^^^^^^^
+.. attribute:: require
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Mods required to run this mod. Multiple mods can be specified separated by commas.
 
@@ -170,12 +143,10 @@ Example:
 
 .. _scripts-root-modinfo-incompatible:
 
-incompatible
-^^^^^^^^^^^^
+.. attribute:: incompatible
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Mods that cannot be enabled at the same time as this mod. When enabled, the other mods will be unselectable. This mod will also become unselectable if any of the other mods are enabled.
 
@@ -188,12 +159,10 @@ Example:
 
 .. _scripts-root-modinfo-loadmodafter:
 
-loadModAfter
-^^^^^^^^^^^^
+.. attribute:: loadModAfter
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Loads the mod only after the set of mods listed.
 
@@ -206,12 +175,10 @@ Example:
 
 .. _scripts-root-modinfo-loadmodbefore:
 
-loadModBefore
-^^^^^^^^^^^^^
+.. attribute:: loadModBefore
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Loads the mod before the set of mods listed.
 
@@ -224,36 +191,30 @@ Example:
 
 .. _scripts-root-modinfo-category:
 
-category
-^^^^^^^^
+.. attribute:: category
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Category is used for filtering mods in the in-game ModManager. Known categories are "map", "vehicle", "features", "modpack". Using other terms will not generate a new filter category.
 
 
 .. _scripts-root-modinfo-pack:
 
-pack
-^^^^
+.. attribute:: pack
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Name of pack files that need to be loaded by the game. Notably used for `Texture pack <https://pzwiki.net/wiki/Texture_pack>`_ and `Tile pack <https://pzwiki.net/wiki/Mapping>`_.
 
 
 .. _scripts-root-modinfo-tiledef:
 
-tiledef
-^^^^^^^
+.. attribute:: tiledef
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Name of the tiledef with its ID that are added by the mod. You can find a community managed list of already used tiledef IDs in `Tiledefs used by mods <https://pzwiki.net/wiki/Tiledefs_used_by_mods>`_.
 
@@ -268,24 +229,20 @@ If you upload your mod with a new tiledef ID, you can update the list to reduce 
 
 .. _scripts-root-modinfo-versionmin:
 
-versionMin
-^^^^^^^^^^
+.. attribute:: versionMin
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The minimum version of the game the mod can be used on. This number needs to be in the format ``build.major`` at the very least, and not just ``build`` or it won't work. Example ``42.0``.
 
 
 .. _scripts-root-modinfo-versionmax:
 
-versionMax
-^^^^^^^^^^
+.. attribute:: versionMax
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The maximum version of the game the mod can be used on. This number needs to be in the format ``build.major`` at the very least, and not just ``build`` or it won't work. Example ``42.12``.
 

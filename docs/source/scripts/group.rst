@@ -3,9 +3,7 @@
 group
 =====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -24,19 +22,11 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
+:Can have spaces: False
 
-.. attribute:: Can have spaces
-
-   False
-
-.. attribute:: Allowed ID
-
-   
-   * craft_inputs
-   * craft_outputs
+:Allowed ID:    ``craft_inputs`` | ``craft_outputs``
 
 
 Parameters

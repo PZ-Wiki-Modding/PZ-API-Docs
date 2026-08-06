@@ -11,6 +11,7 @@ Each XML file has its own documentation page. These will each detail variouus da
 * Details about the root element of the XML file, which is the top-level element that contains all other elements in the XML file. For example:
 
 .. code-block:: xml
+
     <?xml version="1.0" encoding="utf-8"?>
     <rootElement>
         <childElement1>

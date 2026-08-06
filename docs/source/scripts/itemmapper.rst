@@ -3,9 +3,7 @@
 itemMapper
 ==========
 
-.. attribute:: Soft Override
-
-   True
+:Soft Override: True
 
 No description provided.
 
@@ -24,13 +22,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters

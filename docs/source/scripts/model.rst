@@ -3,9 +3,7 @@
 model
 =====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Used to define a model properties so it can be used in other elements of the game, most notably in `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ and `vehicles <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html>`_. The basic structure of a model block is as follows:
 
@@ -41,18 +39,11 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: ['part']
 
-   ['part']
+:Can have spaces: False
 
-.. attribute:: Can have spaces
-
-   False
-
-.. attribute:: No ID for parents
-
-   
-   * :ref:`vehicle <scripts-vehicle>`
+:No ID for parents:    :ref:`vehicle <scripts-vehicle>`
 
 
 Parameters
@@ -60,83 +51,64 @@ Parameters
 
 .. _scripts-model-animationsmesh:
 
-animationsMesh
-^^^^^^^^^^^^^^
+.. attribute:: animationsMesh
+   :noindex:
 
-.. attribute:: Type
-
-   block (block: :ref:`animationsMesh <scripts-animationsmesh>`, with :ref:`scripts-module`)
+:Type: block (block: :ref:`animationsMesh <scripts-animationsmesh>`, with :ref:`scripts-module`)
 
 Sets the `animations mesh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/animationsmesh.html>`_ for the model. This is used for models that are used for entities such as the character or animals.
 
 
 .. _scripts-model-boneweight:
 
-boneWeight
-^^^^^^^^^^
+.. attribute:: boneWeight
+   :noindex:
 
-.. attribute:: Type
-
-   object (object: string->>float, kv: ' ', pairs: ';')
+:Type: object (object: string->>float, kv: ' ', pairs: ';')
 
 Sets the bone weight for the model. This is notably used for vehicle bones but it is yet documented how this actually impacts the model or animations linked to it.
 
 
 .. _scripts-model-colorblue:
 
-ColorBlue
-^^^^^^^^^
+.. attribute:: ColorBlue
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-colorgreen:
 
-ColorGreen
-^^^^^^^^^^
+.. attribute:: ColorGreen
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-colorred:
 
-ColorRed
-^^^^^^^^
+.. attribute:: ColorRed
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-cullface:
 
-cullFace
-^^^^^^^^
+.. attribute:: cullFace
+   :noindex:
 
-.. attribute:: Type
+:Type: string
 
-   string
+:Default: ``Back``
 
-.. attribute:: Default
-
-   ``Back``
-
-.. attribute:: Allowed values
-
-   
-   * Back
-   * Front
-   * None
+:Allowed values:    ``Back`` | ``Front`` | ``None``
 
 Sets an OpenGL face culling mode for the model. By default the culling mode will be ``-1``\ , which defaults to ``Front``
 
@@ -149,36 +121,30 @@ Note that this parameter defaulting to ``Front`` sounds abnormal as the faces po
 
 .. _scripts-model-file:
 
-file
-^^^^
+.. attribute:: file
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-invertx:
 
-invertX
-^^^^^^^
+.. attribute:: invertX
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 If set to ``true``\ , the model scale will be inverted on the X axis.
 
 
 .. _scripts-model-mesh:
 
-mesh
-^^^^
+.. attribute:: mesh
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Path to the model file relative to the ``media/models_X`` folder. The model file can be either of ``.fbx`` or ``.glb`` but also the not recommended ``.x`` (read more `here <https://pzwiki.net/wiki/Modeling#File_types>`_\ ). The extension should not be included in the value of this parameter.
 
@@ -195,24 +161,20 @@ It is suggested to put your models in a subfolder of the ``models_X`` folder nam
 
 .. _scripts-model-offset:
 
-offset
-^^^^^^
+.. attribute:: offset
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-postprocess:
 
-postProcess
-^^^^^^^^^^^
+.. attribute:: postProcess
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Sets post-processing steps for assimp to use when importing the model. Steps should be separated with ``;``\ , and prefixed with either ``+`` to add the step or ``-`` to remove the step (primarily used to remove a default step). Steps correspond to members of the `AiPostProcessSteps <https://github.com/assimp/assimp/blob/master/port/jassimp/jassimp/src/jassimp/AiPostProcessSteps.java>`_ enum. The default steps are ``FIND_INSTANCES``\ , ``MAKE_LEFT_HANDED``\ , ``LIMIT_BONE_WEIGHTS``\ , ``TRIANGULATE``\ , ``OPTIMIZE_MESHES``\ , ``REMOVE_REDUNDANT_MATERIALS``\ , ``JOIN_IDENTICAL_VERTICES``.
 
@@ -221,24 +183,20 @@ It is unclear what this is used for exactly and should probably not be modified 
 
 .. _scripts-model-scale:
 
-scale
-^^^^^
+.. attribute:: scale
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 Used to scale the model up or down. A value of ``1`` means the model is at its original size.
 
 
 .. _scripts-model-shader:
 
-shader
-^^^^^^
+.. attribute:: shader
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Used to control what shader will apply on the model. The most common shaders which are used by the game are:
 
@@ -255,36 +213,30 @@ The shaders are stored in the folder ``media/shaders``.
 
 .. _scripts-model-specialkeyring:
 
-specialKeyRing
-^^^^^^^^^^^^^^
+.. attribute:: specialKeyRing
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-static:
 
-static
-^^^^^^
+.. attribute:: static
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 If set to ``true``\ , the model will not deform with the bones it is parented to. This is typically used for non deformable objects, which means clothings should not be static.
 
 
 .. _scripts-model-texture:
 
-texture
-^^^^^^^
+.. attribute:: texture
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Path to the texture file relative to the ``media/textures`` folder. The texture file should be of ``.png`` format only.
 
@@ -301,64 +253,52 @@ It is suggested to put your textures in a subfolder of the ``textures`` folder n
 
 .. _scripts-model-undocorescale:
 
-undoCoreScale
-^^^^^^^^^^^^^
+.. attribute:: undoCoreScale
+   :noindex:
 
-.. attribute:: Type
+:Type: boolean
 
-   boolean
-
-.. attribute:: Default
-
-   ``False``
+:Default: ``False``
 
 If set to ``true``\ , the model scale will be multiplied by ``0.6666667``. This seems to be mostly used for tile models.
 
 
 .. _scripts-model-attachmentparent:
 
-attachmentParent
-^^^^^^^^^^^^^^^^
+.. attribute:: attachmentParent
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-attachmentself:
 
-attachmentSelf
-^^^^^^^^^^^^^^
+.. attribute:: attachmentSelf
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-ignorevehiclescale:
 
-ignoreVehicleScale
-^^^^^^^^^^^^^^^^^^
+.. attribute:: ignoreVehicleScale
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-model-rotate:
 
-rotate
-^^^^^^
+.. attribute:: rotate
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

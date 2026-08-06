@@ -3,9 +3,7 @@
 mods
 ====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 A list of mods in the `default.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-default.html>`_ file. The `mod ID <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-modinfo.html#root-modinfo-id>`_ should be used to reference the mods.
 
@@ -41,12 +39,10 @@ Parameters
 
 .. _scripts-mods-mod:
 
-mod
-^^^
+.. attribute:: mod
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The mod ID of the mod to load, which can be found in the `mod.info <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-modinfo.html>`_ file of the mod.
 

@@ -3,9 +3,7 @@
 attachment
 ==========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Defines an attachment point on a `model <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ or `vehicle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html>`_ block. The ID is the attachment name, it can be a custom ID or an existing one often used to define specific attachments. While manually modifying the attachment block is definitely possible, it is recommended to use the `attachment editor <https://pzwiki.net/wiki/Attachment_Editor>`_ to create and edit those attachments.
 
@@ -58,13 +56,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
@@ -72,12 +66,10 @@ Parameters
 
 .. _scripts-attachment-offset:
 
-offset
-^^^^^^
+.. attribute:: offset
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 The position offset of the model relative to the bone. This is a vector in the format ``x y z``. ``cpp
 offset = -0.0300 -0.1020 0.1210,``
@@ -85,12 +77,10 @@ offset = -0.0300 -0.1020 0.1210,``
 
 .. _scripts-attachment-rotate:
 
-rotate
-^^^^^^
+.. attribute:: rotate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 The rotation of the model relative to the bone. This is a vector in the format ``x y z``. The values are degrees.
 
@@ -101,24 +91,20 @@ The rotation of the model relative to the bone. This is a vector in the format `
 
 .. _scripts-attachment-zoffset:
 
-zoffset
-^^^^^^^
+.. attribute:: zoffset
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-attachment-scale:
 
-scale
-^^^^^
+.. attribute:: scale
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The scale multiplier applied to the model attached to this attachment point.
 
@@ -129,12 +115,10 @@ The scale multiplier applied to the model attached to this attachment point.
 
 .. _scripts-attachment-bone:
 
-bone
-^^^^
+.. attribute:: bone
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 The name of the bone to which the model is attached to.
 

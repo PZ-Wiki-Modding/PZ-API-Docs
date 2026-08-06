@@ -3,9 +3,7 @@
 _COMPONENT_BLOCK
 ================
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Component blocks are used in the `components <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/components.html>`_ block to provide a new component element for `xuiSkin <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/xuiskin.html>`_.
 
@@ -32,72 +30,60 @@ Parameters
 
 .. _scripts-_component_block-luapanelclass:
 
-LuaPanelClass
-^^^^^^^^^^^^^
+.. attribute:: LuaPanelClass
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-_component_block-displayname:
 
-DisplayName
-^^^^^^^^^^^
+.. attribute:: DisplayName
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-_component_block-icon:
 
-Icon
-^^^^
+.. attribute:: Icon
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-_component_block-enabled:
 
-Enabled
-^^^^^^^
+.. attribute:: Enabled
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 No description provided.
 
 
 .. _scripts-_component_block-listorderz:
 
-ListOrderZ
-^^^^^^^^^^
+.. attribute:: ListOrderZ
+   :noindex:
 
-.. attribute:: Type
-
-   integer
+:Type: integer
 
 No description provided.
 
 
 .. _scripts-_component_block-xuistyle:
 
-xuiStyle
-^^^^^^^^
+.. attribute:: xuiStyle
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 

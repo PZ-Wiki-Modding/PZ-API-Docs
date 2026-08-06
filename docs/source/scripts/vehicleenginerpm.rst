@@ -3,9 +3,7 @@
 vehicleEngineRPM
 ================
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Unclear how the definition of this block works.
 
@@ -65,13 +63,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
@@ -79,12 +73,10 @@ Parameters
 
 .. _scripts-vehicleenginerpm-version:
 
-VERSION
-^^^^^^^
+.. attribute:: VERSION
+   :noindex:
 
-.. attribute:: Type
-
-   integer
+:Type: integer
 
 Unclear what this does, preferably keep it at 1.
 

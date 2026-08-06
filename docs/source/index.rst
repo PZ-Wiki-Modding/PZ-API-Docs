@@ -25,3 +25,6 @@ Documentation Structure
    translations
    java
    xml
+   JavaDocs <https://albion.codeberg.page/PZ-JavaDocs/>
+   LuaDocs <https://demiurgequantified.github.io/ProjectZomboidLuaDocs/>
+   ZedScripts <https://pzwiki.net/wiki/ZedScripts>

@@ -1,24 +1,15 @@
-.. _scripts-mapinfo:
+.. _scripts-root-mapinfo:
 
 ROOT-MapInfo
 ============
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
+:Is Root: True
 
-.. attribute:: Is Root
+:No comma: True
 
-   True
-
-.. attribute:: No comma
-
-   True
-
-.. attribute:: Root patterns
-
-   
-   * ``media\/maps\/[\s\S]+\/map\.info$``
+:Root patterns:    ``media\/maps\/[\s\S]+\/map\.info$``
 
 The ``map.info`` file is used to define the map's information. It is used by the game to display the map in the map selection screen and to load the map into the world.
 It needs to be located in:
@@ -42,96 +33,80 @@ Parameters
 
 .. _scripts-root-mapinfo-title:
 
-title
-^^^^^
+.. attribute:: title
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Title of the map.
 
 
 .. _scripts-root-mapinfo-description:
 
-description
-^^^^^^^^^^^
+.. attribute:: description
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Description of the map.
 
 
 .. _scripts-root-mapinfo-lots:
 
-lots
-^^^^
+.. attribute:: lots
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Refers to the world map the map will be loaded into. For a map which is inside the vanilla world map, use ``lots=Muldraugh, KY``.
 
 
 .. _scripts-root-mapinfo-fixed2x:
 
-fixed2x
-^^^^^^^
+.. attribute:: fixed2x
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Boolean which fixes rendering issues. Leave it as ``true`` if you are not sure.
 
 
 .. _scripts-root-mapinfo-zoomx:
 
-zoomX
-^^^^^
+.. attribute:: zoomX
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Position parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
 
 .. _scripts-root-mapinfo-zoomy:
 
-zoomY
-^^^^^
+.. attribute:: zoomY
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Position parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
 
 .. _scripts-root-mapinfo-zooms:
 
-zoomS
-^^^^^
+.. attribute:: zoomS
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Zoom parameter used to define the position of the camera on the world map when chosing the map to spawn in.
 
 
 .. _scripts-root-mapinfo-demovideo:
 
-demoVideo
-^^^^^^^^^
+.. attribute:: demoVideo
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 `Video file <https://pzwiki.net/wiki/File_formats#Video_format>`_ used to showcase the map when selecting it.
 

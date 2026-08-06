@@ -21,19 +21,11 @@ The following file patterns are used to determine what the valid path for the XM
 Root Details
 ------------
 
-.. attribute:: Element
-
-   clothingItem
+:Element: clothingItem
 
 The root element is the top-level XML element that contains all other elements in the XML file.
 
-.. attribute:: Type
-
-   :ref:`type_clothingItem <clothingitem-type_clothingitem>`
-
-.. attribute:: Composition
-
-   all
+:Composition: all
 
 Elements
 ^^^^^^^^
@@ -41,17 +33,11 @@ Elements
 m_MaleModel
 """""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 The `m_MaleModel <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-malemodel>`_ and `m_FemaleModel <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-femalemodel>`_ are used to specify what model file will be used for the clothing item. Those parameters **should** be left empty when the clothing item is a body texture.
 
@@ -79,17 +65,11 @@ The path separators can be either unix with ``/`` or ``\\``\ , both are valid. M
 m_FemaleModel
 """""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 The `m_MaleModel <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-malemodel>`_ and `m_FemaleModel <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-femalemodel>`_ are used to specify what model file will be used for the clothing item. Those parameters **should** be left empty when the clothing item is a body texture.
 
@@ -117,17 +97,11 @@ The path separators can be either unix with ``/`` or ``\\``\ , both are valid. M
 m_AltMaleModel
 """"""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 0
 
-   0
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 The `m_MaleModel <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-malemodel>`_ and `m_FemaleModel <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-femalemodel>`_ are used to specify what model file will be used for the clothing item. Those parameters **should** be left empty when the clothing item is a body texture.
 
@@ -155,17 +129,11 @@ The path separators can be either unix with ``/`` or ``\\``\ , both are valid. M
 m_AltFemaleModel
 """"""""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 0
 
-   0
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 The `m_MaleModel <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-malemodel>`_ and `m_FemaleModel <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-femalemodel>`_ are used to specify what model file will be used for the clothing item. Those parameters **should** be left empty when the clothing item is a body texture.
 
@@ -193,119 +161,77 @@ The path separators can be either unix with ``/`` or ``\\``\ , both are valid. M
 m_GUID
 """"""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 The `GUID <https://pzwiki.net/wiki/GUID>`_ of the clothing item. This needs to be the same as the one inside the `fileGuidTable <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/fileGuidTable.html#guid>`_ file for the clothing item to be recognized by the game.
 
 m_Static
 """"""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:boolean``
+:Type: ``xs:boolean``
 
 If ``true``\ , the clothing item won't deform with the character's body. This is used for items like backpacks or hats that should not change shape with the character's body.
 
 m_AllowRandomHue
 """"""""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:boolean``
+:Type: ``xs:boolean``
 
 When `m_AllowRandomHue <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomhue>`_ or `m_AllowRandomTint <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomtint>`_ are set to ``true``\ , the clothing item will respectively have a random hue or tint applied to it. m_AllowRandomHue doesn't seem to be impactful on the clothing item as much as m_AllowRandomTint, which will apply the random color on white areas of the clothing item.
 
 m_AllowRandomTint
 """""""""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:boolean``
+:Type: ``xs:boolean``
 
 When `m_AllowRandomHue <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomhue>`_ or `m_AllowRandomTint <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomtint>`_ are set to ``true``\ , the clothing item will respectively have a random hue or tint applied to it. m_AllowRandomHue doesn't seem to be impactful on the clothing item as much as m_AllowRandomTint, which will apply the random color on white areas of the clothing item.
 
 m_AttachBone
 """"""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 Specifies a bone to attach the clothing item to. Mostly notably used for hats and some arm protection items. To attach to the head, use ``Bip01_Head``.
 
 m_Shader
 """"""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 Specifies a shader to use for the clothing item. The default shader used by clothing items is ``basicEffect``. The value needs to be the filename of the shader inside the folder ``media/shaders``.
 
 textureChoices
 """"""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 0
 
-   0
+:Maximum occurence: unbounded
 
-.. attribute:: Maximum occurence
-
-   unbounded
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 `textureChoices <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#texturechoices>`_ sets the texture used by the clothing item. Many of those can be provided as random choices for the clothing item. The textures need to be stored in the folder ``media/textures``.
 
@@ -331,17 +257,11 @@ You'd have:
 m_BaseTextures
 """"""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 0
 
-   0
+:Maximum occurence: unbounded
 
-.. attribute:: Maximum occurence
-
-   unbounded
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 `textureChoices <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#texturechoices>`_ sets the texture used by the clothing item. Many of those can be provided as random choices for the clothing item. The textures need to be stored in the folder ``media/textures``.
 
@@ -367,17 +287,11 @@ You'd have:
 m_Masks
 """""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 0
 
-   0
+:Maximum occurence: unbounded
 
-.. attribute:: Maximum occurence
-
-   unbounded
-
-.. attribute:: Type
-
-   ``xs:integer``
+:Type: ``xs:integer``
 
 `m_Masks <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-masks>`_ when set to a specific integer value will hide specific elements of the character's body model. This is notably used to remove clipping with body parts that are hidden by the clothing item. For example, a jacket will hide the torso and arms, so to reduce risks of clipping you may want to hide these.
 
@@ -398,51 +312,33 @@ You can insert as many of these as you want, for example:
 m_MasksFolder
 """""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 Default value is ``media/textures/Body/Masks``. Some clothing behaviors seem to be hardcoded to this path. You can notably use it to deactivate masks by setting the value to ``media/textures/Clothes/Hat/Masks``\ , but it will also deactivate damage (holes) and blood effects.
 
 m_UnderlayMasksFolder
 """""""""""""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 Default value is ``media/textures/Body/UnderlayMasks``. Some clothing behaviors seem to be hardcoded to this path.
 
 m_HatCategory
 """""""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 1
 
-   1
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 Seems to be used to specify if a hat will hide the hair and beard. Notable values are:
 
@@ -457,17 +353,11 @@ Then values ``Group`` followed by a number ``01``\ , ``02``\ , etc are also used
 m_SpawnWith
 """""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 0
 
-   0
+:Maximum occurence: unbounded
 
-.. attribute:: Maximum occurence
-
-   unbounded
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 Link to other items that this clothingItem should spawn with. This is for example used to make left and right elbow pads spawn together. The value needs to be the `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ of the other clothing item.
 
@@ -483,17 +373,11 @@ To add multiple items, you can add multiple ``<m_SpawnWith>`` elements:
 m_DecalGroup
 """"""""""""
 
-.. attribute:: Minimum occurence
+:Minimum occurence: 0
 
-   0
+:Maximum occurence: 1
 
-.. attribute:: Maximum occurence
-
-   1
-
-.. attribute:: Type
-
-   ``xs:string``
+:Type: ``xs:string``
 
 Refers to the `name <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingDecals.html#name>`_ parameter of a decal group defined in the `clothingDecals.xml <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingDecals.html>`_ file. The clothing decals are used to add additional textures on top of the clothing item. This is most notably used to add logos on t-shirts, and it is possible to add multiple logos on a single decal group.
 

@@ -3,9 +3,7 @@
 polygon
 =======
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 `box <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/box.html>`_\ , `cylinder <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/cylinder.html>`_ and `polygon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/polygon.html>`_ are used in `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ to define the tile depth of a tile.
 
@@ -32,55 +30,42 @@ Parameters
 
 .. _scripts-polygon-translate:
 
-translate
-^^^^^^^^^
+.. attribute:: translate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: 'x')
+:Type: array (array of integer, separator: 'x')
 
 No description provided.
 
 
 .. _scripts-polygon-rotate:
 
-rotate
-^^^^^^
+.. attribute:: rotate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: 'x')
+:Type: array (array of integer, separator: 'x')
 
 No description provided.
 
 
 .. _scripts-polygon-plane:
 
-plane
-^^^^^
+.. attribute:: plane
+   :noindex:
 
-.. attribute:: Type
+:Type: string
 
-   string
-
-.. attribute:: Allowed values
-
-   
-   * XY
-   * XZ
-   * YZ
+:Allowed values:    ``XY`` | ``XZ`` | ``YZ``
 
 No description provided.
 
 
 .. _scripts-polygon-points:
 
-points
-^^^^^^
+.. attribute:: points
+   :noindex:
 
-.. attribute:: Type
-
-   object (object: integer->>integer, kv: 'x', pairs: ' ')
+:Type: object (object: integer->>integer, kv: 'x', pairs: ' ')
 
 Defines the points of the polygon. the format needs to be ``X1xY1 X2xY2 X3xY3`` and so on. The first point (X1, Y1) is connected to the second point (X2, Y2), the second point (X2, Y2) is connected to the third point (X3, Y3), and so on. The last point is connected to the first point, creating a closed shape.
 

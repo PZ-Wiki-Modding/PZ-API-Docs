@@ -1,24 +1,15 @@
-.. _scripts-tmxconfig:
+.. _scripts-root-tmxconfig:
 
 ROOT-TMXconfig
 ==============
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
+:Is Root: True
 
-.. attribute:: Is Root
+:No comma: True
 
-   True
-
-.. attribute:: No comma
-
-   True
-
-.. attribute:: Root patterns
-
-   
-   * ``TMXconfig\.txt$``
+:Root patterns:    ``TMXconfig\.txt$``
 
 The ``TMXconfig.txt`` file is used to configure the default layers which will be created in the TMX file.
 
@@ -43,24 +34,20 @@ Parameters
 
 .. _scripts-root-tmxconfig-version:
 
-version
-^^^^^^^
+.. attribute:: version
+   :noindex:
 
-.. attribute:: Type
-
-   integer
+:Type: integer
 
 Version of the TMXconfig file. Should be 1 for now.
 
 
 .. _scripts-root-tmxconfig-revision:
 
-revision
-^^^^^^^^
+.. attribute:: revision
+   :noindex:
 
-.. attribute:: Type
-
-   integer
+:Type: integer
 
 Revision of the TMXconfig file. Keep it to 11 for now.
 

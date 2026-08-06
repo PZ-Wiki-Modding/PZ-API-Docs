@@ -3,9 +3,7 @@
 fixing
 ======
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Defines how an item can be repaired or fixed.
 
@@ -24,13 +22,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   True
+:Can have spaces: True
 
 
 Parameters
@@ -38,48 +32,40 @@ Parameters
 
 .. _scripts-fixing-fixer:
 
-Fixer
-^^^^^
+.. attribute:: Fixer
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-fixing-require:
 
-Require
-^^^^^^^
+.. attribute:: Require
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of block, separator: ';')
+:Type: array (array of block, separator: ';')
 
 No description provided.
 
 
 .. _scripts-fixing-globalitem:
 
-GlobalItem
-^^^^^^^^^^
+.. attribute:: GlobalItem
+   :noindex:
 
-.. attribute:: Type
-
-   object (object: block->>integer, kv: '=', pairs: ';')
+:Type: object (object: block->>integer, kv: '=', pairs: ';')
 
 No description provided.
 
 
 .. _scripts-fixing-conditionmodifier:
 
-ConditionModifier
-^^^^^^^^^^^^^^^^^
+.. attribute:: ConditionModifier
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 No description provided.
 

@@ -3,9 +3,7 @@
 spriteModel
 ===========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Used to define tileset properties.
 
@@ -34,12 +32,10 @@ Parameters
 
 .. _scripts-spritemodel-version:
 
-VERSION
-^^^^^^^
+.. attribute:: VERSION
+   :noindex:
 
-.. attribute:: Type
-
-   integer
+:Type: integer
 
 No description provided.
 

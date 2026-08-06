@@ -1,20 +1,13 @@
-.. _scripts-sandboxoptions:
+.. _scripts-root-sandboxoptions:
 
 ROOT-SandboxOptions
 ===================
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
+:Is Root: True
 
-.. attribute:: Is Root
-
-   True
-
-.. attribute:: Root patterns
-
-   
-   * ``media\/sandbox-options\.txt$``
+:Root patterns:    ``media\/sandbox-options\.txt$``
 
 The root of a sandbox options file. The file should be stored in the following path:
 
@@ -46,21 +39,14 @@ Parameters
 
 .. _scripts-root-sandboxoptions-version:
 
-VERSION
-^^^^^^^
+.. attribute:: VERSION
+   :noindex:
 
-.. attribute:: Type
+:Type: Unknown
 
-   Unknown
+:Required: True
 
-.. attribute:: Required
-
-   True
-
-.. attribute:: Allowed values
-
-   
-   * 1
+:Allowed values:    ``1``
 
 The version of the handler of the sandbox options. Keep this equal to 1.
 

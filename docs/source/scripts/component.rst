@@ -3,9 +3,7 @@
 component
 =========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 A component is a block which can be added as a child to a specific block type like an item, vehicle etc, to provide additional functionalities.
 
@@ -25,45 +23,24 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
+:Can have spaces: False
 
-.. attribute:: Can have spaces
+:Allowed ID:    ``ContextMenuConfig`` | ``CraftBenchSounds`` | ``CraftBench`` | ``CraftRecipe`` | ``DryingCraftLogic`` | ``Durability`` | ``FluidContainer`` | ``Resources`` | ``SpriteConfig`` | ``SpriteOverlayConfig`` | ``UiConfig`` | ``WallCoveringConfig``
 
-   False
 
-.. attribute:: Allowed ID
+Variants
+--------
 
-   
-   * CraftRecipe
-   * SpriteConfig
-   * UiConfig
-   * CraftBench
-   * CraftBenchSounds
-   * Resources
-   * DryingCraftLogic
-   * SpriteOverlayConfig
-   * Durability
-   * FluidContainer
-   * ContextMenuConfig
-   * WallCoveringConfig
+This block has variants, that is blocks that will have different behavior from this block under certain conditions.
 
-.. attribute:: Variants
+.. toctree::
+   :maxdepth: 3
+   :titlesonly:
+   :glob:
 
-   
-   * :ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>`
-   * :ref:`component CraftRecipe <scripts-component-craftrecipe>`
-   * :ref:`component UiConfig <scripts-component-uiconfig>`
-   * :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
-   * :ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>`
-   * :ref:`component SpriteConfig <scripts-component-spriteconfig>`
-   * :ref:`component Resources <scripts-component-resources>`
-   * :ref:`component CraftBench <scripts-component-craftbench>`
-   * :ref:`component FluidContainer <scripts-component-fluidcontainer>`
-   * :ref:`component Durability <scripts-component-durability>`
-   * :ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>`
-   * :ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>`
+   component/*
 
 
 Parameters

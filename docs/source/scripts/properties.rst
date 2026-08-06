@@ -3,9 +3,7 @@
 Properties
 ==========
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Define stat changes applied to the player drinking this `fluid <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/fluid.html>`_ or properties for a `tile <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/tile.html>`_.
 
@@ -31,168 +29,140 @@ Parameters
 
 .. _scripts-properties-thirstchange:
 
-ThirstChange
-^^^^^^^^^^^^
+.. attribute:: ThirstChange
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of thirst this fluid changes when consumed. Positive values increase thirst, negative values decrease it.
 
 
 .. _scripts-properties-alcohol:
 
-alcohol
-^^^^^^^
+.. attribute:: alcohol
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 No description provided.
 
 
 .. _scripts-properties-hungerchange:
 
-HungerChange
-^^^^^^^^^^^^
+.. attribute:: HungerChange
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of hunger this fluid changes when consumed. Positive values increase hunger, negative values decrease it.
 
 
 .. _scripts-properties-calories:
 
-Calories
-^^^^^^^^
+.. attribute:: Calories
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The number of calories this fluid provides when consumed.
 
 
 .. _scripts-properties-carbohydrates:
 
-Carbohydrates
-^^^^^^^^^^^^^
+.. attribute:: Carbohydrates
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of carbohydrates this fluid provides when consumed.
 
 
 .. _scripts-properties-lipids:
 
-Lipids
-^^^^^^
+.. attribute:: Lipids
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of lipids (fats) this fluid provides when consumed.
 
 
 .. _scripts-properties-proteins:
 
-Proteins
-^^^^^^^^
+.. attribute:: Proteins
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of proteins this fluid provides when consumed.
 
 
 .. _scripts-properties-flureduction:
 
-fluReduction
-^^^^^^^^^^^^
+.. attribute:: fluReduction
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 No description provided.
 
 
 .. _scripts-properties-painreduction:
 
-painReduction
-^^^^^^^^^^^^^
+.. attribute:: painReduction
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of pain this fluid reduces when consumed.
 
 
 .. _scripts-properties-endurancechange:
 
-enduranceChange
-^^^^^^^^^^^^^^^
+.. attribute:: enduranceChange
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of endurance given back.
 
 
 .. _scripts-properties-foodsicknesschange:
 
-foodSicknessChange
-^^^^^^^^^^^^^^^^^^
+.. attribute:: foodSicknessChange
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of food sickness provides.
 
 
 .. _scripts-properties-fatiguechange:
 
-fatigueChange
-^^^^^^^^^^^^^
+.. attribute:: fatigueChange
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of fatigue this fluid changes when consumed. Positive values increase fatigue, negative values decrease it.
 
 
 .. _scripts-properties-stresschange:
 
-StressChange
-^^^^^^^^^^^^
+.. attribute:: StressChange
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of stress this fluid changes when consumed. Positive values increase stress, negative values decrease it.
 
 
 .. _scripts-properties-unhappychange:
 
-UnhappyChange
-^^^^^^^^^^^^^
+.. attribute:: UnhappyChange
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The amount of unhappiness this fluid changes when consumed. Positive values increase unhappiness, negative values decrease it.
 

@@ -3,9 +3,7 @@
 evolvedrecipe
 =============
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Defines a dynamic recipe where items can be added in as ingredients in multiple steps. This is notably used to define soups, stews or beverages that can accept multiple combination of ingredients. Stats from each `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ are added to the final product.
 
@@ -48,13 +46,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   True
+:Can have spaces: True
 
 
 Parameters
@@ -62,28 +56,22 @@ Parameters
 
 .. _scripts-evolvedrecipe-addingredientifcooked:
 
-AddIngredientIfCooked
-^^^^^^^^^^^^^^^^^^^^^
+.. attribute:: AddIngredientIfCooked
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 Whenever ingredients can be added even after the item has been cooked.
 
 
 .. _scripts-evolvedrecipe-addingredientsound:
 
-AddIngredientSound
-^^^^^^^^^^^^^^^^^^
+.. attribute:: AddIngredientSound
+   :noindex:
 
-.. attribute:: Type
+:Type: block (block: :ref:`sound <scripts-sound>`)
 
-   block (block: :ref:`sound <scripts-sound>`)
-
-.. attribute:: Default
-
-   ``AddItemInBeverage``
+:Default: ``AddItemInBeverage``
 
 The `sound <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_ which will be played when an ingredient is added.
 
@@ -92,109 +80,86 @@ If set to ``AddItemInBeverage``\ , when the `ingredient <https://pz-wiki-modding
 
 .. _scripts-evolvedrecipe-baseitem:
 
-BaseItem
-^^^^^^^^
+.. attribute:: BaseItem
+   :noindex:
 
-.. attribute:: Type
-
-   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
+:Type: block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 The `item <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ which will serve as the base for this recipe, that is the item which will be combined with the ingredients to create the `ResultItem <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html#resultitem>`_.
 
 
 .. _scripts-evolvedrecipe-canaddspicesempty:
 
-CanAddSpicesEmpty
-^^^^^^^^^^^^^^^^^
+.. attribute:: CanAddSpicesEmpty
+   :noindex:
 
-.. attribute:: Type
-
-   boolean
+:Type: boolean
 
 If true, the `spices <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-spice>`_ can be added to the `BaseItem <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html#baseitem>`_ directly without any ingredients yet added.
 
 
 .. _scripts-evolvedrecipe-cookable:
 
-Cookable
-^^^^^^^^
+.. attribute:: Cookable
+   :noindex:
 
-.. attribute:: Type
+:Type: boolean
 
-   boolean
-
-.. attribute:: Allowed values
-
-   
-   * true
+:Allowed values:    ``true``
 
 If this parameter is present, the `ResultItem <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html#resultitem>`_ will be cookable. Setting it to false will **NOT** make this value false internally, you need to remove the parameter entirely to make it false.
 
 
 .. _scripts-evolvedrecipe-maxitems:
 
-MaxItems
-^^^^^^^^
+.. attribute:: MaxItems
+   :noindex:
 
-.. attribute:: Type
+:Type: integer
 
-   integer
-
-.. attribute:: Minimum
-
-   ``1``
+:Minimum: ``1``
 
 The maximum number of ingredients which will be used in this recipe. Unique `spices <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-spice>`_ on the other hand can be added infinitely.
 
 
 .. _scripts-evolvedrecipe-minimumwater:
 
-MinimumWater
-^^^^^^^^^^^^
+.. attribute:: MinimumWater
+   :noindex:
 
-.. attribute:: Type
+:Type: float
 
-   float
-
-.. attribute:: Default
-
-   ``0.0``
+:Default: ``0.0``
 
 The minimum amount of water which must be present in the `BaseItem <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html#baseitem>`_ for this recipe to be valid.
 
 
 .. _scripts-evolvedrecipe-name:
 
-Name
-^^^^
+.. attribute:: Name
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The translation key for the name of this recipe which will be retrieved from the `Recipes.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#recipes>`_ file.
 
 
 .. _scripts-evolvedrecipe-resultitem:
 
-ResultItem
-^^^^^^^^^^
+.. attribute:: ResultItem
+   :noindex:
 
-.. attribute:: Type
-
-   block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
+:Type: block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
 No description provided.
 
 
 .. _scripts-evolvedrecipe-template:
 
-Template
-^^^^^^^^
+.. attribute:: Template
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 Whenever an `item <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ uses this recipe via the `EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#item-evolvedrecipe>`_ parameter, and links to the recipe of the ``Template``\ , that ingredient will be added to both every evolved recipe with this template value. This allows you to make variants of the same evolved recipe with different containers, for example for beverages, where the same recipe can be used for a cup, a bottle or a jar.
 

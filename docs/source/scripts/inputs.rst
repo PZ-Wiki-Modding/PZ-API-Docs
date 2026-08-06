@@ -3,9 +3,7 @@
 inputs
 ======
 
-.. attribute:: Soft Override
-
-   False
+:Soft Override: False
 
 No description provided.
 

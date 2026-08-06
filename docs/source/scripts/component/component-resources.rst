@@ -3,13 +3,9 @@
 component Resources
 ===================
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
-
-.. attribute:: Is Variant of
-
-   :ref:`component <scripts-component>`
+:Is Variant of: :ref:`component <scripts-component>`
 
 No description provided.
 

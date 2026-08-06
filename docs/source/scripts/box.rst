@@ -3,9 +3,7 @@
 box
 ===
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 `box <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/box.html>`_\ , `cylinder <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/cylinder.html>`_ and `polygon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/polygon.html>`_ are used in `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ to define the tile depth of a tile.
 
@@ -32,48 +30,40 @@ Parameters
 
 .. _scripts-box-translate:
 
-translate
-^^^^^^^^^
+.. attribute:: translate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: 'x')
+:Type: array (array of integer, separator: 'x')
 
 No description provided.
 
 
 .. _scripts-box-rotate:
 
-rotate
-^^^^^^
+.. attribute:: rotate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: 'x')
+:Type: array (array of integer, separator: 'x')
 
 No description provided.
 
 
 .. _scripts-box-min:
 
-min
-^^^
+.. attribute:: min
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: 'x')
+:Type: array (array of integer, separator: 'x')
 
 No description provided.
 
 
 .. _scripts-box-max:
 
-max
-^^^
+.. attribute:: max
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: 'x')
+:Type: array (array of integer, separator: 'x')
 
 No description provided.
 

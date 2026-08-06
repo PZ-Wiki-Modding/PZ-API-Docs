@@ -3,13 +3,9 @@
 component CraftBenchSounds
 ==========================
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
-
-.. attribute:: Is Variant of
-
-   :ref:`component <scripts-component>`
+:Is Variant of: :ref:`component <scripts-component>`
 
 No description provided.
 
@@ -34,72 +30,60 @@ Parameters
 
 .. _scripts-component-craftbenchsounds-addfuel:
 
-AddFuel
-^^^^^^^
+.. attribute:: AddFuel
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-craftbenchsounds-lightfire:
 
-LightFire
-^^^^^^^^^
+.. attribute:: LightFire
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-craftbenchsounds-running:
 
-Running
-^^^^^^^
+.. attribute:: Running
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-craftbenchsounds-addinput:
 
-AddInput
-^^^^^^^^
+.. attribute:: AddInput
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-craftbenchsounds-removeinput:
 
-RemoveInput
-^^^^^^^^^^^
+.. attribute:: RemoveInput
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-craftbenchsounds-startcraft:
 
-StartCraft
-^^^^^^^^^^
+.. attribute:: StartCraft
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

@@ -3,9 +3,7 @@
 option
 ======
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Defines a custom sandbox option for a mod. You can find more information about sandbox options `here <https://pzwiki.net/wiki/Sandbox_options>`_.
 
@@ -24,13 +22,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
@@ -38,85 +32,64 @@ Parameters
 
 .. _scripts-option-type:
 
-type
-^^^^
+.. attribute:: type
+   :noindex:
 
-.. attribute:: Type
+:Type: string
 
-   string
+:Required: True
 
-.. attribute:: Required
-
-   True
-
-.. attribute:: Allowed values
-
-   
-   * boolean
-   * integer
-   * double
-   * string
-   * enum
+:Allowed values:    ``boolean`` | ``double`` | ``enum`` | ``integer`` | ``string``
 
 The type of the option.
 
 
 .. _scripts-option-min:
 
-min
-^^^
+.. attribute:: min
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The minimum value the option can have. Only for integer and double types.
 
 
 .. _scripts-option-max:
 
-max
-^^^
+.. attribute:: max
+   :noindex:
 
-.. attribute:: Type
-
-   float
+:Type: float
 
 The maximum value the option can have. Only for integer and double types.
 
 
 .. _scripts-option-default:
 
-default
-^^^^^^^
+.. attribute:: default
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 The default value of the option. The type of the value must match the type of the option.
 
 
 .. _scripts-option-page:
 
-page
-^^^^
+.. attribute:: page
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The sandbox option to add the option to. Can be a custom page.
 
 
 .. _scripts-option-translation:
 
-translation
-^^^^^^^^^^^
+.. attribute:: translation
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The translation key for the option's name. The translation key in the `Sandbox <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#sandbox>`_ translation file should have the prefix ``Sandbox_``.
 

@@ -3,13 +3,9 @@
 rule
 ====
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
-
-.. attribute:: No comma
-
-   True
+:No comma: True
 
 A ``rule`` block defines a conversion rule for the `BMP to TMX <https://pzwiki.net/wiki/BMP_to_TMX>`_ conversion process in the `mapping tools <https://pzwiki.net/wiki/Mapping#Mapping_tools>`_. It is used to associate a color on the BMP for the vegetation or main image to a list of tiles to apply on a specific layer in the TMX.
 
@@ -47,36 +43,30 @@ Parameters
 
 .. _scripts-rule-label:
 
-label
-^^^^^
+.. attribute:: label
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 No description provided.
 
 
 .. _scripts-rule-bitmap:
 
-bitmap
-^^^^^^
+.. attribute:: bitmap
+   :noindex:
 
-.. attribute:: Type
-
-   integer
+:Type: integer
 
 A value of ``1`` will have this rule used for the vegetation image, while a value of ``0`` will have it used for the main tiles image. Trees will for example use ``1`` while ground tiles will use ``0``.
 
 
 .. _scripts-rule-tiles:
 
-tiles
-^^^^^
+.. attribute:: tiles
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 A list of tiles to apply randomly for this color. You can also use an alias block here to reference a list of tiles.
 
@@ -127,24 +117,20 @@ Or with one or more alias blocks:
 
 .. _scripts-rule-color:
 
-color
-^^^^^
+.. attribute:: color
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: ' ')
+:Type: array (array of integer, separator: ' ')
 
 The RGB color to replace with the tiles in the ``tiles`` parameter. This is the color you painted in your image file to associate to this rule.
 
 
 .. _scripts-rule-layer:
 
-layer
-^^^^^
+.. attribute:: layer
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: string
 
 The layer to apply the tiles on.
 

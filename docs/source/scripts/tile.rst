@@ -3,9 +3,7 @@
 tile
 ====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Defines some tile properties of a specific tile on a tileset.
 
@@ -37,12 +35,10 @@ Parameters
 
 .. _scripts-tile-xy:
 
-xy
-^^
+.. attribute:: xy
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 The position of the tile in the tileset.
 
@@ -51,96 +47,80 @@ If inside a `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scr
 
 .. _scripts-tile-isprofessiontrait:
 
-IsProfessionTrait
-^^^^^^^^^^^^^^^^^
+.. attribute:: IsProfessionTrait
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-tile-runtime:
 
-runtime
-^^^^^^^
+.. attribute:: runtime
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-tile-modelscript:
 
-modelScript
-^^^^^^^^^^^
+.. attribute:: modelScript
+   :noindex:
 
-.. attribute:: Type
-
-   block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
+:Type: block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
 No description provided.
 
 
 .. _scripts-tile-translate:
 
-translate
-^^^^^^^^^
+.. attribute:: translate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: ' ')
+:Type: array (array of integer, separator: ' ')
 
 No description provided.
 
 
 .. _scripts-tile-rotate:
 
-rotate
-^^^^^^
+.. attribute:: rotate
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of integer, separator: ' ')
+:Type: array (array of integer, separator: ' ')
 
 No description provided.
 
 
 .. _scripts-tile-scale:
 
-scale
-^^^^^
+.. attribute:: scale
+   :noindex:
 
-.. attribute:: Type
-
-   array (array of float, separator: ' ')
+:Type: array (array of float, separator: ' ')
 
 No description provided.
 
 
 .. _scripts-tile-animation:
 
-animation
-^^^^^^^^^
+.. attribute:: animation
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-tile-animationtime:
 
-animationTime
-^^^^^^^^^^^^^
+.. attribute:: animationTime
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

@@ -3,13 +3,9 @@
 component DryingCraftLogic
 ==========================
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
-
-.. attribute:: Is Variant of
-
-   :ref:`component <scripts-component>`
+:Is Variant of: :ref:`component <scripts-component>`
 
 No description provided.
 
@@ -34,60 +30,50 @@ Parameters
 
 .. _scripts-component-dryingcraftlogic-recipes:
 
-Recipes
-^^^^^^^
+.. attribute:: Recipes
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-dryingcraftlogic-startmode:
 
-StartMode
-^^^^^^^^^
+.. attribute:: StartMode
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-dryingcraftlogic-inputgroup:
 
-inputGroup
-^^^^^^^^^^
+.. attribute:: inputGroup
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-dryingcraftlogic-outputgroup:
 
-outputGroup
-^^^^^^^^^^^
+.. attribute:: outputGroup
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-dryingcraftlogic-actionanim:
 
-actionAnim
-^^^^^^^^^^
+.. attribute:: actionAnim
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

@@ -3,13 +3,9 @@
 component CraftRecipe
 =====================
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
-
-.. attribute:: Is Variant of
-
-   :ref:`component <scripts-component>`
+:Is Variant of: :ref:`component <scripts-component>`
 
 No description provided.
 
@@ -20,10 +16,6 @@ Hierarchy
 This block can be a child of the following blocks:
 
 - :ref:`entity <scripts-entity>`
-
-This block can have the following child blocks:
-
-- :ref:`inputs <scripts-inputs>`
 
 This block requires these following children to be valid:
 
@@ -41,52 +33,54 @@ Parameters
 
 .. _scripts-component-craftrecipe-category:
 
-category
-^^^^^^^^
+.. attribute:: category
+   :noindex:
 
-.. attribute:: Type
+:Type: translation
 
-   string
+:Default: ``Miscellaneous``
 
-.. attribute:: Default
+The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in crafting menu. Your category should have a key with the suffix ``IGUI_CraftingCategories_`` in the `IG_UI.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#ig-ui>`_ translation file to be properly displayed in the crafting menu. For example:
 
-   ``Miscellaneous``
+.. code-block:: java
 
-The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in crafting menu. Currently doesn't support translations (confirmed last 42.19.0).
+   category = MyCategory,
+
+And in the translation file:
+
+.. code-block:: json
+
+   {
+     "IGUI_CraftingCategories_MyCategory": "My Category"
+   }
 
 
 .. _scripts-component-craftrecipe-needtobelearn:
 
-NeedToBeLearn
-^^^^^^^^^^^^^
+.. attribute:: NeedToBeLearn
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Whether the recipe needs to be learned before it can be crafted.
 
 
 .. _scripts-component-craftrecipe-onaddtomenu:
 
-OnAddToMenu
-^^^^^^^^^^^
+.. attribute:: OnAddToMenu
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-component-craftrecipe-oncreate:
 
-OnCreate
-^^^^^^^^
+.. attribute:: OnCreate
+   :noindex:
 
-.. attribute:: Type
-
-   callback
+:Type: callback
 
 Various callback functions can be added to a recipe to trigger at specific moments during the crafting process:
 
@@ -125,16 +119,14 @@ For `OnTest <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.h
 
 .. _scripts-component-craftrecipe-skillrequired:
 
-SkillRequired
-^^^^^^^^^^^^^
+.. attribute:: SkillRequired
+   :noindex:
 
-.. attribute:: Type
-
-   object (object: string->>integer, kv: ':', pairs: ';')
+:Type: object (object: string->>integer, kv: ':', pairs: ';')
 
 Specifies the skill level required to perform this crafting action. It should be formatted this way:
 
-.. code-block:: cpp
+.. code-block:: java
 
    /* a single skill */
    skillRequired = <skill name>:<level>,
@@ -146,27 +138,23 @@ For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRe
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: java
 
    skillRequired = Blacksmith:3;Tailoring:2,
 
 
 .. _scripts-component-craftrecipe-tags:
 
-tags
-^^^^
+.. attribute:: tags
+   :noindex:
 
-.. attribute:: Type
+:Type: array (array of string, separator: ';')
 
-   array (array of string, separator: ';')
-
-.. attribute:: Required
-
-   True
+:Required: True
 
 Specifies specific conditions which need to be respected to craft this item. At least one crafting bench tag is necessary for the craft to be recognized, such as ``AnySurfaceCraft``. The syntax is as follows:
 
-.. code-block:: cpp
+.. code-block:: java
 
    /* single tag */
    Tags = tag1,
@@ -176,7 +164,7 @@ Specifies specific conditions which need to be respected to craft this item. At 
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: java
 
    Tags = InHandCraft;CanAlwaysBeResearched,
 
@@ -187,66 +175,58 @@ You can find a list of tags available on the `wiki <https://pzwiki.net/wiki/Craf
 
 .. _scripts-component-craftrecipe-time:
 
-time
-^^^^
+.. attribute:: time
+   :noindex:
 
-.. attribute:: Type
+:Type: integer
 
-   integer
-
-.. attribute:: Default
-
-   ``50``
+:Default: ``50``
 
 The time it takes to craft the item, not using a specific unit of time so refer to the vanilla recipes to get an idea of what value to use.
 
 
 .. _scripts-component-craftrecipe-timedaction:
 
-timedAction
-^^^^^^^^^^^
+.. attribute:: timedAction
+   :noindex:
 
-.. attribute:: Type
-
-   block (block: :ref:`timedAction <scripts-timedaction>`)
+:Type: block (block: :ref:`timedAction <scripts-timedaction>`)
 
 Refers to a timed action script block to trigger during the crafting process, for animations and/or sounds but also the calories burned and body heat generation.
 
 
 .. _scripts-component-craftrecipe-tooltip:
 
-Tooltip
-^^^^^^^
+.. attribute:: Tooltip
+   :noindex:
 
-.. attribute:: Type
-
-   string
+:Type: translation
 
 Description of the crafting which is shown in the crafting menu. The value needs be a key in the `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ translation file. For example:
 
-.. code-block:: cpp
+.. code-block:: java
 
    Tooltip = MyTooltipKey,
 
 And in the translation file:
-```json
-{
-  "MyTooltipKey": "This is my tooltip description."
-}
+
+.. code-block:: json
+
+   {
+     "MyTooltipKey": "This is my tooltip description."
+   }
 
 
 .. _scripts-component-craftrecipe-xpaward:
 
-xpAward
-^^^^^^^
+.. attribute:: xpAward
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 Specifies the experience points awarded for crafting this item. The parameter should be formatted this way:
 
-.. code-block:: cpp
+.. code-block:: java
 
    /* a single skill */
    xpAward = <skill name>:<xp amount>,
@@ -258,7 +238,7 @@ For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRe
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: java
 
    xpAward = Blacksmith:10;Tailoring:5,
 

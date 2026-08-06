@@ -1,20 +1,13 @@
-.. _scripts-scripts:
+.. _scripts-root-scripts:
 
 ROOT-Scripts
 ============
 
-.. attribute:: Soft Override
+:Soft Override: Unknown
 
-   Unknown
+:Is Root: True
 
-.. attribute:: Is Root
-
-   True
-
-.. attribute:: Root patterns
-
-   
-   * ``media\/scripts\/[\s\S]+\.txt$``
+:Root patterns:    ``media\/scripts\/[\s\S]+\.txt$``
 
 The root of a script file. Blocks than need to be in the root of the document should have this as parent.
 

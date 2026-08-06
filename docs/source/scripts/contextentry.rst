@@ -3,9 +3,7 @@
 contextEntry
 ============
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -30,24 +28,20 @@ Parameters
 
 .. _scripts-contextentry-menu:
 
-menu
-^^^^
+.. attribute:: menu
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-contextentry-customfunction:
 
-customFunction
-^^^^^^^^^^^^^^
+.. attribute:: customFunction
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

@@ -3,9 +3,7 @@
 anim
 ====
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 No description provided.
 
@@ -25,13 +23,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
@@ -39,72 +33,60 @@ Parameters
 
 .. _scripts-anim-anim:
 
-anim
-^^^^
+.. attribute:: anim
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-anim-rate:
 
-rate
-^^^^
+.. attribute:: rate
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-anim-angle:
 
-angle
-^^^^^
+.. attribute:: angle
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-anim-sound:
 
-sound
-^^^^^
+.. attribute:: sound
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-anim-reverse:
 
-reverse
-^^^^^^^
+.. attribute:: reverse
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 
 
 .. _scripts-anim-animate:
 
-animate
-^^^^^^^
+.. attribute:: animate
+   :noindex:
 
-.. attribute:: Type
-
-   Unknown
+:Type: Unknown
 
 No description provided.
 

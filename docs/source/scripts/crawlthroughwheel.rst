@@ -3,9 +3,7 @@
 crawlThroughWheel
 =================
 
-.. attribute:: Soft Override
-
-   Unknown
+:Soft Override: Unknown
 
 Similar implementation as a `wheel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/wheel.html>`_\ , but unclear what it does exactly.
 
@@ -25,13 +23,9 @@ ID
 
 This block can have an ID.
 
-.. attribute:: Optional
+:Optional: False
 
-   False
-
-.. attribute:: Can have spaces
-
-   False
+:Can have spaces: False
 
 
 Parameters
