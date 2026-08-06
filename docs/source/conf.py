@@ -59,8 +59,6 @@ html_css_files = [
 ]
 
 html_theme_options = {
-    'collapse_navigation': True,
-#     'navigation_depth': 10,
     "footer_icons": [
         {
             "name": "GitHub",
