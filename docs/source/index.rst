@@ -13,12 +13,11 @@ This documentation is auto-generated from different sources:
 To contribute or suggest improvements, please refer to the main repository's contribution guidelines.
 
 Documentation Structure
-=======================
+-----------------------
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
-   :caption: Contents:
 
    scripts
    mapping
