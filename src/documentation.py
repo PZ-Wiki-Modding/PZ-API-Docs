@@ -179,14 +179,26 @@ class Documentation(Generic[DocObjectT]):
             # store
             self.toc_elements.append(object_file_path)
 
-    def make_toc_tree(self, toc_elements: list[Path], toc_depth: int = 2, title: str = TOC_TITLE) -> str:
+    def make_toc_tree(self, 
+                      toc_elements: list[Path], 
+                      toc_depth: int | None = 2, 
+                      title: str | None = TOC_TITLE, 
+                      glob: str | None = None) -> str:
         """Create a TOC tree string for the provided elements."""
-        out = Headers.SUBSECTION.make(title)
+        out = ""
+        if title is not None:
+            out += Headers.SUBSECTION.make(title)
         out += ".. toctree::" + "\n"
-        out += f"   :maxdepth: {toc_depth}\n"
-        out += "   :titlesonly:\n\n"
-        for element in toc_elements:
-            out += f"{INDENT}{element}\n"
+        if toc_depth is not None:
+            out += f"   :maxdepth: {toc_depth}\n"
+        out += "   :titlesonly:\n"
+        if glob is not None:
+            out += f"   :glob:\n\n"
+            out += f"   {glob}\n"
+        else:
+            out += "\n"
+            for element in toc_elements:
+                out += f"{INDENT}{element}\n"
         return out
 
     def generate_toc(self) -> None:

@@ -155,9 +155,9 @@ block_metadata = Metadata({
 id_metadata = Metadata({
     "Optional": {"access_key": "optional", "default": "False"},
     "Can have spaces": {"access_key": "canHaveSpace", "default": "False"},
-    "Allowed ID": {"access_key": "values", "formatter": list_formatter, "default": None},
-    "Forbidden ID": {"access_key": "forbidden", "formatter": list_formatter, "default": None},
-    "Variants": {"access_key": "asType", "formatter": _variant_list_formatter, "default": None},
+    "Allowed ID": {"access_key": "values", "formatter": code_list_formatter, "default": None},
+    "Forbidden ID": {"access_key": "forbidden", "formatter": code_list_formatter, "default": None},
+    # "Variants": {"access_key": "asType", "formatter": _variant_list_formatter, "default": None},
     "No ID for parents": {"access_key": "parentsWithout", "formatter": _block_link_list_formatter, "default": None},
 })
 
@@ -219,26 +219,36 @@ class ScriptsDocObject(DocObject):
         name = self.data['name']
 
         # make hierarchy section
-        parent_blocks = self.data.get("parents", [])
-        children_blocks = self.data.get("children", [])
-        needsChildren = self.data.get("needsChildren", None)
+        parent_blocks: list[str] = self.data.get("parents", []).copy()
+        children_blocks: list[str] = self.data.get("children", []).copy()
+        needsChildren: list[str] | None = self.data.get("needsChildren", None)
         if parent_blocks or children_blocks:
             content += Headers.SUBSECTION.make("Hierarchy")
 
+            # valid parent blocks
             if parent_blocks:    
                 content += "This block can be a child of the following blocks:\n\n"
                 for parent in parent_blocks:
                     content += f"- {_block_link_formatter(self, 'parents', parent)}\n"
                 content += "\n"
+
+            # mandatory children
+            if needsChildren is not None:
+                # if there are needsChildren, remove them from the children list
+                # to avoid duplicates
+                children_blocks = [child for child in children_blocks if child not in needsChildren]
+
+                content += "This block requires these following children to be valid:\n\n"
+                for child in needsChildren:
+                    content += f"- {_block_link_formatter(self, 'needsChildren', child)}\n"
+
+            # children
             if children_blocks:
                 content += "This block can have the following child blocks:\n\n"
                 for child in children_blocks:
                     content += f"- {_block_link_formatter(self, 'children', child)}\n"
                 content += "\n"
-            if needsChildren is not None:
-                content += "This block requires these following children to be valid:\n\n"
-                for child in needsChildren:
-                    content += f"- {_block_link_formatter(self, 'needsChildren', child)}\n"
+
             content += "\n\n"
 
         # make ID section
@@ -249,6 +259,14 @@ class ScriptsDocObject(DocObject):
         else:
             content += "This block can have an ID.\n\n"
             content += id_metadata.generate(self, id_data) + "\n\n\n"
+
+        # make variants section
+        variants = self.data.get("variants", [])
+        if variants:
+            content += Headers.SUBSECTION.make("Variants")
+            content += "This block has variants, that is blocks that will have different behavior from this block under certain conditions.\n\n"
+            content += Documentation.make_toc_tree(self.doc, [], toc_depth=3, glob=f"{name}/*", title=None)
+            content += "\n\n"
 
         # generate specific ItemType list for item block
         if self.data['name'] == "item":
@@ -305,24 +323,22 @@ class ScriptsDocumentation(Documentation):
     toc_description = TOC_DESCRIPTION
     toc_depth = 4
 
-    def make_toc_tree(self, toc_elements: list[Path], toc_depth: int = 2, title: str = TOC_TITLE) -> str:
+    def make_toc_tree(self, 
+                      toc_elements: list[Path], 
+                      toc_depth: int | None = 2, 
+                      title: str | None = TOC_TITLE, 
+                      glob: str | None = None) -> str:
         """Create a TOC string for the script blocks and root files."""
         # filter root elements out
-        root_elements = [element for element in toc_elements if "roots" in str(element)]
+        # root_elements = [element for element in toc_elements if "roots" in str(element)]
 
         # filter non-root elements
-        non_root_elements = [element for element in toc_elements if element not in root_elements]
+        # non_root_elements = [element for element in toc_elements if element not in root_elements]
 
-        out = super().make_toc_tree(root_elements, toc_depth, title="Root Files")
+        out = super().make_toc_tree([], toc_depth, title="Root Files", glob="scripts/roots/*")
         out += "\n\n"
-        out += super().make_toc_tree(non_root_elements, toc_depth)
+        out += super().make_toc_tree([], toc_depth, glob="scripts/*")
 
-        # out = Headers.SUBSECTION.make(title)
-        # out += ".. toctree::" + "\n"
-        # out += f"   :maxdepth: {toc_depth}\n"
-        # out += "   :titlesonly:\n\n"
-        # for element in toc_elements:
-        #     out += f"{INDENT}{element}\n"
         return out
 
     def generate_instructions(self) -> str | None:
