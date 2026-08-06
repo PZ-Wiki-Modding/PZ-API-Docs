@@ -41,9 +41,15 @@ redirects = {
 }
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = [
+    '_build', 
+    'Thumbs.db', 
+    '.DS_Store', 
+    # 'mapping/**',
+]
 
-html_theme = 'pydata_sphinx_theme'
+# html_theme = 'pydata_sphinx_theme'
+html_theme = "furo"
 html_static_path = ['_static']
 html_title = f"{project} {game_version}"
 html_logo = None
@@ -53,27 +59,26 @@ html_css_files = [
 ]
 
 html_theme_options = {
-    'collapse_navigation': False,
-    'navigation_depth': 10,
-    "external_links": [
-        {"name": "JavaDocs", "url": "https://albion.codeberg.page/PZ-JavaDocs/"},
-        {"name": "LuaDocs", "url": "https://demiurgequantified.github.io/ProjectZomboidLuaDocs/"},
-        {"name": "ZedScripts", "url": "https://pzwiki.net/wiki/ZedScripts"},
-    ],
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/PZ-Wiki-Modding/PZ-API-Docs",
-            "icon": "fa-brands fa-github",
-            "type": "fontawesome",
-        },
-        # {
-        #     "name": "ZedScripts",
-        #     "url": "https://pzwiki.net/wiki/ZedScripts",
-        #     "icon": "https://raw.githubusercontent.com/SirDoggyJvla/ZedScripts/refs/heads/main/images/pz-script.png",
-        #     "type": "url",
-        # },
-   ]
+    # 'collapse_navigation': False,
+#     'navigation_depth': 10,
+#     "external_links": [
+#         {"name": "JavaDocs", "url": "https://albion.codeberg.page/PZ-JavaDocs/"},
+#         {"name": "LuaDocs", "url": "https://demiurgequantified.github.io/ProjectZomboidLuaDocs/"},
+#         {"name": "ZedScripts", "url": "https://pzwiki.net/wiki/ZedScripts"},
+#     ],
+#     "icon_links": [
+#         {
+#             "name": "GitHub",
+#             "url": "https://github.com/PZ-Wiki-Modding/PZ-API-Docs",
+#             "icon": "fa-brands fa-github",
+#             "type": "fontawesome",
+#         },
+#    ],
+
+    "source_repository": "https://github.com/PZ-Wiki-Modding/PZ-API-Docs",
+    "source_branch": "main",
+    "source_directory": "docs",
+    "announcement": "<em>Important</em> announcement!",
 }
 
 # LaTeX output options

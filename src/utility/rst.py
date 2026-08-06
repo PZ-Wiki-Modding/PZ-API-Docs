@@ -1,5 +1,6 @@
 from enum import StrEnum
 
+from project import INDENT
 
 
 def make_ref_label(text: str, label: str) -> str:
@@ -37,6 +38,15 @@ class Headers(StrEnum):
         out += f"{title}\n{self * len(title)}\n\n"
         return out
 
+class Attribute():
+    @staticmethod
+    def make(name: str, label: str | None = None) -> str:
+        """Create an attribute directive string with the given name."""
+        out = ""
+        if label is not None:
+            out += f".. _{label}:\n\n"
+        out += f".. attribute:: {name}\n{INDENT}:noindex:\n\n"
+        return out
 
 
 

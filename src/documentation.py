@@ -17,6 +17,8 @@ TOC_TITLE = "Table of Contents"
 
 def code_value_formatter(object_type: str, key: str, value: str) -> str:
     """Format the value for metadata output."""
+    if value is "":
+        return "(empty)"
     return f"``{value}``"
 
 def list_formatter(obj: "DocObject", key: str, value_list: list) -> str:
@@ -24,8 +26,11 @@ def list_formatter(obj: "DocObject", key: str, value_list: list) -> str:
     if not isinstance(value_list, list):
         return code_value_formatter(obj.name, key, value_list)
     out = ""
-    for i, v in enumerate(value_list):
-        out += f"* {v}\n"
+    value_list.sort()
+    out_list = [str(v) for v in value_list]
+    out += r" | ".join(out_list)
+    # for i, v in enumerate(value_list):
+    #     out += f"* {v}\n"
     return "\n" + out.strip()
 
 def code_list_formatter(obj: "DocObject", key: str, value_list: list) -> str:

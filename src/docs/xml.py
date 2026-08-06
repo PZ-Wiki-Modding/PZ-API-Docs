@@ -22,6 +22,7 @@ Each XML file has its own documentation page. These will each detail variouus da
 * Details about the root element of the XML file, which is the top-level element that contains all other elements in the XML file. For example:
 
 .. code-block:: xml
+
     <?xml version="1.0" encoding="utf-8"?>
     <rootElement>
         <childElement1>
@@ -85,7 +86,7 @@ root_metadata = Metadata({
 
 # used for type definitions
 type_metadata: Metadata["XMLDocObject"] = Metadata({
-    "Type": {"access_key": "type", "formatter": _link_to_type_formatter}, # required in dataset
+    # "Type": {"access_key": "type", "formatter": _link_to_type_formatter}, # required in dataset
     "Composition": {"access_key": "composition", "default": "all"}, # composition defaults to "all" in the schema generator
 })
 
@@ -115,7 +116,7 @@ def _make_type_definition(obj: "XMLDocObject", type_name: str, type_data: dict, 
 
     # make type metadata
     out += type_metadata.generate(obj, {
-        "type": type_name,
+        # "type": type_name,
         "description": type_data.get("description", "No description provided."),
     }) + "\n\n"
 

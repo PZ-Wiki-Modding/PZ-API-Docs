@@ -3,6 +3,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
 INDENT = " " * 3
+DOC_LINK = r"https://pz-wiki-modding.github.io/PZ-API-Docs" # i hate it
 
 
 def sanitize_description(description: str) -> str:

@@ -42,6 +42,9 @@ class _GenericTranslationDocObject(DocObject):
 
     #TODO: should probably use something like for metadata
     def get_item_table(self, item: dict) -> str:
+        if len(item) == 0:
+            return ""
+
         out = f".. list-table::\n{INDENT}:widths: auto\n\n"
         for mk in self.metadata_keys:
             key = mk['key']

@@ -10,9 +10,9 @@ from documentation import (
     code_value_formatter, list_formatter, code_list_formatter,
     TOC_TITLE
 )
-from project import PROJECT_ROOT, sanitize_description, INDENT
+from project import PROJECT_ROOT, sanitize_description, DOC_LINK
 from utility.metadata import Metadata
-from utility.rst import Headers, make_ref_label
+from utility.rst import Headers, Attribute, make_ref_label
 
 
 ## DEFINITIONS
@@ -48,8 +48,8 @@ You can contribute to this documentation by editing the `pz-scripts-data <https:
 """
 
 ITEMTYPE_PARAMETERS_PATH = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "itemParameters.json"
-ITEMTYPE_PARAMETERS_DESCRIPTION = """
-Specific parameters are only available for certain :ref:`scripts-item-itemtype`. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
+ITEMTYPE_PARAMETERS_DESCRIPTION = f"""
+Specific parameters are only available for certain `ItemType <{DOC_LINK}/scripts/item.html#ItemType>`_. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
 """
 
 
@@ -171,7 +171,7 @@ parameter_metadata = Metadata({
     "Default": {"access_key": "default", "default": None, "formatter": code_value_formatter},
     "Minimum": {"access_key": "minimum", "default": None, "formatter": code_value_formatter},
     "Maximum": {"access_key": "maximum", "default": None, "formatter": code_value_formatter},
-    "Allowed values": {"access_key": "values", "formatter": list_formatter, "default": None},
+    "Allowed values": {"access_key": "values", "formatter": code_list_formatter, "default": None},
     "Incompatible with": {"access_key": "incompatibleWith", "formatter": _parameter_link_list_formatter, "default": None},
 })
 
@@ -182,20 +182,23 @@ class ScriptsDocObject(DocObject):
     headerMetadata = block_metadata
 
     def sanitize_id(self, name: str) -> str:
-        isRoot = self.data.get("isRoot", False)
-        id = name.lower().replace(' ', '-')
-        if isRoot:
-            return id.replace('root-', '')
+        # isRoot = self.data.get("isRoot", False)
+        id = super().sanitize_id(name)
+        # if isRoot:
+        #     return id.replace('root-', '')
         return id
 
     def get_object_path(self) -> Path:
         """Retrieve the output path for a specific object's documentation."""
         # default output path is the toc path directory with the toc path's stem
         object_out_dir = self.doc.toc_path.parent / self.doc.toc_path.stem
+        id = self.id
+
         isRoot = self.data.get("isRoot", None)
         isVariant = self.data.get("isVariant", None)
         if isRoot is not None:
             object_out_dir = object_out_dir / 'roots'
+            id = id.replace('root-', '')
         elif isVariant is not None:
             variant_out_path = None
             for object in self.doc.objects:
@@ -206,7 +209,7 @@ class ScriptsDocObject(DocObject):
                 raise ValueError(f"Variant parent block '{isVariant}' not found for block '{self.data['name']}'.")
             # remove .rst from variant_out_path
             object_out_dir = variant_out_path.parent / variant_out_path.stem
-        return object_out_dir / f"{self.id}.rst"
+        return object_out_dir / f"{id}.rst"
 
     def get_object_content(self) -> str:
         """Get the content for a specific script block."""
@@ -281,7 +284,8 @@ class ScriptsDocObject(DocObject):
 
                 # make parameter subsection
                 label = _get_parameter_label(name, parameter['name'])
-                content += Headers.SUBSUBSECTION.make(parameter['name'], label)
+                # content += Headers.SUBSUBSECTION.make(parameter['name'], label)
+                content += Attribute.make(parameter['name'], label)
                 content += parameter_metadata.generate(self, parameter) + "\n\n"
                 content += sanitized_description + "\n\n"
                 content += "\n"
