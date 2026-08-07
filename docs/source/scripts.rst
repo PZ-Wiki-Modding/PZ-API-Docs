@@ -39,7 +39,8 @@ Root Files
    :titlesonly:
    :glob:
 
-   scripts/roots/*
+   roots
+   .. scripts/roots/*
 
 
 Table of Contents

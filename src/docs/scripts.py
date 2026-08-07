@@ -101,7 +101,7 @@ def _parameter_link_list_formatter(obj: "ScriptsDocObject", key: str, value_list
         value_list[i] = make_ref_label(v, label)
     return list_formatter(obj, key, value_list)
 
-def _variant_list_formatter(obj: "ScriptsDocObject", key: str, isVariant: bool) -> str:
+def _variant_list_formatter(obj: "ScriptsDocObject", key: str, variantOf: bool) -> str:
     variants = obj.data.get('variants', [])
     if not variants:
         raise ValueError(f"Block '{obj.data['name']}' has no ID values to check for variants.")
@@ -147,7 +147,7 @@ block_metadata = Metadata({
     "Deprecated": {"access_key": "deprecated", "default": None},
     "Soft Override": {"access_key": "softOverride", "default": "Unknown"},
     "Is Root": {"access_key": "isRoot", "default": None},
-    "Is Variant of": {"access_key": "isVariant", "formatter": _block_link_formatter, "default": None},
+    "Is Variant of": {"access_key": "variantOf", "formatter": _block_link_formatter, "default": None},
     "No comma": {"access_key": "noComma", "default": None},
     "Root patterns": {"access_key": "pattern", "default": None, "formatter": code_list_formatter},
 })
@@ -195,18 +195,18 @@ class ScriptsDocObject(DocObject):
         id = self.id
 
         isRoot = self.data.get("isRoot", None)
-        isVariant = self.data.get("isVariant", None)
+        variantOf = self.data.get("variantOf", None)
         if isRoot is not None:
             object_out_dir = object_out_dir / 'roots'
             id = id.replace('root-', '')
-        elif isVariant is not None:
+        elif variantOf is not None:
             variant_out_path = None
             for object in self.doc.objects:
-                if object.data["name"] == isVariant:
+                if object.data["name"] == variantOf:
                     variant_out_path = object.get_object_path()
                     break
             if variant_out_path is None:
-                raise ValueError(f"Variant parent block '{isVariant}' not found for block '{self.data['name']}'.")
+                raise ValueError(f"Variant parent block '{variantOf}' not found for block '{self.data['name']}'.")
             # remove .rst from variant_out_path
             object_out_dir = variant_out_path.parent / variant_out_path.stem
         return object_out_dir / f"{id}.rst"
