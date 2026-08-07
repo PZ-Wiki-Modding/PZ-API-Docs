@@ -1,3 +1,9 @@
+"""
+Holds the generic Documentation and DocObject classes to create new documentation types from.
+
+Use `create_documentation(doc_type)` to generate the documentation of a specific `doc_type`.
+"""
+
 import json, shutil
 from pathlib import Path
 from typing import Any, TypeVar, Generic, TYPE_CHECKING, overload
@@ -17,7 +23,7 @@ TOC_TITLE = "Table of Contents"
 
 def code_value_formatter(object_type: str, key: str, value: str) -> str:
     """Format the value for metadata output."""
-    if value is "":
+    if value == "":
         return "(empty)"
     return f"``{value}``"
 
@@ -98,10 +104,9 @@ class DocObject:
 DocObjectT = TypeVar('DocObjectT', bound=DocObject)
 
 
+_doc_types: dict[str, type] = {}
 
 class Documentation(Generic[DocObjectT]):
-    _doc_types: dict[str, type] = {}
-
     # derived attributes
     title: str = "__BASE_TITLE"
     doc_type: str = "__BASE"
@@ -127,24 +132,7 @@ class Documentation(Generic[DocObjectT]):
         # when a subclass is created, register it in the _doc_types dictionary
         super().__init_subclass__(**kwargs)
         doc_type = cls.doc_type
-        Documentation._doc_types[doc_type] = cls
-
-    @staticmethod
-    def create(doc_type: str) -> "Documentation":
-        """Factory method to create a documentation instance based on the provided type.
-
-        Args:
-            doc_type (str): The type of documentation to create.
-
-        Raises:
-            ValueError: If the provided documentation type is unknown.
-
-        Returns:
-            Documentation: An instance of the requested documentation type.
-        """
-        if doc_type in Documentation._doc_types:
-            return Documentation._doc_types[doc_type]()
-        raise ValueError(f"Unknown documentation type: {doc_type}")
+        _doc_types[doc_type] = cls
 
 ## subclass methods
     def cleanup(self) -> None:
@@ -253,3 +241,11 @@ class Documentation(Generic[DocObjectT]):
             with open(out_path, "w") as f:
                 f.write(out)
                 echo.path(out_path, prefix="Creating object file:")
+
+def create_documentation(doc_type: str) -> Documentation:
+    if doc_type in _doc_types:
+        return _doc_types[doc_type]()
+    raise ValueError(f"Unknown documentation type: {doc_type}")
+
+def get_all_documentation():
+    return _doc_types.values()

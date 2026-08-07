@@ -23,10 +23,6 @@ setup:
 	source .venv/bin/activate
 	pip install .
 
-clean:
-	rm -rf build
-	rm -rf source/scripts
-
 generate_scripts:
 	.venv/bin/python3 ./src/generate.py scripts
 
