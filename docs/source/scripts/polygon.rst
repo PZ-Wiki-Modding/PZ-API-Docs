@@ -28,26 +28,6 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-polygon-translate:
-
-.. attribute:: translate
-   :noindex:
-
-:Type: array (array of integer, separator: 'x')
-
-No description provided.
-
-
-.. _scripts-polygon-rotate:
-
-.. attribute:: rotate
-   :noindex:
-
-:Type: array (array of integer, separator: 'x')
-
-No description provided.
-
-
 .. _scripts-polygon-plane:
 
 .. attribute:: plane
@@ -70,5 +50,25 @@ No description provided.
 Defines the points of the polygon. the format needs to be ``X1xY1 X2xY2 X3xY3`` and so on. The first point (X1, Y1) is connected to the second point (X2, Y2), the second point (X2, Y2) is connected to the third point (X3, Y3), and so on. The last point is connected to the first point, creating a closed shape.
 
 You can have as many points as you want.
+
+
+.. _scripts-polygon-rotate:
+
+.. attribute:: rotate
+   :noindex:
+
+:Type: array (array of integer, separator: 'x')
+
+No description provided.
+
+
+.. _scripts-polygon-translate:
+
+.. attribute:: translate
+   :noindex:
+
+:Type: array (array of integer, separator: 'x')
+
+No description provided.
 
 

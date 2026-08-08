@@ -3,15 +3,16 @@ if __name__ == "__main__":
 
 import json
 from pathlib import Path
+from typing import Any
 
 from documentation import (
-    Documentation, 
+    Documentation, make_toc_tree,
     DocObject, DocObjectT, 
     code_value_formatter, list_formatter, code_list_formatter,
     TOC_TITLE
 )
 from project import PROJECT_ROOT, sanitize_description, DOC_LINK
-from utility.metadata import Metadata
+from utility.metadata import Metadata, Rule
 from utility.rst import Headers, Attribute, make_ref_label
 
 
@@ -47,6 +48,15 @@ TOC_CONTRIBUTING = """
 You can contribute to this documentation by editing the `pz-scripts-data <https://github.com/PZ-Wiki-Modding/pz-scripts-data>`_ repository. You can read more about it `here <https://github.com/PZ-Wiki-Modding/pz-scripts-data/blob/main/CONTRIBUTING.md>`_.
 """
 
+ROOT_FILES_DESCRIPTION = """
+Root files are the base files that contain the script block and their parameters. Different script blocks go in different root files, which are listed below. They are handled similarly to other script blocks to them following similar behavior:
+
+* children blocks
+* parameters (in some cases)
+
+They are your starting point for creating your own script blocks. The pattern values are used as validators for a root file path and are partial indicators of where the root file is located in the game or mod files but the description will usually contain better detail about its expected location.
+"""
+
 ITEMTYPE_PARAMETERS_PATH = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "itemParameters.json"
 ITEMTYPE_PARAMETERS_DESCRIPTION = f"""
 Specific parameters are only available for certain `ItemType <{DOC_LINK}/scripts/item.html#ItemType>`_. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
@@ -69,7 +79,7 @@ def _sanitize_id(block_name: str) -> str:
 def _is_block(block_name: str, source_obj: "ScriptsDocObject") -> "ScriptsDocObject | None":
     """Check if a block is a valid script block."""
     for obj in source_obj.doc.objects:
-        if obj.data["name"] == block_name:
+        if obj.data.get("name") == block_name:
             return obj
     return None
 
@@ -144,49 +154,49 @@ def _type_formatter(obj: "ScriptsDocObject", key: str, type_data: dict) -> str:
 ## METADATA
 
 block_metadata = Metadata({
-    "Deprecated": {"access_key": "deprecated", "default": None},
-    "Soft Override": {"access_key": "softOverride", "default": "Unknown"},
-    "Is Root": {"access_key": "isRoot", "default": None},
-    "Is Variant of": {"access_key": "variantOf", "formatter": _block_link_formatter, "default": None},
-    "No comma": {"access_key": "noComma", "default": None},
-    "Root patterns": {"access_key": "pattern", "default": None, "formatter": code_list_formatter},
+    "Deprecated":         Rule(access_key="deprecated",       default=None                                      ),
+    "Soft Override":      Rule(access_key="softOverride",     default="Unknown"                                 ),
+    "Is Root":            Rule(access_key="isRoot",           default=None                                      ),
+    "Is Variant of":      Rule(access_key="variantOf",        default=None,      formatter=_block_link_formatter),
+    "No comma":           Rule(access_key="noComma",          default=None                                      ),
+    "Root patterns":      Rule(access_key="pattern",          default=None,      formatter=code_list_formatter  ),
 })
 
 id_metadata = Metadata({
-    "Optional": {"access_key": "optional", "default": "False"},
-    "Can have spaces": {"access_key": "canHaveSpace", "default": "False"},
-    "Allowed ID": {"access_key": "values", "formatter": code_list_formatter, "default": None},
-    "Forbidden ID": {"access_key": "forbidden", "formatter": code_list_formatter, "default": None},
-    # "Variants": {"access_key": "asType", "formatter": _variant_list_formatter, "default": None},
-    "No ID for parents": {"access_key": "parentsWithout", "formatter": _block_link_list_formatter, "default": None},
+    "Optional":           Rule(access_key="optional",         default="False"                                     ),
+    "Can have spaces":    Rule(access_key="canHaveSpace",     default="False"                                     ),
+    "Allowed ID":         Rule(access_key="values",           default=None,      formatter=code_list_formatter       ),
+    "Forbidden ID":       Rule(access_key="forbidden",        default=None,      formatter=code_list_formatter       ),
+    "No ID for parents":  Rule(access_key="parentsWithout",   default=None,      formatter=_block_link_list_formatter),
 })
 
 parameter_metadata = Metadata({
-    "Type": {"access_key": "type", "formatter": _type_formatter, "default": "Unknown"},
-    "Deprecated": {"access_key": "deprecated", "default": None},
-    "Is useless": {"access_key": "isUseless", "default": None},
-    "Required": {"access_key": "required", "default": None},
-    "Allowed duplicates": {"access_key": "allowDuplicates", "default": None},
-    "Can be empty": {"access_key": "canBeEmpty", "default": None},
-    "Default": {"access_key": "default", "default": None, "formatter": code_value_formatter},
-    "Minimum": {"access_key": "minimum", "default": None, "formatter": code_value_formatter},
-    "Maximum": {"access_key": "maximum", "default": None, "formatter": code_value_formatter},
-    "Allowed values": {"access_key": "values", "formatter": code_list_formatter, "default": None},
-    "Incompatible with": {"access_key": "incompatibleWith", "formatter": _parameter_link_list_formatter, "default": None},
+    "Type":               Rule(access_key="type",             default="Unknown", formatter=_type_formatter               ),
+    "Deprecated":         Rule(access_key="deprecated",       default=None                                               ),
+    "Is useless":         Rule(access_key="isUseless",        default=None                                               ),
+    "Required":           Rule(access_key="required",         default=None                                               ),
+    "Allowed duplicates": Rule(access_key="allowDuplicates",  default=None                                               ),
+    "Can be empty":       Rule(access_key="canBeEmpty",       default=None                                               ),
+    "Default":            Rule(access_key="default",          default=None,      formatter=code_value_formatter          ),
+    "Minimum":            Rule(access_key="minimum",          default=None,      formatter=code_value_formatter          ),
+    "Maximum":            Rule(access_key="maximum",          default=None,      formatter=code_value_formatter          ),
+    "Allowed values":     Rule(access_key="values",           default=None,      formatter=code_list_formatter           ),
+    "Incompatible with":  Rule(access_key="incompatibleWith", default=None,      formatter=_parameter_link_list_formatter),
 })
 
 ## MAIN SUBCLASS
 
 class ScriptsDocObject(DocObject):
+    doc: 'ScriptsDocumentation'
     data: dict
     headerMetadata = block_metadata
 
-    def sanitize_id(self, name: str) -> str:
-        # isRoot = self.data.get("isRoot", False)
-        id = super().sanitize_id(name)
-        # if isRoot:
-        #     return id.replace('root-', '')
-        return id
+    # def sanitize_id(self, name: str) -> str:
+    #     # isRoot = self.data.get("isRoot", False)
+    #     id = super().sanitize_id(name)
+    #     # if isRoot:
+    #     #     return id.replace('root-', '')
+    #     return id
 
     def get_object_path(self) -> Path:
         """Retrieve the output path for a specific object's documentation."""
@@ -197,12 +207,12 @@ class ScriptsDocObject(DocObject):
         isRoot = self.data.get("isRoot", None)
         variantOf = self.data.get("variantOf", None)
         if isRoot is not None:
-            object_out_dir = object_out_dir / 'roots'
+            object_out_dir = object_out_dir / 'root-files'
             id = id.replace('root-', '')
         elif variantOf is not None:
             variant_out_path = None
             for object in self.doc.objects:
-                if object.data["name"] == variantOf:
+                if object.data.get("name") == variantOf:
                     variant_out_path = object.get_object_path()
                     break
             if variant_out_path is None:
@@ -274,7 +284,7 @@ class ScriptsDocObject(DocObject):
             content += ITEMTYPE_PARAMETERS_DESCRIPTION.strip()
             content += "\n\n"
 
-            for itemtype, parameters in itemtype_parameters.items():
+            for itemtype, parameters in self.doc.itemtype_parameters_data.items():
                 if parameters:
                     content += Headers.SUBSUBSECTION.make(itemtype)
                     for parameter in parameters:
@@ -311,17 +321,90 @@ class ScriptsDocObject(DocObject):
         return content
 
 
+class RootsDocPage(ScriptsDocObject):
+    def get_object_path(self) -> Path:
+        """Retrieve the output path for a specific object's documentation."""
+        # default output path is the toc path directory with the toc path's stem
+        object_out_dir = self.doc.toc_path.parent / self.doc.toc_path.stem
+        return object_out_dir / f"root_files.rst"
 
-class ScriptsDocumentation(Documentation):
+    def get_label(self) -> str:
+        """Retrieve the label for the root files documentation page."""
+        return f"{self.doc.doc_type}-root-files-toc"
+
+    def get_header(self) -> str:
+        """Retrieve the header for the root files documentation page."""
+        title = "Root Files"
+        label = self.get_label()
+        header = Headers.SECTION.make(title, label=label)
+        header += ROOT_FILES_DESCRIPTION.strip()
+        return header
+
+    def get_object_content(self) -> str:
+        """Get the content for the root files documentation page."""
+        out = ""
+        out += make_toc_tree([], toc_depth=4, title=None, glob="root_files/*")
+        return out
+
+
+
+class ScriptsDocumentation(Documentation[ScriptsDocObject]):
     title = "ScriptsDocs"
     doc_type = "scripts"
-    data_path = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "scriptBlocks.json"
+    data_path = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "scriptsBlocks.json"
+    roots_data_path = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "roots.json"
+    itemtype_data_path = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "itemParameters.json"
+
+    data: dict[str, dict[str, Any]] = {}
+    roots_data: dict[str, dict[str, Any]] = {}
+    itemtype_parameters_data: dict[str, list[str]] = itemtype_parameters
 
     docObject = ScriptsDocObject
+    objects: list[ScriptsDocObject|RootsDocPage] = []
 
     toc_path = PROJECT_ROOT / "docs" / "source" / "scripts.rst"
     toc_description = TOC_DESCRIPTION
     toc_depth = 4
+
+    def preload_data(self) -> None:
+        """Preload the script blocks data from the JSON file."""
+        super().preload_data() # load scripts blocks data
+
+        # load other data files
+        with open(self.roots_data_path, "r") as f:
+            self.roots_data = json.load(f)
+        with open(self.itemtype_data_path, "r") as f:
+            self.itemtype_parameters_data = json.load(f)
+
+    def prepare_data(self) -> None:
+        """Prepare the script blocks data for documentation generation."""
+        # add the root files documentation page first
+        self.objects.append(RootsDocPage("root_files", {}, self, self.roots_data))
+
+        # then add roots data
+        for root_name, root_data in self.roots_data.items():
+            root_obj = self.docObject(root_name, root_data, self, self.roots_data)
+            self.objects.append(root_obj)
+
+        # add scripts blocks data
+        super().prepare_data()
+
+    def pre_toc(self) -> None:
+        """Prepare the table of contents (TOC) elements."""
+        for obj in self.objects:
+            if (isinstance(obj, RootsDocPage) 
+                or obj.data.get("isRoot", False)
+                or obj.data.get("variantOf", None) is not None):
+                continue
+
+            # get the relative path of the script file to the toc path's parent
+            object_file_path = obj.get_object_path().relative_to(self.toc_path.parent)
+
+            # remove .rst part
+            object_file_path = object_file_path.parent / object_file_path.stem
+
+            # store
+            self.toc_elements.append(object_file_path)
 
     def make_toc_tree(self, 
                       toc_elements: list[Path], 
@@ -329,15 +412,15 @@ class ScriptsDocumentation(Documentation):
                       title: str | None = TOC_TITLE, 
                       glob: str | None = None) -> str:
         """Create a TOC string for the script blocks and root files."""
-        # filter root elements out
-        # root_elements = [element for element in toc_elements if "roots" in str(element)]
 
-        # filter non-root elements
-        # non_root_elements = [element for element in toc_elements if element not in root_elements]
-
-        out = super().make_toc_tree([], toc_depth, title="Root Files", glob="scripts/roots/*")
+        out = ""
+        # out += super().make_toc_tree([], toc_depth, title="Root Files", glob="scripts/roots/*")
+        out += super().make_toc_tree([Path("scripts/root_files")], toc_depth, title="Root Files")
         out += "\n\n"
-        out += super().make_toc_tree([], toc_depth, glob="scripts/*")
+
+        # we can't use glob "scripts/*" because it would duplicate "Root Files" entry
+        # which we add manually in the toc above already so it goes above everything else
+        out += super().make_toc_tree(toc_elements, toc_depth)
 
         return out
 

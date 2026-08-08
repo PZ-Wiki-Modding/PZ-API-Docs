@@ -18,18 +18,18 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>`
-- :ref:`components <scripts-components>`
-- :ref:`component CraftRecipe <scripts-component-craftrecipe>`
-- :ref:`component UiConfig <scripts-component-uiconfig>`
-- :ref:`component <scripts-component>`
-- :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
-- :ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>`
 - :ref:`component SpriteConfig <scripts-component-spriteconfig>`
-- :ref:`component Resources <scripts-component-resources>`
 - :ref:`component CraftBench <scripts-component-craftbench>`
-- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+- :ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>`
+- :ref:`component CraftRecipe <scripts-component-craftrecipe>`
+- :ref:`component Resources <scripts-component-resources>`
 - :ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>`
+- :ref:`components <scripts-components>`
+- :ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+- :ref:`component <scripts-component>`
+- :ref:`component UiConfig <scripts-component-uiconfig>`
+- :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
 - :ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>`
 
 
@@ -47,16 +47,6 @@ This block can have an ID.
 Parameters
 ----------
 
-.. _scripts-entity-luawindowclass:
-
-.. attribute:: LuaWindowClass
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
 .. _scripts-entity-displayname:
 
 .. attribute:: DisplayName
@@ -70,6 +60,16 @@ No description provided.
 .. _scripts-entity-icon:
 
 .. attribute:: Icon
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-entity-luawindowclass:
+
+.. attribute:: LuaWindowClass
    :noindex:
 
 :Type: Unknown

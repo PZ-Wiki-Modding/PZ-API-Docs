@@ -63,24 +63,24 @@ The `registries <https://pzwiki.net/wiki/Registries>`_ profession ID to link to.
 The cost of the profession when selecting a character. Negative values remove points, positive values add points.
 
 
-.. _scripts-character_profession_definition-uiname:
+.. _scripts-character_profession_definition-grantedrecipes:
 
-.. attribute:: UIName
+.. attribute:: GrantedRecipes
    :noindex:
 
-:Type: string
+:Type: array (array of string, separator: ';')
 
-The translation key for the profession's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
+A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
 
 
-.. _scripts-character_profession_definition-uidescription:
+.. _scripts-character_profession_definition-grantedtraits:
 
-.. attribute:: UIDescription
+.. attribute:: GrantedTraits
    :noindex:
 
-:Type: string
+:Type: array (array of string, separator: ';')
 
-The translation key for the profession's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
+A list of character trait IDs that are granted to the character when this profession is selected.
 
 
 .. _scripts-character_profession_definition-iconpathname:
@@ -93,14 +93,24 @@ The translation key for the profession's description. The translation key needs 
 No description provided.
 
 
-.. _scripts-character_profession_definition-grantedtraits:
+.. _scripts-character_profession_definition-uidescription:
 
-.. attribute:: GrantedTraits
+.. attribute:: UIDescription
    :noindex:
 
-:Type: array (array of string, separator: ';')
+:Type: string
 
-A list of character trait IDs that are granted to the character when this profession is selected.
+The translation key for the profession's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
+
+
+.. _scripts-character_profession_definition-uiname:
+
+.. attribute:: UIName
+   :noindex:
+
+:Type: string
+
+The translation key for the profession's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
 
 
 .. _scripts-character_profession_definition-xpboosts:
@@ -117,15 +127,5 @@ For example:
 .. code-block:: cpp
 
    XPBoosts = Axe=1;Blunt=1,
-
-
-.. _scripts-character_profession_definition-grantedrecipes:
-
-.. attribute:: GrantedRecipes
-   :noindex:
-
-:Type: array (array of string, separator: ';')
-
-A list of `craftRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html>`_ IDs that are granted to the character when this profession is selected.
 
 

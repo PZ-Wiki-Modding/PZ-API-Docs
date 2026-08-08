@@ -17,16 +17,16 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
+- :ref:`physics <scripts-physics>`
 - :ref:`attachment <scripts-attachment>`
+- :ref:`part <scripts-part>`
 - :ref:`passenger <scripts-passenger>`
 - :ref:`wheel <scripts-wheel>`
-- :ref:`lightbar <scripts-lightbar>`
-- :ref:`physics <scripts-physics>`
-- :ref:`area <scripts-area>`
-- :ref:`part <scripts-part>`
-- :ref:`sound <scripts-sound>`
-- :ref:`skin <scripts-skin>`
 - :ref:`model <scripts-model>`
+- :ref:`lightbar <scripts-lightbar>`
+- :ref:`sound <scripts-sound>`
+- :ref:`area <scripts-area>`
+- :ref:`skin <scripts-skin>`
 
 
 
@@ -231,18 +231,6 @@ It is unclear what that parameter does but as of 42.16.3, the game uses ``frontE
 No description provided.
 
 
-.. _scripts-vehicle-gearratior:
-
-.. attribute:: gearRatioR
-   :noindex:
-
-:Type: float
-
-:Default: ``7.09``
-
-See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
-
-
 .. _scripts-vehicle-gearratio1:
 
 .. attribute:: gearRatio1
@@ -356,6 +344,18 @@ A maximum of 9 ratios can be set with the parameters:
 * `gearRatio6 <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratio6>`_
 * `gearRatio7 <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratio7>`_
 * `gearRatio8 <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html#vehicle-gearratio8>`_
+
+
+.. _scripts-vehicle-gearratior:
+
+.. attribute:: gearRatioR
+   :noindex:
+
+:Type: float
+
+:Default: ``7.09``
+
+See parameter :ref:`gearRatioCount <scripts-vehicle-gearratiocount>`.
 
 
 .. _scripts-vehicle-haslighter:

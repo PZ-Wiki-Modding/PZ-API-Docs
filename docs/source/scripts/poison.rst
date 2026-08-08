@@ -26,6 +26,16 @@ This block should have no ID.
 Parameters
 ----------
 
+.. _scripts-poison-diluteratio:
+
+.. attribute:: diluteRatio
+   :noindex:
+
+:Type: float
+
+The ratio at which the poison is diluted when mixed with other fluids.
+
+
 .. _scripts-poison-maxeffect:
 
 .. attribute:: maxEffect
@@ -46,15 +56,5 @@ Defines the strength of the poison.
 :Type: float
 
 The minimum amount required to consume to poison the player.
-
-
-.. _scripts-poison-diluteratio:
-
-.. attribute:: diluteRatio
-   :noindex:
-
-:Type: float
-
-The ratio at which the poison is diluted when mixed with other fluids.
 
 

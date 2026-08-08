@@ -38,10 +38,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`component <scripts-component>`
-- :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
 - :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 - :ref:`component Durability <scripts-component-durability>`
+- :ref:`component <scripts-component>`
+- :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
 
 
 
@@ -1244,6 +1244,16 @@ No description provided.
 No description provided.
 
 
+.. _scripts-item-damagemodifier:
+
+.. attribute:: DamageModifier
+   :noindex:
+
+:Type: float
+
+See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
+
+
 .. _scripts-item-dangerousuncooked:
 
 .. attribute:: DangerousUncooked
@@ -1332,14 +1342,16 @@ No description provided.
 No description provided.
 
 
-.. _scripts-item-damagemodifier:
+.. _scripts-item-displayname:
 
-.. attribute:: DamageModifier
+.. attribute:: DisplayName
    :noindex:
 
-:Type: float
+:Type: Unknown
 
-See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
+:Deprecated: {'description': 'Naming an item should be done with a translation entry. See the [wiki](https://pzwiki.net/wiki/DisplayName) page for more information.', 'version': '42.13.0'}
+
+Sets the name of the item which will be displayed in-game. It's recommended to use a translation entry for this parameter to allow localization of the item name.
 
 
 .. _scripts-item-doordamage:
@@ -2341,30 +2353,6 @@ No description provided.
 :Allowed values:    ``base:alarmclock`` | ``base:alarmclockclothing`` | ``base:animal`` | ``base:clothing`` | ``base:container`` | ``base:drainable`` | ``base:food`` | ``base:key`` | ``base:literature`` | ``base:map`` | ``base:moveable`` | ``base:normal`` | ``base:radio`` | ``base:weapon`` | ``base:weaponpart``
 
 Defines the class of the item which will impact which parameters the item can take and its properties as well as how it is used by the player. Clothing for instance will handle differently their texture and model in comparison to the other type of items, containers can hold items and weapons can be used by the player to attack and deal damage. You cannot use a custom class of item and only the ones accepted by the game.
-
-
-.. _scripts-item-type:
-
-.. attribute:: Type
-   :noindex:
-
-:Type: Unknown
-
-:Deprecated: {'replacedBy': 'ItemType', 'version': '42.13.0'}
-
-Used to set the class of the item, which will influence parameters available.
-
-
-.. _scripts-item-displayname:
-
-.. attribute:: DisplayName
-   :noindex:
-
-:Type: Unknown
-
-:Deprecated: {'description': 'Naming an item should be done with a translation entry. See the [wiki](https://pzwiki.net/wiki/DisplayName) page for more information.', 'version': '42.13.0'}
-
-Sets the name of the item which will be displayed in-game. It's recommended to use a translation entry for this parameter to allow localization of the item name.
 
 
 .. _scripts-item-itemwhendry:
@@ -4227,6 +4215,18 @@ No description provided.
 No description provided.
 
 
+.. _scripts-item-type:
+
+.. attribute:: Type
+   :noindex:
+
+:Type: Unknown
+
+:Deprecated: {'replacedBy': 'ItemType', 'version': '42.13.0'}
+
+Used to set the class of the item, which will influence parameters available.
+
+
 .. _scripts-item-unequipsound:
 
 .. attribute:: UnequipSound
@@ -4489,16 +4489,6 @@ No description provided.
 See parameter :ref:`Weight <scripts-item-weight>`.
 
 
-.. _scripts-item-weightwet:
-
-.. attribute:: WeightWet
-   :noindex:
-
-:Type: Unknown
-
-See parameter :ref:`Weight <scripts-item-weight>`.
-
-
 .. _scripts-item-weightmodifier:
 
 .. attribute:: WeightModifier
@@ -4521,6 +4511,16 @@ No description provided.
 :Maximum: ``100``
 
 Percentage of the total contained weight in the bag that will be reduced. If the bag's content weights 10 and the reduction is 65, the bag content will only weight
+
+
+.. _scripts-item-weightwet:
+
+.. attribute:: WeightWet
+   :noindex:
+
+:Type: Unknown
+
+See parameter :ref:`Weight <scripts-item-weight>`.
 
 
 .. _scripts-item-wet:

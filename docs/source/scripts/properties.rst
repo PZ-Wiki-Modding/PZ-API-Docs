@@ -27,16 +27,6 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-properties-thirstchange:
-
-.. attribute:: ThirstChange
-   :noindex:
-
-:Type: float
-
-The amount of thirst this fluid changes when consumed. Positive values increase thirst, negative values decrease it.
-
-
 .. _scripts-properties-alcohol:
 
 .. attribute:: alcohol
@@ -45,16 +35,6 @@ The amount of thirst this fluid changes when consumed. Positive values increase 
 :Type: float
 
 No description provided.
-
-
-.. _scripts-properties-hungerchange:
-
-.. attribute:: HungerChange
-   :noindex:
-
-:Type: float
-
-The amount of hunger this fluid changes when consumed. Positive values increase hunger, negative values decrease it.
 
 
 .. _scripts-properties-calories:
@@ -77,46 +57,6 @@ The number of calories this fluid provides when consumed.
 The amount of carbohydrates this fluid provides when consumed.
 
 
-.. _scripts-properties-lipids:
-
-.. attribute:: Lipids
-   :noindex:
-
-:Type: float
-
-The amount of lipids (fats) this fluid provides when consumed.
-
-
-.. _scripts-properties-proteins:
-
-.. attribute:: Proteins
-   :noindex:
-
-:Type: float
-
-The amount of proteins this fluid provides when consumed.
-
-
-.. _scripts-properties-flureduction:
-
-.. attribute:: fluReduction
-   :noindex:
-
-:Type: float
-
-No description provided.
-
-
-.. _scripts-properties-painreduction:
-
-.. attribute:: painReduction
-   :noindex:
-
-:Type: float
-
-The amount of pain this fluid reduces when consumed.
-
-
 .. _scripts-properties-endurancechange:
 
 .. attribute:: enduranceChange
@@ -125,16 +65,6 @@ The amount of pain this fluid reduces when consumed.
 :Type: float
 
 The amount of endurance given back.
-
-
-.. _scripts-properties-foodsicknesschange:
-
-.. attribute:: foodSicknessChange
-   :noindex:
-
-:Type: float
-
-The amount of food sickness provides.
 
 
 .. _scripts-properties-fatiguechange:
@@ -147,6 +77,66 @@ The amount of food sickness provides.
 The amount of fatigue this fluid changes when consumed. Positive values increase fatigue, negative values decrease it.
 
 
+.. _scripts-properties-flureduction:
+
+.. attribute:: fluReduction
+   :noindex:
+
+:Type: float
+
+No description provided.
+
+
+.. _scripts-properties-foodsicknesschange:
+
+.. attribute:: foodSicknessChange
+   :noindex:
+
+:Type: float
+
+The amount of food sickness provides.
+
+
+.. _scripts-properties-hungerchange:
+
+.. attribute:: HungerChange
+   :noindex:
+
+:Type: float
+
+The amount of hunger this fluid changes when consumed. Positive values increase hunger, negative values decrease it.
+
+
+.. _scripts-properties-lipids:
+
+.. attribute:: Lipids
+   :noindex:
+
+:Type: float
+
+The amount of lipids (fats) this fluid provides when consumed.
+
+
+.. _scripts-properties-painreduction:
+
+.. attribute:: painReduction
+   :noindex:
+
+:Type: float
+
+The amount of pain this fluid reduces when consumed.
+
+
+.. _scripts-properties-proteins:
+
+.. attribute:: Proteins
+   :noindex:
+
+:Type: float
+
+The amount of proteins this fluid provides when consumed.
+
+
 .. _scripts-properties-stresschange:
 
 .. attribute:: StressChange
@@ -155,6 +145,16 @@ The amount of fatigue this fluid changes when consumed. Positive values increase
 :Type: float
 
 The amount of stress this fluid changes when consumed. Positive values increase stress, negative values decrease it.
+
+
+.. _scripts-properties-thirstchange:
+
+.. attribute:: ThirstChange
+   :noindex:
+
+:Type: float
+
+The amount of thirst this fluid changes when consumed. Positive values increase thirst, negative values decrease it.
 
 
 .. _scripts-properties-unhappychange:

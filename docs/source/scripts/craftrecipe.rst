@@ -128,9 +128,9 @@ This block requires these following children to be valid:
 - :ref:`inputs <scripts-inputs>`
 This block can have the following child blocks:
 
-- :ref:`outputs <scripts-outputs>`
-- :ref:`overlayMapper <scripts-overlaymapper>`
 - :ref:`itemMapper <scripts-itemmapper>`
+- :ref:`overlayMapper <scripts-overlaymapper>`
+- :ref:`outputs <scripts-outputs>`
 
 
 
@@ -293,6 +293,16 @@ In this example below, the recipe ``MyRecipe1`` will be known if the recipe ``My
 Whether the recipe needs to be learned before it can be crafted.
 
 
+.. _scripts-craftrecipe-onaddtomenu:
+
+.. attribute:: OnAddToMenu
+   :noindex:
+
+:Type: callback
+
+Called when the recipe gets added to the recipe menu. Return ``true`` to add it, and return ``false`` to stop it from getting added to the menu.
+
+
 .. _scripts-craftrecipe-oncreate:
 
 .. attribute:: OnCreate
@@ -335,9 +345,9 @@ For `OnTest <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.h
    end
 
 
-.. _scripts-craftrecipe-ontest:
+.. _scripts-craftrecipe-onfailed:
 
-.. attribute:: OnTest
+.. attribute:: OnFailed
    :noindex:
 
 :Type: callback
@@ -345,9 +355,9 @@ For `OnTest <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.h
 See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
 
 
-.. _scripts-craftrecipe-onfailed:
+.. _scripts-craftrecipe-ontest:
 
-.. attribute:: OnFailed
+.. attribute:: OnTest
    :noindex:
 
 :Type: callback
@@ -363,16 +373,6 @@ See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
 :Type: callback
 
 See parameter :ref:`OnCreate <scripts-craftrecipe-oncreate>`.
-
-
-.. _scripts-craftrecipe-onaddtomenu:
-
-.. attribute:: OnAddToMenu
-   :noindex:
-
-:Type: callback
-
-Called when the recipe gets added to the recipe menu. Return ``true`` to add it, and return ``false`` to stop it from getting added to the menu.
 
 
 .. _scripts-craftrecipe-overlaystyle:

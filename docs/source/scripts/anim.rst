@@ -31,9 +31,29 @@ This block can have an ID.
 Parameters
 ----------
 
+.. _scripts-anim-angle:
+
+.. attribute:: angle
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
 .. _scripts-anim-anim:
 
 .. attribute:: anim
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-anim-animate:
+
+.. attribute:: animate
    :noindex:
 
 :Type: Unknown
@@ -51,26 +71,6 @@ No description provided.
 No description provided.
 
 
-.. _scripts-anim-angle:
-
-.. attribute:: angle
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-anim-sound:
-
-.. attribute:: sound
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
 .. _scripts-anim-reverse:
 
 .. attribute:: reverse
@@ -81,9 +81,9 @@ No description provided.
 No description provided.
 
 
-.. _scripts-anim-animate:
+.. _scripts-anim-sound:
 
-.. attribute:: animate
+.. attribute:: sound
    :noindex:
 
 :Type: Unknown

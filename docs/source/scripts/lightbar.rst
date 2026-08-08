@@ -27,9 +27,19 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-lightbar-texture:
+.. _scripts-lightbar-leftcol:
 
-.. attribute:: texture
+.. attribute:: leftCol
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-lightbar-rightcol:
+
+.. attribute:: rightCol
    :noindex:
 
 :Type: Unknown
@@ -47,19 +57,9 @@ No description provided.
 No description provided.
 
 
-.. _scripts-lightbar-leftcol:
+.. _scripts-lightbar-texture:
 
-.. attribute:: leftCol
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-lightbar-rightcol:
-
-.. attribute:: rightCol
+.. attribute:: texture
    :noindex:
 
 :Type: Unknown

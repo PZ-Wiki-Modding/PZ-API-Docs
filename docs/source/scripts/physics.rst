@@ -33,16 +33,6 @@ This block can have an ID.
 Parameters
 ----------
 
-.. _scripts-physics-offset:
-
-.. attribute:: offset
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
 .. _scripts-physics-extents:
 
 .. attribute:: extents
@@ -53,9 +43,9 @@ No description provided.
 No description provided.
 
 
-.. _scripts-physics-rotate:
+.. _scripts-physics-offset:
 
-.. attribute:: rotate
+.. attribute:: offset
    :noindex:
 
 :Type: Unknown
@@ -69,6 +59,16 @@ No description provided.
    :noindex:
 
 :Type: block (block: :ref:`physicsShape <scripts-physicsshape>`, with :ref:`scripts-module`)
+
+No description provided.
+
+
+.. _scripts-physics-rotate:
+
+.. attribute:: rotate
+   :noindex:
+
+:Type: Unknown
 
 No description provided.
 

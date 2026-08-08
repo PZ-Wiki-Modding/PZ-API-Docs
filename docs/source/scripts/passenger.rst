@@ -17,9 +17,9 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
+- :ref:`switchSeat <scripts-switchseat>`
 - :ref:`anim <scripts-anim>`
 - :ref:`position <scripts-position>`
-- :ref:`switchSeat <scripts-switchseat>`
 
 
 
@@ -36,9 +36,9 @@ This block can have an ID.
 Parameters
 ----------
 
-.. _scripts-passenger-door:
+.. _scripts-passenger-area:
 
-.. attribute:: door
+.. attribute:: area
    :noindex:
 
 :Type: Unknown
@@ -46,9 +46,9 @@ Parameters
 No description provided.
 
 
-.. _scripts-passenger-area:
+.. _scripts-passenger-door:
 
-.. attribute:: area
+.. attribute:: door
    :noindex:
 
 :Type: Unknown

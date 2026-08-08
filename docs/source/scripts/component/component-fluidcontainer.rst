@@ -72,6 +72,18 @@ The name of the fluid container, seems to be unused. The name cannot have whites
 Refers to a `sound block <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_ to trigger when drinking.
 
 
+.. _scripts-component-fluidcontainer-fillswithcleanwater:
+
+.. attribute:: FillsWithCleanWater
+   :noindex:
+
+:Type: boolean
+
+:Default: ``False``
+
+When set to true, the container will fill with clean water instead of tainted water when left outside in the rain.
+
+
 .. _scripts-component-fluidcontainer-hiddenamount:
 
 .. attribute:: HiddenAmount
@@ -172,17 +184,5 @@ When set to true, the container will pick one of the available fluids in the `Fl
 Defines how much rain contributes to filling the container. A high value increases the rate of filling. A value of ``0.0`` means that rain will not fill the container, which is the default value of the parameter.
 
 If the item is a weapon and ``RainFactor`` is set to a value above the default, when the player aims with the weapon it will empty it.
-
-
-.. _scripts-component-fluidcontainer-fillswithcleanwater:
-
-.. attribute:: FillsWithCleanWater
-   :noindex:
-
-:Type: boolean
-
-:Default: ``False``
-
-When set to true, the container will fill with clean water instead of tainted water when left outside in the rain.
 
 

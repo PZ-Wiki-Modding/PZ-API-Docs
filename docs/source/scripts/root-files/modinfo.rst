@@ -1,0 +1,249 @@
+.. _scripts-root-modinfo:
+
+ROOT-ModInfo
+============
+
+:Soft Override: Unknown
+
+:Is Root: True
+
+:No comma: True
+
+:Root patterns:    ``mod\.info$``
+
+The mod.info file, which contains all the information about a mod.
+
+
+ID
+--
+
+This block should have no ID.
+
+
+Parameters
+----------
+
+.. _scripts-root-modinfo-author:
+
+.. attribute:: author
+   :noindex:
+
+:Type: string
+
+Name of the author(s) of the mod. Multiple authors are often separated by commas but no convention exists.
+
+
+.. _scripts-root-modinfo-category:
+
+.. attribute:: category
+   :noindex:
+
+:Type: string
+
+Category is used for filtering mods in the in-game ModManager. Known categories are "map", "vehicle", "features", "modpack". Using other terms will not generate a new filter category.
+
+
+.. _scripts-root-modinfo-description:
+
+.. attribute:: description
+   :noindex:
+
+:Type: string
+
+Description of your mod, which shows up in the mod manager. The description supports `ISRichTextPanel <https://pzwiki.net/wiki/ISRichTextPanel>`_ tags. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
+
+
+.. _scripts-root-modinfo-icon:
+
+.. attribute:: icon
+   :noindex:
+
+:Type: string
+
+Image which will be used in the mod manager to put next to the name of the mod in the list of available mods. This image will be small and while you can use a full image size, you do not need it. You can set your poster as the icon too to not ship two images if desired.
+
+
+.. _scripts-root-modinfo-id:
+
+.. attribute:: id
+   :noindex:
+
+:Type: string
+
+The unique identifier of the mod, used in a mod list of the user or
+servers to activate the mod. Make sure to use something unique which isn't shared
+between mods. 
+
+**Note:** This is not the same as the `Workshop ID <https://pzwiki.net/wiki/Workshop_ID>`_.
+
+
+.. _scripts-root-modinfo-incompatible:
+
+.. attribute:: incompatible
+   :noindex:
+
+:Type: string
+
+Mods that cannot be enabled at the same time as this mod. When enabled, the other mods will be unselectable. This mod will also become unselectable if any of the other mods are enabled.
+
+Example:
+
+.. code-block::
+
+   incompatible=theUnwantedMod,theOtherOne
+
+
+.. _scripts-root-modinfo-loadmodafter:
+
+.. attribute:: loadModAfter
+   :noindex:
+
+:Type: string
+
+Loads the mod only after the set of mods listed.
+
+Example:
+
+.. code-block::
+
+   loadModAfter=someMod,anotherMod
+
+
+.. _scripts-root-modinfo-loadmodbefore:
+
+.. attribute:: loadModBefore
+   :noindex:
+
+:Type: string
+
+Loads the mod before the set of mods listed.
+
+Example:
+
+.. code-block::
+
+   loadModBefore=someMod,anotherMod
+
+
+.. _scripts-root-modinfo-modversion:
+
+.. attribute:: modversion
+   :noindex:
+
+:Type: string
+
+Version of the mod.
+
+
+.. _scripts-root-modinfo-name:
+
+.. attribute:: name
+   :noindex:
+
+:Type: string
+
+The displayed name for your mod in the game's mod manager. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
+
+
+.. _scripts-root-modinfo-pack:
+
+.. attribute:: pack
+   :noindex:
+
+:Type: string
+
+Name of pack files that need to be loaded by the game. Notably used for `Texture pack <https://pzwiki.net/wiki/Texture_pack>`_ and `Tile pack <https://pzwiki.net/wiki/Mapping>`_.
+
+
+.. _scripts-root-modinfo-poster:
+
+.. attribute:: poster
+   :noindex:
+
+:Type: string
+
+Image which will show up in the mod manager as the mod image. Multiple posters can be used to show multiple images, but the first one will be used as the main poster in the mod manager. The rest will be in a list of images of the mod that users can click on to view.
+
+Example:
+
+.. code-block::
+
+   poster=poster.png
+   poster=showcase.png
+   poster=flying_chickens.png
+   poster=credits.png
+
+If you have multiple versions of your mod (e.g., 42.12 and 42.13) and don't want to copy your images, you can leave them in the common folder and use the following (but use unique names for these images since it will use the pool of all mods and their images in the common folder):
+
+.. code-block::
+
+   poster=../common/mymodname_poster.png
+   poster=../common/mymodname_showcase.png
+   poster=../common/mymodname_flying_chickens.png
+   poster=../common/mymodname_credits.png
+
+
+.. _scripts-root-modinfo-require:
+
+.. attribute:: require
+   :noindex:
+
+:Type: string
+
+Mods required to run this mod. Multiple mods can be specified separated by commas.
+
+Example:
+
+.. code-block::
+
+   require=theNeededMod,theOtherOne
+
+
+.. _scripts-root-modinfo-tiledef:
+
+.. attribute:: tiledef
+   :noindex:
+
+:Type: string
+
+Name of the tiledef with its ID that are added by the mod. You can find a community managed list of already used tiledef IDs in `Tiledefs used by mods <https://pzwiki.net/wiki/Tiledefs_used_by_mods>`_.
+
+Example:
+
+.. code-block::
+
+   tiledef=Excavation 2112
+
+If you upload your mod with a new tiledef ID, you can update the list to reduce the chance of incompatibility with other mods adding tile packs.
+
+
+.. _scripts-root-modinfo-url:
+
+.. attribute:: url
+   :noindex:
+
+:Type: string
+
+Shows a URL link in the mod manager on the page of your mod for users to click on to open in their internet browser. The parameter appears as "Homepage" in the mod manager. For a list of valid links, see `URL <https://pzwiki.net/wiki/URL>`_.
+
+
+.. _scripts-root-modinfo-versionmax:
+
+.. attribute:: versionMax
+   :noindex:
+
+:Type: string
+
+The maximum version of the game the mod can be used on. This number needs to be in the format ``build.major`` at the very least, and not just ``build`` or it won't work. Example ``42.12``.
+
+
+.. _scripts-root-modinfo-versionmin:
+
+.. attribute:: versionMin
+   :noindex:
+
+:Type: string
+
+The minimum version of the game the mod can be used on. This number needs to be in the format ``build.major`` at the very least, and not just ``build`` or it won't work. Example ``42.0``.
+
+

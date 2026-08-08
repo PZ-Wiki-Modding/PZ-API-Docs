@@ -26,9 +26,9 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-contextentry-menu:
+.. _scripts-contextentry-customfunction:
 
-.. attribute:: menu
+.. attribute:: customFunction
    :noindex:
 
 :Type: Unknown
@@ -36,9 +36,9 @@ Parameters
 No description provided.
 
 
-.. _scripts-contextentry-customfunction:
+.. _scripts-contextentry-menu:
 
-.. attribute:: customFunction
+.. attribute:: menu
    :noindex:
 
 :Type: Unknown

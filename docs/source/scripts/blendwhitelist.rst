@@ -32,16 +32,6 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-blendwhitelist-whitelist:
-
-.. attribute:: whitelist
-   :noindex:
-
-:Type: boolean
-
-Indicates whenever blending with other fluids is allowed.
-
-
 .. _scripts-blendwhitelist-blacklist:
 
 .. attribute:: blacklist
@@ -50,16 +40,6 @@ Indicates whenever blending with other fluids is allowed.
 :Type: boolean
 
 Indicates whenever blending with other fluids is disallowed.
-
-
-.. _scripts-blendwhitelist-fluid:
-
-.. attribute:: fluid
-   :noindex:
-
-:Type: array (array of string, separator: '/')
-
-A list of fluids.
 
 
 .. _scripts-blendwhitelist-category:
@@ -82,5 +62,25 @@ Unclear what this is for since this is usually achieved with a `categories <http
 :Allowed values:    ``whitelist``
 
 Just use `whitelist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#whitelist>`_ or `blacklist <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/blendwhitelist.html#blacklist>`_.
+
+
+.. _scripts-blendwhitelist-fluid:
+
+.. attribute:: fluid
+   :noindex:
+
+:Type: array (array of string, separator: '/')
+
+A list of fluids.
+
+
+.. _scripts-blendwhitelist-whitelist:
+
+.. attribute:: whitelist
+   :noindex:
+
+:Type: boolean
+
+Indicates whenever blending with other fluids is allowed.
 
 

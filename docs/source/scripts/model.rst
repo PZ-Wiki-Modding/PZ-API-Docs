@@ -59,6 +59,26 @@ Parameters
 Sets the `animations mesh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/animationsmesh.html>`_ for the model. This is used for models that are used for entities such as the character or animals.
 
 
+.. _scripts-model-attachmentparent:
+
+.. attribute:: attachmentParent
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-model-attachmentself:
+
+.. attribute:: attachmentSelf
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
 .. _scripts-model-boneweight:
 
 .. attribute:: boneWeight
@@ -129,6 +149,16 @@ Note that this parameter defaulting to ``Front`` sounds abnormal as the faces po
 No description provided.
 
 
+.. _scripts-model-ignorevehiclescale:
+
+.. attribute:: ignoreVehicleScale
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
 .. _scripts-model-invertx:
 
 .. attribute:: invertX
@@ -179,6 +209,16 @@ No description provided.
 Sets post-processing steps for assimp to use when importing the model. Steps should be separated with ``;``\ , and prefixed with either ``+`` to add the step or ``-`` to remove the step (primarily used to remove a default step). Steps correspond to members of the `AiPostProcessSteps <https://github.com/assimp/assimp/blob/master/port/jassimp/jassimp/src/jassimp/AiPostProcessSteps.java>`_ enum. The default steps are ``FIND_INSTANCES``\ , ``MAKE_LEFT_HANDED``\ , ``LIMIT_BONE_WEIGHTS``\ , ``TRIANGULATE``\ , ``OPTIMIZE_MESHES``\ , ``REMOVE_REDUNDANT_MATERIALS``\ , ``JOIN_IDENTICAL_VERTICES``.
 
 It is unclear what this is used for exactly and should probably not be modified unless you are looking into advanced model manipulation.
+
+
+.. _scripts-model-rotate:
+
+.. attribute:: rotate
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
 
 
 .. _scripts-model-scale:
@@ -261,45 +301,5 @@ It is suggested to put your textures in a subfolder of the ``textures`` folder n
 :Default: ``False``
 
 If set to ``true``\ , the model scale will be multiplied by ``0.6666667``. This seems to be mostly used for tile models.
-
-
-.. _scripts-model-attachmentparent:
-
-.. attribute:: attachmentParent
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-model-attachmentself:
-
-.. attribute:: attachmentSelf
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-model-ignorevehiclescale:
-
-.. attribute:: ignoreVehicleScale
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-model-rotate:
-
-.. attribute:: rotate
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
 
 
