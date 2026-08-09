@@ -31,9 +31,9 @@ This block can have an ID.
 Parameters
 ----------
 
-.. _scripts-wheel-radius:
+.. _scripts-wheel-front:
 
-.. attribute:: radius
+.. attribute:: front
    :noindex:
 
 :Type: Unknown
@@ -51,9 +51,9 @@ No description provided.
 No description provided.
 
 
-.. _scripts-wheel-front:
+.. _scripts-wheel-radius:
 
-.. attribute:: front
+.. attribute:: radius
    :noindex:
 
 :Type: Unknown

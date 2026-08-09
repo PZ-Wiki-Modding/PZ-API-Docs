@@ -30,22 +30,22 @@ This block can have an ID.
 Parameters
 ----------
 
+.. _scripts-fixing-conditionmodifier:
+
+.. attribute:: ConditionModifier
+   :noindex:
+
+:Type: float
+
+No description provided.
+
+
 .. _scripts-fixing-fixer:
 
 .. attribute:: Fixer
    :noindex:
 
 :Type: Unknown
-
-No description provided.
-
-
-.. _scripts-fixing-require:
-
-.. attribute:: Require
-   :noindex:
-
-:Type: array (array of block, separator: ';')
 
 No description provided.
 
@@ -60,12 +60,12 @@ No description provided.
 No description provided.
 
 
-.. _scripts-fixing-conditionmodifier:
+.. _scripts-fixing-require:
 
-.. attribute:: ConditionModifier
+.. attribute:: Require
    :noindex:
 
-:Type: float
+:Type: array (array of block, separator: ';')
 
 No description provided.
 

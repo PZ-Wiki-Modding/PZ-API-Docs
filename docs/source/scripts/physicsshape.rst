@@ -52,16 +52,6 @@ Parameters
 The path to the model's mesh file, relative to the folder ``media/models_X``.
 
 
-.. _scripts-physicsshape-translate:
-
-.. attribute:: translate
-   :noindex:
-
-:Type: array (array of float, separator: ' ')
-
-The position offset of the model, in the format ``x y z``.
-
-
 .. _scripts-physicsshape-rotate:
 
 .. attribute:: rotate
@@ -70,5 +60,15 @@ The position offset of the model, in the format ``x y z``.
 :Type: array (array of float, separator: ' ')
 
 The rotation of the model, in the format ``x y z``.
+
+
+.. _scripts-physicsshape-translate:
+
+.. attribute:: translate
+   :noindex:
+
+:Type: array (array of float, separator: ' ')
+
+The position offset of the model, in the format ``x y z``.
 
 

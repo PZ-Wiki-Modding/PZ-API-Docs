@@ -19,12 +19,12 @@ This block can be a child of the following blocks:
 This block can have the following child blocks:
 
 - :ref:`anim <scripts-anim>`
+- :ref:`door <scripts-door>`
+- :ref:`model <scripts-model>`
+- :ref:`window <scripts-window>`
+- :ref:`lua <scripts-lua>`
 - :ref:`table <scripts-table>`
 - :ref:`container <scripts-container>`
-- :ref:`door <scripts-door>`
-- :ref:`lua <scripts-lua>`
-- :ref:`window <scripts-window>`
-- :ref:`model <scripts-model>`
 
 
 
@@ -41,9 +41,9 @@ This block can have an ID.
 Parameters
 ----------
 
-.. _scripts-part-itemtype:
+.. _scripts-part-area:
 
-.. attribute:: itemType
+.. attribute:: area
    :noindex:
 
 :Type: Unknown
@@ -71,9 +71,9 @@ No description provided.
 No description provided.
 
 
-.. _scripts-part-mechanicarea:
+.. _scripts-part-itemtype:
 
-.. attribute:: mechanicArea
+.. attribute:: itemType
    :noindex:
 
 :Type: Unknown
@@ -81,9 +81,9 @@ No description provided.
 No description provided.
 
 
-.. _scripts-part-area:
+.. _scripts-part-mechanicarea:
 
-.. attribute:: area
+.. attribute:: mechanicArea
    :noindex:
 
 :Type: Unknown
@@ -101,9 +101,9 @@ No description provided.
 No description provided.
 
 
-.. _scripts-part-repairmechanic:
+.. _scripts-part-parent:
 
-.. attribute:: repairMechanic
+.. attribute:: parent
    :noindex:
 
 :Type: Unknown
@@ -111,9 +111,9 @@ No description provided.
 No description provided.
 
 
-.. _scripts-part-parent:
+.. _scripts-part-repairmechanic:
 
-.. attribute:: parent
+.. attribute:: repairMechanic
    :noindex:
 
 :Type: Unknown

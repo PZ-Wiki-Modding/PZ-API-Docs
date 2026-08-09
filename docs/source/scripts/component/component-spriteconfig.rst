@@ -51,6 +51,26 @@ No description provided.
 No description provided.
 
 
+.. _scripts-component-spriteconfig-health:
+
+.. attribute:: health
+   :noindex:
+
+:Type: integer
+
+No description provided.
+
+
+.. _scripts-component-spriteconfig-isprop:
+
+.. attribute:: isProp
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
 .. _scripts-component-spriteconfig-isthumpable:
 
 .. attribute:: isThumpable
@@ -71,16 +91,6 @@ No description provided.
 No description provided.
 
 
-.. _scripts-component-spriteconfig-isprop:
-
-.. attribute:: isProp
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
 .. _scripts-component-spriteconfig-onisvalid:
 
 .. attribute:: OnIsValid
@@ -91,32 +101,22 @@ No description provided.
 No description provided.
 
 
-.. _scripts-component-spriteconfig-timedactiononisvalid:
-
-.. attribute:: TimedActionOnIsValid
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-component-spriteconfig-health:
-
-.. attribute:: health
-   :noindex:
-
-:Type: integer
-
-No description provided.
-
-
 .. _scripts-component-spriteconfig-skillbasehealth:
 
 .. attribute:: skillBaseHealth
    :noindex:
 
 :Type: integer
+
+No description provided.
+
+
+.. _scripts-component-spriteconfig-timedactiononisvalid:
+
+.. attribute:: TimedActionOnIsValid
+   :noindex:
+
+:Type: Unknown
 
 No description provided.
 

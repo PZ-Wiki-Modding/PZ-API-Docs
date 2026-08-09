@@ -28,19 +28,9 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-box-translate:
+.. _scripts-box-max:
 
-.. attribute:: translate
-   :noindex:
-
-:Type: array (array of integer, separator: 'x')
-
-No description provided.
-
-
-.. _scripts-box-rotate:
-
-.. attribute:: rotate
+.. attribute:: max
    :noindex:
 
 :Type: array (array of integer, separator: 'x')
@@ -58,9 +48,19 @@ No description provided.
 No description provided.
 
 
-.. _scripts-box-max:
+.. _scripts-box-rotate:
 
-.. attribute:: max
+.. attribute:: rotate
+   :noindex:
+
+:Type: array (array of integer, separator: 'x')
+
+No description provided.
+
+
+.. _scripts-box-translate:
+
+.. attribute:: translate
    :noindex:
 
 :Type: array (array of integer, separator: 'x')

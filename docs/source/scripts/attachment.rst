@@ -64,6 +64,20 @@ This block can have an ID.
 Parameters
 ----------
 
+.. _scripts-attachment-bone:
+
+.. attribute:: bone
+   :noindex:
+
+:Type: Unknown
+
+The name of the bone to which the model is attached to.
+
+.. code-block:: cpp
+
+   bone = Bip01_L_Hand,
+
+
 .. _scripts-attachment-offset:
 
 .. attribute:: offset
@@ -89,16 +103,6 @@ The rotation of the model relative to the bone. This is a vector in the format `
    rotate = -60.0000 -49.0000 -3.0000,
 
 
-.. _scripts-attachment-zoffset:
-
-.. attribute:: zoffset
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
 .. _scripts-attachment-scale:
 
 .. attribute:: scale
@@ -113,17 +117,13 @@ The scale multiplier applied to the model attached to this attachment point.
    scale = 0.5,
 
 
-.. _scripts-attachment-bone:
+.. _scripts-attachment-zoffset:
 
-.. attribute:: bone
+.. attribute:: zoffset
    :noindex:
 
 :Type: Unknown
 
-The name of the bone to which the model is attached to.
-
-.. code-block:: cpp
-
-   bone = Bip01_L_Hand,
+No description provided.
 
 

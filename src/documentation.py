@@ -46,9 +46,30 @@ def code_list_formatter(obj: "DocObject", key: str, value_list: list) -> str:
     out = ""
     return list_formatter(obj, key, [code_value_formatter(obj.name, key, v) for v in value_list])
 
-## MAIN CLASS
+def make_toc_tree(toc_elements: list[Path], 
+                  toc_depth: int | None = 2, 
+                  title: str | None = TOC_TITLE, 
+                  glob: str | None = None) -> str:
+    """Create a TOC tree string for the provided elements."""
+    out = ""
+    if title is not None:
+        out += Headers.SUBSECTION.make(title)
+    out += ".. toctree::" + "\n"
+    if toc_depth is not None:
+        out += f"{INDENT}:maxdepth: {toc_depth}\n"
+    out += f"{INDENT}:titlesonly:\n"
+    if glob is not None:
+        out += f"{INDENT}:glob:\n\n"
+        out += f"{INDENT}{glob}\n"
+    else:
+        out += "\n"
+        for element in toc_elements:
+            out += f"{INDENT}{element}\n"
+    return out
 
 
+
+## MAIN CLASSES
 
 class DocObject:
     headerMetadata: 'Metadata | None' = None
@@ -173,21 +194,7 @@ class Documentation(Generic[DocObjectT]):
                       title: str | None = TOC_TITLE, 
                       glob: str | None = None) -> str:
         """Create a TOC tree string for the provided elements."""
-        out = ""
-        if title is not None:
-            out += Headers.SUBSECTION.make(title)
-        out += ".. toctree::" + "\n"
-        if toc_depth is not None:
-            out += f"   :maxdepth: {toc_depth}\n"
-        out += "   :titlesonly:\n"
-        if glob is not None:
-            out += f"   :glob:\n\n"
-            out += f"   {glob}\n"
-        else:
-            out += "\n"
-            for element in toc_elements:
-                out += f"{INDENT}{element}\n"
-        return out
+        return make_toc_tree(toc_elements, toc_depth, title, glob)
 
     def generate_toc(self) -> None:
         """Generate the table of contents (TOC) for the documentation."""

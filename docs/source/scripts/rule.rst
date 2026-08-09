@@ -41,6 +41,26 @@ This block should have no ID.
 Parameters
 ----------
 
+.. _scripts-rule-bitmap:
+
+.. attribute:: bitmap
+   :noindex:
+
+:Type: integer
+
+A value of ``1`` will have this rule used for the vegetation image, while a value of ``0`` will have it used for the main tiles image. Trees will for example use ``1`` while ground tiles will use ``0``.
+
+
+.. _scripts-rule-color:
+
+.. attribute:: color
+   :noindex:
+
+:Type: array (array of integer, separator: ' ')
+
+The RGB color to replace with the tiles in the ``tiles`` parameter. This is the color you painted in your image file to associate to this rule.
+
+
 .. _scripts-rule-label:
 
 .. attribute:: label
@@ -51,14 +71,14 @@ Parameters
 No description provided.
 
 
-.. _scripts-rule-bitmap:
+.. _scripts-rule-layer:
 
-.. attribute:: bitmap
+.. attribute:: layer
    :noindex:
 
-:Type: integer
+:Type: string
 
-A value of ``1`` will have this rule used for the vegetation image, while a value of ``0`` will have it used for the main tiles image. Trees will for example use ``1`` while ground tiles will use ``0``.
+The layer to apply the tiles on.
 
 
 .. _scripts-rule-tiles:
@@ -113,25 +133,5 @@ Or with one or more alias blocks:
    tiles = [
      treez1
    ]
-
-
-.. _scripts-rule-color:
-
-.. attribute:: color
-   :noindex:
-
-:Type: array (array of integer, separator: ' ')
-
-The RGB color to replace with the tiles in the ``tiles`` parameter. This is the color you painted in your image file to associate to this rule.
-
-
-.. _scripts-rule-layer:
-
-.. attribute:: layer
-   :noindex:
-
-:Type: string
-
-The layer to apply the tiles on.
 
 

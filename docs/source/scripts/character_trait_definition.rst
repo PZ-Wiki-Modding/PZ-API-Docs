@@ -30,28 +30,16 @@ This block can have an ID.
 Parameters
 ----------
 
-.. _scripts-character_trait_definition-isprofessiontrait:
+.. _scripts-character_trait_definition-charactertrait:
 
-.. attribute:: IsProfessionTrait
+.. attribute:: CharacterTrait
    :noindex:
 
-:Type: boolean
+:Type: string
 
 :Required: True
 
-Defines whenever the trait is a profession trait or not, meaning it will only be available when selecting a profession.
-
-
-.. _scripts-character_trait_definition-disabledinmultiplayer:
-
-.. attribute:: DisabledInMultiplayer
-   :noindex:
-
-:Type: boolean
-
-:Required: True
-
-If true, this trait will be disabled in multiplayer games.
+The registries trait definition ID to link to. see the wiki page about `registries <https://pzwiki.net/wiki/Registries>`_ for more information.
 
 
 .. _scripts-character_trait_definition-cost:
@@ -66,28 +54,58 @@ If true, this trait will be disabled in multiplayer games.
 The cost of the trait when selecting a character. Negative values give points, positive values take points.
 
 
-.. _scripts-character_trait_definition-charactertrait:
+.. _scripts-character_trait_definition-disabledinmultiplayer:
 
-.. attribute:: CharacterTrait
+.. attribute:: DisabledInMultiplayer
+   :noindex:
+
+:Type: boolean
+
+:Required: True
+
+If true, this trait will be disabled in multiplayer games.
+
+
+.. _scripts-character_trait_definition-grantedrecipes:
+
+.. attribute:: GrantedRecipes
+   :noindex:
+
+:Type: array (array of string, separator: ';')
+
+A list of `craftRecipe <https://pzwiki.net/wiki/CraftRecipe>`_ IDs that are granted to the character when this trait is selected.
+
+
+.. _scripts-character_trait_definition-isprofessiontrait:
+
+.. attribute:: IsProfessionTrait
+   :noindex:
+
+:Type: boolean
+
+:Required: True
+
+Defines whenever the trait is a profession trait or not, meaning it will only be available when selecting a profession.
+
+
+.. _scripts-character_trait_definition-mutuallyexclusivetraits:
+
+.. attribute:: MutuallyExclusiveTraits
+   :noindex:
+
+:Type: array (array of string, separator: ';')
+
+A list of trait IDs that are mutually exclusive with this trait. If one is selected, the others cannot be selected.
+
+
+.. _scripts-character_trait_definition-texture:
+
+.. attribute:: Texture
    :noindex:
 
 :Type: string
 
-:Required: True
-
-The registries trait definition ID to link to. see the wiki page about `registries <https://pzwiki.net/wiki/Registries>`_ for more information.
-
-
-.. _scripts-character_trait_definition-uiname:
-
-.. attribute:: UIName
-   :noindex:
-
-:Type: string
-
-:Required: True
-
-The translation key for the trait's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
+The path to the trait's icon texture. This should be a .png file located in the textures folder of your mod.
 
 
 .. _scripts-character_trait_definition-uidescription:
@@ -102,14 +120,16 @@ The translation key for the trait's name. The translation key needs to be in the
 The translation key for the trait's description. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
 
 
-.. _scripts-character_trait_definition-mutuallyexclusivetraits:
+.. _scripts-character_trait_definition-uiname:
 
-.. attribute:: MutuallyExclusiveTraits
+.. attribute:: UIName
    :noindex:
 
-:Type: array (array of string, separator: ';')
+:Type: string
 
-A list of trait IDs that are mutually exclusive with this trait. If one is selected, the others cannot be selected.
+:Required: True
+
+The translation key for the trait's name. The translation key needs to be in the UI translation file. See the wiki page about `translations <https://pzwiki.net/wiki/Translations>`_ for more information.
 
 
 .. _scripts-character_trait_definition-xpboosts:
@@ -126,25 +146,5 @@ For example:
 .. code-block:: cpp
 
    XPBoosts = Axe=1;Blunt=1,
-
-
-.. _scripts-character_trait_definition-grantedrecipes:
-
-.. attribute:: GrantedRecipes
-   :noindex:
-
-:Type: array (array of string, separator: ';')
-
-A list of `craftRecipe <https://pzwiki.net/wiki/CraftRecipe>`_ IDs that are granted to the character when this trait is selected.
-
-
-.. _scripts-character_trait_definition-texture:
-
-.. attribute:: Texture
-   :noindex:
-
-:Type: string
-
-The path to the trait's icon texture. This should be a .png file located in the textures folder of your mod.
 
 

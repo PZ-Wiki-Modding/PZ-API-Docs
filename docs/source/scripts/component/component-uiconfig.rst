@@ -28,16 +28,6 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-component-uiconfig-xuiskin:
-
-.. attribute:: xuiSkin
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
 .. _scripts-component-uiconfig-entitystyle:
 
 .. attribute:: entityStyle
@@ -51,6 +41,16 @@ No description provided.
 .. _scripts-component-uiconfig-uienabled:
 
 .. attribute:: uiEnabled
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-component-uiconfig-xuiskin:
+
+.. attribute:: xuiSkin
    :noindex:
 
 :Type: Unknown

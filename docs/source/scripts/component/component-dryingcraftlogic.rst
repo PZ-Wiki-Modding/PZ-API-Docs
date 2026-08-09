@@ -28,19 +28,9 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-component-dryingcraftlogic-recipes:
+.. _scripts-component-dryingcraftlogic-actionanim:
 
-.. attribute:: Recipes
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-component-dryingcraftlogic-startmode:
-
-.. attribute:: StartMode
+.. attribute:: actionAnim
    :noindex:
 
 :Type: Unknown
@@ -68,9 +58,19 @@ No description provided.
 No description provided.
 
 
-.. _scripts-component-dryingcraftlogic-actionanim:
+.. _scripts-component-dryingcraftlogic-recipes:
 
-.. attribute:: actionAnim
+.. attribute:: Recipes
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-component-dryingcraftlogic-startmode:
+
+.. attribute:: StartMode
    :noindex:
 
 :Type: Unknown

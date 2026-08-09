@@ -28,22 +28,12 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-cylinder-translate:
+.. _scripts-cylinder-height:
 
-.. attribute:: translate
+.. attribute:: height
    :noindex:
 
-:Type: array (array of integer, separator: 'x')
-
-No description provided.
-
-
-.. _scripts-cylinder-rotate:
-
-.. attribute:: rotate
-   :noindex:
-
-:Type: array (array of integer, separator: 'x')
+:Type: integer
 
 No description provided.
 
@@ -68,12 +58,22 @@ No description provided.
 No description provided.
 
 
-.. _scripts-cylinder-height:
+.. _scripts-cylinder-rotate:
 
-.. attribute:: height
+.. attribute:: rotate
    :noindex:
 
-:Type: integer
+:Type: array (array of integer, separator: 'x')
+
+No description provided.
+
+
+.. _scripts-cylinder-translate:
+
+.. attribute:: translate
+   :noindex:
+
+:Type: array (array of integer, separator: 'x')
 
 No description provided.
 

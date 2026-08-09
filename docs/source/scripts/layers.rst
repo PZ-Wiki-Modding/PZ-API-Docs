@@ -28,9 +28,9 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-layers-tile:
+.. _scripts-layers-object:
 
-.. attribute:: tile
+.. attribute:: object
    :noindex:
 
 :Type: string
@@ -38,9 +38,9 @@ Parameters
 No description provided.
 
 
-.. _scripts-layers-object:
+.. _scripts-layers-tile:
 
-.. attribute:: object
+.. attribute:: tile
    :noindex:
 
 :Type: string

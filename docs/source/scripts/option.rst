@@ -30,28 +30,14 @@ This block can have an ID.
 Parameters
 ----------
 
-.. _scripts-option-type:
+.. _scripts-option-default:
 
-.. attribute:: type
+.. attribute:: default
    :noindex:
 
-:Type: string
+:Type: Unknown
 
-:Required: True
-
-:Allowed values:    ``boolean`` | ``double`` | ``enum`` | ``integer`` | ``string``
-
-The type of the option.
-
-
-.. _scripts-option-min:
-
-.. attribute:: min
-   :noindex:
-
-:Type: float
-
-The minimum value the option can have. Only for integer and double types.
+The default value of the option. The type of the value must match the type of the option.
 
 
 .. _scripts-option-max:
@@ -64,14 +50,14 @@ The minimum value the option can have. Only for integer and double types.
 The maximum value the option can have. Only for integer and double types.
 
 
-.. _scripts-option-default:
+.. _scripts-option-min:
 
-.. attribute:: default
+.. attribute:: min
    :noindex:
 
-:Type: Unknown
+:Type: float
 
-The default value of the option. The type of the value must match the type of the option.
+The minimum value the option can have. Only for integer and double types.
 
 
 .. _scripts-option-page:
@@ -104,5 +90,19 @@ The translation key in the Sandbox translation file should be:
 .. code-block:: json
 
    "Sandbox_MyMod_MyOption": "My Option"
+
+
+.. _scripts-option-type:
+
+.. attribute:: type
+   :noindex:
+
+:Type: string
+
+:Required: True
+
+:Allowed values:    ``boolean`` | ``double`` | ``enum`` | ``integer`` | ``string``
+
+The type of the option.
 
 

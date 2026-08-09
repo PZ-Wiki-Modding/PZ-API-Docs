@@ -23,10 +23,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`Properties <scripts-properties>`
-- :ref:`Poison <scripts-poison>`
 - :ref:`Categories <scripts-categories>`
 - :ref:`BlendWhiteList <scripts-blendwhitelist>`
+- :ref:`Poison <scripts-poison>`
+- :ref:`Properties <scripts-properties>`
 
 
 

@@ -30,6 +30,16 @@ This block can have an ID.
 Parameters
 ----------
 
+.. _scripts-position-area:
+
+.. attribute:: area
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
 .. _scripts-position-offset:
 
 .. attribute:: offset
@@ -43,16 +53,6 @@ No description provided.
 .. _scripts-position-rotate:
 
 .. attribute:: rotate
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-position-area:
-
-.. attribute:: area
    :noindex:
 
 :Type: Unknown

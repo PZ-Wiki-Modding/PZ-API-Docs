@@ -38,26 +38,6 @@ Parameters
 No description provided.
 
 
-.. _scripts-component-craftbenchsounds-lightfire:
-
-.. attribute:: LightFire
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
-.. _scripts-component-craftbenchsounds-running:
-
-.. attribute:: Running
-   :noindex:
-
-:Type: Unknown
-
-No description provided.
-
-
 .. _scripts-component-craftbenchsounds-addinput:
 
 .. attribute:: AddInput
@@ -68,9 +48,29 @@ No description provided.
 No description provided.
 
 
+.. _scripts-component-craftbenchsounds-lightfire:
+
+.. attribute:: LightFire
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
 .. _scripts-component-craftbenchsounds-removeinput:
 
 .. attribute:: RemoveInput
+   :noindex:
+
+:Type: Unknown
+
+No description provided.
+
+
+.. _scripts-component-craftbenchsounds-running:
+
+.. attribute:: Running
    :noindex:
 
 :Type: Unknown

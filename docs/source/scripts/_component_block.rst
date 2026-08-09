@@ -28,29 +28,9 @@ This block should have no ID.
 Parameters
 ----------
 
-.. _scripts-_component_block-luapanelclass:
-
-.. attribute:: LuaPanelClass
-   :noindex:
-
-:Type: string
-
-No description provided.
-
-
 .. _scripts-_component_block-displayname:
 
 .. attribute:: DisplayName
-   :noindex:
-
-:Type: string
-
-No description provided.
-
-
-.. _scripts-_component_block-icon:
-
-.. attribute:: Icon
    :noindex:
 
 :Type: string
@@ -68,12 +48,32 @@ No description provided.
 No description provided.
 
 
+.. _scripts-_component_block-icon:
+
+.. attribute:: Icon
+   :noindex:
+
+:Type: string
+
+No description provided.
+
+
 .. _scripts-_component_block-listorderz:
 
 .. attribute:: ListOrderZ
    :noindex:
 
 :Type: integer
+
+No description provided.
+
+
+.. _scripts-_component_block-luapanelclass:
+
+.. attribute:: LuaPanelClass
+   :noindex:
+
+:Type: string
 
 No description provided.
 
