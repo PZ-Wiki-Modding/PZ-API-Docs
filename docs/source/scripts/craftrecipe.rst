@@ -318,7 +318,7 @@ Various callback functions can be added to a recipe to trigger at specific momen
 * `OnFailed <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#onfailed>`_ is called when the crafting recipe fails or is canceled.
 * `OnUpdate <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#onupdate>`_ is called every tick while the recipe is being crafted.
 
-The callback needs to be a Lua function defined as a `global function <https://pzwiki.net/wiki/Lua_(language>`_\ #Local_and_global), which can also be stored in a global table. The vanilla game OnCreate's are stored in the `Java <https://pzwiki.net/wiki/Java>`_.
+The callback needs to be a Lua function defined as a `global function <https://pzwiki.net/wiki/Lua_(language)#Local_and_global>`, which can also be stored in a global table. The vanilla game OnCreate's are stored in the `Java <https://pzwiki.net/wiki/Java>`_.
 
 For example, for `OnCreate <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.html#oncreate>`_ you should have the following structure:
 
