@@ -25,8 +25,8 @@ Hierarchy
 This block can be a child of the following blocks:
 
 - :ref:`module <scripts-module>`
-- :ref:`vehicle <scripts-vehicle>`
 - :ref:`part <scripts-part>`
+- :ref:`vehicle <scripts-vehicle>`
 
 This block can have the following child blocks:
 

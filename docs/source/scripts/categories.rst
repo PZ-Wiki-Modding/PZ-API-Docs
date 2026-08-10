@@ -30,9 +30,9 @@ Hierarchy
 
 This block can be a child of the following blocks:
 
-- :ref:`fluid <scripts-fluid>`
-- :ref:`BlendWhiteList <scripts-blendwhitelist>`
 - :ref:`BlendBlackList <scripts-blendblacklist>`
+- :ref:`BlendWhiteList <scripts-blendwhitelist>`
+- :ref:`fluid <scripts-fluid>`
 
 
 

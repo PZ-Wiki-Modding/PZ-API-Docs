@@ -78,6 +78,34 @@ aesthetic
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SalonShelfTowels`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateSalonSupplies`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -91,7 +119,39 @@ aesthetic
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SalonMagazines`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+       - furniture_shelving_01_19
+       - furniture_shelving_01_23
+       - furniture_shelving_01_51
+       - furniture_shelving_01_55
+     - 
    * - :ref:`procedural-distribution-SalonShelfHaircare`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**shelvesmag**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SalonMagazines`
      - 0
      - 99
      - -
@@ -116,34 +176,6 @@ aesthetic
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-SalonShelfTowels`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSalonSupplies`
-     - 0
-     - 99
-     - 100
      - 
      - 
      - 
@@ -496,6 +528,27 @@ all
      - 
      - 
 
+**dishwasher**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-DishwasherGeneric`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **displaycasebakery**
 
 .. list-table::
@@ -649,24 +702,10 @@ all
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ArmyStorageGuns`
+   * - :ref:`procedural-distribution-GarageFirearms`
      - 0
      - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmyStorageOutfit`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmyStorageAmmunition`
-     - 0
-     - 99
-     - 100
+     - -
      - 
      - 
      - 
@@ -920,48 +959,6 @@ all
 arenakitchen
 ------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBunsBurger`
-     - 0
-     - 2
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBunsHotdog`
-     - 0
-     - 2
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCondiments`
-     - 0
-     - 2
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -1085,48 +1082,6 @@ arenakitchen
        - location_entertainment_theatre_01_7
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBunsBurger`
-     - 0
-     - 2
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBunsHotdog`
-     - 0
-     - 2
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCondiments`
-     - 0
-     - 2
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-
 **freezer**
 
 .. list-table::
@@ -1169,7 +1124,7 @@ arenakitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -1327,6 +1282,48 @@ arenakitchenstorage
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateBunsBurger`
+     - 0
+     - 2
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBunsHotdog`
+     - 0
+     - 2
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCondiments`
+     - 0
+     - 2
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateOilVegetable`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
 
 armystorage
 -----------
@@ -1471,6 +1468,48 @@ armystorage
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ArmyStorageAmmunition`
+     - 0
+     - 99
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmyStorageMedical`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
+     - 0
+     - 99
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 
 armysurplus
 -----------
@@ -1535,48 +1574,6 @@ armysurplus
      - 0
      - 99
      - 20
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ArmySurplusFootwear`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmySurplusMisc`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmySurplusOutfit`
-     - 0
-     - 1
-     - 80
      - 
      - 
      - 
@@ -1773,6 +1770,48 @@ armysurplus
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ArmySurplusFootwear`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmySurplusMisc`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
+     - 0
+     - 1
+     - 80
      - 
      - 
      - 
@@ -1980,6 +2019,55 @@ artstore
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ArtStoreLiterature`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArtStoreOther`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArtStorePaper`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArtStorePottery`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArtStorePen`
+     - 0
+     - 99
+     - 80
      - 
      - 
      - 
@@ -2725,7 +2813,7 @@ attic
      - 
      - 
 
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -3030,41 +3118,6 @@ attic
 backstage
 ---------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BackstageLockers`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BackstageRigging`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSalonSupplies`
-     - 0
-     - 2
-     - 40
-     - 
-     - 
-     - 
-
 **clothingrack**
 
 .. list-table::
@@ -3187,6 +3240,204 @@ backstage
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BackstageLockers`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-BackstageRigging`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateSalonSupplies`
+     - 0
+     - 2
+     - 40
+     - 
+     - 
+     - 
+
+
+bagstore
+--------
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+       - location_shop_accessories_01_0
+       - location_shop_accessories_01_1
+       - location_shop_accessories_01_2
+       - location_shop_accessories_01_3
+       - location_shop_accessories_01_20
+       - location_shop_accessories_01_21
+       - location_shop_accessories_01_22
+       - location_shop_accessories_01_23
+     - 
+   * - :ref:`procedural-distribution-StoreCounterBagsFancy`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BagStoreLeather`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BagStoreLeather`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
+bagworkshop
+-----------
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LeatherworkingTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateLeather`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - CrateLeather_Large
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateLeather`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - CrateLeather_Large
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -3394,7 +3645,7 @@ bakery
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -3464,27 +3715,6 @@ bakery
      - 
      - 
 
-**shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BakeryKitchenStorage`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 
 bakerykitchen
 -------------
@@ -3543,27 +3773,6 @@ bakerykitchen
      - 0
      - 99
      - 20
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BakeryKitchenStorage`
-     - 0
-     - 99
-     - -
      - 
      - 
      - 
@@ -3659,7 +3868,7 @@ bakerykitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -3680,11 +3889,7 @@ bakerykitchen
      - 
      - 
 
-
-bandkitchen
------------
-
-**counter**
+**stove**
 
 .. list-table::
    :header-rows: 1
@@ -3697,20 +3902,17 @@ bandkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BarShelfLiquor`
+   * - :ref:`procedural-distribution-BakeryKitchenStove`
      - 0
      - 99
-     - 100
+     - -
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-StoreShelfSnacks`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
+
+
+bandkitchen
+-----------
 
 **fridge**
 
@@ -3733,7 +3935,7 @@ bandkitchen
      - 
      - 
 
-**overhead**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -3779,6 +3981,34 @@ bandlivingroom
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-BandPracticeClothing`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BarShelfLiquor`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
      - 0
      - 99
      - 100
@@ -3832,7 +4062,7 @@ bandmerch
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -4022,27 +4252,6 @@ bar
      - 
      - 
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BarShelfLiquor`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -4123,27 +4332,6 @@ bar
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BarShelfLiquor`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **displaycase**
 
 .. list-table::
@@ -4207,7 +4395,7 @@ bar
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -4338,6 +4526,27 @@ barbecuestore
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GrillAcessories`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -4457,7 +4666,7 @@ barcountertwiggy
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -4499,62 +4708,6 @@ barkitchen
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCigarettes`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarCrateDarts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarCratePool`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateChips`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePeanuts`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarShelfLiquor`
-     - 0
-     - 99
-     - 100
      - 
      - 
      - 
@@ -4639,62 +4792,6 @@ barkitchen
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCigarettes`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarCrateDarts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarCratePool`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateChips`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePeanuts`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarShelfLiquor`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **fridge**
 
 .. list-table::
@@ -4737,6 +4834,62 @@ barkitchen
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateCigarettes`
+     - 0
+     - 1
+     - 1
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-BarCrateDarts`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-BarCratePool`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateChips`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePeanuts`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-BarShelfLiquor`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -4761,41 +4914,6 @@ barkitchen
 
 barn
 ----
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BarnTools`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateAnimalFeed`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
 
 **crate**
 
@@ -4867,6 +4985,41 @@ barn
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BarnTools`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateAnimalFeed`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFarming`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+
 
 barstorage
 ----------
@@ -4888,62 +5041,6 @@ barstorage
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCigarettes`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarCrateDarts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarCratePool`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateChips`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePeanuts`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BarShelfLiquor`
-     - 0
-     - 99
-     - 100
      - 
      - 
      - 
@@ -5084,7 +5181,49 @@ barstorage
      - 
      - 
 
-**crate**
+**fridge**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FridgeBeer`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BarShelfLiquor`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -5140,48 +5279,6 @@ barstorage
      - 
      - 
 
-**fridge**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-FridgeBeer`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BarShelfLiquor`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **shelves**
 
 .. list-table::
@@ -5207,27 +5304,6 @@ barstorage
 baseballgiftstorage
 -------------------
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBaseballs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **metal_shelves**
 
 .. list-table::
@@ -5249,11 +5325,53 @@ baseballgiftstorage
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateBaseballs`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 
 baseballstorage
 ---------------
 
-**cardboardbox**
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SportStorageBats`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -5277,27 +5395,6 @@ baseballstorage
      - 0
      - 1
      - 20
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-SportStorageBats`
-     - 0
-     - 99
-     - -
      - 
      - 
      - 
@@ -5342,7 +5439,7 @@ baseballstore
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -5366,27 +5463,6 @@ baseballstore
 
 batfactory
 ----------
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BatFactoryBats`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **metal_shelves**
 
@@ -5416,6 +5492,27 @@ batfactory
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BatFactoryBats`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 
 bathroom
 --------
@@ -5437,62 +5534,6 @@ bathroom
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToiletPaper`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GymTowels`
-     - 0
-     - 1
-     - 60
      - 
      - 
      - 
@@ -5550,62 +5591,6 @@ bathroom
      - 
      - 
        - motelroom
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToiletPaper`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GymTowels`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
 
 **locker**
 
@@ -5722,28 +5707,7 @@ bathroom
      - 
      - 
 
-**shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BathroomShelf`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -5799,11 +5763,7 @@ bathroom
      - 
      - 
 
-
-batstorage
-----------
-
-**crate**
+**shelves**
 
 .. list-table::
    :header-rows: 1
@@ -5816,7 +5776,7 @@ batstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BatFactoryBats`
+   * - :ref:`procedural-distribution-BathroomShelf`
      - 0
      - 99
      - -
@@ -5824,7 +5784,11 @@ batstorage
      - 
      - 
 
-**metal_shelves**
+
+batstorage
+----------
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -5849,7 +5813,7 @@ batstorage
 batteryfactory
 --------------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -5874,28 +5838,7 @@ batteryfactory
 batterystorage
 --------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBatteries`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -6792,7 +6735,7 @@ bookstore
      - 
      - 
 
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -7109,27 +7052,6 @@ bookstore
        - location_shop_generic_01_1
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BookstoreBooks`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 
 BoozeCache1
 -----------
@@ -7308,27 +7230,6 @@ boxing
 
 breakroom
 ---------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -7517,6 +7418,27 @@ breakroom
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **overhead**
 
 .. list-table::
@@ -7559,79 +7481,9 @@ breakroom
      - 
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 
 brewery
 -------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BreweryBottles`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BreweryCans`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BreweryHops`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BreweryEmptyBottles`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BreweryEmptyCans`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **clothingdryerbasic**
 
@@ -7703,7 +7555,7 @@ brewery
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -7756,7 +7608,7 @@ brewery
 brewerystorage
 --------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -7784,7 +7636,11 @@ brewerystorage
      - 
      - 
 
-**metal_shelves**
+
+burgerdining
+------------
+
+**counter**
 
 .. list-table::
    :header-rows: 1
@@ -7797,17 +7653,76 @@ brewerystorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BreweryBottles`
+   * - :ref:`procedural-distribution-RestaurantMenus`
      - 0
+     - 99
+     - -
+     - 
+     - 
+       - location_shop_accessories_01_0
+       - location_shop_accessories_01_1
+       - location_shop_accessories_01_2
+       - location_shop_accessories_01_3
+       - location_shop_accessories_01_20
+       - location_shop_accessories_01_21
+       - location_shop_accessories_01_22
+       - location_shop_accessories_01_23
+     - 
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+       - fixtures_sinks_01_0
+       - fixtures_sinks_01_1
+       - fixtures_sinks_01_2
+       - fixtures_sinks_01_3
+       - fixtures_sinks_01_4
+       - fixtures_sinks_01_5
+       - fixtures_sinks_01_6
+       - fixtures_sinks_01_7
+       - fixtures_sinks_01_8
+       - fixtures_sinks_01_9
+       - fixtures_sinks_01_10
+       - fixtures_sinks_01_11
+       - fixtures_sinks_01_16
+       - fixtures_sinks_01_17
+       - fixtures_sinks_01_18
+       - fixtures_sinks_01_19
+     - 
+
+**restaurantdisplay**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ServingTrayBurgers`
+     - 1
+     - 99
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ServingTrayFries`
+     - 1
      - 99
      - 100
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-BreweryCans`
-     - 0
+   * - :ref:`procedural-distribution-ServingTrayOnionRings`
+     - 1
      - 99
-     - 100
+     - 40
      - 
      - 
      - 
@@ -7815,41 +7730,6 @@ brewerystorage
 
 burgerkitchen
 -------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBunsBurger`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCondiments`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -7920,41 +7800,6 @@ burgerkitchen
      - 0
      - 99
      - 10
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBunsBurger`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCondiments`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 20
      - 
      - 
      - 
@@ -8036,6 +7881,41 @@ burgerkitchen
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateBunsBurger`
+     - 0
+     - 2
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCondiments`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateOilVegetable`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+
 **restaurantdisplay**
 
 .. list-table::
@@ -8071,41 +7951,6 @@ burgerkitchen
      - 
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBunsBurger`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCondiments`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-
 **stove**
 
 .. list-table::
@@ -8135,41 +7980,6 @@ burgerkitchen
 
 butcher
 -------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ButcherSnacks`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ButcherSpices`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ButcherTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -8349,6 +8159,62 @@ butcher
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ButcherSnacks`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ButcherSpices`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ButcherTools`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**restaurantdisplay**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ButcherChops`
+     - 1
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -8404,27 +8270,6 @@ butcher
 cabinetfactory
 --------------
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CabinetFactoryTools`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **metal_shelves**
 
 .. list-table::
@@ -8453,7 +8298,7 @@ cabinetfactory
      - 
      - 
 
-**toolcabinet**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -8478,7 +8323,7 @@ cabinetfactory
 cabinetshipping
 ---------------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -8502,41 +8347,6 @@ cabinetshipping
 
 cafe
 ----
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateEspressoMachine`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeKitchenSupplies`
-     - 1
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeKitchenMugs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -8626,41 +8436,6 @@ cafe
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateEspressoMachine`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeKitchenSupplies`
-     - 1
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeKitchenMugs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **displaycasebakery**
 
 .. list-table::
@@ -8727,6 +8502,41 @@ cafe
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateEspressoMachine`
+     - 0
+     - 1
+     - 1
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
+     - 1
+     - 4
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -8798,41 +8608,6 @@ cafe
 
 cafekitchen
 -----------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateEspressoMachine`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeKitchenSupplies`
-     - 1
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeKitchenMugs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -8953,6 +8728,41 @@ cafekitchen
      - 0
      - 2
      - 20
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateEspressoMachine`
+     - 0
+     - 1
+     - 1
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CafeKitchenSupplies`
+     - 1
+     - 4
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CafeKitchenMugs`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -9202,6 +9012,34 @@ cafeteria
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-StoreShelfDrinks`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-StoreShelfSnacks`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **restaurantdisplay**
 
 .. list-table::
@@ -9286,79 +9124,9 @@ cafeteria
      - 
      - 
 
-**shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-StoreShelfDrinks`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-StoreShelfSnacks`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 
 cafeteriakitchen
 ----------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeteriaTrays`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **clothingdryer**
 
@@ -9526,48 +9294,6 @@ cafeteriakitchen
    * - :ref:`procedural-distribution-StoreKitchenSauce`
      - 0
      - 1
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeteriaTrays`
-     - 0
-     - 99
      - 100
      - 
      - 
@@ -9741,6 +9467,48 @@ cafeteriakitchen
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GroceryStorageCrate1`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GroceryStorageCrate2`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GroceryStorageCrate3`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CafeteriaTrays`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **restaurantdisplay**
 
 .. list-table::
@@ -9826,90 +9594,6 @@ cafeteriakitchen
      - 
 
 **shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeteriaTrays`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CafeteriaTrays`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**smallcrate**
 
 .. list-table::
    :header-rows: 1
@@ -10046,90 +9730,6 @@ camerastore
 camping
 -------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreTents`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreBackpacks`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreLighting`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreCases`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreClothes`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreLegwear`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FishingStoreGear`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreGear`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **clothingrack**
 
 .. list-table::
@@ -10243,6 +9843,90 @@ camping
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreTents`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreBackpacks`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreLighting`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreCases`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreClothes`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreLegwear`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreTools`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-FishingStoreGear`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreGear`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -10331,7 +10015,7 @@ camping
 campingstorage
 --------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -10397,139 +10081,6 @@ campingstorage
      - 0
      - 1
      - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreGear`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CampingStoreSleepingBags`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreTents`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreBackpacks`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreLighting`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreClothes`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreLegwear`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FishingStoreGear`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreGear`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CampingStoreBackpacks`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreClothes`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreLegwear`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreTools`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreBooks`
-     - 0
-     - 99
-     - 80
      - 
      - 
      - 
@@ -10569,27 +10120,6 @@ campworkerdorm
 
 candystorage
 ------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CandyStoreSnacks`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -10633,11 +10163,7 @@ candystorage
      - 
      - 
 
-
-candystore
-----------
-
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -10657,6 +10183,10 @@ candystore
      - 
      - 
      - 
+
+
+candystore
+----------
 
 **counter**
 
@@ -10808,6 +10338,27 @@ candystore
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CandyStoreSnacks`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -10951,34 +10502,6 @@ captainoffice
 cardealershipoffice
 -------------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **desk**
 
 .. list-table::
@@ -11038,6 +10561,34 @@ cardealershipoffice
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -11194,6 +10745,115 @@ Carpenter
      - 
 
 
+carpentryworkshop
+-----------------
+
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FurnitureFactoryTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateLumber`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CarpentryBooks`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**smallbox**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FurnitureFactoryTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**toolcabinet**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FurnitureFactoryTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
 carsupply
 ---------
 
@@ -11247,7 +10907,140 @@ carsupply
      - 
      - 
 
-**crate**
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CarSupplyBatteries`
+     - 1
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarSupplyGasCans`
+     - 0
+     - 2
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarSupplyTools`
+     - 0
+     - 4
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarLightbars`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarMufflerModern1`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarMufflerModern2`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarMufflerModern3`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarMufflerNormal1`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarMufflerNormal2`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarMufflerNormal3`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarTiresModern1`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarTiresModern2`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarTiresModern3`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarTiresNormal1`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarTiresNormal2`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CarTiresNormal3`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GasStoreEmergency`
+     - 1
+     - 2
+     - 10
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -11467,139 +11260,6 @@ carsupply
      - 0
      - 99
      - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CarSupplyBatteries`
-     - 1
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarSupplyGasCans`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarSupplyTools`
-     - 0
-     - 4
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarLightbars`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerModern1`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerModern2`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerModern3`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerNormal1`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerNormal2`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerNormal3`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresModern1`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresModern2`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresModern3`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresNormal1`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresNormal2`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresNormal3`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GasStoreEmergency`
-     - 1
-     - 2
-     - 10
      - 
      - 
      - 
@@ -11952,67 +11612,7 @@ catfish_kitchen
 catwalk
 -------
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-RailYardTools`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-       - railroadrepair
-       - railroadstorage
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-RailYardTools`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-       - railroadrepair
-       - railroadstorage
-
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -12082,7 +11682,7 @@ cdstore
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -12548,48 +12148,6 @@ chinesekitchen
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateFlour`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRice`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSoysauce`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-
 **freezer**
 
 .. list-table::
@@ -12632,7 +12190,7 @@ chinesekitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -12828,10 +12386,10 @@ chineserestaurant
      - 
 
 
-classroom
----------
+church
+------
 
-**cardboardbox**
+**metal_shelves**
 
 .. list-table::
    :header-rows: 1
@@ -12844,20 +12402,21 @@ classroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooksSchool`
+   * - :ref:`procedural-distribution-ChurchStorageMisc`
      - 0
      - 99
-     - 100
+     - -
      - 
      - 
+       - furniture_storage_02_0
+       - furniture_storage_02_1
+       - furniture_storage_02_2
+       - furniture_storage_02_3
      - 
+
+
+classroom
+---------
 
 **counter**
 
@@ -12925,6 +12484,34 @@ classroom
      - 0
      - 1
      - 10
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
+     - 0
+     - 1
+     - 1
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBooksSchool`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -13324,10 +12911,410 @@ classroom_pottery
      - 
 
 
+clockrepair
+-----------
+
+**displaycase**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClockRepairWatches`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**filingcabinet**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClockRepairLiterature`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClockRepairTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClockRepairWatches`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
+clockrepairworkshop
+-------------------
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClockRepairTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
 closet
 ------
 
-**cardboardbox**
+**crate**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateCarpentry`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateElectronics`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFarming`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFishing`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateMechanics`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePaint`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTailoring`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
+**locker**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-Antiques`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArtSupplies`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Chemistry`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateComics`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateComputer`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCostume`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateElectronics`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateInstruments`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateLinens`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePhotos`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTailoring`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateToys`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateVHSTapes`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Hiker`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Hobbies`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Homesteading`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Hunter`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Photographer`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ScienceMisc`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-SurvivalGear`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Trapper`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-VacationStuff`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClosetShelfGeneric`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClosetInstruments`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClosetSportsEquipment`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -13691,457 +13678,9 @@ closet
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCarpentry`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFishing`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMechanics`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ClosetShelfGeneric`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClosetInstruments`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClosetSportsEquipment`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Antiques`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BurglarTools`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Chemistry`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCanning`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComics`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCostume`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFootwearRandom`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateInstruments`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePetSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePhotos`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-EngineerTools`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FitnessTrainer`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Gifts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hiker`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-HolidayStuff`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hunter`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Photographer`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SurvivalGear`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Trapper`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-VacationStuff`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-
 
 clothingstorage
 ---------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageFootwear`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageLegwear`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **clothingrack**
 
@@ -14199,6 +13738,62 @@ clothingstorage
      - 
      - 
    * - :ref:`procedural-distribution-ClothingStorageLegwear`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
+     - 0
+     - 99
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageLegwear`
+     - 0
+     - 99
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
      - 0
      - 99
      - 100
@@ -14441,27 +14036,6 @@ clothingstore
 cobbler
 -------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateLeather`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -14483,7 +14057,7 @@ cobbler
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -14508,7 +14082,28 @@ cobbler
 comicstorage
 ------------
 
-**cardboardbox**
+**locker**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-Locker`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -14599,6 +14194,27 @@ comicstore
      - 1
      - 99
      - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ComicStoreShelfComics`
+     - 0
+     - 99
+     - -
      - 
      - 
      - 
@@ -14705,7 +14321,7 @@ comicstore
 construction
 ------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -14775,7 +14391,7 @@ construction
      - 
      - 
 
-**crate**
+**smallbox**
 
 .. list-table::
    :header-rows: 1
@@ -14788,20 +14404,6 @@ construction
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateConcrete`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClayBricks`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
    * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 1
@@ -14833,48 +14435,6 @@ construction
    * - :ref:`procedural-distribution-CrateToolsOld`
      - 0
      - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLumber`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Empty`
-     - 0
-     - 99
      - 100
      - 
      - 
@@ -14908,27 +14468,6 @@ controlroom
 
 conveniencestore
 ----------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **clothingrack**
 
@@ -15117,6 +14656,27 @@ conveniencestore
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GasStorageCombo`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -15242,27 +14802,6 @@ conveniencestore
 
 cornerstore
 -----------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **clothingrack**
 
@@ -15488,6 +15027,27 @@ cornerstore
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-StoreShelfDrinks`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -
@@ -15759,28 +15319,7 @@ cornerstorecounter
 cornerstorestorage
 ------------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -15868,7 +15407,7 @@ coroneroffice
      - 
      - 
 
-**sidetable**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -16293,7 +15832,7 @@ deepfry_kitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -16472,7 +16011,7 @@ dentist
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -16525,7 +16064,7 @@ dentist
 dentiststorage
 --------------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -16563,132 +16102,6 @@ dentiststorage
 
 departmentstorage
 -----------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTVWide`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 4
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageFootwear`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTVWide`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 4
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageFootwear`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
 
 **metal_shelves**
 
@@ -16756,6 +16169,69 @@ departmentstorage
      - 0
      - 4
      - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateTV`
+     - 0
+     - 2
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTVWide`
+     - 0
+     - 2
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
+     - 0
+     - 4
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageHeadwear`
+     - 0
+     - 2
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
+     - 0
+     - 2
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
+     - 0
+     - 2
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
+     - 0
+     - 2
+     - 80
      - 
      - 
      - 
@@ -16891,7 +16367,63 @@ departmentstore
      - 
      - 
 
-**crate**
+**displaycase**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-JewelrySilver`
+     - 0
+     - 4
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-JewelryGold`
+     - 0
+     - 4
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-JewelryGems`
+     - 0
+     - 2
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-JewelryWeddingRings`
+     - 0
+     - 8
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-JewelryWrist`
+     - 0
+     - 2
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-JewelryOthers`
+     - 0
+     - 99
+     - 10
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -16950,62 +16482,6 @@ departmentstore
      - 0
      - 2
      - 80
-     - 
-     - 
-     - 
-
-**displaycase**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-JewelrySilver`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JewelryGold`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JewelryGems`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JewelryWeddingRings`
-     - 0
-     - 8
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JewelryWrist`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JewelryOthers`
-     - 0
-     - 99
-     - 10
      - 
      - 
      - 
@@ -17206,27 +16682,6 @@ derelict_steelfactory
 detectiveoffice
 ---------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceFileBox`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -17283,6 +16738,27 @@ detectiveoffice
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-PoliceFilingCabinet`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - -
@@ -17572,69 +17048,6 @@ dinerkitchen
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBunsBurger`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBunsHotdog`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCondiments`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFlour`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGravyMix`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FryFactoryPotatoes`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-
 **displaycasebakery**
 
 .. list-table::
@@ -17708,6 +17121,69 @@ dinerkitchen
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateBunsBurger`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBunsHotdog`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCondiments`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFlour`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateGravyMix`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateOilVegetable`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
+     - 0
+     - 2
+     - 100
      - 
      - 
      - 
@@ -17797,6 +17273,27 @@ dining
        - location_shop_accessories_01_21
        - location_shop_accessories_01_22
        - location_shop_accessories_01_23
+     - 
+
+**dresser**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-DishCabinetGeneric`
+     - 0
+     - 99
+     - -
+     - 
+     - 
      - 
 
 **restaurantdisplay**
@@ -17959,10 +17456,10 @@ dining
      - 
 
 
-dogfoodfactory
---------------
+dining_crepe
+------------
 
-**cardboardbox**
+**counter**
 
 .. list-table::
    :header-rows: 1
@@ -17975,27 +17472,89 @@ dogfoodfactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-DogFoodFactoryBones`
+   * - :ref:`procedural-distribution-RestaurantMenus`
      - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+       - fixtures_sinks_01_0
+       - fixtures_sinks_01_1
+       - fixtures_sinks_01_2
+       - fixtures_sinks_01_3
+       - fixtures_sinks_01_4
+       - fixtures_sinks_01_5
+       - fixtures_sinks_01_6
+       - fixtures_sinks_01_7
+       - fixtures_sinks_01_8
+       - fixtures_sinks_01_9
+       - fixtures_sinks_01_10
+       - fixtures_sinks_01_11
+       - fixtures_sinks_01_16
+       - fixtures_sinks_01_17
+       - fixtures_sinks_01_18
+       - fixtures_sinks_01_19
+     - 
+
+**restaurantdisplay**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ServingTrayOmelettes`
+     - 1
+     - 2
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ServingTrayPancakes`
+     - 1
      - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-DogFoodFactoryBags`
-     - 0
-     - 99
      - 100
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-DogFoodFactoryCans`
-     - 0
-     - 99
+   * - :ref:`procedural-distribution-ServingTrayPotatoPancakes`
+     - 1
+     - 4
      - 100
      - 
      - 
      - 
+   * - :ref:`procedural-distribution-ServingTrayScrambledEggs`
+     - 1
+     - 2
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ServingTrayWaffles`
+     - 1
+     - 4
+     - 100
+     - 
+     - 
+     - 
+
+
+dogfoodfactory
+--------------
 
 **counter**
 
@@ -18046,11 +17605,7 @@ dogfoodfactory
      - 
      - 
 
-
-dogfoodshipping
----------------
-
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -18063,6 +17618,13 @@ dogfoodshipping
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-DogFoodFactoryBones`
+     - 0
+     - 4
+     - 40
+     - 
+     - 
+     - 
    * - :ref:`procedural-distribution-DogFoodFactoryBags`
      - 0
      - 99
@@ -18078,7 +17640,11 @@ dogfoodshipping
      - 
      - 
 
-**metal_shelves**
+
+dogfoodshipping
+---------------
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -18110,63 +17676,7 @@ dogfoodshipping
 dogfoodstorage
 --------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-DogFoodFactoryBags`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-DogFoodFactoryCans`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-DogFoodFactoryBags`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-DogFoodFactoryCans`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -18455,7 +17965,7 @@ donut_kitchenstorage
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -18536,41 +18046,6 @@ druglab
      - 
      - 
    * - :ref:`procedural-distribution-DrugLabOutfit`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-DrugLabMoney`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-DrugLabSupplies`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-DrugLabGuns`
      - 0
      - 1
      - 20
@@ -18677,6 +18152,41 @@ druglab
      - 
    * - :ref:`procedural-distribution-DrugLabGuns`
      - 1
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-DrugLabGuns`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-DrugLabMoney`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-DrugLabSupplies`
+     - 0
      - 99
      - 100
      - 
@@ -18792,49 +18302,7 @@ drugshack
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-DrugShackDrugs`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-DrugShackTools`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-DrugShackWeapons`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-DrugShackMisc`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -18920,27 +18388,6 @@ duckshootgame
 eggstorage
 ----------
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateEggs`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **fridge**
 
 .. list-table::
@@ -18962,7 +18409,7 @@ eggstorage
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -18987,7 +18434,7 @@ eggstorage
 electronicsstorage
 ------------------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -19032,69 +18479,6 @@ electronicsstorage
 
 electronicstore
 ---------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateGenerator`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTVWide`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ElectronicStoreCases`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ElectronicStoreAppliances`
-     - 0
-     - 4
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ElectronicStoreComputers`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ElectronicStorePhones`
-     - 0
-     - 4
-     - 100
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -19225,6 +18609,90 @@ electronicstore
      - 
      - 
 
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ElectricianTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateGenerator`
+     - 0
+     - 1
+     - 1
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTV`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTVWide`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ElectronicStoreCases`
+     - 0
+     - 2
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ElectronicStoreAppliances`
+     - 0
+     - 4
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ElectronicStoreComputers`
+     - 0
+     - 4
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ElectronicStorePhones`
+     - 0
+     - 4
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -19336,34 +18804,6 @@ electronicstore
 elementaryclassroom
 -------------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooksSchool`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -19409,6 +18849,34 @@ elementaryclassroom
      - 0
      - 1
      - 10
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
+     - 0
+     - 1
+     - 1
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBooksSchool`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -19524,27 +18992,6 @@ empty
 evidenceroom
 ------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceEvidence`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **filingcabinet**
 
 .. list-table::
@@ -19566,7 +19013,7 @@ evidenceroom
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -19590,48 +19037,6 @@ evidenceroom
 
 factory
 -------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ToolFactoryBarStock`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolFactoryHandles`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolFactoryIngots`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolFactorySawBlades`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -19748,6 +19153,48 @@ factory
      - 0
      - 99
      - 20
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ToolFactoryHandles`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ToolFactoryIngots`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ToolFactorySawBlades`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -19940,7 +19387,42 @@ Farmer
 farmstorage
 -----------
 
-**crate**
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateFarming`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ForestFireTools`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -19971,41 +19453,6 @@ farmstorage
      - 0
      - 1
      - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ForestFireTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 10
      - 
      - 
      - 
@@ -20126,7 +19573,7 @@ firegarage
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -20193,7 +19640,28 @@ firestorage
      - 
      - 
 
-**cardboardbox**
+**locker**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FireDeptLockers`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**metal_shelves**
 
 .. list-table::
    :header-rows: 1
@@ -20221,28 +19689,7 @@ firestorage
      - 
      - 
 
-**locker**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-FireDeptLockers`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -20388,7 +19835,49 @@ fishchipskitchen
      - 
      - 
 
-**crate**
+**freezer**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FishChipsKitchenFreezer`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**fridge**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FishChipsKitchenFreezer`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -20440,104 +19929,6 @@ fishchipskitchen
      - 0
      - 2
      - 80
-     - 
-     - 
-     - 
-
-**freezer**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-FishChipsKitchenFreezer`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**fridge**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-FishChipsKitchenFreezer`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCornflour`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFlour`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGravyMix`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateYeast`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FryFactoryPotatoes`
-     - 0
-     - 2
-     - 100
      - 
      - 
      - 
@@ -20687,34 +20078,6 @@ fishingstorage
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CampingStoreGear`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FishingStoreGear`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **displaycase**
 
 .. list-table::
@@ -20827,6 +20190,34 @@ fishingstorage
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CampingStoreGear`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-FishingStoreGear`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -20858,6 +20249,67 @@ fishingstorage
      - 0
      - 99
      - 100
+     - 
+     - 
+     - 
+
+
+florist
+-------
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+       - location_shop_accessories_01_0
+       - location_shop_accessories_01_1
+       - location_shop_accessories_01_2
+       - location_shop_accessories_01_3
+       - location_shop_accessories_01_20
+       - location_shop_accessories_01_21
+       - location_shop_accessories_01_22
+       - location_shop_accessories_01_23
+     - 
+   * - :ref:`procedural-distribution-StoreCounterBags`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateGardening`
+     - 0
+     - 99
+     - -
      - 
      - 
      - 
@@ -20992,6 +20444,27 @@ fossoil
      - 1
      - 99
      - 60
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GasStorageCombo`
+     - 0
+     - 99
+     - -
      - 
      - 
      - 
@@ -21143,7 +20616,7 @@ fossoil
 fryshipping
 -----------
 
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -21165,588 +20638,10 @@ fryshipping
      - 
 
 
-furniturestorage
-----------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateWallpaper`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlueComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlueRattanChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBrownComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBrownLowTables`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateChestFreezer`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDarkBlueChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDarkWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyBlackChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyDarkTables`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyLowTables`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyToilets`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyWhiteChairs`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreenChairs`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreenComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreenOven`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreyChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreyComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreyOven`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateIndustrialSinks`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLightRoundTable`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalLockers`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateModernOven`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOakRoundTable`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeChairs`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOrangeModernChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePurpleRattanChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePurpleWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedOven`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRoundTable`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteSimpleChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteSinks`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenStools`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateYellowModernChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateWallpaper`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlueComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlueRattanChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBrownComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBrownLowTables`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateChestFreezer`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDarkBlueChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDarkWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyBlackChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyDarkTables`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyLowTables`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyToilets`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyWhiteChairs`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreenChairs`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreenComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreenOven`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreyChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreyComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreyOven`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateIndustrialSinks`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLightRoundTable`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalLockers`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateModernOven`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOakRoundTable`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeChairs`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOrangeModernChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePurpleRattanChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePurpleWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedOven`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRoundTable`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteComfyChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteSimpleChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteSinks`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenStools`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateYellowModernChair`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-
-
 furniturestore
 --------------
 
-**cardboardbox**
+**metal_shelves**
 
 .. list-table::
    :header-rows: 1
@@ -21761,237 +20656,13 @@ furniturestore
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-CrateWallpaper`
      - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlueComfyChair`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlueRattanChair`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBrownComfyChair`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBrownLowTables`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDarkBlueChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDarkWoodenChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyBlackChairs`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyDarkTables`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyLowTables`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFancyWhiteChairs`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFoldingChairs`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreenChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreenComfyChair`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreyChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGreyComfyChair`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLightRoundTable`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOakRoundTable`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeChairs`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOrangeModernChair`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlasticChairs`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePurpleRattanChair`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePurpleWoodenChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedWoodenChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRoundTable`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteComfyChair`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteSimpleChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenChairs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenStools`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateYellowModernChair`
-     - 0
-     - 1
-     - 60
+     - 99
+     - -
      - 
      - 
      - 
 
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -22299,11 +20970,7 @@ furniturestore
      - 
      - 
 
-
-furnitureworkshop
------------------
-
-**crate**
+**smallbox**
 
 .. list-table::
    :header-rows: 1
@@ -22316,13 +20983,17 @@ furnitureworkshop
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateLumber`
+   * - :ref:`procedural-distribution-CrateWallpaper`
      - 0
      - 99
      - -
      - 
      - 
      - 
+
+
+furnitureworkshop
+-----------------
 
 **metal_shelves**
 
@@ -22348,6 +21019,27 @@ furnitureworkshop
      - 0
      - 99
      - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateLumber`
+     - 0
+     - 99
+     - -
      - 
      - 
      - 
@@ -22440,7 +21132,7 @@ garage_ranger
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -22464,573 +21156,6 @@ garage_ranger
 
 garagestorage
 -------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Antiques`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BurglarTools`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Chemistry`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlackBBQ`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlacksmithing`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCamping`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCannedFood`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCannedFoodSpoiled`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCanning`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateChestFreezer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClayBricks`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComics`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComputer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateConcrete`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCostume`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFertilizer`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFishing`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFitnessWeights`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFoldingChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFootwearRandom`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGardening`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGravelBags`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateInstruments`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLimestoneCrushed`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLumber`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMasonry`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMechanics`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalwork`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePetSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePhotos`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlaster`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlasticChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRandomJunk`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRedBBQ`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSandBags`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSports`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWallFinish`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenStools`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-EngineerTools`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FitnessTrainer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Gifts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hiker`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-HolidayStuff`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hunter`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Photographer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SurvivalGear`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Trapper`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-VacationStuff`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-WallDecor`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -23453,7 +21578,7 @@ garagestorage
      - 
      - 
 
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -23843,154 +21968,7 @@ gardenstore
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateAnimalFeed`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClayBricks`
-     - 0
-     - 99
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFertilizer`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGravelBags`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLargeStone`
-     - 0
-     - 99
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLimestoneCrushed`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSandBags`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateStoneBlocks`
-     - 0
-     - 99
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GardenStoreTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateAnimalFeed`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClayBricks`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFertilizer`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateGravelBags`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSandBags`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateStoneBlocks`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GardenStoreTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GardenStoreMisc`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -24189,6 +22167,34 @@ gas2go
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GasStorageCombo`
+     - 0
+     - 99
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GasStorageMechanics`
+     - 1
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -24336,34 +22342,6 @@ gas2go
 gasstorage
 ----------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageMechanics`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -24422,35 +22400,7 @@ gasstorage
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageMechanics`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -24614,6 +22564,34 @@ gasstore
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GasStorageCombo`
+     - 0
+     - 99
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GasStorageMechanics`
+     - 1
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -24757,86 +22735,9 @@ gasstore
      - 
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GasStorageMechanics`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 
 generalstore
 ------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCigarettes`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCrisps`
-     - 0
-     - 99
-     - 25
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCandy`
-     - 0
-     - 99
-     - 25
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCannedFood`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartSauce`
-     - 0
-     - 99
-     - 10
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -24870,55 +22771,6 @@ generalstore
      - 0
      - 1
      - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCigarettes`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCrisps`
-     - 0
-     - 99
-     - 25
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCandy`
-     - 0
-     - 99
-     - 25
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCannedFood`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartSauce`
-     - 0
-     - 99
-     - 10
      - 
      - 
      - 
@@ -24989,6 +22841,55 @@ generalstore
      - 0
      - 99
      - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateCigarettes`
+     - 0
+     - 1
+     - 1
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GigamartCrisps`
+     - 0
+     - 99
+     - 25
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GigamartCandy`
+     - 0
+     - 99
+     - 25
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GigamartCannedFood`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GigamartSauce`
+     - 0
+     - 99
+     - 10
      - 
      - 
      - 
@@ -25197,130 +23098,11 @@ generalstore
      - 
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCigarettes`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCrisps`
-     - 0
-     - 99
-     - 25
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCandy`
-     - 0
-     - 99
-     - 25
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCannedFood`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartSauce`
-     - 0
-     - 99
-     - 10
-     - 
-     - 
-     - 
-
 
 generalstorestorage
 -------------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GigamartBakingMisc`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCannedFood`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartDryGoods`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GigamartBakingMisc`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartCannedFood`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GigamartDryGoods`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -25352,77 +23134,7 @@ generalstorestorage
 giftstorage
 -----------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GiftStoreCards`
-     - 1
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GiftStoreFancy`
-     - 1
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GiftStoreToys`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GiftStoreCards`
-     - 1
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GiftStoreFancy`
-     - 1
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GiftStoreToys`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -25460,41 +23172,6 @@ giftstorage
 
 giftstore
 ---------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GiftStoreCards`
-     - 1
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GiftStoreFancy`
-     - 1
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GiftStoreToys`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -25539,7 +23216,28 @@ giftstore
      - 
      - 
 
-**crate**
+**displaycase**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-StoreDisplayWatches`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -25570,27 +23268,6 @@ giftstore
      - 1
      - 99
      - 100
-     - 
-     - 
-     - 
-
-**displaycase**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-StoreDisplayWatches`
-     - 0
-     - 99
-     - -
      - 
      - 
      - 
@@ -26362,28 +24039,7 @@ glassesstore
      - 
      - 
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-OptometristGlasses`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -26429,35 +24085,7 @@ glassmakingworkshop
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCoke`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSandBags`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -26509,27 +24137,6 @@ glassmakingworkshop
 
 golffactory
 -----------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateGolfClubs`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **crate**
 
@@ -26591,11 +24198,53 @@ golffactory
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateGolfClubs`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 
 golfshipping
 ------------
 
-**cardboardbox**
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateGolfClubs`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -26619,27 +24268,6 @@ golfshipping
      - 0
      - 99
      - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateGolfClubs`
-     - 0
-     - 99
-     - 40
      - 
      - 
      - 
@@ -26705,6 +24333,34 @@ golfstore
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateGolfClubs`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GolfStoreAccessories`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -26748,10 +24404,10 @@ golfstore
      - 
 
 
-grocery
--------
+greenhouse
+----------
 
-**cardboardbox**
+**cupboard**
 
 .. list-table::
    :header-rows: 1
@@ -26764,27 +24420,17 @@ grocery
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
+   * - :ref:`procedural-distribution-CrateGardening`
      - 0
      - 99
-     - 100
+     - -
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
+
+
+grocery
+-------
 
 **counter**
 
@@ -26818,41 +24464,6 @@ grocery
      - 0
      - 1
      - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 99
-     - 40
      - 
      - 
      - 
@@ -27099,7 +24710,7 @@ grocery
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -27283,114 +24894,9 @@ grocery
      - 
      - 
 
-**smallcrate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-
 
 grocerystorage
 --------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
 
 **freezer**
 
@@ -27456,42 +24962,7 @@ grocerystorage
      - 
      - 
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GroceryStorageCrate1`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate2`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GroceryStorageCrate3`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-
-**smallcrate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -27540,34 +25011,6 @@ GunCache2
 gunstore
 --------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GunStoreBodyArmor`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -27600,34 +25043,6 @@ gunstore
      - 0
      - 4
      - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GunStoreBodyArmor`
-     - 0
-     - 1
-     - 10
      - 
      - 
      - 
@@ -27723,34 +25138,6 @@ gunstore
      - 
      - 
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GunStoreBodyArmor`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **militarycrate**
 
 .. list-table::
@@ -27789,6 +25176,34 @@ gunstore
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -27860,91 +25275,7 @@ gunstore
 gunstorestorage
 ---------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreBodyArmor`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreBodyArmor`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-
 **locker**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreBodyArmor`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-
-**metal_shelves**
 
 .. list-table::
    :header-rows: 1
@@ -28010,6 +25341,34 @@ gunstorestorage
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GunStoreBodyArmor`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -28253,38 +25612,532 @@ gymstorage
 hall
 ----
 
-*No distributions defined.*
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-Antiques`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArtSupplies`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-BurglarTools`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Chemistry`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBooks`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBooks`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCanning`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCanning`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateClothesRandom`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateComics`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateComics`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateComputer`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCostume`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateDishes`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateElectronics`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFitnessWeights`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFootwearRandom`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateInstruments`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateLinens`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateMagazines`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateNewspapers`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePetSupplies`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePhotos`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTailoring`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateToolsOld`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateToys`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTV`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTVWide`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateVHSTapes`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-EngineerTools`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-FitnessTrainer`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Gifts`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Hiker`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Hobbies`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-HolidayStuff`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Homesteading`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Hunter`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-JunkHoard`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicSpecial`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Photographer`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-PlumbingSupplies`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ScienceMisc`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-SurvivalGear`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Trapper`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-VacationStuff`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+
 
 hoarder
 -------
 
-**cardboardbox**
+**other**
 
-*No entries.*
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-JunkHoard`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
 
 
 hoarderbedroom
 --------------
 
-**cardboardbox**
+**other**
 
-*No entries.*
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-JunkHoard`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
 
 
 hoarderkitchen
 --------------
 
-**cardboardbox**
+**counter**
 
-*No entries.*
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-HoarderKitchenFood`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**freezer**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FreezerHoarder`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**fridge**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FridgeHoarder`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-JunkHoard`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
 
 
 hoarderoffice
 -------------
 
-**cardboardbox**
+**other**
 
-*No entries.*
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-JunkHoard`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
 
 
 homecinema
@@ -28696,42 +26549,7 @@ hospitalroom
 hospitalstorage
 ---------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MedicalStorageDrugs`
-     - 0
-     - 6
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MedicalStorageTools`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MedicalStorageOutfit`
-     - 0
-     - 2
-     - 40
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -29005,7 +26823,7 @@ hunterstorage
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -29122,34 +26940,6 @@ hunting
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GunStoreRifles`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **displaycase**
 
 .. list-table::
@@ -29216,6 +27006,27 @@ hunting
      - 0
      - 99
      - 40
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
+     - 0
+     - 99
+     - 100
      - 
      - 
      - 
@@ -29421,6 +27232,27 @@ icecream
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateConesIceCream`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **restaurantdisplay**
 
 .. list-table::
@@ -29496,7 +27328,7 @@ icecreamkitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateConesIceCream`
+   * - :ref:`procedural-distribution-FreezerIceCream`
      - 0
      - 99
      - -
@@ -29560,7 +27392,7 @@ icecreamkitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -29606,27 +27438,6 @@ icecreamkitchen
 interrogationroom
 -----------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceFileBox`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **filingcabinet**
 
 .. list-table::
@@ -29641,6 +27452,27 @@ interrogationroom
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-PoliceFilingCabinet`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PoliceFileBox`
      - 0
      - 99
      - -
@@ -29910,27 +27742,6 @@ jackiejayestudio
 janitor
 -------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-JanitorChemicals`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -29985,27 +27796,6 @@ janitor
      - 0
      - 1
      - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-JanitorChemicals`
-     - 0
-     - 99
-     - -
      - 
      - 
      - 
@@ -30073,7 +27863,7 @@ janitor
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -30094,7 +27884,7 @@ janitor
      - 
      - 
 
-**smallbox**
+**shelves**
 
 .. list-table::
    :header-rows: 1
@@ -30349,7 +28139,7 @@ jayschicken_kitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -30483,27 +28273,6 @@ jerkycoldroom
 jerkyfactory
 ------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-JerkyFactoryCrate`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **metal_shelves**
 
 .. list-table::
@@ -30532,11 +28301,7 @@ jerkyfactory
      - 
      - 
 
-
-jerkyshipping
--------------
-
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -30557,7 +28322,11 @@ jerkyshipping
      - 
      - 
 
-**metal_shelves**
+
+jerkyshipping
+-------------
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -30650,7 +28419,7 @@ jewelrystorage
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -30969,7 +28738,7 @@ kennels
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -31015,69 +28784,6 @@ kennels
 kidsbedroom
 -----------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComics`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -31099,7 +28805,7 @@ kidsbedroom
      - 
      - 
 
-**crate**
+**desk**
 
 .. list-table::
    :header-rows: 1
@@ -31112,52 +28818,10 @@ kidsbedroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBooks`
+   * - :ref:`procedural-distribution-KidsDesk`
      - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComics`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 1
-     - 100
+     - 99
+     - -
      - 
      - 
      - 
@@ -31225,49 +28889,7 @@ kidsbedroom
      - 
      - 
 
-**shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BedroomSidetableChild`
-     - 1
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**sidetable**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-BedroomSidetableChild`
-     - 1
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -31330,6 +28952,48 @@ kidsbedroom
      - 
      - 
 
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BedroomSidetableChild`
+     - 1
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**sidetable**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-BedroomSidetableChild`
+     - 1
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **wardrobe**
 
 .. list-table::
@@ -31354,97 +29018,6 @@ kidsbedroom
 
 kitchen
 -------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCannedFood`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KitchenBook`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -31512,97 +29085,6 @@ kitchen
      - 0
      - 1
      - 20
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCannedFood`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KitchenBook`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 10
      - 
      - 
      - 
@@ -31687,6 +29169,97 @@ kitchen
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ArtSupplies`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCannedFood`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateDishes`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateToolsOld`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Hobbies`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Homesteading`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ImprovisedCrafts`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-JunkHoard`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-KitchenBook`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-PlumbingSupplies`
+     - 0
+     - 1
+     - 10
      - 
      - 
      - 
@@ -31796,174 +29369,6 @@ kitchen
      - 0
      - 1
      - 100
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComics`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateEmptyBottles1`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateEmptyBottles2`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateEmptyMixed`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateEmptyTinCans`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePetSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KitchenBook`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 10
      - 
      - 
      - 
@@ -32189,7 +29594,7 @@ kitchen_crepe
 kitchenwares
 ------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -32263,27 +29668,6 @@ kitchenwares
 knappingworkshop
 ----------------
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateFlintNodules`
-     - 1
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **metal_shelves**
 
 .. list-table::
@@ -32298,6 +29682,27 @@ knappingworkshop
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-KnappingTools`
+     - 1
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateFlintNodules`
      - 1
      - 99
      - -
@@ -32330,77 +29735,7 @@ knappingworkshop
 knifefactory
 ------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaverBlades`
-     - 0
-     - 99
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnifeBlades`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryHandles`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaverBlades`
-     - 0
-     - 99
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnifeBlades`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryHandles`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -32460,91 +29795,7 @@ knifefactory
 knifeshipping
 -------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-KnifeFactorySushiKnife`
-     - 0
-     - 99
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaver`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnife`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryCutlery`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-KnifeFactorySushiKnife`
-     - 0
-     - 99
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryMeatCleaver`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryKitchenKnife`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KnifeFactoryCutlery`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -32640,7 +29891,7 @@ knifestore
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -32664,76 +29915,6 @@ knifestore
 
 laboratory
 ----------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Chemistry`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-TestingLab`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**counter**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Chemistry`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-TestingLab`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **desk**
 
@@ -32791,7 +29972,7 @@ laboratory
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -32834,27 +30015,6 @@ lasertag
 
 laundry
 -------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-LaundryCleaning`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **clothingdryer**
 
@@ -33205,27 +30365,6 @@ laundry
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-LaundryCleaning`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **locker**
 
 .. list-table::
@@ -33248,7 +30387,7 @@ laundry
      - 
        - batteryfactory
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -33269,7 +30408,11 @@ laundry
      - 
      - 
 
-**overhead**
+
+laundryshirts
+-------------
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -33282,7 +30425,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-LaundryCleaning`
+   * - :ref:`procedural-distribution-ClothingStoresShirts`
      - 0
      - 99
      - -
@@ -33290,7 +30433,11 @@ laundry
      - 
      - 
 
-**shelves**
+
+laundrysuits
+------------
+
+**clothingrack**
 
 .. list-table::
    :header-rows: 1
@@ -33303,7 +30450,21 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-LaundryCleaning`
+   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
      - 0
      - 99
      - -
@@ -33311,7 +30472,7 @@ laundry
      - 
      - 
 
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -33324,7 +30485,7 @@ laundry
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-LaundryCleaning`
+   * - :ref:`procedural-distribution-LaundrySuits`
      - 0
      - 99
      - -
@@ -33335,27 +30496,6 @@ laundry
 
 leatherclothesstore
 -------------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ClothingStoresJacketsLeather`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **clothingrack**
 
@@ -33423,6 +30563,80 @@ leatherclothesstore
    * - :ref:`procedural-distribution-StoreCounterBagsFancy`
      - 0
      - 1
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClothingStoresJacketsLeather`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
+leatherworkshop
+---------------
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LeatherworkingTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateLeather`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - CrateLeather_Large
+     - 0
+     - 99
      - 100
      - 
      - 
@@ -33695,41 +30909,6 @@ library
 liquorstore
 -----------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateLiquor`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWine`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBeer`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -33773,41 +30952,6 @@ liquorstore
      - 
      - 
    * - :ref:`procedural-distribution-StoreCounterBagsPaper`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateLiquor`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWine`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBeer`
      - 0
      - 99
      - 100
@@ -33922,6 +31066,41 @@ liquorstore
    * - :ref:`procedural-distribution-LiquorStoreBeer`
      - 0
      - 12
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateLiquor`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateWine`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBeer`
+     - 0
+     - 99
      - 100
      - 
      - 
@@ -34046,408 +31225,9 @@ liquorstore
      - 
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateLiquor`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWine`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBeer`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 
 livingroom
 ----------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Antiques`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BurglarTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Chemistry`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCanning`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCanning`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComics`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComics`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComputer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCostume`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFitnessWeights`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFootwearRandom`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateInstruments`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePetSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePhotos`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTVWide`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-EngineerTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FitnessTrainer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Gifts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hiker`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-HolidayStuff`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hunter`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Photographer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SurvivalGear`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Trapper`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-VacationStuff`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -34512,7 +31292,7 @@ livingroom
      - 
      - 
 
-**crate**
+**dresser**
 
 .. list-table::
    :header-rows: 1
@@ -34525,318 +31305,31 @@ livingroom
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Antiques`
-     - 0
-     - 1
-     - 20
+   * - :ref:`procedural-distribution-LivingRoomSideTable`
+     - 98
+     - 99
+     - 100
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 20
+   * - :ref:`procedural-distribution-LivingRoomSideTableClassy`
+     - 98
+     - 99
+     - -
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-BurglarTools`
-     - 0
-     - 1
-     - 5
+   * - :ref:`procedural-distribution-LivingRoomSideTableRedneck`
+     - 98
+     - 99
+     - -
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-Chemistry`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCanning`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComics`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComputer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCostume`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFitnessWeights`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFootwearRandom`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateInstruments`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePetSupplies`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTVWide`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-EngineerTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FitnessTrainer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Gifts`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hiker`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-HolidayStuff`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hunter`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Photographer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SurvivalGear`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Trapper`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-VacationStuff`
-     - 0
-     - 1
-     - 20
+   * - :ref:`procedural-distribution-UniversitySideTable`
+     - 98
+     - 99
+     - -
      - 
      - 
      - 
@@ -35107,140 +31600,7 @@ livingroom
      - 
      - 
 
-**overhead**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-KitchenDishes`
-     - 1
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KitchenCannedFood`
-     - 1
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KitchenDryFood`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KitchenBreakfast`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KitchenBottles`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-KitchenBook`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-
-**shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-LivingRoomShelf`
-     - 98
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-LivingRoomShelfClassy`
-     - 98
-     - 99
-     - -
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-LivingRoomShelfRedneck`
-     - 98
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**sidetable**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-LivingRoomSideTable`
-     - 98
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-LivingRoomSideTableClassy`
-     - 98
-     - 99
-     - -
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-LivingRoomSideTableRedneck`
-     - 98
-     - 99
-     - -
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-UniversitySideTable`
-     - 98
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -35527,6 +31887,139 @@ livingroom
      - 
      - 
 
+**overhead**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-KitchenDishes`
+     - 1
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-KitchenCannedFood`
+     - 1
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-KitchenDryFood`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-KitchenBreakfast`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-KitchenBottles`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-KitchenBook`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LivingRoomShelf`
+     - 98
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-LivingRoomShelfClassy`
+     - 98
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-LivingRoomShelfRedneck`
+     - 98
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**sidetable**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LivingRoomSideTable`
+     - 98
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-LivingRoomSideTableClassy`
+     - 98
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-LivingRoomSideTableRedneck`
+     - 98
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-UniversitySideTable`
+     - 98
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **wardrobe**
 
 .. list-table::
@@ -35655,7 +32148,7 @@ loggingfactory
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -35694,7 +32187,7 @@ loggingfactory
 loggingtruck
 ------------
 
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -35761,7 +32254,7 @@ loggingwarehouse
      - 
      - 
 
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -35797,6 +32290,52 @@ loggingwarehouse
      - 
 
 
+lostandfound
+------------
+
+**clothingrack**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LostAndFoundClothing`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LostAndFoundItems`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
 mannequinfactory
 ----------------
 
@@ -35821,35 +32360,7 @@ mannequinfactory
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MannequinFactoryTools`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLumber`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -35881,28 +32392,7 @@ mannequinfactory
 mannequinpainting
 -----------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -35927,35 +32417,7 @@ mannequinpainting
 mapfactory
 ----------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateMaps`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMapsLarge`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -35984,10 +32446,10 @@ mapfactory
      - 
 
 
-masonrystorage
---------------
+masonrystore
+------------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -36086,7 +32548,126 @@ mayorwestpointoffice
 mechanic
 --------
 
-**cardboardbox**
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MechanicShelfTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**locker**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MechanicOutfit`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MechanicSpecial`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicShelfTools`
+     - 1
+     - 2
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicShelfOutfit`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicShelfBrakes`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicShelfSuspension`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicShelfElectric`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicShelfMufflers`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicShelfWheels`
+     - 0
+     - 2
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MechanicShelfBooks`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -36310,349 +32891,6 @@ mechanic
      - 
      - 
 
-**counter**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MechanicShelfTools`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarLightbars`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresModern1`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresModern2`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresModern3`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresNormal1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresNormal2`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarTiresNormal3`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerModern1`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerModern2`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerModern3`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerNormal1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerNormal2`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarMufflerNormal3`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarBrakesModern1`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarBrakesModern2`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarBrakesModern3`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarBrakesNormal1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarBrakesNormal2`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarBrakesNormal3`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarSuspensionModern1`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarSuspensionModern2`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarSuspensionModern3`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarSuspensionNormal1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarSuspensionNormal2`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarSuspensionNormal3`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarWindows1`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarWindows2`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CarWindows3`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMechanics`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**locker**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MechanicOutfit`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicShelfTools`
-     - 1
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicShelfOutfit`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicShelfBrakes`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicShelfSuspension`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicShelfElectric`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicShelfMufflers`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicShelfWheels`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicShelfBooks`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 
 medical
 -------
@@ -36729,12 +32967,12 @@ medical
    * - :ref:`procedural-distribution-MedicalOfficeDesk`
      - 0
      - 99
-     - 100
+     - -
      - 
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -36785,7 +33023,7 @@ medical
    * - :ref:`procedural-distribution-MedicalOfficeBooks`
      - 0
      - 99
-     - 100
+     - -
      - 
      - 
      - 
@@ -36806,7 +33044,7 @@ medical
    * - :ref:`procedural-distribution-MedicalStorageOutfit`
      - 0
      - 99
-     - 100
+     - -
      - 
      - 
      - 
@@ -36925,7 +33163,7 @@ medicaloffice
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -36949,27 +33187,6 @@ medicaloffice
 
 medicalstorage
 --------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MedicalClinicDrugs`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -37076,6 +33293,27 @@ medicalstorage
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MedicalClinicDrugs`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 
 metalfabrication
 ----------------
@@ -37101,56 +33339,7 @@ metalfabrication
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateMetalBars`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalPipes`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolFactoryBarStock`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolFactoryIngots`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -37224,28 +33413,7 @@ metalfabrication
 metalfabricationstorage
 -----------------------
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ToolFactoryIngots`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -37291,77 +33459,7 @@ metalfabricationstorage
 metalshipping
 -------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateMetalBars`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalPipes`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateMetalBars`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalPipes`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -37421,7 +33519,7 @@ metalshop
      - 
      - 
 
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -37452,62 +33550,6 @@ metalshop
      - 0
      - 99
      - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateMetalBars`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalPipes`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MetalShopTools`
-     - 0
-     - 99
-     - -
      - 
      - 
      - 
@@ -37623,62 +33665,6 @@ mexicankitchen
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCornflour`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFlour`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateHotsauce`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilVegetable`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTacoShells`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTortillaChips`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-
 **freezer**
 
 .. list-table::
@@ -37721,7 +33707,7 @@ mexicankitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -37734,10 +33720,17 @@ mexicankitchen
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateCornflour`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
    * - :ref:`procedural-distribution-CrateFlour`
      - 0
      - 1
-     - 100
+     - 40
      - 
      - 
      - 
@@ -37751,7 +33744,7 @@ mexicankitchen
    * - :ref:`procedural-distribution-CrateOilVegetable`
      - 0
      - 1
-     - 100
+     - 60
      - 
      - 
      - 
@@ -37840,6 +33833,48 @@ morgue
      - 1
      - 99
      - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MorgueTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MedicalOfficeBooks`
+     - 0
+     - 99
+     - -
      - 
      - 
      - 
@@ -37999,6 +34034,27 @@ motelroom
 motelroomoccupied
 -----------------
 
+**dresser**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-WardrobeGeneric`
+     - 1
+     - 1
+     - -
+     - 
+     - 
+     - 
+
 **fridge**
 
 .. list-table::
@@ -38020,6 +34076,27 @@ motelroomoccupied
      - 
      - 
 
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LivingRoomShelf`
+     - 1
+     - 1
+     - -
+     - 
+     - 
+     - 
+
 **wardrobe**
 
 .. list-table::
@@ -38033,17 +34110,17 @@ motelroomoccupied
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MotelLinens`
+   * - :ref:`procedural-distribution-WardrobeGeneric`
      - 1
      - 1
-     - 100
+     - -
      - 
      - 
      - 
    * - :ref:`procedural-distribution-MotelTowels`
-     - 1
-     - 1
-     - 100
+     - 0
+     - 99
+     - -
      - 
      - 
      - 
@@ -38088,7 +34165,28 @@ movierental
      - 
      - 
 
-**metal_shelves**
+**locker**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-Locker`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -38143,7 +34241,7 @@ movierental
 musicschool
 -----------
 
-**cardboardbox**
+**counter**
 
 .. list-table::
    :header-rows: 1
@@ -38156,7 +34254,7 @@ musicschool
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MusicSchoolCases`
+   * - :ref:`procedural-distribution-MusicSchoolSheets`
      - 0
      - 99
      - -
@@ -38164,7 +34262,7 @@ musicschool
      - 
      - 
 
-**counter**
+**desk**
 
 .. list-table::
    :header-rows: 1
@@ -38220,6 +34318,48 @@ musicschool
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-BandPracticeClothing`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MusicSchoolCases`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MusicSchoolSheets`
      - 0
      - 99
      - -
@@ -38288,7 +34428,77 @@ musicstore
      - 
      - 
 
-**crate**
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-MusicStoreBass`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MusicStoreBrass`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MusicStoreDrums`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MusicStoreGuitar`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MusicStoreOthers`
+     - 0
+     - 1
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MusicStoreStringed`
+     - 1
+     - 2
+     - 10
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ElectronicStoreCases`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-MusicStoreCases`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -38372,76 +34582,6 @@ musicstore
      - 
      - 
    * - :ref:`procedural-distribution-MusicStoreCDs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MusicStoreBass`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MusicStoreBrass`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MusicStoreDrums`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MusicStoreGuitar`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MusicStoreOthers`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MusicStoreStringed`
-     - 1
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ElectronicStoreCases`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MusicStoreCases`
      - 0
      - 99
      - 100
@@ -38553,28 +34693,7 @@ musicstore
 newspaperprint_herald
 ---------------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateNewspapersNew`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -38599,28 +34718,7 @@ newspaperprint_herald
 newspapershipping_herald
 ------------------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateNewspapersNew`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -38645,7 +34743,7 @@ newspapershipping_herald
 newspaperstorage_herald
 -----------------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -38909,34 +35007,6 @@ Nurse
 office
 ------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -38962,34 +35032,6 @@ office
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 99
-     - 100
      - 
      - 
      - 
@@ -39158,6 +35200,27 @@ office
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateOfficeSupplies`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **overhead**
 
 .. list-table::
@@ -39229,27 +35292,6 @@ office
      - 
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 
 officechurch
 ------------
@@ -39279,34 +35321,6 @@ officechurch
 officestorage
 -------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -39324,34 +35338,6 @@ officestorage
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateWaterDispenserBottle`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
-     - 0
-     - 99
-     - 100
      - 
      - 
      - 
@@ -39390,6 +35376,27 @@ officestorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-OfficeShelfSupplies`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
@@ -39412,27 +35419,6 @@ officestorage
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-OfficeShelfSupplies`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -39500,7 +35486,7 @@ oldarmy
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -39532,7 +35518,7 @@ oldarmy
 oldmedical
 ----------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -39585,6 +35571,84 @@ outdoorsupply
      - 
      - 
 
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+       - location_shop_accessories_01_0
+       - location_shop_accessories_01_1
+       - location_shop_accessories_01_2
+       - location_shop_accessories_01_3
+       - location_shop_accessories_01_20
+       - location_shop_accessories_01_21
+       - location_shop_accessories_01_22
+       - location_shop_accessories_01_23
+     - 
+   * - :ref:`procedural-distribution-StoreCounterBags`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
+**displaycase**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GunStoreKnives`
+     - 1
+     - 12
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GunStorePistols`
+     - 0
+     - 12
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GunStoreRifles`
+     - 0
+     - 12
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GunStoreShotguns`
+     - 0
+     - 12
+     - 60
+     - 
+     - 
+     - 
+
 **grocerstand**
 
 .. list-table::
@@ -39601,26 +35665,54 @@ outdoorsupply
    * - :ref:`procedural-distribution-GroceryStandVegetables1`
      - 1
      - 4
-     - 100
+     - -
      - 
      - 
      - 
    * - :ref:`procedural-distribution-GroceryStandVegetables2`
      - 1
      - 4
-     - 100
+     - -
      - 
      - 
      - 
    * - :ref:`procedural-distribution-GroceryStandVegetables5`
      - 1
      - 4
-     - 100
+     - -
      - 
      - 
      - 
 
-**shelves**
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FishingStoreGear`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ToolStoreFarming`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -39729,7 +35821,35 @@ outdoorsupply
 outdoorsupply_storage
 ---------------------
 
-**cardboardbox**
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FishingStoreGear`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ToolStoreFarming`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -39799,58 +35919,9 @@ outdoorsupply_storage
      - 
      - 
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-FishingStoreGear`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreFarming`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 
 paintershop
 -----------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -39873,27 +35944,6 @@ paintershop
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **metal_shelves**
 
 .. list-table::
@@ -39908,6 +35958,27 @@ paintershop
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-PaintStudioTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CratePaint`
      - 0
      - 99
      - -
@@ -39939,146 +36010,6 @@ paintershop
 
 pawnshop
 --------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ArmySurplusFootwear`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmySurplusOutfit`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BookstoreBooks`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CampingStoreGear`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageLegwear`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStoresDress`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSports`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PawnShopTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **clothingrack**
 
@@ -40417,6 +36348,146 @@ pawnshop
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ArmySurplusFootwear`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmySurplusHeadwear`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmySurplusOutfit`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-BookstoreBooks`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CampingStoreGear`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageAllJackets`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageAllShirts`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageLegwear`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStorageWinter`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStoresDress`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStoresJacketsFormal`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStoresPantsFormal`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ClothingStoresShirtsFormal`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateElectronics`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateSports`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateVHSTapes`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-PawnShopTools`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -40595,90 +36666,6 @@ pawnshopcooking
 pawnshopoffice
 --------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ArmyStorageElectronics`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmyStorageOutfit`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmySurplusTools`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCompactDiscs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreGuns`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JewelryStorageAll`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PoliceStorageArmor`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-
 **locker**
 
 .. list-table::
@@ -40774,11 +36761,95 @@ pawnshopoffice
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ArmyStorageElectronics`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmyStorageOutfit`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ArmySurplusTools`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCompactDiscs`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateElectronics`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateVHSTapes`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GunStoreAmmunition`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GunStoreGuns`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-JewelryStorageAll`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-PoliceStorageArmor`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
 
 pawnshopstorage
 ---------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -40794,119 +36865,49 @@ pawnshopstorage
    * - :ref:`procedural-distribution-ArmyStorageElectronics`
      - 0
      - 1
-     - 100
+     - 10
      - 
      - 
      - 
    * - :ref:`procedural-distribution-ArmyStorageOutfit`
      - 0
      - 1
-     - 100
+     - 10
      - 
      - 
      - 
    * - :ref:`procedural-distribution-ArmySurplusTools`
      - 0
      - 1
-     - 100
+     - 10
      - 
      - 
      - 
    * - :ref:`procedural-distribution-CrateElectronics`
      - 0
-     - 99
-     - 100
+     - 1
+     - 20
      - 
      - 
      - 
    * - :ref:`procedural-distribution-CrateInstruments`
      - 0
-     - 99
-     - 100
+     - 1
+     - 20
      - 
      - 
      - 
    * - :ref:`procedural-distribution-CrateVHSTapes`
      - 0
-     - 99
-     - 100
+     - 1
+     - 40
      - 
      - 
      - 
    * - :ref:`procedural-distribution-GunStoreAmmunition`
      - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PawnShopTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ArmyStorageElectronics`
-     - 0
      - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmyStorageOutfit`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArmySurplusTools`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateInstruments`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateVHSTapes`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GunStoreAmmunition`
-     - 0
-     - 99
-     - 100
+     - 40
      - 
      - 
      - 
@@ -40921,6 +36922,63 @@ pawnshopstorage
 
 petstore
 --------
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-StoreCounterCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+       - location_shop_accessories_01_0
+       - location_shop_accessories_01_1
+       - location_shop_accessories_01_2
+       - location_shop_accessories_01_3
+       - location_shop_accessories_01_20
+       - location_shop_accessories_01_21
+       - location_shop_accessories_01_22
+       - location_shop_accessories_01_23
+     - 
+   * - :ref:`procedural-distribution-StoreCounterBags`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-DogFoodFactoryBags`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
 
 **shelves**
 
@@ -40938,7 +36996,7 @@ petstore
    * - :ref:`procedural-distribution-PetShopShelf`
      - 0
      - 99
-     - 99
+     - -
      - 
      - 
      - 
@@ -41025,7 +37083,7 @@ pharmacy
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -41103,6 +37161,13 @@ pharmacy
      - 
      - 
      - 
+   * - :ref:`procedural-distribution-PharmacyGlasses`
+     - 1
+     - 1
+     - 100
+     - 
+     - 
+     - 
    * - :ref:`procedural-distribution-StoreShelfMedical`
      - 0
      - 99
@@ -41153,58 +37218,9 @@ pharmacy
      - 
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-StoreShelfMedical`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 
 pharmacystorage
 ---------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MedicalClinicTools`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MedicalClinicDrugs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -41269,35 +37285,7 @@ pharmacystorage
      - 
      - 
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-MedicalClinicTools`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MedicalClinicDrugs`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -41329,35 +37317,7 @@ pharmacystorage
 photoroom
 ---------
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCameraFilm`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Empty`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -41482,48 +37442,6 @@ pizzakitchen
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateFlour`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateOilOlive`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTomatoPaste`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateYeast`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-
 **fridge**
 
 .. list-table::
@@ -41545,7 +37463,7 @@ pizzakitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -41565,16 +37483,16 @@ pizzakitchen
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-CrateTomatoPaste`
+   * - :ref:`procedural-distribution-CrateOilOlive`
      - 0
-     - 2
+     - 1
      - 100
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-CrateOilOlive`
+   * - :ref:`procedural-distribution-CrateTomatoPaste`
      - 0
-     - 1
+     - 2
      - 100
      - 
      - 
@@ -41712,7 +37630,7 @@ pizzawhirledcounter
 plazastore1
 -----------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -41736,27 +37654,6 @@ plazastore1
 
 policearchive
 -------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceFileBox`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **filingcabinet**
 
@@ -41800,6 +37697,27 @@ policearchive
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PoliceFileBox`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 
 policegarage
 ------------
@@ -41825,7 +37743,7 @@ policegarage
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -41870,34 +37788,6 @@ policegarage
 
 policegunstorage
 ----------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceEvidence`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PoliceFileBox`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **filingcabinet**
 
@@ -41998,7 +37888,7 @@ policegunstorage
      - 
      - 
 
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -42029,6 +37919,27 @@ policegunstorage
 
 policelibrary
 -------------
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PoliceFileBox`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
 
 **shelves**
 
@@ -42100,27 +38011,6 @@ policelocker
 
 policeoffice
 ------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceFileBox`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -42227,6 +38117,27 @@ policeoffice
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PoliceFileBox`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 
 policeoutfitstorage
 -------------------
@@ -42244,7 +38155,7 @@ policeoutfitstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceStorageOutfit`
+   * - :ref:`procedural-distribution-PoliceLaundry`
      - 0
      - 99
      - -
@@ -42265,7 +38176,7 @@ policeoutfitstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceStorageOutfit`
+   * - :ref:`procedural-distribution-PoliceLaundry`
      - 0
      - 99
      - -
@@ -42273,7 +38184,7 @@ policeoutfitstorage
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -42297,34 +38208,6 @@ policeoutfitstorage
 
 policestorage
 -------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceEvidence`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PoliceFileBox`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **filingcabinet**
 
@@ -42404,7 +38287,7 @@ policestorage
      - 
      - 
 
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -42435,34 +38318,6 @@ policestorage
 
 policeswat
 ----------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PoliceEvidence`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PoliceFileBox`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **filingcabinet**
 
@@ -42569,6 +38424,34 @@ policeswat
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PoliceEvidence`
+     - 0
+     - 4
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-PoliceFileBox`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 
 pool
 ----
@@ -42597,41 +38480,6 @@ pool
 
 post
 ----
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PostOfficeBooks`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PostOfficeMagazines`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PostOfficeNewspapers`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
 
 **clothingdryerbasic**
 
@@ -42724,60 +38572,7 @@ post
      - 
      - 
 
-**shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PostOfficeParcels`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PostOfficeSupplies`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PostOfficeBoxes`
-     - 1
-     - 4
-     - 100
-     - 
-     - 
-     - 
-
-
-poststorage
------------
-
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -42812,6 +38607,31 @@ poststorage
      - 
      - 
 
+**shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PostOfficeParcels`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
+poststorage
+-----------
+
 **counter**
 
 .. list-table::
@@ -42840,27 +38660,6 @@ poststorage
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PostOfficeParcels`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **metal_shelves**
 
 .. list-table::
@@ -42882,6 +38681,41 @@ poststorage
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PostOfficeBooks`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-PostOfficeMagazines`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-PostOfficeNewspapers`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -42899,34 +38733,6 @@ poststorage
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-PostOfficeSupplies`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PostOfficeBoxes`
-     - 1
-     - 4
-     - 100
      - 
      - 
      - 
@@ -42956,7 +38762,7 @@ potatostorage
      - 
      - 
 
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43002,7 +38808,7 @@ potteryworkshop
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43048,7 +38854,7 @@ potteryworkshop
 prisoncells
 -----------
 
-**sidetable**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43078,6 +38884,364 @@ prisoncells
        - appliances_television_01_9
        - appliances_television_01_10
        - appliances_television_01_11
+     - 
+
+
+prisonerbelongings
+------------------
+
+**clothingdryerbasic**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonLaundry`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GymTowels`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LaundryCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**locker**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonIntakeLockers`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonIntakePersonalObjects`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonIntakePersonalObjects`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**overhead**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LaundryCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
+prisonlaundry
+-------------
+
+**clothingdryer**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonLaundry`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Empty`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**clothingdryerbasic**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonLaundry`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GymTowels`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+
+**clothingrack**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonLaundry`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**clothingwasher**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonLaundry`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-Empty`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LaundryCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**locker**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonLaundry`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonLaundry`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GymTowels`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-PrisonLaundry`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**overhead**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LaundryCleaning`
+     - 0
+     - 99
+     - -
+     - 
+     - 
      - 
 
 
@@ -43219,195 +39383,6 @@ producestorage
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ProduceStorageApples`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageBellPeppers`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageBroccoli`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageCabbages`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageCarrots`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageCherry`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageCorn`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageEggplant`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageGrapes`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageLeeks`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageLettuce`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageOnions`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStoragePeaches`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStoragePears`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStoragePotatoes`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageRadishes`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageStrawberries`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageTomatoes`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageWatermelons`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageRottenFruit`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageRottenVeg`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageRottenFruit`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageRottenVeg`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ProduceStorageEmptyBoxes`
-     - 0
-     - 8
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Empty`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **metal_shelves**
 
 .. list-table::
@@ -43429,7 +39404,7 @@ producestorage
      - 
      - 
 
-**smallcrate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43622,28 +39597,7 @@ producestorage
 radiofactory
 ------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-RadioFactoryComponents`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43689,49 +39643,7 @@ radiofactory
 radioshipping
 -------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-RadioFactoryComponents`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-RadioFactoryComponents`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43756,28 +39668,7 @@ radioshipping
 radiostorage
 ------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-RadioFactoryComponents`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43802,34 +39693,6 @@ radiostorage
 railroadrepair
 --------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-RailYardSpikes`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-RailYardTools`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -43851,7 +39714,7 @@ railroadrepair
      - 
      - 
 
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43865,72 +39728,16 @@ railroadrepair
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-RailYardSpikes`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-RailYardTools`
      - 0
      - 99
      - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-RailYardTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-RailYardSpikes`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-RailYardTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-RailYardSpikes`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-RailYardTools`
-     - 0
-     - 99
-     - 20
      - 
      - 
      - 
@@ -43960,7 +39767,7 @@ railroadrepair
 railroadstorage
 ---------------
 
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -43984,34 +39791,6 @@ railroadstorage
      - 0
      - 99
      - 100
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-RailYardSpikes`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-RailYardTools`
-     - 0
-     - 99
-     - 20
      - 
      - 
      - 
@@ -44141,7 +39920,7 @@ rangerstorage
 recreation
 ----------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -44176,27 +39955,6 @@ recreation
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-RecRoomShelf`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateOfficeSupplies`
      - 0
      - 99
      - -
@@ -44315,6 +40073,34 @@ restaurantdining
      - 1
      - 1
      - 100
+     - 
+     - 
+     - 
+
+**fridge**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FridgeBottles`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-FridgeSnacks`
+     - 0
+     - 99
+     - -
      - 
      - 
      - 
@@ -44592,27 +40378,6 @@ restaurantkitchen
      - 0
      - 1
      - 20
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-FryFactoryPotatoes`
-     - 0
-     - 99
-     - -
      - 
      - 
      - 
@@ -45064,6 +40829,27 @@ restaurantkitchen_fancy
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **restaurantdisplay**
 
 .. list-table::
@@ -45077,7 +40863,7 @@ restaurantkitchen_fancy
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ServingTrayBurgers`
+   * - :ref:`procedural-distribution-ServingTrayBiscuits`
      - 0
      - 1
      - 80
@@ -45087,39 +40873,18 @@ restaurantkitchen_fancy
    * - :ref:`procedural-distribution-ServingTrayChicken`
      - 0
      - 1
-     - 80
+     - 100
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-ServingTrayChickenFried`
+   * - :ref:`procedural-distribution-ServingTrayCornbread`
      - 0
      - 1
      - 100
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-ServingTrayChickenNuggets`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ServingTrayChickenWings`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ServingTrayFishFingers`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ServingTrayFries`
+   * - :ref:`procedural-distribution-ServingTrayFish`
      - 0
      - 1
      - 100
@@ -45129,18 +40894,32 @@ restaurantkitchen_fancy
    * - :ref:`procedural-distribution-ServingTrayHam`
      - 0
      - 1
-     - 80
+     - 100
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-ServingTrayHotdogs`
+   * - :ref:`procedural-distribution-ServingTrayLobster`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ServingTrayMussels`
      - 0
      - 1
      - 80
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-ServingTrayOnionRings`
+   * - :ref:`procedural-distribution-ServingTrayOysters`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ServingTrayPancakes`
      - 0
      - 1
      - 100
@@ -45154,20 +40933,6 @@ restaurantkitchen_fancy
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-ServingTrayPizza`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ServingTrayPorkChops`
-     - 0
-     - 1
-     - 80
-     - 
-     - 
-     - 
    * - :ref:`procedural-distribution-ServingTrayPotatoPancakes`
      - 0
      - 1
@@ -45175,7 +40940,21 @@ restaurantkitchen_fancy
      - 
      - 
      - 
+   * - :ref:`procedural-distribution-ServingTraySalmon`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
    * - :ref:`procedural-distribution-ServingTraySausage`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ServingTrayShrimp`
      - 0
      - 1
      - 80
@@ -45189,7 +40968,7 @@ restaurantkitchen_fancy
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-ServingTrayTatoDots`
+   * - :ref:`procedural-distribution-ServingTrayWaffles`
      - 0
      - 1
      - 100
@@ -47045,48 +42824,6 @@ SafehouseLoot_Mid
 schoolgymstorage
 ----------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GymMats`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBasketballs`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSoccerBalls`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SchoolGymSportsGear`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **clothingdryerbasic**
 
 .. list-table::
@@ -47108,48 +42845,6 @@ schoolgymstorage
      - 
      - 
    * - :ref:`procedural-distribution-CrateSoccerBalls`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GymMats`
-     - 0
-     - 1
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBasketballs`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSoccerBalls`
-     - 0
-     - 1
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SchoolGymSportsGear`
      - 0
      - 99
      - 100
@@ -47185,6 +42880,48 @@ schoolgymstorage
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GymMats`
+     - 0
+     - 1
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBasketballs`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateSoccerBalls`
+     - 0
+     - 1
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-SchoolGymSportsGear`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 **smallbox**
 
 .. list-table::
@@ -47214,10 +42951,10 @@ schoolgymstorage
      - 
 
 
-schoolstorage
--------------
+schoollab
+---------
 
-**cardboardbox**
+**fridge**
 
 .. list-table::
    :header-rows: 1
@@ -47230,14 +42967,35 @@ schoolstorage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
+   * - :ref:`procedural-distribution-FridgeMedical`
      - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SchoolLab`
      - 1
-     - 40
+     - 99
+     - 100
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-CrateClayBags`
+   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
      - 0
      - 1
      - 80
@@ -47251,6 +43009,10 @@ schoolstorage
      - 
      - 
      - 
+
+
+schoolstorage
+-------------
 
 **counter**
 
@@ -47308,6 +43070,41 @@ schoolstorage
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-CrateClayBags`
+     - 0
+     - 1
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateBooksSchool`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SchoolLab`
+     - 1
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateSkeletonDisplay`
      - 0
      - 1
      - 80
@@ -47482,6 +43279,27 @@ seafoodkitchen
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ButcherFish`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 
 secondaryclassroom
 ------------------
@@ -47612,27 +43430,6 @@ secondaryhall
 
 security
 --------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-SecurityStorage`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **clothingdryerbasic**
 
@@ -47781,27 +43578,6 @@ security
      - 
      - 
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-SecurityStorage`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **militarycrate**
 
 .. list-table::
@@ -47844,7 +43620,7 @@ security
      - 
      - 
 
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -47904,7 +43680,49 @@ shed
      - 
      - 
 
-**crate**
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateFarming`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GarageCarpentry`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GarageTools`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-GarageMetalwork`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -48058,48 +43876,6 @@ shed
      - 
      - 
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GarageCarpentry`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GarageTools`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GarageMetalwork`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-
 **shelves**
 
 .. list-table::
@@ -48145,27 +43921,6 @@ shed
 
 shoestore
 ---------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-ClothingStorageFootwear`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **clothingrack**
 
@@ -48371,6 +44126,27 @@ shoestore
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-ClothingStorageFootwear`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -48495,6 +44271,94 @@ sodatruck
      - 
 
 
+spa
+---
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SpaCounter`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**medicine**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SpaCabinet`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SpaCounter`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**shelvesmag**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-SalonMagazines`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
 spiffo_dining
 -------------
 
@@ -48515,55 +44379,6 @@ spiffo_dining
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateFountainCups`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePaperNapkins`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePaperBagSpiffos`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlasticTrays`
-     - 0
-     - 1
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSpiffoMerch`
-     - 0
-     - 1
-     - 1
      - 
      - 
      - 
@@ -48633,6 +44448,55 @@ spiffo_dining
      - 0
      - 99
      - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateFountainCups`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePaperNapkins`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePaperBagSpiffos`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePlasticTrays`
+     - 0
+     - 1
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateSpiffoMerch`
+     - 0
+     - 1
+     - 1
      - 
      - 
      - 
@@ -48752,48 +44616,6 @@ spiffoskitchen
      - 0
      - 99
      - -
-     - 
-     - 
-     - 
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateBunsBurger`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCondiments`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSpiffoMerch`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FryFactoryPotatoes`
-     - 0
-     - 2
-     - 80
      - 
      - 
      - 
@@ -48996,6 +44818,48 @@ spiffoskitchen
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateBunsBurger`
+     - 0
+     - 2
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateCondiments`
+     - 0
+     - 2
+     - 80
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateSpiffoMerch`
+     - 0
+     - 1
+     - 5
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
+     - 0
+     - 2
+     - 80
+     - 
+     - 
+     - 
+
 **restaurantdisplay**
 
 .. list-table::
@@ -49068,34 +44932,6 @@ spiffoskitchen
 spiffosstorage
 --------------
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateSpiffoMerch`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FryFactoryPotatoes`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **freezer**
 
 .. list-table::
@@ -49138,11 +44974,39 @@ spiffosstorage
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateSpiffoMerch`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-FryFactoryPotatoes`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
 
 sportstorage
 ------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -49166,125 +45030,6 @@ sportstorage
      - 0
      - 2
      - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageHelmets`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoragePaddles`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageRacquets`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageSticks`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageWeights`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-SportStorageBats`
-     - 0
-     - 2
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageBalls`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageHelmets`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoragePaddles`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageRacquets`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageSticks`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorageWeights`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-SportStorageBats`
-     - 0
-     - 2
-     - 100
      - 
      - 
      - 
@@ -49399,84 +45144,7 @@ sportstore
      - 
      - 
 
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-SportStoreBadminton`
-     - 1
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoreBaseball`
-     - 1
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoreBoxing`
-     - 1
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoreFootball`
-     - 1
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoreIceHockey`
-     - 1
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoreGolf`
-     - 1
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStorePadding`
-     - 1
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoreTennis`
-     - 1
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SportStoreSneakers`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -49557,7 +45225,7 @@ sportstore
 storage
 -------
 
-**cardboardbox**
+**freezer**
 
 .. list-table::
    :header-rows: 1
@@ -49570,50 +45238,22 @@ storage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 99
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWallFinish`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCarpentry`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalwork`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
+   * - :ref:`procedural-distribution-FreezerGarage`
      - 0
      - 99
      - 100
      - 
      - 
      - 
+   * - :ref:`procedural-distribution-Empty`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
 
-**crate**
+**fridge**
 
 .. list-table::
    :header-rows: 1
@@ -49626,50 +45266,22 @@ storage
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 99
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWallFinish`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCarpentry`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalwork`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
+   * - :ref:`procedural-distribution-FridgeGarage`
      - 0
      - 99
      - 100
      - 
      - 
      - 
+   * - :ref:`procedural-distribution-Empty`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
 
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -49729,1344 +45341,7 @@ storage
 storageunit
 -----------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Antiques`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BurglarTools`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCamping`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCostume`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMannequins`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hiker`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hunter`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SurvivalGear`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Trapper`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Chemistry`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCanning`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateInstruments`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePetSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePhotos`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSports`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-EngineerTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FitnessTrainer`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Gifts`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-HolidayStuff`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Photographer`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-VacationStuff`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-WallDecor`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComputer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTVWide`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFootwearRandom`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlacksmithing`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCarpentry`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFishing`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMechanics`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalwork`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenStools`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlasticChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFitnessWeights`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFoldingChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_Cotton`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRandomJunk`
-     - 0
-     - 4
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 4
-     - 100
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateAntiqueStove`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Antiques`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BurglarTools`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCamping`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCostume`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMannequins`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hiker`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hunter`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SurvivalGear`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Trapper`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Chemistry`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCanning`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateInstruments`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePetSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePhotos`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSports`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-EngineerTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FitnessTrainer`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Gifts`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-HolidayStuff`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Photographer`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-VacationStuff`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-WallDecor`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComputer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTVWide`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFootwearRandom`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlacksmithing`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCarpentry`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFishing`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMechanics`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalwork`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBluePlasticChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWhiteWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWoodenStools`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlasticChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFitnessWeights`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFoldingChairs`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_Cotton`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRandomJunk`
-     - 0
-     - 4
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 4
-     - 100
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Antiques`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-BurglarTools`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCamping`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCostume`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hiker`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Homesteading`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hunter`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-MechanicSpecial`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-SurvivalGear`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Trapper`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ArtSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Chemistry`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCanning`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateDishes`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateInstruments`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLinens`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePetSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePhotos`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSports`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToys`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-EngineerTools`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-FitnessTrainer`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Gifts`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Hobbies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-HolidayStuff`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ImprovisedCrafts`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-JunkHoard`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-Photographer`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-PlumbingSupplies`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ScienceMisc`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-VacationStuff`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-WallDecor`
-     - 0
-     - 1
-     - 5
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateComputer`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTV`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTVWide`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateElectronics`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ClothingStorageWinter`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateClothesRandom`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFootwearRandom`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBlacksmithing`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateCarpentry`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFishing`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMechanics`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalwork`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTailoring`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateToolsOld`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_Cotton`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
-     - 0
-     - 1
-     - 1
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateRandomJunk`
-     - 0
-     - 4
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateBooks`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMagazines`
-     - 0
-     - 4
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateNewspapers`
-     - 0
-     - 4
-     - 100
-     - 
-     - 
-     - 
-
-**smallbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -51744,6 +46019,31 @@ studio
      - 
 
 
+sunroom
+-------
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateGardening`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+
 SurvivorCache1
 --------------
 
@@ -52208,48 +46508,6 @@ swatlocker
 tailoringstore
 --------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateFabric_Cotton`
-     - 1
-     - 99
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-
 **clothingrack**
 
 .. list-table::
@@ -52405,6 +46663,48 @@ tailoringstore
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
+     - 1
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -52464,55 +46764,6 @@ tailoringstore
 
 tailoringworkshop
 -----------------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateIndustrialDye`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_Cotton`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -52574,6 +46825,55 @@ tailoringworkshop
        - furniture_storage_02_2
        - furniture_storage_02_3
      - 
+   * - :ref:`procedural-distribution-CrateIndustrialDye`
+     - 0
+     - 1
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFabric_Cotton`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-CrateIndustrialDye`
      - 0
      - 1
@@ -52689,60 +46989,11 @@ tailoringworkshop
      - 
      - 
 
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateIndustrialDye`
-     - 0
-     - 1
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_Cotton`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlack`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimBlue`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFabric_DenimDarkBlue`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-
 
 technical
 ---------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -52767,7 +47018,35 @@ technical
 theatre
 -------
 
-**cardboardbox**
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-Empty`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-TheatreLiterature`
+     - 1
+     - 4
+     - 20
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -52798,34 +47077,6 @@ theatre
      - 0
      - 99
      - 60
-     - 
-     - 
-     - 
-
-**counter**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-Empty`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-TheatreLiterature`
-     - 1
-     - 4
-     - 20
      - 
      - 
      - 
@@ -52965,7 +47216,7 @@ theatrekitchen
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -53004,77 +47255,7 @@ theatrekitchen
 theatrestorage
 --------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CratePopcorn`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSodaBottles`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSodaCans`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CratePopcorn`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSodaBottles`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSodaCans`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -53153,27 +47334,6 @@ throwgame
 tobaccostorage
 --------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCigarettes`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **metal_shelves**
 
 .. list-table::
@@ -53205,6 +47365,27 @@ tobaccostorage
      - 0
      - 99
      - 40
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateCigarettes`
+     - 0
+     - 99
+     - -
      - 
      - 
      - 
@@ -53270,6 +47451,27 @@ tobaccostore
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateCigarettes`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **shelves**
 
 .. list-table::
@@ -53324,118 +47526,6 @@ ToolsCache1
 
 toolstore
 ---------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateClayBricks`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateConcrete`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLongStick`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLumber`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlaster`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWallFinish`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreAccessories`
-     - 0
-     - 12
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreCarpentry`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreFarming`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreMetalwork`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreMisc`
-     - 0
-     - 12
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreOutfit`
-     - 0
-     - 12
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreTools`
-     - 0
-     - 12
-     - 80
-     - 
-     - 
-     - 
 
 **counter**
 
@@ -53508,119 +47598,7 @@ toolstore
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateClayBricks`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateConcrete`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLongStick`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLumber`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlaster`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWallFinish`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreAccessories`
-     - 0
-     - 12
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreCarpentry`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreFarming`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreMetalwork`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreOutfit`
-     - 0
-     - 2
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreHandles`
-     - 0
-     - 2
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreTools`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -53868,119 +47846,7 @@ toolstore
 toolstorestorage
 ----------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateClayBricks`
-     - 0
-     - 1
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateConcrete`
-     - 0
-     - 2
-     - 10
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLongStick`
-     - 0
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateLumber`
-     - 0
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePlaster`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWallFinish`
-     - 0
-     - 4
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreAccessories`
-     - 0
-     - 12
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreCarpentry`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreFarming`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreMetalwork`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreMisc`
-     - 0
-     - 12
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreOutfit`
-     - 0
-     - 12
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolStoreTools`
-     - 0
-     - 12
-     - 80
-     - 
-     - 
-     - 
-
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -54096,41 +47962,6 @@ toolstorestorage
 toystore
 --------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GiftStoreCards`
-     - 1
-     - 4
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GiftStoreFancy`
-     - 1
-     - 2
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-GiftStoreToys`
-     - 1
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -54181,7 +48012,7 @@ toystore
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -54264,7 +48095,7 @@ toystore
 toystorestorage
 ---------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -54461,7 +48292,7 @@ universitylibrary
 universitystorage
 -----------------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -54489,6 +48320,59 @@ universitystorage
      - 
      - 
    * - :ref:`procedural-distribution-UniversityLibraryBooks`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+
+upholsteryworkshop
+------------------
+
+**counter**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-LeatherworkingTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateLeather`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - CrateLeather_Large
      - 0
      - 99
      - 100
@@ -54739,27 +48623,6 @@ waitingroom
 walletshop
 ----------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateWallets`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **clothingrack**
 
 .. list-table::
@@ -54838,6 +48701,27 @@ walletshop
      - 
      - 
 
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateWallets`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
 **toolcabinet**
 
 .. list-table::
@@ -54863,7 +48747,91 @@ walletshop
 warehouse
 ---------
 
-**crate**
+**fridge**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-FridgeOffice`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**metal_shelves**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-CrateCarpentry`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateFarming`
+     - 0
+     - 99
+     - 60
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateMetalwork`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CratePaint`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateSheetMetal`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateTools`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-CrateWallFinish`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+
+**smallbox**
 
 .. list-table::
    :header-rows: 1
@@ -54975,158 +48943,11 @@ warehouse
      - 
      - 
 
-**fridge**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-FridgeOffice`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
-**metal_shelves**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCarpentry`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalwork`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWallFinish`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-
-**smallbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CrateCarpentry`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateFarming`
-     - 0
-     - 99
-     - 60
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateMetalwork`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CratePaint`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateSheetMetal`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateTools`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-CrateWallFinish`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-
 
 waterstorage
 ------------
 
-**cardboardbox**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -55172,7 +48993,7 @@ weddingstoredress
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -55197,7 +49018,28 @@ weddingstoredress
 weddingstorestorage
 -------------------
 
-**cardboardbox**
+**clothingrack**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-WeddingStoreDresses`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -55221,27 +49063,6 @@ weddingstorestorage
      - 0
      - 99
      - 100
-     - 
-     - 
-     - 
-
-**clothingrack**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-WeddingStoreDresses`
-     - 0
-     - 99
-     - -
      - 
      - 
      - 
@@ -55307,7 +49128,7 @@ weddingstoresuit
      - 
      - 
 
-**shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -55332,7 +49153,7 @@ weddingstoresuit
 weldingstorage
 --------------
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -55364,7 +49185,28 @@ weldingstorage
 weldingworkshop
 ---------------
 
-**metal_shelves**
+**militarylocker**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-WeldingWorkshopTools`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -55388,27 +49230,6 @@ weldingworkshop
      - 0
      - 99
      - 100
-     - 
-     - 
-     - 
-
-**militarylocker**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-WeldingWorkshopTools`
-     - 0
-     - 99
-     - -
      - 
      - 
      - 
@@ -55582,34 +49403,6 @@ westernkitchen
 whiskeybottling
 ---------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-WhiskeyBottlingEmpty`
-     - 0
-     - 99
-     - 80
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-WhiskeyBottlingFull`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
-
 **clothingdryerbasic**
 
 .. list-table::
@@ -55631,7 +49424,7 @@ whiskeybottling
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -55662,27 +49455,6 @@ whiskeybottling
 
 whittlerworkshop
 ----------------
-
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-CarvingWorkshopMaterials`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **metal_shelves**
 
@@ -55716,11 +49488,7 @@ whittlerworkshop
        - furniture_storage_02_3
      - 
 
-
-wirefactory
------------
-
-**crate**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -55733,34 +49501,17 @@ wirefactory
      - :ref:`item-picker-property-forceForItems`
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-WireFactoryBarbed`
+   * - :ref:`procedural-distribution-CarvingWorkshopMaterials`
      - 0
      - 99
-     - 20
+     - -
      - 
      - 
      - 
-   * - :ref:`procedural-distribution-WireFactoryBasic`
-     - 0
-     - 99
-     - 40
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-WireFactoryElectric`
-     - 0
-     - 99
-     - 20
-     - 
-     - 
-     - 
-   * - :ref:`procedural-distribution-ToolFactoryBarStock`
-     - 0
-     - 99
-     - 100
-     - 
-     - 
-     - 
+
+
+wirefactory
+-----------
 
 **metal_shelves**
 
@@ -55800,6 +49551,48 @@ wirefactory
      - 0
      - 99
      - 100
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-ToolFactoryBarStock`
+     - 0
+     - 99
+     - 100
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-WireFactoryBarbed`
+     - 0
+     - 99
+     - 20
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-WireFactoryBasic`
+     - 0
+     - 99
+     - 40
+     - 
+     - 
+     - 
+   * - :ref:`procedural-distribution-WireFactoryElectric`
+     - 0
+     - 99
+     - 20
      - 
      - 
      - 
@@ -56681,27 +50474,6 @@ ww_toolstore
 zippeestorage
 -------------
 
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **counter**
 
 .. list-table::
@@ -56760,27 +50532,6 @@ zippeestorage
      - 
      - 
 
-**crate**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
-
 **freezer**
 
 .. list-table::
@@ -56827,7 +50578,7 @@ zippeestorage
      - 
      - 
 
-**metal_shelves**
+**other**
 
 .. list-table::
    :header-rows: 1
@@ -56851,27 +50602,6 @@ zippeestorage
 
 zippeestore
 -----------
-
-**cardboardbox**
-
-.. list-table::
-   :header-rows: 1
-   :widths: auto
-
-   * - :ref:`item-picker-property-name`
-     - :ref:`item-picker-property-min`
-     - :ref:`item-picker-property-max`
-     - :ref:`item-picker-property-weightChance`
-     - :ref:`item-picker-property-forceForItems`
-     - :ref:`item-picker-property-forceForTiles`
-     - :ref:`item-picker-property-forceForRooms`
-   * - :ref:`procedural-distribution-GasStorageCombo`
-     - 0
-     - 99
-     - -
-     - 
-     - 
-     - 
 
 **clothingrack**
 
@@ -57027,6 +50757,27 @@ zippeestore
      - :ref:`item-picker-property-forceForTiles`
      - :ref:`item-picker-property-forceForRooms`
    * - :ref:`procedural-distribution-StoreShelfDrinks`
+     - 0
+     - 99
+     - -
+     - 
+     - 
+     - 
+
+**other**
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - :ref:`item-picker-property-name`
+     - :ref:`item-picker-property-min`
+     - :ref:`item-picker-property-max`
+     - :ref:`item-picker-property-weightChance`
+     - :ref:`item-picker-property-forceForItems`
+     - :ref:`item-picker-property-forceForTiles`
+     - :ref:`item-picker-property-forceForRooms`
+   * - :ref:`procedural-distribution-GasStorageCombo`
      - 0
      - 99
      - -

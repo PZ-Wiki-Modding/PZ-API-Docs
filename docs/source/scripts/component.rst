@@ -13,8 +13,8 @@ Hierarchy
 
 This block can be a child of the following blocks:
 
-- :ref:`item <scripts-item>`
 - :ref:`entity <scripts-entity>`
+- :ref:`item <scripts-item>`
 
 
 

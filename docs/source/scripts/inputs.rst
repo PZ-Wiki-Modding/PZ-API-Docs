@@ -13,8 +13,8 @@ Hierarchy
 
 This block can be a child of the following blocks:
 
-- :ref:`craftRecipe <scripts-craftrecipe>`
 - :ref:`component CraftRecipe <scripts-component-craftrecipe>`
+- :ref:`craftRecipe <scripts-craftrecipe>`
 
 
 

@@ -20,6 +20,8 @@ Available room types.
    * - ``artstore``
    * - ``attic``
    * - ``backstage``
+   * - ``bagstore``
+   * - ``bagworkshop``
    * - ``bakery``
    * - ``bakerykitchen``
    * - ``bandkitchen``
@@ -51,6 +53,7 @@ Available room types.
    * - ``breakroom``
    * - ``brewery``
    * - ``brewerystorage``
+   * - ``burgerdining``
    * - ``burgerkitchen``
    * - ``butcher``
    * - ``cabinetfactory``
@@ -68,6 +71,7 @@ Available room types.
    * - ``captainoffice``
    * - ``cardealershipoffice``
    * - ``Carpenter``
+   * - ``carpentryworkshop``
    * - ``carsupply``
    * - ``carsupplysport``
    * - ``catfish_dining``
@@ -79,11 +83,14 @@ Available room types.
    * - ``Chef``
    * - ``chinesekitchen``
    * - ``chineserestaurant``
+   * - ``church``
    * - ``classroom``
    * - ``classroom_anthro``
    * - ``classroom_medieval``
    * - ``classroom_pioneer``
    * - ``classroom_pottery``
+   * - ``clockrepair``
+   * - ``clockrepairworkshop``
    * - ``closet``
    * - ``clothingstorage``
    * - ``clothingstore``
@@ -112,6 +119,7 @@ Available room types.
    * - ``dinercounter``
    * - ``dinerkitchen``
    * - ``dining``
+   * - ``dining_crepe``
    * - ``dogfoodfactory``
    * - ``dogfoodshipping``
    * - ``dogfoodstorage``
@@ -136,10 +144,10 @@ Available room types.
    * - ``firestorage``
    * - ``fishchipskitchen``
    * - ``fishingstorage``
+   * - ``florist``
    * - ``FoodCache1``
    * - ``fossoil``
    * - ``fryshipping``
-   * - ``furniturestorage``
    * - ``furniturestore``
    * - ``furnitureworkshop``
    * - ``garage_ranger``
@@ -159,6 +167,7 @@ Available room types.
    * - ``golffactory``
    * - ``golfshipping``
    * - ``golfstore``
+   * - ``greenhouse``
    * - ``grocery``
    * - ``grocerystorage``
    * - ``GunCache1``
@@ -212,7 +221,10 @@ Available room types.
    * - ``laboratory``
    * - ``lasertag``
    * - ``laundry``
+   * - ``laundryshirts``
+   * - ``laundrysuits``
    * - ``leatherclothesstore``
+   * - ``leatherworkshop``
    * - ``library``
    * - ``liquorstore``
    * - ``livingroom``
@@ -220,10 +232,11 @@ Available room types.
    * - ``loggingfactory``
    * - ``loggingtruck``
    * - ``loggingwarehouse``
+   * - ``lostandfound``
    * - ``mannequinfactory``
    * - ``mannequinpainting``
    * - ``mapfactory``
-   * - ``masonrystorage``
+   * - ``masonrystore``
    * - ``mayorwestpointoffice``
    * - ``mechanic``
    * - ``medical``
@@ -281,6 +294,8 @@ Available room types.
    * - ``potatostorage``
    * - ``potteryworkshop``
    * - ``prisoncells``
+   * - ``prisonerbelongings``
+   * - ``prisonlaundry``
    * - ``prisonlocker``
    * - ``prisonstorage``
    * - ``producestorage``
@@ -302,6 +317,7 @@ Available room types.
    * - ``SafehouseLoot_Late``
    * - ``SafehouseLoot_Mid``
    * - ``schoolgymstorage``
+   * - ``schoollab``
    * - ``schoolstorage``
    * - ``seafoodkitchen``
    * - ``secondaryclassroom``
@@ -313,6 +329,7 @@ Available room types.
    * - ``ShotgunCache2``
    * - ``smokingroom``
    * - ``sodatruck``
+   * - ``spa``
    * - ``spiffo_dining``
    * - ``spiffoservice``
    * - ``spiffoskitchen``
@@ -324,6 +341,7 @@ Available room types.
    * - ``stripclub``
    * - ``stripclubvip``
    * - ``studio``
+   * - ``sunroom``
    * - ``SurvivorCache1``
    * - ``SurvivorCache2``
    * - ``SurvivorCacheBigBuilding``
@@ -346,6 +364,7 @@ Available room types.
    * - ``toystorestorage``
    * - ``universitylibrary``
    * - ``universitystorage``
+   * - ``upholsteryworkshop``
    * - ``vacated``
    * - ``viplounge``
    * - ``waitingroom``

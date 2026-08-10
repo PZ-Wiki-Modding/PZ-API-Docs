@@ -129,8 +129,8 @@ This block requires these following children to be valid:
 This block can have the following child blocks:
 
 - :ref:`itemMapper <scripts-itemmapper>`
-- :ref:`overlayMapper <scripts-overlaymapper>`
 - :ref:`outputs <scripts-outputs>`
+- :ref:`overlayMapper <scripts-overlaymapper>`
 
 
 

@@ -3,9 +3,9 @@
 clothingItem
 ============
 
-Clothing items are first defined with an `item <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ script block, but a lot of their properties are defined in the clothing item XML files. Some of these properties include masks, textures, shaders, and models. The clothing items are linked to these files via the `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ parameter.
+Clothing items are first defined with an `item <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ script block, but a lot of their properties are defined in the clothing item XML files. Some of these properties include masks, textures, shaders, and models. The clothing items are linked to these files via the `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ parameter. The clothing item XML files need to be stored in the path ``media/clothing/clothingItems/`` for the game to recognize them.
 
-The clothing item XML files need to be stored in the path ``media/clothing/clothingItems/`` for the game to recognize them.
+Due to all the GUID work between the clothing.xml, fileGuidTable.xml and clothingItem.xml files, it can be easy to get lost. `Outfit XML Convereter <https://pzwiki.net/wiki/Outfit_XML_Converter>`_ can help you with the process.
 
 
 File Patterns

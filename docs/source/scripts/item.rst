@@ -38,10 +38,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
-- :ref:`component Durability <scripts-component-durability>`
 - :ref:`component <scripts-component>`
 - :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+- :ref:`component Durability <scripts-component-durability>`
 
 
 
@@ -60,17 +60,26 @@ ItemType parameters
 
 Specific parameters are only available for certain `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#ItemType>`_. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
 
+base:container
+^^^^^^^^^^^^^^
+
+- :ref:`CanBeEquipped <scripts-item-canbeequipped>`
+- :ref:`Capacity <scripts-item-capacity>`
+- :ref:`WeightReduction <scripts-item-weightreduction>`
+
 base:drainable
 ^^^^^^^^^^^^^^
 
 - :ref:`cantBeConsolided <scripts-item-cantbeconsolided>`
 - :ref:`ConsolidateOption <scripts-item-consolidateoption>`
+- :ref:`OnCooked <scripts-item-oncooked>`
+- :ref:`ReplaceOnCooked <scripts-item-replaceoncooked>`
 - :ref:`Spice <scripts-item-spice>`
-- :ref:`UseDelta <scripts-item-usedelta>`
 
 base:food
 ^^^^^^^^^
 
+- :ref:`BadCold <scripts-item-badcold>`
 - :ref:`BadInMicrowave <scripts-item-badinmicrowave>`
 - :ref:`Calories <scripts-item-calories>`
 - :ref:`CannedFood <scripts-item-cannedfood>`
@@ -78,12 +87,18 @@ base:food
 - :ref:`DangerousUncooked <scripts-item-dangerousuncooked>`
 - :ref:`DaysFresh <scripts-item-daysfresh>`
 - :ref:`DaysTotallyRotten <scripts-item-daystotallyrotten>`
+- :ref:`fluReduction <scripts-item-flureduction>`
 - :ref:`Lipids <scripts-item-lipids>`
+- :ref:`OnCooked <scripts-item-oncooked>`
 - :ref:`Packaged <scripts-item-packaged>`
+- :ref:`painReduction <scripts-item-painreduction>`
+- :ref:`Poison <scripts-item-poison>`
 - :ref:`Proteins <scripts-item-proteins>`
 - :ref:`RemoveNegativeEffectOnCooked <scripts-item-removenegativeeffectoncooked>`
+- :ref:`ReplaceOnCooked <scripts-item-replaceoncooked>`
 - :ref:`ReplaceOnRotten <scripts-item-replaceonrotten>`
 - :ref:`Spice <scripts-item-spice>`
+- :ref:`UseForPoison <scripts-item-useforpoison>`
 
 base:literature
 ^^^^^^^^^^^^^^^
@@ -91,15 +106,10 @@ base:literature
 - :ref:`LearnedRecipes <scripts-item-learnedrecipes>`
 - :ref:`LvlSkillTrained <scripts-item-lvlskilltrained>`
 
-base:normal
-^^^^^^^^^^^
-
-- :ref:`AmmoType <scripts-item-ammotype>`
-
 base:radio
 ^^^^^^^^^^
 
-- :ref:`UseDelta <scripts-item-usedelta>`
+- :ref:`CanBeEquipped <scripts-item-canbeequipped>`
 
 base:weapon
 ^^^^^^^^^^^
@@ -108,14 +118,15 @@ base:weapon
 - :ref:`AimingPerkRangeModifier <scripts-item-aimingperkrangemodifier>`
 - :ref:`Aimingtime <scripts-item-aimingtime>`
 - :ref:`AmmoBox <scripts-item-ammobox>`
-- :ref:`AmmoType <scripts-item-ammotype>`
 - :ref:`ClickSound <scripts-item-clicksound>`
+- :ref:`ClipSize <scripts-item-clipsize>`
 - :ref:`CriticalChance <scripts-item-criticalchance>`
 - :ref:`CyclicRateMultiplier <scripts-item-cyclicratemultiplier>`
 - :ref:`EnduranceMod <scripts-item-endurancemod>`
 - :ref:`ExplosionDuration <scripts-item-explosionduration>`
 - :ref:`ExplosionPower <scripts-item-explosionpower>`
 - :ref:`ExplosionRange <scripts-item-explosionrange>`
+- :ref:`extraDamage <scripts-item-extradamage>`
 - :ref:`FireMode <scripts-item-firemode>`
 - :ref:`FireModePossibilities <scripts-item-firemodepossibilities>`
 - :ref:`FireRange <scripts-item-firerange>`
@@ -136,6 +147,7 @@ base:weapon
 - :ref:`PhysicsObject <scripts-item-physicsobject>`
 - :ref:`PiercingBullets <scripts-item-piercingbullets>`
 - :ref:`Projectilecount <scripts-item-projectilecount>`
+- :ref:`ProjectileSpread <scripts-item-projectilespread>`
 - :ref:`PushBackMod <scripts-item-pushbackmod>`
 - :ref:`Ranged <scripts-item-ranged>`
 - :ref:`RangeFalloff <scripts-item-rangefalloff>`
@@ -144,7 +156,6 @@ base:weapon
 - :ref:`StopPower <scripts-item-stoppower>`
 - :ref:`SwingSound <scripts-item-swingsound>`
 - :ref:`TwoHandWeapon <scripts-item-twohandweapon>`
-- :ref:`UseDelta <scripts-item-usedelta>`
 - :ref:`UseEndurance <scripts-item-useendurance>`
 - :ref:`WeaponReloadType <scripts-item-weaponreloadtype>`
 
@@ -152,11 +163,22 @@ base:weaponpart
 ^^^^^^^^^^^^^^^
 
 - :ref:`AimingTimeModifier <scripts-item-aimingtimemodifier>`
+- :ref:`CanAttach <scripts-item-canattach>`
+- :ref:`CanDetach <scripts-item-candetach>`
+- :ref:`ClipSizeModifier <scripts-item-clipsizemodifier>`
+- :ref:`DamageModifier <scripts-item-damagemodifier>`
 - :ref:`HitChanceModifier <scripts-item-hitchancemodifier>`
 - :ref:`MaxRangeModifier <scripts-item-maxrangemodifier>`
 - :ref:`MaxSightRange <scripts-item-maxsightrange>`
 - :ref:`MinSightRange <scripts-item-minsightrange>`
+- :ref:`MountOn <scripts-item-mounton>`
+- :ref:`OnAttach <scripts-item-onattach>`
+- :ref:`OnDetach <scripts-item-ondetach>`
+- :ref:`PartType <scripts-item-parttype>`
+- :ref:`ProjectileSpreadModifier <scripts-item-projectilespreadmodifier>`
 - :ref:`RecoilDelayModifier <scripts-item-recoildelaymodifier>`
+- :ref:`ReloadTimeModifier <scripts-item-reloadtimemodifier>`
+- :ref:`WeightModifier <scripts-item-weightmodifier>`
 
 
 
@@ -1189,7 +1211,7 @@ For PvP targets, the entire formula is bypassed and `StopPower <https://pz-wiki-
 .. attribute:: CustomContextMenu
    :noindex:
 
-:Type: Unknown
+:Type: translation
 
 No description provided.
 

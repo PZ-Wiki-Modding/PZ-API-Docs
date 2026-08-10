@@ -14,8 +14,8 @@ Hierarchy
 This block can be a child of the following blocks:
 
 - :ref:`component SpriteConfig <scripts-component-spriteconfig>`
-- :ref:`style <scripts-style>`
 - :ref:`progress <scripts-progress>`
+- :ref:`style <scripts-style>`
 
 This block can have the following child blocks:
 

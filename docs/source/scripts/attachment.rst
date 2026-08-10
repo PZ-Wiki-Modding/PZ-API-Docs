@@ -45,9 +45,9 @@ Hierarchy
 
 This block can be a child of the following blocks:
 
-- :ref:`vehicle <scripts-vehicle>`
 - :ref:`model <scripts-model>`
 - :ref:`template <scripts-template>`
+- :ref:`vehicle <scripts-vehicle>`
 
 
 
