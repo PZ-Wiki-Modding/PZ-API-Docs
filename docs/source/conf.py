@@ -27,17 +27,18 @@ extensions = [
 ]
 
 redirects = {
-    "scripts/root-blends": "./roots/blends.html",
-    "scripts/root-default": "./roots/default.html",
-    "scripts/root-mapbasexml": "./roots/mapbasexml.html",
-    "scripts/root-mapinfo": "./roots/mapinfo.html",
-    "scripts/root-modinfo": "./roots/modinfo.html",
-    "scripts/root-rules": "./roots/rules.html",
-    "scripts/root-sandboxoptions": "./roots/sandboxoptions.html",
-    "scripts/root-scripts": "./roots/scripts.html",
-    "scripts/root-spritemodels": "./roots/spritemodels.html",
-    "scripts/root-tilegeometry": "./roots/tilegeometry.html",
-    "scripts/root-tmxconfig": "./roots/tmxconfig.html",
+    # root files redirects
+    "scripts/root-blends": "./root_files/blends.html",
+    "scripts/root-default": "./root_files/default.html",
+    "scripts/root-mapbasexml": "./root_files/mapbasexml.html",
+    "scripts/root-mapinfo": "./root_files/mapinfo.html",
+    "scripts/root-modinfo": "./root_files/modinfo.html",
+    "scripts/root-rules": "./root_files/rules.html",
+    "scripts/root-sandboxoptions": "./root_files/sandboxoptions.html",
+    "scripts/root-scripts": "./root_files/scripts.html",
+    "scripts/root-spritemodels": "./root_files/spritemodels.html",
+    "scripts/root-tilegeometry": "./root_files/tilegeometry.html",
+    "scripts/root-tmxconfig": "./root_files/tmxconfig.html",
 }
 
 templates_path = ['_templates']
