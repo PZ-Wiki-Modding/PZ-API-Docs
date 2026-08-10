@@ -18,5 +18,5 @@ dependencies = [
     "pyyaml",
 
     # datasets
-    "pz_scripts_data @ git+ssh://git@github.com/PZ-Wiki-Modding/pz-scripts-data.git",
+    "pz_scripts_data @ git+https://github.com/PZ-Wiki-Modding/pz-scripts-data.git",
 ]
