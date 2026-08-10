@@ -48,7 +48,6 @@ generate_xml:
 	.venv/bin/python3 ./src/generate.py xml
 
 generate: generate_scripts generate_mapping generate_java generate_translations generate_xml
-# 	echo ${QUICK}
 
 html: generate
 	source ./.venv/bin/activate

@@ -207,7 +207,7 @@ class ScriptsDocObject(DocObject):
         isRoot = self.data.get("isRoot", None)
         variantOf = self.data.get("variantOf", None)
         if isRoot is not None:
-            object_out_dir = object_out_dir / 'root-files'
+            object_out_dir = object_out_dir / 'root_files'
             id = id.replace('root-', '')
         elif variantOf is not None:
             variant_out_path = None
@@ -236,7 +236,8 @@ class ScriptsDocObject(DocObject):
             content += Headers.SUBSECTION.make("Hierarchy")
 
             # valid parent blocks
-            if parent_blocks:    
+            if parent_blocks:
+                parent_blocks = sorted(parent_blocks, key=lambda x: x.lower())
                 content += "This block can be a child of the following blocks:\n\n"
                 for parent in parent_blocks:
                     content += f"- {_block_link_formatter(self, 'parents', parent)}\n"
@@ -246,7 +247,7 @@ class ScriptsDocObject(DocObject):
             if needsChildren is not None:
                 # if there are needsChildren, remove them from the children list
                 # to avoid duplicates
-                children_blocks = [child for child in children_blocks if child not in needsChildren]
+                children_blocks = sorted([child for child in children_blocks if child not in needsChildren], key=lambda x: x.lower())
 
                 content += "This block requires these following children to be valid:\n\n"
                 for child in needsChildren:
