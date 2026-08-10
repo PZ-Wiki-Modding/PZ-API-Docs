@@ -311,12 +311,30 @@ class ScriptsDocObject(DocObject):
                     description = f"See parameter {make_ref_label(parameter_name, ref_label)}."
                 sanitized_description = sanitize_description(description)
 
+
                 # make parameter subsection
                 label = _get_parameter_label(name, parameter['name'])
                 # content += Headers.SUBSUBSECTION.make(parameter['name'], label)
                 content += Attribute.make(parameter['name'], label)
                 content += parameter_metadata.generate(self, parameter) + "\n\n"
                 content += sanitized_description + "\n\n"
+
+                seeAlso = parameter.get("seeAlso", None)
+                if seeAlso is not None:
+                    content += "See also:\n\n"
+                    for other_parameter in seeAlso:
+                        parts = other_parameter.split("/")
+                        if len(parts) == 1:
+                            other_block_name = name
+                            other_parameter_name = parts[0]
+                        elif len(parts) == 2:
+                            other_block_name, other_parameter_name = parts
+                        else:
+                            raise ValueError(f"Invalid seeAlso reference '{other_parameter}' for parameter '{parameter['name']}' in block '{name}'.")
+                        other_label = _get_parameter_label(other_block_name, other_parameter_name)
+                        content += f"- {make_ref_label(other_parameter_name, other_label)}\n"
+                    content += "\n"
+
                 content += "\n"
 
         return content
