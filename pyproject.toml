@@ -8,10 +8,15 @@ authors = [
   { name = "SimKDT" },
 ]
 dependencies = [
-    "m2r",
-    "pyyaml",
+    # sphinx dependencies
     "sphinx>=5.0",
-    # "pydata_sphinx_theme",
     "furo",
     "sphinx-reredirects",
+
+    # doc generators
+    "m2r",
+    "pyyaml",
+
+    # datasets
+    "pz_scripts_data @ git+ssh://git@github.com/PZ-Wiki-Modding/pz-scripts-data.git",
 ]

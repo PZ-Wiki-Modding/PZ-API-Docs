@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 from typing import Any
 
+from pz_scripts_data.blocks import BlockProperties, IDProperties, ParameterProperties
+
 from documentation import (
     Documentation, make_toc_tree,
     DocObject, DocObjectT, 
@@ -79,7 +81,7 @@ def _sanitize_id(block_name: str) -> str:
 def _is_block(block_name: str, source_obj: "ScriptsDocObject") -> "ScriptsDocObject | None":
     """Check if a block is a valid script block."""
     for obj in source_obj.doc.objects:
-        if obj.data.get("name") == block_name:
+        if obj.data.get(BlockProperties.NAME) == block_name:
             return obj
     return None
 
@@ -154,34 +156,34 @@ def _type_formatter(obj: "ScriptsDocObject", key: str, type_data: dict) -> str:
 ## METADATA
 
 block_metadata = Metadata({
-    "Deprecated":         Rule(access_key="deprecated",       default=None                                      ),
-    "Soft Override":      Rule(access_key="softOverride",     default="Unknown"                                 ),
-    "Is Root":            Rule(access_key="isRoot",           default=None                                      ),
-    "Is Variant of":      Rule(access_key="variantOf",        default=None,      formatter=_block_link_formatter),
-    "No comma":           Rule(access_key="noComma",          default=None                                      ),
-    "Root patterns":      Rule(access_key="pattern",          default=None,      formatter=code_list_formatter  ),
+    "Deprecated":         Rule(access_key=BlockProperties.DEPRECATED,       default=None                                      ),
+    "Soft Override":      Rule(access_key=BlockProperties.SOFT_OVERRIDE,     default="Unknown"                                 ),
+    "Is Root":            Rule(access_key=BlockProperties.IS_ROOT,           default=None                                      ),
+    "Is Variant of":      Rule(access_key=BlockProperties.VARIANT,        default=None,      formatter=_block_link_formatter),
+    "No comma":           Rule(access_key=BlockProperties.NO_COMMA,          default=None                                      ),
+    "Root patterns":      Rule(access_key=BlockProperties.PATTERN,          default=None,      formatter=code_list_formatter  ),
 })
 
 id_metadata = Metadata({
-    "Optional":           Rule(access_key="optional",         default="False"                                     ),
-    "Can have spaces":    Rule(access_key="canHaveSpace",     default="False"                                     ),
-    "Allowed ID":         Rule(access_key="values",           default=None,      formatter=code_list_formatter       ),
-    "Forbidden ID":       Rule(access_key="forbidden",        default=None,      formatter=code_list_formatter       ),
-    "No ID for parents":  Rule(access_key="parentsWithout",   default=None,      formatter=_block_link_list_formatter),
+    "Optional":           Rule(access_key=IDProperties.OPTIONAL,         default="False"                                     ),
+    "Can have spaces":    Rule(access_key=IDProperties.CAN_HAVE_SPACES,     default="False"                                     ),
+    "Allowed ID":         Rule(access_key=IDProperties.VALUES,           default=None,      formatter=code_list_formatter       ),
+    "Forbidden ID":       Rule(access_key=IDProperties.FORBIDDEN,        default=None,      formatter=code_list_formatter       ),
+    "No ID for parents":  Rule(access_key=IDProperties.PARENTS_WITHOUT,   default=None,      formatter=_block_link_list_formatter),
 })
 
 parameter_metadata = Metadata({
-    "Type":               Rule(access_key="type",             default="Unknown", formatter=_type_formatter               ),
-    "Deprecated":         Rule(access_key="deprecated",       default=None                                               ),
-    "Is useless":         Rule(access_key="isUseless",        default=None                                               ),
-    "Required":           Rule(access_key="required",         default=None                                               ),
-    "Allowed duplicates": Rule(access_key="allowDuplicates",  default=None                                               ),
-    "Can be empty":       Rule(access_key="canBeEmpty",       default=None                                               ),
-    "Default":            Rule(access_key="default",          default=None,      formatter=code_value_formatter          ),
-    "Minimum":            Rule(access_key="minimum",          default=None,      formatter=code_value_formatter          ),
-    "Maximum":            Rule(access_key="maximum",          default=None,      formatter=code_value_formatter          ),
-    "Allowed values":     Rule(access_key="values",           default=None,      formatter=code_list_formatter           ),
-    "Incompatible with":  Rule(access_key="incompatibleWith", default=None,      formatter=_parameter_link_list_formatter),
+    "Type":               Rule(access_key=ParameterProperties.TYPE,             default="Unknown", formatter=_type_formatter               ),
+    "Deprecated":         Rule(access_key=ParameterProperties.DEPRECATED,       default=None                                               ),
+    "Is useless":         Rule(access_key=ParameterProperties.IS_USELESS,        default=None                                               ),
+    "Required":           Rule(access_key=ParameterProperties.REQUIRED,         default=None                                               ),
+    "Allowed duplicates": Rule(access_key=ParameterProperties.ALLOW_DUPLICATES,  default=None                                               ),
+    "Can be empty":       Rule(access_key=ParameterProperties.CAN_BE_EMPTY,       default=None                                               ),
+    "Default":            Rule(access_key=ParameterProperties.DEFAULT,          default=None,      formatter=code_value_formatter          ),
+    "Minimum":            Rule(access_key=ParameterProperties.MINIMUM,          default=None,      formatter=code_value_formatter          ),
+    "Maximum":            Rule(access_key=ParameterProperties.MAXIMUM,          default=None,      formatter=code_value_formatter          ),
+    "Allowed values":     Rule(access_key=ParameterProperties.VALUES,           default=None,      formatter=code_list_formatter           ),
+    "Incompatible with":  Rule(access_key=ParameterProperties.INCOMPATIBLE_WITH, default=None,      formatter=_parameter_link_list_formatter),
 })
 
 ## MAIN SUBCLASS
@@ -204,19 +206,19 @@ class ScriptsDocObject(DocObject):
         object_out_dir = self.doc.toc_path.parent / self.doc.toc_path.stem
         id = self.id
 
-        isRoot = self.data.get("isRoot", None)
-        variantOf = self.data.get("variantOf", None)
+        isRoot = self.data.get(BlockProperties.IS_ROOT, None)
+        variantOf = self.data.get(BlockProperties.VARIANT, None)
         if isRoot is not None:
             object_out_dir = object_out_dir / 'root_files'
             id = id.replace('root-', '')
         elif variantOf is not None:
             variant_out_path = None
             for object in self.doc.objects:
-                if object.data.get("name") == variantOf:
+                if object.data.get(BlockProperties.NAME) == variantOf:
                     variant_out_path = object.get_object_path()
                     break
             if variant_out_path is None:
-                raise ValueError(f"Variant parent block '{variantOf}' not found for block '{self.data['name']}'.")
+                raise ValueError(f"Variant parent block '{variantOf}' not found for block '{self.data[BlockProperties.NAME]}'.")
             # remove .rst from variant_out_path
             object_out_dir = variant_out_path.parent / variant_out_path.stem
         return object_out_dir / f"{id}.rst"
@@ -229,9 +231,9 @@ class ScriptsDocObject(DocObject):
         name = self.data['name']
 
         # make hierarchy section
-        parent_blocks: list[str] = self.data.get("parents", []).copy()
-        children_blocks: list[str] = self.data.get("children", []).copy()
-        needsChildren: list[str] | None = self.data.get("needsChildren", None)
+        parent_blocks: list[str] = self.data.get(BlockProperties.PARENTS, []).copy()
+        children_blocks: list[str] = self.data.get(BlockProperties.CHILDREN, []).copy()
+        needsChildren: list[str] | None = self.data.get(BlockProperties.NEEDS_CHILDREN, None)
         if parent_blocks or children_blocks:
             content += Headers.SUBSECTION.make("Hierarchy")
 
@@ -240,7 +242,7 @@ class ScriptsDocObject(DocObject):
                 parent_blocks = sorted(parent_blocks, key=lambda x: x.lower())
                 content += "This block can be a child of the following blocks:\n\n"
                 for parent in parent_blocks:
-                    content += f"- {_block_link_formatter(self, 'parents', parent)}\n"
+                    content += f"- {_block_link_formatter(self, '', parent)}\n"
                 content += "\n"
 
             # mandatory children
@@ -251,20 +253,20 @@ class ScriptsDocObject(DocObject):
 
                 content += "This block requires these following children to be valid:\n\n"
                 for child in needsChildren:
-                    content += f"- {_block_link_formatter(self, 'needsChildren', child)}\n"
+                    content += f"- {_block_link_formatter(self, '', child)}\n"
 
             # children
             if children_blocks:
                 content += "This block can have the following child blocks:\n\n"
                 for child in children_blocks:
-                    content += f"- {_block_link_formatter(self, 'children', child)}\n"
+                    content += f"- {_block_link_formatter(self, '', child)}\n"
                 content += "\n"
 
             content += "\n\n"
 
         # make ID section
         content += Headers.SUBSECTION.make("ID")
-        id_data = self.data.get("ID", None)
+        id_data = self.data.get(BlockProperties.ID, None)
         if id_data is None:
             content += "This block should have no ID.\n\n\n"
         else:
@@ -272,7 +274,7 @@ class ScriptsDocObject(DocObject):
             content += id_metadata.generate(self, id_data) + "\n\n\n"
 
         # make variants section
-        variants = self.data.get("variants", [])
+        variants = self.data.get(BlockProperties.VARIANTS, [])
         if variants:
             content += Headers.SUBSECTION.make("Variants")
             content += "This block has variants, that is blocks that will have different behavior from this block under certain conditions.\n\n"
@@ -280,7 +282,7 @@ class ScriptsDocObject(DocObject):
             content += "\n\n"
 
         # generate specific ItemType list for item block
-        if self.data['name'] == "item":
+        if self.data[BlockProperties.NAME] == "item":
             content += Headers.SUBSECTION.make("ItemType parameters")
             content += ITEMTYPE_PARAMETERS_DESCRIPTION.strip()
             content += "\n\n"
@@ -295,16 +297,16 @@ class ScriptsDocObject(DocObject):
             content += "\n\n"
 
         # generate parameter section
-        parameters = self.data.get("parameters", {})
+        parameters = self.data.get(BlockProperties.PARAMETERS, {})
         content += Headers.SUBSECTION.make("Parameters")
         if not parameters:
             content += "This block has no parameters.\n\n"
         else:
             for parameter in parameters.values():
                 # retrieve ref description source or use provided description
-                ref_description = parameter.get("#desc", None)
+                ref_description = parameter.get(ParameterProperties.REF_DESC, None)
                 if ref_description is None:
-                    description = parameter.get("description", "No description provided.")
+                    description = parameter.get(ParameterProperties.DESCRIPTION, "No description provided.")
                 else:
                     block_name, parameter_name = ref_description.split("/")
                     ref_label = _get_parameter_label(block_name, parameter_name)
@@ -313,13 +315,14 @@ class ScriptsDocObject(DocObject):
 
 
                 # make parameter subsection
-                label = _get_parameter_label(name, parameter['name'])
-                # content += Headers.SUBSUBSECTION.make(parameter['name'], label)
-                content += Attribute.make(parameter['name'], label)
+                parameter_name = parameter[ParameterProperties.NAME]
+                label = _get_parameter_label(name, parameter_name)
+                # content += Headers.SUBSUBSECTION.make(parameter_name, label)
+                content += Attribute.make(parameter_name, label)
                 content += parameter_metadata.generate(self, parameter) + "\n\n"
                 content += sanitized_description + "\n\n"
 
-                seeAlso = parameter.get("seeAlso", None)
+                seeAlso = parameter.get(ParameterProperties.SEE_ALSO, None)
                 if seeAlso is not None:
                     content += "See also:\n\n"
                     for other_parameter in seeAlso:
@@ -330,7 +333,7 @@ class ScriptsDocObject(DocObject):
                         elif len(parts) == 2:
                             other_block_name, other_parameter_name = parts
                         else:
-                            raise ValueError(f"Invalid seeAlso reference '{other_parameter}' for parameter '{parameter['name']}' in block '{name}'.")
+                            raise ValueError(f"Invalid seeAlso reference '{other_parameter}' for parameter '{parameter_name}' in block '{name}'.")
                         other_label = _get_parameter_label(other_block_name, other_parameter_name)
                         content += f"- {make_ref_label(other_parameter_name, other_label)}\n"
                     content += "\n"
@@ -412,8 +415,8 @@ class ScriptsDocumentation(Documentation[ScriptsDocObject]):
         """Prepare the table of contents (TOC) elements."""
         for obj in self.objects:
             if (isinstance(obj, RootsDocPage) 
-                or obj.data.get("isRoot", False)
-                or obj.data.get("variantOf", None) is not None):
+                or obj.data.get(BlockProperties.IS_ROOT, False)
+                or obj.data.get(BlockProperties.VARIANT, None) is not None):
                 continue
 
             # get the relative path of the script file to the toc path's parent
