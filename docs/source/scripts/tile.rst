@@ -17,10 +17,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`cylinder <scripts-cylinder>`
-- :ref:`Properties <scripts-properties>`
-- :ref:`box <scripts-box>`
 - :ref:`polygon <scripts-polygon>`
+- :ref:`cylinder <scripts-cylinder>`
+- :ref:`box <scripts-box>`
+- :ref:`Properties <scripts-properties>`
 
 
 
@@ -122,6 +122,6 @@ No description provided.
 
 The position of the tile in the tileset.
 
-If inside a `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-tilegeometry.html>`_ file, the separator is ``x`` but when inside a `spriteModels.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root-spritemodels.html>`_
+If inside a `tileGeometry.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root_files/tilegeometry.html>`_ file, the separator is ``x`` but when inside a `spriteModels.txt <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/root_files/spritemodels.html>`_
 
 

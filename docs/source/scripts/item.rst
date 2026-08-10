@@ -5,7 +5,7 @@ item
 
 :Soft Override: True
 
-The item block is used to create items in the game, from weapons to food and clothing. The parameters available in this block mostly depend on the type of item you are creating, set with `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_.
+The item block is used to create items in the game, from weapons to food and clothing. The parameters available in this block mostly depend on the type of item you are creating, set with `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_.
 
 To get started, create a simple item structure by setting that parameter up correctly, then add more parameters as you need. For example, for a normal item:
 
@@ -38,10 +38,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`component <scripts-component>`
-- :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
 - :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 - :ref:`component Durability <scripts-component-durability>`
+- :ref:`component <scripts-component>`
+- :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
 
 
 
@@ -274,7 +274,7 @@ See parameter :ref:`MaxRange <scripts-item-maxrange>`.
 
 :Type: integer
 
-`Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingtime>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingtimemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. The attachments directly add or subtract their `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingtimemodifier>`_ to the aiming delay.
+`Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingtime>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingtimemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. The attachments directly add their `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingtimemodifier>`_ to the aiming delay.
 
 It controls the aim-settling delay, the aiming delay counter that must tick down to 0 before the weapon is "settled". Lower values means faster target reacquisition after each shots. The primary "how snappy does this gun feel" lever for semi-automatic guns. It tick down the aiming via the following formula:
 
@@ -290,7 +290,7 @@ The `marksman <https://pzwiki.net/wiki/Marksman>`_ trait being no longer accessi
    This formula might not be fully accurate as `time deltas <https://github.com/demiurgeQuantified/PZModdingGuides/blob/main/guides/GameTime.md>`_ don't appear in the formula.
 
 
-While ``aimingDelay > 0``\ , both `hit chance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-hitchance>`_ and `critical chance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-criticalchance>`_ take an aim-delay penalty proportional to the remaining delay. The countdown only starts after ``recoilDelay`` has recovered, so high `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-recoildelay>`_ directly delays when ``AimingTime`` begins ticking.
+While ``aimingDelay > 0``\ , both `hit chance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-hitchance>`_ and `critical chance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-criticalchance>`_ take an aim-delay penalty proportional to the remaining delay. The countdown only starts after ``recoilDelay`` has recovered, so high `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-recoildelay>`_ directly delays when ``AimingTime`` begins ticking.
 
 On each shots or equip, the aiming delay will be increased or reduced, being impacted by aiming while in a `vehicle <https://pzwiki.net/wiki/Vehicle>`_\ , being reduced by the trait `Dextrous <https://pzwiki.net/wiki/Dextrous>`_ or increased by `All Thumbs <https://pzwiki.net/wiki/All_Thumbs>`_. The following formula is used:
 
@@ -299,6 +299,13 @@ On each shots or equip, the aiming delay will be increased or reduced, being imp
    aimingDelay = AimingTime
            * (Dextrous ? 0.8 : AllThumbs ? 1.2 : 1.0)
            * (in vehicle ? 1.5 : 1.0)
+
+See also:
+
+- :ref:`AimingTimeModifier <scripts-item-aimingtimemodifier>`
+- :ref:`RecoilDelay <scripts-item-recoildelay>`
+- :ref:`HitChance <scripts-item-hitchance>`
+- :ref:`CriticalChance <scripts-item-criticalchance>`
 
 
 .. _scripts-item-aimingtimemodifier:
@@ -309,6 +316,13 @@ On each shots or equip, the aiming delay will be increased or reduced, being imp
 :Type: integer
 
 See parameter :ref:`AimingTime <scripts-item-aimingtime>`.
+
+See also:
+
+- :ref:`AimingTime <scripts-item-aimingtime>`
+- :ref:`RecoilDelay <scripts-item-recoildelay>`
+- :ref:`HitChance <scripts-item-hitchance>`
+- :ref:`CriticalChance <scripts-item-criticalchance>`
 
 
 .. _scripts-item-aimreleasesound:
@@ -380,7 +394,12 @@ No description provided.
 
 :Type: block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-No description provided.
+Used to indicate the type of ammo box associated to the weapon. This is mostly used to spawn this type of ammo box alongside the gun.
+
+See also:
+
+- :ref:`AmmoType <scripts-item-ammotype>`
+- :ref:`MaxAmmo <scripts-item-maxammo>`
 
 
 .. _scripts-item-ammotype:
@@ -390,7 +409,9 @@ No description provided.
 
 :Type: string
 
-`AmmoType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-ammotype>`_ indicates what ammo is consumed when shooting, but it also determines tracer and hit-reaction sound lookups. The value needs to reference the `registries <https://pzwiki.net/wiki/Registries>`_ entry of the ammo you want to use. The vanilla ammunition types which are available by default are:
+`AmmoType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-ammotype>`_ indicates what ammo is consumed when shooting, but it also determines tracer and hit-reaction sound lookups. The value needs to reference the `registries <https://pzwiki.net/wiki/Registries>`_ entry of the ammo you want to use.
+
+Here is a list of some of the ammo types available in the vanilla game:
 
 
 * ``base:bullets_3030``
@@ -404,22 +425,12 @@ No description provided.
 * ``base:cap_gun_cap``
 * ``base:shotgun_shells``
 
-`AmmoBox <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-ammobox>`_ is used to indicate the type of ammo box associated to the weapon. This is mostly used to spawn this type of ammo box alongside the gun.
+See also:
 
-`MagazineType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-magazinetype>`_ is used to set the magazine item the gun uses. If not provided, then the gun doesn't use a magazine item and loads rounds individually. `MaxAmmo <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxammo>`_ is used to set the capacity of either the magazine item or the gun.
-
-`WeaponReloadType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-weaponreloadtype>`_ is used to select the reload workflow of the gun. Notably affects rack-after-shot, insertion style and animations. The provided value references the `variable condition <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/animNode.html#m-conditions>`_ ``WeaponReloadType`` in `AnimNodes <https://pzwiki.net/wiki/AnimNodes>`_. The game has the following values available by default:
-
-
-* ``handgun``
-* ``shotgun``
-* ``boltactionnomag``
-* ``boltaction``
-* ``revolver``
-* ``doublebarrelshotgun``
-* ``doublebarrelshotgunsawn``
-
-A custom ``WeaponReloadType`` can be used if the relevant animations and condition logic are properly set up in a custom `AnimNode <https://pzwiki.net/wiki/AnimNodes>`_.
+- :ref:`MagazineType <scripts-item-magazinetype>`
+- :ref:`MaxAmmo <scripts-item-maxammo>`
+- :ref:`WeaponReloadType <scripts-item-weaponreloadtype>`
+- :ref:`AmmoBox <scripts-item-ammobox>`
 
 
 .. _scripts-item-anglefalloff:
@@ -565,7 +576,7 @@ Used to define which location on the human character this clothing item can be w
 
 Add a subject to the litterature item. The value needs to be an array of `BookSubject <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/BookSubject.html>`_ values.
 
-`book_subject <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-book-subject>`_ is for books while `magazine_subject <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-magazine-subject>`_ is for magazines.
+`book_subject <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-book-subject>`_ is for books while `magazine_subject <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-magazine-subject>`_ is for magazines.
 
 This is notably used to pick a random book or magazine when spawning a book.
 
@@ -577,7 +588,14 @@ This is notably used to pick a random book or magazine when spawning a book.
 
 :Type: integer
 
-See parameter :ref:`HungerChange <scripts-item-hungerchange>`.
+When negative, the item being consumed will reduce the `player's boredom <https://pzwiki.net/wiki/Bored>`_\ , with ``100`` the maximum amount of boredom of a player.
+
+See also:
+
+- :ref:`HungerChange <scripts-item-hungerchange>`
+- :ref:`ThirstChange <scripts-item-thirstchange>`
+- :ref:`UnhappyChange <scripts-item-unhappychange>`
+- :ref:`StressChange <scripts-item-stresschange>`
 
 
 .. _scripts-item-brakeforce:
@@ -640,10 +658,10 @@ No description provided.
 The following stats are directly linked to the player's `nutrition <https://pzwiki.net/wiki/Nutrition>`_\ , which are hidden stats that will impact the player's weight gains and more (positive values will increase the stat when eaten):
 
 
-* `Calories <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-calories>`_
-* `Carbohydrates <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-carbohydrates>`_
-* `Lipids <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-lipids>`_
-* `Proteins <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-proteins>`_
+* `Calories <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-calories>`_
+* `Carbohydrates <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-carbohydrates>`_
+* `Lipids <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-lipids>`_
+* `Proteins <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-proteins>`_
 
 
 .. _scripts-item-canattach:
@@ -653,9 +671,9 @@ The following stats are directly linked to the player's `nutrition <https://pzwi
 
 :Type: callback
 
-`CanAttach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-canattach>`_ and `CanDetach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-candetach>`_ are used to define whenever a `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_ can be respectively attached or detached to and from a `HandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_.
+`CanAttach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-canattach>`_ and `CanDetach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-candetach>`_ are used to define whenever a `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_ can be respectively attached or detached to and from a `HandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_.
 
-`OnAttach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-onattach>`_ and `OnDetach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-ondetach>`_ are used to define a callback function which will be called when the weapon part is attached or detached from the weapon.
+`OnAttach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-onattach>`_ and `OnDetach <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-ondetach>`_ are used to define a callback function which will be called when the weapon part is attached or detached from the weapon.
 
 
 .. _scripts-item-canbandage:
@@ -685,7 +703,7 @@ No description provided.
 
 :Type: Unknown
 
-Needs to reference a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-bodylocation>`_ value which will serve as the equipment location.
+Needs to reference a valid `BodyLocation <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-bodylocation>`_ value which will serve as the equipment location.
 
 
 .. _scripts-item-canbeplaced:
@@ -757,7 +775,7 @@ Used to define whenever this item can get holes in it.
 
 :Type: boolean
 
-`CannedFood <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-cannedfood>`_ will mark the item as a canned food which will impact how it is spawned in the world. It will also impact the type of item where instead of being "Food" it will be "CannedFood".
+`CannedFood <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-cannedfood>`_ will mark the item as a canned food which will impact how it is spawned in the world. It will also impact the type of item where instead of being "Food" it will be "CannedFood".
 
 
 .. _scripts-item-canstack:
@@ -831,7 +849,7 @@ No description provided.
 
 :Maximum: ``50``
 
-Sets the capacity of the container. This value is limited to a maximum of 50 minus its own `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-weight>`_. The weight of the bag will follow the formula ``equippedWeight = weight * EquippedOrWornEncumbranceMultiplier + contentWeight * (1.0 - weightReduction / 100)``.
+Sets the capacity of the container. This value is limited to a maximum of 50 minus its own `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-weight>`_. The weight of the bag will follow the formula ``equippedWeight = weight * EquippedOrWornEncumbranceMultiplier + contentWeight * (1.0 - weightReduction / 100)``.
 
 
 .. _scripts-item-carbohydrates:
@@ -1039,12 +1057,12 @@ Set whenever condition of the item can impact the capacity value of the containe
 
 :Default: ``10``
 
-`ConditionLowerChanceOneIn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-conditionlowerchanceonein>`_ impacts the durability of the item, reducing the value
+`ConditionLowerChanceOneIn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-conditionlowerchanceonein>`_ impacts the durability of the item, reducing the value
 used to calculate the chance by doing ``chance = 1/ConditionLowerChanceOneIn``\ ,
 which means increasing this parameter value will reduce the chance to damage the
 item.
 
-`ConditionMax <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-conditionmax>`_ sets the total durability pool, starting condition and repair ceiling. Make these two parameters high for robust military rifles, and low for a cheap civilian gun.
+`ConditionMax <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-conditionmax>`_ sets the total durability pool, starting condition and repair ceiling. Make these two parameters high for robust military rifles, and low for a cheap civilian gun.
 
 
 .. _scripts-item-conditionloweroffroad:
@@ -1086,7 +1104,7 @@ See parameter :ref:`ConditionLowerChanceOneIn <scripts-item-conditionlowerchance
 
 :Type: Unknown
 
-By setting `cantBeConsolided <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-cantbeconsolided>`_ to ``false`` and providing a `ConsolidateOption <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-consolidateoption>`_ value, the item can be marked to merge its uses with other items of the same type in the inventory. This requires the item to be `Drainable type <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_.
+By setting `cantBeConsolided <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-cantbeconsolided>`_ to ``false`` and providing a `ConsolidateOption <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-consolidateoption>`_ value, the item can be marked to merge its uses with other items of the same type in the inventory. This requires the item to be `Drainable type <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_.
 
 The ConsolidateOption value needs to be a translation key which will be passed through `getText <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/core/Translator.html#getText(java.lang.String>`_\ ) to retrieve the translation value. The vanilla drainables (duct tape, wires, matches...) use the translation key ``ContextMenu_Merge`` which outputs a text 'Add to'.
 
@@ -1160,7 +1178,7 @@ The default value of the ``HandWeapon`` class is ``2.0``. Values of ``3.0`` to `
 
 :Default: ``20.0``
 
-`CriticalChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-criticalchance>`_ sets the base critical hit chance of the weapon. The final ``CriticalChance`` value after all applied bonuses and penalties have been applied is compared on a 0-100 roll.
+`CriticalChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-criticalchance>`_ sets the base critical hit chance of the weapon. The final ``CriticalChance`` value after all applied bonuses and penalties have been applied is compared on a 0-100 roll.
 
 Below is a table listing the different elements which can influence the critical hit chance of a weapon:
 
@@ -1171,13 +1189,13 @@ Below is a table listing the different elements which can influence the critical
      - Type
      - Description
      - Formula
-   * - `AimingPerkCritModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingperkcritmodifier>`_ and `aiming skill <https://pzwiki.net/wiki/Aiming>`_ of the character
+   * - `AimingPerkCritModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingperkcritmodifier>`_ and `aiming skill <https://pzwiki.net/wiki/Aiming>`_ of the character
      - Weapon parameter
      - The aiming level of the character impacts the player's critical hit chance by adding the following to the ``CriticalChance`` value.
      - ``CriticalChance += AimingPerkCritModifier * Aiming level``
    * - Sight bonus / penalty
      - Weapon parameter
-     - In the formula, ``sightWindowBonus`` refers to the bonus from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxsightrange>`_. ``sightlessBonus`` on the other hand is a simpler parameter which uses a distance falloff when there is not active sight. The best path is used for the better result. The aim delay penalty depends on `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingtime>`_
+     - In the formula, ``sightWindowBonus`` refers to the bonus from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxsightrange>`_. ``sightlessBonus`` on the other hand is a simpler parameter which uses a distance falloff when there is not active sight. The best path is used for the better result. The aim delay penalty depends on `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingtime>`_
      - ``CriticalChance += max(sightlessBonus - sightlessAimDelayPenalty, sightWindowBonus - sightWindowAimDelayPenalty)``
    * - Moodles penalty
      - Player condition
@@ -1197,13 +1215,22 @@ Below is a table listing the different elements which can influence the critical
      - ``CriticalChance += 10``
 
 
-For PvP targets, the entire formula is bypassed and `StopPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-stoppower>`_ is used instead. ``StopPower`` is never used against non-player targets.
+For PvP targets, the entire formula is bypassed and `StopPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-stoppower>`_ is used instead. ``StopPower`` is never used against non-player targets.
 
 .. code-block::
 
    CriticalChance = StopPower * ( 1 + Aiming level / 15)
 
 ``CriticalChance`` sets the floor for unskilled players while ``AimingPerkCritModifier`` rewards more or less the character ability to aim. High modified and low base chance means the weapon is a skill-gated crit machine, making the weapon a sort of "experts" weapon.
+
+See also:
+
+- :ref:`AimingTime <scripts-item-aimingtime>`
+- :ref:`RecoilDelay <scripts-item-recoildelay>`
+- :ref:`HitChance <scripts-item-hitchance>`
+- :ref:`MinSightRange <scripts-item-minsightrange>`
+- :ref:`MaxSightRange <scripts-item-maxsightrange>`
+- :ref:`StopPower <scripts-item-stoppower>`
 
 
 .. _scripts-item-customcontextmenu:
@@ -1239,9 +1266,9 @@ Custom sound to play when eating or drinking this item. Set to an empty string t
 
 :Minimum: ``0.0``
 
-Only in ``Auto`` `fire mode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firemode>`_. Drives the full-auto animation cycle rate via the ``autoShootSpeed`` `animation variable <https://pzwiki.net/wiki/Conditions>`_.
+Only in ``Auto`` `fire mode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firemode>`_. Drives the full-auto animation cycle rate via the ``autoShootSpeed`` `animation variable <https://pzwiki.net/wiki/Conditions>`_.
 
-A higher value means more shots per second. In ``Single`` mode this field is ignored and shot speed comes from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-recoildelay>`_ and `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingtime>`_ instead.
+A higher value means more shots per second. In ``Single`` mode this field is ignored and shot speed comes from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-recoildelay>`_ and `Aimingtime <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingtime>`_ instead.
 
 Increase for SMG feel and decrease for heavy LMG feel.
 
@@ -1283,7 +1310,7 @@ See parameter :ref:`MaxDamage <scripts-item-maxdamage>`.
 
 :Type: boolean
 
-If true, the item will cause food poisoning when eaten raw. Used for example for raw meat. The `iron gut <https://pzwiki.net/wiki/Iron_Gut>`_ trait will stop you from getting sick from eating a raw food with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-tags>`_ ``Egg``. The severity of the food poisoning is not impacted by traits or other criteria, only by the quantity of food you eat.
+If true, the item will cause food poisoning when eaten raw. Used for example for raw meat. The `iron gut <https://pzwiki.net/wiki/Iron_Gut>`_ trait will stop you from getting sick from eating a raw food with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-tags>`_ ``Egg``. The severity of the food poisoning is not impacted by traits or other criteria, only by the quantity of food you eat.
 
 
 .. _scripts-item-daysfresh:
@@ -1295,9 +1322,9 @@ If true, the item will cause food poisoning when eaten raw. Used for example for
 
 :Default: ``1000000000``
 
-`DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-daysfresh>`_ sets how many days this food item will stay fresh with default sandbox settings. `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-daystotallyrotten>`_ sets how many days this food item will take to rot.
+`DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-daysfresh>`_ sets how many days this food item will stay fresh with default sandbox settings. `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-daystotallyrotten>`_ sets how many days this food item will take to rot.
 
-`Icon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-icon>`_ provides the ability to set a different icon for the rotten and stale version of the food.
+`Icon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-icon>`_ provides the ability to set a different icon for the rotten and stale version of the food.
 
 
 .. _scripts-item-daystotallyrotten:
@@ -1556,7 +1583,7 @@ No description provided.
 
 :Type: object (object: block->>string, kv: ':', pairs: ';')
 
-`EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-evolvedrecipe>`_ is used to list the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ this item can be used in as an ingredient. The syntax needs to be as follows:
+`EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-evolvedrecipe>`_ is used to list the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ this item can be used in as an ingredient. The syntax needs to be as follows:
 
 .. code-block:: cpp
 
@@ -1576,7 +1603,7 @@ A simpler syntax is also technically supported where the quantity can be omitted
 
    EvolvedRecipe = recipeName1;recipeName2:quantity2;recipeName3,
 
-`EvolvedRecipeName <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-evolvedrecipename>`_ can be used to set the name of the item that will be displayed in the result item. That parameter gets ignored if the game language is not english, and due to a bug it won't even use the translation of the item so it will use the fullType.
+`EvolvedRecipeName <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-evolvedrecipename>`_ can be used to set the name of the item that will be displayed in the result item. That parameter gets ignored if the game language is not english, and due to a bug it won't even use the translation of the item so it will use the fullType.
 
 
 .. _scripts-item-evolvedrecipename:
@@ -1616,11 +1643,11 @@ See parameter :ref:`ExplosionRange <scripts-item-explosionrange>`.
 
 :Type: integer
 
-`FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firestartingchance>`_ out of 100 is a chance of the explosion to set on fire tiles and burn characters in the `ExplosionRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-explosionrange>`_. A value above 100 means the explosion will always set on fire tiles and burn characters, while a value of 0 means it will never set on fire tiles nor burn characters. Each tiles in the explosion range will run the `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firestartingchance>`_ check independently, so a value of 50 means that on average half of the tiles in the explosion range will be set on fire.
+`FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firestartingchance>`_ out of 100 is a chance of the explosion to set on fire tiles and burn characters in the `ExplosionRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-explosionrange>`_. A value above 100 means the explosion will always set on fire tiles and burn characters, while a value of 0 means it will never set on fire tiles nor burn characters. Each tiles in the explosion range will run the `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firestartingchance>`_ check independently, so a value of 50 means that on average half of the tiles in the explosion range will be set on fire.
 
-If `ExplosionPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-explosionpower>`_ is set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firestartingchance>`_.
+If `ExplosionPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-explosionpower>`_ is set above 0, the explosion will burn tiles and set fire to them based on the provided `fireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firestartingchance>`_.
 
-`extraDamage <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-extradamage>`_ is used to add a net bonus damage dealt by the trap.
+`extraDamage <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-extradamage>`_ is used to add a net bonus damage dealt by the trap.
 
 The damage the trap deals is calculated as follows:
 
@@ -1628,13 +1655,13 @@ The damage the trap deals is calculated as follows:
 
    damage = random(explosionPower/20, explosionPower/20 * 2) + extraDamage
 
-`SmokeRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-smokerange>`_ sets the range of the smoke effect. Squares in this range also can be set on fire individually based on `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firestartingchance>`_.
+`SmokeRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-smokerange>`_ sets the range of the smoke effect. Squares in this range also can be set on fire individually based on `FireStartingChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firestartingchance>`_.
 
-`FireRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firerange>`_ will set every tiles in the provided range on fire.
+`FireRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firerange>`_ will set every tiles in the provided range on fire.
 
-`FireStartingEnergy <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firestartingenergy>`_ is an extra check added on top of all of these whenever a fire is attempted to be started. Will set the energy of the fire which impacts how strong is is. A value of 0 means no fire is started. Vegetation tiles provide a net bonus of 50 in energy to the fire being created. The created fire will have a life expectency between 300 and 600 (unclear on the units).
+`FireStartingEnergy <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firestartingenergy>`_ is an extra check added on top of all of these whenever a fire is attempted to be started. Will set the energy of the fire which impacts how strong is is. A value of 0 means no fire is started. Vegetation tiles provide a net bonus of 50 in energy to the fire being created. The created fire will have a life expectency between 300 and 600 (unclear on the units).
 
-`ExplosionSound <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-explosionsound>`_ can be used to set the sound played when the explosion happens, while `ExplosionDuration <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-explosionduration>`_ can be used to set the duration of the explosion effect, which is especially useful for smoke bombs.
+`ExplosionSound <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-explosionsound>`_ can be used to set the sound played when the explosion happens, while `ExplosionDuration <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-explosionduration>`_ can be used to set the duration of the explosion effect, which is especially useful for smoke bombs.
 
 
 .. _scripts-item-explosionsound:
@@ -1746,7 +1773,7 @@ No description provided.
 
 :Type: string
 
-`FireModePossibilities <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firemodepossibilities>`_ lists the available fire modes of the weapon, and the player can automatically switch between them with the relevant keybind. `FireMode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-firemode>`_ sets the default fire mode of the weapon, which is the one it will spawn with.
+`FireModePossibilities <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firemodepossibilities>`_ lists the available fire modes of the weapon, and the player can automatically switch between them with the relevant keybind. `FireMode <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-firemode>`_ sets the default fire mode of the weapon, which is the one it will spawn with.
 
 The vanilla fire modes are:
 
@@ -1814,7 +1841,7 @@ No description provided.
 
 :Type: integer
 
-When eating this food item, the player cold or pain will be reduced by the percentage of the food being eaten times respectively the values of `fluReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-flureduction>`_ and `painReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-painreduction>`_.
+When eating this food item, the player cold or pain will be reduced by the percentage of the food being eaten times respectively the values of `fluReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-flureduction>`_ and `painReduction <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-painreduction>`_.
 
 
 .. _scripts-item-foodsicknesschange:
@@ -1855,7 +1882,7 @@ To be a valid food item to feed to animals, the item needs to be of type ``Fruit
 
 :Type: Unknown
 
-`GoodHot <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-goodhot>`_ reduces by a flat 2 the happiness change when eating this food hot. On the other hand, `BadCold <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-badcold>`_ increases by a flat 2 the unhappiness change when eating this food cold.
+`GoodHot <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-goodhot>`_ reduces by a flat 2 the happiness change when eating this food hot. On the other hand, `BadCold <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-badcold>`_ increases by a flat 2 the unhappiness change when eating this food cold.
 
 
 .. _scripts-item-guntype:
@@ -1961,7 +1988,7 @@ No description provided.
 
 :Type: integer
 
-`HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-hitchance>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `HitChanceModified <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-hitchancemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
+`HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-hitchance>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `HitChanceModified <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-hitchancemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
 The initial hitchance is determined by the following configuration:
 
@@ -1980,13 +2007,13 @@ Below is a table listing the different elements which can influence the hit chan
      - Type
      - Description
      - Formula
-   * - `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingperkhitchancemodifier>`_ and `aiming skill <https://pzwiki.net/wiki/Aiming>`_ of the character
+   * - `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingperkhitchancemodifier>`_ and `aiming skill <https://pzwiki.net/wiki/Aiming>`_ of the character
      - Weapon parameter
      - The aiming level of the character impacts the player's hit chance.
      - ``HitChance += AimingPerkHitChanceModifier * Aiming level``
    * - Sight bonus / penalty
      - Weapon parameter
-     - In the formula, ``sightWindowBonus`` refers to the bonus from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxsightrange>`_. ``sightlessBonus`` on the other hand is a simpler parameter which uses a distance falloff when there is not active sight. The best path is used for the better result.
+     - In the formula, ``sightWindowBonus`` refers to the bonus from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxsightrange>`_. ``sightlessBonus`` on the other hand is a simpler parameter which uses a distance falloff when there is not active sight. The best path is used for the better result.
      - ``HitChance += max(sightlessBonus - sightlessAimDelayPenalty, sightWindowBonus - sightWindowAimDelayPenalty)``
    * - Moodles penalty
      - Player condition
@@ -2012,7 +2039,7 @@ Below is a table listing the different elements which can influence the hit chan
 
 The final obtained value of ``HitChance`` is clamped against the `MINIMUM_TO_HIT_CHANCE <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/combat/CombatConfigKey.html#MINIMUM_TO_HIT_CHANCE>`_ and `MAXIMUM_TO_HIT_CHANCE <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/combat/CombatConfigKey.html#MAXIMUM_TO_HIT_CHANCE>`_\ , both respectively equal to ``5.0`` and ``100.0`` by default.
 
-At point-blank range, all combined penalties are scaled toward zero, so close shots are always more forgiving. The `HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-hitchance>`_ parameter will set the floor for all players while `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingperkhitchancemodifier>`_ will increase accuracy with the level of aiming of the player. Low base and high modifier makes the gun terrible while unskilled but excellent with investment in aiming.
+At point-blank range, all combined penalties are scaled toward zero, so close shots are always more forgiving. The `HitChance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-hitchance>`_ parameter will set the floor for all players while `AimingPerkHitChanceModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingperkhitchancemodifier>`_ will increase accuracy with the level of aiming of the player. Low base and high modifier makes the gun terrible while unskilled but excellent with investment in aiming.
 
 
 .. _scripts-item-hitchancemodifier:
@@ -2056,14 +2083,14 @@ No description provided.
 
 :Type: float
 
-Different stats are available for food items which will impact the player's hunger, thirst, boredom etc.
+When negative, the item being consumed will reduce the `player's hunger <https://pzwiki.net/wiki/Hungry>`_\ , with ``100`` the maximum amount of hunger of a player.
 
+See also:
 
-* `HungerChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-hungerchange>`_ when negative will reduce the hunger of the player, with ``100`` the maximum amount of hunger of a player
-* `ThirstChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-thirstchange>`_ when negative will reduce the thirst of the player, with ``100`` the maximum amount of thirst of a player
-* `UnhappyChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-unhappychange>`_ when positive will decrease the player's unhappiness, with ``100`` the maximum amount of unhappiness of a player
-* `StressChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-stresschange>`_ when negative will reduce the stress of the player, with ``100`` the maximum amount of stress of a player
-* `BoredomChange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-boredomchange>`_ when negative will reduce the boredom of the player, with ``100`` the maximum amount of boredom of a player
+- :ref:`UnhappyChange <scripts-item-unhappychange>`
+- :ref:`ThirstChange <scripts-item-thirstchange>`
+- :ref:`StressChange <scripts-item-stresschange>`
+- :ref:`BoredomChange <scripts-item-boredomchange>`
 
 
 .. _scripts-item-icon:
@@ -2115,9 +2142,9 @@ Food icons
 Icons can be specified for rotten, cooked and burned food (\ ``ItemType = base:food,``\ ) by adding the following suffix to the icon files:
 
 
-* ``Rotten`` or ``Spoiled`` for food that has rotten, meaning has passed the `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-daystotallyrotten>`_ value.
-* ``Cooked`` for food that has been cooked, meaning has passed the `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minutestocook>`_ value.
-* ``Overdone`` or ``Burnt`` for food that has been cooked to the point of burning, meaning has passed the `MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minutestoburn>`_ value.
+* ``Rotten`` or ``Spoiled`` for food that has rotten, meaning has passed the `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-daystotallyrotten>`_ value.
+* ``Cooked`` for food that has been cooked, meaning has passed the `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minutestocook>`_ value.
+* ``Overdone`` or ``Burnt`` for food that has been cooked to the point of burning, meaning has passed the `MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minutestoburn>`_ value.
 
 For example, take a food item with the icon file defined as such:
 
@@ -2136,7 +2163,7 @@ To add variants based on food condition, you would have the following file struc
        📄 Item_iconNameRotten.png
        📄 Item_iconNameBurnt.png
 
-`IconsForTexture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-iconsfortexture>`_ can be used alongside `WorldStaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-worldstaticmodelsbyindex>`_ and `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-staticmodelsbyindex>`_ to have variant icons for different models, and all for the same item definition. See those parameters definitions for more information.
+`IconsForTexture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-iconsfortexture>`_ can be used alongside `WorldStaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-worldstaticmodelsbyindex>`_ and `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-staticmodelsbyindex>`_ to have variant icons for different models, and all for the same item definition. See those parameters definitions for more information.
 
 
 .. _scripts-item-iconcolormask:
@@ -2167,6 +2194,11 @@ No description provided.
 :Type: array (array of string, separator: ';')
 
 See parameter :ref:`Icon <scripts-item-icon>`.
+
+See also:
+
+- :ref:`StaticModelsByIndex <scripts-item-staticmodelsbyindex>`
+- :ref:`WorldStaticModelsByIndex <scripts-item-worldstaticmodelsbyindex>`
 
 
 .. _scripts-item-idleanim:
@@ -2270,9 +2302,9 @@ No description provided.
 
 :Type: boolean
 
-`IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-isaimedfirearm>`_ enables the entire aimed-firearm subsystem: ballistics controller, reticle, muzzle flash, firearm-specific condition handling and ballistics-base target detection. Without it the weapon falls back to melee sweep logic.
+`IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-isaimedfirearm>`_ enables the entire aimed-firearm subsystem: ballistics controller, reticle, muzzle flash, firearm-specific condition handling and ballistics-base target detection. Without it the weapon falls back to melee sweep logic.
 
-Set to ``true`` for any normal gun. Distinct from `Ranged <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-ranged>`_ which marks the item as a ranged weapon for the animations `conditions <https://pzwiki.net/wiki/Conditions>`_.
+Set to ``true`` for any normal gun. Distinct from `Ranged <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-ranged>`_ which marks the item as a ranged weapon for the animations `conditions <https://pzwiki.net/wiki/Conditions>`_.
 
 
 .. _scripts-item-isaimedhandweapon:
@@ -2292,15 +2324,15 @@ No description provided.
 
 :Type: boolean
 
-`IsCookable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-iscookable>`_ marks as the item as cookable.
+`IsCookable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-iscookable>`_ marks as the item as cookable.
 
-`MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minutestocook>`_ controls how many in-game minutes it takes for the food to be fully cooked. 
+`MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minutestocook>`_ controls how many in-game minutes it takes for the food to be fully cooked. 
 
-`MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minutestoburn>`_ controls how many in-game minutes it takes for the food to burn. This value must be higher than `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minutestocook>`_ or your item will be instantly burnt before being fully cooked.
+`MinutesToBurn <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minutestoburn>`_ controls how many in-game minutes it takes for the food to burn. This value must be higher than `MinutesToCook <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minutestocook>`_ or your item will be instantly burnt before being fully cooked.
 
-`RemoveNegativeEffectOnCooked <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-removenegativeeffectoncooked>`_ will remove any negative changes in thirst, unhappiness and boredom when the food is cooked.
+`RemoveNegativeEffectOnCooked <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-removenegativeeffectoncooked>`_ will remove any negative changes in thirst, unhappiness and boredom when the food is cooked.
 
-`BadInMicrowave <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-badinmicrowave>`_ will set the unhappiness and boredom changes to ``5.0`` when cooked in a microwave.
+`BadInMicrowave <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-badinmicrowave>`_ will set the unhappiness and boredom changes to ``5.0`` when cooked in a microwave.
 
 
 .. _scripts-item-isdung:
@@ -2460,9 +2492,9 @@ See parameter :ref:`LightStrength <scripts-item-lightstrength>`.
 
 :Type: float
 
-`LightDistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-lightdistance>`_ is used to determine the radius of the light emitted by the item. It is compared to the `Manhattan distance <https://en.wikipedia.org/wiki/Taxicab_geometry>`_ of the item to the square. The higher the value, the higher is the radius of the light.
+`LightDistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-lightdistance>`_ is used to determine the radius of the light emitted by the item. It is compared to the `Manhattan distance <https://en.wikipedia.org/wiki/Taxicab_geometry>`_ of the item to the square. The higher the value, the higher is the radius of the light.
 
-`LightStrength <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-lightstrength>`_ will boost the light emitted.
+`LightStrength <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-lightstrength>`_ will boost the light emitted.
 
 .. code-block::
 
@@ -2522,7 +2554,14 @@ You can find a list of subjects in the `MagazineSubject <https://pz-wiki-modding
 
 :Type: block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-See parameter :ref:`AmmoType <scripts-item-ammotype>`.
+Used to set the magazine item the gun uses. If not provided, then the gun doesn't use a magazine item and loads rounds individually. `MaxAmmo <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxammo>`_ is used to set the capacity of either the magazine item or the gun.
+
+See also:
+
+- :ref:`AmmoType <scripts-item-ammotype>`
+- :ref:`MaxAmmo <scripts-item-maxammo>`
+- :ref:`AmmoBox <scripts-item-ammobox>`
+- :ref:`WeaponReloadType <scripts-item-weaponreloadtype>`
 
 
 .. _scripts-item-makeuptype:
@@ -2562,7 +2601,13 @@ No description provided.
 
 :Type: integer
 
-No description provided.
+See parameter :ref:`MagazineType <scripts-item-magazinetype>`.
+
+See also:
+
+- :ref:`MagazineType <scripts-item-magazinetype>`
+- :ref:`AmmoType <scripts-item-ammotype>`
+- :ref:`AmmoBox <scripts-item-ammobox>`
 
 
 .. _scripts-item-maxcapacity:
@@ -2600,7 +2645,7 @@ No description provided.
 
 Rolls the hit damage of the weapon between ``MinDamage`` and ``MaxDamage``.
 
-`WeaponParts <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_ can modify the damage of the weapon with the `DamageModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-damagemodifier>`_ parameter. When equipped, a `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_ will increase the minimum and maximum damage of the weapon by the provided value. You are not limited to positive values, you can also add damage debuffs to the weapon by providing negative values.
+`WeaponParts <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_ can modify the damage of the weapon with the `DamageModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-damagemodifier>`_ parameter. When equipped, a `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_ will increase the minimum and maximum damage of the weapon by the provided value. You are not limited to positive values, you can also add damage debuffs to the weapon by providing negative values.
 
 
 .. _scripts-item-maxhitcount:
@@ -2612,11 +2657,11 @@ Rolls the hit damage of the weapon between ``MinDamage`` and ``MaxDamage``.
 
 :Default: ``1000``
 
-`MaxHitcount <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxhitcount>`_ sets the maximum number of targets the weapon can hit with one attack. For ranged weapons, it will determine how many targets a single shot can hit. For melee weapons, a single swing can hit multiple targets if the relevant sandbox option allows it (Weapon Multi-Hit).
+`MaxHitcount <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxhitcount>`_ sets the maximum number of targets the weapon can hit with one attack. For ranged weapons, it will determine how many targets a single shot can hit. For melee weapons, a single swing can hit multiple targets if the relevant sandbox option allows it (Weapon Multi-Hit).
 
-When `PiercingBullets <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-piercingbullets>`_ is ``true``\ , a shot continues past the first target and registers on collinear targets behind it. Each subsequent pierced target receives reduced damage (\ ``damage / PIERCING_BULLET_DAMAGE_REDUCTION``\ ). Targets must be within approximatively 1 degree of each other in angle to qualify.
+When `PiercingBullets <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-piercingbullets>`_ is ``true``\ , a shot continues past the first target and registers on collinear targets behind it. Each subsequent pierced target receives reduced damage (\ ``damage / PIERCING_BULLET_DAMAGE_REDUCTION``\ ). Targets must be within approximatively 1 degree of each other in angle to qualify.
 
-Keep ``MaxHitcount`` to 1 for a standard rifle, and set it to 2 with `PiercingBullets <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-piercingbullets>`_ to have AP rounds behavior (M16A2 for example).
+Keep ``MaxHitcount`` to 1 for a standard rifle, and set it to 2 with `PiercingBullets <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-piercingbullets>`_ to have AP rounds behavior (M16A2 for example).
 
 
 .. _scripts-item-maxitemsize:
@@ -2638,9 +2683,9 @@ No description provided.
 
 :Default: ``1.0``
 
-`MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxrange>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `MaxRangeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxrangemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
+`MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxrange>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `MaxRangeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxrangemodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_.
 
-The `MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxrange>`_ of a weapon is used to determine the maximum distance the weapon can shoot. Targets beyond ``effectiveMaxRange`` calculated with the formula below simply can't be reached, the parameter is a hard cutoff, not a penalty in damage or anything like that.
+The `MaxRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxrange>`_ of a weapon is used to determine the maximum distance the weapon can shoot. Targets beyond ``effectiveMaxRange`` calculated with the formula below simply can't be reached, the parameter is a hard cutoff, not a penalty in damage or anything like that.
 
 .. code-block::
 
@@ -2666,7 +2711,7 @@ See parameter :ref:`MaxRange <scripts-item-maxrange>`.
 
 :Type: float
 
-`MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxsightrange>`_ define the optimal sight window, to be more specific, the distance band where hits and critical hits bonuses peak.
+`MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minsightrange>`_ and `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxsightrange>`_ define the optimal sight window, to be more specific, the distance band where hits and critical hits bonuses peak.
 
 The `aiming skill <https://pzwiki.net/wiki/Aiming>`_ and `eagle eyed <https://pzwiki.net/wiki/Eagle_Eyed>`_ will impact these values:
 
@@ -2681,7 +2726,7 @@ Inside the the ``effectiveMin`` and ``effectiveMax`` window, the bonus follows a
 
 Below ``effectiveMin``\ , a small linear penalty is applied as the gun is not suited for point-blank. Above ``effectiveMax``\ , a growing quadratic penalty is applied, the bonus degrades rapidly past the edge.
 
-A CQC gun should have a low `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-maxsightrange>`_ while a marksman riffle should have a high `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minsightrange>`_ with a wide window.
+A CQC gun should have a low `MaxSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-maxsightrange>`_ while a marksman riffle should have a high `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minsightrange>`_ with a wide window.
 
 
 .. _scripts-item-mechanicsitem:
@@ -2743,11 +2788,11 @@ No description provided.
 
 :Default: ``1.0``
 
-For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-isaimedfirearm>`_ set to ``true``\ , the ballistics controller handles target detection and does not use `MinAngle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minangle>`_ in the ranged hit-chance formula. These serve one narrow purpose: the ``isMeleeTargetTooCloseToShoot()`` check, detecting if a target is so close it should trigger a melee strike instead of a shot.
+For `IsAimedFirearm <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-isaimedfirearm>`_ set to ``true``\ , the ballistics controller handles target detection and does not use `MinAngle <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minangle>`_ in the ranged hit-chance formula. These serve one narrow purpose: the ``isMeleeTargetTooCloseToShoot()`` check, detecting if a target is so close it should trigger a melee strike instead of a shot.
 
 ``MinAngle`` is a dot-product threshold (-1 to 1). Values near 1.0 mean the target must be almost directly in front to trigger the melee-swap check, while lower values widen the angle.
 
-`AimingPerkMinAngleModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-aimingperkminanglemodifier>`_ is parsed and stored and impacts the minimum angle with the following formula:
+`AimingPerkMinAngleModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-aimingperkminanglemodifier>`_ is parsed and stored and impacts the minimum angle with the following formula:
 
 .. code-block:: java
 
@@ -2793,7 +2838,7 @@ No description provided.
 
 :Type: float
 
-Hard minimum attack distance. If the target is closer than ``MinRange``\ , the ballistics controller does not register the shot and the game may force a melee swap. This is a binary threshold, not a penalty band. Separate from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-minsightrange>`_.
+Hard minimum attack distance. If the target is closer than ``MinRange``\ , the ballistics controller does not register the shot and the game may force a melee swap. This is a binary threshold, not a penalty band. Separate from `MinSightRange <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-minsightrange>`_.
 
 Long rifles should be hard to use in tight spaces. ``0.2`` to ``0.35`` is a small gap but ``0.61`` is noticeably limiting indoors.
 
@@ -3109,7 +3154,7 @@ No description provided.
 
 :Type: boolean
 
-Setting this to ``true`` will add readable content on the food item, which will display the `nutrional information <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-calories>`_ of the food item.
+Setting this to ``true`` will add readable content on the food item, which will display the `nutrional information <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-calories>`_ of the food item.
 
 
 .. _scripts-item-padlock:
@@ -3149,7 +3194,7 @@ See parameter :ref:`fluReduction <scripts-item-flureduction>`.
 
 :Type: string
 
-Marks the `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_ as a specific type of part. For proper tooltip of your weapon part, you need to either use one of the existing parts or use a custom part type but provide a translation entry inside `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ as ``Tooltip_weapon_`` followed by that part type value. For example, if you set ``PartType = customPart``\ , you need to provide a translation entry as ``Tooltip_weapon_customPart`` with the name of your part.
+Marks the `WeaponPart <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_ as a specific type of part. For proper tooltip of your weapon part, you need to either use one of the existing parts or use a custom part type but provide a translation entry inside `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ as ``Tooltip_weapon_`` followed by that part type value. For example, if you set ``PartType = customPart``\ , you need to provide a translation entry as ``Tooltip_weapon_customPart`` with the name of your part.
 
 Here are the available part types in the base game:
 
@@ -3161,7 +3206,7 @@ Here are the available part types in the base game:
 * Sling
 * Stock
 
-There are also some indirect part types. If the item has the `TorchCone <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-torchcone>`_ parameter, that part will be valid as a torch attachment. If it has the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtag>`_ ``base:optics``\ , it will be valid as an optics attachment.
+There are also some indirect part types. If the item has the `TorchCone <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-torchcone>`_ parameter, that part will be valid as a torch attachment. If it has the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtag>`_ ``base:optics``\ , it will be valid as an optics attachment.
 
 Technically, there are other ``Tooltip_weapon_`` combination than the ones listed above, but they are not used as part types, but due to them sharing the same translation entry format, they can technically be used as a part type. It means these should not be used as part types, as you'd have to overwrite their translation entries which could brake the translation of the base game:
 
@@ -3268,13 +3313,13 @@ See parameter :ref:`PoisonPower <scripts-item-poisonpower>`.
 
 :Type: integer
 
-`PoisonPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-poisonpower>`_ defines the strength of the poison, where a positive value will make the food poisonous.
+`PoisonPower <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-poisonpower>`_ defines the strength of the poison, where a positive value will make the food poisonous.
 
-`PoisonDetectionLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-poisondetectionlevel>`_ doesn't seem to be useful, where a positive value will make it pass all the checks anyway, so increasing that value doesn't do anything.]
+`PoisonDetectionLevel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-poisondetectionlevel>`_ doesn't seem to be useful, where a positive value will make it pass all the checks anyway, so increasing that value doesn't do anything.]
 
-You can also mark an item to be shown as poisonous to the player by adding the `ItemTag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtag>`_ ``base:showpoison``.
+You can also mark an item to be shown as poisonous to the player by adding the `ItemTag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtag>`_ ``base:showpoison``.
 
-The parameters `Poison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-poison>`_ and `UseForPoison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-useforpoison>`_ look unused.
+The parameters `Poison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-poison>`_ and `UseForPoison <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-useforpoison>`_ look unused.
 
 
 .. _scripts-item-pourtype:
@@ -3294,7 +3339,7 @@ Sets an identifier for the pouring type. This will set the ``PourType`` `conditi
 Specific values have different effects:
 
 
-* ``Bucket`` will cause the item to play the sound ``Base.PourLiquidOnGroundMetal`` with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-tags>`_ ``base:hasmetal`` when pouring liquid.
+* ``Bucket`` will cause the item to play the sound ``Base.PourLiquidOnGroundMetal`` with the `tag <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-tags>`_ ``base:hasmetal`` when pouring liquid.
 * ``Pot`` will also play ``Base.PourLiquidOnGroundMetal`` but without the need for the tag.
 * Other values will play ``Base.PourLiquidOnGround`` when pouring liquid.
 
@@ -3318,7 +3363,7 @@ No description provided.
 
 :Default: ``1``
 
-Only active when the weapon is ranged and has `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-rangefalloff>`_ set to ``true``. In that mode, the ballistics controller generates multiple spread projectiles. The field is never read when `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-rangefalloff>`_ is ``false``.
+Only active when the weapon is ranged and has `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-rangefalloff>`_ set to ``true``. In that mode, the ballistics controller generates multiple spread projectiles. The field is never read when `RangeFalloff <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-rangefalloff>`_ is ``false``.
 
 Inert for standard rifles. Required only for shotgun-style spread.
 
@@ -3472,7 +3517,7 @@ No description provided.
 
 :Type: Unknown
 
-`RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-recoildelay>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-recoildelaymodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. Weapon attachments will add or subtract from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-recoildelay>`_ directly.
+`RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-recoildelay>`_ is a stat which is directly applied to a `HandWeapon <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/HandWeapon.html>`_ while `AimingTimeModifier <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-recoildelaymodifier>`_ is applied to `weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_. Weapon attachments will add or subtract from `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-recoildelay>`_ directly.
 
 Controls how long post-shot recovery takes before aim settling can begin. High values means the gun has a huge kick and forces a pause. Lower values is a flat, fast and snappy gun. `Strength <https://pzwiki.net/wiki/Strength>`_ and `aiming <https://pzwiki.net/wiki/Aiming>`_ will both reduce the recoil delay. Holding the gun one-handed will negatively impact the recoil handling. The following formula is used:
 
@@ -3485,6 +3530,12 @@ Controls how long post-shot recovery takes before aim settling can begin. High v
 
 Aim countdown starts when the recoil delay counter is less than ``effectiveDelay * AimingLevel / 30``. Higher aiming also lets aim recovery start earlier in the recoil window.
 
+See also:
+
+- :ref:`RecoilDelayModifier <scripts-item-recoildelaymodifier>`
+- :ref:`AimingTime <scripts-item-aimingtime>`
+- :ref:`HitChance <scripts-item-hitchance>`
+
 
 .. _scripts-item-recoildelaymodifier:
 
@@ -3494,6 +3545,13 @@ Aim countdown starts when the recoil delay counter is less than ``effectiveDelay
 :Type: Unknown
 
 See parameter :ref:`RecoilDelay <scripts-item-recoildelay>`.
+
+See also:
+
+- :ref:`RecoilDelay <scripts-item-recoildelay>`
+- :ref:`AimingTime <scripts-item-aimingtime>`
+- :ref:`AimingTimeModifier <scripts-item-aimingtimemodifier>`
+- :ref:`HitChance <scripts-item-hitchance>`
 
 
 .. _scripts-item-reduceinfectionpower:
@@ -3615,13 +3673,13 @@ A list of `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.htm
 
 :Type: block (block: :ref:`item <scripts-item>`, with :ref:`scripts-module`)
 
-When providing a `ReplaceOnDeplete <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-replaceondeplete>`_\ , the moment the item is depleted (e.g. a drainable item has no uses left anymore), it will be replaced by the item defined in this parameter. If this is empty, the item will be deleted without any replacement. This can notably be used to replace towels with a `wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-wet>`_ towel.
+When providing a `ReplaceOnDeplete <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-replaceondeplete>`_\ , the moment the item is depleted (e.g. a drainable item has no uses left anymore), it will be replaced by the item defined in this parameter. If this is empty, the item will be deleted without any replacement. This can notably be used to replace towels with a `wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-wet>`_ towel.
 
-`ReplaceOnExtinguish <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-replaceonextinguish>`_ on the other hand is used for `light sources items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-lightstrength>`_ to swap between the lit and unlit version of the item when it is fully drained.
+`ReplaceOnExtinguish <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-replaceonextinguish>`_ on the other hand is used for `light sources items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-lightstrength>`_ to swap between the lit and unlit version of the item when it is fully drained.
 
-`ReplaceOnRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-replaceonrotten>`_ is used for food items to swap to a different rotten version of items when they are fully rotten. This is actually not used to make an item rotten, which is natively handled by the game when providing `DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-daysfresh>`_ and `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-daystotallyrotten>`_ but instead when the item isn't necessary bad to eat after the days rotten duration, like ice cream becoming melted for example.
+`ReplaceOnRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-replaceonrotten>`_ is used for food items to swap to a different rotten version of items when they are fully rotten. This is actually not used to make an item rotten, which is natively handled by the game when providing `DaysFresh <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-daysfresh>`_ and `DaysTotallyRotten <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-daystotallyrotten>`_ but instead when the item isn't necessary bad to eat after the days rotten duration, like ice cream becoming melted for example.
 
-`ReplaceOnUse <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-replaceonuse>`_ is used whenever an item is used, to replace it with another item. Used for containers containing food items to provide the container back after the food is eaten, or for dirty items getting cleaned.
+`ReplaceOnUse <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-replaceonuse>`_ is used whenever an item is used, to replace it with another item. Used for containers containing food items to provide the container back after the food is eaten, or for dirty items getting cleaned.
 
 
 .. _scripts-item-replaceonextinguish:
@@ -3811,9 +3869,9 @@ No description provided.
 
 :Default: (empty)
 
-`SkillTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-skilltrained>`_ is used to determine which skill the player will start training when reading this literature.
+`SkillTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-skilltrained>`_ is used to determine which skill the player will start training when reading this literature.
 
-`LvlSkillTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-lvlskilltrained>`_ indicates at what level this literature can be used to start training the skill. `NumLevelsTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-numlevelstrained>`_ marks how many level can be trained thanks to this literature.
+`LvlSkillTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-lvlskilltrained>`_ indicates at what level this literature can be used to start training the skill. `NumLevelsTrained <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-numlevelstrained>`_ marks how many level can be trained thanks to this literature.
 
 
 .. _scripts-item-smokerange:
@@ -3939,15 +3997,14 @@ No description provided.
 
 :Type: block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
-`StaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-staticmodel>`_ is used to define the model of the item being held in hands. On the other hand, `WorldStaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-worldstaticmodel>`_ is used to define the model of the item being placed in the world. The two models can be different, for example a bucket can have a handle that is up when held in hands, but down when placed in the world.
+`StaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-staticmodel>`_ is used to define the model of the item being held in hands. On the other hand, `WorldStaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-worldstaticmodel>`_ is used to define the model of the item being placed in the world. The two models can be different, for example a bucket can have a handle that is up when held in hands, but down when placed in the world.
 
-Alternatively, `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-staticmodelsbyindex>`_ and `WorldStaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-worldstaticmodelsbyindex>`_ can be used to define multiple models for the same item definition, which is useful for variants of the same item (e.g. a weapon with different skins). You can use `IconsForTexture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-iconsfortexture>`_ alongside those to define different `icons <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-icon>`_ for each variant. Here's an example usage with three variants of the same item:
+See also:
 
-.. code-block:: cpp
-
-   StaticModelsByIndex = AK47;AK47_Desert;AK47_Woodland,
-   WorldStaticModelsByIndex = AK47;AK47_Desert;AK47_Woodland,
-   IconsForTexture = AK47;AK47_Desert;AK47_Woodland,
+- :ref:`WeaponSprite <scripts-item-weaponsprite>`
+- :ref:`WorldStaticModel <scripts-item-worldstaticmodel>`
+- :ref:`StaticModelsByIndex <scripts-item-staticmodelsbyindex>`
+- :ref:`WorldStaticModelsByIndex <scripts-item-worldstaticmodelsbyindex>`
 
 
 .. _scripts-item-staticmodelsbyindex:
@@ -3957,7 +4014,19 @@ Alternatively, `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Do
 
 :Type: array (array of string, separator: ';')
 
-See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
+`StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-staticmodelsbyindex>`_ and `WorldStaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-worldstaticmodelsbyindex>`_ can be used to define multiple models for the same item definition, which is useful for variants of the same item (e.g. a weapon with different skins). You can use `IconsForTexture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-iconsfortexture>`_ alongside those to define different `icons <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-icon>`_ for each variant. Here's an example usage with three variants of the same item:
+
+.. code-block:: cpp
+
+   StaticModelsByIndex = AK47;AK47_Desert;AK47_Woodland,
+   WorldStaticModelsByIndex = AK47;AK47_Desert;AK47_Woodland,
+   IconsForTexture = AK47;AK47_Desert;AK47_Woodland,
+
+See also:
+
+- :ref:`StaticModel <scripts-item-staticmodel>`
+- :ref:`WorldStaticModel <scripts-item-worldstaticmodel>`
+- :ref:`IconsForTexture <scripts-item-iconsfortexture>`
 
 
 .. _scripts-item-stomppower:
@@ -3989,9 +4058,16 @@ See parameter :ref:`CriticalChance <scripts-item-criticalchance>`.
 .. attribute:: StressChange
    :noindex:
 
-:Type: Unknown
+:Type: float
 
-No description provided.
+When positive, the item being consumed will decrease the `player's stress <https://pzwiki.net/wiki/Stressed>`_\ , with ``100`` the maximum amount of stress of a player.
+
+See also:
+
+- :ref:`HungerChange <scripts-item-hungerchange>`
+- :ref:`ThirstChange <scripts-item-thirstchange>`
+- :ref:`UnhappyChange <scripts-item-unhappychange>`
+- :ref:`BoredomChange <scripts-item-boredomchange>`
 
 
 .. _scripts-item-subcategory:
@@ -4116,7 +4192,14 @@ You can then use that tag ``yourmodid:yourtagname`` in your item definition. And
 
 :Type: float
 
-No description provided.
+When positive, the item being consumed will decrease the `player's thirst <https://pzwiki.net/wiki/Thirsty>`_\ , with ``100`` the maximum amount of thirst of a player.
+
+See also:
+
+- :ref:`HungerChange <scripts-item-hungerchange>`
+- :ref:`UnhappyChange <scripts-item-unhappychange>`
+- :ref:`StressChange <scripts-item-stresschange>`
+- :ref:`BoredomChange <scripts-item-boredomchange>`
 
 
 .. _scripts-item-ticksperequipuse:
@@ -4224,7 +4307,7 @@ No description provided.
 
 :Type: boolean
 
-`TwoHandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-twohandweapon>`_ marks the weapon as a two-handed weapon. `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-recoildelay>`_ gets a x1.3 penalty when the weapon is held one-handed instead of two handed. `RequiresEquippedBothHands <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-requiresequippedbothhands>`_ enforces the equip restriction in the context menu.
+`TwoHandWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-twohandweapon>`_ marks the weapon as a two-handed weapon. `RecoilDelay <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-recoildelay>`_ gets a x1.3 penalty when the weapon is held one-handed instead of two handed. `RequiresEquippedBothHands <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-requiresequippedbothhands>`_ enforces the equip restriction in the context menu.
 
 
 .. _scripts-item-twoway:
@@ -4264,9 +4347,16 @@ No description provided.
 .. attribute:: UnhappyChange
    :noindex:
 
-:Type: Unknown
+:Type: float
 
-No description provided.
+When positive, the item being consumed will decrease the `player's unhappiness <https://pzwiki.net/wiki/Unhappy>`_\ , with ``100`` the maximum amount of unhappiness of a player.
+
+See also:
+
+- :ref:`HungerChange <scripts-item-hungerchange>`
+- :ref:`ThirstChange <scripts-item-thirstchange>`
+- :ref:`StressChange <scripts-item-stresschange>`
+- :ref:`BoredomChange <scripts-item-boredomchange>`
 
 
 .. _scripts-item-usedelta:
@@ -4278,11 +4368,11 @@ No description provided.
 
 :Default: ``0.03125``
 
-Used to set the number of `uses <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getCurrentUses(>`_\ ) for the item where its durability has a value of ``1`` when full and ``0`` when empty. For example, a `base:drainable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_ item with a ``UseDelta`` of ``0.03125`` (the default value) will have 32 uses ($1/0.03125$) before it is depleted.
+Used to set the number of `uses <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getCurrentUses(>`_\ ) for the item where its durability has a value of ``1`` when full and ``0`` when empty. For example, a `base:drainable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_ item with a ``UseDelta`` of ``0.03125`` (the default value) will have 32 uses ($1/0.03125$) before it is depleted.
 
-When used for `Clothing items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemtype>`_\ , the ``UseDelta`` is used to indicate the amount of durability lost for `oxygen tanks <https://pzwiki.net/wiki/Oxygen_Tank>`_ for items with the `ItemTags <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ ``base:scba`` or `gas mask filters <https://pzwiki.net/wiki/Gas_Mask_Filter>`_ for items with the ItemTags ``base:gasmask``\ , ``base:respirator`` or ``base:improvisedgasmask``.
+When used for `Clothing items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_\ , the ``UseDelta`` is used to indicate the amount of durability lost for `oxygen tanks <https://pzwiki.net/wiki/Oxygen_Tank>`_ for items with the `ItemTag <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ ``base:scba`` or `gas mask filters <https://pzwiki.net/wiki/Gas_Mask_Filter>`_ for items with the ItemTags ``base:gasmask``\ , ``base:respirator`` or ``base:improvisedgasmask``.
 
-Some food items seem to be using that parameter but it doesn't seem to be used for those anywhere. There's uses for it in the Java for Drainable, Weapon and Radio items, but it doesn't seem to be limited to those.
+Some vanilla food items are using that parameter but it doesn't seem to be used for those anywhere. There's uses for it in the Java for Drainable, Weapon and Radio items, but it doesn't seem to be limited to those.
 
 
 .. _scripts-item-useendurance:
@@ -4294,7 +4384,7 @@ Some food items seem to be using that parameter but it doesn't seem to be used f
 
 :Default: ``True``
 
-If ``true``\ , the weapon will consume stamina on use based on the weapon `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-weight>`_\ , `EnduranceMod <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-endurancemod>`_\ , fatigue modifiers and traits.
+If ``true``\ , the weapon will consume stamina on use based on the weapon `weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-weight>`_\ , `EnduranceMod <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-endurancemod>`_\ , fatigue modifiers and traits.
 
 For guns, it is preferable to keep this as ``False``.
 
@@ -4412,9 +4502,9 @@ No description provided.
 
 :Type: float
 
-`WaterResistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-waterresistance>`_ is used to define how much the clothing item will resist water. The higher the value, the more resistant the clothing item will be to water. A value of ``1.0`` means the clothing item is fully waterproof, while a value of ``0.0`` means it is not waterproof at all.
+`WaterResistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-waterresistance>`_ is used to define how much the clothing item will resist water. The higher the value, the more resistant the clothing item will be to water. A value of ``1.0`` means the clothing item is fully waterproof, while a value of ``0.0`` means it is not waterproof at all.
 
-This is the exact same process for `WindResistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-windresistance>`_ but for wind instead of water.
+This is the exact same process for `WindResistance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-windresistance>`_ but for wind instead of water.
 
 
 .. _scripts-item-weaponhitarmoursound:
@@ -4448,7 +4538,23 @@ No description provided.
 
 :Default: ``handgun``
 
-See parameter :ref:`AmmoType <scripts-item-ammotype>`.
+Used to select the reload workflow of the gun. Notably affects rack-after-shot, insertion style and animations. The provided value references the `variable condition <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/animnode.html#m-conditions>`_ ``WeaponReloadType`` in `AnimNodes <https://pzwiki.net/wiki/AnimNodes>`_. The game has the following values available by default:
+
+
+* ``handgun``
+* ``shotgun``
+* ``boltactionnomag``
+* ``boltaction``
+* ``revolver``
+* ``doublebarrelshotgun``
+* ``doublebarrelshotgunsawn``
+
+A custom ``WeaponReloadType`` can be used if the relevant animations and condition logic are properly set up in a custom `AnimNode <https://pzwiki.net/wiki/AnimNodes>`_.
+
+See also:
+
+- :ref:`AmmoType <scripts-item-ammotype>`
+- :ref:`MagazineType <scripts-item-magazinetype>`
 
 
 .. _scripts-item-weaponsprite:
@@ -4456,9 +4562,15 @@ See parameter :ref:`AmmoType <scripts-item-ammotype>`.
 .. attribute:: WeaponSprite
    :noindex:
 
-:Type: Unknown
+:Type: block (block: :ref:`model <scripts-model>`, with :ref:`scripts-module`)
 
-No description provided.
+Defines the model of the weapon. If `StaticModel <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-staticmodel>`_ is not provided, the static model will be WeaponSprite. You can also define variants of a weapon model by using `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-staticmodelsbyindex>`_.
+
+See also:
+
+- :ref:`StaticModel <scripts-item-staticmodel>`
+- :ref:`WorldStaticModel <scripts-item-worldstaticmodel>`
+- :ref:`StaticModelsByIndex <scripts-item-staticmodelsbyindex>`
 
 
 .. _scripts-item-weaponspritesbyindex:
@@ -4494,11 +4606,11 @@ No description provided.
 
 :Minimum: ``0.0``
 
-`Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-useendurance>`_ is ``true``. You need to make sure to add a `translation <https://pzwiki.net/wiki/Item_(scripts>`_\ #Display_name) to the item or the weight will not work in-game.
+`Weight <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-weight>`_ sets the weight of the item, or more commonly refered to as a `encumbrance <https://pzwiki.net/wiki/Heavy_load>`_. `Weapon parts <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/types/WeaponPart.html>`_ will impact the weight of the weapon when attached. Will also impact stamina drain when `UseEndurance <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-useendurance>`_ is ``true``. You need to make sure to add a `translation <https://pzwiki.net/wiki/Item_(scripts>`_\ #Display_name) to the item or the weight will not work in-game.
 
-`WeightEmpty <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-weightempty>`_ is used to set the weight of a drainable when it is empty.
+`WeightEmpty <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-weightempty>`_ is used to set the weight of a drainable when it is empty.
 
-`WeightWet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-weightwet>`_ is used to set the weight of a clothing item when it is wet. The weight of the clothing item will be interpolated between ``Weight`` and ``WeightWet`` based on the `wetness <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getWetness(>`_\ ) of the clothing item.
+`WeightWet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-weightwet>`_ is used to set the weight of a clothing item when it is wet. The weight of the clothing item will be interpolated between ``Weight`` and ``WeightWet`` based on the `wetness <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getWetness(>`_\ ) of the clothing item.
 
 
 .. _scripts-item-weightempty:
@@ -4552,9 +4664,9 @@ See parameter :ref:`Weight <scripts-item-weight>`.
 
 :Type: boolean
 
-`Wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-wet>`_ marks the item as being wet. This is notably used for towels alongside the `WetCooldown <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-wetcooldown>`_ which indicates how long the item will stay wet before drying out.
+`Wet <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-wet>`_ marks the item as being wet. This is notably used for towels alongside the `WetCooldown <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-wetcooldown>`_ which indicates how long the item will stay wet before drying out.
 
-When the item is dry, it is another item marked with the parameter `ItemWhenDry <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-items-itemwhendry>`_.
+When the item is dry, it is another item marked with the parameter `ItemWhenDry <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemwhendry>`_.
 
 
 .. _scripts-item-wetcooldown:
@@ -4646,6 +4758,6 @@ See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
 
 :Type: array (array of string, separator: ';')
 
-See parameter :ref:`StaticModel <scripts-item-staticmodel>`.
+See parameter :ref:`StaticModelsByIndex <scripts-item-staticmodelsbyindex>`.
 
 
