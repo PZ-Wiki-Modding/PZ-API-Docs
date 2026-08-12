@@ -14,12 +14,6 @@ ROOT-ModInfo
 The mod.info file, which contains all the information about a mod.
 
 
-ID
---
-
-This block should have no ID.
-
-
 Parameters
 ----------
 

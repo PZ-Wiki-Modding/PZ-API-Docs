@@ -21,8 +21,6 @@ An example file would look like this:
      </files>
    </fileGuidTable>
 
-Due to all the GUID work between the clothing.xml, fileGuidTable.xml and clothingItem.xml files, it can be easy to get lost. `Outfit XML Convereter <https://pzwiki.net/wiki/Outfit_XML_Converter>`_ can help you with the process.
-
 
 File Patterns
 -------------

@@ -38,10 +38,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
-- :ref:`component Durability <scripts-component-durability>`
 - :ref:`component <scripts-component>`
 - :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+- :ref:`component Durability <scripts-component-durability>`
 
 
 

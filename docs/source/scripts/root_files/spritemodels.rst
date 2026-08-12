@@ -21,12 +21,6 @@ This block can have the following child blocks:
 
 
 
-ID
---
-
-This block should have no ID.
-
-
 Parameters
 ----------
 

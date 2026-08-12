@@ -21,12 +21,6 @@ This block requires these following children to be valid:
 - :ref:`maps <scripts-maps>`
 
 
-ID
---
-
-This block should have no ID.
-
-
 Parameters
 ----------
 

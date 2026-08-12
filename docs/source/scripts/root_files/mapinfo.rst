@@ -22,12 +22,6 @@ It needs to be located in:
                📄 map.info
 
 
-ID
---
-
-This block should have no ID.
-
-
 Parameters
 ----------
 

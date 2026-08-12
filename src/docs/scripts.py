@@ -266,7 +266,7 @@ class ScriptsDocObject(DocObject):
             content += "\n\n"
 
         # make ID section
-        if not isRoot:
+        if isRoot == False:
             content += Headers.SUBSECTION.make("ID")
             id_data = self.data.get(BlockProperties.ID, None)
             if id_data is None:

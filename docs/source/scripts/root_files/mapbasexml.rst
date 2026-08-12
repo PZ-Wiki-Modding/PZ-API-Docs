@@ -14,12 +14,6 @@ ROOT-MapBaseXML
 The ``MapBaseXML.txt`` file is used to configure the layers of the TMX file.
 
 
-ID
---
-
-This block should have no ID.
-
-
 Parameters
 ----------
 
