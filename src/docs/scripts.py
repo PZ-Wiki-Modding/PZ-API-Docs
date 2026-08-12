@@ -228,7 +228,8 @@ class ScriptsDocObject(DocObject):
 
         # init
         content = "\n"
-        name = self.data['name']
+        name = self.data[BlockProperties.NAME]
+        isRoot = self.data.get(BlockProperties.IS_ROOT, False)
 
         # make hierarchy section
         parent_blocks: list[str] = self.data.get(BlockProperties.PARENTS, []).copy()
@@ -265,13 +266,14 @@ class ScriptsDocObject(DocObject):
             content += "\n\n"
 
         # make ID section
-        content += Headers.SUBSECTION.make("ID")
-        id_data = self.data.get(BlockProperties.ID, None)
-        if id_data is None:
-            content += "This block should have no ID.\n\n\n"
-        else:
-            content += "This block can have an ID.\n\n"
-            content += id_metadata.generate(self, id_data) + "\n\n\n"
+        if not isRoot:
+            content += Headers.SUBSECTION.make("ID")
+            id_data = self.data.get(BlockProperties.ID, None)
+            if id_data is None:
+                content += "This block should have no ID.\n\n\n"
+            else:
+                content += "This block can have an ID.\n\n"
+                content += id_metadata.generate(self, id_data) + "\n\n\n"
 
         # make variants section
         variants = self.data.get(BlockProperties.VARIANTS, [])
