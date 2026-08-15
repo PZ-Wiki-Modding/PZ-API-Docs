@@ -144,9 +144,9 @@ Note that this parameter defaulting to ``Front`` sounds abnormal as the faces po
 .. attribute:: file
    :noindex:
 
-:Type: Unknown
+:Type: block (block: :ref:`model <scripts-model>`)
 
-No description provided.
+Points to a `model <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/model.html>`_ block to use as the vehicle model.
 
 
 .. _scripts-model-ignorevehiclescale:

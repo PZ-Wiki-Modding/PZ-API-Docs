@@ -65,7 +65,7 @@ The minimum value the option can have. Only for integer and double types.
 .. attribute:: page
    :noindex:
 
-:Type: string
+:Type: translation
 
 The sandbox option to add the option to. Can be a custom page.
 
@@ -75,7 +75,7 @@ The sandbox option to add the option to. Can be a custom page.
 .. attribute:: translation
    :noindex:
 
-:Type: string
+:Type: translation
 
 The translation key for the option's name. The translation key in the `Sandbox <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#sandbox>`_ translation file should have the prefix ``Sandbox_``.
 

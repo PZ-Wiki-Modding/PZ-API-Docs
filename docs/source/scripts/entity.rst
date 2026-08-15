@@ -19,18 +19,18 @@ This block can be a child of the following blocks:
 This block can have the following child blocks:
 
 - :ref:`component SpriteOverlayConfig <scripts-component-spriteoverlayconfig>`
+- :ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>`
 - :ref:`components <scripts-components>`
-- :ref:`component CraftRecipe <scripts-component-craftrecipe>`
-- :ref:`component UiConfig <scripts-component-uiconfig>`
 - :ref:`component <scripts-component>`
 - :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
-- :ref:`component WallCoveringConfig <scripts-component-wallcoveringconfig>`
-- :ref:`component SpriteConfig <scripts-component-spriteconfig>`
-- :ref:`component Resources <scripts-component-resources>`
-- :ref:`component CraftBench <scripts-component-craftbench>`
-- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 - :ref:`component DryingCraftLogic <scripts-component-dryingcraftlogic>`
+- :ref:`component CraftRecipe <scripts-component-craftrecipe>`
+- :ref:`component UiConfig <scripts-component-uiconfig>`
+- :ref:`component CraftBench <scripts-component-craftbench>`
 - :ref:`component CraftBenchSounds <scripts-component-craftbenchsounds>`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+- :ref:`component Resources <scripts-component-resources>`
+- :ref:`component SpriteConfig <scripts-component-spriteconfig>`
 
 
 

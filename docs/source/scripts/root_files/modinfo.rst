@@ -11,7 +11,14 @@ ROOT-ModInfo
 
 :Root patterns:    ``mod\.info$``
 
-The mod.info file, which contains all the information about a mod.
+The ``mod.info`` file, which contains all the information about a mod. It needs to be located alongside the media folder. See the wiki page `Mod structure <https://pzwiki.net/wiki/Mod_structure>`_ for more information.
+
+.. code-block::
+
+   📁 MyMod
+     📁 <version>
+       📁 media
+       📄 mod.info
 
 
 Parameters
@@ -42,7 +49,7 @@ Category is used for filtering mods in the in-game ModManager. Known categories 
 .. attribute:: description
    :noindex:
 
-:Type: string
+:Type: translation
 
 Description of your mod, which shows up in the mod manager. The description supports `ISRichTextPanel <https://pzwiki.net/wiki/ISRichTextPanel>`_ tags. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
 
@@ -134,7 +141,7 @@ Version of the mod.
 .. attribute:: name
    :noindex:
 
-:Type: string
+:Type: translation
 
 The displayed name for your mod in the game's mod manager. A translation can be provided in the `Mod.json translation file <https://pzwiki.net/wiki/Translation>`_.
 

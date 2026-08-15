@@ -28,31 +28,31 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`character_profession_definition <scripts-character_profession_definition>`
-- :ref:`character_trait_definition <scripts-character_trait_definition>`
+- :ref:`animation <scripts-animation>`
 - :ref:`timedAction <scripts-timedaction>`
-- :ref:`fluid <scripts-fluid>`
-- :ref:`mannequin <scripts-mannequin>`
-- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
-- :ref:`item <scripts-item>`
-- :ref:`fixing <scripts-fixing>`
-- :ref:`physicsHitReaction <scripts-physicshitreaction>`
-- :ref:`vehicle <scripts-vehicle>`
-- :ref:`craftRecipe <scripts-craftrecipe>`
-- :ref:`imports <scripts-imports>`
+- :ref:`model <scripts-model>`
+- :ref:`soundTimeline <scripts-soundtimeline>`
 - :ref:`entity <scripts-entity>`
+- :ref:`animationsMesh <scripts-animationsmesh>`
 - :ref:`template <scripts-template>`
-- :ref:`sound <scripts-sound>`
+- :ref:`fixing <scripts-fixing>`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`ragdoll <scripts-ragdoll>`
+- :ref:`physicsHitReaction <scripts-physicshitreaction>`
+- :ref:`craftRecipe <scripts-craftrecipe>`
+- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
+- :ref:`xuiSkin <scripts-xuiskin>`
+- :ref:`character_profession_definition <scripts-character_profession_definition>`
+- :ref:`clock <scripts-clock>`
+- :ref:`fluid <scripts-fluid>`
+- :ref:`physicsShape <scripts-physicsshape>`
 - :ref:`energy <scripts-energy>`
 - :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
-- :ref:`ragdoll <scripts-ragdoll>`
-- :ref:`animation <scripts-animation>`
-- :ref:`clock <scripts-clock>`
-- :ref:`physicsShape <scripts-physicsshape>`
-- :ref:`soundTimeline <scripts-soundtimeline>`
-- :ref:`animationsMesh <scripts-animationsmesh>`
-- :ref:`xuiSkin <scripts-xuiskin>`
-- :ref:`model <scripts-model>`
+- :ref:`mannequin <scripts-mannequin>`
+- :ref:`imports <scripts-imports>`
+- :ref:`character_trait_definition <scripts-character_trait_definition>`
+- :ref:`item <scripts-item>`
+- :ref:`sound <scripts-sound>`
 
 
 

@@ -40,8 +40,8 @@ This block can have the following child blocks:
 
 - :ref:`component <scripts-component>`
 - :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
-- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 - :ref:`component Durability <scripts-component-durability>`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 
 
 
@@ -58,7 +58,7 @@ This block can have an ID.
 ItemType parameters
 -------------------
 
-Specific parameters are only available for certain `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#ItemType>`_. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
+Specific parameters are only available for certain `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
 
 base:container
 ^^^^^^^^^^^^^^

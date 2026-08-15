@@ -61,9 +61,11 @@ The cost of the trait when selecting a character. Negative values give points, p
 
 :Type: boolean
 
+:Deprecated: {'description': 'This parameter is no longer used and now has no effect.'}
+
 :Required: True
 
-If true, this trait will be disabled in multiplayer games.
+Previously was used to mark traits as disabled in multiplayer, but is now deprecated and has no effect.
 
 
 .. _scripts-character_trait_definition-grantedrecipes:
