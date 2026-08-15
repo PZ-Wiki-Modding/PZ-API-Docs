@@ -61,7 +61,7 @@ They are your starting point for creating your own script blocks. The pattern va
 
 ITEMTYPE_PARAMETERS_PATH = PROJECT_ROOT / "external" / "pz-scripts-data" / "out" / "itemParameters.json"
 ITEMTYPE_PARAMETERS_DESCRIPTION = f"""
-Specific parameters are only available for certain `ItemType <{DOC_LINK}/scripts/item.html#ItemType>`_. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
+Specific parameters are only available for certain `ItemType <{DOC_LINK}/scripts/item.html#scripts-item-itemtype>`_. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
 """
 
 
