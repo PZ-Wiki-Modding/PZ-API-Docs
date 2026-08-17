@@ -1,16 +1,34 @@
+
 /**
- * Initialize copy-to-clipboard functionality for attribute links
+ * Copy-to-clipboard functionality for attribute links
  * 
  * Generated with AI help
  * Adjusted to my liking and optimized a bit
  */
+
+
+function getStaticPath() {
+    // Look for the script tag that loaded this file
+    const scripts = document.querySelectorAll('script[src*="copy-link.js"]');
+    if (scripts.length > 0) {
+        const scriptSrc = scripts[0].src;
+        // Extract the _static directory path
+        const match = scriptSrc.match(/^(.*\/_static)\//);
+        if (match) {
+            return match[1];
+        }
+    }
+    // Fallback: assume _static at root
+    return window.location.origin + '/_static';
+}
+
 function initAttributeLinkButtons() {
     // Find all attribute directives (dl.py.attribute)
     const attributeElements = document.querySelectorAll('dl.py.attribute');
     const buttons = []; // cache
 
-    const staticPath = window.location.pathname
-        .split('/').slice(0, -1).map(() => '..').join('/') + '/_static';
+    
+    const staticUrl = getStaticPath();
     
     // for each attribute, we add a copy link button next to the attribute name
     // this is mostly a hack bcs I want to keep the nice visuals of attribute
@@ -35,7 +53,7 @@ function initAttributeLinkButtons() {
         button.setAttribute('aria-label', 'Copy link'); 
 
         // see custom.css for styling
-        button.innerHTML = `<img class="link-icon" src="${staticPath}/anchor-link.svg" alt="Copy link" />`;
+        button.innerHTML = `<img class="link-icon" src="${staticUrl}/anchor-link.svg" alt="Copy link" />`;
         
         // on click we copy the link and show 
         // a small visual temporarily for feedback
@@ -74,7 +92,7 @@ function initAttributeLinkButtons() {
             // visual feedback for the copy
             if (copySucceeded) {
                 const originalHTML = button.innerHTML;
-                button.innerHTML = `<img class="success-icon" src="${staticPath}/tick-mark.svg" alt="Copy link" />`;
+                button.innerHTML = `<img class="success-icon" src="${staticUrl}/tick-mark.svg" alt="Copy link" />`;
                 // button.classList.add('copy-link-copied');
 
                 setTimeout(() => {
