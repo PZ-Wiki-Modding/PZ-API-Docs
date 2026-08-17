@@ -8,6 +8,9 @@ function initAttributeLinkButtons() {
     // Find all attribute directives (dl.py.attribute)
     const attributeElements = document.querySelectorAll('dl.py.attribute');
     const buttons = []; // cache
+
+    const staticPath = window.location.pathname
+        .split('/').slice(0, -1).map(() => '..').join('/') + '/_static';
     
     // for each attribute, we add a copy link button next to the attribute name
     // this is mostly a hack bcs I want to keep the nice visuals of attribute
@@ -32,7 +35,7 @@ function initAttributeLinkButtons() {
         button.setAttribute('aria-label', 'Copy link'); 
 
         // see custom.css for styling
-        button.innerHTML = '<img class="link-icon" src="/_static/anchor-link.svg" alt="Copy link" />';
+        button.innerHTML = `<img class="link-icon" src="${staticPath}/anchor-link.svg" alt="Copy link" />`;
         
         // on click we copy the link and show 
         // a small visual temporarily for feedback
@@ -71,7 +74,7 @@ function initAttributeLinkButtons() {
             // visual feedback for the copy
             if (copySucceeded) {
                 const originalHTML = button.innerHTML;
-                button.innerHTML = '<img class="success-icon" src="/_static/tick-mark.svg" alt="Copy link" />';
+                button.innerHTML = `<img class="success-icon" src="${staticPath}/tick-mark.svg" alt="Copy link" />`;
                 // button.classList.add('copy-link-copied');
 
                 setTimeout(() => {
