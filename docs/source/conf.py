@@ -63,6 +63,9 @@ html_favicon = "_static/favicon.ico"
 html_css_files = [
     'custom.css',
 ]
+html_js_files = [
+    'copy-link.js',
+]
 
 html_theme_options = {
     "footer_icons": [

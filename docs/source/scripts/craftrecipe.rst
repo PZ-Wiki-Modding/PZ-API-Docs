@@ -141,7 +141,7 @@ This block can have an ID.
 
 :Optional: False
 
-:Can have spaces: False
+:Can have spaces: True
 
 
 Parameters

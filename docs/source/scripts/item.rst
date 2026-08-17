@@ -1386,9 +1386,15 @@ No description provided.
 .. attribute:: DisplayCategory
    :noindex:
 
-:Type: Unknown
+:Type: translation
 
-No description provided.
+.. role:: raw-html-m2r(raw)
+   :format: html
+
+
+Used to define the category being displayed in the inventory menu. The value needs to be a key which is used to refer to the translation in the `IG_UI <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#ig-ui>`_ translation file. The translation key will be :raw-html-m2r:`<code>IGUI_ItemCat_{value}</code>` where :raw-html-m2r:`<code>{value}</code>` is the value of this parameter. 
+
+For example, if you want to display the category as "Weapons", the translation key will be ``IGUI_ItemCat_Weapons``.
 
 
 .. _scripts-item-displayname:
@@ -4231,9 +4237,9 @@ No description provided.
 .. attribute:: Tooltip
    :noindex:
 
-:Type: Unknown
+:Type: translation
 
-No description provided.
+Defines the tooltip of the item. The value needs to be a translation key preferably in the `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ translation file. If the translation key doesn't exist, the value will be used as the tooltip instead.
 
 
 .. _scripts-item-torchcone:
@@ -4369,6 +4375,8 @@ See also:
 :Default: ``0.03125``
 
 Used to set the number of `uses <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/inventory/InventoryItem.html#getCurrentUses(>`_\ ) for the item where its durability has a value of ``1`` when full and ``0`` when empty. For example, a `base:drainable <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_ item with a ``UseDelta`` of ``0.03125`` (the default value) will have 32 uses ($1/0.03125$) before it is depleted.
+
+Additionally, a modder can determine how long a battery will last (as In-Game Hours) for a battery-powered device by using the following formula: ``# of Hours = 1 / (useDelta * 6)``
 
 When used for `Clothing items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_\ , the ``UseDelta`` is used to indicate the amount of durability lost for `oxygen tanks <https://pzwiki.net/wiki/Oxygen_Tank>`_ for items with the `ItemTag <https://pz-wiki-modding.github.io/PZ-API-Docs/java/item_tags.html>`_ ``base:scba`` or `gas mask filters <https://pzwiki.net/wiki/Gas_Mask_Filter>`_ for items with the ItemTags ``base:gasmask``\ , ``base:respirator`` or ``base:improvisedgasmask``.
 

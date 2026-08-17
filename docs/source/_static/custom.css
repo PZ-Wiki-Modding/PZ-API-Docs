@@ -14,3 +14,37 @@ h5 {
     font-size: 1em !important;
     font-weight: 600 !important;
 } */
+
+/* Copy link button styling */
+.copy-link-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    padding: 4px 6px;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #666;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.copy-link-btn:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.copy-link-btn:active {
+    transform: scale(0.95);
+}
+
+.copy-link-btn.copy-link-copied {
+    color: #4CAF50;
+}
+
+.copy-link-btn .link-icon {
+    display: block;
+}
