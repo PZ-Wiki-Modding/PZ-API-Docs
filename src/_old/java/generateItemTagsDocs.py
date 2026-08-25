@@ -69,7 +69,7 @@ Available item tags accessible from Lua code. Each tag can be accessed using ``I
         name = tag.get('name', '')
         
         content += f"   * - ``ItemTag.{field}``\n"
-        content += f"     - ``{name}``\n"
+        content += f"     - ``base:{name}``\n"
         content += f"     - \n"
     
     return content
