@@ -2454,7 +2454,9 @@ No description provided.
 .. attribute:: KnockBackOnNoDeath
    :noindex:
 
-:Type: Unknown
+:Type: boolean
+
+:Default: ``True``
 
 No description provided.
 
@@ -2465,6 +2467,8 @@ No description provided.
    :noindex:
 
 :Type: float
+
+:Deprecated: {'description': 'This parameter is not used by the base game.'}
 
 :Default: ``1.0``
 
@@ -2910,7 +2914,7 @@ No description provided.
 
 :Type: boolean
 
-:Default: ``True``
+:Deprecated: {'description': 'This parameter is not used by the base game.'}
 
 No description provided.
 
@@ -4226,6 +4230,8 @@ No description provided.
    :noindex:
 
 :Type: float
+
+:Deprecated: {'description': 'This parameter is not used by the base game.'}
 
 :Default: ``1.0``
 

@@ -76,6 +76,17 @@ m_BlendTime
 
 Defines how quickly the animation will begin to play, and how the game interpolates moving the armature's bones from one animNode to another.
 
+m_BlendInTime
+"""""""""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: 1
+
+:Type: ``xs:float``
+
+Defines how quickly the animation will begin to play, and how the game interpolates moving the armature's bones from one animState to another. It is used to create a smooth transition when the animation is started or changed.
+
 m_BlendOutTime
 """"""""""""""
 
@@ -428,6 +439,17 @@ m_GrappleTweenInTime
 
 No description provided.
 
+m_useDeferredMovement
+"""""""""""""""""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: 1
+
+:Type: ``xs:boolean``
+
+No description provided.
+
 Attributes
 ^^^^^^^^^^
 
@@ -470,7 +492,7 @@ m_AnimName
 
 :Minimum occurence: 0
 
-:Maximum occurence: unbounded
+:Maximum occurence: 1
 
 :Type: ``xs:string``
 
@@ -481,7 +503,7 @@ m_XPos
 
 :Minimum occurence: 0
 
-:Maximum occurence: unbounded
+:Maximum occurence: 1
 
 :Type: ``xs:float``
 
@@ -492,7 +514,7 @@ m_YPos
 
 :Minimum occurence: 0
 
-:Maximum occurence: unbounded
+:Maximum occurence: 1
 
 :Type: ``xs:float``
 
@@ -503,9 +525,20 @@ m_SpeedScale
 
 :Minimum occurence: 0
 
-:Maximum occurence: unbounded
+:Maximum occurence: 1
 
 :Type: ``xs:float``
+
+No description provided.
+
+m_SubStateBoneWeights
+"""""""""""""""""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: unbounded
+
+:Type: :ref:`type_SubStateBoneWeights <animnode-type_substateboneweights>`
 
 No description provided.
 
@@ -776,7 +809,18 @@ m_AnimName
 
 No description provided.
 
-m_blendInTime
+m_BlendTime
+"""""""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: 1
+
+:Type: ``xs:float``
+
+No description provided.
+
+m_BlendInTime
 """""""""""""
 
 :Minimum occurence: 0
@@ -787,7 +831,7 @@ m_blendInTime
 
 No description provided.
 
-m_blendOutTime
+m_BlendOutTime
 """"""""""""""
 
 :Minimum occurence: 0
@@ -817,6 +861,17 @@ m_Conditions
 :Maximum occurence: unbounded
 
 :Type: :ref:`type_Condition <animnode-type_condition>`
+
+No description provided.
+
+m_EarlyTransitionOut
+""""""""""""""""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: 1
+
+:Type: ``xs:boolean``
 
 No description provided.
 

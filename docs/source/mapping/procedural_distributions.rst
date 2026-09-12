@@ -4193,6 +4193,35 @@ BackstageRigging
    * - `Rope Bundle <https://pzwiki.net/wiki/RopeStack>`_
      - 3.96%
 
+.. _procedural-distribution-BagStoreLeather:
+
+BagStoreLeather
+---------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-isShop`: Yes
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Crafted Hide Satchel <https://pzwiki.net/wiki/Bag_HideSatchel>`_
+     - 85.71%
+   * - `Leather Satchel <https://pzwiki.net/wiki/Bag_Satchel_Leather>`_
+     - 85.71%
+   * - `Hide Fanny Pack <https://pzwiki.net/wiki/Bag_FannyPackBack_Hide>`_
+     - 85.71%
+   * - `Hide Wallet <https://pzwiki.net/wiki/Wallet_Hide>`_
+     - 85.71%
+   * - `Leather Water Bag <https://pzwiki.net/wiki/Bag_LeatherWaterBag>`_
+     - 28.57%
+   * - `Tool Roll - Leather <https://pzwiki.net/wiki/ToolRoll_Leather>`_
+     - 28.57%
+
 .. _procedural-distribution-BakeryBread:
 
 BakeryBread
@@ -4558,6 +4587,31 @@ BakeryKitchenStorage
      - 14.81%
    * - `Box of Canned Evaporated Milk <https://pzwiki.net/wiki/CannedMilk_Box>`_
      - 0.00%
+
+.. _procedural-distribution-BakeryKitchenStove:
+
+BakeryKitchenStove
+------------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Plain Muffins <https://pzwiki.net/wiki/BakingTray_Muffin>`_
+     - 100.00%
+   * - `Cake Preparation <https://pzwiki.net/wiki/CakePrep>`_
+     - 100.00%
+   * - `Biscuits <https://pzwiki.net/wiki/Muffintray_Biscuit>`_
+     - 100.00%
+   * - `Pie Preparation <https://pzwiki.net/wiki/PiePrep>`_
+     - 100.00%
 
 .. _procedural-distribution-BakeryKitchenTrays:
 
@@ -6479,19 +6533,19 @@ BedroomDresser
    * - Item
      - Estimated Chance
    * - `Pillow <https://pzwiki.net/wiki/Pillow>`_
-     - 21.56%
+     - 21.55%
    * - `Sheet <https://pzwiki.net/wiki/Sheet>`_
-     - 21.56%
+     - 21.55%
    * - `Tissue <https://pzwiki.net/wiki/Tissue>`_
-     - 21.56%
+     - 21.55%
    * - `Key <https://pzwiki.net/wiki/Key1>`_
-     - 12.94%
+     - 12.93%
    * - `Magazine <https://pzwiki.net/wiki/Magazine>`_
-     - 12.94%
+     - 12.93%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Popular>`_
-     - 12.94%
+     - 12.93%
    * - `Paperback <https://pzwiki.net/wiki/Paperback_Fiction>`_
-     - 12.94%
+     - 12.93%
    * - `Tank Top <https://pzwiki.net/wiki/Vest_DefaultTEXTURE_TINT>`_
      - 8.62%
    * - `Paperback <https://pzwiki.net/wiki/Paperback_AdventureNonFiction>`_
@@ -6789,6 +6843,8 @@ BedroomDresser
    * - `Digital Watch - Metallic Dress Style <https://pzwiki.net/wiki/WristWatch_Left_DigitalDress>`_
      - 0.22%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
+     - 0.22%
+   * - `Cigarette Pack <https://pzwiki.net/wiki/CigarettePack>`_
      - 0.22%
    * - `Bathrobe <https://pzwiki.net/wiki/LongCoat_Bathrobe>`_
      - 0.22%
@@ -7271,19 +7327,19 @@ BedroomDresserClassy
    * - Item
      - Estimated Chance
    * - `High-end Camera <https://pzwiki.net/wiki/CameraExpensive>`_
-     - 14.37%
+     - 14.36%
    * - `Camera Film <https://pzwiki.net/wiki/CameraFilm>`_
-     - 14.37%
+     - 14.36%
    * - `Cordless Phone <https://pzwiki.net/wiki/CordlessPhone>`_
-     - 14.37%
+     - 14.36%
    * - `Pillow <https://pzwiki.net/wiki/Pillow>`_
-     - 14.37%
+     - 14.36%
    * - `Sheet <https://pzwiki.net/wiki/Sheet>`_
-     - 14.37%
+     - 14.36%
    * - `Stock Certificate <https://pzwiki.net/wiki/StockCertificate>`_
-     - 14.37%
+     - 14.36%
    * - `Tissue <https://pzwiki.net/wiki/Tissue>`_
-     - 14.37%
+     - 14.36%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Rich>`_
      - 11.49%
    * - `Paperback <https://pzwiki.net/wiki/Paperback_Rich>`_
@@ -7295,41 +7351,41 @@ BedroomDresserClassy
    * - `Paperback <https://pzwiki.net/wiki/Paperback_LiteraryFiction>`_
      - 8.62%
    * - `Belt <https://pzwiki.net/wiki/Belt2>`_
-     - 5.75%
+     - 5.74%
    * - `Book <https://pzwiki.net/wiki/Book_Rich>`_
-     - 5.75%
+     - 5.74%
    * - `Diary <https://pzwiki.net/wiki/Diary2>`_
-     - 5.75%
+     - 5.74%
    * - `Magazine <https://pzwiki.net/wiki/Magazine>`_
-     - 5.75%
+     - 5.74%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Business>`_
-     - 5.75%
+     - 5.74%
    * - `Photograph <https://pzwiki.net/wiki/Photo>`_
-     - 5.75%
+     - 5.74%
    * - `Shirt - Formal <https://pzwiki.net/wiki/Shirt_FormalTINT>`_
-     - 5.75%
+     - 5.74%
    * - `Shirt - Formal <https://pzwiki.net/wiki/Shirt_FormalWhite>`_
-     - 5.75%
+     - 5.74%
    * - `Socks <https://pzwiki.net/wiki/Socks_Ankle_Black>`_
-     - 5.75%
+     - 5.74%
    * - `Long Socks <https://pzwiki.net/wiki/Socks_Long_Black>`_
-     - 5.75%
+     - 5.74%
    * - `Suit Jacket <https://pzwiki.net/wiki/Suit_Jacket>`_
-     - 5.75%
+     - 5.74%
    * - `Suit Jacket <https://pzwiki.net/wiki/Suit_JacketTINT>`_
-     - 5.75%
+     - 5.74%
    * - `Box of Tissues <https://pzwiki.net/wiki/TissueBox>`_
-     - 5.75%
+     - 5.74%
    * - `Suit Pants <https://pzwiki.net/wiki/Trousers_Suit>`_
-     - 5.75%
+     - 5.74%
    * - `Suit Pants <https://pzwiki.net/wiki/Trousers_SuitTEXTURE>`_
-     - 5.75%
+     - 5.74%
    * - `T-shirt - Striped Polo <https://pzwiki.net/wiki/Tshirt_PoloStripedTINT>`_
-     - 5.75%
+     - 5.74%
    * - `T-shirt - Polo <https://pzwiki.net/wiki/Tshirt_PoloTINT>`_
-     - 5.75%
+     - 5.74%
    * - `Tank Top <https://pzwiki.net/wiki/Vest_DefaultTEXTURE>`_
-     - 5.75%
+     - 5.74%
    * - `Vehicle Key <https://pzwiki.net/wiki/CarKey>`_
      - 2.87%
    * - `Book <https://pzwiki.net/wiki/Book_ClassicFiction>`_
@@ -7548,6 +7604,8 @@ BedroomDresserClassy
      - 0.14%
    * - `Champagne <https://pzwiki.net/wiki/Champagne>`_
      - 0.14%
+   * - `Cigarette Pack <https://pzwiki.net/wiki/CigarettePack>`_
+     - 0.14%
    * - `Flask <https://pzwiki.net/wiki/Flask>`_
      - 0.14%
    * - `Fedora <https://pzwiki.net/wiki/Hat_Fedora>`_
@@ -7649,21 +7707,21 @@ BedroomDresserRedneck
    * - Item
      - Estimated Chance
    * - `Pillow <https://pzwiki.net/wiki/Pillow>`_
-     - 21.05%
+     - 21.04%
    * - `Sheet <https://pzwiki.net/wiki/Sheet>`_
-     - 21.05%
+     - 21.04%
    * - `Tissue <https://pzwiki.net/wiki/Tissue>`_
-     - 21.05%
+     - 21.04%
    * - `Paperback <https://pzwiki.net/wiki/Paperback_Poor>`_
-     - 16.84%
+     - 16.83%
    * - `Key <https://pzwiki.net/wiki/Key1>`_
-     - 12.63%
+     - 12.62%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Car>`_
-     - 12.63%
+     - 12.62%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Outdoors>`_
-     - 12.63%
+     - 12.62%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Sports>`_
-     - 12.63%
+     - 12.62%
    * - `Belt <https://pzwiki.net/wiki/Belt2>`_
      - 8.42%
    * - `Magazine <https://pzwiki.net/wiki/Magazine>`_
@@ -7897,6 +7955,8 @@ BedroomDresserRedneck
    * - `Bra <https://pzwiki.net/wiki/Bra_Straps_FrillyPink>`_
      - 0.21%
    * - `Base.CanteenMilitaryEmpty <https://pzwiki.net/wiki/CanteenMilitaryEmpty>`_
+     - 0.21%
+   * - `Cigarette Pack <https://pzwiki.net/wiki/CigarettePack>`_
      - 0.21%
    * - `Cologne <https://pzwiki.net/wiki/Cologne>`_
      - 0.21%
@@ -9098,17 +9158,17 @@ BinBar
    * - Item
      - Estimated Chance
    * - `Cocktail Umbrella <https://pzwiki.net/wiki/CocktailUmbrella>`_
-     - 70.03%
+     - 70.05%
    * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
-     - 70.03%
+     - 70.05%
    * - `Paper Napkins <https://pzwiki.net/wiki/PaperNapkins2>`_
-     - 69.98%
+     - 70.00%
    * - `Scratch Ticket - Loser <https://pzwiki.net/wiki/ScratchTicket_Loser>`_
-     - 30.04%
+     - 30.05%
    * - `Base.BeerBottleEmpty <https://pzwiki.net/wiki/BeerBottleEmpty>`_
-     - 29.99%
+     - 30.00%
    * - `Beer Can <https://pzwiki.net/wiki/BeerCanEmpty>`_
-     - 29.99%
+     - 30.00%
    * - `Cockroach <https://pzwiki.net/wiki/Cockroach>`_
      - 8.00%
    * - `Base.BeerImportedEmpty <https://pzwiki.net/wiki/BeerImportedEmpty>`_
@@ -10415,10 +10475,6 @@ BinBar
      - 0.05%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.05%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.05%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.05%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.05%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -10624,671 +10680,667 @@ BinBar
    * - `Pancho the Dog <https://pzwiki.net/wiki/PanchoDog>`_
      - 0.01%
    * - `Bikini <https://pzwiki.net/wiki/Bikini_Pattern01>`_
-     - 0.00%
+     - 0.01%
    * - `Coveralls <https://pzwiki.net/wiki/Boilersuit_BlueRed>`_
-     - 0.00%
+     - 0.01%
    * - `Coveralls <https://pzwiki.net/wiki/Boilersuit_Yellow>`_
-     - 0.00%
+     - 0.01%
    * - `Boxers <https://pzwiki.net/wiki/Boxers_Hearts>`_
-     - 0.00%
+     - 0.01%
    * - `Boxers <https://pzwiki.net/wiki/Boxers_RedStripes>`_
-     - 0.00%
+     - 0.01%
    * - `Boxers <https://pzwiki.net/wiki/Boxers_Silk_Black>`_
-     - 0.00%
+     - 0.01%
    * - `Boxers <https://pzwiki.net/wiki/Boxers_Silk_Red>`_
-     - 0.00%
+     - 0.01%
    * - `Bra - Strapless <https://pzwiki.net/wiki/Bra_Strapless_AnimalPrint>`_
-     - 0.00%
+     - 0.01%
    * - `Bra - Strapless <https://pzwiki.net/wiki/Bra_Strapless_FrillyBlack>`_
-     - 0.00%
+     - 0.01%
    * - `Bra - Strapless <https://pzwiki.net/wiki/Bra_Strapless_FrillyPink>`_
-     - 0.00%
+     - 0.01%
    * - `Bra - Strapless <https://pzwiki.net/wiki/Bra_Strapless_FrillyRed>`_
-     - 0.00%
+     - 0.01%
    * - `Bra - Strapless <https://pzwiki.net/wiki/Bra_Strapless_RedSpots>`_
-     - 0.00%
+     - 0.01%
    * - `Bra <https://pzwiki.net/wiki/Bra_Straps_FrillyBlack>`_
-     - 0.00%
+     - 0.01%
    * - `Bra <https://pzwiki.net/wiki/Bra_Straps_FrillyPink>`_
-     - 0.00%
+     - 0.01%
    * - `Bra <https://pzwiki.net/wiki/Bra_Straps_FrillyRed>`_
-     - 0.00%
+     - 0.01%
    * - `Briefs <https://pzwiki.net/wiki/Briefs_AnimalPrints>`_
-     - 0.00%
+     - 0.01%
    * - `Trunks <https://pzwiki.net/wiki/Briefs_SmallTrunks_Black>`_
-     - 0.00%
+     - 0.01%
    * - `Trunks <https://pzwiki.net/wiki/Briefs_SmallTrunks_Blue>`_
-     - 0.00%
+     - 0.01%
    * - `Trunks <https://pzwiki.net/wiki/Briefs_SmallTrunks_Red>`_
-     - 0.00%
+     - 0.01%
    * - `Trunks <https://pzwiki.net/wiki/Briefs_SmallTrunks_WhiteTINT>`_
-     - 0.00%
+     - 0.01%
    * - `Corset <https://pzwiki.net/wiki/Corset>`_
-     - 0.00%
+     - 0.01%
    * - `Corset <https://pzwiki.net/wiki/Corset_Black>`_
-     - 0.00%
+     - 0.01%
    * - `Corset <https://pzwiki.net/wiki/Corset_Medical>`_
-     - 0.00%
+     - 0.01%
    * - `Corset <https://pzwiki.net/wiki/Corset_Red>`_
-     - 0.00%
+     - 0.01%
    * - `Satin Negligee <https://pzwiki.net/wiki/Dress_SatinNegligee>`_
-     - 0.00%
+     - 0.01%
    * - `Overalls <https://pzwiki.net/wiki/Dungarees>`_
-     - 0.00%
+     - 0.01%
    * - `Elbow Pad <https://pzwiki.net/wiki/ElbowPad_Left_Workman>`_
-     - 0.00%
+     - 0.01%
    * - `Underpants <https://pzwiki.net/wiki/FrillyUnderpants_Black>`_
-     - 0.00%
+     - 0.01%
    * - `Underpants <https://pzwiki.net/wiki/FrillyUnderpants_Pink>`_
-     - 0.00%
+     - 0.01%
    * - `Underpants <https://pzwiki.net/wiki/FrillyUnderpants_Red>`_
-     - 0.00%
+     - 0.01%
    * - `Aviator Glasses <https://pzwiki.net/wiki/Glasses_Aviators>`_
-     - 0.00%
+     - 0.01%
    * - `Eyepatch <https://pzwiki.net/wiki/Glasses_Eyepatch_Left>`_
-     - 0.00%
+     - 0.01%
    * - `Eyepatch <https://pzwiki.net/wiki/Glasses_Eyepatch_Right>`_
-     - 0.00%
+     - 0.01%
    * - `Shooting Glasses <https://pzwiki.net/wiki/Glasses_Shooting>`_
-     - 0.00%
+     - 0.01%
    * - `Ski Goggles <https://pzwiki.net/wiki/Glasses_SkiGoggles>`_
-     - 0.00%
+     - 0.01%
    * - `Swimming Goggles <https://pzwiki.net/wiki/Glasses_SwimmingGoggles>`_
-     - 0.00%
+     - 0.01%
    * - `Leather Gloves <https://pzwiki.net/wiki/Gloves_LeatherGloves>`_
-     - 0.00%
+     - 0.01%
    * - `Leather Gloves <https://pzwiki.net/wiki/Gloves_LeatherGlovesBlack>`_
-     - 0.00%
+     - 0.01%
    * - `Long Gloves <https://pzwiki.net/wiki/Gloves_LongWomenGloves>`_
-     - 0.00%
+     - 0.01%
    * - `Surgical Gloves <https://pzwiki.net/wiki/Gloves_Surgical>`_
-     - 0.00%
+     - 0.01%
    * - `Balaclava - Open <https://pzwiki.net/wiki/Hat_BalaclavaFace>`_
-     - 0.00%
+     - 0.01%
    * - `Balaclava <https://pzwiki.net/wiki/Hat_BalaclavaFull>`_
-     - 0.00%
+     - 0.01%
    * - `Baseball Cap <https://pzwiki.net/wiki/Hat_BaseballCapBlue>`_
-     - 0.00%
+     - 0.01%
    * - `Baseball Cap <https://pzwiki.net/wiki/Hat_BaseballCapGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Baseball Cap - Kentucky <https://pzwiki.net/wiki/Hat_BaseballCapKY>`_
-     - 0.00%
+     - 0.01%
    * - `Baseball Cap - Kentucky <https://pzwiki.net/wiki/Hat_BaseballCapKY_Red>`_
-     - 0.00%
+     - 0.01%
    * - `Baseball Cap <https://pzwiki.net/wiki/Hat_BaseballCapRed>`_
-     - 0.00%
+     - 0.01%
    * - `Boonie Hat <https://pzwiki.net/wiki/Hat_BonnieHat>`_
-     - 0.00%
+     - 0.01%
    * - `Boonie Hat <https://pzwiki.net/wiki/Hat_BonnieHat_CamoGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Bucket Hat <https://pzwiki.net/wiki/Hat_BucketHat>`_
-     - 0.00%
+     - 0.01%
    * - `Cowboy Hat <https://pzwiki.net/wiki/Hat_Cowboy>`_
-     - 0.00%
+     - 0.01%
    * - `Ear Muffs <https://pzwiki.net/wiki/Hat_EarMuffs>`_
-     - 0.00%
+     - 0.01%
    * - `Fedora <https://pzwiki.net/wiki/Hat_Fedora>`_
-     - 0.00%
+     - 0.01%
    * - `Fedora <https://pzwiki.net/wiki/Hat_Fedora_Delmonte>`_
-     - 0.00%
+     - 0.01%
    * - `Golf Cap <https://pzwiki.net/wiki/Hat_GolfHat>`_
-     - 0.00%
+     - 0.01%
    * - `Golf Cap <https://pzwiki.net/wiki/Hat_GolfHatTINT>`_
-     - 0.00%
+     - 0.01%
    * - `Summer Hat <https://pzwiki.net/wiki/Hat_SummerHat>`_
-     - 0.00%
+     - 0.01%
    * - `Visor <https://pzwiki.net/wiki/Hat_Visor_WhiteTINT>`_
-     - 0.00%
+     - 0.01%
    * - `Winter Hat <https://pzwiki.net/wiki/Hat_WinterHat>`_
-     - 0.00%
+     - 0.01%
    * - `Wool Hat <https://pzwiki.net/wiki/Hat_WoolyHat>`_
-     - 0.00%
+     - 0.01%
    * - `Leather Jacket <https://pzwiki.net/wiki/Jacket_Black>`_
-     - 0.00%
+     - 0.01%
    * - `Padded Jacket <https://pzwiki.net/wiki/Jacket_PaddedDOWN>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Jacket <https://pzwiki.net/wiki/Jacket_Shellsuit_Black>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Jacket <https://pzwiki.net/wiki/Jacket_Shellsuit_Blue>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Jacket <https://pzwiki.net/wiki/Jacket_Shellsuit_Green>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Jacket <https://pzwiki.net/wiki/Jacket_Shellsuit_Pink>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Jacket <https://pzwiki.net/wiki/Jacket_Shellsuit_Teal>`_
-     - 0.00%
+     - 0.01%
    * - `Jacket - Varsity <https://pzwiki.net/wiki/Jacket_Varsity>`_
-     - 0.00%
+     - 0.01%
    * - `Sweater <https://pzwiki.net/wiki/Jumper_DiamondPatternTINT>`_
-     - 0.00%
+     - 0.01%
    * - `Sweater Vest <https://pzwiki.net/wiki/Jumper_TankTopDiamondTINT>`_
-     - 0.00%
+     - 0.01%
    * - `Kneepad <https://pzwiki.net/wiki/Kneepad_Left_Workman>`_
-     - 0.00%
+     - 0.01%
    * - `Scarf <https://pzwiki.net/wiki/Scarf_StripeBlackWhite>`_
-     - 0.00%
+     - 0.01%
    * - `Scarf <https://pzwiki.net/wiki/Scarf_StripeBlueWhite>`_
-     - 0.00%
+     - 0.01%
    * - `Scarf <https://pzwiki.net/wiki/Scarf_StripeRedWhite>`_
-     - 0.00%
+     - 0.01%
    * - `Scarf <https://pzwiki.net/wiki/Scarf_White>`_
-     - 0.00%
+     - 0.01%
    * - `Shirt - Kentucky Baseball <https://pzwiki.net/wiki/Shirt_Baseball_KY>`_
-     - 0.00%
+     - 0.01%
    * - `Shirt - Riverside Rangers Baseball <https://pzwiki.net/wiki/Shirt_Baseball_Rangers>`_
-     - 0.00%
+     - 0.01%
    * - `Shirt - Z Hurricanes Baseball <https://pzwiki.net/wiki/Shirt_Baseball_Z>`_
-     - 0.00%
+     - 0.01%
    * - `Bowling Shirt - Blue <https://pzwiki.net/wiki/Shirt_Bowling_Blue>`_
-     - 0.00%
+     - 0.01%
    * - `Bowling Shirt - Brown <https://pzwiki.net/wiki/Shirt_Bowling_Brown>`_
-     - 0.00%
+     - 0.01%
    * - `Bowling Shirt - Green <https://pzwiki.net/wiki/Shirt_Bowling_Green>`_
-     - 0.00%
+     - 0.01%
    * - `Bowling Shirt - Lime Green <https://pzwiki.net/wiki/Shirt_Bowling_LimeGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Bowling Shirt - Pink <https://pzwiki.net/wiki/Shirt_Bowling_Pink>`_
-     - 0.00%
+     - 0.01%
    * - `Bowling Shirt - White <https://pzwiki.net/wiki/Shirt_Bowling_White>`_
-     - 0.00%
+     - 0.01%
    * - `Military Shirt - Desert Camo <https://pzwiki.net/wiki/Shirt_CamoDesert>`_
-     - 0.00%
+     - 0.01%
    * - `Military Shirt - Green Camo <https://pzwiki.net/wiki/Shirt_CamoGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Military Shirt - Urban Camo <https://pzwiki.net/wiki/Shirt_CamoUrban>`_
-     - 0.00%
+     - 0.01%
    * - `Shirt - Denim <https://pzwiki.net/wiki/Shirt_Denim>`_
-     - 0.00%
+     - 0.01%
    * - `Shirt - Formal <https://pzwiki.net/wiki/Shirt_FormalWhite>`_
-     - 0.00%
+     - 0.01%
    * - `Short Sleeve Shirt <https://pzwiki.net/wiki/Shirt_FormalWhite_ShortSleeve>`_
-     - 0.00%
+     - 0.01%
    * - `Shirt - Hawaiian <https://pzwiki.net/wiki/Shirt_HawaiianRed>`_
-     - 0.00%
+     - 0.01%
    * - `Workman Shirt <https://pzwiki.net/wiki/Shirt_Workman>`_
-     - 0.00%
+     - 0.01%
    * - `Boots <https://pzwiki.net/wiki/Shoes_BlackBoots>`_
-     - 0.00%
+     - 0.01%
    * - `Sneakers <https://pzwiki.net/wiki/Shoes_BlueTrainers>`_
-     - 0.00%
+     - 0.01%
    * - `Bowling Shoes <https://pzwiki.net/wiki/Shoes_Bowling>`_
-     - 0.00%
+     - 0.01%
    * - `Fancy Shoes <https://pzwiki.net/wiki/Shoes_Fancy>`_
-     - 0.00%
+     - 0.01%
    * - `Flip-flops <https://pzwiki.net/wiki/Shoes_FlipFlop>`_
-     - 0.00%
+     - 0.01%
    * - `Sneakers <https://pzwiki.net/wiki/Shoes_RedTrainers>`_
-     - 0.00%
+     - 0.01%
    * - `Sandals <https://pzwiki.net/wiki/Shoes_Sandals>`_
-     - 0.00%
+     - 0.01%
    * - `Slippers <https://pzwiki.net/wiki/Shoes_Slippers>`_
-     - 0.00%
+     - 0.01%
    * - `Strapped Shoes <https://pzwiki.net/wiki/Shoes_Strapped>`_
-     - 0.00%
+     - 0.01%
    * - `Rubber Boots <https://pzwiki.net/wiki/Shoes_Wellies>`_
-     - 0.00%
+     - 0.01%
    * - `Military Shorts - Green Camo <https://pzwiki.net/wiki/Shorts_CamoGreenLong>`_
-     - 0.00%
+     - 0.01%
    * - `Military Shorts - Urban Camo <https://pzwiki.net/wiki/Shorts_CamoUrbanLong>`_
-     - 0.00%
+     - 0.01%
    * - `Shorts <https://pzwiki.net/wiki/Shorts_ShortFormal>`_
-     - 0.00%
+     - 0.01%
    * - `Suit Jacket <https://pzwiki.net/wiki/Suit_Jacket>`_
-     - 0.00%
+     - 0.01%
    * - `Swim Trunks <https://pzwiki.net/wiki/SwimTrunks_Blue>`_
-     - 0.00%
+     - 0.01%
    * - `Swim Trunks <https://pzwiki.net/wiki/SwimTrunks_Green>`_
-     - 0.00%
+     - 0.01%
    * - `Swim Trunks <https://pzwiki.net/wiki/SwimTrunks_Red>`_
-     - 0.00%
+     - 0.01%
    * - `Swim Trunks <https://pzwiki.net/wiki/SwimTrunks_Yellow>`_
-     - 0.00%
+     - 0.01%
    * - `Bow Tie <https://pzwiki.net/wiki/Tie_BowTieFull>`_
-     - 0.00%
+     - 0.01%
    * - `Bow Tie - Clip-on <https://pzwiki.net/wiki/Tie_BowTieWorn>`_
-     - 0.00%
+     - 0.01%
    * - `Tie <https://pzwiki.net/wiki/Tie_Full>`_
-     - 0.00%
+     - 0.01%
    * - `Spiffo Tie <https://pzwiki.net/wiki/Tie_Full_Spiffo>`_
-     - 0.00%
+     - 0.01%
    * - `Tights - Semi-Transparent <https://pzwiki.net/wiki/TightsBlackSemiTrans>`_
-     - 0.00%
+     - 0.01%
    * - `Tights - Transparent <https://pzwiki.net/wiki/TightsBlackTrans>`_
-     - 0.00%
+     - 0.01%
    * - `Tights - Fishnet <https://pzwiki.net/wiki/TightsFishnets>`_
-     - 0.00%
+     - 0.01%
    * - `Leather Pants - Skinny <https://pzwiki.net/wiki/TrousersMesh_Leather>`_
-     - 0.00%
+     - 0.01%
    * - `Military Pants - Desert Camo <https://pzwiki.net/wiki/Trousers_CamoDesert>`_
-     - 0.00%
+     - 0.01%
    * - `Military Pants - Green Camo <https://pzwiki.net/wiki/Trousers_CamoGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Military Pants - Urban Camo <https://pzwiki.net/wiki/Trousers_CamoUrban>`_
-     - 0.00%
+     - 0.01%
    * - `Pants <https://pzwiki.net/wiki/Trousers_DefaultTEXTURE>`_
-     - 0.00%
+     - 0.01%
    * - `Leather Pants <https://pzwiki.net/wiki/Trousers_LeatherBlack>`_
-     - 0.00%
+     - 0.01%
    * - `Padded Pants <https://pzwiki.net/wiki/Trousers_Padded>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Pants <https://pzwiki.net/wiki/Trousers_Shellsuit_Black>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Pants <https://pzwiki.net/wiki/Trousers_Shellsuit_Blue>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Pants <https://pzwiki.net/wiki/Trousers_Shellsuit_Green>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Pants <https://pzwiki.net/wiki/Trousers_Shellsuit_Pink>`_
-     - 0.00%
+     - 0.01%
    * - `Shell Suit Pants <https://pzwiki.net/wiki/Trousers_Shellsuit_Teal>`_
-     - 0.00%
+     - 0.01%
    * - `Suit Pants <https://pzwiki.net/wiki/Trousers_Suit>`_
-     - 0.00%
+     - 0.01%
    * - `Suit Pants <https://pzwiki.net/wiki/Trousers_SuitTEXTURE>`_
-     - 0.00%
+     - 0.01%
    * - `Military T-shirt <https://pzwiki.net/wiki/Tshirt_ArmyGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Military T-shirt - Desert Camo <https://pzwiki.net/wiki/Tshirt_CamoDesert>`_
-     - 0.00%
+     - 0.01%
    * - `Military T-shirt - Green Camo <https://pzwiki.net/wiki/Tshirt_CamoGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Military T-shirt - Urban Camo <https://pzwiki.net/wiki/Tshirt_CamoUrban>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt <https://pzwiki.net/wiki/Tshirt_DefaultDECAL>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt <https://pzwiki.net/wiki/Tshirt_DefaultDECAL_TINT>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt - TIS <https://pzwiki.net/wiki/Tshirt_IndieStoneDECAL>`_
-     - 0.00%
+     - 0.01%
    * - `Long Sleeve T-shirt <https://pzwiki.net/wiki/Tshirt_LongSleeve_SuperColor>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt - Striped Polo <https://pzwiki.net/wiki/Tshirt_PoloStripedTINT>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt - Polo <https://pzwiki.net/wiki/Tshirt_PoloTINT>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt - Music <https://pzwiki.net/wiki/Tshirt_Rock>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt - Spiffo <https://pzwiki.net/wiki/Tshirt_SpiffoDECAL>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt - Sports <https://pzwiki.net/wiki/Tshirt_SportDECAL>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt <https://pzwiki.net/wiki/Tshirt_SuperColor>`_
-     - 0.00%
+     - 0.01%
    * - `T-shirt - Tie Dye <https://pzwiki.net/wiki/Tshirt_TieDye>`_
-     - 0.00%
+     - 0.01%
    * - `Long Sleeve T-shirt <https://pzwiki.net/wiki/Tshirt_WhiteLongSleeve>`_
-     - 0.00%
+     - 0.01%
    * - `Underpants <https://pzwiki.net/wiki/Underpants_AnimalPrint>`_
-     - 0.00%
+     - 0.01%
    * - `Underpants <https://pzwiki.net/wiki/Underpants_RedSpots>`_
-     - 0.00%
+     - 0.01%
    * - `Foreman Vest <https://pzwiki.net/wiki/Vest_Foreman>`_
-     - 0.00%
+     - 0.01%
    * - `High Visibility Vest <https://pzwiki.net/wiki/Vest_HighViz>`_
-     - 0.00%
+     - 0.01%
    * - `Hunting Vest - Camo <https://pzwiki.net/wiki/Vest_Hunting_Camo>`_
-     - 0.00%
+     - 0.01%
    * - `Hunting Vest - Green <https://pzwiki.net/wiki/Vest_Hunting_CamoGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Hunting Vest - Gray <https://pzwiki.net/wiki/Vest_Hunting_Grey>`_
-     - 0.00%
+     - 0.01%
    * - `Hunting Vest - Orange <https://pzwiki.net/wiki/Vest_Hunting_Orange>`_
-     - 0.00%
+     - 0.01%
    * - `Hunting Vest with Patches <https://pzwiki.net/wiki/Vest_Trucker>`_
-     - 0.00%
+     - 0.01%
    * - `Waistcoat <https://pzwiki.net/wiki/Vest_Waistcoat>`_
-     - 0.00%
+     - 0.01%
    * - `Waistcoat <https://pzwiki.net/wiki/Vest_WaistcoatTINT>`_
-     - 0.00%
+     - 0.01%
    * - `Straight Razor <https://pzwiki.net/wiki/StraightRazor>`_
-     - 0.00%
+     - 0.01%
    * - `Box of Tissues <https://pzwiki.net/wiki/TissueBox>`_
-     - 0.00%
+     - 0.01%
    * - `Bottle of Hair Dye <https://pzwiki.net/wiki/HairDyeCommon>`_
-     - 0.00%
+     - 0.01%
    * - `Bottle of Hair Dye <https://pzwiki.net/wiki/HairDyeUncommon>`_
-     - 0.00%
+     - 0.01%
    * - `Home Alarm <https://pzwiki.net/wiki/HomeAlarm>`_
-     - 0.00%
+     - 0.01%
    * - `ValuTech Radio <https://pzwiki.net/wiki/RadioBlack>`_
-     - 0.00%
+     - 0.01%
    * - `Premium Technologies Radio <https://pzwiki.net/wiki/RadioRed>`_
-     - 0.00%
+     - 0.01%
    * - `Toys-R-Mine Walkie Talkie <https://pzwiki.net/wiki/WalkieTalkie1>`_
-     - 0.00%
+     - 0.01%
    * - `ValuTech Walkie Talkie <https://pzwiki.net/wiki/WalkieTalkie2>`_
-     - 0.00%
+     - 0.01%
    * - `Premium Tech. Walkie Talkie <https://pzwiki.net/wiki/WalkieTalkie3>`_
-     - 0.00%
+     - 0.01%
    * - `Tactical Walkie Talkie <https://pzwiki.net/wiki/WalkieTalkie4>`_
-     - 0.00%
+     - 0.01%
    * - `Garden Fork <https://pzwiki.net/wiki/GardenFork>`_
-     - 0.00%
+     - 0.01%
    * - `Garden Hoe <https://pzwiki.net/wiki/GardenHoe>`_
-     - 0.00%
+     - 0.01%
    * - `Machete <https://pzwiki.net/wiki/Machete>`_
-     - 0.00%
+     - 0.01%
    * - `Pickaxe <https://pzwiki.net/wiki/PickAxe>`_
-     - 0.00%
+     - 0.01%
    * - `Bobber <https://pzwiki.net/wiki/Bobber>`_
-     - 0.00%
+     - 0.01%
    * - `Fishing Net (Broken) <https://pzwiki.net/wiki/BrokenFishingNet>`_
-     - 0.00%
+     - 0.01%
    * - `Fishing Line <https://pzwiki.net/wiki/FishingLine>`_
-     - 0.00%
+     - 0.01%
    * - `Fishing Net <https://pzwiki.net/wiki/FishingNet>`_
-     - 0.00%
+     - 0.01%
    * - `Fishing Rod without Line <https://pzwiki.net/wiki/FishingRodBreak>`_
-     - 0.00%
+     - 0.01%
    * - `Base.FishingTackle <https://pzwiki.net/wiki/FishingTackle>`_
-     - 0.00%
+     - 0.01%
    * - `Base.FishingTackle2 <https://pzwiki.net/wiki/FishingTackle2>`_
-     - 0.00%
+     - 0.01%
    * - `Balsamic Vinegar <https://pzwiki.net/wiki/BalsamicVinegar>`_
-     - 0.00%
+     - 0.01%
    * - `Cinnamon <https://pzwiki.net/wiki/Cinnamon>`_
-     - 0.00%
+     - 0.01%
    * - `Black Beans (Dried) <https://pzwiki.net/wiki/DriedBlackBeans>`_
-     - 0.00%
+     - 0.01%
    * - `Chick Peas (Dried) <https://pzwiki.net/wiki/DriedChickpeas>`_
-     - 0.00%
+     - 0.01%
    * - `Kidney Beans (Dried) <https://pzwiki.net/wiki/DriedKidneyBeans>`_
-     - 0.00%
+     - 0.01%
    * - `Lentils (Dried) <https://pzwiki.net/wiki/DriedLentils>`_
-     - 0.00%
+     - 0.01%
    * - `Split Peas (Dried) <https://pzwiki.net/wiki/DriedSplitPeas>`_
-     - 0.00%
+     - 0.01%
    * - `White Beans (Dried) <https://pzwiki.net/wiki/DriedWhiteBeans>`_
-     - 0.00%
+     - 0.01%
    * - `Gingerbread Man <https://pzwiki.net/wiki/Gingerbreadman>`_
-     - 0.00%
+     - 0.01%
    * - `Basil (Dried) <https://pzwiki.net/wiki/Seasoning_Basil>`_
-     - 0.00%
+     - 0.01%
    * - `Chives (Dried) <https://pzwiki.net/wiki/Seasoning_Chives>`_
-     - 0.00%
+     - 0.01%
    * - `Cilantro (Dried) <https://pzwiki.net/wiki/Seasoning_Cilantro>`_
-     - 0.00%
+     - 0.01%
    * - `Oregano (Dried) <https://pzwiki.net/wiki/Seasoning_Oregano>`_
-     - 0.00%
+     - 0.01%
    * - `Parsley (Dried) <https://pzwiki.net/wiki/Seasoning_Parsley>`_
-     - 0.00%
+     - 0.01%
    * - `Rosemary (Dried) <https://pzwiki.net/wiki/Seasoning_Rosemary>`_
-     - 0.00%
+     - 0.01%
    * - `Sage (Dried) <https://pzwiki.net/wiki/Seasoning_Sage>`_
-     - 0.00%
+     - 0.01%
    * - `Thyme (Dried) <https://pzwiki.net/wiki/Seasoning_Thyme>`_
-     - 0.00%
+     - 0.01%
    * - `Jug of Vinegar <https://pzwiki.net/wiki/Vinegar_Jug>`_
-     - 0.00%
+     - 0.01%
    * - `Base.JerryCanEmpty <https://pzwiki.net/wiki/JerryCanEmpty>`_
-     - 0.00%
+     - 0.01%
    * - `Base.PetrolCanEmpty <https://pzwiki.net/wiki/PetrolCanEmpty>`_
-     - 0.00%
+     - 0.01%
    * - `Lighter Fluid <https://pzwiki.net/wiki/LighterFluid>`_
-     - 0.00%
+     - 0.01%
    * - `Propane Tank <https://pzwiki.net/wiki/PropaneTank>`_
-     - 0.00%
+     - 0.01%
    * - `Kitchen Knife <https://pzwiki.net/wiki/KitchenKnife>`_
-     - 0.00%
+     - 0.01%
    * - `Fillet Knife <https://pzwiki.net/wiki/KnifeFillet>`_
-     - 0.00%
+     - 0.01%
    * - `Paring Knife <https://pzwiki.net/wiki/KnifeParing>`_
-     - 0.00%
+     - 0.01%
    * - `Plastic Spork <https://pzwiki.net/wiki/Spork>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Blue <https://pzwiki.net/wiki/LightBulbBlue>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Cyan <https://pzwiki.net/wiki/LightBulbCyan>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Green <https://pzwiki.net/wiki/LightBulbGreen>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Magenta <https://pzwiki.net/wiki/LightBulbMagenta>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Orange <https://pzwiki.net/wiki/LightBulbOrange>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Pink <https://pzwiki.net/wiki/LightBulbPink>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Purple <https://pzwiki.net/wiki/LightBulbPurple>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Red <https://pzwiki.net/wiki/LightBulbRed>`_
-     - 0.00%
+     - 0.01%
    * - `Light Bulb - Yellow <https://pzwiki.net/wiki/LightBulbYellow>`_
-     - 0.00%
+     - 0.01%
    * - `Birthday Card <https://pzwiki.net/wiki/Card_Birthday>`_
-     - 0.00%
+     - 0.01%
    * - `Christmas Card <https://pzwiki.net/wiki/Card_Christmas>`_
-     - 0.00%
+     - 0.01%
    * - `Easter Card <https://pzwiki.net/wiki/Card_Easter>`_
-     - 0.00%
+     - 0.01%
    * - `Halloween Card <https://pzwiki.net/wiki/Card_Halloween>`_
-     - 0.00%
+     - 0.01%
    * - `Hanukkah Card <https://pzwiki.net/wiki/Card_Hanukkah>`_
-     - 0.00%
+     - 0.01%
    * - `Lunar New Year Card <https://pzwiki.net/wiki/Card_LunarYear>`_
-     - 0.00%
+     - 0.01%
    * - `St. Patrick's Day Card <https://pzwiki.net/wiki/Card_StPatrick>`_
-     - 0.00%
+     - 0.01%
    * - `Sympathy Card <https://pzwiki.net/wiki/Card_Sympathy>`_
-     - 0.00%
+     - 0.01%
    * - `Valentine's Card <https://pzwiki.net/wiki/Card_Valentine>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: HottieZ <https://pzwiki.net/wiki/HottieZ>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Crossword <https://pzwiki.net/wiki/MagazineCrossword>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Wordsearch <https://pzwiki.net/wiki/MagazineWordsearch>`_
-     - 0.00%
+     - 0.01%
    * - `Phonebook <https://pzwiki.net/wiki/Phonebook>`_
-     - 0.00%
+     - 0.01%
    * - `RPG Manual <https://pzwiki.net/wiki/RPGmanual>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Good Cooking - June 1993 <https://pzwiki.net/wiki/CookingMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Good Cooking - May 1993 <https://pzwiki.net/wiki/CookingMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Italian Delights <https://pzwiki.net/wiki/CookingMag3>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Grandma's Kitchen <https://pzwiki.net/wiki/CookingMag4>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: World Cooking <https://pzwiki.net/wiki/CookingMag5>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Delicious Meals - June 1993 <https://pzwiki.net/wiki/CookingMag6>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Zapper! <https://pzwiki.net/wiki/ElectronicsMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Like Clockwork <https://pzwiki.net/wiki/ElectronicsMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Home Security Monthly <https://pzwiki.net/wiki/ElectronicsMag3>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: How to Use Generators <https://pzwiki.net/wiki/ElectronicsMag4>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Sparky's Lighting Guide <https://pzwiki.net/wiki/ElectronicsMag5>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Real Spy Secrets - June 1993 <https://pzwiki.net/wiki/EngineerMagazine1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: The Cheapskate's John Spiral - Chemical Warfare <https://pzwiki.net/wiki/EngineerMagazine2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Kentucky Farmer - June 1993 <https://pzwiki.net/wiki/FarmingMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Kentucky Farmer - May 1993 <https://pzwiki.net/wiki/FarmingMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Blooms and Blossoms <https://pzwiki.net/wiki/FarmingMag3>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: The Farmers Guide <https://pzwiki.net/wiki/FarmingMag4>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: American Homesteading <https://pzwiki.net/wiki/FarmingMag5>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Cropping for Cash <https://pzwiki.net/wiki/FarmingMag6>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Growing Your Own <https://pzwiki.net/wiki/FarmingMag7>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Thyme Time <https://pzwiki.net/wiki/FarmingMag8>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Angler USA - June 1993 <https://pzwiki.net/wiki/FishingMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Angler USA - May 1993 <https://pzwiki.net/wiki/FishingMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Murano Glass Manual <https://pzwiki.net/wiki/GlassmakingMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Carlow Crystal Guide <https://pzwiki.net/wiki/GlassmakingMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Bottle Making at Home <https://pzwiki.net/wiki/GlassmakingMag3>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Wilderness Survival <https://pzwiki.net/wiki/HerbalistMag>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Small Game Hunting <https://pzwiki.net/wiki/HuntingMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: The Hunter <https://pzwiki.net/wiki/HuntingMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Wildlife Preserve <https://pzwiki.net/wiki/HuntingMag3>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Woolly Yarns - June 1993 <https://pzwiki.net/wiki/KnittingMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Woolly Yarns - May 1993 <https://pzwiki.net/wiki/KnittingMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Laines Standard Auto Manual <https://pzwiki.net/wiki/MechanicMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Laines Commercial Auto Manual <https://pzwiki.net/wiki/MechanicMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Laines Performance Auto Manual <https://pzwiki.net/wiki/MechanicMag3>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Welder Monthly - June 1993 <https://pzwiki.net/wiki/MetalworkMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Welder Monthly - May 1993 <https://pzwiki.net/wiki/MetalworkMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Welder Monthly - April 1993 <https://pzwiki.net/wiki/MetalworkMag3>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Welder Monthly - March 1993 <https://pzwiki.net/wiki/MetalworkMag4>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Guerilla Radio - June 1993 <https://pzwiki.net/wiki/RadioMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Sparky's Radio Guide <https://pzwiki.net/wiki/RadioMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Guerilla Radio - May 1993 <https://pzwiki.net/wiki/RadioMag3>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Everyday Smithing - June 1993 <https://pzwiki.net/wiki/SmithingMag1>`_
-     - 0.00%
+     - 0.01%
    * - `Magazine: Everyday Smithing - May 1993 <https://pzwiki.net/wiki/SmithingMag2>`_
-     - 0.00%
+     - 0.01%
    * - `Fertilizer <https://pzwiki.net/wiki/Fertilizer>`_
-     - 0.00%
+     - 0.01%
    * - `Map: March Ridge <https://pzwiki.net/wiki/MarchRidgeMap>`_
-     - 0.00%
+     - 0.01%
    * - `Map: Muldraugh <https://pzwiki.net/wiki/MuldraughMap>`_
-     - 0.00%
+     - 0.01%
    * - `Map: Riverside <https://pzwiki.net/wiki/RiversideMap>`_
-     - 0.00%
+     - 0.01%
    * - `Map: Rosewood <https://pzwiki.net/wiki/RosewoodMap>`_
-     - 0.00%
+     - 0.01%
    * - `Map: West Point <https://pzwiki.net/wiki/WestpointMap>`_
-     - 0.00%
+     - 0.01%
    * - `Car Battery Charger <https://pzwiki.net/wiki/CarBatteryCharger>`_
-     - 0.00%
+     - 0.01%
    * - `Alcohol Wipes <https://pzwiki.net/wiki/AlcoholWipes>`_
-     - 0.00%
+     - 0.01%
    * - `Antibiotics <https://pzwiki.net/wiki/Antibiotics>`_
-     - 0.00%
+     - 0.01%
    * - `Bottle of Disinfectant <https://pzwiki.net/wiki/Disinfectant>`_
-     - 0.00%
+     - 0.01%
    * - `Painkillers <https://pzwiki.net/wiki/Pills>`_
-     - 0.00%
+     - 0.01%
    * - `Antidepressants <https://pzwiki.net/wiki/PillsAntiDep>`_
-     - 0.00%
+     - 0.01%
    * - `Beta Blockers <https://pzwiki.net/wiki/PillsBeta>`_
-     - 0.00%
+     - 0.01%
    * - `Sleeping Pills <https://pzwiki.net/wiki/PillsSleepingTablets>`_
-     - 0.00%
+     - 0.01%
    * - `Caffeine Pills <https://pzwiki.net/wiki/PillsVitamins>`_
-     - 0.00%
+     - 0.01%
    * - `Splint <https://pzwiki.net/wiki/Splint>`_
-     - 0.00%
+     - 0.01%
    * - `Suture Needle <https://pzwiki.net/wiki/SutureNeedle>`_
-     - 0.00%
+     - 0.01%
    * - `Forceps <https://pzwiki.net/wiki/SutureNeedleHolder>`_
-     - 0.00%
+     - 0.01%
    * - `Metalworking Chisel <https://pzwiki.net/wiki/MetalworkingChisel>`_
-     - 0.00%
+     - 0.01%
    * - `Metalworking Pliers <https://pzwiki.net/wiki/MetalworkingPliers>`_
-     - 0.00%
+     - 0.01%
    * - `Metalworking Punch <https://pzwiki.net/wiki/MetalworkingPunch>`_
-     - 0.00%
+     - 0.01%
    * - `Small File Set <https://pzwiki.net/wiki/SmallFileSet>`_
-     - 0.00%
+     - 0.01%
    * - `Small Punch and Chisel Set <https://pzwiki.net/wiki/SmallPunchSet>`_
-     - 0.00%
+     - 0.01%
    * - `Small Hacksaw <https://pzwiki.net/wiki/SmallSaw>`_
-     - 0.00%
+     - 0.01%
    * - `Tongs <https://pzwiki.net/wiki/Tongs>`_
-     - 0.00%
+     - 0.01%
    * - `Banjo <https://pzwiki.net/wiki/Banjo>`_
-     - 0.00%
+     - 0.01%
    * - `Flute <https://pzwiki.net/wiki/Flute>`_
-     - 0.00%
+     - 0.01%
    * - `Acoustic Guitar <https://pzwiki.net/wiki/GuitarAcoustic>`_
-     - 0.00%
+     - 0.01%
    * - `Electric Bass <https://pzwiki.net/wiki/GuitarElectricBass>`_
-     - 0.00%
+     - 0.01%
    * - `Electric Guitar <https://pzwiki.net/wiki/GuitarElectric>`_
-     - 0.00%
+     - 0.01%
    * - `Keytar <https://pzwiki.net/wiki/Keytar>`_
-     - 0.00%
+     - 0.01%
    * - `Saxophone <https://pzwiki.net/wiki/Saxophone>`_
-     - 0.00%
+     - 0.01%
    * - `Trumpet <https://pzwiki.net/wiki/Trumpet>`_
-     - 0.00%
+     - 0.01%
    * - `Violin <https://pzwiki.net/wiki/Violin>`_
-     - 0.00%
+     - 0.01%
    * - `High-end Camera <https://pzwiki.net/wiki/CameraExpensive>`_
-     - 0.00%
+     - 0.01%
    * - `Old Photograph <https://pzwiki.net/wiki/Photo_VeryOld>`_
-     - 0.00%
+     - 0.01%
    * - `Photograph <https://pzwiki.net/wiki/Photo_Secret>`_
-     - 0.00%
+     - 0.01%
    * - `Trophy <https://pzwiki.net/wiki/TrophyBronze>`_
-     - 0.00%
+     - 0.01%
    * - `Compass <https://pzwiki.net/wiki/CompassDirectional>`_
-     - 0.00%
+     - 0.01%
    * - `Geometry Compass <https://pzwiki.net/wiki/CompassGeometry>`_
-     - 0.00%
+     - 0.01%
    * - `File <https://pzwiki.net/wiki/File>`_
-     - 0.00%
+     - 0.01%
    * - `Magnifying Glass <https://pzwiki.net/wiki/MagnifyingGlass>`_
-     - 0.00%
+     - 0.01%
    * - `Rolling Papers <https://pzwiki.net/wiki/CigaretteRollingPapers>`_
-     - 0.00%
+     - 0.01%
    * - `Chewing Tobacco <https://pzwiki.net/wiki/TobaccoChewing>`_
-     - 0.00%
+     - 0.01%
    * - `Pouch of Tobacco <https://pzwiki.net/wiki/TobaccoLoose>`_
-     - 0.00%
+     - 0.01%
    * - `Wrist Watch - Classic <https://pzwiki.net/wiki/WristWatch_Left_ClassicBlack>`_
-     - 0.00%
+     - 0.01%
    * - `Wrist Watch - Classic <https://pzwiki.net/wiki/WristWatch_Left_ClassicBrown>`_
-     - 0.00%
+     - 0.01%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalBlack>`_
-     - 0.00%
+     - 0.01%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
-     - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
+     - 0.01%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
-     - 0.00%
+     - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
-     - 0.00%
+     - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlue>`_
-     - 0.00%
+     - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaRed>`_
-     - 0.00%
+     - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaWhite>`_
-     - 0.00%
+     - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaTINTED>`_
-     - 0.00%
+     - 0.01%
    * - `Firecrackers <https://pzwiki.net/wiki/Firecracker>`_
-     - 0.00%
+     - 0.01%
    * - `Loupe <https://pzwiki.net/wiki/Loupe>`_
-     - 0.00%
+     - 0.01%
    * - `Water Purification Tablets <https://pzwiki.net/wiki/WaterPurificationTablets>`_
-     - 0.00%
+     - 0.01%
    * - `Blacksmithing I: "Elementary Forge Practice" <https://pzwiki.net/wiki/BookBlacksmith1>`_
      - 0.00%
    * - `Blacksmithing II: "General Purpose Blacksmithing" <https://pzwiki.net/wiki/BookBlacksmith2>`_
@@ -11510,17 +11562,17 @@ BinCrepe
    * - Item
      - Estimated Chance
    * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
-     - 63.62%
+     - 63.64%
    * - `Fountain Cup <https://pzwiki.net/wiki/FountainCup>`_
-     - 63.58%
+     - 63.59%
    * - `Paper Napkins <https://pzwiki.net/wiki/PaperNapkins2>`_
-     - 63.58%
+     - 63.59%
    * - `Straw <https://pzwiki.net/wiki/Straw2>`_
-     - 63.58%
+     - 63.59%
    * - `Pancakes <https://pzwiki.net/wiki/Pancakes>`_
-     - 27.29%
+     - 27.30%
    * - `Waffles <https://pzwiki.net/wiki/Waffles>`_
-     - 27.29%
+     - 27.30%
    * - `Menu <https://pzwiki.net/wiki/MenuCard>`_
      - 9.13%
    * - `Biscuit <https://pzwiki.net/wiki/Biscuit>`_
@@ -12771,10 +12823,6 @@ BinCrepe
      - 0.05%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.05%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.05%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.05%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.05%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -13623,10 +13671,6 @@ BinCrepe
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -13934,41 +13978,41 @@ BinFireStation
    * - Item
      - Estimated Chance
    * - `Garbage Bag <https://pzwiki.net/wiki/Bag_TrashBag>`_
-     - 44.72%
+     - 44.74%
    * - `Firefighter Axe Head <https://pzwiki.net/wiki/FireAxeHead>`_
-     - 44.72%
+     - 44.74%
    * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
-     - 22.47%
+     - 22.48%
+   * - `Beer Can <https://pzwiki.net/wiki/BeerCanEmpty>`_
+     - 22.37%
    * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
      - 22.37%
-   * - `Beer Can <https://pzwiki.net/wiki/BeerCanEmpty>`_
-     - 22.36%
    * - `Wood Splinters <https://pzwiki.net/wiki/Splinters>`_
-     - 18.11%
+     - 18.12%
    * - `Cockroach <https://pzwiki.net/wiki/Cockroach>`_
-     - 17.89%
+     - 17.90%
    * - `Straw <https://pzwiki.net/wiki/Straw2>`_
-     - 17.89%
+     - 17.90%
    * - `Scratch Ticket - Loser <https://pzwiki.net/wiki/ScratchTicket_Loser>`_
      - 9.06%
    * - `Base.BeerBottleEmpty <https://pzwiki.net/wiki/BeerBottleEmpty>`_
-     - 8.94%
+     - 8.95%
    * - `Rag (Dirty) <https://pzwiki.net/wiki/RippedSheetsDirty>`_
-     - 8.94%
+     - 8.95%
    * - `Fountain Cup <https://pzwiki.net/wiki/FountainCup>`_
-     - 8.94%
+     - 8.95%
    * - `Paper Napkins <https://pzwiki.net/wiki/PaperNapkins2>`_
-     - 8.94%
+     - 8.95%
    * - `Plastic Cup <https://pzwiki.net/wiki/PlasticCup>`_
-     - 8.94%
+     - 8.95%
    * - `Scrap Electronics <https://pzwiki.net/wiki/ElectronicsScrap>`_
-     - 4.58%
+     - 4.59%
    * - `Scrap Metal <https://pzwiki.net/wiki/ScrapMetal>`_
-     - 4.58%
+     - 4.59%
    * - `Sheet Metal Scrap <https://pzwiki.net/wiki/UnusableMetal>`_
-     - 4.58%
+     - 4.59%
    * - `Scrap Wood <https://pzwiki.net/wiki/UnusableWood>`_
-     - 4.58%
+     - 4.59%
    * - `Bandage (Dirty) <https://pzwiki.net/wiki/BandageDirty>`_
      - 4.47%
    * - `Dead Mouse <https://pzwiki.net/wiki/DeadMouse>`_
@@ -15223,10 +15267,6 @@ BinFireStation
      - 0.11%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.11%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.11%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.11%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.11%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -16069,8 +16109,6 @@ BinFireStation
      - 0.01%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.01%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.01%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -16245,27 +16283,27 @@ BinGeneric
    * - Item
      - Estimated Chance
    * - `Tin Can <https://pzwiki.net/wiki/TinCanEmpty>`_
-     - 57.14%
+     - 57.17%
    * - `Garbage Bag <https://pzwiki.net/wiki/Bag_TrashBag>`_
-     - 38.09%
+     - 38.11%
    * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
-     - 19.14%
+     - 19.15%
    * - `Wood Splinters <https://pzwiki.net/wiki/Splinters>`_
-     - 15.43%
+     - 15.44%
    * - `Beer Can <https://pzwiki.net/wiki/BeerCanEmpty>`_
-     - 15.24%
+     - 15.25%
    * - `Pop Can <https://pzwiki.net/wiki/Pop2Empty>`_
-     - 15.24%
+     - 15.25%
    * - `Pop Can <https://pzwiki.net/wiki/Pop3Empty>`_
-     - 15.24%
+     - 15.25%
    * - `Pop Can <https://pzwiki.net/wiki/PopEmpty>`_
-     - 15.24%
+     - 15.25%
    * - `Cockroach <https://pzwiki.net/wiki/Cockroach>`_
-     - 15.24%
+     - 15.25%
    * - `Straw <https://pzwiki.net/wiki/Straw2>`_
-     - 15.24%
+     - 15.25%
    * - `Scratch Ticket - Loser <https://pzwiki.net/wiki/ScratchTicket_Loser>`_
-     - 7.71%
+     - 7.72%
    * - `Rag (Dirty) <https://pzwiki.net/wiki/RippedSheetsDirty>`_
      - 7.62%
    * - `Fountain Cup <https://pzwiki.net/wiki/FountainCup>`_
@@ -16275,13 +16313,13 @@ BinGeneric
    * - `Plastic Cup <https://pzwiki.net/wiki/PlasticCup>`_
      - 7.62%
    * - `Scrap Electronics <https://pzwiki.net/wiki/ElectronicsScrap>`_
-     - 3.90%
+     - 3.91%
    * - `Scrap Metal <https://pzwiki.net/wiki/ScrapMetal>`_
-     - 3.90%
+     - 3.91%
    * - `Sheet Metal Scrap <https://pzwiki.net/wiki/UnusableMetal>`_
-     - 3.90%
+     - 3.91%
    * - `Scrap Wood <https://pzwiki.net/wiki/UnusableWood>`_
-     - 3.90%
+     - 3.91%
    * - `Base.BeerBottleEmpty <https://pzwiki.net/wiki/BeerBottleEmpty>`_
      - 3.81%
    * - `Bandage (Dirty) <https://pzwiki.net/wiki/BandageDirty>`_
@@ -16305,19 +16343,19 @@ BinGeneric
    * - `Flier <https://pzwiki.net/wiki/Flier>`_
      - 2.00%
    * - `Paint Bucket <https://pzwiki.net/wiki/PaintbucketEmpty>`_
-     - 1.90%
+     - 1.91%
    * - `Base.PopBottleEmpty <https://pzwiki.net/wiki/PopBottleEmpty>`_
-     - 1.90%
+     - 1.91%
    * - `Base.WaterBottleEmpty <https://pzwiki.net/wiki/WaterBottleEmpty>`_
-     - 1.90%
+     - 1.91%
    * - `Animal Bone <https://pzwiki.net/wiki/AnimalBone>`_
-     - 1.90%
+     - 1.91%
    * - `Broken Iron Pipe <https://pzwiki.net/wiki/MetalPipe_Broken>`_
-     - 1.90%
+     - 1.91%
    * - `Smashed Bottle <https://pzwiki.net/wiki/SmashedBottle>`_
-     - 1.90%
+     - 1.91%
    * - `Dead Rat <https://pzwiki.net/wiki/DeadRat>`_
-     - 1.90%
+     - 1.91%
    * - `Jar Lid <https://pzwiki.net/wiki/JarLid>`_
      - 1.05%
    * - `Base.BeerImportedEmpty <https://pzwiki.net/wiki/BeerImportedEmpty>`_
@@ -17572,10 +17610,6 @@ BinGeneric
      - 0.10%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.10%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.10%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.10%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.10%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -18418,10 +18452,6 @@ BinGeneric
      - 0.01%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.01%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.01%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.01%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -18596,15 +18626,15 @@ BinHospital
    * - Item
      - Estimated Chance
    * - `Bandage (Dirty) <https://pzwiki.net/wiki/BandageDirty>`_
-     - 169.62%
+     - 169.69%
    * - `Surgical Gloves <https://pzwiki.net/wiki/Gloves_Surgical>`_
-     - 46.27%
+     - 46.29%
    * - `Surgical Mask <https://pzwiki.net/wiki/Hat_SurgicalMask>`_
-     - 46.26%
+     - 46.28%
    * - `Cotton Balls <https://pzwiki.net/wiki/CottonBalls>`_
-     - 12.41%
+     - 12.42%
    * - `Tongue Depressor <https://pzwiki.net/wiki/TongueDepressor>`_
-     - 12.41%
+     - 12.42%
    * - `Surgical Cap <https://pzwiki.net/wiki/Hat_SurgicalCap>`_
      - 12.34%
    * - `Base.DisinfectantEmpty <https://pzwiki.net/wiki/DisinfectantEmpty>`_
@@ -18614,7 +18644,7 @@ BinHospital
    * - `Base.BleachEmpty <https://pzwiki.net/wiki/BleachEmpty>`_
      - 6.17%
    * - `Dead Mouse <https://pzwiki.net/wiki/DeadMouse>`_
-     - 3.08%
+     - 3.09%
    * - `Sympathy Card <https://pzwiki.net/wiki/Card_Sympathy>`_
      - 1.55%
    * - `Medical Scrubs <https://pzwiki.net/wiki/Shirt_Scrubs>`_
@@ -19869,10 +19899,6 @@ BinHospital
      - 0.08%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.08%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.08%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.08%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.08%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -20717,10 +20743,6 @@ BinHospital
      - 0.01%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.01%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.01%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.01%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -20895,17 +20917,17 @@ BinJays
    * - Item
      - Estimated Chance
    * - `Fried Chicken <https://pzwiki.net/wiki/ChickenFried>`_
-     - 53.23%
+     - 53.24%
    * - `Fries <https://pzwiki.net/wiki/Fries>`_
-     - 53.23%
+     - 53.24%
    * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
-     - 53.23%
+     - 53.24%
    * - `Fountain Cup <https://pzwiki.net/wiki/FountainCup>`_
-     - 53.19%
+     - 53.20%
    * - `Paper Napkins <https://pzwiki.net/wiki/PaperNapkins2>`_
-     - 53.19%
+     - 53.20%
    * - `Straw <https://pzwiki.net/wiki/Straw2>`_
-     - 53.19%
+     - 53.20%
    * - `Bone Pieces <https://pzwiki.net/wiki/SmallAnimalBone>`_
      - 22.80%
    * - `Menu <https://pzwiki.net/wiki/MenuCard>`_
@@ -22158,10 +22180,6 @@ BinJays
      - 0.04%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.04%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.04%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.04%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.04%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -23010,10 +23028,6 @@ BinJays
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -23188,17 +23202,17 @@ BinSpiffos
    * - Item
      - Estimated Chance
    * - `Burger <https://pzwiki.net/wiki/Burger>`_
-     - 56.45%
+     - 56.46%
    * - `Fries <https://pzwiki.net/wiki/Fries>`_
-     - 56.45%
+     - 56.46%
    * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
-     - 56.45%
+     - 56.46%
    * - `Fountain Cup <https://pzwiki.net/wiki/FountainCup>`_
-     - 56.41%
+     - 56.42%
    * - `Paper Napkins <https://pzwiki.net/wiki/PaperNapkins2>`_
-     - 56.41%
+     - 56.42%
    * - `Straw <https://pzwiki.net/wiki/Straw2>`_
-     - 56.41%
+     - 56.42%
    * - `Menu <https://pzwiki.net/wiki/MenuCard>`_
      - 8.10%
    * - `Chicken Nuggets <https://pzwiki.net/wiki/ChickenNuggets>`_
@@ -24449,10 +24463,6 @@ BinSpiffos
      - 0.04%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.04%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.04%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.04%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.04%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -25300,10 +25310,6 @@ BinSpiffos
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalBlack>`_
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
-     - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
      - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
@@ -28269,27 +28275,21 @@ ButcherFreezer
    * - Item
      - Estimated Chance
    * - `Beef Patty <https://pzwiki.net/wiki/MeatPatty>`_
-     - 93.75%
+     - 117.65%
    * - `Ground Beef <https://pzwiki.net/wiki/MincedMeat>`_
-     - 93.75%
-   * - `Bag of Fries <https://pzwiki.net/wiki/Frozen_FrenchFries>`_
-     - 31.25%
+     - 117.65%
    * - `Bacon <https://pzwiki.net/wiki/Bacon>`_
-     - 25.00%
+     - 31.37%
    * - `Chicken Leg <https://pzwiki.net/wiki/Chicken>`_
-     - 25.00%
-   * - `Bag of Chicken Nuggets <https://pzwiki.net/wiki/Frozen_ChickenNuggets>`_
-     - 25.00%
-   * - `Bag of Fish Fingers <https://pzwiki.net/wiki/Frozen_FishFingers>`_
-     - 25.00%
+     - 31.37%
    * - `Pork Chop <https://pzwiki.net/wiki/PorkChop>`_
-     - 25.00%
+     - 31.37%
    * - `Sausage <https://pzwiki.net/wiki/Sausage>`_
-     - 25.00%
+     - 31.37%
    * - `Steak <https://pzwiki.net/wiki/Steak>`_
-     - 18.75%
+     - 23.53%
    * - `Mutton Chop <https://pzwiki.net/wiki/MuttonChop>`_
-     - 12.50%
+     - 15.69%
 
 .. _procedural-distribution-ButcherGround:
 
@@ -30250,15 +30250,15 @@ CarDealerFilingCabinet
    * - Item
      - Estimated Chance
    * - `Vehicle Key <https://pzwiki.net/wiki/CarKey>`_
-     - 242.25%
+     - 242.12%
    * - `Sheet of Paper <https://pzwiki.net/wiki/SheetPaper2>`_
-     - 106.59%
+     - 106.53%
    * - `Paperwork <https://pzwiki.net/wiki/Paperwork>`_
-     - 29.07%
+     - 29.05%
    * - `Index Card <https://pzwiki.net/wiki/IndexCard>`_
-     - 9.69%
+     - 9.68%
    * - `Notebook <https://pzwiki.net/wiki/Notebook>`_
-     - 9.69%
+     - 9.68%
    * - `Key <https://pzwiki.net/wiki/Key1>`_
      - 1.45%
    * - `Business Card <https://pzwiki.net/wiki/BusinessCard>`_
@@ -30267,8 +30267,14 @@ CarDealerFilingCabinet
      - 0.10%
    * - `Cashbox <https://pzwiki.net/wiki/Cashbox>`_
      - 0.10%
-   * - `Money Bundle <https://pzwiki.net/wiki/MoneyBundle>`_
+   * - `Cigar Box <https://pzwiki.net/wiki/CigarBox>`_
      - 0.10%
+   * - `Comic Book <https://pzwiki.net/wiki/ComicBook>`_
+     - 0.10%
+   * - `Flask <https://pzwiki.net/wiki/Flask>`_
+     - 0.10%
+   * - `Money Bundle <https://pzwiki.net/wiki/MoneyBundle>`_
+     - 0.01%
 
 .. _procedural-distribution-CarLightbars:
 
@@ -31784,6 +31790,26 @@ ChineseKitchenSauce
    * - `Chef's Hat <https://pzwiki.net/wiki/Hat_ChefHat>`_
      - 14.81%
 
+.. _procedural-distribution-ChurchStorageMisc:
+
+ChurchStorageMisc
+-----------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Book <https://pzwiki.net/wiki/Book_Bible>`_
+     - 235.29%
+   * - `Box of Tissues <https://pzwiki.net/wiki/TissueBox>`_
+     - 164.71%
+
 .. _procedural-distribution-ClassroomDesk:
 
 ClassroomDesk
@@ -32767,6 +32793,82 @@ ClassroomShelves
      - 0.02%
    * - `Trophy <https://pzwiki.net/wiki/TrophyGold>`_
      - 0.00%
+
+.. _procedural-distribution-ClockRepairLiterature:
+
+ClockRepairLiterature
+---------------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
+     - 400.00%
+
+.. _procedural-distribution-ClockRepairTools:
+
+ClockRepairTools
+----------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Scrap Electronics <https://pzwiki.net/wiki/ElectronicsScrap>`_
+     - 66.67%
+   * - `Electrical Wire <https://pzwiki.net/wiki/ElectricWire>`_
+     - 66.67%
+   * - `Screws <https://pzwiki.net/wiki/Screws>`_
+     - 66.67%
+   * - `Aluminum Fragments <https://pzwiki.net/wiki/AluminumFragments>`_
+     - 66.67%
+   * - `Pliers <https://pzwiki.net/wiki/Pliers>`_
+     - 33.33%
+   * - `Screwdriver <https://pzwiki.net/wiki/Screwdriver>`_
+     - 33.33%
+   * - `Small File Set <https://pzwiki.net/wiki/SmallFileSet>`_
+     - 26.67%
+   * - `Vise Grips <https://pzwiki.net/wiki/ViseGrips>`_
+     - 26.67%
+   * - `Multitool <https://pzwiki.net/wiki/Multitool>`_
+     - 13.33%
+
+.. _procedural-distribution-ClockRepairWatches:
+
+ClockRepairWatches
+------------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Wrist Watch - Classic <https://pzwiki.net/wiki/WristWatch_Left_ClassicBlack>`_
+     - 184.62%
+   * - `Wrist Watch - Classic <https://pzwiki.net/wiki/WristWatch_Left_ClassicBrown>`_
+     - 184.62%
+   * - `Wrist Watch - Gold <https://pzwiki.net/wiki/WristWatch_Left_ClassicGold>`_
+     - 24.62%
+   * - `Pocketwatch <https://pzwiki.net/wiki/Pocketwatch>`_
+     - 6.15%
 
 .. _procedural-distribution-ClosetInstruments:
 
@@ -49612,21 +49714,27 @@ CrateWallpaper
    * - Item
      - Estimated Chance
    * - `Bag of Wallpaper Paste Powder <https://pzwiki.net/wiki/WallpaperPastePowder>`_
-     - 70.59%
+     - 57.14%
    * - `Wallpaper - Beige Stripe <https://pzwiki.net/wiki/Wallpaper_BeigeStripe>`_
-     - 47.06%
+     - 38.10%
    * - `Wallpaper - Black Floral <https://pzwiki.net/wiki/Wallpaper_BlackFloral>`_
-     - 47.06%
+     - 38.10%
    * - `Wallpaper - Blue Stripe <https://pzwiki.net/wiki/Wallpaper_BlueStripe>`_
-     - 47.06%
+     - 38.10%
    * - `Wallpaper - Green Diamond <https://pzwiki.net/wiki/Wallpaper_GreenDiamond>`_
-     - 47.06%
+     - 38.10%
    * - `Wallpaper - Green Floral <https://pzwiki.net/wiki/Wallpaper_GreenFloral>`_
-     - 47.06%
+     - 38.10%
    * - `Wallpaper - Pink Chevron <https://pzwiki.net/wiki/Wallpaper_PinkChevron>`_
-     - 47.06%
+     - 38.10%
    * - `Wallpaper - Pink Floral <https://pzwiki.net/wiki/Wallpaper_PinkFloral>`_
-     - 47.06%
+     - 38.10%
+   * - `Paintbrush <https://pzwiki.net/wiki/Paintbrush>`_
+     - 38.10%
+   * - `Bag of Plaster Powder <https://pzwiki.net/wiki/PlasterPowder>`_
+     - 19.05%
+   * - `Plastering Trowel <https://pzwiki.net/wiki/PlasterTrowel>`_
+     - 19.05%
 
 .. _procedural-distribution-CrateWaterBottle:
 
@@ -50239,35 +50347,37 @@ CyberCafeFilingCabinet
    * - Item
      - Estimated Chance
    * - `Graph Paper <https://pzwiki.net/wiki/GraphPaper>`_
-     - 91.32%
+     - 91.03%
    * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
-     - 91.32%
+     - 91.03%
    * - `RPG Manual <https://pzwiki.net/wiki/RPGmanual>`_
-     - 39.14%
+     - 39.01%
    * - `Comic Book <https://pzwiki.net/wiki/ComicBook>`_
-     - 26.09%
+     - 26.01%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Gaming>`_
-     - 26.09%
+     - 26.01%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Tech>`_
-     - 26.09%
+     - 26.01%
    * - `Paperback <https://pzwiki.net/wiki/Paperback_Computer>`_
-     - 26.09%
+     - 26.01%
    * - `Electrical I: "Basic Electronics" <https://pzwiki.net/wiki/BookElectrician1>`_
-     - 13.05%
+     - 13.00%
    * - `Book <https://pzwiki.net/wiki/Book_Computer>`_
-     - 13.05%
+     - 13.00%
    * - `Electrical II: "Kentucky AV Guide '93" <https://pzwiki.net/wiki/BookElectrician2>`_
-     - 10.44%
+     - 10.40%
    * - `Paperback <https://pzwiki.net/wiki/Paperback_Fantasy>`_
-     - 10.44%
+     - 10.40%
    * - `Paperback <https://pzwiki.net/wiki/Paperback_SciFi>`_
-     - 10.44%
+     - 10.40%
    * - `Electrical III: "Practical Wiring Guide" <https://pzwiki.net/wiki/BookElectrician3>`_
-     - 7.83%
+     - 7.80%
    * - `Electrical IV: "Telecommunications in the 20th Century" <https://pzwiki.net/wiki/BookElectrician4>`_
-     - 5.22%
+     - 5.20%
    * - `Electrical V: "Understanding Integrated Controls for Electronic Systems" <https://pzwiki.net/wiki/BookElectrician5>`_
-     - 2.61%
+     - 2.60%
+   * - `Cigar Box <https://pzwiki.net/wiki/CigarBox_Gaming>`_
+     - 1.30%
    * - `Magazine: Real Spy Secrets - May 1993 <https://pzwiki.net/wiki/TrickMag1>`_
      - 0.65%
    * - `Cashbox <https://pzwiki.net/wiki/Cashbox>`_
@@ -50798,11 +50908,11 @@ DerelictHouseCrime
    * - `Credit Card <https://pzwiki.net/wiki/CreditCard>`_
      - 8.16%
    * - `ID Card <https://pzwiki.net/wiki/IDcard>`_
-     - 8.12%
+     - 8.13%
    * - `Rope <https://pzwiki.net/wiki/Rope>`_
-     - 6.80%
+     - 6.81%
    * - `Rubber Band <https://pzwiki.net/wiki/RubberBand>`_
-     - 6.80%
+     - 6.81%
    * - `Garbage Bag <https://pzwiki.net/wiki/Garbagebag>`_
      - 6.77%
    * - `Money Bundle <https://pzwiki.net/wiki/MoneyBundle>`_
@@ -52105,10 +52215,6 @@ DerelictHouseCrime
      - 0.03%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.03%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.03%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.03%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.03%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -52947,10 +53053,6 @@ DerelictHouseCrime
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -53151,11 +53253,11 @@ DerelictHouseDrugs
    * - `Painkillers <https://pzwiki.net/wiki/Pills>`_
      - 2.59%
    * - `Aluminum Foil <https://pzwiki.net/wiki/Aluminum>`_
-     - 1.74%
+     - 1.75%
    * - `Lighter - Disposable <https://pzwiki.net/wiki/LighterDisposable>`_
-     - 1.74%
+     - 1.75%
    * - `Mirror <https://pzwiki.net/wiki/Mirror>`_
-     - 1.74%
+     - 1.75%
    * - `Antidepressants <https://pzwiki.net/wiki/PillsAntiDep>`_
      - 1.73%
    * - `Beta Blockers <https://pzwiki.net/wiki/PillsBeta>`_
@@ -54404,10 +54506,6 @@ DerelictHouseDrugs
      - 0.02%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.02%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.02%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.02%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.02%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -55240,10 +55338,6 @@ DerelictHouseDrugs
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -55418,21 +55512,21 @@ DerelictHouseJunk
    * - Item
      - Estimated Chance
    * - `Tin Can <https://pzwiki.net/wiki/TinCanEmpty>`_
-     - 11.91%
+     - 11.92%
    * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
      - 5.99%
    * - `Beer Can <https://pzwiki.net/wiki/BeerCan>`_
-     - 4.79%
+     - 4.80%
    * - `Cola <https://pzwiki.net/wiki/Pop2>`_
-     - 4.79%
+     - 4.80%
    * - `Ginger Ale <https://pzwiki.net/wiki/Pop3>`_
-     - 4.79%
+     - 4.80%
    * - `Diet Cola <https://pzwiki.net/wiki/Pop>`_
-     - 4.79%
+     - 4.80%
    * - `Cockroach <https://pzwiki.net/wiki/Cockroach>`_
-     - 4.76%
+     - 4.77%
    * - `Straw <https://pzwiki.net/wiki/Straw2>`_
-     - 4.76%
+     - 4.77%
    * - `Wood Splinters <https://pzwiki.net/wiki/Splinters>`_
      - 2.44%
    * - `Scratch Ticket - Loser <https://pzwiki.net/wiki/ScratchTicket_Loser>`_
@@ -56711,10 +56805,6 @@ DerelictHouseJunk
      - 0.03%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.03%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.03%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.03%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.03%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -57557,10 +57647,6 @@ DerelictHouseJunk
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -57735,13 +57821,13 @@ DerelictHouseParty
    * - Item
      - Estimated Chance
    * - `Beer Can <https://pzwiki.net/wiki/BeerCan>`_
-     - 20.32%
+     - 20.33%
    * - `Plastic Cup <https://pzwiki.net/wiki/PlasticCup>`_
-     - 20.28%
+     - 20.30%
    * - `Beer Bottle <https://pzwiki.net/wiki/BeerBottle>`_
-     - 6.76%
+     - 6.77%
    * - `Smashed Bottle <https://pzwiki.net/wiki/SmashedBottle>`_
-     - 6.76%
+     - 6.77%
    * - `Diet Cola <https://pzwiki.net/wiki/Pop>`_
      - 2.74%
    * - `Cola <https://pzwiki.net/wiki/Pop2>`_
@@ -57749,11 +57835,11 @@ DerelictHouseParty
    * - `Ginger Ale <https://pzwiki.net/wiki/Pop3>`_
      - 2.74%
    * - `Water Bottle <https://pzwiki.net/wiki/WaterBottle>`_
-     - 2.70%
+     - 2.71%
    * - `White Wine <https://pzwiki.net/wiki/Wine>`_
-     - 2.70%
+     - 2.71%
    * - `Red Wine <https://pzwiki.net/wiki/Wine2>`_
-     - 2.70%
+     - 2.71%
    * - `Bottle of Whiskey <https://pzwiki.net/wiki/Whiskey>`_
      - 1.39%
    * - `Orange Soda <https://pzwiki.net/wiki/PopBottle>`_
@@ -58998,10 +59084,6 @@ DerelictHouseParty
      - 0.03%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.03%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.03%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.03%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.03%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -59852,10 +59934,6 @@ DerelictHouseParty
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -60030,9 +60108,9 @@ DerelictHouseSquatter
    * - Item
      - Estimated Chance
    * - `Tin Can <https://pzwiki.net/wiki/TinCanEmpty>`_
-     - 25.34%
+     - 25.36%
    * - `Candle <https://pzwiki.net/wiki/Candle>`_
-     - 8.49%
+     - 8.50%
    * - `Garbage Bag <https://pzwiki.net/wiki/Bag_TrashBag>`_
      - 8.45%
    * - `Plastic Bag <https://pzwiki.net/wiki/Plasticbag_Bags>`_
@@ -60054,11 +60132,11 @@ DerelictHouseSquatter
    * - `Toilet Paper <https://pzwiki.net/wiki/ToiletPaper>`_
      - 0.89%
    * - `Dead Mouse <https://pzwiki.net/wiki/DeadMouse>`_
-     - 0.84%
+     - 0.85%
    * - `Newspaper <https://pzwiki.net/wiki/Newspaper_Recent>`_
-     - 0.84%
+     - 0.85%
    * - `P38 Can Opener <https://pzwiki.net/wiki/P38>`_
-     - 0.84%
+     - 0.85%
    * - `Bottle of Whiskey <https://pzwiki.net/wiki/Whiskey>`_
      - 0.46%
    * - `Smashed Bottle <https://pzwiki.net/wiki/SmashedBottle>`_
@@ -61313,10 +61391,6 @@ DerelictHouseSquatter
      - 0.04%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.04%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.04%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.04%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.04%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -62201,10 +62275,6 @@ DerelictHouseSquatter
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -62794,56 +62864,26 @@ DishCabinetGeneric
 
    * - Item
      - Estimated Chance
-   * - `Wine Glass <https://pzwiki.net/wiki/GlassWine>`_
-     - 92.50%
    * - `Plate <https://pzwiki.net/wiki/Plate>`_
-     - 92.50%
+     - 71.79%
+   * - `Bowl <https://pzwiki.net/wiki/Bowl>`_
+     - 71.79%
+   * - `Drinking Glass <https://pzwiki.net/wiki/DrinkingGlass>`_
+     - 51.28%
+   * - `Tumbler <https://pzwiki.net/wiki/GlassTumbler>`_
+     - 51.28%
    * - `Teacup <https://pzwiki.net/wiki/Teacup>`_
-     - 92.50%
-   * - `Bottle Opener <https://pzwiki.net/wiki/BottleOpener>`_
-     - 30.83%
-   * - `Corkscrew <https://pzwiki.net/wiki/Corkscrew>`_
-     - 24.67%
-   * - `Boxed Red Wine <https://pzwiki.net/wiki/WineBox>`_
-     - 12.33%
-   * - `Cheap Red Wine <https://pzwiki.net/wiki/WineScrewtop>`_
-     - 12.33%
-   * - `Gin <https://pzwiki.net/wiki/Gin>`_
-     - 6.17%
-   * - `Rum <https://pzwiki.net/wiki/Rum>`_
-     - 6.17%
-   * - `Tequila <https://pzwiki.net/wiki/Tequila>`_
-     - 6.17%
-   * - `Vodka <https://pzwiki.net/wiki/Vodka>`_
-     - 6.17%
-   * - `Bottle of Whiskey <https://pzwiki.net/wiki/Whiskey>`_
-     - 6.17%
-   * - `Ice Pick <https://pzwiki.net/wiki/IcePick>`_
-     - 6.17%
-   * - `White Wine <https://pzwiki.net/wiki/Wine>`_
-     - 1.54%
-   * - `Red Wine <https://pzwiki.net/wiki/Wine2>`_
-     - 1.54%
-   * - `Brandy <https://pzwiki.net/wiki/Brandy>`_
-     - 0.31%
+     - 51.28%
    * - `Silver Butter Knife <https://pzwiki.net/wiki/ButterKnife_Silver>`_
-     - 0.31%
+     - 20.51%
    * - `Silver Fork <https://pzwiki.net/wiki/Fork_Silver>`_
-     - 0.31%
-   * - `Port <https://pzwiki.net/wiki/Port>`_
-     - 0.31%
-   * - `Scotch <https://pzwiki.net/wiki/Scotch>`_
-     - 0.31%
+     - 20.51%
    * - `Silver Spoon <https://pzwiki.net/wiki/Spoon_Silver>`_
-     - 0.31%
-   * - `Vermouth <https://pzwiki.net/wiki/Vermouth>`_
-     - 0.31%
-   * - `Gold Butter Knife <https://pzwiki.net/wiki/ButterKnife_Gold>`_
-     - 0.03%
-   * - `Gold Fork <https://pzwiki.net/wiki/Fork_Gold>`_
-     - 0.03%
-   * - `Gold Spoon <https://pzwiki.net/wiki/Spoon_Gold>`_
-     - 0.03%
+     - 20.51%
+   * - `Champagne Glass <https://pzwiki.net/wiki/GlassChampagne>`_
+     - 20.51%
+   * - `Wine Glass <https://pzwiki.net/wiki/GlassWine>`_
+     - 20.51%
 
 .. _procedural-distribution-DishCabinetLiquor:
 
@@ -62933,6 +62973,58 @@ DishCabinetVIPLounge
      - 10.39%
    * - `Ice Pick <https://pzwiki.net/wiki/IcePick>`_
      - 5.19%
+
+.. _procedural-distribution-DishwasherGeneric:
+
+DishwasherGeneric
+-----------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Plate <https://pzwiki.net/wiki/Plate>`_
+     - 52.83%
+   * - `Bowl <https://pzwiki.net/wiki/Bowl>`_
+     - 52.83%
+   * - `Butter Knife <https://pzwiki.net/wiki/ButterKnife>`_
+     - 37.74%
+   * - `Fork <https://pzwiki.net/wiki/Fork>`_
+     - 37.74%
+   * - `Spoon <https://pzwiki.net/wiki/Spoon>`_
+     - 37.74%
+   * - `Drinking Glass <https://pzwiki.net/wiki/DrinkingGlass>`_
+     - 37.74%
+   * - `Tumbler <https://pzwiki.net/wiki/GlassTumbler>`_
+     - 37.74%
+   * - `Teacup <https://pzwiki.net/wiki/Teacup>`_
+     - 15.09%
+   * - `Saucepan <https://pzwiki.net/wiki/Saucepan>`_
+     - 15.09%
+   * - `Strainer <https://pzwiki.net/wiki/Strainer>`_
+     - 15.09%
+   * - `Bread Knife <https://pzwiki.net/wiki/BreadKnife>`_
+     - 7.55%
+   * - `Kitchen Knife <https://pzwiki.net/wiki/KitchenKnife>`_
+     - 7.55%
+   * - `Fillet Knife <https://pzwiki.net/wiki/KnifeFillet>`_
+     - 7.55%
+   * - `Paring Knife <https://pzwiki.net/wiki/KnifeParing>`_
+     - 7.55%
+   * - `Steak Knife <https://pzwiki.net/wiki/SteakKnife>`_
+     - 7.55%
+   * - `Champagne Glass <https://pzwiki.net/wiki/GlassChampagne>`_
+     - 7.55%
+   * - `Wine Glass <https://pzwiki.net/wiki/GlassWine>`_
+     - 7.55%
+   * - `Cheese Grater <https://pzwiki.net/wiki/CheeseGrater>`_
+     - 7.55%
 
 .. _procedural-distribution-DoctorOutfit:
 
@@ -63856,11 +63948,11 @@ DrugShackDrugs
    * - Item
      - Estimated Chance
    * - `Spoon <https://pzwiki.net/wiki/Spoon>`_
-     - 27.63%
+     - 27.64%
    * - `Painkillers <https://pzwiki.net/wiki/Pills>`_
-     - 27.59%
+     - 27.60%
    * - `Caffeine Pills <https://pzwiki.net/wiki/PillsVitamins>`_
-     - 27.59%
+     - 27.60%
    * - `Base.BeerBottleEmpty <https://pzwiki.net/wiki/BeerBottleEmpty>`_
      - 18.39%
    * - `Beer Can <https://pzwiki.net/wiki/BeerCanEmpty>`_
@@ -63884,11 +63976,11 @@ DrugShackDrugs
    * - `Sleeping Pills <https://pzwiki.net/wiki/PillsSleepingTablets>`_
      - 9.20%
    * - `Beer Bottle <https://pzwiki.net/wiki/BeerBottle>`_
-     - 9.19%
+     - 9.20%
    * - `Plastic Bag <https://pzwiki.net/wiki/Plasticbag>`_
-     - 9.19%
+     - 9.20%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Business>`_
-     - 9.19%
+     - 9.20%
    * - `Bottle of Whiskey <https://pzwiki.net/wiki/Whiskey>`_
      - 7.40%
    * - `Welding Torch <https://pzwiki.net/wiki/BlowTorch>`_
@@ -65189,10 +65281,6 @@ DrugShackDrugs
      - 0.05%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.05%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.05%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.05%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.05%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -66015,10 +66103,6 @@ DrugShackDrugs
      - 0.00%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.00%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.00%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.00%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.00%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -66193,21 +66277,21 @@ DrugShackMisc
    * - Item
      - Estimated Chance
    * - `Credit Card <https://pzwiki.net/wiki/CreditCard>`_
-     - 22.24%
+     - 22.25%
    * - `ID Card <https://pzwiki.net/wiki/IDcard>`_
-     - 22.15%
+     - 22.16%
    * - `Magazine <https://pzwiki.net/wiki/Magazine>`_
-     - 18.55%
+     - 18.56%
    * - `Old Newspaper <https://pzwiki.net/wiki/Newspaper>`_
-     - 18.55%
+     - 18.56%
    * - `Rubber Band <https://pzwiki.net/wiki/RubberBand>`_
-     - 18.55%
+     - 18.56%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Business>`_
-     - 18.46%
+     - 18.47%
    * - `Garbage Bag <https://pzwiki.net/wiki/Garbagebag>`_
-     - 18.46%
+     - 18.47%
    * - `Garbage Bag <https://pzwiki.net/wiki/Bag_TrashBag>`_
-     - 18.46%
+     - 18.47%
    * - `Plastic Bag <https://pzwiki.net/wiki/Plasticbag_Bags>`_
      - 14.77%
    * - `Cigarette <https://pzwiki.net/wiki/CigaretteSingle>`_
@@ -66215,29 +66299,29 @@ DrugShackMisc
    * - `Cigarillo <https://pzwiki.net/wiki/Cigarillo>`_
      - 11.17%
    * - `Rolling Papers <https://pzwiki.net/wiki/CigaretteRollingPapers>`_
-     - 11.08%
+     - 11.09%
    * - `Rolled Cigarette <https://pzwiki.net/wiki/CigaretteRolled>`_
-     - 11.07%
+     - 11.08%
    * - `Lighter - Disposable <https://pzwiki.net/wiki/LighterDisposable>`_
-     - 7.47%
+     - 7.48%
    * - `Cigarette Pack <https://pzwiki.net/wiki/CigarettePack>`_
-     - 7.38%
+     - 7.39%
    * - `Magazine: Legalize It! <https://pzwiki.net/wiki/HempMag1>`_
-     - 7.38%
+     - 7.39%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Crime>`_
-     - 7.38%
+     - 7.39%
    * - `Magazine: The Cheapskate's John Spiral - Forging New Identities <https://pzwiki.net/wiki/TrickMag2>`_
-     - 7.38%
+     - 7.39%
    * - `Smoking Pipe <https://pzwiki.net/wiki/SmokingPipe>`_
-     - 7.38%
+     - 7.39%
    * - `Tote Bag <https://pzwiki.net/wiki/Bag_Dancer>`_
-     - 7.38%
+     - 7.39%
    * - `Handbag <https://pzwiki.net/wiki/Handbag>`_
-     - 7.38%
+     - 7.39%
    * - `Purse <https://pzwiki.net/wiki/Purse>`_
-     - 7.38%
+     - 7.39%
    * - `Tote Bag <https://pzwiki.net/wiki/Tote_Bags>`_
-     - 7.38%
+     - 7.39%
    * - `Explosives Diagram <https://pzwiki.net/wiki/ExplosiveSchematic>`_
      - 3.69%
    * - `Magazine: The Cheapskate's John Spiral - Escaping Captivity <https://pzwiki.net/wiki/KeyMag1>`_
@@ -66247,15 +66331,15 @@ DrugShackMisc
    * - `Seed Packet - Hemp <https://pzwiki.net/wiki/HempBagSeed>`_
      - 3.69%
    * - `Chewing Tobacco <https://pzwiki.net/wiki/TobaccoChewing>`_
-     - 1.85%
+     - 1.86%
    * - `Pouch of Tobacco <https://pzwiki.net/wiki/TobaccoLoose>`_
-     - 1.85%
+     - 1.86%
    * - `Magazine: Home Security Monthly <https://pzwiki.net/wiki/ElectronicsMag3>`_
-     - 1.85%
+     - 1.86%
    * - `Magazine: How to Use Generators <https://pzwiki.net/wiki/ElectronicsMag4>`_
-     - 1.85%
+     - 1.86%
    * - `Magazine: The Cheapskate's John Spiral - Chemical Warfare <https://pzwiki.net/wiki/EngineerMagazine2>`_
-     - 1.85%
+     - 1.86%
    * - `Small Knife <https://pzwiki.net/wiki/SmallKnife>`_
      - 1.85%
    * - `Switchblade <https://pzwiki.net/wiki/SwitchKnife>`_
@@ -67522,10 +67606,6 @@ DrugShackMisc
      - 0.09%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.09%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.09%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.09%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.09%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -68356,10 +68436,6 @@ DrugShackMisc
      - 0.01%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.01%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.01%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.01%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -68536,25 +68612,25 @@ DrugShackTools
    * - Item
      - Estimated Chance
    * - `Screwdriver <https://pzwiki.net/wiki/Screwdriver>`_
-     - 14.40%
+     - 14.41%
    * - `Electrical Wire <https://pzwiki.net/wiki/ElectricWire>`_
-     - 14.40%
+     - 14.41%
    * - `Scrap Electronics <https://pzwiki.net/wiki/ElectronicsScrap>`_
-     - 14.40%
+     - 14.41%
    * - `Rope <https://pzwiki.net/wiki/Rope>`_
-     - 14.40%
+     - 14.41%
    * - `Scrap Metal <https://pzwiki.net/wiki/ScrapMetal>`_
-     - 14.40%
+     - 14.41%
    * - `Tarp <https://pzwiki.net/wiki/Tarp>`_
-     - 14.40%
+     - 14.41%
    * - `Sheet Metal Scrap <https://pzwiki.net/wiki/UnusableMetal>`_
-     - 14.40%
+     - 14.41%
    * - `Magazine <https://pzwiki.net/wiki/Magazine>`_
-     - 14.40%
+     - 14.41%
    * - `Old Newspaper <https://pzwiki.net/wiki/Newspaper>`_
-     - 14.40%
+     - 14.41%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Business>`_
-     - 14.33%
+     - 14.34%
    * - `Welding Torch <https://pzwiki.net/wiki/BlowTorch>`_
      - 11.54%
    * - `Claw Hammer <https://pzwiki.net/wiki/Hammer>`_
@@ -68564,7 +68640,7 @@ DrugShackTools
    * - `Wrench <https://pzwiki.net/wiki/Wrench>`_
      - 11.54%
    * - `Bolt Cutters <https://pzwiki.net/wiki/BoltCutters>`_
-     - 11.46%
+     - 11.47%
    * - `Ball-peen Hammer <https://pzwiki.net/wiki/BallPeenHammer>`_
      - 8.67%
    * - `Pipe Wrench <https://pzwiki.net/wiki/PipeWrench>`_
@@ -68572,23 +68648,23 @@ DrugShackTools
    * - `Ratchet Wrench <https://pzwiki.net/wiki/Ratchet>`_
      - 8.67%
    * - `Club Hammer <https://pzwiki.net/wiki/ClubHammer>`_
-     - 5.80%
+     - 5.81%
    * - `Crowbar <https://pzwiki.net/wiki/Crowbar>`_
-     - 5.80%
+     - 5.81%
    * - `Hatchet <https://pzwiki.net/wiki/HandAxe>`_
-     - 5.80%
+     - 5.81%
    * - `Spade <https://pzwiki.net/wiki/Shovel>`_
-     - 5.80%
+     - 5.81%
    * - `Shovel <https://pzwiki.net/wiki/Shovel2>`_
-     - 5.80%
+     - 5.81%
    * - `Tire Iron <https://pzwiki.net/wiki/TireIron>`_
-     - 5.80%
+     - 5.81%
    * - `Circular Sawblade <https://pzwiki.net/wiki/CircularSawblade>`_
-     - 5.80%
+     - 5.81%
    * - `Copper Scrap <https://pzwiki.net/wiki/CopperScrap>`_
-     - 5.80%
+     - 5.81%
    * - `Duct Tape <https://pzwiki.net/wiki/DuctTape>`_
-     - 5.80%
+     - 5.81%
    * - `Carpentry Chisel <https://pzwiki.net/wiki/CarpentryChisel>`_
      - 5.73%
    * - `Hand Drill <https://pzwiki.net/wiki/HandDrill>`_
@@ -69845,10 +69921,6 @@ DrugShackTools
      - 0.07%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.07%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.07%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.07%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.07%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -70685,10 +70757,6 @@ DrugShackTools
      - 0.01%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
      - 0.01%
-   * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.01%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
-     - 0.01%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.01%
    * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaBlack>`_
@@ -70863,39 +70931,39 @@ DrugShackWeapons
    * - Item
      - Estimated Chance
    * - `Magazine <https://pzwiki.net/wiki/Magazine>`_
-     - 16.53%
+     - 16.54%
    * - `Old Newspaper <https://pzwiki.net/wiki/Newspaper>`_
-     - 16.53%
+     - 16.54%
    * - `Sawed-off Double Barrel Shotgun <https://pzwiki.net/wiki/DoubleBarrelShotgunSawnoff>`_
-     - 16.45%
+     - 16.46%
    * - `B-F Pistol <https://pzwiki.net/wiki/Pistol3>`_
-     - 16.45%
+     - 16.46%
    * - `SN38 Revolver <https://pzwiki.net/wiki/Revolver_Short>`_
-     - 16.45%
+     - 16.46%
    * - `JS-2000 Shotgun <https://pzwiki.net/wiki/Shotgun>`_
-     - 16.45%
+     - 16.46%
    * - `Sawed-off JS-2000 Shotgun <https://pzwiki.net/wiki/ShotgunSawnoff>`_
-     - 16.45%
+     - 16.46%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Business>`_
-     - 16.45%
+     - 16.46%
    * - `Baseball Bat <https://pzwiki.net/wiki/BaseballBat>`_
-     - 13.24%
+     - 13.25%
    * - `Hatchet <https://pzwiki.net/wiki/HandAxe>`_
-     - 13.24%
+     - 13.25%
    * - `Lead Pipe <https://pzwiki.net/wiki/LeadPipe>`_
-     - 13.24%
+     - 13.25%
    * - `Steel Rod <https://pzwiki.net/wiki/MetalBar>`_
-     - 13.24%
+     - 13.25%
    * - `Shiv <https://pzwiki.net/wiki/KnifeShiv>`_
-     - 13.16%
+     - 13.17%
    * - `Smashed Bottle <https://pzwiki.net/wiki/SmashedBottle>`_
-     - 13.16%
+     - 13.17%
    * - `Metal Baseball Bat <https://pzwiki.net/wiki/BaseballBat_Metal>`_
-     - 6.66%
+     - 6.67%
    * - `Hunting Knife <https://pzwiki.net/wiki/HuntingKnife>`_
-     - 6.66%
+     - 6.67%
    * - `Ice Pick <https://pzwiki.net/wiki/IcePick>`_
-     - 6.66%
+     - 6.67%
    * - `JS-14 Rifle <https://pzwiki.net/wiki/JS14_Rifle>`_
      - 6.58%
    * - `M9 Pistol <https://pzwiki.net/wiki/Pistol>`_
@@ -70933,21 +71001,21 @@ DrugShackWeapons
    * - `Magazine: The Cheapskate's John Spiral - Chemical Warfare <https://pzwiki.net/wiki/EngineerMagazine2>`_
      - 1.65%
    * - `M16 Assault Rifle <https://pzwiki.net/wiki/AssaultRifle>`_
-     - 1.64%
+     - 1.65%
    * - `Large Knife <https://pzwiki.net/wiki/LargeKnife>`_
-     - 1.64%
+     - 1.65%
    * - `Magazine: Secrets of the Outback Outlaws <https://pzwiki.net/wiki/ArmorMag3>`_
-     - 1.64%
+     - 1.65%
    * - `Magazine: FBI Incident Report: San Fernando Bank Robbery <https://pzwiki.net/wiki/ArmorMag7>`_
-     - 1.64%
+     - 1.65%
    * - `Magazine: The Cheapskate's John Spiral - Homemade Explosives <https://pzwiki.net/wiki/EngineerMagazine3>`_
-     - 1.64%
+     - 1.65%
    * - `Magazine: The Cheapskate's John Spiral - Prison Defense <https://pzwiki.net/wiki/WeaponMag3>`_
-     - 1.64%
+     - 1.65%
    * - `Magazine: Bloody Japanese Wrestling Deathmatch! <https://pzwiki.net/wiki/WeaponMag4>`_
-     - 1.64%
+     - 1.65%
    * - `Magazine: The Cheapskate's John Spiral - Street Violence <https://pzwiki.net/wiki/WeaponMag5>`_
-     - 1.64%
+     - 1.65%
    * - `Paperwork <https://pzwiki.net/wiki/Paperwork>`_
      - 0.82%
    * - `Dryer Lint <https://pzwiki.net/wiki/DryerLint>`_
@@ -70957,7 +71025,7 @@ DrugShackWeapons
    * - `Wood Splinters <https://pzwiki.net/wiki/Splinters>`_
      - 0.16%
    * - `Firefighter Axe <https://pzwiki.net/wiki/Axe>`_
-     - 0.09%
+     - 0.08%
    * - `Broken Banjo Neck <https://pzwiki.net/wiki/BanjoNeck_Broken>`_
      - 0.08%
    * - `Broken Baseball Bat <https://pzwiki.net/wiki/BaseballBat_Broken>`_
@@ -72186,10 +72254,6 @@ DrugShackWeapons
      - 0.08%
    * - `Badminton Birdie <https://pzwiki.net/wiki/Birdie>`_
      - 0.08%
-   * - `Canoe Paddle <https://pzwiki.net/wiki/CanoePadel>`_
-     - 0.08%
-   * - `Canoe Paddle - Double-bladed <https://pzwiki.net/wiki/CanoePadelX2>`_
-     - 0.08%
    * - `Dart <https://pzwiki.net/wiki/Dart>`_
      - 0.08%
    * - `Dumbbell <https://pzwiki.net/wiki/DumbBell>`_
@@ -73027,8 +73091,6 @@ DrugShackWeapons
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalBlack>`_
      - 0.01%
    * - `Digital Watch <https://pzwiki.net/wiki/WristWatch_Left_DigitalRed>`_
-     - 0.01%
-   * - `Wood Axe <https://pzwiki.net/wiki/WoodAxe>`_
      - 0.01%
    * - `Wood Glue <https://pzwiki.net/wiki/Woodglue>`_
      - 0.01%
@@ -74193,16 +74255,24 @@ FilingCabinetGeneric
    * - Item
      - Estimated Chance
    * - `Paperwork <https://pzwiki.net/wiki/Paperwork>`_
-     - 188.17%
+     - 187.95%
    * - `Sheet of Paper <https://pzwiki.net/wiki/SheetPaper2>`_
-     - 129.37%
+     - 129.22%
    * - `Handwritten Letter <https://pzwiki.net/wiki/LetterHandwritten>`_
-     - 35.28%
+     - 35.24%
    * - `Index Card <https://pzwiki.net/wiki/IndexCard>`_
-     - 35.28%
+     - 35.24%
    * - `Notebook <https://pzwiki.net/wiki/Notebook>`_
-     - 11.76%
+     - 11.75%
    * - `Business Card <https://pzwiki.net/wiki/BusinessCard>`_
+     - 0.12%
+   * - `Cashbox <https://pzwiki.net/wiki/Cashbox>`_
+     - 0.12%
+   * - `Cigar Box <https://pzwiki.net/wiki/CigarBox>`_
+     - 0.12%
+   * - `Comic Book <https://pzwiki.net/wiki/ComicBook>`_
+     - 0.12%
+   * - `Flask <https://pzwiki.net/wiki/Flask>`_
      - 0.12%
    * - `Money Bundle <https://pzwiki.net/wiki/MoneyBundle>`_
      - 0.01%
@@ -89285,6 +89355,114 @@ JunkHoard
    * - `Machete <https://pzwiki.net/wiki/Machete>`_
      - 0.00%
 
+.. _procedural-distribution-KidsDesk:
+
+KidsDesk
+--------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 2
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Doodle <https://pzwiki.net/wiki/DoodleKids>`_
+     - 32.47%
+   * - `Sheet of Paper <https://pzwiki.net/wiki/SheetPaper2>`_
+     - 19.48%
+   * - `Crayons <https://pzwiki.net/wiki/Crayons>`_
+     - 12.99%
+   * - `Comic Book <https://pzwiki.net/wiki/ComicBook_Retail>`_
+     - 12.99%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Teens>`_
+     - 12.99%
+   * - `Paperback <https://pzwiki.net/wiki/Paperback_Fiction>`_
+     - 12.99%
+   * - `CD <https://pzwiki.net/wiki/Disc_Retail>`_
+     - 12.99%
+   * - `Glue <https://pzwiki.net/wiki/Glue>`_
+     - 6.49%
+   * - `Pencil <https://pzwiki.net/wiki/Pencil>`_
+     - 6.49%
+   * - `Base.CDPlayer <https://pzwiki.net/wiki/CDPlayer>`_
+     - 6.49%
+   * - `Handheld Game Console <https://pzwiki.net/wiki/VideoGame>`_
+     - 6.49%
+   * - `Eraser <https://pzwiki.net/wiki/Eraser>`_
+     - 5.19%
+   * - `Pencil Case <https://pzwiki.net/wiki/PencilCase>`_
+     - 5.19%
+   * - `Safety Scissors <https://pzwiki.net/wiki/ScissorsBlunt>`_
+     - 5.19%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Gaming>`_
+     - 5.19%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Humor>`_
+     - 5.19%
+   * - `Glitter <https://pzwiki.net/wiki/Clitter>`_
+     - 5.19%
+   * - `Yoyo <https://pzwiki.net/wiki/Yoyo>`_
+     - 5.19%
+   * - `Pen - Black <https://pzwiki.net/wiki/Pen>`_
+     - 2.60%
+   * - `Multi-Color Pen <https://pzwiki.net/wiki/PenMultiColor>`_
+     - 2.60%
+   * - `Adhesive Tape <https://pzwiki.net/wiki/Scotchtape>`_
+     - 2.60%
+   * - `Friendship Bracelet <https://pzwiki.net/wiki/Bracelet_LeftFriendshipTINT>`_
+     - 2.60%
+   * - `Puzzle Cube <https://pzwiki.net/wiki/Cube>`_
+     - 2.60%
+   * - `Gum <https://pzwiki.net/wiki/Gum>`_
+     - 2.60%
+   * - `Marker - Black <https://pzwiki.net/wiki/MarkerBlack>`_
+     - 0.65%
+   * - `Diary <https://pzwiki.net/wiki/Diary1>`_
+     - 0.65%
+   * - `Lollipop <https://pzwiki.net/wiki/Lollipop>`_
+     - 0.65%
+   * - `Firecrackers <https://pzwiki.net/wiki/Firecracker>`_
+     - 0.65%
+   * - `Marker - Blue <https://pzwiki.net/wiki/MarkerBlue>`_
+     - 0.32%
+   * - `Marker - Green <https://pzwiki.net/wiki/MarkerGreen>`_
+     - 0.32%
+   * - `Marker - Red <https://pzwiki.net/wiki/MarkerRed>`_
+     - 0.32%
+   * - `Rubber Spider <https://pzwiki.net/wiki/RubberSpider>`_
+     - 0.32%
+   * - `Milk Chocolate Bar <https://pzwiki.net/wiki/Chocolate>`_
+     - 0.32%
+   * - `Cigar Box <https://pzwiki.net/wiki/CigarBox_Kids>`_
+     - 0.32%
+   * - `Novapops Candy <https://pzwiki.net/wiki/CandyNovapops>`_
+     - 0.06%
+   * - `Butterchunkers Bar <https://pzwiki.net/wiki/Chocolate_Butterchunkers>`_
+     - 0.06%
+   * - `Chocolate Candy <https://pzwiki.net/wiki/Chocolate_Candy>`_
+     - 0.06%
+   * - `Crackle Bar <https://pzwiki.net/wiki/Chocolate_Crackle>`_
+     - 0.06%
+   * - `Deux Bar <https://pzwiki.net/wiki/Chocolate_Deux>`_
+     - 0.06%
+   * - `Galactic Dairy Bar <https://pzwiki.net/wiki/Chocolate_GalacticDairy>`_
+     - 0.06%
+   * - `Roy's Peanut Butter Pucks <https://pzwiki.net/wiki/Chocolate_RoysPBPucks>`_
+     - 0.06%
+   * - `Smirkers Bar <https://pzwiki.net/wiki/Chocolate_Smirkers>`_
+     - 0.06%
+   * - `SnikSnak Bar <https://pzwiki.net/wiki/Chocolate_SnikSnak>`_
+     - 0.06%
+   * - `Chips - Plain <https://pzwiki.net/wiki/Crisps>`_
+     - 0.06%
+   * - `Pencil - Spiffo <https://pzwiki.net/wiki/PencilSpiffo>`_
+     - 0.00%
+   * - `Pen - Spiffo <https://pzwiki.net/wiki/PenSpiffo>`_
+     - 0.00%
+
 .. _procedural-distribution-KitchenBaking:
 
 KitchenBaking
@@ -91470,6 +91648,70 @@ LaundryLoad8
      - 3.10%
    * - `Friendship Bracelet <https://pzwiki.net/wiki/Bracelet_LeftFriendshipTINT>`_
      - 0.00%
+
+.. _procedural-distribution-LaundrySuits:
+
+LaundrySuits
+------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Suit Jacket <https://pzwiki.net/wiki/Suit_Jacket>`_
+     - 86.96%
+   * - `Suit Jacket <https://pzwiki.net/wiki/Suit_JacketTINT>`_
+     - 86.96%
+   * - `Suit Pants <https://pzwiki.net/wiki/Trousers_Suit>`_
+     - 86.96%
+   * - `Tie <https://pzwiki.net/wiki/Tie_Full>`_
+     - 86.96%
+   * - `Suit Jacket <https://pzwiki.net/wiki/Suit_Jacket_White>`_
+     - 17.39%
+   * - `Base.Trousers_Suit_TEXTURE <https://pzwiki.net/wiki/Trousers_Suit_TEXTURE>`_
+     - 17.39%
+   * - `Suit Pants <https://pzwiki.net/wiki/Trousers_SuitWhite>`_
+     - 17.39%
+
+.. _procedural-distribution-LeatherworkingTools:
+
+LeatherworkingTools
+-------------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Sinew Thread <https://pzwiki.net/wiki/Thread_Sinew>`_
+     - 102.56%
+   * - `Awl <https://pzwiki.net/wiki/Awl>`_
+     - 71.79%
+   * - `Needle <https://pzwiki.net/wiki/Needle>`_
+     - 71.79%
+   * - `Thread <https://pzwiki.net/wiki/Thread>`_
+     - 71.79%
+   * - `Measuring Tape <https://pzwiki.net/wiki/MeasuringTape>`_
+     - 20.51%
+   * - `Scissors <https://pzwiki.net/wiki/Scissors>`_
+     - 20.51%
+   * - `Thimble <https://pzwiki.net/wiki/Thimble>`_
+     - 20.51%
+   * - `Base.FleshingTool <https://pzwiki.net/wiki/FleshingTool>`_
+     - 10.26%
+   * - `Aramid Thread <https://pzwiki.net/wiki/Thread_Aramid>`_
+     - 10.26%
 
 .. _procedural-distribution-LibraryArt:
 
@@ -96473,6 +96715,271 @@ LoggingFactoryTools
    * - `Sledgehammer <https://pzwiki.net/wiki/Sledgehammer2>`_
      - 0.11%
 
+.. _procedural-distribution-LostAndFoundClothing:
+
+LostAndFoundClothing
+--------------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 8
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Hoodie <https://pzwiki.net/wiki/HoodieDOWN_WhiteTINT>`_
+     - 117.65%
+   * - `Jacket <https://pzwiki.net/wiki/Jacket_WhiteTINT>`_
+     - 117.65%
+   * - `Suit Jacket <https://pzwiki.net/wiki/Suit_JacketTINT>`_
+     - 117.65%
+   * - `Leather Coat <https://pzwiki.net/wiki/JacketLong_Random>`_
+     - 94.12%
+   * - `Leather Jacket <https://pzwiki.net/wiki/Jacket_Black>`_
+     - 47.06%
+   * - `Sweater <https://pzwiki.net/wiki/Jumper_DiamondPatternTINT>`_
+     - 47.06%
+   * - `Sweater - Turtleneck <https://pzwiki.net/wiki/Jumper_PoloNeck>`_
+     - 47.06%
+   * - `Sweater - Round Neck <https://pzwiki.net/wiki/Jumper_RoundNeck>`_
+     - 47.06%
+   * - `Sweater - V-neck <https://pzwiki.net/wiki/Jumper_VNeck>`_
+     - 47.06%
+   * - `Military Jacket - Green Camo <https://pzwiki.net/wiki/Jacket_ArmyCamoGreen>`_
+     - 23.53%
+   * - `Military Jacket - Olive Drab <https://pzwiki.net/wiki/Jacket_ArmyOliveDrab>`_
+     - 23.53%
+   * - `Leather Jacket <https://pzwiki.net/wiki/Jacket_Leather>`_
+     - 23.53%
+   * - `Padded Jacket <https://pzwiki.net/wiki/Jacket_PaddedDOWN>`_
+     - 23.53%
+   * - `Jacket - Varsity <https://pzwiki.net/wiki/Jacket_Varsity>`_
+     - 23.53%
+
+.. _procedural-distribution-LostAndFoundItems:
+
+LostAndFoundItems
+-----------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-isShop`: Yes
+- :ref:`procedural-distributions-property-rolls`: 8
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Calculator <https://pzwiki.net/wiki/Calculator>`_
+     - 25.93%
+   * - `Penlight <https://pzwiki.net/wiki/PenLight>`_
+     - 25.93%
+   * - `Comb <https://pzwiki.net/wiki/Comb>`_
+     - 25.93%
+   * - `Lipstick <https://pzwiki.net/wiki/Lipstick>`_
+     - 25.93%
+   * - `Eye Makeup <https://pzwiki.net/wiki/MakeupEyeshadow>`_
+     - 25.93%
+   * - `Foundation Makeup <https://pzwiki.net/wiki/MakeupFoundation>`_
+     - 25.93%
+   * - `Mirror <https://pzwiki.net/wiki/Mirror>`_
+     - 25.93%
+   * - `Mug <https://pzwiki.net/wiki/Mugl>`_
+     - 25.93%
+   * - `Base.SportsbottleEmpty <https://pzwiki.net/wiki/SportsbottleEmpty>`_
+     - 25.93%
+   * - `Fanny Pack <https://pzwiki.net/wiki/Bag_FannyPackFront>`_
+     - 12.97%
+   * - `Lunchbox <https://pzwiki.net/wiki/Lunchbox>`_
+     - 12.97%
+   * - `Handbag <https://pzwiki.net/wiki/Handbag>`_
+     - 12.97%
+   * - `Pencil Case <https://pzwiki.net/wiki/PencilCase>`_
+     - 12.97%
+   * - `Purse <https://pzwiki.net/wiki/Purse>`_
+     - 12.97%
+   * - `Wallet <https://pzwiki.net/wiki/Wallet>`_
+     - 12.97%
+   * - `Baseball Cap <https://pzwiki.net/wiki/Hat_BaseballCapTINT>`_
+     - 6.48%
+   * - `Beanie <https://pzwiki.net/wiki/Hat_Beany>`_
+     - 6.48%
+   * - `Beret <https://pzwiki.net/wiki/Hat_Beret>`_
+     - 6.48%
+   * - `Boonie Hat <https://pzwiki.net/wiki/Hat_BonnieHat>`_
+     - 6.48%
+   * - `Bucket Hat <https://pzwiki.net/wiki/Hat_BucketHat>`_
+     - 6.48%
+   * - `Cowboy Hat <https://pzwiki.net/wiki/Hat_Cowboy>`_
+     - 6.48%
+   * - `Ear Muffs <https://pzwiki.net/wiki/Hat_EarMuffs>`_
+     - 6.48%
+   * - `Fedora <https://pzwiki.net/wiki/Hat_Fedora>`_
+     - 6.48%
+   * - `Fedora <https://pzwiki.net/wiki/Hat_Fedora_Delmonte>`_
+     - 6.48%
+   * - `Golf Cap <https://pzwiki.net/wiki/Hat_GolfHatTINT>`_
+     - 6.48%
+   * - `Straw Hat <https://pzwiki.net/wiki/Hat_StrawHat>`_
+     - 6.48%
+   * - `Summer Hat <https://pzwiki.net/wiki/Hat_SummerHat>`_
+     - 6.48%
+   * - `Sweatband <https://pzwiki.net/wiki/Hat_Sweatband>`_
+     - 6.48%
+   * - `Visor <https://pzwiki.net/wiki/Hat_Visor_WhiteTINT>`_
+     - 6.48%
+   * - `Winter Hat <https://pzwiki.net/wiki/Hat_WinterHat>`_
+     - 6.48%
+   * - `Wool Hat <https://pzwiki.net/wiki/Hat_WoolyHat>`_
+     - 6.48%
+   * - `Scarf <https://pzwiki.net/wiki/Scarf_StripeBlackWhite>`_
+     - 6.48%
+   * - `Scarf <https://pzwiki.net/wiki/Scarf_StripeBlueWhite>`_
+     - 6.48%
+   * - `Scarf <https://pzwiki.net/wiki/Scarf_StripeRedWhite>`_
+     - 6.48%
+   * - `Scarf <https://pzwiki.net/wiki/Scarf_White>`_
+     - 6.48%
+   * - `Retro Gold-Framed Prescription Glasses <https://pzwiki.net/wiki/Glasses_70s_Gold>`_
+     - 6.48%
+   * - `Aviator Glasses <https://pzwiki.net/wiki/Glasses_Aviators>`_
+     - 6.48%
+   * - `Prescription Glasses <https://pzwiki.net/wiki/Glasses_Normal>`_
+     - 6.48%
+   * - `Cat-Eye Prescription Glasses <https://pzwiki.net/wiki/Glasses_CatsEye>`_
+     - 6.48%
+   * - `Cat-Eye Sunglasses <https://pzwiki.net/wiki/Glasses_CatsEye_Sun>`_
+     - 6.48%
+   * - `Half Moon Prescription Glasses <https://pzwiki.net/wiki/Glasses_HalfMoon>`_
+     - 6.48%
+   * - `Fancy Reflective Sunglasses <https://pzwiki.net/wiki/Glasses_Macho>`_
+     - 6.48%
+   * - `New Wave Sunglasses <https://pzwiki.net/wiki/Glasses_NewWave>`_
+     - 6.48%
+   * - `Horn Rimmed Prescription Glasses <https://pzwiki.net/wiki/Glasses_Normal_HornRimmed>`_
+     - 6.48%
+   * - `Prescription Reflective Sunglasses <https://pzwiki.net/wiki/Glasses_Prescription>`_
+     - 6.48%
+   * - `Reading Glasses <https://pzwiki.net/wiki/Glasses_Reading>`_
+     - 6.48%
+   * - `Round Prescription Glasses <https://pzwiki.net/wiki/Glasses_Round_Normal>`_
+     - 6.48%
+   * - `Round Sunglasses <https://pzwiki.net/wiki/Glasses_Round_Shades>`_
+     - 6.48%
+   * - `Sunglasses <https://pzwiki.net/wiki/Glasses_Sun>`_
+     - 6.48%
+   * - `Cheap Sunglasses <https://pzwiki.net/wiki/Glasses_SunCheap>`_
+     - 6.48%
+   * - `Friendship Bracelet <https://pzwiki.net/wiki/Bracelet_LeftFriendshipTINT>`_
+     - 6.48%
+   * - `Earrings - Pearl <https://pzwiki.net/wiki/Earring_Pearl>`_
+     - 6.48%
+   * - `Choker <https://pzwiki.net/wiki/Necklace_Choker>`_
+     - 6.48%
+   * - `Necklace - Crucifix <https://pzwiki.net/wiki/Necklace_Crucifix>`_
+     - 6.48%
+   * - `Dog Tags <https://pzwiki.net/wiki/Necklace_DogTag>`_
+     - 6.48%
+   * - `Pearl Necklace <https://pzwiki.net/wiki/Necklace_Pearl>`_
+     - 6.48%
+   * - `Necklace - Yin and Yang Symbol <https://pzwiki.net/wiki/Necklace_YingYang>`_
+     - 6.48%
+   * - `Base.CDPlayer <https://pzwiki.net/wiki/CDPlayer>`_
+     - 6.48%
+   * - `Cordless Phone <https://pzwiki.net/wiki/CordlessPhone>`_
+     - 6.48%
+   * - `Earbuds <https://pzwiki.net/wiki/Earbuds>`_
+     - 6.48%
+   * - `Headphones <https://pzwiki.net/wiki/Headphones>`_
+     - 6.48%
+   * - `Pager <https://pzwiki.net/wiki/Pager>`_
+     - 6.48%
+   * - `Handheld Game Console <https://pzwiki.net/wiki/VideoGame>`_
+     - 6.48%
+   * - `Key Ring - Bass <https://pzwiki.net/wiki/KeyRing_Bass>`_
+     - 6.48%
+   * - `Key Ring - Blue Fox <https://pzwiki.net/wiki/KeyRing_BlueFox>`_
+     - 6.48%
+   * - `Key Ring - Bug <https://pzwiki.net/wiki/KeyRing_Bug>`_
+     - 6.48%
+   * - `Key Ring - Four-Leaf Clover <https://pzwiki.net/wiki/KeyRing_Clover>`_
+     - 6.48%
+   * - `Key Ring - American Eagle <https://pzwiki.net/wiki/KeyRing_EagleFlag>`_
+     - 6.48%
+   * - `Key Ring - Eight Ball <https://pzwiki.net/wiki/KeyRing_EightBall>`_
+     - 6.48%
+   * - `Key Ring - Hotdog <https://pzwiki.net/wiki/KeyRing_Hotdog>`_
+     - 6.48%
+   * - `Key Ring - Kitty <https://pzwiki.net/wiki/KeyRing_Kitty>`_
+     - 6.48%
+   * - `Key Ring - Panther <https://pzwiki.net/wiki/KeyRing_Panther>`_
+     - 6.48%
+   * - `Key Ring - Pine Tree <https://pzwiki.net/wiki/KeyRing_PineTree>`_
+     - 6.48%
+   * - `Key Ring - Praying Hands <https://pzwiki.net/wiki/KeyRing_PrayingHands>`_
+     - 6.48%
+   * - `Key Ring - Rabbit Foot <https://pzwiki.net/wiki/KeyRing_RabbitFoot>`_
+     - 6.48%
+   * - `Key Ring - Rainbow Star <https://pzwiki.net/wiki/KeyRing_RainbowStar>`_
+     - 6.48%
+   * - `Key Ring - Rubber Duck <https://pzwiki.net/wiki/KeyRing_RubberDuck>`_
+     - 6.48%
+   * - `Key Ring - Sexy <https://pzwiki.net/wiki/KeyRing_Sexy>`_
+     - 6.48%
+   * - `Key Ring - Spiffos <https://pzwiki.net/wiki/KeyRing_Spiffos>`_
+     - 6.48%
+   * - `Key Ring - Stinky Face <https://pzwiki.net/wiki/KeyRing_StinkyFace>`_
+     - 6.48%
+   * - `Key Ring - West Maple Country Club <https://pzwiki.net/wiki/KeyRing_WestMaple>`_
+     - 6.48%
+   * - `Key Ring - 12 <https://pzwiki.net/wiki/KeyRing_Racing12>`_
+     - 6.48%
+   * - `Key Ring - 34 <https://pzwiki.net/wiki/KeyRing_Racing34>`_
+     - 6.48%
+   * - `Key Ring - 58 <https://pzwiki.net/wiki/KeyRing_Racing58>`_
+     - 6.48%
+   * - `Umbrella (Closed) <https://pzwiki.net/wiki/ClosedUmbrellaTINTED>`_
+     - 6.48%
+   * - `Flask <https://pzwiki.net/wiki/Flask>`_
+     - 6.48%
+   * - `Silver Bangle <https://pzwiki.net/wiki/Bracelet_BangleLeftSilver>`_
+     - 3.24%
+   * - `Silver Chain Bracelet <https://pzwiki.net/wiki/Bracelet_ChainLeftSilver>`_
+     - 3.24%
+   * - `Silver Earrings - Stud <https://pzwiki.net/wiki/Earring_Stud_Silver>`_
+     - 3.24%
+   * - `Silver Necklace <https://pzwiki.net/wiki/Necklace_Silver>`_
+     - 3.24%
+   * - `Silver Necklace with Crucifix <https://pzwiki.net/wiki/Necklace_SilverCrucifix>`_
+     - 3.24%
+   * - `Silver Nose Stud <https://pzwiki.net/wiki/NoseStud_Silver>`_
+     - 3.24%
+   * - `Silver Ring <https://pzwiki.net/wiki/Ring_Left_RingFinger_Silver>`_
+     - 3.24%
+   * - `Gold Bangle <https://pzwiki.net/wiki/Bracelet_BangleLeftGold>`_
+     - 0.65%
+   * - `Gold Chain Bracelet <https://pzwiki.net/wiki/Bracelet_ChainLeftGold>`_
+     - 0.65%
+   * - `Gold Earrings - Stud <https://pzwiki.net/wiki/Earring_Stud_Gold>`_
+     - 0.65%
+   * - `Gold Necklace <https://pzwiki.net/wiki/Necklace_Gold>`_
+     - 0.65%
+   * - `Gold Nose Stud <https://pzwiki.net/wiki/NoseStud_Gold>`_
+     - 0.65%
+   * - `Gold Ring <https://pzwiki.net/wiki/Ring_Left_RingFinger_Gold>`_
+     - 0.65%
+   * - `Handiknife <https://pzwiki.net/wiki/Handiknife>`_
+     - 0.65%
+   * - `Multitool <https://pzwiki.net/wiki/Multitool>`_
+     - 0.65%
+   * - `Switchblade <https://pzwiki.net/wiki/SwitchKnife>`_
+     - 0.65%
+
 .. _procedural-distribution-MagazineRackAdult:
 
 MagazineRackAdult
@@ -101061,6 +101568,194 @@ MusicSchoolCases
    * - `Guitar Case <https://pzwiki.net/wiki/Guitarcase>`_
      - 80.00%
 
+.. _procedural-distribution-MusicSchoolDesk:
+
+MusicSchoolDesk
+---------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Sheet of Paper <https://pzwiki.net/wiki/SheetPaper2>`_
+     - 73.07%
+   * - `Book <https://pzwiki.net/wiki/Book_Music>`_
+     - 63.94%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Music>`_
+     - 63.94%
+   * - `Note <https://pzwiki.net/wiki/Note>`_
+     - 27.40%
+   * - `Paperclip <https://pzwiki.net/wiki/Paperclip>`_
+     - 9.13%
+   * - `Staples <https://pzwiki.net/wiki/Staples>`_
+     - 9.13%
+   * - `Receipt <https://pzwiki.net/wiki/Receipt>`_
+     - 9.13%
+   * - `Rubber Band <https://pzwiki.net/wiki/RubberBand>`_
+     - 8.22%
+   * - `Pencil <https://pzwiki.net/wiki/Pencil>`_
+     - 7.31%
+   * - `Clipboard <https://pzwiki.net/wiki/Clipboard>`_
+     - 7.31%
+   * - `Eraser <https://pzwiki.net/wiki/Eraser>`_
+     - 7.31%
+   * - `Notepad <https://pzwiki.net/wiki/Notepad>`_
+     - 7.31%
+   * - `Pen - Blue <https://pzwiki.net/wiki/BluePen>`_
+     - 3.65%
+   * - `Pen - Black <https://pzwiki.net/wiki/Pen>`_
+     - 3.65%
+   * - `Pen - Red <https://pzwiki.net/wiki/RedPen>`_
+     - 3.65%
+   * - `Calculator <https://pzwiki.net/wiki/Calculator>`_
+     - 3.65%
+   * - `Correction Fluid <https://pzwiki.net/wiki/CorrectionFluid>`_
+     - 3.65%
+   * - `Hole Puncher <https://pzwiki.net/wiki/HolePuncher>`_
+     - 3.65%
+   * - `Adhesive Tape <https://pzwiki.net/wiki/Scotchtape>`_
+     - 3.65%
+   * - `Stapler <https://pzwiki.net/wiki/Stapler>`_
+     - 3.65%
+   * - `Catalog <https://pzwiki.net/wiki/Catalog>`_
+     - 3.65%
+   * - `Notebook <https://pzwiki.net/wiki/Notebook>`_
+     - 3.65%
+   * - `Magazine: TV Monthly <https://pzwiki.net/wiki/TVMagazine>`_
+     - 3.65%
+   * - `Cigarette Pack <https://pzwiki.net/wiki/CigarettePack>`_
+     - 3.65%
+   * - `Credit Card <https://pzwiki.net/wiki/CreditCard>`_
+     - 3.65%
+   * - `Matchbook <https://pzwiki.net/wiki/Matches>`_
+     - 3.65%
+   * - `Money <https://pzwiki.net/wiki/Money>`_
+     - 3.65%
+   * - `Glue <https://pzwiki.net/wiki/Glue>`_
+     - 1.83%
+   * - `Handwritten Letter <https://pzwiki.net/wiki/LetterHandwritten>`_
+     - 1.83%
+   * - `Scissors <https://pzwiki.net/wiki/Scissors>`_
+     - 1.83%
+   * - `Safety Scissors <https://pzwiki.net/wiki/ScissorsBlunt>`_
+     - 1.83%
+   * - `Brochure <https://pzwiki.net/wiki/Brochure>`_
+     - 1.83%
+   * - `Flier <https://pzwiki.net/wiki/Flier>`_
+     - 1.83%
+   * - `Mail <https://pzwiki.net/wiki/GenericMail>`_
+     - 1.83%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine>`_
+     - 1.83%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Popular>`_
+     - 1.83%
+   * - `Old Newspaper <https://pzwiki.net/wiki/Newspaper>`_
+     - 1.83%
+   * - `Newspaper <https://pzwiki.net/wiki/Newspaper_Recent>`_
+     - 1.83%
+   * - `Comb <https://pzwiki.net/wiki/Comb>`_
+     - 1.83%
+   * - `CD Player <https://pzwiki.net/wiki/CDplayer>`_
+     - 1.83%
+   * - `CD <https://pzwiki.net/wiki/Disc_Retail>`_
+     - 1.83%
+   * - `Lighter - Disposable <https://pzwiki.net/wiki/LighterDisposable>`_
+     - 1.83%
+   * - `ValuTech Radio <https://pzwiki.net/wiki/RadioBlack>`_
+     - 1.83%
+   * - `Box of Paperclips <https://pzwiki.net/wiki/PaperclipBox>`_
+     - 0.91%
+   * - `T-square <https://pzwiki.net/wiki/Tsquare>`_
+     - 0.91%
+   * - `Twine <https://pzwiki.net/wiki/Twine>`_
+     - 0.91%
+   * - `Business Card <https://pzwiki.net/wiki/BusinessCard>`_
+     - 0.91%
+   * - `Doodle <https://pzwiki.net/wiki/Doodle>`_
+     - 0.91%
+   * - `Magazine: Crossword <https://pzwiki.net/wiki/MagazineCrossword>`_
+     - 0.91%
+   * - `Magazine: Wordsearch <https://pzwiki.net/wiki/MagazineWordsearch>`_
+     - 0.91%
+   * - `Menu <https://pzwiki.net/wiki/MenuCard>`_
+     - 0.91%
+   * - `Cologne <https://pzwiki.net/wiki/Cologne>`_
+     - 0.91%
+   * - `Lipstick <https://pzwiki.net/wiki/Lipstick>`_
+     - 0.91%
+   * - `Eye Makeup <https://pzwiki.net/wiki/MakeupEyeshadow>`_
+     - 0.91%
+   * - `Foundation Makeup <https://pzwiki.net/wiki/MakeupFoundation>`_
+     - 0.91%
+   * - `Mirror <https://pzwiki.net/wiki/Mirror>`_
+     - 0.91%
+   * - `Perfume <https://pzwiki.net/wiki/Perfume>`_
+     - 0.91%
+   * - `Toothbrush <https://pzwiki.net/wiki/Toothbrush>`_
+     - 0.91%
+   * - `Playing Cards <https://pzwiki.net/wiki/CardDeck>`_
+     - 0.91%
+   * - `Premium Technologies Radio <https://pzwiki.net/wiki/RadioRed>`_
+     - 0.91%
+   * - `Briefcase <https://pzwiki.net/wiki/Briefcase>`_
+     - 0.91%
+   * - `Lunchbag <https://pzwiki.net/wiki/Lunchbag>`_
+     - 0.91%
+   * - `Lunchbox <https://pzwiki.net/wiki/Lunchbox>`_
+     - 0.91%
+   * - `Marker - Black <https://pzwiki.net/wiki/MarkerBlack>`_
+     - 0.46%
+   * - `Marker - Blue <https://pzwiki.net/wiki/MarkerBlue>`_
+     - 0.46%
+   * - `Marker - Red <https://pzwiki.net/wiki/MarkerRed>`_
+     - 0.46%
+   * - `Fountain Pen <https://pzwiki.net/wiki/PenFancy>`_
+     - 0.46%
+   * - `Letter Opener <https://pzwiki.net/wiki/LetterOpener>`_
+     - 0.46%
+   * - `Wrist Watch - Classic <https://pzwiki.net/wiki/WristWatch_Left_ClassicBlack>`_
+     - 0.46%
+   * - `Wrist Watch - Classic <https://pzwiki.net/wiki/WristWatch_Left_ClassicBrown>`_
+     - 0.46%
+   * - `Handbag <https://pzwiki.net/wiki/Handbag>`_
+     - 0.46%
+   * - `Purse <https://pzwiki.net/wiki/Purse>`_
+     - 0.46%
+   * - `Marker - Green <https://pzwiki.net/wiki/MarkerGreen>`_
+     - 0.09%
+   * - `Magnifying Glass <https://pzwiki.net/wiki/MagnifyingGlass>`_
+     - 0.09%
+   * - `Wrist Watch - Gold <https://pzwiki.net/wiki/WristWatch_Left_ClassicGold>`_
+     - 0.09%
+   * - `Digital Watch - Metallic Dress Style <https://pzwiki.net/wiki/WristWatch_Left_DigitalDress>`_
+     - 0.09%
+   * - `Wrist Watch - Luthex <https://pzwiki.net/wiki/WristWatch_Left_Expensive>`_
+     - 0.01%
+   * - `Lunchbox <https://pzwiki.net/wiki/Lunchbox2>`_
+     - 0.01%
+   * - `Picture of Bob <https://pzwiki.net/wiki/BobPic>`_
+     - 0.00%
+   * - `Picture of Casey-Jo <https://pzwiki.net/wiki/CaseyPic>`_
+     - 0.00%
+   * - `Picture of Chris Bailey <https://pzwiki.net/wiki/ChrisPic>`_
+     - 0.00%
+   * - `Picture of Dr. Cortman <https://pzwiki.net/wiki/CortmanPic>`_
+     - 0.00%
+   * - `Picture of Hank <https://pzwiki.net/wiki/HankPic>`_
+     - 0.00%
+   * - `Picture of James Garcia <https://pzwiki.net/wiki/JamesPic>`_
+     - 0.00%
+   * - `Picture of Kate <https://pzwiki.net/wiki/KatePic>`_
+     - 0.00%
+   * - `Picture of Marianne Brown <https://pzwiki.net/wiki/MariannePic>`_
+     - 0.00%
+
 .. _procedural-distribution-MusicSchoolLocker:
 
 MusicSchoolLocker
@@ -101743,23 +102438,31 @@ NolansFilingCabinet
    * - Item
      - Estimated Chance
    * - `Vehicle Key <https://pzwiki.net/wiki/CarKey>`_
-     - 241.78%
+     - 241.60%
    * - `Sheet of Paper <https://pzwiki.net/wiki/SheetPaper2>`_
-     - 106.38%
+     - 106.30%
    * - `Paperwork <https://pzwiki.net/wiki/Paperwork>`_
-     - 29.01%
+     - 28.99%
    * - `Index Card <https://pzwiki.net/wiki/IndexCard>`_
-     - 9.67%
+     - 9.66%
    * - `Notebook <https://pzwiki.net/wiki/Notebook>`_
-     - 9.67%
+     - 9.66%
    * - `Key <https://pzwiki.net/wiki/Key1>`_
      - 1.45%
    * - `Key Ring - Nolan's Used Cars <https://pzwiki.net/wiki/KeyRing_Nolans>`_
      - 0.97%
    * - `Business Card <https://pzwiki.net/wiki/BusinessCard>`_
      - 0.97%
-   * - `Money Bundle <https://pzwiki.net/wiki/MoneyBundle>`_
+   * - `Cashbox <https://pzwiki.net/wiki/Cashbox>`_
      - 0.10%
+   * - `Cigar Box <https://pzwiki.net/wiki/CigarBox>`_
+     - 0.10%
+   * - `Comic Book <https://pzwiki.net/wiki/ComicBook>`_
+     - 0.10%
+   * - `Flask <https://pzwiki.net/wiki/Flask>`_
+     - 0.10%
+   * - `Money Bundle <https://pzwiki.net/wiki/MoneyBundle>`_
+     - 0.01%
 
 .. _procedural-distribution-NolansFridge:
 
@@ -104555,6 +105258,35 @@ PharmacyCosmetics
    * - `Bottle of Hair Dye <https://pzwiki.net/wiki/HairDyeUncommon>`_
      - 6.35%
 
+.. _procedural-distribution-PharmacyGlasses:
+
+PharmacyGlasses
+---------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-isShop`: Yes
+- :ref:`procedural-distributions-property-rolls`: 6
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Reading Glasses <https://pzwiki.net/wiki/Glasses_Reading>`_
+     - 181.82%
+   * - `Mirror <https://pzwiki.net/wiki/Mirror>`_
+     - 181.82%
+   * - `Cheap Sunglasses <https://pzwiki.net/wiki/Glasses_SunCheap>`_
+     - 127.27%
+   * - `Cosmetic Glasses <https://pzwiki.net/wiki/Glasses_Cosmetic_Normal>`_
+     - 36.36%
+   * - `Horn Rimmed Cosmetic Glasses <https://pzwiki.net/wiki/Glasses_Cosmetic_Normal_HornRimmed>`_
+     - 36.36%
+   * - `Round Cosmetic Glasses <https://pzwiki.net/wiki/Glasses_Cosmetic_Round_Normal>`_
+     - 36.36%
+
 .. _procedural-distribution-Photographer:
 
 Photographer
@@ -105950,17 +106682,27 @@ PoliceFilingCabinet
    * - Item
      - Estimated Chance
    * - `Paperwork <https://pzwiki.net/wiki/Paperwork>`_
-     - 281.37%
+     - 281.15%
    * - `Sheet of Paper <https://pzwiki.net/wiki/SheetPaper2>`_
-     - 76.05%
+     - 75.99%
    * - `Note <https://pzwiki.net/wiki/Note>`_
-     - 22.81%
+     - 22.80%
    * - `Clipboard <https://pzwiki.net/wiki/Clipboard>`_
      - 7.60%
    * - `Notepad <https://pzwiki.net/wiki/Notepad>`_
      - 7.60%
    * - `Notebook <https://pzwiki.net/wiki/Notebook>`_
      - 4.56%
+   * - `Cashbox <https://pzwiki.net/wiki/Cashbox>`_
+     - 0.08%
+   * - `Cigar Box <https://pzwiki.net/wiki/CigarBox>`_
+     - 0.08%
+   * - `Comic Book <https://pzwiki.net/wiki/ComicBook>`_
+     - 0.08%
+   * - `Flask <https://pzwiki.net/wiki/Flask>`_
+     - 0.08%
+   * - `Money Bundle <https://pzwiki.net/wiki/MoneyBundle>`_
+     - 0.01%
 
 .. _procedural-distribution-PoliceLaundry:
 
@@ -107942,6 +108684,155 @@ PrisonGuardLockers
      - 0.02%
    * - `Duffel Bag <https://pzwiki.net/wiki/Bag_MoneyBag>`_
      - 0.00%
+
+.. _procedural-distribution-PrisonIntakeLockers:
+
+PrisonIntakeLockers
+-------------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 8
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Belt <https://pzwiki.net/wiki/Belt2>`_
+     - 61.39%
+   * - `Tank Top <https://pzwiki.net/wiki/Vest_DefaultTEXTURE_TINT>`_
+     - 61.39%
+   * - `Hoodie <https://pzwiki.net/wiki/HoodieDOWN_WhiteTINT>`_
+     - 30.70%
+   * - `Shirt - Lumberjack <https://pzwiki.net/wiki/Shirt_Lumberjack>`_
+     - 30.70%
+   * - `Shirt - Lumberjack <https://pzwiki.net/wiki/Shirt_Lumberjack_TINT>`_
+     - 30.70%
+   * - `Shoes <https://pzwiki.net/wiki/Shoes_Random>`_
+     - 30.70%
+   * - `Sneakers <https://pzwiki.net/wiki/Shoes_TrainerTINT>`_
+     - 30.70%
+   * - `Long Shorts - Denim <https://pzwiki.net/wiki/Shorts_LongDenim>`_
+     - 30.70%
+   * - `Shorts - Denim <https://pzwiki.net/wiki/Shorts_ShortDenim>`_
+     - 30.70%
+   * - `Jeans <https://pzwiki.net/wiki/Trousers_Denim>`_
+     - 30.70%
+   * - `Jeans - Baggy <https://pzwiki.net/wiki/Trousers_JeanBaggy>`_
+     - 30.70%
+   * - `T-shirt <https://pzwiki.net/wiki/Tshirt_WhiteTINT>`_
+     - 30.70%
+   * - `Military Jacket - Green Camo <https://pzwiki.net/wiki/Jacket_ArmyCamoGreen>`_
+     - 15.35%
+   * - `Jacket <https://pzwiki.net/wiki/Jacket_WhiteTINT>`_
+     - 15.35%
+   * - `Military Shirt - Green Camo <https://pzwiki.net/wiki/Shirt_CamoGreen>`_
+     - 15.35%
+   * - `Shirt - Denim <https://pzwiki.net/wiki/Shirt_Denim>`_
+     - 15.35%
+   * - `Work Boots <https://pzwiki.net/wiki/Shoes_WorkBoots>`_
+     - 15.35%
+   * - `Military Shorts - Green Camo <https://pzwiki.net/wiki/Shorts_CamoGreenLong>`_
+     - 15.35%
+   * - `Military Pants - Green Camo <https://pzwiki.net/wiki/Trousers_CamoGreen>`_
+     - 15.35%
+   * - `Pants <https://pzwiki.net/wiki/Trousers_DefaultTEXTURE>`_
+     - 15.35%
+   * - `Pants <https://pzwiki.net/wiki/Trousers_DefaultTEXTURE_TINT>`_
+     - 15.35%
+   * - `Pants <https://pzwiki.net/wiki/Trousers_WhiteTINT>`_
+     - 15.35%
+   * - `Military T-shirt <https://pzwiki.net/wiki/Tshirt_ArmyGreen>`_
+     - 15.35%
+   * - `Military T-shirt - Green Camo <https://pzwiki.net/wiki/Tshirt_CamoGreen>`_
+     - 15.35%
+   * - `T-shirt <https://pzwiki.net/wiki/Tshirt_DefaultTEXTURE_TINT>`_
+     - 15.35%
+   * - `T-shirt - Music <https://pzwiki.net/wiki/Tshirt_Rock>`_
+     - 15.35%
+   * - `Long Sleeve T-shirt <https://pzwiki.net/wiki/Tshirt_WhiteLongSleeveTINT>`_
+     - 15.35%
+   * - `Overalls <https://pzwiki.net/wiki/Dungarees>`_
+     - 7.67%
+   * - `Leather Coat <https://pzwiki.net/wiki/JacketLong_Random>`_
+     - 7.67%
+   * - `Military Jacket - Desert Camo <https://pzwiki.net/wiki/Jacket_ArmyCamoDesert>`_
+     - 7.67%
+   * - `Leather Jacket <https://pzwiki.net/wiki/Jacket_Black>`_
+     - 7.67%
+   * - `Military Shirt - Desert Camo <https://pzwiki.net/wiki/Shirt_CamoDesert>`_
+     - 7.67%
+   * - `Flip-flops <https://pzwiki.net/wiki/Shoes_FlipFlop>`_
+     - 7.67%
+   * - `Military Pants - Desert Camo <https://pzwiki.net/wiki/Trousers_CamoDesert>`_
+     - 7.67%
+   * - `Military T-shirt - Desert Camo <https://pzwiki.net/wiki/Tshirt_CamoDesert>`_
+     - 7.67%
+   * - `Military T-shirt - Urban Camo <https://pzwiki.net/wiki/Tshirt_CamoUrban>`_
+     - 7.67%
+   * - `Overalls - Hunting Camo <https://pzwiki.net/wiki/Dungarees_HuntingCamo>`_
+     - 3.84%
+   * - `Hoodie - Hunting Camo <https://pzwiki.net/wiki/Hoodie_HuntingCamo_DOWN>`_
+     - 3.84%
+   * - `Military Jacket - Urban Camo <https://pzwiki.net/wiki/Jacket_ArmyCamoUrban>`_
+     - 3.84%
+   * - `Jacket - Hunting Camo <https://pzwiki.net/wiki/Jacket_HuntingCamo>`_
+     - 3.84%
+   * - `Military Shirt - Urban Camo <https://pzwiki.net/wiki/Shirt_CamoUrban>`_
+     - 3.84%
+   * - `Shirt - Hawaiian <https://pzwiki.net/wiki/Shirt_HawaiianRed>`_
+     - 3.84%
+   * - `Shirt - Hawaiian <https://pzwiki.net/wiki/Shirt_HawaiianTINT>`_
+     - 3.84%
+   * - `Military Boots <https://pzwiki.net/wiki/Shoes_ArmyBoots>`_
+     - 3.84%
+   * - `Hiking Boots <https://pzwiki.net/wiki/Shoes_HikingBoots>`_
+     - 3.84%
+   * - `Rubber Boots <https://pzwiki.net/wiki/Shoes_Wellies>`_
+     - 3.84%
+   * - `Military Shorts - Urban Camo <https://pzwiki.net/wiki/Shorts_CamoUrbanLong>`_
+     - 3.84%
+   * - `Military Pants - Urban Camo <https://pzwiki.net/wiki/Trousers_CamoUrban>`_
+     - 3.84%
+   * - `T-shirt <https://pzwiki.net/wiki/Tshirt_DefaultDECAL_TINT>`_
+     - 3.84%
+   * - `T-shirt - Hunting Camo <https://pzwiki.net/wiki/Tshirt_HuntingCamo>`_
+     - 3.84%
+   * - `Long Sleeve T-shirt - Hunting Camo <https://pzwiki.net/wiki/Tshirt_LongSleeve_HuntingCamo>`_
+     - 3.84%
+   * - `Long Sleeve T-shirt <https://pzwiki.net/wiki/Tshirt_LongSleeve_SuperColor>`_
+     - 3.84%
+   * - `T-shirt <https://pzwiki.net/wiki/Tshirt_SuperColor>`_
+     - 3.84%
+   * - `T-shirt - Tie Dye <https://pzwiki.net/wiki/Tshirt_TieDye>`_
+     - 3.84%
+   * - `Military Boots - Desert <https://pzwiki.net/wiki/Shoes_ArmyBootsDesert>`_
+     - 0.77%
+   * - `Pants - Hunting Camo <https://pzwiki.net/wiki/Trousers_HuntingCamo>`_
+     - 0.77%
+   * - `Padded Jacket - Hunting Camo <https://pzwiki.net/wiki/Jacket_Padded_HuntingCamo>`_
+     - 0.38%
+
+.. _procedural-distribution-PrisonIntakePersonalObjects:
+
+PrisonIntakePersonalObjects
+---------------------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.CigarettePack', 20], ['Base.Cigarillo', 10], ['Base.CordlessPhone', 10], ['Base.Cologne', 10], ['Base.Comb', 10], ['Base.LighterDisposable', 20], ['Base.Money', 50], ['Base.Money', 20], ['Base.TobaccoChewing', 10], ['Base.Wallet_Male', 100], ['Base.FlaskEmpty', 1], ['Base.GuitarPick', 1], ['Base.Harmonica', 1], ['Base.Hairgel', 1], ['Base.KnifePocket', 1], ['Base.PokerChips', 1], ['Base.SmokingPipe', 1], ['Base.SnowGlobe', 1], ['Base.TuningFork', 1], ['Base.Whistle', 1]], 'rolls': 1}
+- :ref:`procedural-distributions-property-rolls`: 8
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Paper Bag <https://pzwiki.net/wiki/PaperBag>`_
+     - 800.00%
 
 .. _procedural-distribution-PrisonLaundry:
 
@@ -114762,35 +115653,55 @@ SalonCounter
    * - Item
      - Estimated Chance
    * - `Comb <https://pzwiki.net/wiki/Comb>`_
-     - 66.23%
+     - 64.10%
    * - `Hair Spray <https://pzwiki.net/wiki/Hairspray2>`_
-     - 66.23%
+     - 64.10%
    * - `Scissors <https://pzwiki.net/wiki/Scissors>`_
-     - 66.23%
-   * - `Bath Towel <https://pzwiki.net/wiki/BathTowel>`_
-     - 26.49%
-   * - `Hair Dryer <https://pzwiki.net/wiki/HairDryer>`_
-     - 26.49%
-   * - `Hair Iron <https://pzwiki.net/wiki/HairIron>`_
-     - 26.49%
-   * - `Hair Gel <https://pzwiki.net/wiki/Hairgel>`_
-     - 26.49%
+     - 64.10%
    * - `Magazine <https://pzwiki.net/wiki/Magazine_Fashion>`_
-     - 26.49%
+     - 38.46%
+   * - `Bath Towel <https://pzwiki.net/wiki/BathTowel>`_
+     - 25.64%
+   * - `Hair Dryer <https://pzwiki.net/wiki/HairDryer>`_
+     - 25.64%
+   * - `Hair Iron <https://pzwiki.net/wiki/HairIron>`_
+     - 25.64%
+   * - `Hair Gel <https://pzwiki.net/wiki/Hairgel>`_
+     - 25.64%
    * - `Straight Razor <https://pzwiki.net/wiki/StraightRazor>`_
-     - 26.49%
+     - 25.64%
    * - `Bottle of Hair Dye <https://pzwiki.net/wiki/HairDyeCommon>`_
-     - 13.25%
+     - 12.82%
    * - `Paperback <https://pzwiki.net/wiki/Paperback_Fashion>`_
-     - 10.60%
+     - 10.26%
    * - `Bottle of Hair Dye <https://pzwiki.net/wiki/HairDyeUncommon>`_
-     - 5.30%
+     - 5.13%
    * - `Old Newspaper <https://pzwiki.net/wiki/Newspaper>`_
-     - 5.30%
+     - 5.13%
    * - `Newspaper <https://pzwiki.net/wiki/Newspaper_Recent>`_
-     - 5.30%
+     - 5.13%
    * - `Book <https://pzwiki.net/wiki/Book_Fashion>`_
-     - 2.65%
+     - 2.56%
+
+.. _procedural-distribution-SalonMagazines:
+
+SalonMagazines
+--------------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 6
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Fashion_New>`_
+     - 500.00%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Fashion>`_
+     - 100.00%
 
 .. _procedural-distribution-SalonShelfHaircare:
 
@@ -114903,6 +115814,122 @@ SchoolGymSportsGear
      - 2.88%
    * - `Hockey Mask <https://pzwiki.net/wiki/Hat_HockeyMask>`_
      - 2.88%
+
+.. _procedural-distribution-SchoolLab:
+
+SchoolLab
+---------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Scrap Electronics <https://pzwiki.net/wiki/ElectronicsScrap>`_
+     - 26.56%
+   * - `Apron <https://pzwiki.net/wiki/Apron_White>`_
+     - 13.28%
+   * - `Surgical Gloves <https://pzwiki.net/wiki/Gloves_Surgical>`_
+     - 13.28%
+   * - `Surgical Mask <https://pzwiki.net/wiki/Hat_SurgicalMask>`_
+     - 13.28%
+   * - `Cotton Balls <https://pzwiki.net/wiki/CottonBalls>`_
+     - 13.28%
+   * - `Battery <https://pzwiki.net/wiki/Battery>`_
+     - 13.28%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Science>`_
+     - 13.28%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Tech>`_
+     - 13.28%
+   * - `Tongs <https://pzwiki.net/wiki/Tongs>`_
+     - 13.28%
+   * - `Tweezers <https://pzwiki.net/wiki/Tweezers>`_
+     - 13.28%
+   * - `Rubber Hose <https://pzwiki.net/wiki/RubberHose>`_
+     - 13.28%
+   * - `Safety Goggles <https://pzwiki.net/wiki/Glasses_SafetyGoggles>`_
+     - 10.62%
+   * - `Medical Scrubs <https://pzwiki.net/wiki/Shirt_Scrubs>`_
+     - 10.62%
+   * - `Pants - Medical <https://pzwiki.net/wiki/Trousers_Scrubs>`_
+     - 10.62%
+   * - `Bottle of Disinfectant <https://pzwiki.net/wiki/Disinfectant>`_
+     - 10.62%
+   * - `Paperback <https://pzwiki.net/wiki/Paperback_Medical>`_
+     - 10.62%
+   * - `Paperback <https://pzwiki.net/wiki/Paperback_Science>`_
+     - 10.62%
+   * - `Baking Soda <https://pzwiki.net/wiki/BakingSoda>`_
+     - 10.62%
+   * - `Jug of Vinegar <https://pzwiki.net/wiki/Vinegar_Jug>`_
+     - 10.62%
+   * - `Pen - Blue <https://pzwiki.net/wiki/BluePen>`_
+     - 10.62%
+   * - `Calculator <https://pzwiki.net/wiki/Calculator>`_
+     - 10.62%
+   * - `Clipboard <https://pzwiki.net/wiki/Clipboard>`_
+     - 10.62%
+   * - `Notepad <https://pzwiki.net/wiki/Notepad>`_
+     - 10.62%
+   * - `Pen - Black <https://pzwiki.net/wiki/Pen>`_
+     - 10.62%
+   * - `Pen - Red <https://pzwiki.net/wiki/RedPen>`_
+     - 10.62%
+   * - `Medical Coat <https://pzwiki.net/wiki/JacketLong_Doctor>`_
+     - 5.31%
+   * - `Electrical Wire <https://pzwiki.net/wiki/ElectricWire>`_
+     - 5.31%
+   * - `Light Bulb - Green <https://pzwiki.net/wiki/LightBulbGreen>`_
+     - 5.31%
+   * - `Light Bulb - Red <https://pzwiki.net/wiki/LightBulbRed>`_
+     - 5.31%
+   * - `Radio Receiver <https://pzwiki.net/wiki/RadioReceiver>`_
+     - 5.31%
+   * - `Radio Transmitter <https://pzwiki.net/wiki/RadioTransmitter>`_
+     - 5.31%
+   * - `Scanner Module <https://pzwiki.net/wiki/ScannerModule>`_
+     - 5.31%
+   * - `Book <https://pzwiki.net/wiki/Book_Medical>`_
+     - 5.31%
+   * - `Book <https://pzwiki.net/wiki/Book_Science>`_
+     - 5.31%
+   * - `Bleach <https://pzwiki.net/wiki/Bleach>`_
+     - 5.31%
+   * - `Candle <https://pzwiki.net/wiki/Candle>`_
+     - 5.31%
+   * - `White Sugar <https://pzwiki.net/wiki/Sugar>`_
+     - 5.31%
+   * - `Base.WaterDispenserBottleEmpty <https://pzwiki.net/wiki/WaterDispenserBottleEmpty>`_
+     - 5.31%
+   * - `Pen - Green <https://pzwiki.net/wiki/GreenPen>`_
+     - 5.31%
+   * - `Marker - Black <https://pzwiki.net/wiki/MarkerBlack>`_
+     - 5.31%
+   * - `Half Mask Respirator <https://pzwiki.net/wiki/Hat_BuildersRespirator>`_
+     - 2.66%
+   * - `Respirator Filters <https://pzwiki.net/wiki/RespiratorFilters>`_
+     - 2.66%
+   * - `Notebook <https://pzwiki.net/wiki/Notebook>`_
+     - 2.66%
+   * - `Box of Batteries <https://pzwiki.net/wiki/BatteryBox>`_
+     - 1.33%
+   * - `Marker - Blue <https://pzwiki.net/wiki/MarkerBlue>`_
+     - 0.66%
+   * - `Marker - Green <https://pzwiki.net/wiki/MarkerGreen>`_
+     - 0.66%
+   * - `Marker - Red <https://pzwiki.net/wiki/MarkerRed>`_
+     - 0.66%
+   * - `Fountain Pen <https://pzwiki.net/wiki/PenFancy>`_
+     - 0.66%
+   * - `Nuclear Biochemical Mask <https://pzwiki.net/wiki/Hat_NBCmask>`_
+     - 0.13%
+   * - `Hazmat Suit <https://pzwiki.net/wiki/HazmatSuit>`_
+     - 0.13%
 
 .. _procedural-distribution-SchoolLockers:
 
@@ -117605,6 +118632,82 @@ SmokingRoomPipes
      - 39.22%
    * - `Lighter <https://pzwiki.net/wiki/Lighter>`_
      - 15.69%
+
+.. _procedural-distribution-SpaCabinet:
+
+SpaCabinet
+----------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Cotton Balls <https://pzwiki.net/wiki/CottonBalls>`_
+     - 133.33%
+   * - `Tongue Depressor <https://pzwiki.net/wiki/TongueDepressor>`_
+     - 133.33%
+   * - `Surgical Gloves <https://pzwiki.net/wiki/Gloves_Surgical>`_
+     - 57.14%
+   * - `Tweezers <https://pzwiki.net/wiki/Tweezers>`_
+     - 57.14%
+   * - `Bottle of Disinfectant <https://pzwiki.net/wiki/Disinfectant>`_
+     - 19.05%
+
+.. _procedural-distribution-SpaCounter:
+
+SpaCounter
+----------
+
+**Properties:**
+
+- :ref:`procedural-distributions-property-rolls`: 4
+
+.. list-table::
+   :header-rows: 1
+   :widths: auto
+
+   * - Item
+     - Estimated Chance
+   * - `Shower Cap <https://pzwiki.net/wiki/Hat_ShowerCap>`_
+     - 35.09%
+   * - `Bathrobe <https://pzwiki.net/wiki/LongCoat_Bathrobe>`_
+     - 35.09%
+   * - `Bath Towel <https://pzwiki.net/wiki/BathTowel>`_
+     - 35.09%
+   * - `Cotton Balls <https://pzwiki.net/wiki/CottonBalls>`_
+     - 35.09%
+   * - `Surgical Gloves <https://pzwiki.net/wiki/Gloves_Surgical>`_
+     - 35.09%
+   * - `Soap <https://pzwiki.net/wiki/Soap2>`_
+     - 35.09%
+   * - `Tongue Depressor <https://pzwiki.net/wiki/TongueDepressor>`_
+     - 35.09%
+   * - `Flip-flops <https://pzwiki.net/wiki/Shoes_FlipFlop>`_
+     - 17.54%
+   * - `Slippers <https://pzwiki.net/wiki/Shoes_Slippers>`_
+     - 17.54%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Fashion>`_
+     - 17.54%
+   * - `Magazine <https://pzwiki.net/wiki/Magazine_Popular>`_
+     - 17.54%
+   * - `Bottle of Disinfectant <https://pzwiki.net/wiki/Disinfectant>`_
+     - 17.54%
+   * - `Perfume <https://pzwiki.net/wiki/Perfume>`_
+     - 17.54%
+   * - `Tweezers <https://pzwiki.net/wiki/Tweezers>`_
+     - 17.54%
+   * - `Headphones <https://pzwiki.net/wiki/Headphones>`_
+     - 17.54%
+   * - `Old Newspaper <https://pzwiki.net/wiki/Newspaper>`_
+     - 7.02%
+   * - `Newspaper <https://pzwiki.net/wiki/Newspaper_Recent>`_
+     - 7.02%
 
 .. _procedural-distribution-SpiffosDesk:
 
@@ -129739,51 +130842,53 @@ WildWestBlacksmith
    * - Item
      - Estimated Chance
    * - `Bellows <https://pzwiki.net/wiki/Bellows>`_
-     - 41.24%
+     - 40.40%
    * - `Tongs <https://pzwiki.net/wiki/Tongs>`_
-     - 41.24%
+     - 40.40%
    * - `Wooden Bucket <https://pzwiki.net/wiki/BucketWood>`_
-     - 32.99%
+     - 32.32%
    * - `Smithing Hammer <https://pzwiki.net/wiki/SmithingHammer>`_
-     - 32.99%
+     - 32.32%
    * - `Coke <https://pzwiki.net/wiki/Coke>`_
-     - 32.99%
+     - 32.32%
    * - `Tool Forging Plan <https://pzwiki.net/wiki/BSToolsSchematic>`_
-     - 32.99%
+     - 32.32%
    * - `File <https://pzwiki.net/wiki/File>`_
-     - 16.49%
+     - 16.16%
    * - `Metalworking Chisel <https://pzwiki.net/wiki/MetalworkingChisel>`_
-     - 16.49%
+     - 16.16%
    * - `Metalworking Pliers <https://pzwiki.net/wiki/MetalworkingPliers>`_
-     - 16.49%
+     - 16.16%
    * - `Metalworking Punch <https://pzwiki.net/wiki/MetalworkingPunch>`_
-     - 16.49%
+     - 16.16%
    * - `Iron Bar Quarter <https://pzwiki.net/wiki/IronBarQuarter>`_
-     - 16.49%
+     - 16.16%
    * - `Cookware Forging Recipe <https://pzwiki.net/wiki/CookwareSchematic>`_
-     - 16.49%
+     - 16.16%
    * - `Leather Gloves <https://pzwiki.net/wiki/Gloves_LeatherGlovesBrown>`_
-     - 16.49%
+     - 16.16%
    * - `Wooden Bucket <https://pzwiki.net/wiki/BucketLargeWood>`_
-     - 8.25%
+     - 8.08%
    * - `Iron Bar Half <https://pzwiki.net/wiki/IronBarHalf>`_
-     - 8.25%
+     - 8.08%
    * - `Wooden Bar Cast Mold <https://pzwiki.net/wiki/WoodenBarCastMold>`_
-     - 8.25%
+     - 8.08%
    * - `Wooden Brick Mold <https://pzwiki.net/wiki/WoodenBrickMold>`_
-     - 8.25%
+     - 8.08%
+   * - `Base.WoodenCrucibleMold <https://pzwiki.net/wiki/WoodenCrucibleMold>`_
+     - 8.08%
    * - `Wooden Ingot Cast Mold <https://pzwiki.net/wiki/WoodenIngotCastMold>`_
-     - 8.25%
+     - 8.08%
    * - `Wooden Shingle Mold <https://pzwiki.net/wiki/WoodenShingleMold>`_
-     - 8.25%
+     - 8.08%
    * - `Wooden Tile Mold <https://pzwiki.net/wiki/WoodenTileMold>`_
-     - 8.25%
+     - 8.08%
    * - `Wooden Blacksmith Anvil Mold <https://pzwiki.net/wiki/WoodenBlacksmithAnvilMold>`_
-     - 4.12%
+     - 4.04%
    * - `Old Welding Goggles <https://pzwiki.net/wiki/Glasses_OldWeldingGoggles>`_
-     - 4.12%
+     - 4.04%
    * - `Blacksmithing III: "Old West Smiths and Their Secrets" <https://pzwiki.net/wiki/BookBlacksmith3>`_
-     - 4.12%
+     - 4.04%
 
 .. _procedural-distribution-WildWestClothing:
 

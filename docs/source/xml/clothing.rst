@@ -50,6 +50,8 @@ The file should be stored at the exact path ``media/clothing/clothing.xml`` and 
      </m_MaleOutfits>
    </outfitManager>
 
+Due to all the GUID work between the clothing.xml, fileGuidTable.xml and clothingItem.xml files, it can be easy to get lost. `Outfit XML Convereter <https://pzwiki.net/wiki/Outfit_XML_Converter>`_ can help you with the process.
+
 
 File Patterns
 -------------
@@ -249,7 +251,7 @@ subItems
 
 :Type: :ref:`type_subItem <clothing-type_subitem>`
 
-Define a sub-item for a specific clothing item used in the outfit, so other items can also be picked.
+Define a sub-item for a specific clothing item used in the outfit, so other items can also be picked. Any sub-item can be added as variant choices.
 
 
 .. _clothing-type_subitem:

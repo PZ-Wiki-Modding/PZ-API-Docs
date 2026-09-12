@@ -51,13 +51,11 @@ The fluid capacity of the container, the minimum value is ``0.05``.
 .. attribute:: ContainerName
    :noindex:
 
-:Type: string
-
-:Is useless: True
+:Type: translation
 
 :Default: ``FluidContainer``
 
-The name of the fluid container, seems to be unused. The name cannot have whitespaces, the game will sanitize it to remove them and show an error in the console about it.
+The name of the fluid container. The name cannot have whitespaces, the game will sanitize it to remove them and show an error in the console about it.
 
 
 .. _scripts-component-fluidcontainer-customdrinksound:
