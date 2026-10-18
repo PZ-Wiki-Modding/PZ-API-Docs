@@ -8,6 +8,7 @@ DOC_LINK = r"https://pz-wiki-modding.github.io/PZ-API-Docs" # i hate it
 
 def sanitize_description(description: str) -> str:
     """Sanitize the provided description by converting Markdown to reStructuredText."""
+    description = description.replace('```cpp', '```zedscripts')
     return m2r.convert(description).strip()
 
 

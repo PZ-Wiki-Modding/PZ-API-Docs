@@ -6,6 +6,10 @@ import re
 import json
 from pathlib import Path
 
+from ZedScripts.structure.pygments_lexer import ZedScriptsLexer
+from sphinx.highlighting import lexers
+lexers['zedscripts'] = ZedScriptsLexer()
+
 # Add parent directory and docs directory to path
 sys.path.insert(0, os.path.abspath('../../'))
 sys.path.insert(0, os.path.abspath('../'))

@@ -19,4 +19,7 @@ dependencies = [
 
     # datasets
     "pz_scripts_data @ git+https://github.com/PZ-Wiki-Modding/pz-scripts-data.git",
+
+    # pygments
+    "ZedScripts[pygments] >= 1.2.0"
 ]
