@@ -3300,7 +3300,7 @@ BackstageCounter
      - 0.05%
    * - `Wizard Hat <https://pzwiki.net/wiki/Hat_Wizard>`_
      - 0.05%
-   * - `SCBA (No Tank) <https://pzwiki.net/wiki/SCBA_notank>`_
+   * - `SCBA <https://pzwiki.net/wiki/SCBA>`_
      - 0.05%
    * - `Jockey Helmet - No. 1 <https://pzwiki.net/wiki/Hat_JockeyHelmet01>`_
      - 0.03%
@@ -4123,7 +4123,7 @@ BackstageLockers
      - 0.02%
    * - `Leather Jacket - Wild Racoons <https://pzwiki.net/wiki/Jacket_LeatherWildRacoons>`_
      - 0.02%
-   * - `SCBA (No Tank) <https://pzwiki.net/wiki/SCBA_notank>`_
+   * - `SCBA <https://pzwiki.net/wiki/SCBA>`_
      - 0.02%
    * - `Hunting Vest - Gray <https://pzwiki.net/wiki/Vest_Hunting_Grey>`_
      - 0.02%
@@ -43173,7 +43173,7 @@ CrateCostume
      - 0.27%
    * - `Long Teeth Necklace <https://pzwiki.net/wiki/NecklaceLong_Teeth>`_
      - 0.27%
-   * - `SCBA (No Tank) <https://pzwiki.net/wiki/SCBA_notank>`_
+   * - `SCBA <https://pzwiki.net/wiki/SCBA>`_
      - 0.27%
    * - `Whistle <https://pzwiki.net/wiki/Whistle>`_
      - 0.27%
@@ -47165,7 +47165,7 @@ CrateRandomJunk
      - 0.03%
    * - `Box of Paperclips <https://pzwiki.net/wiki/PaperclipBox>`_
      - 0.03%
-   * - `SCBA (No Tank) <https://pzwiki.net/wiki/SCBA_notank>`_
+   * - `SCBA <https://pzwiki.net/wiki/SCBA>`_
      - 0.03%
    * - `Pouch <https://pzwiki.net/wiki/SeedBag>`_
      - 0.03%
@@ -74781,7 +74781,7 @@ FiremanOutfit
      - 6.90%
    * - `Long Johns <https://pzwiki.net/wiki/LongJohns>`_
      - 6.90%
-   * - `SCBA (No Tank) <https://pzwiki.net/wiki/SCBA_notank>`_
+   * - `SCBA <https://pzwiki.net/wiki/SCBA>`_
      - 6.90%
    * - `Leather Gloves <https://pzwiki.net/wiki/Gloves_LeatherGloves>`_
      - 3.45%
@@ -74985,7 +74985,7 @@ FireStorageOutfit
      - 100.84%
    * - `Work Boots <https://pzwiki.net/wiki/Shoes_WorkBoots>`_
      - 33.61%
-   * - `SCBA (No Tank) <https://pzwiki.net/wiki/SCBA_notank>`_
+   * - `SCBA <https://pzwiki.net/wiki/SCBA>`_
      - 26.89%
    * - `Socks - Heavy <https://pzwiki.net/wiki/Socks_Heavy>`_
      - 26.89%
@@ -111735,7 +111735,7 @@ SafehouseArmor_Late
      - 0.60%
    * - `Wood Mask <https://pzwiki.net/wiki/Hat_HockeyMask_Wood>`_
      - 0.60%
-   * - `SCBA (No Tank) <https://pzwiki.net/wiki/SCBA_notank>`_
+   * - `SCBA <https://pzwiki.net/wiki/SCBA>`_
      - 0.60%
    * - `Aviator Glasses <https://pzwiki.net/wiki/Glasses_Aviators>`_
      - 0.60%
@@ -112055,7 +112055,7 @@ SafehouseArmor_Mid
      - 0.50%
    * - `Wood Mask <https://pzwiki.net/wiki/Hat_HockeyMask_Wood>`_
      - 0.50%
-   * - `SCBA (No Tank) <https://pzwiki.net/wiki/SCBA_notank>`_
+   * - `SCBA <https://pzwiki.net/wiki/SCBA>`_
      - 0.50%
    * - `Aviator Glasses <https://pzwiki.net/wiki/Glasses_Aviators>`_
      - 0.50%

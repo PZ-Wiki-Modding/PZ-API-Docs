@@ -42,7 +42,7 @@ Parameters
 
 The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in crafting menu. Your category should have a key with the suffix ``IGUI_CraftingCategories_`` in the `IG_UI.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#ig-ui>`_ translation file to be properly displayed in the crafting menu. For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    category = MyCategory,
 
@@ -126,7 +126,7 @@ For `OnTest <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftrecipe.h
 
 Specifies the skill level required to perform this crafting action. It should be formatted this way:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    /* a single skill */
    skillRequired = <skill name>:<level>,
@@ -138,7 +138,7 @@ For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRe
 
 For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    skillRequired = Blacksmith:3;Tailoring:2,
 
@@ -154,7 +154,7 @@ For example:
 
 Specifies specific conditions which need to be respected to craft this item. At least one crafting bench tag is necessary for the craft to be recognized, such as ``AnySurfaceCraft``. The syntax is as follows:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    /* single tag */
    Tags = tag1,
@@ -164,7 +164,7 @@ Specifies specific conditions which need to be respected to craft this item. At 
 
 For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    Tags = InHandCraft;CanAlwaysBeResearched,
 
@@ -204,7 +204,7 @@ Refers to a timed action script block to trigger during the crafting process, fo
 
 Description of the crafting which is shown in the crafting menu. The value needs be a key in the `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ translation file. For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    Tooltip = MyTooltipKey,
 
@@ -226,7 +226,7 @@ And in the translation file:
 
 Specifies the experience points awarded for crafting this item. The parameter should be formatted this way:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    /* a single skill */
    xpAward = <skill name>:<xp amount>,
@@ -238,7 +238,7 @@ For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRe
 
 For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    xpAward = Blacksmith:10;Tailoring:5,
 

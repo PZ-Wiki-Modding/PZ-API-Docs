@@ -9,7 +9,7 @@ The item block is used to create items in the game, from weapons to food and clo
 
 To get started, create a simple item structure by setting that parameter up correctly, then add more parameters as you need. For example, for a normal item:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    module yourModule
    {
@@ -38,10 +38,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
+- :ref:`component Durability <scripts-component-durability>`
 - :ref:`component <scripts-component>`
 - :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
-- :ref:`component Durability <scripts-component-durability>`
-- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 
 
 
@@ -1591,13 +1591,13 @@ No description provided.
 
 `EvolvedRecipe <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-evolvedrecipe>`_ is used to list the `evolved recipes <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/evolvedrecipe.html>`_ this item can be used in as an ingredient. The syntax needs to be as follows:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    EvolvedRecipe = recipeName1:quantity1;recipeName2:quantity2;recipeName3:quantity3,
 
 A custom flag ``cooked`` can also be added for specific recipes, for example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    EvolvedRecipe = recipeName1:quantity1|cooked;recipeName2:quantity2;recipeName3:quantity3,
 
@@ -1605,7 +1605,7 @@ Here the ``recipeName1`` will require the item to be cooked first before being u
 
 A simpler syntax is also technically supported where the quantity can be omitted:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    EvolvedRecipe = recipeName1;recipeName2:quantity2;recipeName3,
 
@@ -4026,7 +4026,7 @@ See also:
 
 `StaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-staticmodelsbyindex>`_ and `WorldStaticModelsByIndex <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-worldstaticmodelsbyindex>`_ can be used to define multiple models for the same item definition, which is useful for variants of the same item (e.g. a weapon with different skins). You can use `IconsForTexture <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-iconsfortexture>`_ alongside those to define different `icons <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-icon>`_ for each variant. Here's an example usage with three variants of the same item:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    StaticModelsByIndex = AK47;AK47_Desert;AK47_Woodland,
    WorldStaticModelsByIndex = AK47;AK47_Desert;AK47_Woodland,
@@ -4179,7 +4179,7 @@ A list of tags to assign to the item. Tags are used by the game to easily identi
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    Tags = base:egg;base:hasmetal,
 
@@ -4504,9 +4504,13 @@ No description provided.
 .. attribute:: VisualAid
    :noindex:
 
-:Type: Unknown
+:Type: boolean
 
-No description provided.
+:Default: ``False``
+
+Sets an item as a visual aid, such as glasses where `short sighted <https://pzwiki.net/wiki/Short_Sighted>`_ characters will see blurry without them.
+
+While this parameter can be set for any items, pratically only worn items (clothing) will have an effect.
 
 
 .. _scripts-item-waterresistance:
@@ -4563,7 +4567,7 @@ Used to select the reload workflow of the gun. Notably affects rack-after-shot, 
 * ``doublebarrelshotgun``
 * ``doublebarrelshotgunsawn``
 
-A custom ``WeaponReloadType`` can be used if the relevant animations and condition logic are properly set up in a custom `AnimNode <https://pzwiki.net/wiki/AnimNodes>`_.
+A custom ``WeaponReloadType`` cannot be defined due to them being hardcoded in the game's Java via an `enum <https://albion.codeberg.page/PZ-JavaDocs/zombie/scripting/objects/WeaponReloadType.html>`_. You can read more about it `here <https://discord.com/channels/136501320340209664/1476602902607954043/1492110660858024026>`_.
 
 See also:
 

@@ -81,9 +81,9 @@ The translation key for the option's name. The translation key in the `Sandbox <
 
 For example, with the translation parameter as such:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
-   translation = MyMod_MyOption
+   translation = MyMod_MyOption,
 
 The translation key in the Sandbox translation file should be:
 

@@ -7,7 +7,7 @@ outputs
 
 The ``outputs`` block defines the items that will be created when the recipe is finished. Outputs are listed one after the other and follow the format below:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    outputs
    {
@@ -23,7 +23,7 @@ The ``outputs`` block defines the items that will be created when the recipe is 
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    outputs
    {

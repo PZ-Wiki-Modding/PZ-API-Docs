@@ -115,7 +115,7 @@ The path to the trait's icon texture. This should be a .png file located in the 
 .. attribute:: UIDescription
    :noindex:
 
-:Type: string
+:Type: translation
 
 :Required: True
 
@@ -127,7 +127,7 @@ The translation key for the trait's description. The translation key needs to be
 .. attribute:: UIName
    :noindex:
 
-:Type: string
+:Type: translation
 
 :Required: True
 
@@ -145,7 +145,7 @@ A list of experience boosts granted by this trait. Each entry should contain a s
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    XPBoosts = Axe=1;Blunt=1,
 

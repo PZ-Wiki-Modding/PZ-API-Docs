@@ -11,7 +11,7 @@ Defines an alias for a list of tiles. This can be directly be refered to in `rul
 
 Here is an example of how to use it:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    alias
    {

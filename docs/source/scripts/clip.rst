@@ -7,7 +7,7 @@ clip
 
 Defines a clip to be used in a `sound script <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html>`_\ , which is a single sound file with properties that determine how it is played in the game.
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    module yourModule {
      sound yourSound {
@@ -91,7 +91,7 @@ The path to the sound file to be played, relative to the folder above the ``medi
 
 This parameter will be:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    file = media/sound/my_sound.ogg
 

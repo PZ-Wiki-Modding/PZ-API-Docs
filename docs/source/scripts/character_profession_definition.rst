@@ -7,7 +7,7 @@ character_profession_definition
 
 Defines a character profession.
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    character_profession_definition yourmod:example_profession
    {
@@ -124,7 +124,7 @@ A list of experience boosts granted by this profession. Each entry should contai
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    XPBoosts = Axe=1;Blunt=1,
 

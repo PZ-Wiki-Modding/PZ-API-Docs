@@ -11,7 +11,7 @@ A craftRecipe will usually require an `inputs <https://pz-wiki-modding.github.io
 
 For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    module yourModule /* or Base */
    {
@@ -35,7 +35,7 @@ Notice how you shouldn't use the `module <https://pz-wiki-modding.github.io/PZ-A
 
 Here's an example of a craftRecipe with some parameters defined:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    craftRecipe SawLogs
    {
@@ -57,7 +57,7 @@ Here's an example of a craftRecipe with some parameters defined:
 
 Or:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    craftRecipe CarveWhistle
    {
@@ -83,7 +83,7 @@ Or:
 
 And a more advanced one:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    craftRecipe RefillHurricaneLantern
    {
@@ -182,7 +182,7 @@ The `AutoLearnAll <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/craftre
 
 Both parameters should be formatted this way:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    /* a single skill */
    autoLearnAll = <skill name>:<level amount>,
@@ -194,7 +194,7 @@ For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRe
 
 For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    autoLearnAll = Carving:3;Maintenance:2,
 
@@ -232,7 +232,7 @@ Whether the player can walk while crafting this recipe.
 
 The category under which the recipe will be listed in the crafting menu. Helps to organize and identify recipes in crafting menu. Your category should have a key with the suffix ``IGUI_CraftingCategories_`` in the `IG_UI.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#ig-ui>`_ translation file to be properly displayed in the crafting menu. For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    category = MyCategory,
 
@@ -268,7 +268,7 @@ A meta recipe is used to link two recipes so that if the meta recipe is known th
 
 In this example below, the recipe ``MyRecipe1`` will be known if the recipe ``MyRecipe2`` is known. However if the recipe ``MyRecipe1`` is known, the recipe ``MyRecipe2`` will not automatically be known and needs to be learnt.
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    craftRecipe MyRecipe1
    {
@@ -438,7 +438,7 @@ See parameter :ref:`ResearchSkillLevel <scripts-craftrecipe-researchskilllevel>`
 
 Specifies the skill level required to perform this crafting action. It should be formatted this way:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    /* a single skill */
    skillRequired = <skill name>:<level>,
@@ -450,7 +450,7 @@ For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRe
 
 For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    skillRequired = Blacksmith:3;Tailoring:2,
 
@@ -466,7 +466,7 @@ For example:
 
 Specifies specific conditions which need to be respected to craft this item. At least one crafting bench tag is necessary for the craft to be recognized, such as ``AnySurfaceCraft``. The syntax is as follows:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    /* single tag */
    Tags = tag1,
@@ -476,7 +476,7 @@ Specifies specific conditions which need to be respected to craft this item. At 
 
 For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    Tags = InHandCraft;CanAlwaysBeResearched,
 
@@ -516,7 +516,7 @@ Refers to a timed action script block to trigger during the crafting process, fo
 
 Description of the crafting which is shown in the crafting menu. The value needs be a key in the `Tooltip.json <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#tooltip>`_ translation file. For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    Tooltip = MyTooltipKey,
 
@@ -538,7 +538,7 @@ And in the translation file:
 
 Specifies the experience points awarded for crafting this item. The parameter should be formatted this way:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    /* a single skill */
    xpAward = <skill name>:<xp amount>,
@@ -550,7 +550,7 @@ For the list of available skills, see the `wiki <https://pzwiki.net/wiki/CraftRe
 
 For example:
 
-.. code-block:: java
+.. code-block:: zedscripts
 
    xpAward = Blacksmith:10;Tailoring:5,
 

@@ -7,7 +7,7 @@ model
 
 Used to define a model properties so it can be used in other elements of the game, most notably in `items <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html>`_ and `vehicles <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/vehicle.html>`_. The basic structure of a model block is as follows:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    module YourModule {
      model YourModel {

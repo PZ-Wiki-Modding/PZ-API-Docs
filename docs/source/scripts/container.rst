@@ -75,7 +75,7 @@ The seat ID of this container. When present, this container can be used as a sea
 
 Register a sound script associated to a type of sound for this container. The syntax should be as follows:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    soundMap = key soundRef
 
@@ -101,7 +101,7 @@ Refers to a Lua global function returning a boolean which is used to determine w
 
 Here's an example from the vanilla game, with the parmeter being set to:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    test = Vehicles.ContainerAccess.GloveBox
 

@@ -9,7 +9,7 @@ Defines a 3D object's physical shape to be used as a world object.
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    module YourModule {
      physicsShape ramp20segment5w {

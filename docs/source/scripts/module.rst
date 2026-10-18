@@ -9,7 +9,7 @@ A module serves as a namespace for your scripts and is the barebone for most scr
 
 To define a module, you need to create a block as follows, by changing the ID to a unique name for your mods:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    module yourID
    {
@@ -28,31 +28,31 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`animation <scripts-animation>`
-- :ref:`timedAction <scripts-timedaction>`
-- :ref:`model <scripts-model>`
-- :ref:`soundTimeline <scripts-soundtimeline>`
-- :ref:`entity <scripts-entity>`
-- :ref:`animationsMesh <scripts-animationsmesh>`
-- :ref:`template <scripts-template>`
-- :ref:`fixing <scripts-fixing>`
-- :ref:`vehicle <scripts-vehicle>`
-- :ref:`ragdoll <scripts-ragdoll>`
-- :ref:`physicsHitReaction <scripts-physicshitreaction>`
-- :ref:`craftRecipe <scripts-craftrecipe>`
-- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
-- :ref:`xuiSkin <scripts-xuiskin>`
 - :ref:`character_profession_definition <scripts-character_profession_definition>`
-- :ref:`clock <scripts-clock>`
 - :ref:`fluid <scripts-fluid>`
+- :ref:`model <scripts-model>`
+- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
+- :ref:`craftRecipe <scripts-craftrecipe>`
+- :ref:`xuiSkin <scripts-xuiskin>`
 - :ref:`physicsShape <scripts-physicsshape>`
-- :ref:`energy <scripts-energy>`
-- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
-- :ref:`mannequin <scripts-mannequin>`
-- :ref:`imports <scripts-imports>`
-- :ref:`character_trait_definition <scripts-character_trait_definition>`
-- :ref:`item <scripts-item>`
+- :ref:`entity <scripts-entity>`
+- :ref:`fixing <scripts-fixing>`
 - :ref:`sound <scripts-sound>`
+- :ref:`animation <scripts-animation>`
+- :ref:`physicsHitReaction <scripts-physicshitreaction>`
+- :ref:`energy <scripts-energy>`
+- :ref:`animationsMesh <scripts-animationsmesh>`
+- :ref:`imports <scripts-imports>`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`mannequin <scripts-mannequin>`
+- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
+- :ref:`character_trait_definition <scripts-character_trait_definition>`
+- :ref:`soundTimeline <scripts-soundtimeline>`
+- :ref:`clock <scripts-clock>`
+- :ref:`template <scripts-template>`
+- :ref:`item <scripts-item>`
+- :ref:`ragdoll <scripts-ragdoll>`
+- :ref:`timedAction <scripts-timedaction>`
 
 
 

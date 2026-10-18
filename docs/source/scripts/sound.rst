@@ -7,7 +7,7 @@ sound
 
 Makes one or more sound clips available for use in the game. Multiple clips can be added to a sound script, and the game will randomly select one of them to play when the sound is triggered.
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    module yourModule {
      sound yourSound {

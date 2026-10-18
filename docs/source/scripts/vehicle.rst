@@ -18,15 +18,15 @@ This block can be a child of the following blocks:
 This block can have the following child blocks:
 
 - :ref:`wheel <scripts-wheel>`
-- :ref:`passenger <scripts-passenger>`
 - :ref:`model <scripts-model>`
-- :ref:`skin <scripts-skin>`
-- :ref:`physics <scripts-physics>`
 - :ref:`part <scripts-part>`
+- :ref:`sound <scripts-sound>`
+- :ref:`physics <scripts-physics>`
+- :ref:`lightbar <scripts-lightbar>`
+- :ref:`passenger <scripts-passenger>`
 - :ref:`attachment <scripts-attachment>`
 - :ref:`area <scripts-area>`
-- :ref:`lightbar <scripts-lightbar>`
-- :ref:`sound <scripts-sound>`
+- :ref:`skin <scripts-skin>`
 
 
 
@@ -82,7 +82,7 @@ No description provided.
 
 Set the `translation <https://pzwiki.net/wiki/Translation>`_ key for the car name. The translation entry needs to be stored inside the `IG_UI <https://pz-wiki-modding.github.io/PZ-API-Docs/translations/translation_files.html#ig-ui>`_ translation file and have ``IGUI_VehicleName`` as a prefix. For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    carModelName = YourCar,
 

@@ -23,10 +23,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`Categories <scripts-categories>`
 - :ref:`BlendWhiteList <scripts-blendwhitelist>`
-- :ref:`Poison <scripts-poison>`
 - :ref:`Properties <scripts-properties>`
+- :ref:`Categories <scripts-categories>`
+- :ref:`Poison <scripts-poison>`
 
 
 
@@ -54,7 +54,7 @@ A reference to a color defined in the Colors class. You can find a full list of 
 
 For example, to use the color ``Azure`` from the documentation:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    fluid yourFluid
    {
@@ -74,7 +74,7 @@ The name of the fluid that will be displayed in the game. The value corresponds 
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    fluid yourFluid
    {
@@ -84,7 +84,7 @@ For example:
 
 And in the translation file of your mod:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    {
      "Fluid_Name_YourFluid": "Your Fluid"

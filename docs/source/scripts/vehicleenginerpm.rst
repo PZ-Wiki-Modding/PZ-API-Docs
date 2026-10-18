@@ -9,7 +9,7 @@ Unclear how the definition of this block works.
 
 Here's the jeep example from the base game:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    module Base 
    {

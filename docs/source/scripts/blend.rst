@@ -37,11 +37,11 @@ Used to define the tiles which will be used for the blend around the ``mainTile`
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    blendTile = vegetation_farm_01_35
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    blendTile = [
        vegetation_farm_01_32
@@ -56,7 +56,7 @@ For example:
 
 Or with one or more alias blocks:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    alias
    {
@@ -73,7 +73,7 @@ Or with one or more alias blocks:
        ]
    }
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    blendTile = [
      treez1
@@ -103,7 +103,7 @@ A list of tiles which will be excluded from being blended. This can be a single 
 
 The format needs to be like this:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    exclude = water lightgrass medgrass darkgrass
 
@@ -141,11 +141,11 @@ Used to identify which tiles will trigger the blend. This can be a single tile o
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    mainTile = vegetation_farm_01_35
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    mainTile = [
        vegetation_farm_01_32
@@ -160,7 +160,7 @@ For example:
 
 Or with one or more alias blocks:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    alias
    {
@@ -177,7 +177,7 @@ Or with one or more alias blocks:
        ]
    }
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    mainTile = [
      treez1

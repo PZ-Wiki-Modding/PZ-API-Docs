@@ -9,7 +9,7 @@ The timedAction script block is used to define an action which can be used in `c
 
 Below are a few examples of ``timedAction`` blocks from the vanilla game:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    timedAction UseLathe
    {
@@ -17,7 +17,7 @@ Below are a few examples of ``timedAction`` blocks from the vanilla game:
        actionAnim      = UseLathe,
    }
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    timedAction BuildCairn
    {
@@ -32,7 +32,7 @@ Below are a few examples of ``timedAction`` blocks from the vanilla game:
        muscleStrainParts = Neck,
    }
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    timedAction BuildBarbedWireFence
    {
@@ -88,7 +88,7 @@ The `animVarKey <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/timedacti
 
 This allows for easy swapping between variants of `actionAnim <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/timedaction.html#actionAnim>`_. For example, for the AnimNode:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    <?xml version="1.0" encoding="utf-8"?>
    <animNode x_extends="Loot.xml">
@@ -105,7 +105,7 @@ This allows for easy swapping between variants of `actionAnim <https://pz-wiki-m
 
 You can define those parameters in the timedAction as follows:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    actionAnim      = Loot,
    animVarKey      = LootPosition,

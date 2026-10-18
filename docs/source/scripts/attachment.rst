@@ -9,7 +9,7 @@ Defines an attachment point on a `model <https://pz-wiki-modding.github.io/PZ-AP
 
 The syntax of this block should be as follows:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    model upperScriptDefinition
    {
@@ -23,7 +23,7 @@ The syntax of this block should be as follows:
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    model Burger
    {
@@ -73,7 +73,7 @@ Parameters
 
 The name of the bone to which the model is attached to.
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    bone = Bip01_L_Hand,
 
@@ -85,7 +85,7 @@ The name of the bone to which the model is attached to.
 
 :Type: array (array of float, separator: ' ')
 
-The position offset of the model relative to the bone. This is a vector in the format ``x y z``. ``cpp
+The position offset of the model relative to the bone. This is a vector in the format ``x y z``. ``zedscripts
 offset = -0.0300 -0.1020 0.1210,``
 
 
@@ -98,7 +98,7 @@ offset = -0.0300 -0.1020 0.1210,``
 
 The rotation of the model relative to the bone. This is a vector in the format ``x y z``. The values are degrees.
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    rotate = -60.0000 -49.0000 -3.0000,
 
@@ -112,7 +112,7 @@ The rotation of the model relative to the bone. This is a vector in the format `
 
 The scale multiplier applied to the model attached to this attachment point.
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    scale = 0.5,
 

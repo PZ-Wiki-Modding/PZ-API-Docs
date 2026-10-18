@@ -11,7 +11,7 @@ A ``rule`` block defines a conversion rule for the `BMP to TMX <https://pzwiki.n
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    rule
    {
@@ -92,11 +92,11 @@ A list of tiles to apply randomly for this color. You can also use an alias bloc
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    tiles = vegetation_farm_01_35
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    tiles = [
        vegetation_farm_01_32
@@ -111,7 +111,7 @@ For example:
 
 Or with one or more alias blocks:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    alias
    {
@@ -128,7 +128,7 @@ Or with one or more alias blocks:
        ]
    }
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    tiles = [
      treez1

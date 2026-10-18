@@ -63,7 +63,7 @@ For example, take the vanilla mannequin AnimSets:
 
 If we want to use the AnimState ``female`` and AnimNode ``pose01.xml``\ , we need the following parameter combination:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    animNode=mannequin,
    animState=female,

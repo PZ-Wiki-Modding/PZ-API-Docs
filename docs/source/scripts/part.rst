@@ -19,12 +19,12 @@ This block can be a child of the following blocks:
 This block can have the following child blocks:
 
 - :ref:`model <scripts-model>`
+- :ref:`anim <scripts-anim>`
 - :ref:`table <scripts-table>`
+- :ref:`lua <scripts-lua>`
+- :ref:`window <scripts-window>`
 - :ref:`container <scripts-container>`
 - :ref:`door <scripts-door>`
-- :ref:`lua <scripts-lua>`
-- :ref:`anim <scripts-anim>`
-- :ref:`window <scripts-window>`
 
 
 

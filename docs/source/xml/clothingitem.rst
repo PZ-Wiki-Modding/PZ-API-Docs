@@ -189,7 +189,9 @@ m_AllowRandomHue
 
 :Type: ``xs:boolean``
 
-When `m_AllowRandomHue <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomhue>`_ or `m_AllowRandomTint <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomtint>`_ are set to ``true``\ , the clothing item will respectively have a random hue or tint applied to it. m_AllowRandomHue doesn't seem to be impactful on the clothing item as much as m_AllowRandomTint, which will apply the random color on white areas of the clothing item.
+When ``m_AllowRandomHue`` is set to ``true``\ , the clothing item will have a random hue applied to it. This will only affect colored areas of the clothing item. This is different than `m_AllowRandomTint <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomtint>`_ which applies a random color on white areas.
+
+`m_AllowRandomTint <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomtint>`_ needs to be turned off.
 
 m_AllowRandomTint
 """""""""""""""""
@@ -200,7 +202,9 @@ m_AllowRandomTint
 
 :Type: ``xs:boolean``
 
-When `m_AllowRandomHue <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomhue>`_ or `m_AllowRandomTint <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomtint>`_ are set to ``true``\ , the clothing item will respectively have a random hue or tint applied to it. m_AllowRandomHue doesn't seem to be impactful on the clothing item as much as m_AllowRandomTint, which will apply the random color on white areas of the clothing item.
+When ``m_AllowRandomTint`` is set to ``true``\ , the clothing item will have a random tint applied to it. This mostly affects white areas of the clothing item. Colored areas will become darker or shift to a brownish color.
+
+`m_AllowRandomHue <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-allowrandomhue>`_ needs to be turned off.
 
 m_AttachBone
 """"""""""""

@@ -11,7 +11,7 @@ For an item to be accepted in a specific evolvedrecipe, it needs to have the par
 
 For example:
 
-.. code-block:: cpp
+.. code-block:: zedscripts
 
    evolvedrecipe Sandwich
    {
