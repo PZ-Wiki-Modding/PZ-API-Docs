@@ -6,10 +6,6 @@ import re
 import json
 from pathlib import Path
 
-from ZedScripts.structure.pygments_lexer import ZedScriptsLexer
-from sphinx.highlighting import lexers
-lexers['zedscripts'] = ZedScriptsLexer()
-
 # Add parent directory and docs directory to path
 sys.path.insert(0, os.path.abspath('../../'))
 sys.path.insert(0, os.path.abspath('../'))
@@ -90,6 +86,14 @@ html_theme_options = {
     "source_directory": "docs",
     # "announcement": "<em>Important</em> announcement!",
 }
+
+# codeblocks
+from ZedScripts.structure.pygments_lexer import ZedScriptsLexer
+from sphinx.highlighting import lexers
+lexers['zedscripts'] = ZedScriptsLexer() # custom lexer
+
+pygments_style = "gruvbox-light-hard"
+pygments_dark_style = "gruvbox-dark-hard"
 
 # LaTeX output options
 latex_elements = {

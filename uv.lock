@@ -624,6 +624,18 @@ wheels = [
 ]
 
 [[package]]
+name = "pygments-styles"
+version = "0.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pygments" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/1c/2c/3886ed4783dd78bb62ccab7d43380f526a7e2ff0db8c77d9c87559b2f5de/pygments_styles-0.3.0.tar.gz", hash = "sha256:67746b8fc6ff72c1179ca4d9a8bc89c7f54c196c2ff9d087f07392cd6fde3ecf", size = 15258, upload-time = "2025-11-04T13:15:23.512Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8f/64/7e0266f0c541e26df86c31d2add9be3dd9914ae83785ce0aba7cbb693667/pygments_styles-0.3.0-py3-none-any.whl", hash = "sha256:c6c45e9939eb7590345bc9084113bac46c45f12b009d13422be02e80e84a034c", size = 36617, upload-time = "2025-11-04T13:15:21.989Z" },
+]
+
+[[package]]
 name = "pyyaml"
 version = "6.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -676,6 +688,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "furo" },
     { name = "m2r" },
+    { name = "pygments-styles" },
     { name = "pyyaml" },
     { name = "pz-scripts-data" },
     { name = "sphinx" },
@@ -687,6 +700,7 @@ dependencies = [
 requires-dist = [
     { name = "furo" },
     { name = "m2r" },
+    { name = "pygments-styles" },
     { name = "pyyaml" },
     { name = "pz-scripts-data", git = "https://github.com/PZ-Wiki-Modding/pz-scripts-data.git" },
     { name = "sphinx", specifier = ">=5.0" },

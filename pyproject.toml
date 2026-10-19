@@ -12,6 +12,7 @@ dependencies = [
     "sphinx>=5.0",
     "furo",
     "sphinx-reredirects",
+    "pygments-styles",
 
     # doc generators
     "m2r",
