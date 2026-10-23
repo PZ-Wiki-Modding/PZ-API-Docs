@@ -200,6 +200,9 @@ class ScriptsDocObject(DocObject):
     #     #     return id.replace('root-', '')
     #     return id
 
+    def get_name(self) -> str:
+        return self.data[BlockProperties.NAME]
+
     def get_object_path(self) -> Path:
         """Retrieve the output path for a specific object's documentation."""
         # default output path is the toc path directory with the toc path's stem
