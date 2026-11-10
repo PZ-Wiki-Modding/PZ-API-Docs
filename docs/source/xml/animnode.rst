@@ -460,7 +460,9 @@ x_extends
 
 :Use: optional
 
-Import another relative animNode file into this one. Needs to be the file name so for the following example folder structure: 
+Import relative animNode files into this one which are stored in the same directory. This is only possible for files located in the actual same folder, so only per mod anim node files. 
+
+Needs to be the file name so for the following example folder structure: 
 
 .. code-block::
 
@@ -475,6 +477,23 @@ The LoadRifle_Alt.xml file can import the LoadRifle.xml file by using:
 .. code-block:: xml
 
    <animNode x_extends="LoadRifle.xml"></animNode>
+
+Now take two separate mods:
+
+.. code-block::
+
+   📁 Mod1
+     📁 media
+       📁 AnimSets
+         📁 Rifle
+           📄 LoadRifle.xml
+   📁 Mod2
+     📁 media
+       📁 AnimSets
+         📁 Rifle
+           📄 LoadRifle_Alt.xml
+
+In this case, the LoadRifle_Alt.xml file in Mod2 cannot import the LoadRifle.xml file from Mod1 because they are in different folders.
 
 
 .. _animnode-type_2dblends:
