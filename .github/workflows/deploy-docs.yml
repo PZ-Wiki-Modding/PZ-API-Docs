@@ -17,7 +17,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout self
         uses: actions/checkout@v6.0.0
@@ -57,7 +57,7 @@ jobs:
       pages: write
       id-token: write
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Deploy to pages
         uses: actions/deploy-pages@v4.0.5
