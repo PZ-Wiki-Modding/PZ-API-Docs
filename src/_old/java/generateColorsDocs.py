@@ -77,25 +77,39 @@ Available colors accessible from Lua code or usable inside Scripts. Custom color
      - RGB Hex
      - Scripts Usage
 """
+    # colors -> key-value
+    colors_dict = {color['field']: color for color in colors}
+    colors_sorted = sorted(colors_dict.values(), key=lambda c: c['field'])
     
-    # Sort by field name
-    sorted_colors = sorted(colors, key=lambda x: x['field'])
-    
-    for color in sorted_colors:
-        name = color.get('name', '')
-        field = color.get('field', '')
-        r = color.get('r', 0.0)
-        g = color.get('g', 0.0)
-        b = color.get('b', 0.0)
-        fct = color.get('fct', '')
-        
-        hex_color = rgb_to_hex(r, g, b)
-        scripts_usage = get_scripts_usage(fct)
-        
-        content += f"   * - {name}\n"
-        content += f"     - ``Colors.{field}``\n"
-        content += f"     - ``{hex_color}``\n"
-        content += f"     - {scripts_usage}\n"
+    for color in colors_sorted:
+        print(color)
+        try:
+            field = color.get('field', '')
+            ref = color.get('ref', None)
+            if ref is not None:
+                source = colors_dict.get(ref, None)
+                if source is None:
+                    raise ValueError(f"Reference color '{ref}' not found for color '{field}'")
+                for k,v in color.items():
+                    if v is None: 
+                        color[k] = source.get(k, None)
+
+            name = color.get('name', '')
+            r = color.get('r', 0.0)
+            g = color.get('g', 0.0)
+            b = color.get('b', 0.0)
+            fct = color.get('fct', '')
+
+            hex_color = rgb_to_hex(r, g, b)
+            scripts_usage = get_scripts_usage(fct)
+            
+            content += f"   * - {name}\n"
+            content += f"     - ``Colors.{field}``\n"
+            content += f"     - ``{hex_color}``\n"
+            content += f"     - {scripts_usage}\n"
+        except Exception as e:
+            print(f"Error processing color '{field}': {color}")
+            raise e
     
     return content
 

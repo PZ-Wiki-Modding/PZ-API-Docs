@@ -22,10 +22,6 @@ Available colors accessible from Lua code or usable inside Scripts. Custom color
      - ``Colors.Aqua``
      - ``#00ffff``
      - True
-   * - Cyan
-     - ``Colors.Aqua``
-     - ``#00ffff``
-     - True
    * - Aquamarine
      - ``Colors.Aquamarine``
      - ``#7fffd4``
@@ -198,6 +194,10 @@ Available colors accessible from Lua code or usable inside Scripts. Custom color
      - ``Colors.Crimson``
      - ``#dc143c``
      - True
+   * - Cyan
+     - ``Colors.Cyan``
+     - ``#00ffff``
+     - True
    * - DarkBlue
      - ``Colors.DarkBlue``
      - ``#00008b``
@@ -297,10 +297,6 @@ Available colors accessible from Lua code or usable inside Scripts. Custom color
    * - FruitPunch
      - ``Colors.FruitPunch``
      - ``#ce3d48``
-     - True
-   * - Magenta
-     - ``Colors.Fuchsia``
-     - ``#ff00ff``
      - True
    * - Magenta
      - ``Colors.Fuchsia``
@@ -445,6 +441,10 @@ Available colors accessible from Lua code or usable inside Scripts. Custom color
    * - Linen
      - ``Colors.Linen``
      - ``#faf0e6``
+     - True
+   * - Magenta
+     - ``Colors.Magenta``
+     - ``#ff00ff``
      - True
    * - Maroon
      - ``Colors.Maroon``
