@@ -83,8 +83,8 @@ Available colors accessible from Lua code or usable inside Scripts. Custom color
     
     for color in colors_sorted:
         print(color)
+        field = color.get('field', '')
         try:
-            field = color.get('field', '')
             ref = color.get('ref', None)
             if ref is not None:
                 source = colors_dict.get(ref, None)
