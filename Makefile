@@ -2,6 +2,7 @@
 .ONESHELL:
 
 SHELL := /bin/bash
+.SHELLFLAGS := -e -o pipefail -c
 QUICK ?= 0
 
 help:
