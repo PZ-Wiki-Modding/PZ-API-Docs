@@ -98,6 +98,50 @@ m_MaleOutfits
 Define an outfit with `m_FemaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-femaleoutfits>`_ and `m_MaleOutfits <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-maleoutfits>`_ respectively for the female and male characters. If one of the two is not defined, it won't spawn naturally on the other gender in the game. Both male and female outfits can (and probably should) keep the same `m_Name <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-name>`_ and `m_Guid <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-guid>`_ values.
 
 
+.. _clothing-type_item:
+
+type_item
+---------
+
+:Composition: all
+
+Elements
+^^^^^^^^
+
+probability
+"""""""""""
+
+:Minimum occurence: 1
+
+:Maximum occurence: 1
+
+:Type: ``xs:float``
+
+The probability of the item being selected for the outfit. Needs to be a value between 0.0 and 1.0.
+
+itemGUID
+""""""""
+
+:Minimum occurence: 1
+
+:Maximum occurence: 1
+
+:Type: ``xs:string``
+
+The `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ of the clothing item that should be part of the outfit. You can define extra outfits thanks to the `subItems <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-subitems>`_ parameter.
+
+subItems
+""""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: unbounded
+
+:Type: :ref:`type_subItem <clothing-type_subitem>`
+
+Define a sub-item for a specific clothing item used in the outfit, so other items can also be picked. Any sub-item can be added as variant choices.
+
+
 .. _clothing-type_outfit:
 
 type_outfit
@@ -208,50 +252,6 @@ m_items
 :Type: :ref:`type_item <clothing-type_item>`
 
 No description provided.
-
-
-.. _clothing-type_item:
-
-type_item
----------
-
-:Composition: all
-
-Elements
-^^^^^^^^
-
-probability
-"""""""""""
-
-:Minimum occurence: 1
-
-:Maximum occurence: 1
-
-:Type: ``xs:float``
-
-The probability of the item being selected for the outfit. Needs to be a value between 0.0 and 1.0.
-
-itemGUID
-""""""""
-
-:Minimum occurence: 1
-
-:Maximum occurence: 1
-
-:Type: ``xs:string``
-
-The `GUID <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothingItem.html#m-guid>`_ of the clothing item that should be part of the outfit. You can define extra outfits thanks to the `subItems <https://pz-wiki-modding.github.io/PZ-API-Docs/xml/clothing.html#m-subitems>`_ parameter.
-
-subItems
-""""""""
-
-:Minimum occurence: 0
-
-:Maximum occurence: unbounded
-
-:Type: :ref:`type_subItem <clothing-type_subitem>`
-
-Define a sub-item for a specific clothing item used in the outfit, so other items can also be picked. Any sub-item can be added as variant choices.
 
 
 .. _clothing-type_subitem:

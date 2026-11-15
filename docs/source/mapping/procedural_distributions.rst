@@ -42884,7 +42884,7 @@ CrateCoke
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Coke', 50], ['Base.Coke', 20], ['Base.Coke', 20], ['Base.Coke', 10], ['Base.Coke', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Coke', 50], ['Base.Coke', 20], ['Base.Coke', 20], ['Base.Coke', 10], ['Base.Coke', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-rolls`: 8
 
 .. list-table::
@@ -77776,7 +77776,7 @@ FryFactoryPotatoes
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Potato', 50], ['Base.Potato', 20], ['Base.Potato', 20], ['Base.Potato', 10], ['Base.Potato', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Potato', 50], ['Base.Potato', 20], ['Base.Potato', 20], ['Base.Potato', 10], ['Base.Potato', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -108822,7 +108822,7 @@ PrisonIntakePersonalObjects
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.CigarettePack', 20], ['Base.Cigarillo', 10], ['Base.CordlessPhone', 10], ['Base.Cologne', 10], ['Base.Comb', 10], ['Base.LighterDisposable', 20], ['Base.Money', 50], ['Base.Money', 20], ['Base.TobaccoChewing', 10], ['Base.Wallet_Male', 100], ['Base.FlaskEmpty', 1], ['Base.GuitarPick', 1], ['Base.Harmonica', 1], ['Base.Hairgel', 1], ['Base.KnifePocket', 1], ['Base.PokerChips', 1], ['Base.SmokingPipe', 1], ['Base.SnowGlobe', 1], ['Base.TuningFork', 1], ['Base.Whistle', 1]], 'rolls': 1}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.CigarettePack', 20], ['Base.Cigarillo', 10], ['Base.CordlessPhone', 10], ['Base.Cologne', 10], ['Base.Comb', 10], ['Base.LighterDisposable', 20], ['Base.Money', 50], ['Base.Money', 20], ['Base.TobaccoChewing', 10], ['Base.Wallet_Male', 100], ['Base.FlaskEmpty', 1], ['Base.GuitarPick', 1], ['Base.Harmonica', 1], ['Base.Hairgel', 1], ['Base.KnifePocket', 1], ['Base.PokerChips', 1], ['Base.SmokingPipe', 1], ['Base.SnowGlobe', 1], ['Base.TuningFork', 1], ['Base.Whistle', 1]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 1}
 - :ref:`procedural-distributions-property-rolls`: 8
 
 .. list-table::
@@ -108979,7 +108979,7 @@ ProduceStorageApples
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Apple', 50], ['Base.Apple', 20], ['Base.Apple', 20], ['Base.Apple', 10], ['Base.Apple', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Apple', 50], ['Base.Apple', 20], ['Base.Apple', 20], ['Base.Apple', 10], ['Base.Apple', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -108999,7 +108999,7 @@ ProduceStorageBellPeppers
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.BellPepper', 50], ['Base.BellPepper', 20], ['Base.BellPepper', 20], ['Base.BellPepper', 10], ['Base.BellPepper', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.BellPepper', 50], ['Base.BellPepper', 20], ['Base.BellPepper', 20], ['Base.BellPepper', 10], ['Base.BellPepper', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109019,7 +109019,7 @@ ProduceStorageBroccoli
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Broccoli', 50], ['Base.Broccoli', 20], ['Base.Broccoli', 20], ['Base.Broccoli', 10], ['Base.Broccoli', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Broccoli', 50], ['Base.Broccoli', 20], ['Base.Broccoli', 20], ['Base.Broccoli', 10], ['Base.Broccoli', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109039,7 +109039,7 @@ ProduceStorageCabbages
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Cabbage', 50], ['Base.Cabbage', 20], ['Base.Cabbage', 20], ['Base.Cabbage', 10], ['Base.Cabbage', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Cabbage', 50], ['Base.Cabbage', 20], ['Base.Cabbage', 20], ['Base.Cabbage', 10], ['Base.Cabbage', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109059,7 +109059,7 @@ ProduceStorageCarrots
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Carrots', 50], ['Base.Carrots', 20], ['Base.Carrots', 20], ['Base.Carrots', 10], ['Base.Carrots', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Carrots', 50], ['Base.Carrots', 20], ['Base.Carrots', 20], ['Base.Carrots', 10], ['Base.Carrots', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109079,7 +109079,7 @@ ProduceStorageCauliflower
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Cauliflower', 50], ['Base.Cauliflower', 20], ['Base.Cauliflower', 20], ['Base.Cauliflower', 10], ['Base.Cauliflower', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Cauliflower', 50], ['Base.Cauliflower', 20], ['Base.Cauliflower', 20], ['Base.Cauliflower', 10], ['Base.Cauliflower', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109099,7 +109099,7 @@ ProduceStorageCherry
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Cherry', 50], ['Base.Cherry', 20], ['Base.Cherry', 20], ['Base.Cherry', 10], ['Base.Cherry', 10]], 'rolls': 12}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Cherry', 50], ['Base.Cherry', 20], ['Base.Cherry', 20], ['Base.Cherry', 10], ['Base.Cherry', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 12}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109119,7 +109119,7 @@ ProduceStorageCorn
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Corn', 50], ['Base.Corn', 20], ['Base.Corn', 20], ['Base.Corn', 10], ['Base.Corn', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Corn', 50], ['Base.Corn', 20], ['Base.Corn', 20], ['Base.Corn', 10], ['Base.Corn', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109139,7 +109139,7 @@ ProduceStorageEggplant
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Eggplant', 50], ['Base.Eggplant', 20], ['Base.Eggplant', 20], ['Base.Eggplant', 10], ['Base.Eggplant', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Eggplant', 50], ['Base.Eggplant', 20], ['Base.Eggplant', 20], ['Base.Eggplant', 10], ['Base.Eggplant', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109225,7 +109225,7 @@ ProduceStorageGrapes
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Grapes', 50], ['Base.Grapes', 20], ['Base.Grapes', 20], ['Base.Grapes', 10], ['Base.Grapes', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Grapes', 50], ['Base.Grapes', 20], ['Base.Grapes', 20], ['Base.Grapes', 10], ['Base.Grapes', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109245,7 +109245,7 @@ ProduceStorageGreenpeas
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Greenpeas', 50], ['Base.Greenpeas', 20], ['Base.Greenpeas', 20], ['Base.Greenpeas', 10], ['Base.Greenpeas', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Greenpeas', 50], ['Base.Greenpeas', 20], ['Base.Greenpeas', 20], ['Base.Greenpeas', 10], ['Base.Greenpeas', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109265,7 +109265,7 @@ ProduceStorageKale
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Kale', 50], ['Base.Kale', 20], ['Base.Kale', 20], ['Base.Kale', 10], ['Base.Kale', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Kale', 50], ['Base.Kale', 20], ['Base.Kale', 20], ['Base.Kale', 10], ['Base.Kale', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109285,7 +109285,7 @@ ProduceStorageLeeks
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Leek', 50], ['Base.Leek', 20], ['Base.Leek', 20], ['Base.Leek', 10], ['Base.Leek', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Leek', 50], ['Base.Leek', 20], ['Base.Leek', 20], ['Base.Leek', 10], ['Base.Leek', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109305,7 +109305,7 @@ ProduceStorageLettuce
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Lettuce', 50], ['Base.Lettuce', 20], ['Base.Lettuce', 20], ['Base.Lettuce', 10], ['Base.Lettuce', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Lettuce', 50], ['Base.Lettuce', 20], ['Base.Lettuce', 20], ['Base.Lettuce', 10], ['Base.Lettuce', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109405,7 +109405,7 @@ ProduceStorageOnions
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Onion', 50], ['Base.Onion', 20], ['Base.Onion', 20], ['Base.Onion', 10], ['Base.Onion', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Onion', 50], ['Base.Onion', 20], ['Base.Onion', 20], ['Base.Onion', 10], ['Base.Onion', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109425,7 +109425,7 @@ ProduceStoragePeaches
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Peach', 50], ['Base.Peach', 20], ['Base.Peach', 20], ['Base.Peach', 10], ['Base.Peach', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Peach', 50], ['Base.Peach', 20], ['Base.Peach', 20], ['Base.Peach', 10], ['Base.Peach', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109445,7 +109445,7 @@ ProduceStoragePears
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Pear', 50], ['Base.Pear', 20], ['Base.Pear', 20], ['Base.Pear', 10], ['Base.Pear', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Pear', 50], ['Base.Pear', 20], ['Base.Pear', 20], ['Base.Pear', 10], ['Base.Pear', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109465,7 +109465,7 @@ ProduceStoragePotatoes
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Potato', 50], ['Base.Potato', 20], ['Base.Potato', 20], ['Base.Potato', 10], ['Base.Potato', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Potato', 50], ['Base.Potato', 20], ['Base.Potato', 20], ['Base.Potato', 10], ['Base.Potato', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109485,7 +109485,7 @@ ProduceStorageRadishes
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.RedRadish', 50], ['Base.RedRadish', 20], ['Base.RedRadish', 20], ['Base.RedRadish', 10], ['Base.RedRadish', 10]], 'rolls': 12}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.RedRadish', 50], ['Base.RedRadish', 20], ['Base.RedRadish', 20], ['Base.RedRadish', 10], ['Base.RedRadish', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 12}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109585,7 +109585,7 @@ ProduceStorageStrawberries
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Strewberrie', 50], ['Base.Strewberrie', 20], ['Base.Strewberrie', 20], ['Base.Strewberrie', 10], ['Base.Strewberrie', 10]], 'rolls': 12}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Strewberrie', 50], ['Base.Strewberrie', 20], ['Base.Strewberrie', 20], ['Base.Strewberrie', 10], ['Base.Strewberrie', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 12}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109605,7 +109605,7 @@ ProduceStorageSweetPotatoes
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.SweetPotato', 50], ['Base.SweetPotato', 20], ['Base.SweetPotato', 20], ['Base.SweetPotato', 10], ['Base.SweetPotato', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.SweetPotato', 50], ['Base.SweetPotato', 20], ['Base.SweetPotato', 20], ['Base.SweetPotato', 10], ['Base.SweetPotato', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 
@@ -109625,7 +109625,7 @@ ProduceStorageTomatoes
 
 **Properties:**
 
-- :ref:`procedural-distributions-property-bags`: {'junk': {'items': [], 'rolls': 1}, 'items': [['Base.Tomato', 50], ['Base.Tomato', 20], ['Base.Tomato', 20], ['Base.Tomato', 10], ['Base.Tomato', 10]], 'rolls': 8}
+- :ref:`procedural-distributions-property-bags`: {'items': [['Base.Tomato', 50], ['Base.Tomato', 20], ['Base.Tomato', 20], ['Base.Tomato', 10], ['Base.Tomato', 10]], 'junk': {'items': [], 'rolls': 1}, 'rolls': 8}
 - :ref:`procedural-distributions-property-ignoreZombieDensity`: Yes
 - :ref:`procedural-distributions-property-rolls`: 4
 

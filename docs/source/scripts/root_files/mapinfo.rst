@@ -66,6 +66,16 @@ Boolean which fixes rendering issues. Leave it as ``true`` if you are not sure.
 Refers to the world map the map will be loaded into. For a map which is inside the vanilla world map, use ``lots=Muldraugh, KY``.
 
 
+.. _scripts-root-mapinfo-only_for_game_mode:
+
+.. attribute:: only_for_game_mode
+   :noindex:
+
+:Type: string
+
+Specifies the game mode for which the map is intended.
+
+
 .. _scripts-root-mapinfo-title:
 
 .. attribute:: title

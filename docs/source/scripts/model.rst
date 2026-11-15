@@ -276,7 +276,7 @@ If set to ``true``\ , the model will not deform with the bones it is parented to
 .. attribute:: texture
    :noindex:
 
-:Type: Unknown
+:Type: file
 
 Path to the texture file relative to the ``media/textures`` folder. The texture file should be of ``.png`` format only.
 

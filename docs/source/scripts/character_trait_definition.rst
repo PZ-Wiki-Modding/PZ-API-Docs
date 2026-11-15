@@ -73,7 +73,7 @@ Previously was used to mark traits as disabled in multiplayer, but is now deprec
 .. attribute:: GrantedRecipes
    :noindex:
 
-:Type: array (array of string, separator: ';')
+:Type: array (array of block, separator: ';')
 
 A list of `craftRecipe <https://pzwiki.net/wiki/CraftRecipe>`_ IDs that are granted to the character when this trait is selected.
 

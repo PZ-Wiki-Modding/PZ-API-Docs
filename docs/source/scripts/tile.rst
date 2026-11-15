@@ -17,10 +17,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`polygon <scripts-polygon>`
 - :ref:`Properties <scripts-properties>`
 - :ref:`box <scripts-box>`
 - :ref:`cylinder <scripts-cylinder>`
+- :ref:`polygon <scripts-polygon>`
 
 
 

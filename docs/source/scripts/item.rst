@@ -38,10 +38,10 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
-- :ref:`component Durability <scripts-component-durability>`
 - :ref:`component <scripts-component>`
 - :ref:`component ContextMenuConfig <scripts-component-contextmenuconfig>`
+- :ref:`component Durability <scripts-component-durability>`
+- :ref:`component FluidContainer <scripts-component-fluidcontainer>`
 
 
 
@@ -59,6 +59,16 @@ ItemType parameters
 -------------------
 
 Specific parameters are only available for certain `ItemType <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-itemtype>`_. The following lists for each ItemType will show what parameter is only saved for that specific ItemType script class (sub classes to `Item <https://demiurgequantified.github.io/ProjectZomboidJavaDocs/zombie/scripting/objects/Item.html>`_), which means using them for other classes doesn't make any sense as they will simply not be loaded in by the game.
+
+base:alarmclock
+^^^^^^^^^^^^^^^
+
+- :ref:`AlarmSound <scripts-item-alarmsound>`
+
+base:alarmclockclothing
+^^^^^^^^^^^^^^^^^^^^^^^
+
+- :ref:`AlarmSound <scripts-item-alarmsound>`
 
 base:container
 ^^^^^^^^^^^^^^
@@ -340,9 +350,11 @@ No description provided.
 .. attribute:: AlarmSound
    :noindex:
 
-:Type: Unknown
+:Type: block (block: :ref:`sound <scripts-sound>`, with :ref:`scripts-module`)
 
-No description provided.
+:Default: ``AlarmClockLoop``
+
+The sound played by the alarm.
 
 
 .. _scripts-item-alcoholic:
@@ -999,7 +1011,12 @@ See parameter :ref:`ClothingItem <scripts-item-clothingitem>`.
 
 :Default: ``255``
 
-No description provided.
+The blue component of the item's color, ranging from 0 to 255. This seems to be used for a lot of different purposes in the game, such as clothing tinting or world object model coloring.
+
+See also:
+
+- :ref:`ColorGreen <scripts-item-colorgreen>`
+- :ref:`ColorRed <scripts-item-colorred>`
 
 
 .. _scripts-item-colorgreen:
@@ -1011,7 +1028,12 @@ No description provided.
 
 :Default: ``255``
 
-No description provided.
+The green component of the item's color, ranging from 0 to 255. This seems to be used for a lot of different purposes in the game, such as clothing tinting or world object model coloring.
+
+See also:
+
+- :ref:`ColorBlue <scripts-item-colorblue>`
+- :ref:`ColorRed <scripts-item-colorred>`
 
 
 .. _scripts-item-colorred:
@@ -1023,7 +1045,12 @@ No description provided.
 
 :Default: ``255``
 
-No description provided.
+The red component of the item's color, ranging from 0 to 255. This seems to be used for a lot of different purposes in the game, such as clothing tinting or world object model coloring.
+
+See also:
+
+- :ref:`ColorGreen <scripts-item-colorgreen>`
+- :ref:`ColorBlue <scripts-item-colorblue>`
 
 
 .. _scripts-item-combatspeedmodifier:
@@ -2104,7 +2131,7 @@ See also:
 .. attribute:: Icon
    :noindex:
 
-:Type: string
+:Type: file
 
 :Default: ``None``
 
@@ -2774,9 +2801,24 @@ No description provided.
 .. attribute:: MetalValue
    :noindex:
 
-:Type: Unknown
+:Type: float
 
-No description provided.
+Used to define whenever the item contains metals, but is also redundant to the tag ``base:hasmetal``. While the tag indicates the presence of metal, this value can specify the amount or proportion of metal content. The following values are typical but not exhaustive (intermediate values are commonly used):
+
+
+* ``1.0`` - lighters, lipsticks, batteries (cars and small), nails
+* ``3.0`` - watches
+* ``5.0`` - keys, key rings, corkscrews
+* ``10.0`` - flashlights, soda cans
+* ``15.0`` - padlocks, food cans, small tools
+* ``20.0`` - metal sheets, buckets
+* ``25.0`` - tool parts, small tools
+* ``30.0`` - civilian ammo boxes
+* ``40.0`` - military ammo boxes
+* ``70.0`` - large tools partially containing metal
+* ``150.0`` - large tools fully metal based
+* ``300.0`` to ``400.0`` - ammo cartons
+* ``500.0`` - generators
 
 
 .. _scripts-item-micrange:
@@ -3749,7 +3791,7 @@ No description provided.
 
 :Type: boolean
 
-No description provided.
+When set to true, the item will have a new tooltip showing the item needs to be equipped in both hands. This however doesn't seem to impact whenever the player should equip it in both hands as two handed weapons use `TwoHandedWeapon <https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/item.html#scripts-item-twohandweapon>`_ for that, and moveable objects can only be caried in both hands, and there are no usage of this parameter anywhere else but the tooltip code.
 
 
 .. _scripts-item-researchablerecipes:
@@ -3931,9 +3973,9 @@ No description provided.
 .. attribute:: SoundRadius
    :noindex:
 
-:Type: Unknown
+:Type: integer
 
-No description provided.
+Defines the sound radius that is produced by the item when it makes a sound. This generally applies to weapons or alarm items.
 
 
 .. _scripts-item-soundvolume:
@@ -4744,9 +4786,9 @@ No description provided.
 .. attribute:: WorldObjectSprite
    :noindex:
 
-:Type: Unknown
+:Type: string
 
-No description provided.
+References a sprite identifier (i.e. ``appliances_misc_01_4``\ ).
 
 
 .. _scripts-item-worldrender:

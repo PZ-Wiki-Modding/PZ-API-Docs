@@ -496,6 +496,105 @@ Now take two separate mods:
 In this case, the LoadRifle_Alt.xml file in Mod2 cannot import the LoadRifle.xml file from Mod1 because they are in different folders.
 
 
+.. _animnode-rule_time:
+
+rule_Time
+---------
+
+:Composition: all
+
+Restrictions
+^^^^^^^^^^^^
+
+:Base: ``xs:string``
+
+:Enumeration: 
+
+* ``Start``
+* ``End``
+
+.. _animnode-rule_timepc:
+
+rule_TimePc
+-----------
+
+:Composition: all
+
+Restrictions
+^^^^^^^^^^^^
+
+:Base: ``xs:float``
+
+
+.. _animnode-rule_type:
+
+rule_Type
+---------
+
+:Composition: all
+
+Restrictions
+^^^^^^^^^^^^
+
+:Base: ``xs:string``
+
+:Enumeration: 
+
+* ``STRING``
+* ``BOOL``
+* ``INT``
+* ``FLOAT``
+* ``OR``
+* ``EQU``
+* ``NEQ``
+* ``STRNEQ``
+* ``GTR``
+* ``LESS``
+
+.. _animnode-type_2dblendtri:
+
+type_2DBlendTri
+---------------
+
+:Composition: all
+
+Elements
+^^^^^^^^
+
+node1
+"""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: unbounded
+
+:Type: ``xs:integer``
+
+No description provided.
+
+node2
+"""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: unbounded
+
+:Type: ``xs:integer``
+
+No description provided.
+
+node3
+"""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: unbounded
+
+:Type: ``xs:integer``
+
+No description provided.
+
+
 .. _animnode-type_2dblends:
 
 type_2DBlends
@@ -570,50 +669,6 @@ referenceID
 :Type: ``xs:integer``
 
 :Use: optional
-
-No description provided.
-
-
-.. _animnode-type_2dblendtri:
-
-type_2DBlendTri
----------------
-
-:Composition: all
-
-Elements
-^^^^^^^^
-
-node1
-"""""
-
-:Minimum occurence: 0
-
-:Maximum occurence: unbounded
-
-:Type: ``xs:integer``
-
-No description provided.
-
-node2
-"""""
-
-:Minimum occurence: 0
-
-:Maximum occurence: unbounded
-
-:Type: ``xs:integer``
-
-No description provided.
-
-node3
-"""""
-
-:Minimum occurence: 0
-
-:Maximum occurence: unbounded
-
-:Type: ``xs:integer``
 
 No description provided.
 
@@ -796,6 +851,50 @@ x_name
 This is unused by the game but it seems to be a simple identifier (often a `GUID <https://pzwiki.net/wiki/GUID>`_\ ) used by the unreleased `AnimZed <https://pzwiki.net/wiki/AnimZed>`_.
 
 
+.. _animnode-type_substateboneweights:
+
+type_SubStateBoneWeights
+------------------------
+
+:Composition: all
+
+Elements
+^^^^^^^^
+
+boneName
+""""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: 1
+
+:Type: ``xs:string``
+
+No description provided.
+
+includeDescendants
+""""""""""""""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: 1
+
+:Type: ``xs:boolean``
+
+No description provided.
+
+weight
+""""""
+
+:Minimum occurence: 0
+
+:Maximum occurence: 1
+
+:Type: ``xs:float``
+
+No description provided.
+
+
 .. _animnode-type_transitions:
 
 type_Transitions
@@ -893,104 +992,5 @@ m_EarlyTransitionOut
 :Type: ``xs:boolean``
 
 No description provided.
-
-
-.. _animnode-type_substateboneweights:
-
-type_SubStateBoneWeights
-------------------------
-
-:Composition: all
-
-Elements
-^^^^^^^^
-
-boneName
-""""""""
-
-:Minimum occurence: 0
-
-:Maximum occurence: 1
-
-:Type: ``xs:string``
-
-No description provided.
-
-includeDescendants
-""""""""""""""""""
-
-:Minimum occurence: 0
-
-:Maximum occurence: 1
-
-:Type: ``xs:boolean``
-
-No description provided.
-
-weight
-""""""
-
-:Minimum occurence: 0
-
-:Maximum occurence: 1
-
-:Type: ``xs:float``
-
-No description provided.
-
-
-.. _animnode-rule_type:
-
-rule_Type
----------
-
-:Composition: all
-
-Restrictions
-^^^^^^^^^^^^
-
-:Base: ``xs:string``
-
-:Enumeration: 
-
-* ``STRING``
-* ``BOOL``
-* ``INT``
-* ``FLOAT``
-* ``OR``
-* ``EQU``
-* ``NEQ``
-* ``STRNEQ``
-* ``GTR``
-* ``LESS``
-
-.. _animnode-rule_time:
-
-rule_Time
----------
-
-:Composition: all
-
-Restrictions
-^^^^^^^^^^^^
-
-:Base: ``xs:string``
-
-:Enumeration: 
-
-* ``Start``
-* ``End``
-
-.. _animnode-rule_timepc:
-
-rule_TimePc
------------
-
-:Composition: all
-
-Restrictions
-^^^^^^^^^^^^
-
-:Base: ``xs:float``
 
 

@@ -457,6 +457,9 @@ Available item tags accessible from Lua code. Each tag can be accessed using ``I
    * - ``ItemTag.FULL_BLADE``
      - ``base:fullblade``
      - 
+   * - ``ItemTag.FUNNEL``
+     - ``base:funnel``
+     - 
    * - ``ItemTag.GARBAGE_BAG``
      - ``base:garbagebag``
      - 
@@ -537,6 +540,18 @@ Available item tags accessible from Lua code. Each tag can be accessed using ``I
      - 
    * - ``ItemTag.HEAVY_THREAD``
      - ``base:heavythread``
+     - 
+   * - ``ItemTag.HELD_ITEM_BLOCKS_SHOVE``
+     - ``base:helditemblocksshove``
+     - 
+   * - ``ItemTag.HELD_ITEM_MASK_BAG``
+     - ``base:helditemmaskbag``
+     - 
+   * - ``ItemTag.HELD_ITEM_MASK_BUCKET``
+     - ``base:helditemmaskbucket``
+     - 
+   * - ``ItemTag.HELD_ITEM_MASK_TORCH``
+     - ``base:helditemmasktorch``
      - 
    * - ``ItemTag.HERBAL_TEA``
      - ``base:herbaltea``

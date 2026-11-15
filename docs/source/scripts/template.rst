@@ -17,14 +17,14 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`wheel <scripts-wheel>`
-- :ref:`part <scripts-part>`
-- :ref:`sound <scripts-sound>`
-- :ref:`physics <scripts-physics>`
-- :ref:`lightbar <scripts-lightbar>`
-- :ref:`attachment <scripts-attachment>`
 - :ref:`area <scripts-area>`
+- :ref:`attachment <scripts-attachment>`
+- :ref:`lightbar <scripts-lightbar>`
+- :ref:`part <scripts-part>`
+- :ref:`physics <scripts-physics>`
 - :ref:`skin <scripts-skin>`
+- :ref:`sound <scripts-sound>`
+- :ref:`wheel <scripts-wheel>`
 
 
 

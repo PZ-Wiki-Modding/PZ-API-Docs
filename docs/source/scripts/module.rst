@@ -28,31 +28,31 @@ This block can be a child of the following blocks:
 
 This block can have the following child blocks:
 
-- :ref:`character_profession_definition <scripts-character_profession_definition>`
-- :ref:`fluid <scripts-fluid>`
-- :ref:`model <scripts-model>`
-- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
-- :ref:`craftRecipe <scripts-craftrecipe>`
-- :ref:`xuiSkin <scripts-xuiskin>`
-- :ref:`physicsShape <scripts-physicsshape>`
-- :ref:`entity <scripts-entity>`
-- :ref:`fixing <scripts-fixing>`
-- :ref:`sound <scripts-sound>`
 - :ref:`animation <scripts-animation>`
-- :ref:`physicsHitReaction <scripts-physicshitreaction>`
-- :ref:`energy <scripts-energy>`
 - :ref:`animationsMesh <scripts-animationsmesh>`
-- :ref:`imports <scripts-imports>`
-- :ref:`vehicle <scripts-vehicle>`
-- :ref:`mannequin <scripts-mannequin>`
-- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
+- :ref:`character_profession_definition <scripts-character_profession_definition>`
 - :ref:`character_trait_definition <scripts-character_trait_definition>`
-- :ref:`soundTimeline <scripts-soundtimeline>`
 - :ref:`clock <scripts-clock>`
-- :ref:`template <scripts-template>`
+- :ref:`craftRecipe <scripts-craftrecipe>`
+- :ref:`energy <scripts-energy>`
+- :ref:`entity <scripts-entity>`
+- :ref:`evolvedrecipe <scripts-evolvedrecipe>`
+- :ref:`fixing <scripts-fixing>`
+- :ref:`fluid <scripts-fluid>`
+- :ref:`imports <scripts-imports>`
 - :ref:`item <scripts-item>`
+- :ref:`mannequin <scripts-mannequin>`
+- :ref:`model <scripts-model>`
+- :ref:`physicsHitReaction <scripts-physicshitreaction>`
+- :ref:`physicsShape <scripts-physicsshape>`
 - :ref:`ragdoll <scripts-ragdoll>`
+- :ref:`sound <scripts-sound>`
+- :ref:`soundTimeline <scripts-soundtimeline>`
+- :ref:`template <scripts-template>`
 - :ref:`timedAction <scripts-timedaction>`
+- :ref:`vehicle <scripts-vehicle>`
+- :ref:`vehicleEngineRPM <scripts-vehicleenginerpm>`
+- :ref:`xuiSkin <scripts-xuiskin>`
 
 
 
